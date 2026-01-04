@@ -1,0 +1,405 @@
+{
+  "count": 80,
+  "solutions": {
+    "01_6x6": {
+      "id": "01_6x6",
+      "solution": "6 6 4 3 1 0 0\nw e - n - -\n- - - s - o\n- - - - - -\no - w m e -\n- - - - - -\no - w e - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/001.a.htm"
+    },
+    "02_6x6": {
+      "id": "02_6x6",
+      "solution": "6 6 4 3 1 0 0\nn - - - - n\ns - n - - s\n- - m - - -\no - s - o -\n- - - - - -\no - o - w e",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/002.a.htm"
+    },
+    "03_6x6": {
+      "id": "03_6x6",
+      "solution": "6 6 4 3 1 0 0\no - - - - n\n- - o - - m\nn - - - - s\ns - w e - -\n- - - - - -\no - o - w e",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/003.a.htm"
+    },
+    "04_6x6": {
+      "id": "04_6x6",
+      "solution": "6 6 4 3 1 0 0\no - o - - o\n- - - - - -\no - - - - n\n- - w e - m\nn - - - - s\ns - w e - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/004.a.htm"
+    },
+    "05_8x8": {
+      "id": "05_8x8",
+      "solution": "8 8 4 3 2 1 0\n- o - o - - - o\n- - - - - n - -\no - w e - m - -\n- - - - - s - n\nw e - - - - - m\n- - - - w e - m\n- - - - - - - s\n- w m e - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/005.a.htm"
+    },
+    "06_8x8": {
+      "id": "06_8x8",
+      "solution": "8 8 4 3 2 1 0\no - o - - w m e\n- - - - - - - -\no - - w m e - o\n- - - - - - - -\n- n - - n - w e\n- s - - s - - -\n- - - - - - - -\n- - - - w m m e",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/006.a.htm"
+    },
+    "07_8x8": {
+      "id": "07_8x8",
+      "solution": "8 8 4 3 2 1 0\n- - w e - w e -\no - - - - - - -\n- - w m e - - -\no - - - - - n -\n- - o - n - m -\n- - - - s - m -\nw m e - - - s -\n- - - - o - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/007.a.htm"
+    },
+    "08_8x8": {
+      "id": "08_8x8",
+      "solution": "8 8 4 3 2 1 0\n- w m e - - w e\n- - - - - - - -\nw e - w m e - -\n- - - - - - - o\n- n - o - - - -\n- m - - - w e -\n- m - o - - - -\n- s - - - o - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/008.a.htm"
+    },
+    "09_8x8": {
+      "id": "09_8x8",
+      "solution": "8 8 4 3 2 1 0\n- - n - n - - o\nn - m - m - - -\ns - s - m - - -\n- - - - s - - o\n- - n - - - - -\n- - m - - - - o\nn - s - n - - -\ns - - - s - o -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/009.a.htm"
+    },
+    "10_8x8": {
+      "id": "10_8x8",
+      "solution": "8 8 4 3 2 1 0\n- - - - - w e -\nn - - - - - - -\nm - w e - - - -\nm - - - - o - o\ns - - n - - - -\n- - - m - o - n\n- - - s - - - m\nw e - - - o - s",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/010.a.htm"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - o - - -\n- - - - n - - - - n\nw e - - s - - - - m\n- - - - - - o - - s\n- o - - o - - - - -\n- - - - - - - w e -\n- - - w m e - - - -\n- - - - - - - - - -\n- - - - - w m m e -\n- - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/011.a.htm"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "solution": "10 10 4 3 2 1 0\nn - - - - - - - w e\nm - o - - - - - - -\ns - - - - - - - - -\n- - - - - - - - - -\n- n - o - - - - - -\n- m - - - - - - w e\n- s - o - - n - - -\n- - - - - - s - - -\n- - - - - - - - o -\n- - w m m e - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/012.a.htm"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - o - - - o - - -\n- - - - - - - - - -\n- - o - w m m e - -\n- - - - - - - - - -\n- o - n - - - - - -\n- - - m - - - - w e\n- - - s - - - - - -\n- - - - - - - - - -\n- w m e - n - - n -\n- - - - - s - - s -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/013.a.htm"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - - - n - o - -\nw e - - - s - - - -\n- - - - - - - - - -\no - o - - w e - - -\n- - - - - - - - - -\n- n - n - - - - - -\n- m - m - - - - - -\n- s - m - w m e - -\n- - - s - - - - - o\n- - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/014.a.htm"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - -\n- - - - - - - - o -\n- - - o - - - - - -\nw e - - - - w m m e\n- - - w e - - - - -\n- o - - - - - - - -\n- - - - - - w m e -\n- - w m e - - - - -\n- - - - - - - - - -\n- o - - - - - w e -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/015.a.htm"
+    },
+    "16_10x10": {
+      "id": "16_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - o - - n\no - - - o - - - - s\n- - - - - - - - - -\n- - - n - - - - - -\n- - - m - w m m e -\n- - - s - - - - - -\n- - - - - - w e - n\n- - o - - - - - - m\n- - - - n - - - - s\n- - - - s - - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/016.a.htm"
+    },
+    "17_12x12": {
+      "id": "17_12x12",
+      "solution": "12 12 5 4 3 2 1\n- - n - - - - - - - - -\nn - m - - - - o - - - -\ns - m - - - - - - - - -\n- - s - - - - - - w m e\n- - - - - w m e - - - -\n- o - n - - - - - - - -\n- - - s - - - o - w e -\n- - - - - - - - - - - -\n- w m e - - w m m m e -\n- - - - - - - - - - - -\n- - - - - - - o - - - -\nw m m e - o - - - w e -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/017.a.htm"
+    },
+    "18_12x12": {
+      "id": "18_12x12",
+      "solution": "12 12 5 4 3 2 1\n- - - - - - n - n - - -\n- n - n - - m - s - o -\n- s - m - - m - - - - -\n- - - m - - s - - - - n\n- n - m - - - - - - - m\n- m - s - - w e - o - m\n- s - - - - - - - - - s\n- - - - - - - - - - - -\n- w m e - n - - - n - -\n- - - - - m - - - s - -\n- - o - - s - - - - - -\n- - - - - - - - o - o -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/018.a.htm"
+    },
+    "19_12x12": {
+      "id": "19_12x12",
+      "solution": "12 12 5 4 3 2 1\n- o - - - n - - - - - -\n- - - - - m - - w m e -\n- n - - - s - - - - - -\n- s - - - - - - - - - -\n- - - - w m m m e - w e\no - - - - - - - - - - -\n- - - o - - - - - - - -\n- - - - - w e - - n - n\nw e - - - - - - - m - m\n- - - - w m m e - s - m\n- - - - - - - - - - - s\n- o - - - - - - - o - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/019.a.htm"
+    },
+    "20_12x12": {
+      "id": "20_12x12",
+      "solution": "12 12 5 4 3 2 1\nw m e - - - - o - - o -\n- - - - - - - - - - - -\n- n - - - o - w m e - -\n- m - - - - - - - - - -\n- m - o - - - - - - - -\n- s - - - - - w m m e -\n- - - - - - - - - - - -\nn - n - w m m m e - - -\ns - s - - - - - - - - -\n- - - - - - - - - - - n\n- - - - - - - n - - - m\n- - - - w e - s - o - s",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/020.a.htm"
+    },
+    "21_6x6": {
+      "id": "21_6x6",
+      "solution": "6 6 4 3 1 0 0\nn - w e - o\ns - - - - -\n- - - - - o\nw e - n - -\n- - - m - -\n- o - s - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/021.a.htm"
+    },
+    "22_6x6": {
+      "id": "22_6x6",
+      "solution": "6 6 4 3 1 0 0\nn - - o - o\ns - - - - -\n- - - - - n\n- o - n - s\n- - - m - -\nw e - s - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/022.a.htm"
+    },
+    "23_6x6": {
+      "id": "23_6x6",
+      "solution": "6 6 4 3 1 0 0\no - - - - o\n- - - n - -\n- n - m - o\n- s - s - -\n- - - - - n\no - w e - s",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/023.a.htm"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "solution": "8 8 4 3 2 1 0\n- - - w m e - -\no - - - - - - o\n- - - - n - - -\nn - - - m - w e\ns - n - s - - -\n- - m - - - - o\n- - m - - - - -\no - s - - - w e",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/024.a.htm"
+    },
+    "25_8x8": {
+      "id": "25_8x8",
+      "solution": "8 8 4 3 2 1 0\n- - - w m m e -\nn - - - - - - -\ns - - o - w m e\n- - - - - - - -\no - - - - - w e\n- - - n - - - -\n- - - m - n - o\n- o - s - s - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/025.a.htm"
+    },
+    "26_8x8": {
+      "id": "26_8x8",
+      "solution": "8 8 4 3 2 1 0\n- - - - - n - n\n- w m e - m - s\n- - - - - s - -\n- - - o - - - o\nw e - - - - - -\n- - - w m m e -\no - - - - - - -\n- - w e - o - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/026.a.htm"
+    },
+    "27_8x8": {
+      "id": "27_8x8",
+      "solution": "8 8 4 3 2 1 0\no - w e - - - -\n- - - - - - n -\n- - - n - - m -\n- n - m - - s -\n- m - m - - - -\n- s - s - o - o\n- - - - - - - -\nw e - o - w e -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/027.a.htm"
+    },
+    "28_10x10": {
+      "id": "28_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - - n - - - - -\nn - o - s - - - - -\nm - - - - - - - - -\ns - - - n - - w e -\n- - - - m - - - - -\n- - - - m - o - - -\n- - - - s - - - o -\n- - n - - - - - - -\n- - m - - - w e - -\no - s - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/028.a.htm"
+    },
+    "29_10x10": {
+      "id": "29_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - n - - - - - -\n- - - m - - - - n -\n- - - s - w e - m -\n- - - - - - - - s -\n- - - - - - o - - -\n- - - - n - - - - -\n- - - - s - - - o -\n- - - - - - - - - -\no - n - w m m e - -\n- - s - - - - - - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/029.a.htm"
+    },
+    "30_10x10": {
+      "id": "30_10x10",
+      "solution": "10 10 4 3 2 1 0\no - - - - n - - - -\n- - - - - m - - - -\n- o - o - s - - - -\n- - - - - - - n - -\n- - n - - - - s - -\nn - s - - - - - - n\nm - - - - o - - - s\nm - - - - - - - - -\ns - - - - w m e - -\n- - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/030.a.htm"
+    },
+    "31_6x6": {
+      "id": "31_6x6",
+      "solution": "6 6 4 3 1 0 0\no - - o - -\n- - - - - o\nw m e - - -\n- - - - w e\no - n - - -\n- - s - w e",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/031.a.htm"
+    },
+    "32_6x6": {
+      "id": "32_6x6",
+      "solution": "6 6 4 3 1 0 0\no - o - - o\n- - - - - -\n- n - n - n\n- s - s - s\n- - - - - -\n- o - w m e",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/032.a.htm"
+    },
+    "33_6x6": {
+      "id": "33_6x6",
+      "solution": "6 6 4 3 1 0 0\no - w e - o\n- - - - - -\no - n - n -\n- - s - s -\no - - - - -\n- - w m e -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/033.a.htm"
+    },
+    "34_8x8": {
+      "id": "34_8x8",
+      "solution": "8 8 4 3 2 1 0\n- - o - o - - n\nn - - - - - - s\nm - n - n - - -\ns - m - s - - o\n- - s - - - - -\n- - - - - o - -\nw e - - - - - -\n- - - w m m e -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/034.a.htm"
+    },
+    "35_8x8": {
+      "id": "35_8x8",
+      "solution": "8 8 4 3 2 1 0\nn - w e - - - -\nm - - - - w e -\ns - - - - - - -\n- - - o - - - -\no - - - - w m e\n- - - o - - - -\nn - - - - - - -\ns - w m m e - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/035.a.htm"
+    },
+    "36_8x8": {
+      "id": "36_8x8",
+      "solution": "8 8 4 3 2 1 0\n- o - w e - - o\n- - - - - - - -\n- - - - - - - n\nw e - w m e - m\n- - - - - - - m\no - - n - - - s\n- - - m - - - -\nw e - s - - o -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/036.a.htm"
+    },
+    "37_8x8": {
+      "id": "37_8x8",
+      "solution": "8 8 4 3 2 1 0\nn - - - - - o -\ns - w m e - - -\n- - - - - - - o\no - - n - n - -\n- - - s - m - n\n- - - - - s - m\n- o - - - - - m\n- - - w e - - s",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/037.a.htm"
+    },
+    "38_10x10": {
+      "id": "38_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - w m e - - - -\n- - - - - - - - - -\nn - - - - - - - - -\ns - - o - - - - - -\n- - - - - w m m e -\n- - - - - - - - - -\no - o - - n - - - -\n- - - - - s - o - -\n- w m e - - - - - -\n- - - - - - w e - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/038.a.htm"
+    },
+    "39_10x10": {
+      "id": "39_10x10",
+      "solution": "10 10 4 3 2 1 0\n- o - - - - - - o -\n- - - w m m e - - -\nn - - - - - - - - -\ns - - - - w m e - -\n- - - - - - - - - -\n- - - - - w e - - -\nw m e - - - - - - o\n- - - - - - - - - -\n- - o - - - - - - -\n- - - - - - w e - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/039.a.htm"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - -\n- - w m m e - - - n\n- - - - - - - - - s\n- o - - - w e - - -\n- - - - - - - - - o\nn - n - - - - - - -\ns - m - - - - - - -\n- - s - - - - - - -\n- - - - - - - - - -\no - w m e - o - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/040.a.htm"
+    },
+    "41_6x6": {
+      "id": "41_6x6",
+      "solution": "6 6 4 3 1 0 0\nn - o - - o\ns - - - - -\n- - n - w e\no - m - - -\n- - s - n -\no - - - s -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/041.a.htm"
+    },
+    "42_6x6": {
+      "id": "42_6x6",
+      "solution": "6 6 4 3 1 0 0\no - w e - o\n- - - - - -\nn - w m e -\ns - - - - -\n- - n - - -\no - s - - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/042.a.htm"
+    },
+    "43_6x6": {
+      "id": "43_6x6",
+      "solution": "6 6 4 3 1 0 0\no - n - w e\n- - s - - -\n- - - - - -\no - w m e -\n- - - - - -\no - o - w e",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/043.a.htm"
+    },
+    "44_8x8": {
+      "id": "44_8x8",
+      "solution": "8 8 4 3 2 1 0\nn - - w e - o -\ns - - - - - - -\n- - w m m e - -\no - - - - - - -\n- - - w m e - o\n- o - - - - - -\n- - - - w m e -\n- w e - - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/044.a.htm"
+    },
+    "45_8x8": {
+      "id": "45_8x8",
+      "solution": "8 8 4 3 2 1 0\no - n - - - - -\n- - m - - w e -\no - s - - - - -\n- - - - - n - n\no - - o - s - m\n- - - - - - - s\nw e - - - - - -\n- - - w m m e -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/045.a.htm"
+    },
+    "46_8x8": {
+      "id": "46_8x8",
+      "solution": "8 8 4 3 2 1 0\n- n - o - - w e\n- m - - - - - -\n- s - n - w e -\n- - - m - - - -\n- o - s - o - -\n- - - - - - - n\nw m m e - o - s\n- - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/046.a.htm"
+    },
+    "47_8x8": {
+      "id": "47_8x8",
+      "solution": "8 8 4 3 2 1 0\no - - - w m e -\n- - - - - - - -\nw e - o - o - n\n- - - - - - - m\n- w m m e - - s\n- - - - - - - -\nw e - - - w e -\n- - - o - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/047.a.htm"
+    },
+    "48_10x10": {
+      "id": "48_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - - - w m e - o\n- - n - - - - - - -\n- - m - - o - - - -\n- - m - - - - - o -\n- - s - - - - - - -\n- - - - - - - - - -\n- o - - n - w m e -\n- - - - s - - - - -\n- w e - - - - - - -\n- - - - - - w e - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/048.a.htm"
+    },
+    "49_10x10": {
+      "id": "49_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - - o - -\n- n - - - - - - - -\n- m - w m e - - - -\n- s - - - - - - - -\n- - - - - - n - - -\n- - - - - - s - - -\n- w m m e - - - - -\n- - - - - - - - w e\n- - - o - n - - - -\n- o - - - s - - - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/049.a.htm"
+    },
+    "50_10x10": {
+      "id": "50_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - - w m e - - -\n- - - - - - - - - -\n- - - - o - - - - -\n- n - - - - - n - -\n- s - - - - - m - o\n- - - w m e - m - -\n- - - - - - - s - o\no - - - - - - - - -\n- - - - - n - n - -\n- - - - - s - s - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/050.a.htm"
+    },
+    "51_6x6": {
+      "id": "51_6x6",
+      "solution": "6 6 4 3 1 0 0\n- o - - - n\n- - - n - s\nw e - m - -\n- - - s - o\n- - - - - -\no - o - w e",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/051.a.htm"
+    },
+    "52_6x6": {
+      "id": "52_6x6",
+      "solution": "6 6 4 3 1 0 0\no - n - o -\n- - m - - -\no - s - - n\n- - - - - s\nn - n - - -\ns - s - - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/052.a.htm"
+    },
+    "53_8x8": {
+      "id": "53_8x8",
+      "solution": "8 8 4 3 2 1 0\no - - - w e - -\n- - - - - - - o\nn - - n - n - -\ns - - m - m - o\n- - - s - m - -\n- - - - - s - n\nw m e - - - - s\n- - - - - o - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/053.a.htm"
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "solution": "8 8 4 3 2 1 0\n- - - o - w e -\n- - - - - - - -\n- n - - w m m e\n- s - - - - - -\n- - - n - o - o\n- n - s - - - -\n- m - - - w m e\n- s - o - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/054.a.htm"
+    },
+    "55_8x8": {
+      "id": "55_8x8",
+      "solution": "8 8 4 3 2 1 0\n- - - w m e - o\n- n - - - - - -\n- m - w e - - n\n- m - - - - - s\n- s - o - o - -\n- - - - - - - -\no - - w m e - n\n- - - - - - - s",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/055.a.htm"
+    },
+    "56_8x8": {
+      "id": "56_8x8",
+      "solution": "8 8 4 3 2 1 0\n- o - w m e - -\n- - - - - - - o\nw e - - - - - -\n- - - - o - w e\n- - - - - - - -\n- - o - - n - n\n- - - - - m - s\nw m m e - s - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/056.a.htm"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "solution": "10 10 4 3 2 1 0\n- n - - - - o - - -\n- m - - - - - - n -\n- s - - w e - - m -\n- - - - - - - - s -\n- - - - n - - - - -\n- n - - m - o - - -\n- s - - m - - - - -\n- - - - s - - - n -\n- - o - - - - - s -\n- - - - - o - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/057.a.htm"
+    },
+    "58_10x10": {
+      "id": "58_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - -\n- w m e - - - - n -\n- - - - - - o - s -\n- w m m e - - - - -\n- - - - - - - - - n\n- - - - - o - o - m\n- - - - - - - - - s\n- w e - o - - - - -\n- - - - - - - - - -\n- - - w e - - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/058.a.htm"
+    },
+    "59_10x10": {
+      "id": "59_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - n - n -\n- - - - - - s - m -\nw m m e - - - - s -\n- - - - - - o - - -\n- - - - - - - - - -\n- - - - n - o - - -\no - n - s - - - - -\n- - s - - - - w m e\n- - - - - - - - - -\n- - - o - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/059.a.htm"
+    },
+    "60_10x10": {
+      "id": "60_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - w e - -\n- - n - - - - - - o\n- - m - - - o - - -\n- - m - - - - - - n\n- - s - o - - - - s\n- - - - - - n - - -\n- - - - - - m - n -\nw e - o - - s - m -\n- - - - - - - - s -\n- - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/060.a.htm"
+    },
+    "61_6x6": {
+      "id": "61_6x6",
+      "solution": "6 6 4 3 1 0 0\n- - o - w e\nn - - - - -\nm - - n - -\ns - - s - o\n- - - - - -\no - w e - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/061.a.htm"
+    },
+    "62_6x6": {
+      "id": "62_6x6",
+      "solution": "6 6 4 3 1 0 0\no - w e - o\n- - - - - -\no - w m e -\n- - - - - -\nw e - o - n\n- - - - - s",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/062.a.htm"
+    },
+    "63_8x8": {
+      "id": "63_8x8",
+      "solution": "8 8 4 3 2 1 0\n- - - - n - w e\n- - n - s - - -\no - m - - - o -\n- - m - - - - -\n- - s - - - - -\nn - - - n - w e\nm - o - m - - -\ns - - - s - - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/063.a.htm"
+    },
+    "64_8x8": {
+      "id": "64_8x8",
+      "solution": "8 8 4 3 2 1 0\no - w e - o - -\n- - - - - - - n\n- n - - w e - m\n- m - - - - - s\n- s - o - - - -\n- - - - - - - -\nn - w m m e - o\ns - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/064.a.htm"
+    },
+    "65_8x8": {
+      "id": "65_8x8",
+      "solution": "8 8 4 3 2 1 0\nn - - o - w m e\nm - - - - - - -\nm - w e - w m e\ns - - - - - - -\n- - - o - - - o\n- - - - - n - -\nw e - - - s - o\n- - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/065.a.htm"
+    },
+    "66_8x8": {
+      "id": "66_8x8",
+      "solution": "8 8 4 3 2 1 0\n- w e - n - o -\n- - - - s - - -\n- n - - - - - o\n- s - - - - - -\n- - - n - o - n\n- n - m - - - m\n- m - s - - - m\n- s - - - o - s",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/066.a.htm"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "solution": "10 10 4 3 2 1 0\nn - - - - o - - n -\nm - - - - - - - s -\nm - n - - - n - - -\ns - m - o - s - - -\n- - s - - - - - - -\n- - - - - - - - - -\n- - - o - - - - - -\n- o - - - - - - - n\n- - - - - - - - - m\n- - - w e - - - - s",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/067.a.htm"
+    },
+    "68_10x10": {
+      "id": "68_10x10",
+      "solution": "10 10 4 3 2 1 0\no - - - - - n - o -\n- - o - n - s - - -\n- - - - s - - - - -\n- - - - - - - - - -\n- - w m m e - - - -\n- - - - - - - - - -\n- - - - - - - o - -\n- - - - n - - - - n\nw e - - m - - - - m\n- - - - s - - - - s",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/068.a.htm"
+    },
+    "69_10x10": {
+      "id": "69_10x10",
+      "solution": "10 10 4 3 2 1 0\nn - - - - - - - - o\nm - - - - n - o - -\nm - - - - s - - - -\ns - - - - - - - - -\n- - w m e - - - - n\n- - - - - - - - - s\n- - - - - - - - - -\no - w m e - - - - -\n- - - - - - n - - -\n- - - o - - s - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/069.a.htm"
+    },
+    "70_10x10": {
+      "id": "70_10x10",
+      "solution": "10 10 4 3 2 1 0\nw e - - n - - - o -\n- - - - m - - - - -\n- - - - m - - - - -\n- n - - s - - - - -\n- s - - - - w m e -\n- - - n - - - - - -\n- - - m - - - - - -\n- o - s - - - - - -\n- - - - - - o - n -\n- - o - - - - - s -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/070.a.htm"
+    },
+    "71_6x6": {
+      "id": "71_6x6",
+      "solution": "6 6 4 3 1 0 0\nn - n - - o\ns - s - - -\n- - - - - o\n- w m e - -\n- - - - - -\no - w e - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/071.a.htm"
+    },
+    "72_6x6": {
+      "id": "72_6x6",
+      "solution": "6 6 4 3 1 0 0\n- - - - n -\nw m e - s -\n- - - - - -\no - w e - o\n- - - - - -\nw e - o - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/072.a.htm"
+    },
+    "73_8x8": {
+      "id": "73_8x8",
+      "solution": "8 8 4 3 2 1 0\nn - - o - w m e\ns - - - - - - -\n- - - - n - o -\nn - n - m - - -\ns - m - s - - o\n- - m - - - - -\n- - s - - - - -\no - - - - - w e",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/073.a.htm"
+    },
+    "74_8x8": {
+      "id": "74_8x8",
+      "solution": "8 8 4 3 2 1 0\n- o - o - w m e\n- - - - - - - -\n- n - o - w e -\n- s - - - - - -\n- - - - n - - -\nw e - - m - n -\n- - - - m - m -\n- o - - s - s -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/074.a.htm"
+    },
+    "75_8x8": {
+      "id": "75_8x8",
+      "solution": "8 8 4 3 2 1 0\n- - w e - - - o\no - - - - o - -\n- - - - - - - o\nn - w m e - - -\ns - - - - - - -\n- - - - - w m e\nw m m e - - - -\n- - - - - - w e",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/075.a.htm"
+    },
+    "76_8x8": {
+      "id": "76_8x8",
+      "solution": "8 8 4 3 2 1 0\no - - - - - w e\n- - n - n - - -\nn - m - s - n -\ns - s - - - m -\n- - - - o - m -\n- - - - - - s -\n- w m e - - - -\n- - - - - o - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/076.a.htm"
+    },
+    "77_10x10": {
+      "id": "77_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - - o - - - - -\nw e - - - - - - n -\n- - - - - - - - s -\n- - w m m e - - - -\n- - - - - - - - - -\nn - - - - n - - - -\nm - - - - s - - o -\ns - n - - - - - - -\n- - m - - - - - - -\no - s - - - - - - o",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/077.a.htm"
+    },
+    "78_10x10": {
+      "id": "78_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - o - - - - - -\n- - - - - - w m e -\n- - - w e - - - - -\nn - - - - - - - - -\ns - - o - - - o - n\n- - - - - o - - - m\n- - - - - - - - - m\n- - - - - - - - - s\n- - - - - - - - - -\n- - w e - w m e - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/078.a.htm"
+    },
+    "79_10x10": {
+      "id": "79_10x10",
+      "solution": "10 10 4 3 2 1 0\n- - - w e - - - - o\n- - - - - - - - - -\n- o - - - - - - - -\n- - - - w m m e - o\no - - - - - - - - -\n- - - w m e - - w e\n- - - - - - - - - -\n- - - n - - - - - -\n- - - m - w e - - -\n- - - s - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/079.a.htm"
+    },
+    "80_10x10": {
+      "id": "80_10x10",
+      "solution": "10 10 4 3 2 1 0\nn - - - - - - - - -\nm - - o - - - - - o\ns - - - - - - - - -\n- - - - - - - - - -\n- - - n - - w m e -\no - - m - - - - - -\n- - - m - - - - - o\n- - - s - n - - - -\n- - - - - s - - - n\nw e - - - - - - - s",
+      "source": "https://www.janko.at/Raetsel/Battleships-Digital/080.a.htm"
+    }
+  }
+}

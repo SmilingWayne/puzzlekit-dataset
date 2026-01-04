@@ -1,0 +1,945 @@
+{
+  "count": 188,
+  "puzzles": {
+    "01_8x8": {
+      "id": "01_8x8",
+      "problem": "8 8 1\n1 1 1 3 3 3 2 1\n1 1 3 3 2 3 1 1\n- - - e - - - -\n- se - - - - - w\n- - - - - - - -\n- - s ne w - - s\n- ne - - - sw - -\n- - - - - - - -\nn - - - - - n -\nne ne e - ne - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/001.a.htm"
+    },
+    "02_10x10": {
+      "id": "02_10x10",
+      "problem": "10 10 1\n1 3 2 2 1 2 2 3 2 1\n1 2 1 3 2 1 3 2 3 1\n- - - e - - - - - -\n- - - - - - w - - -\n- e - s - - - - - -\n- - - - se - s - s s\n- - - - e - - - nw -\n- - n nw sw - - - - w\n- - - - - - - - - -\nne - - e - - - - n -\n- - - - - - - - - -\nn - e - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/002.a.htm"
+    },
+    "03_10x10": {
+      "id": "03_10x10",
+      "problem": "10 10 1\n1 3 1 3 3 1 1 3 1 2\n2 3 2 1 2 1 2 2 3 1\n- - - - e w - - - -\n- - - - w - - sw - -\n- - - se - - - - - s\n- - - - - - s - - w\n- - - - - sw - - - n\n- - se - - - - - - -\nne - - - - - - - - sw\n- - - - - - - - n -\nn - - - - n - - - -\n- - - ne - w - - - nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/003.a.htm"
+    },
+    "04_10x10": {
+      "id": "04_10x10",
+      "problem": "10 10 1\n1 1 3 3 2 1 2 3 3 1\n1 3 1 1 3 3 3 2 2 1\n- - - - - - - - - w\ns - - - - se sw - - -\n- - e - - - sw - - -\n- - s e s - - - - -\n- - - - - nw - - - s\n- - - - - - - sw - -\n- - - - - w - - - nw\n- - - ne e - ne - - -\n- - - - - - - - - -\n- n - e - ne - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/004.a.htm"
+    },
+    "05_10x10": {
+      "id": "05_10x10",
+      "problem": "10 10 1\n1 2 3 2 2 2 2 2 2 1\n1 1 3 3 2 3 3 1 1 1\n- - - - - - - sw - w\n- - - - - se se - - w\n- - - se - - sw - - -\n- - - sw - - s s - -\nne ne - - - - - - - -\n- - - - sw ne - - - -\nn - - - - - - - - -\n- - e - - - - - - -\n- - - - e - - - - n\n- e - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/005.a.htm"
+    },
+    "06_10x10": {
+      "id": "06_10x10",
+      "problem": "10 10 0\n1 3 1 3 1 3 1 3 1 2\n1 1 3 3 1 2 1 3 3 1\ne - - - - - - - - -\ne - - - - sw - - - -\ns - - - - - - - - -\n- - - - s - nw - - s\n - - - - se - ne - - -\n- - - - - - - - - -\n- - - e - sw ne - - - \n- - - - e - - - - n\n- - n - - - - - - -\n- - - nw w - n - n -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/006.a.htm"
+    },
+    "07_10x10": {
+      "id": "07_10x10",
+      "problem": "10 10 1\n0 2 2 1 1 2 2 2 2 1\n0 2 2 1 1 2 2 2 2 1\n- - - - - - - sw - -\n- - - sw se - - - - -\n- - - - - - - - - -\nne - - - - - - nw - s\n- - - - - - - - - -\n- - - n - ne - - - sw\n- - - sw e se - - - -\n- - - - - - - - - -\n- - - - n - w - - -\n- - e - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/007.a.htm"
+    },
+    "08_10x10": {
+      "id": "08_10x10",
+      "problem": "10 10 1\n1 1 3 3 1 2 3 2 2 2\n1 2 2 3 2 3 3 1 2 1\n- e - - - - - - - -\n- - - se - - - - - -\n- - - e - - - - - -\n- s ne se - - se - - -\nne - - - - nw - s - -\n- - - - - - - - n -\n- - - - nw - - n - -\n- - e nw - - nw - - -\nn - - - - w - - - -\n- - e - ne - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/008.a.htm"
+    },
+    "09_10x10": {
+      "id": "09_10x10",
+      "problem": "10 10 1\n1 3 2 3 1 2 1 3 1 2\n1 1 3 3 1 2 3 2 2 1\n- - - - - w - - s -\nse - e - - - - - - -\n- - - - - - - - - -\n- - s w s - nw - - -\n- s - - - s - - - s\n- - - - ne - - - - n\nn - n - sw - - - - -\n- - - - - - - - - -\n- - - - - w - - - -\n- - - e - - n - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/009.a.htm"
+    },
+    "10_10x10": {
+      "id": "10_10x10",
+      "problem": "10 10 1\n1 1 3 3 1 3 2 2 3 1\n1 3 1 3 2 3 1 3 2 1\n- s - - s - w - - -\n- - - - - - - - sw -\ns - - sw - sw - - - -\n- - - e se s - nw - -\n- - - ne nw - - - - -\n- - - - - - - - - -\n- - - - - - ne n nw n\n- - - - - w - - - -\n- - - - - ne - - - -\n- - - e - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/010.a.htm"
+    },
+    "11_7x7": {
+      "id": "11_7x7",
+      "problem": "7 7 1\n1 2 1 1 1 1 2\n1 1 1 2 2 1 1\n- - - - - w -\n- s se - - s -\nse - - - s - -\n- - - - - - n\n- - - - - - -\n- - - n - - -\n- - - - - - w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/011.a.htm"
+    },
+    "12_8x8": {
+      "id": "12_8x8",
+      "problem": "8 8 1\n1 1 3 2 1 1 1 3\n1 2 1 2 1 2 3 1\n- se se - - - - w\n- - - - s - s sw\n- - - - - - - -\n- s - - - - - -\n- ne - - - - - -\n- - - - - nw - -\n- - - ne - n - -\nn - e - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/012.a.htm"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "problem": "10 10 0\n1 2 2 1 2 3 2 2 3 1\n1 4 1 1 2 2 2 3 2 1\n- se - s e - - - - -\n- - - w - - - - - -\n- - - - - - - - - w\n- - e - - - - - - -\n- - - e - w - - - -\n- - - -  n - - - n -\nne - - - - se ne - - -\nn - - - - - - - - n \n- - - - - - nw - - -\n- ne e - - ne - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/013.a.htm"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "problem": "10 10 1\n1 1 3 1 1 3 1 2 1 1\n2 1 2 1 2 1 2 1 2 1\n- - e - - - - - - -\n- - - - - - sw - - -\nse - - ne - - - - - -\n- - - - - - - - - -\n- s - - - - - s n -\n- - - e nw - - - - sw\n- - - - - - n - - -\n- - - - - - - - - w\n- - e - - - - - - -\nn - - n - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/014.a.htm"
+    },
+    "15_8x8": {
+      "id": "15_8x8",
+      "problem": "8 8 1\n1 2 1 2 1 1 1 2\n1 1 2 1 2 2 1 1\n- - - - w - - -\n- - - - - - w -\n- s - - se - - -\n- - - - - - - -\n- - s - sw - - n\n- - - - - - nw -\n- - - e - - - -\n- - - nw - n - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/015.a.htm"
+    },
+    "16_9x8": {
+      "id": "16_9x8",
+      "problem": "9 8 1\n1 1 1 1 1 1 2 1\n1 1 2 1 1 1 1 0 1\ns - se - - - - -\n- - - - - - sw -\n- - s - - - - -\n- e - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - w n\n- - - - - - - -\n- - - ne - nw - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/016.a.htm"
+    },
+    "17_8x13": {
+      "id": "17_8x13",
+      "problem": "8 13 1\n2 1 1 2 2 1 1 1 1 1 2 2 2\n6 2 2 1 3 1 2 2\n- - - - - - - - - - - - sw\n- - - - - - - - - - ne - -\n- - - - - - w - - nw - - s\n- - - - s n - sw - - n - -\nn - - - - - - - e - - - -\n- - - - - - - - w - - - -\n- - n - - - - ne - - w - -\n- - w - nw - - - n - - nw -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/017.a.htm"
+    },
+    "18_10x10": {
+      "id": "18_10x10",
+      "problem": "10 10 1\n4 2 4 1 1 4 4 1 1 2\n3 4 2 1 1 4 3 3 1 2\n- - - - s - sw - sw -\n- s - - sw - - - s -\nne ne - - - - - - - s\ne - - - - - - - nw n\n- - s - - - w - - -\n- n ne - - - - - - -\n- - - - - - - sw - -\n- - - n - - - - - -\n- - - - - - - w nw -\n- - ne ne e w - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/018.a.htm"
+    },
+    "19_10x10": {
+      "id": "19_10x10",
+      "problem": "10 10 1\n1 5 3 2 5 3 1 3 1 3\n2 4 0 2 2 4 2 3 4 4\n- - - - sw w e sw - -\n- - - - - - - - s -\nne - - s - - - sw - -\n- - ne - - - - - - -\n- - e - - - - - - -\n- - nw - - n - sw - -\n- s - - - - - sw - -\n- - n nw - - se - ne -\n- - - ne - s ne - ne -\nn ne - w - - e - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/019.a.htm"
+    },
+    "20_10x10": {
+      "id": "20_10x10",
+      "problem": "10 10 1\n1 6 2 0 3 3 3 2 1 2\n0 3 6 1 2 1 3 4 2 1\ns - - - se se - - - -\nse - - - w - - - - sw\n- - - sw - - - - - -\ne - n sw - nw nw - - -\n- - - - - - - se - -\n- - - - - se - - w -\n- - - - - s - - - -\n- - - se - - - - - -\nne - - ne - - - - ne -\n- - - - nw ne - - - w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/020.a.htm"
+    },
+    "21_10x10": {
+      "id": "21_10x10",
+      "problem": "10 10 1\n1 0 3 4 4 4 2 3 3 1\n4 6 1 2 2 1 5 1 2 1\ns - - - - - se - - -\n- - - n - - - - - nw\n- - - - - n sw - s -\n- - - - ne - ne w - -\nne - se - - - - sw - -\nne e - - sw - nw nw - -\n- - - - - - - - - -\n- - - - - - - w - -\n- - - e ne - - - - -\n- e - nw ne - - - - n",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/021.a.htm"
+    },
+    "22_10x10": {
+      "id": "22_10x10",
+      "problem": "10 10 1\n5 1 4 1 3 4 1 7 1 1\n2 4 2 3 3 3 2 2 3 4\n- sw - - - w se - - -\n- se - - - - - - - -\n- se - nw - sw - nw - nw\nse sw - - - - sw - - -\n- sw - - - - - - - -\n- ne - sw - - - - - -\nse s - - ne - ne - - -\n- - se - ne - ne sw n -\n- - - - - - nw - sw n\n- - - n - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/022.a.htm"
+    },
+    "23_10x10": {
+      "id": "23_10x10",
+      "problem": "10 10 1\n1 4 3 4 2 - 2 2 4 3\n1 3 - 3 - 3 3 - - 2\n- - - - se - - se sw w\n- se - - - w se - - -\ns - e - - - - - - -\nse se - - - - se - - -\n- n - - - - - sw - sw\n- - ne - - sw - nw - n\n- - - - n - - - - -\n- s - nw - - e - - -\n- - - nw e - - - - -\n- - - - - - e - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/023.a.htm"
+    },
+    "24_10x10": {
+      "id": "24_10x10",
+      "problem": "10 10 1\n4 - - 2 2 4 3 3 1 2\n3 - - - 3 - 1 1 4 3\n- - se - - - se sw - -\nne - - ne - w - - - -\nse sw s ne - - - - w -\n- - se - - - - se - -\n- - - - - - s - - -\n- - - - - nw - sw ne sw\ns - - sw ne - - - w nw\n- - - nw - - - - - w\n- - - - e - - - - -\n- - w - nw - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/024.a.htm"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "problem": "10 10 1\n- 4 - 2 - 2 2 - 3 - -\n1 6 2 - - 2 2 - 5 - -\n- - sw - - se - - - w\nse - - - - - - - - -\n- - ne e - - - - - -\ne - - - sw - - - - -\nse - - s ne - - - - -\n- - n - - se - e - nw\n- - - ne e ne - - - s\nse e - - - - - - - -\n- - - - - - - - - -\nn ne - - n - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/025.a.htm"
+    },
+    "27_12x12": {
+      "id": "27_12x12",
+      "problem": "12 12 1\n1 6 2 1 2 4 2 1 4 3 6 1\n2 3 2 3 3 1 3 5 1 3 1 6\n- - - - - - w s - - - -\n- - - - - - - - w - - -\n- - - - - w - - - - - -\ns - se sw - - - - - - sw nw\nne - - - ne - - - - - - -\n- - - e - - ne - - - - nw\n- - - - - - n - - se - -\nse - nw ne - sw s - n - - -\n- - - - - se - - sw - - -\n- - - n - - - ne - - - sw\n- - - - nw - nw nw - w - -\n- - - nw - - - - - - - n",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/027.a.htm"
+    },
+    "28_12x12": {
+      "id": "28_12x12",
+      "problem": "12 12 1\n2 1 2 1 4 6 3 4 1 3 5 1\n4 4 2 2 5 1 6 3 2 1 2 1\n- - se s w - - - s - - s\n- - - - - - ne sw - - - -\n- - - - - - - sw w - - nw\ns - - - - - - ne - sw - nw\n- - - - - nw - - nw - - -\nne - s e - se - - - - sw nw\n- - - - - - - - - - - -\n- - n - - - - - - - - -\n- - - e - - - - - ne - -\n- - ne - - - - ne - - - -\n- - - ne - w - - - - - -\n- n e - - - - nw nw - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/028.a.htm"
+    },
+    "29_12x12": {
+      "id": "29_12x12",
+      "problem": "12 12 1\n2 - - 4 1 3 2 2 3 - - 2\n- 1 - 4 - 1 5 4 4 - 5 1\n- - - - - - - - - - - -\n- e - - - - - - nw - nw -\ne - - - - - - - - - - -\nn - - - - - n - - - - -\n- ne - se se e w ne - - - -\ns e - - - - se - - sw - -\n- - - - n - - - nw - - -\n- - - nw - - sw - - - nw -\n- - - - ne - - s s - - n\n- se - w nw - nw - - - - -\nne - - - - - ne - - - - -\n- n - - e - - - - ne n -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/029.a.htm"
+    },
+    "30_12x12": {
+      "id": "30_12x12",
+      "problem": "12 12 1\n5 - - - 5 4 2 3 - 3 6 1\n4 4 5 3 - - 4 - - 3 6 1\n- - - s - - - - - - - s\nn - - - sw - - - - - - -\n- - - se - - - - ne - n -\n- ne - - ne nw - - s e - -\nse ne sw - ne - sw - - se - -\n- - n nw - - - - se - - nw\n- se - - - - - - - - - -\n- - - - nw - - n - - - -\n- - - - ne - - - - - - w\nne se - - - - - - - - - -\n- n - - - - ne - - - - -\ne - - ne - - ne - - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/030.a.htm"
+    },
+    "31_12x12": {
+      "id": "31_12x12",
+      "problem": "12 12 1\n- 3 3 - 3 - 3 2 2 5 - 6\n8 - 5 - 4 - - - 4 3 - -\ns - - - sw - - sw - - sw -\n- n - - - - w ne - - ne -\n- - - - - - se se - - e -\nne - ne - - nw n - - e w -\n- - - w - - - - - - - nw\n- - - - - se - - sw - - w\n- - - - - sw - - - - - -\ne - - - n - - - - s se -\n- ne - s - - s - - - - -\n- - - - - nw - n - - - -\n- - e - - - - - - - ne -\n- - - - - - - w - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/031.a.htm"
+    },
+    "32_12x12": {
+      "id": "32_12x12",
+      "problem": "12 12 1\n1 - 2 - - 2 - 6 - 1 5 -\n2 2 - - - - - - 6 - - -\n- - - se se - - w - - - -\n- - - - - sw - - w sw - nw\n- - - - - - - - - - - -\nne - - - - - ne - - - ne -\nne ne - - - e - ne ne - - -\n- - - - sw nw - w - - sw -\ne - - - - - - - - - - -\n- - - - - e - - - - sw -\n- - se - - - - - e - - -\nse - - n - sw n - - - w -\nn - e - nw - ne - sw - - sw\n- - w - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/032.a.htm"
+    },
+    "33_14x14": {
+      "id": "33_14x14",
+      "problem": "14 14 1\n3 2 2 6 4 3 1 4 2 5 4 2 4 4\n5 2 2 3 4 2 4 2 5 2 3 4 6 2\nse - - - w - se - - - - - - -\n- e - - - - - - - - - - sw -\n- se - - - w se - e - se se - -\n- - - - se sw ne - - - - - - -\n- - - - - - - - - - - s - n\n- - n - e - ne - n - - - se -\n- - s - - - - - - sw - - - -\n- - - ne - - e - - - - sw - -\n- - - sw s - - - - - - - - -\n- se - - e n - - sw - - - ne s\nn - ne - - - e - - sw - - - -\n- - - - - - - - - se - - - -\n- n - - w - - - - - - - - -\n- - - w e - n - - nw nw - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/033.a.htm"
+    },
+    "34_14x14": {
+      "id": "34_14x14",
+      "problem": "14 14 1\n2 2 4 1 4 2 3 1 1 2 4 5 6 6\n2 8 1 5 3 1 1 2 1 2 7 5 1 4\n- - - s - sw sw - - - se sw - -\nse s - - - - - - - sw - - - -\n- n ne - - s - - s se - se ne -\n- - - - - - - - - - - - n -\nn - - - - - - - - - nw - - -\n- - - e - - - - - - - - - nw\n- - - - - - - - sw - - sw w -\n- - n - - - - - - - s - w -\nne - - - - - - ne - - - se se nw\nne se - - - - - se w - - - - -\n- se - - - - - - - - - - - -\n- - - - - - - - - e - - - nw\n- - - - - - - - - - - - - w\n- - - - - - w ne ne nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/034.a.htm"
+    },
+    "35_14x14": {
+      "id": "35_14x14",
+      "problem": "14 14 1\n- 8 2 1 4 - - 4 2 4 1 5 6 1\n- 2 6 3 3 - 1 - 4 - 4 5 - -\n- - sw se - - - - - - s - - s\n- - - s - sw - n se se - se nw -\n- - se - - - - - - - nw se - -\n- - - - w - ne - - - - - - sw\n- - - se - - - - ne - - - - -\n- - - - e - - - - - - - sw -\n- e - - ne nw - - - - nw - - sw\ne - sw - - - s - sw - - - - nw\n- - - - - - - - - - - - - -\n- - e - - - - - - sw - ne - sw\n- - - - - - - - - - sw - - -\nse - nw nw - nw - - - - - - - -\nse - nw - - - - - - - - - - nw\n- - - - - - e - - - nw - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/035.a.htm"
+    },
+    "36_14x14": {
+      "id": "36_14x14",
+      "problem": "14 14 1\n1 - 3 4 3 4 3 - 2 - 3 2 4 -\n5 3 5 2 5 1 3 - 1 3 - 7 - 4\n- - - - - - - - - sw - - sw -\ns - nw - ne - - - - w - - se -\n- - - - - - - - - - - s ne -\nne ne se - - - w - - - - - - s\n- - n - - - - - s - - - n -\n- - e - - s - - - - - - - -\n- - - - se - - e - - - sw nw -\nne - w n s - ne - - - - - - -\n- - ne - - e - - n - - - - -\n- - - - - nw - ne - e - - - -\n- - - - w e - - sw - - - - sw\nne - - - - - - - ne - - - - -\n- e - - nw - - s - nw sw - nw -\n- - - w - - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/036.a.htm"
+    },
+    "37_14x14": {
+      "id": "37_14x14",
+      "problem": "14 14 1\n- 7 1 - 2 2 5 - - 2 - - 7 4\n- 4 - 5 3 - 4 - - 2 - - 5 3\ns - - - - - - - e se - - - sw\n- - - ne - sw - w nw - - - - -\nse - w - - sw - - s - - - - -\n- - - - - - ne - - - - s - -\n- - - - ne nw - - - - - se - n\nne - - - - se - s - - - w - nw\nse se se - - - w se nw - - - - -\n- - - - - - - e - - - - se nw\n- - w - - - - - - - - - - -\n- - - e - - - - - - - - nw sw\n- - - - - s - - - - w - - -\n- - se - - - - - - - n - sw w\n- - n - - - - - - - - - - -\n- - - - - nw - - - w - e - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/037.a.htm"
+    },
+    "38_14x14": {
+      "id": "38_14x14",
+      "problem": "14 14 1\n- - 9 - 3 - 3 4 4 - 6 3 - -\n5 - - 4 3 2 1 7 3 - 4 - 4 -\ns - - w sw se - - - - - - - -\n- - - - - - - - - - - - sw -\n- - - e - - - - - - n n - -\nne - - sw - w - - - - - - - sw\n- - - - se e - n - - - - - -\n- s - - w - - - - - - nw - -\nse - - - s nw - - - - - sw n sw\n- ne - - - - - - - - - - - -\n- ne - - - - - - - - sw - sw -\n- n - - - - - - - - - - sw n\n- - - - - - nw - ne - - - sw -\n- - - - - n - - - - - - - -\n- - ne - - nw - - - - - ne ne -\n- - ne - - nw e - - - - - ne -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/038.a.htm"
+    },
+    "39_17x17": {
+      "id": "39_17x17",
+      "problem": "17 17 1\n6 2 9 4 2 4 2 1 4 3 3 1 3 3 5 5 2\n3 1 6 8 1 5 4 2 2 3 2 5 2 3 7 3 2\n- - sw - - - - - - - se - w - - - -\ne - - sw - - - - - - - - - - nw - -\n- se - - - - sw - - - - - - - - - -\n- - - - - - - - - - nw - - - - - s\n- nw - - - se se - - - se - - - w sw nw\n- w ne - sw - - - s - n - - sw - - sw\nne - - - - - - - - - - - - - - - n\n- n e ne w - - - - - - n - - - - -\n- s - - - - w - se - - - sw - nw - -\n- - - - - - - - - w - - - - - - -\n- e - sw - - - ne - - - - ne - - - sw\n- - - - ne - - - - - - - - - - - nw\nse - - se - - - - - - - - w ne - - -\ns ne - - - - n - - - - - - - ne - -\n- - - - - - - - - - - - - - - - -\n- - - - e - - - - - - nw - - - - -\n- - - nw - - nw ne - - e - w - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/039.a.htm"
+    },
+    "40_17x17": {
+      "id": "40_17x17",
+      "problem": "17 17 1\n- 6 3 - - 3 4 3 3 4 4 - 4 2 8 6 3\n1 - 6 6 2 - 4 3 - 4 3 2 2 - 8 3 2\n- - - se - - - - sw - - s - - - - w\n- - sw - w - - - - - - e - - se se -\n- - - sw - - - nw - sw - - - - - - -\n- ne - - - - - se - - - - - - - nw -\n- - - - - - - - w - - - - - - nw -\n- - - - - - - se - - e - - - nw sw sw\nne - - - ne - ne - - - - - - - - - nw\ns - s - se - - - - - - - - - - - sw\nse - - - - ne - - sw s w - - - - - s\nne - - - - - - - - - - - - - - - sw\n- - - - - nw - - nw - - - - s - - -\n- - - - e - - se - - n ne - - - - -\n- - - se - - - - - - - w - - - - -\n- - sw - e - - - - - - ne - n - - sw\n- - - n - - - - - - - - - - - - sw\n- - - - - nw w - - nw - - - ne - - sw\n- - - - nw - - - - - - - w - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/040.a.htm"
+    },
+    "41_8x8": {
+      "id": "41_8x8",
+      "problem": "8 8 1\n1 4 3 2 1 5 1 1\n2 2 1 4 1 4 2 2\n- - - - - - s s\nne se - - nw - w -\n- - - s - sw w -\n- - - - s - - -\nne s se - - - - w\nne - - - - - - -\n- - - - - - - -\nn - - w ne - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/041.a.htm"
+    },
+    "42_8x8": {
+      "id": "42_8x8",
+      "problem": "8 8 1\n3 2 5 1 1 1 3 1\n1 2 1 4 2 2 4 1\n- - sw se s s - -\nn - sw e - - - s\n- - - sw - - - w\n- - - - - - - -\nse - - sw - - s -\n- - - n - - - -\n- - - w nw - - -\n- e - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/042.a.htm"
+    },
+    "43_8x8": {
+      "id": "43_8x8",
+      "problem": "8 8 1\n1 1 4 3 3 1 3 1\n1 4 1 3 1 3 2 2\n- s se - - s - w\n- - - - - - - s\n- - e - sw sw - nw\nne - - - - - s sw\nse - - - - - - -\n- - - ne nw - - -\nn - - - - - - -\n- - - - - - w -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/043.a.htm"
+    },
+    "44_8x8": {
+      "id": "44_8x8",
+      "problem": "8 8 1\n1 6 1 1 1 3 5 2\n2 1 2 4 3 2 3 3\n- - s se w - - -\ns - - sw - sw n -\n- - - se - - - -\n- - - - - - - sw\n- - se - - - - n\nne - e - nw se - -\n- - - - - sw - sw\nne ne - n - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/044.a.htm"
+    },
+    "45_10x10": {
+      "id": "45_10x10",
+      "problem": "10 10 1\n1 1 6 0 3 4 5 2 1 2\n1 5 1 1 2 3 2 6 1 3\n- s e - - - - - - -\ns - se - - - - - - -\n- - - - s - - nw w -\n- - - ne e - - - s nw\n- e - sw - - - - - -\n- - - - - - - - - s\n- se - - ne - - w - nw\nse - - - - - - - sw -\ne - - - se - - nw nw -\n- - - ne - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/045.a.htm"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "problem": "10 10 1\n4 3 1 1 2 1 5 4 2 2\n1 2 1 4 1 2 5 1 7 1\n- - - - - - - - - w\n- - - - - - - sw w -\n- se - - s - se - s w\n- - - - sw - - - - -\nne e - - - - n sw - -\n- w nw - - - - sw - -\n- - - - - - - - - -\ne - sw - - - ne sw - n\n- - - - - - - - - -\n- - - nw - n - w ne -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/046.a.htm"
+    },
+    "47_10x10": {
+      "id": "47_10x10",
+      "problem": "10 10 1\n3 3 3 3 3 1 3 4 2 1\n4 1 2 2 4 2 1 3 5 2\n- - - sw - e - - - -\nne e - - sw nw sw - - -\nne - e - - - - - - -\n- - - - e - - - sw -\n- - - - - - - - - -\nn - s - - ne - - - -\nne - sw - - - - - - sw\n- - - - - w - - n -\n- ne - - - - - - - n\n- - w ne - - e nw - nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/047.a.htm"
+    },
+    "48_10x10": {
+      "id": "48_10x10",
+      "problem": "10 10 1\n5 3 4 1 3 1 3 2 6 2\n2 5 4 1 1 6 1 2 3 5\n- sw e sw - w se se - -\n- - - - - se se - - -\nne - - - - - - - - s\n- ne se ne - - - - - -\ne - - - - - ne sw - -\nse - - - - - - - - -\n- ne nw - - - - se - nw\n- - s - - w s - - sw\nse sw - - - - ne - - -\n- - - n - n - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/048.a.htm"
+    },
+    "49_12x12": {
+      "id": "49_12x12",
+      "problem": "12 12 1\n1 4 3 1 3 7 1 2 6 3 5 2\n1 7 4 1 4 3 2 1 4 3 5 3\n- - se se - - - - - - - w\n- - - s - - - - - - - -\nne se n - - - nw - se - sw nw\n- - - sw - ne ne sw - n - w\n- - - - - - w s - - - -\n- - - - - - - - - sw nw -\n- - - - s w - - - - - -\n- - se - - - - se - s s s\n- - - w - - - ne - - - n\nn - sw - - - - - - - - -\n- - - - - - - nw - sw - -\n- - - w - - n ne - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/049.a.htm"
+    },
+    "50_12x12": {
+      "id": "50_12x12",
+      "problem": "12 12 1\n1 2 4 2 3 2 3 2 1 6 3 2\n4 6 1 2 2 3 4 0 6 2 1 0\n- - - - - sw se - w - - -\n- - - - - - - - e - - s\ne - - - - - - nw - - - nw\nse s se - e w - nw - - - sw\n- - - - se - - - - - - sw\n- - - - - - - - ne - n sw\n- n - - w - - - n - - -\n- - - - - - - - - - - -\n- - - - - - - - - - - -\n- e - - - - - nw - - nw nw\nn - - - nw - - - w - - -\nne - - - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/050.a.htm"
+    },
+    "51_8x8": {
+      "id": "51_8x8",
+      "problem": "8 8 1\n2 2 1 4 2 1 6 0\n1 1 1 4 2 3 2 4\n- - - - - w sw -\ne - - - se - - -\nse s - se s - - w\n- - - - - - - -\n- - - - w - - -\n- - - - - sw - -\nn sw - - ne n - -\n- - n - e ne - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/051.a.htm"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "problem": "8 8 1\n1 2 1 4 2 1 4 2\n2 5 2 0 3 3 2 0\n- - w se sw e - -\ns - - - - - - -\n- - e - - - - nw\n- s - - sw sw - -\n- - - - - - - -\n- - - - - - - n\n- - - ne - - - -\n- - n ne - n ne nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/052.a.htm"
+    },
+    "53_8x8": {
+      "id": "53_8x8",
+      "problem": "8 8 1\n1 1 5 2 0 5 1 3\n1 4 3 1 1 2 3 3\n- - - - - - w -\n- - - - e - - -\n- ne - - w - - -\ne - - - ne nw - -\n- - - - - - - -\n- - - - ne - se sw\n- se - nw - - nw -\nn ne - ne ne - e -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/053.a.htm"
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "problem": "8 8 1\n1 1 4 1 3 3 2 1\n3 3 2 0 3 2 2 1\ns - - - - se - -\n- - - ne - - - n\n- e - - - - sw -\n- - s s - nw s -\n- - - - - sw - -\n- ne - - - - - -\n- n - - - - - nw\n- - - - ne - - w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/054.a.htm"
+    },
+    "55_10x10": {
+      "id": "55_10x10",
+      "problem": "10 10 1\n1 1 5 1 5 1 1 4 4 3\n3 4 2 2 1 7 0 5 1 1\ns s - sw - - - - - -\n- - - - se se se - n -\nne - - - - - - - ne nw\n- ne - - n - - - - nw\n- - - sw - - - w - -\n- - - s - - - - - -\n- - - ne - n ne - sw sw\n- - - - - - n - - -\n- e - nw - - - - ne -\ne - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/055.a.htm"
+    },
+    "56_10x10": {
+      "id": "56_10x10",
+      "problem": "10 10 1\n0 7 2 2 1 4 2 3 6 1\n2 1 2 6 3 2 1 2 6 3\n- - - se s e - - - -\nne - - - - - - - - w\n- - - - - - w - - sw\n- - - sw - - - n - -\nne - w - - e nw - - -\n- - - e se - - - - -\n- - se se se - sw - - w\n- - n - e - w se - -\n- - - n - - - - - n\n- ne nw - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/056.a.htm"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "problem": "10 10 1\n5 1 1 3 1 3 2 5 4 3\n2 5 3 4 2 1 2 3 1 5\n- - - sw - sw sw e - -\n- - - w - - - - - -\n- - w - - - e se nw -\n- - - - - - - - - s\n- se - - - - - - s -\n- se ne - - - w - sw -\n- - nw - ne - - - nw nw\n- w ne - e - - nw - sw\n- n - - - - - - w -\n- - - - w - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/057.a.htm"
+    },
+    "58_10x10": {
+      "id": "58_10x10",
+      "problem": "10 10 1\n3 2 5 2 1 2 3 2 2 4\n1 6 1 2 5 1 1 4 4 1\n- se se - se - - - se w\n- - - - se - - se - -\n- - - - - s - e - -\nse - - s - - - - nw -\n- - - - - ne - - - -\nne - - - se - - - - -\nn - - - nw - - ne - w\n- - - - - - - - - -\n- n w - - - - - - -\ne - nw - n ne - - - nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/058.a.htm"
+    },
+    "59_12x12": {
+      "id": "59_12x12",
+      "problem": "12 12 1\n2 3 5 2 3 2 4 3 2 2 6 4\n7 1 5 0 3 5 2 4 2 2 6 1\n- - - - se - - - - - - -\n- sw ne s - - sw se se nw - sw\n- - - - - - - - nw nw - nw\ns se ne - - - - - se - - n\n- - - - - - - - - - - -\n- - - - - ne - - - - - -\n- - - - w - nw - - - - -\n- - - - - - nw - nw - - -\nse n - - - - - - w - - s\n- - - - - - nw sw - n - nw\n- - - nw w nw - - - - - -\n- - ne - - - ne - ne ne - w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/059.a.htm"
+    },
+    "60_12x12": {
+      "id": "60_12x12",
+      "problem": "12 12 1\n1 3 3 4 5 1 5 1 1 3 5 4\n3 5 2 2 4 3 3 1 2 6 1 4\n- - - se - - se - s se sw -\nse ne - - - - - - - - - -\n- ne - - - - w - e - - sw\n- n - - - sw - se - w - -\nne - - - - se se - - - - -\n- - nw - - - - - - - - n\nne - - - w - - - - - - nw\ne - - - - - - - - - sw -\n- se - - - - - sw - - sw -\n- - - se nw - - - - - - -\n- - se - - - - - - - - w\nn ne - - - - - - e nw - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/060.a.htm"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "problem": "8 8 1\n2 1 1 4 3 2 4 1\n3 1 3 2 4 0 3 2\n- s - - w - - -\n- - e - - - - nw\n- - - e se - sw -\n- e ne - sw - - -\n- - - - - - - -\nn - - - - - sw -\n- - n - - - s n\n- nw ne - - nw - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/061.a.htm"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "problem": "8 8 1\n1 1 5 2 3 2 1 3\n2 4 2 2 2 2 3 1\n- e - - - sw - -\n- se - - - - - -\n- - nw nw - - ne -\nse ne - - - - s s\nse - - ne - - sw -\n- - - nw - - - -\n- - - - - n - -\ne n ne - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/062.a.htm"
+    },
+    "63_8x8": {
+      "id": "63_8x8",
+      "problem": "8 8 1\n2 2 4 0 1 1 2 4\n1 4 0 4 4 1 1 1\n- - - - - w se sw\n- - - - w - - -\n- se - - - - - -\n- - - sw - - - -\n- nw - - - e ne -\ne - - - - nw - -\n- n - - - - - -\ne - - nw - n ne -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/063.a.htm"
+    },
+    "64_8x8": {
+      "id": "64_8x8",
+      "problem": "8 8 1\n4 5 0 2 1 2 3 1\n3 4 2 2 4 1 1 1\nse - - - - e - -\n- - nw - - - - -\nse - - - w - sw nw\nn - - s - - - sw\n- - - - - - - nw\n- - nw - n - - w\ne - - - - - - -\n- - - nw - - w n",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/064.a.htm"
+    },
+    "65_10x10": {
+      "id": "65_10x10",
+      "problem": "10 10 1\n1 4 2 4 2 2 3 1 5 1\n4 3 1 1 2 2 0 4 6 2\n- - - - se - e - - -\n- - w - - - e - - -\ne - - - sw - - - - -\nne se - - - - - - w -\n- ne - - - - nw s - -\n- - ne sw - - - sw sw -\nn - - - - - - nw - -\nse - - - - - - - - s\n- - ne - - - - ne - -\n- - - - nw - w e - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/065.a.htm"
+    },
+    "66_10x10": {
+      "id": "66_10x10",
+      "problem": "10 10 1\n1 4 3 4 1 2 4 3 6 1\n2 2 4 1 6 4 2 1 6 1\ns - - - - se se se - -\n- - - se - - - - - nw\nne - - - sw nw - - - -\n- - - - s sw - nw w -\n- - n - - - - - - sw\nne - - - - - - ne - sw\n- - - - - ne se w - -\nne - - - - - w - nw -\n- - - - - - - - - n\n- - nw nw nw - - - w -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/066.a.htm"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "problem": "10 10 1\n3 2 3 3 1 3 2 2 4 3\n1 1 1 7 3 1 3 1 4 4\ne se - - se - se sw - -\n- se - - - - - - - -\n- - - - nw - sw sw - -\n- - - - - - - - - -\nn - - w - - - - - -\n- n - - - - - - w -\n- - - - se nw - ne - -\ne nw - - se - - - - -\n- se se ne - - - - s -\n- - - - n ne ne - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/067.a.htm"
+    },
+    "68_10x10": {
+      "id": "68_10x10",
+      "problem": "10 10 1\n2 7 1 4 1 3 3 2 4 1\n2 4 1 6 1 2 2 3 3 4\nse sw s - - - - w - s\n- - - - - e - - - -\n- - - - sw - ne - w -\n- - - - - - - - - -\nne nw - - - s sw nw - w\n- - se - - - - sw - -\n- - - - - - - - - sw\nne - sw - - - - n - nw\n- - nw - e ne - - - -\n- - ne - n - e - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/068.a.htm"
+    },
+    "69_12x12": {
+      "id": "69_12x12",
+      "problem": "12 12 1\n3 3 4 2 1 1 2 5 4 0 6 3\n4 1 5 4 3 3 2 2 2 1 4 3\n- - sw - - s - - - - - -\ne - - - s - s - sw sw - nw\n- - - sw - - - - - - nw -\n- n - sw - - - e se - - sw\n- - - sw - - - - - w - -\n- - ne - - - - - - - - -\n- - sw nw - - - se - - - sw\n- - - - - - - s - - - n\n- - - - ne - - - - e - -\n- - - n - - n - s nw - w\n- - - - - w - - - - s -\n- - - - - w - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/069.a.htm"
+    },
+    "70_12x12": {
+      "id": "70_12x12",
+      "problem": "12 12 1\n6 3 3 2 3 1 3 2 3 1 6 1\n1 1 5 3 2 2 3 1 1 5 7 3\ne - - - - - - - - s - -\ne - - sw - sw - - sw - - -\n- - - - - - - - - - - -\n- - nw - - - - - sw - - -\n- nw nw ne - - - - - - - -\nse - - - - - se - - - - nw\n- - ne - - e - - - - - -\ne - - s - - ne - - - - sw\n- - sw n - - - w - - - -\nse ne n - - - - - sw - - -\n- - - - - n - - - - - n\n- ne - e ne ne - - - - - nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/070.a.htm"
+    },
+    "71_8x8": {
+      "id": "71_8x8",
+      "problem": "8 8 1\n2 1 3 3 0 3 2 2\n3 4 1 1 1 2 3 1\n- s - e - - - sw\ns - - - - - - -\nne - - - se - - s\ne - - n - - - n\n- - ne - - - - -\n- e - - - nw - -\n- - - - - - - -\n- - ne nw ne - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/071.a.htm"
+    },
+    "72_8x8": {
+      "id": "72_8x8",
+      "problem": "8 8 1\n1 5 1 3 2 2 3 1\n1 4 1 2 3 1 2 4\n- - sw sw - - - w\n- - - - e - - -\n- - - - - - w s\n- - - n - - sw -\n- - - - ne - - -\ne - - - nw - - -\n- e se nw s - - -\nn - w - - e - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/072.a.htm"
+    },
+    "73_8x8": {
+      "id": "73_8x8",
+      "problem": "8 8 1\n3 1 3 3 1 5 1 1\n1 2 2 2 2 2 5 2\n- sw - - - - - w\n- e - - - - s -\nse - - - - - - -\n- ne - - - - - sw\n- s ne - - w nw -\n- se ne - - - sw -\n- - - - n - - -\n- - - w nw - - n",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/073.a.htm"
+    },
+    "74_8x8": {
+      "id": "74_8x8",
+      "problem": "8 8 1\n3 1 4 1 1 1 5 2\n2 3 2 3 2 1 4 1\n- s w - e - - -\nse sw - - - w - -\n- - e - - ne - n\ns - - e - - - s\n- - - - - - w -\n- se - - - se w -\n- - - - - - - -\n- - - n n - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/074.a.htm"
+    },
+    "75_10x10": {
+      "id": "75_10x10",
+      "problem": "10 10 1\n1 3 0 2 3 4 4 3 1 2\n3 5 1 1 3 2 2 1 4 1\n- - sw - - se sw - - sw\n- - - - - - - - - nw\n- - - - - - - - - w\n- ne - se - - - - w nw\n- - - - - - - - - -\nse se - - e - - - - -\n- - e - nw - - - - nw\n- - - - - - s - - nw\nn - nw - - - - - - -\ne - - - - - nw - ne -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/075.a.htm"
+    },
+    "76_10x10": {
+      "id": "76_10x10",
+      "problem": "10 10 1\n2 7 1 2 3 2 0 5 2 3\n3 2 3 7 3 3 0 1 4 1\n- - e - - - - - - -\nn - s w - - - - sw -\ns - - nw ne s - - - -\n- - - - - - - - - -\nse - - ne - - ne - - n\nne - - - se - - - n -\n- - ne - - nw se - - nw\ne - - - - nw - ne - nw\n- - - n - - - - - -\n- e - - - - - - ne -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/076.a.htm"
+    },
+    "77_10x10": {
+      "id": "77_10x10",
+      "problem": "10 10 1\n1 5 1 4 3 2 4 1 3 2\n4 4 1 1 2 1 5 3 4 1\nse se - se - - - sw e -\n- - - - - - - - - s\ne - - - ne - - - - -\n- - sw - - - - - - -\n- - nw - - - - sw nw -\ns - se - - - - - n w\n- - - - - n - sw - -\n- s - - - - - sw - nw\n- - ne - ne - - - - -\n- e n - - - - n - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/077.a.htm"
+    },
+    "78_10x10": {
+      "id": "78_10x10",
+      "problem": "10 10 1\n5 3 4 1 3 2 1 2 6 1\n2 1 3 5 2 3 3 4 2 3\n- - w e - - s - - -\n- - - sw - - - - - sw\n- - - e - - - - n -\n- nw w s - - - - - -\n- e - - - n - ne - -\nse se - - - - - - - -\nse - - - se - ne - - -\nne - sw - - - - ne - -\n- se - - - ne - ne - n\n- nw - - - - - - nw nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/078.a.htm"
+    },
+    "79_12x12": {
+      "id": "79_12x12",
+      "problem": "12 12 1\n2 3 4 1 3 3 4 1 3 4 2 3\n5 3 1 4 1 2 3 2 3 4 4 1\n- - - s - sw - - - - - -\n- - - - - - - - sw - s -\n- - - - - - - - n - w -\nse s se - - - - - - - - -\n- e - ne - - - ne s - nw -\n- - - - - - - - - n - -\n- se - - - - - - e - sw -\n- - e - - - - - nw - - nw\n- - ne sw - e - - - - - n\nn se - - - nw - - e - - -\n- - - - e - - - - - nw -\n- nw - - - - - - - - - w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/079.a.htm"
+    },
+    "80_12x12": {
+      "id": "80_12x12",
+      "problem": "12 12 1\n6 3 4 3 2 3 2 3 1 2 5 2\n1 3 5 4 2 4 2 2 5 1 6 1\ne - - - sw - - - sw - - -\n- - - - - se - - sw - - -\n- - - - - - - nw - - - nw\nn se - ne - - s - - e - nw\n- ne - - se - - - - n - -\n- - s - - - - se - - - -\n- - nw se w - - - n sw - -\n- w - - - - sw - - - - n\n- - - nw - - - - - - - nw\n- - e - - - - - - - nw -\n- - - - - - - - - - - -\ne nw nw ne - - - - ne - ne -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/080.a.htm"
+    },
+    "81_8x8": {
+      "id": "81_8x8",
+      "problem": "8 8 1\n2 3 4 1 2 0 4 2\n1 2 2 2 3 1 4 3\ne sw - s - - sw -\n- e - - s - - -\n- - - - w - - sw\ns - - - se w - -\n- - - sw e - - -\n- - - ne - - - -\n- - - w - - - -\n- - w - - ne e -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/081.a.htm"
+    },
+    "82_8x8": {
+      "id": "82_8x8",
+      "problem": "8 8 1\n3 3 2 1 2 4 2 1\n0 3 3 4 2 1 4 1\n- - - se - - sw -\n- - - - w - - s\n- - - sw - - n -\n- - - - - - sw sw\nse - n - se - nw -\n- n sw n n - - -\n- - - - - - - -\ne - - - nw - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/082.a.htm"
+    },
+    "83_8x8": {
+      "id": "83_8x8",
+      "problem": "8 8 1\n3 5 1 3 1 1 5 1\n3 0 3 2 1 4 4 3\n- - e - - - - s\nne nw sw se sw se - -\nse - - - - sw - -\n- ne - e - - - sw\ns - - - - - - sw\n- - - - sw - - sw\n- - nw - - - - sw\n- - - w - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/083.a.htm"
+    },
+    "84_8x8": {
+      "id": "84_8x8",
+      "problem": "8 8 1\n2 2 1 2 3 1 1 4\n3 1 2 1 3 0 4 2\n- - e - - se - -\n- - - s - w - -\n- - - - se se se -\n- - - - - - - -\n- n - - - - - -\n- - n - - - sw -\nn - - - - - se -\n- ne nw - - nw w -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/084.a.htm"
+    },
+    "85_10x10": {
+      "id": "85_10x10",
+      "problem": "10 10 1\n1 4 4 1 7 1 2 2 2 2\n1 4 2 1 3 5 1 5 2 2\n- - e - - - se - - -\n- - - - - - - - - -\n- - - nw - - s - - -\ne - - - - - nw - - sw\n- n - se - - nw s - -\n- - se - - nw - se - -\n- se nw - - - - - - -\nne - - - - - - - - -\nse - nw - - ne nw e - -\nn - - n - n e - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/085.a.htm"
+    },
+    "86_10x10": {
+      "id": "86_10x10",
+      "problem": "10 10 1\n1 3 3 3 3 1 3 1 5 1\n1 3 3 2 4 2 2 2 1 4\n- se - - w s - - - s\ns - - - - - - - - sw\n- - - - - - w se - -\n- ne s - - se - - - -\n- - - - e - - - - -\nne - w - se e - - - -\n- ne - - - - - - - -\n- - - e - - - - - -\nne ne - se sw - - - - -\n- - - - - - - nw - nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/086.a.htm"
+    },
+    "87_10x10": {
+      "id": "87_10x10",
+      "problem": "10 10 1\n2 4 4 1 3 1 3 4 3 1\n1 3 2 4 4 2 1 3 5 1\n- - - s - - w - - -\ns - - e - - - - - -\n- - - sw - w - - - -\n- n - - - sw - - nw -\n- - - - - - n - - -\n- - - - - - - - n -\n- - - se nw - w - sw -\n- - - ne - - - - - n\n- - - - - n - - - nw\n- e nw nw ne nw ne ne - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/087.a.htm"
+    },
+    "88_10x10": {
+      "id": "88_10x10",
+      "problem": "10 10 1\n4 4 1 4 1 2 4 5 3 1\n4 4 1 1 4 4 1 3 4 3\n- - se se - - sw - - -\nn - - - - - - n - nw\n- - sw se - - - - s w\nse n - - - - - - - w\n- - - - - - - - - nw\n- - - - nw - - - - -\ns nw - ne nw sw se sw - -\n- - - - - se - - - -\nse - n - - - - - - -\n- - - nw n - ne - - n",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/088.a.htm"
+    },
+    "89_12x12": {
+      "id": "89_12x12",
+      "problem": "12 12 1\n3 3 3 1 1 3 3 5 5 4 3 2\n5 5 1 1 1 3 1 4 2 6 5 2\n- - - - - - e sw - - sw -\nse - - s - w - - - - - -\n- n - ne - - - - n - - w\n- - s - - ne - - - - w -\ne - - - - - - - - - - -\n- - - - - - - w - - - sw\n- s - e - - - - - - n -\n- - - - - - - - sw - nw -\n- e - - - - ne - se - nw n\n- - - ne - - - - e sw - -\n- nw nw - n - nw - - - - -\n- - e - - - - w - - ne -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/089.a.htm"
+    },
+    "90_12x12": {
+      "id": "90_12x12",
+      "problem": "12 12 1\n4 2 1 2 5 3 5 1 4 2 4 3\n1 4 5 6 2 1 1 2 5 1 2 6\n- - s - - - - s - - - w\n- sw - - - - - - - - se -\n- - - - - - - - se - nw -\n- - - ne - - n - - s e -\n- - - - - - - w - nw - nw\nne - e - - - - - - - - s\n- - - - - n - - s - - w\n- n - - - - - sw nw - sw sw\n- - - - - - - - - - - -\ne - se se nw - - - - - s -\n- sw - nw - - - - w - - -\n- ne - - - - - - nw - nw -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/090.a.htm"
+    },
+    "91_8x8": {
+      "id": "91_8x8",
+      "problem": "8 8 1\n1 3 2 1 4 3 1 3\n4 1 2 1 4 2 3 1\n- - - - - - - -\ne - - - - - - n\n- n - - - n - sw\n- - n - - w s nw\n- - ne - - - - -\n- - e n w - - s\nn - - - - w - -\ne - - - ne - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/091.a.htm"
+    },
+    "92_8x8": {
+      "id": "92_8x8",
+      "problem": "8 8 1\n1 3 5 0 2 4 1 2\n1 4 1 4 2 1 4 1\n- - sw - - - sw w\nse - - - - - - -\nse - - - w nw - -\n- - - - nw - - -\n- se - - - - - -\n- - - ne - - - n\nn - - ne - - n -\n- - nw nw - - ne w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/092.a.htm"
+    },
+    "93_8x8": {
+      "id": "93_8x8",
+      "problem": "8 8 1\n2 3 3 2 1 2 5 1\n4 5 1 2 1 3 1 2\n- - - - - - - -\n- - n - sw - - -\n- - - - ne s - w\n- ne - nw ne - nw sw\n- - se se - - - n\nn - - - - - nw -\n- - - - - - - w\n- - w nw nw - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/093.a.htm"
+    },
+    "94_8x8": {
+      "id": "94_8x8",
+      "problem": "8 8 1\n3 1 2 2 3 2 4 1\n1 4 4 1 1 2 5 0\ne - - - - - - sw\n- - - - - - - sw\n- nw - - - - - -\nse e - ne - - - -\nne s se se - - - w\nne - - nw - - nw -\n- - - - - - - n\n- nw - - - - - nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/094.a.htm"
+    },
+    "95_10x10": {
+      "id": "95_10x10",
+      "problem": "10 10 1\n1 4 1 3 3 2 2 5 2 2\n1 2 6 1 0 1 4 5 1 4\n- - e - se - - - - -\n- se e - sw - - - sw -\n- - - - - - - - - -\n- n - - - - - e - -\n- - - - - - - - s -\ne - - - - ne - nw - -\nse - - - - - - - sw s\nne - se nw - - ne - - -\n- - - - - n e - - -\nn - ne w - - e - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/095.a.htm"
+    },
+    "96_10x10": {
+      "id": "96_10x10",
+      "problem": "10 10 1\n4 4 3 2 4 2 1 3 2 3\n3 2 3 6 1 2 2 3 4 2\n- - sw - sw - e - - sw\nne nw - - - - sw w e -\n- se se - - - - - sw sw\n- - - - - se - - - -\n- - - - w - nw - - -\ns - - e - - - - w -\n- s - - - - - - - sw\n- - - - nw - - sw - sw\n- - - - - - - e - -\n- - - ne ne - n - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/096.a.htm"
+    },
+    "97_10x10": {
+      "id": "97_10x10",
+      "problem": "10 10 1\n1 6 1 3 2 1 1 5 3 5\n3 3 7 1 1 2 2 6 1 2\n- - sw - - - e - - -\nne - s - sw s - e se -\n- - - - - - nw - - -\nse - - - - - - - w nw\ns - - - - - - - w nw\nse - - - - - - s - -\nne - - s - - - ne nw sw\n- s - - - ne - - - -\n- - - - e - - - - -\n- - e - - - - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/097.a.htm"
+    },
+    "98_10x10": {
+      "id": "98_10x10",
+      "problem": "10 10 1\n3 0 1 4 4 3 2 2 4 2\n2 4 2 1 4 0 2 4 3 3\n- - - - sw - w sw - -\n- - - - - - - - - -\n- e - - - - - - - -\n- - ne - - n - - - nw\nn - - - se - - - n -\n- - - se - - se - - sw\n- - sw - - ne - - - -\n- - - se - - - - - -\n- - nw - - nw - - s n\nne ne n - nw - w - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/098.a.htm"
+    },
+    "99_12x12": {
+      "id": "99_12x12",
+      "problem": "12 12 1\n1 3 1 2 2 1 2 4 3 3 5 4\n1 6 1 7 3 2 3 2 1 3 1 1\n- - - - - - sw - sw sw sw w\ns - s - - - - - - - - -\ne - - - nw - - - se - - n\nse - - - - - - - nw - - -\n- - - - - nw - nw sw - sw -\n- - sw - - - - - - ne - sw\n- - - - - - - - - - - -\n- - - - - nw - se - se - -\n- - - - - - - - - ne ne sw\n- - - - - - - - - - - -\n- - - - - ne - - - - - w\nne - ne - - - - - - - w -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/099.a.htm"
+    },
+    "100_12x12": {
+      "id": "100_12x12",
+      "problem": "12 12 1\n1 6 0 4 3 5 2 1 2 4 6 2\n2 2 3 3 7 1 3 1 4 4 3 3\n- - e - - - - - - - - sw\n- - - - - - se - w - se -\n- - - sw - sw - w sw n - -\n- - e - - - - - - se - s\n- - - - - nw - s - - - -\n- e - nw - - - - se - - -\nse - - - - w - sw - - - sw\n- - - - - - - nw sw - w nw\n- - - - ne - sw - - - - sw\n- - nw - - - - - n - - sw\n- - - - - - - - - - - sw\nn - - - - w - ne - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/100.a.htm"
+    },
+    "101_8x8": {
+      "id": "101_8x8",
+      "problem": "8 8 1\n2 2 4 3 1 3 1 1\n2 3 2 2 1 3 3 1\n- - se - se - - -\nse se - - - - - -\nse - nw - s - - -\nne - - - - - nw -\ns s - sw - sw - -\n- n - - - - - -\n- - - - - - n -\n- - - nw - - - n",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/101.a.htm"
+    },
+    "102_8x8": {
+      "id": "102_8x8",
+      "problem": "8 8 1\n2 1 4 2 2 2 3 3\n3 3 3 1 1 4 2 2\n- s - se e - - -\n- - - sw - se - -\nne - - - - - - nw\n- e - - - se - n\n- e - - - - sw sw\n- se - - - - - -\nn - - ne - - se -\n- - - - - nw w -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/102.a.htm"
+    },
+    "103_10x10": {
+      "id": "103_10x10",
+      "problem": "10 10 1\n2 6 3 1 3 4 3 5 1 2\n4 5 1 4 2 2 3 3 2 4\n- - - - - - sw - - -\n- - nw ne - - ne - - -\nse - - sw e - - - - -\ns - - - - - - - - nw\n- - - - - - w sw - -\n- - - - w nw - nw n s\n- - - s s e - - - nw\nn - - nw - - ne - sw -\n- - nw nw e - - - - -\n- ne nw - - ne - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/103.a.htm"
+    },
+    "104_10x10": {
+      "id": "104_10x10",
+      "problem": "10 10 1\n1 1 5 2 3 2 1 5 4 3\n2 2 2 6 1 3 4 2 1 4\n- s - - sw - e - - -\n- - e - - n - - sw sw\n- - - sw - - - se - -\n- - - - sw nw - - - -\ne - - - - - - - sw sw\n- se - - - s - - - -\nn - - - s - s - - -\n- - - n - e - s ne -\n- - - sw ne - - - - w\n- - - - - ne - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/104.a.htm"
+    },
+    "105_10x10": {
+      "id": "105_10x10",
+      "problem": "10 10 1\n3 2 4 4 3 1 1 1 7 1\n2 4 1 1 4 1 5 2 3 4\n- - - - - - e w - -\n- - - - - - - e - -\n- - - nw - - - sw - w\n- ne - sw - - - - - w\n- - - - - - - nw - -\n- - ne se - - - ne w -\nn - sw - - - e - - -\n- n - sw s - - - w -\n- se - s - n - - - -\n- - - - - e - n - n",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/105.a.htm"
+    },
+    "106_10x10": {
+      "id": "106_10x10",
+      "problem": "10 10 1\n1 3 5 4 2 2 2 2 5 1\n4 3 1 3 1 4 3 4 1 3\n- - - sw - - - - - -\n- - - - - - nw ne - s\nne - ne - w - s se - -\n- - - - - - - - - -\nse - se - n - - - - w\n- - - - nw - - - - -\nne n - - e - - - s -\n- - - - w - ne - - -\nse ne s - - - - - - w\nn - - e - - - - - nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/106.a.htm"
+    },
+    "107_10x10": {
+      "id": "107_10x10",
+      "problem": "10 10 1\n1 3 3 2 2 3 3 6 1 2\n1 2 3 6 1 3 2 4 2 2\n- se - - - - se - s w\n- - - se se - w - se sw\n- - - - - w - - - -\n- - - - - - - - nw -\n- - sw e - - - - - s\n- - - n s - - - - -\n- s - - w nw - sw - -\n- - - - - - e - - -\nn - - - - - - - - -\n- - - ne - w ne nw - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/107.a.htm"
+    },
+    "108_10x10": {
+      "id": "108_10x10",
+      "problem": "10 10 1\n2 4 2 4 4 1 1 2 3 2\n5 1 4 1 3 1 5 1 2 2\n- - se - - s - - - -\nne - ne - sw - e - - -\n- - - - - e - - - s\nse - - - - - - nw - w\n- - - e - - - - - -\ne - - - nw - - - n n\nn - - - - - - - - -\nne e - - - - n - - -\n- e - - - - nw w - sw\n- - - - - - - w - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/108.a.htm"
+    },
+    "109_12x12": {
+      "id": "109_12x12",
+      "problem": "12 12 1\n2 6 4 2 1 5 4 1 4 2 6 1\n4 5 5 2 3 1 3 2 3 4 3 3\n- - - - - - se - - - - sw\nne - n w - - - - - ne - s\n- - - - - - ne - - - - -\n- ne - - e - w - - - - -\n- - - - e ne - nw ne nw - -\nne e - - - - - - s - - -\n- - - se - - - w - sw - -\n- - - - - - nw - - - - nw\ns - - nw se - nw - - - - sw\n- - - - n - - - - - - sw\n- - - nw - - - - - n - sw\n- - - nw - nw - n w - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/109.a.htm"
+    },
+    "110_12x12": {
+      "id": "110_12x12",
+      "problem": "12 12 1\n2 2 2 4 3 4 2 2 4 5 4 4\n3 3 8 1 1 2 5 3 3 1 8 0\n- - - - sw se se - sw se - -\n- - nw - - - - e - - - n\n- - - - w - - - - - - -\n- - s e - - - s - - nw -\n- s ne - - - - - - - - w\nse - - - - - - se - - n -\n- - - se - - - - e - - -\n- - - se - - - ne - - nw -\nn - n - - - sw nw - - sw sw\n- - - s - - - nw - ne - s\n- w - - - - - - - - - -\n- - - - ne - ne - - - - nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/110.a.htm"
+    },
+    "111_8x8": {
+      "id": "111_8x8",
+      "problem": "8 8 1\n1 2 4 2 3 1 1 3\n2 4 1 2 3 3 1 1\n- - - w se - se -\n- - se - - - - -\nse - se - - - - -\nse - - s - w - -\n- - - - - - - nw\nn n - - - - - -\ne - - - - n - -\ne - ne - - ne - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/111.a.htm"
+    },
+    "112_8x8": {
+      "id": "112_8x8",
+      "problem": "8 8 1\n2 4 2 2 0 1 5 1\n2 3 1 1 1 4 2 3\n- sw sw - w s - -\n- - se s - - n s\ne - - - - - - -\ne - - - - - - sw\ns - - se - - - -\n- - - - - - - -\n- - - w - - - -\nne - - - w ne - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/112.a.htm"
+    },
+    "113_10x10": {
+      "id": "113_10x10",
+      "problem": "10 10 1\n1 3 1 3 3 2 5 2 4 1\n3 1 5 1 2 2 2 2 2 5\nse - - - w - - - - -\ns - - se - - - sw n -\n- - - - - ne - - nw -\ne - - - - - - n sw -\nse ne - s - - - - - s\n- n - - e n - - - -\n- se - - - - - - - -\n- - - - - e - - sw -\nse - - - - - w - - sw\n- - n - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/113.a.htm"
+    },
+    "114_10x10": {
+      "id": "114_10x10",
+      "problem": "10 10 1\n2 5 2 5 2 1 2 5 3 1\n3 2 2 4 3 1 1 4 6 2\n- - - e - - - - - -\n- e - - - - - - - -\ns - e - sw - - - - -\nne - - - nw s - - - s\nn - - - w - n - - -\ne - - nw - - s - - -\nse se n se ne - ne - w -\nse - - - - - - - - sw\n- - - - nw - ne - - -\n- - - w e - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/114.a.htm"
+    },
+    "115_10x10": {
+      "id": "115_10x10",
+      "problem": "10 10 1\n1 3 1 1 4 5 4 5 1 1\n2 5 2 4 1 1 3 3 4 1\nse se se sw - sw e - - -\n- - - - - - - - - -\n- - e - - - ne - sw sw\n- s - - - - - - nw -\nne - ne - - ne - - - sw\n- - - - - - w - - -\ns - - - - - sw - - -\n- - - - - - - sw sw n\n- - - - - - - - - -\n- - n n - e - - n -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/115.a.htm"
+    },
+    "116_10x10": {
+      "id": "116_10x10",
+      "problem": "10 10 1\n1 1 1 0 8 2 1 1 5 1\n1 1 1 6 2 2 2 2 3 1\n- - - - se - - - - w\ne s s - - - se - - -\n- e - - - - s - - -\n- - - - - - - - - -\n- - - - - - se sw - -\n- e - - - nw - sw - -\n- - - - - n - nw - -\n- - - - - - - - - -\nn - - - - - - e - -\n- ne - - ne - - n - w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/116.a.htm"
+    },
+    "117_10x10": {
+      "id": "117_10x10",
+      "problem": "10 10 1\n1 1 6 1 3 0 6 1 1 5\n2 5 3 1 3 1 2 1 3 4\ns - - - - e - sw se -\n- se n - - - - s se -\n- - - - - - - se s -\ne - - - - se - nw - -\n- - - - - - - nw sw -\n- - se - - - - - - sw\nne - - - - w - e - -\n- - - - sw - - w - -\n- - - - - sw - - - -\n- n - n - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/117.a.htm"
+    },
+    "118_10x10": {
+      "id": "118_10x10",
+      "problem": "10 10 1\n2 3 6 2 1 2 5 3 1 5\n4 3 3 2 3 1 5 3 4 2\n- - - - s w - - - -\n- - - - - se - - ne -\n- - - - - w - - nw nw\nse - - e - - - - nw -\n- - - - - nw - e - -\nse - e nw nw se - nw - -\n- - - sw se - - se - sw\n- nw - nw w - e sw - -\n- - - - - - - - - -\n- ne - - w - - - n -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/118.a.htm"
+    },
+    "119_12x12": {
+      "id": "119_12x12",
+      "problem": "12 12 1\n1 5 1 4 1 1 4 2 3 6 5 0\n2 4 3 5 1 5 4 3 2 1 3 0\n- - - sw s e - - - se - -\n- - - - - - - se - - - -\n- - sw - - se sw - - sw - -\n- - - - - - - - - - - nw\n- e - - - nw n n sw - - nw\nse - - - se nw - - - - - -\n- - nw - sw - - - se - - -\nn - n - - - - - - ne sw -\n- - - - - sw - ne - - - -\nne - - - - ne s - - - w -\n- - - - - - - e - - - -\n- - - - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/119.a.htm"
+    },
+    "120_12x12": {
+      "id": "120_12x12",
+      "problem": "12 12 1\n2 5 2 4 2 6 1 1 1 5 6 6\n7 1 4 2 1 5 3 5 3 6 2 2\n- - - - - - se - - sw - -\ne - ne - sw - s - - - - n\n- n - - - - - - - - - -\n- - - sw - - - - nw sw - -\nne se - - sw - - se ne n - -\n- - - - - ne - nw - - - -\n- - se - - - - e ne - se -\nne s se - - - - - - - - -\ns se - - - - - - e - sw sw\nn - - - - - ne - - - - -\n- - - - - - e n - w ne -\n- e ne - - - - - n - nw -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/120.a.htm"
+    },
+    "121_8x8": {
+      "id": "121_8x8",
+      "problem": "8 8 1\n2 4 4 2 1 0 3 1\n2 3 2 4 2 2 1 1\n- e se - - - sw s\nse - se - e - - -\ns n - - - w - -\nn - - - - e - -\n- se - - - - - -\n- - - ne - - - -\ne - - - nw - - -\n- e - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/121.a.htm"
+    },
+    "122_8x8": {
+      "id": "122_8x8",
+      "problem": "8 8 1\n7 1 1 0 1 4 1 2\n1 2 1 3 3 4 2 1\n- sw sw - - - - w\n- - s e - - - -\n- se - - s - sw s\n- sw - - - - - -\n- sw - - - - - -\n- - - - - - - -\n- w - - - - - -\n- n ne - nw - w nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/122.a.htm"
+    },
+    "123_10x10": {
+      "id": "123_10x10",
+      "problem": "10 10 1\n1 5 3 2 3 1 3 3 3 3\n1 4 4 1 5 2 1 2 5 2\nse - - - - - sw - se w\ns - - s se - - sw - -\n- - - - - - - - - -\n- se nw - nw - - - w nw\n- - - - - - - - - nw\n- - nw - - - - - - s\n- - se - - ne - - - -\n- - - e - ne ne s - nw\n- ne - w - - - - - -\n- - - e w - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/123.a.htm"
+    },
+    "124_10x10": {
+      "id": "124_10x10",
+      "problem": "10 10 1\n4 1 3 1 3 1 3 5 4 2\n3 1 1 3 3 3 3 4 4 2\n- - - w sw se sw - - -\n- - - - sw s - ne - w\n- sw - - - sw - - w -\n- - se - - - - sw - -\n- se - - - - - - - -\n- se ne - - e s - sw -\n- - s - - - - - - -\n- - - - - e - - - n\n- - - - - - - e - s\n- n - n - - - - w -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/124.a.htm"
+    },
+    "125_10x10": {
+      "id": "125_10x10",
+      "problem": "10 10 1\n6 3 0 2 3 3 3 4 2 2\n2 3 3 4 2 1 1 5 5 2\n- sw - - se - - - w -\n- - sw se - e - - - -\nne - - - - - - - - -\n- - - - se - - - - nw\n- - - sw - - - ne sw sw\nne - se n ne - - - nw -\nse - nw - - - - w - sw\n- - - - - - - - - sw\n- w - - - - ne - - -\n- w e - nw - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/125.a.htm"
+    },
+    "126_10x10": {
+      "id": "126_10x10",
+      "problem": "10 10 1\n2 5 1 6 2 2 3 1 5 1\n2 2 1 5 4 2 5 3 2 2\n- - - - - - - w - -\n- - e w se - - - - nw\ns se e - - - - s - -\n- - - se sw - - - - -\n- n - w - n - - - -\n- - e - s ne ne - - -\n- - nw - - - ne - - -\nse - - - w sw - ne - -\nse - e - - - - ne - n\n- - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/126.a.htm"
+    },
+    "127_10x10": {
+      "id": "127_10x10",
+      "problem": "10 10 1\n1 3 3 6 2 4 1 1 4 3\n1 2 6 2 1 3 4 1 6 2\ne - sw - - - s - - -\n- - - e - - - - se sw\n- - - - - se - - - -\n- s - - w - - - - -\nne - - - sw - w - - nw\nne - - - - - - - - -\n- - - - e - se sw - -\nse - se - e - - - - nw\nn - se - - - ne - - -\nne - - - - nw - n ne -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/127.a.htm"
+    },
+    "128_10x10": {
+      "id": "128_10x10",
+      "problem": "10 10 1\n2 2 5 1 3 2 2 5 3 3\n5 1 2 3 5 1 2 2 2 5\n- - - w - - - - - -\n- - - - - - ne - ne w\n- - - e - - se nw - -\n- - - nw - sw - - - sw\n- se - - - - n - - -\nse - - - w sw - - n -\n- - - - nw nw - - - nw\n- - - - - - - s - -\nn se - - e - sw - - nw\n- w - - ne - - - e -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/128.a.htm"
+    },
+    "129_12x12": {
+      "id": "129_12x12",
+      "problem": "12 12 1\n2 4 4 2 3 3 4 1 3 4 5 4\n3 5 2 1 3 4 2 2 7 4 3 3\n- se - - - - - e - - - -\n- ne - - - - - s - - - -\n- - - - ne sw - nw ne - - -\n- - - - - sw ne se - - w sw\n- ne - n - - - - w s - -\n- - - - - - - - e - - -\n- se - - - - - w - se - n\nse - - - - - - - sw - - -\nn - - - - - - - - - - -\nse - ne nw - nw - - nw ne - -\n- - e - - - - - - - nw -\n- nw ne nw - - w - e ne - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/129.a.htm"
+    },
+    "130_12x12": {
+      "id": "130_12x12",
+      "problem": "12 12 1\n4 1 7 1 1 3 2 4 3 3 3 6\n1 2 8 3 1 2 6 1 3 2 1 8\n- - - sw - e - - - se - -\n- w e - s - sw - se - - -\n- se - - - - - - - - - -\n- - - - - - se n - se - sw\ns - e - - - - - - - nw -\n- - - ne - nw - - - - se -\n- - - w - sw - - - - - -\n- - - - - nw - - - se n w\n- - - - - s - - - sw - -\nse - - - e - n - - sw nw s\nse - - - nw - - - se sw - w\n- - - - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/130.a.htm"
+    },
+    "131_8x8": {
+      "id": "131_8x8",
+      "problem": "8 8 1\n2 0 4 1 1 4 3 3\n1 1 3 4 3 2 3 1\ne - - s se - - -\ne - - - - - - -\n- - - - - - - sw\n- ne - - - - - -\n- ne - - - e nw -\nn se - nw - - w -\n- - - - - - ne -\nne nw e - n - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/131.a.htm"
+    },
+    "132_8x8": {
+      "id": "132_8x8",
+      "problem": "8 8 1\n1 2 2 5 1 1 5 1\n4 2 1 1 2 4 1 3\n- - - - sw s - -\nse ne se - - - - -\n- ne - - sw - n -\n- - e - - - - -\n- n - - - - - -\n- - - - - ne - n\n- ne se - - - - -\nn ne - - n - - nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/132.a.htm"
+    },
+    "133_8x8": {
+      "id": "133_8x8",
+      "problem": "8 8 1\n4 1 1 1 4 1 3 2\n3 1 1 6 0 1 4 1\n- - s sw - - - -\ne - - ne - - - nw\n- - - - w - - sw\n- - - - - - - -\ns - - - nw - ne s\n- - ne - s - - -\n- n - n - n - -\n- - - - - - - w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/133.a.htm"
+    },
+    "134_8x8": {
+      "id": "134_8x8",
+      "problem": "8 8 1\n5 1 1 1 1 2 4 1\n2 2 1 1 1 2 6 1\n- - - - sw - - -\n- - - w - - - -\n- - - - - - - -\n- - - w ne - - -\n- - - - ne se - -\nne sw - - - nw sw sw\n- - - ne - - - -\n- n n - - nw - w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/134.a.htm"
+    },
+    "135_8x8": {
+      "id": "135_8x8",
+      "problem": "8 8 1\n1 3 3 3 1 1 3 3\n1 2 1 3 4 1 2 4\n- e - - - - - -\n- - - - - - w -\nse - - - - - w -\n- - - - - - - n\n- ne s - - - - -\nn - se sw n - - s\nne - - - - se - nw\n- - - ne ne ne - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/135.a.htm"
+    },
+    "136_10x10": {
+      "id": "136_10x10",
+      "problem": "10 10 1\n2 6 1 4 3 2 3 3 2 2\n7 1 4 3 0 3 1 3 3 3\n- - se - - - - - - -\nne - sw ne - - - - - w\nn - sw - ne - ne - - -\n- - ne sw - - - - - -\ns - se ne - - sw - - nw\n- - - - - ne - - nw sw\n- - - - - se - - - w\n- se - se - - - - - -\n- - n - - - - - - n\n- - ne - ne - e - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/136.a.htm"
+    },
+    "137_10x10": {
+      "id": "137_10x10",
+      "problem": "10 10 1\n1 6 2 3 2 3 0 2 4 1\n1 2 5 1 1 3 4 5 1 1\n- - - - - sw - - - w\n- - - sw s - - w - -\nse - - - - - - ne - -\n- e - - - n - - - -\n- se s - - - - w - s\nse - - w - - - - - -\n- - - - - - - n sw -\n- - - - w - ne - - -\ne - - - - - - ne - -\nn - e - - - - - nw -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/137.a.htm"
+    },
+    "138_10x10": {
+      "id": "138_10x10",
+      "problem": "10 10 1\n2 8 1 1 1 1 4 5 2 2\n5 3 3 3 4 1 1 4 1 2\n- - - - - - - - - -\nne - s - - - w - - -\nn - - - - n - - nw -\nne - - - - - e - - n\nne - - - - - - - e -\ne - - - ne - - - sw -\n- ne - nw w ne - - - -\n- ne - sw - w - - - nw\ne - - - - - ne - - -\n- - - n - e ne - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/138.a.htm"
+    },
+    "139_10x10": {
+      "id": "139_10x10",
+      "problem": "10 10 1\n5 1 1 5 3 1 2 3 3 1\n1 4 4 5 1 2 1 1 3 3\n- s - - - w - sw - -\n- - - sw se sw - e - s\n- - - - e - - - - -\n- - - - - - - - - -\n- se se nw - - sw - nw -\n- e nw ne - - - sw - -\n- - - - - - se - - sw\ns - nw - - nw - - - -\n- - - - - s - - - nw\n- - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/139.a.htm"
+    },
+    "140_10x10": {
+      "id": "140_10x10",
+      "problem": "10 10 1\n1 4 3 4 1 2 6 2 0 2\n3 2 1 2 1 6 0 7 2 1\n- - - - sw - e - - -\n- ne - - - - - s - -\ne - - - - nw - nw - -\n- - - - - - w - - -\n- - sw - - - - - - w\nse - - - - - - - - -\nse - - nw sw n - sw sw n\n- - - - - - - e - -\nn - - - - w - - - nw\ne - - ne n - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/140.a.htm"
+    },
+    "141_8x8": {
+      "id": "141_8x8",
+      "problem": "8 8 1\n1 1 0 4 2 4 1 0\n2 2 1 3 2 1 1 1\ns s - - e - - -\n- - - e - - - sw\n- - - - s - - sw\nne - se - ne - - -\n- - - - nw - - -\n- - - - - - - -\n- - - - - - n -\ne - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/141.a.htm"
+    },
+    "142_8x8": {
+      "id": "142_8x8",
+      "problem": "8 8 1\n3 1 4 1 1 0 6 1\n3 2 1 3 3 1 3 1\n- w - - s - - sw\n- - - - se - - nw\n- sw n sw - - - -\n- sw - - - - - sw\n- - - - se - - -\n- - - nw - - - w\n- n - - - w - -\n- - - w - - ne -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/142.a.htm"
+    },
+    "143_8x8": {
+      "id": "143_8x8",
+      "problem": "8 8 1\n2 1 0 3 3 2 4 3\n2 1 1 2 6 1 0 5\n- - - - - - w -\n- - - - - se - n\n- - - - sw sw w nw\n- se se - - - se -\n- - - s - - - -\n- - e - - - - nw\nn - ne - - sw - -\n- n ne - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/143.a.htm"
+    },
+    "144_8x8": {
+      "id": "144_8x8",
+      "problem": "8 8 1\n1 2 1 1 3 1 1 4\n2 4 1 1 1 3 2 0\n- - s w - sw se -\n- - - - - sw - -\n- - - - - - - -\n- - - - - - w nw\n- - - - - - - w\n- - - - ne - se -\n- - - - - - ne -\n- - - n - nw - nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/144.a.htm"
+    },
+    "145_8x8": {
+      "id": "145_8x8",
+      "problem": "8 8 1\n1 2 1 4 2 4 1 1\n2 3 3 1 0 2 2 3\n- se - - - w - -\n- - - - e - sw -\nse - s - nw - - -\nne - - e - - - sw\n- - - - nw - - -\n- - - - - - sw -\n- - - ne - - - -\nn - - - e - - n",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/145.a.htm"
+    },
+    "146_10x10": {
+      "id": "146_10x10",
+      "problem": "10 10 1\n2 2 5 3 3 3 1 2 0 4\n2 1 3 1 2 4 4 2 1 5\n- e - - - sw - - - -\n- - sw - - - - - w -\ns - - - - - - - - -\n- s - e - - - - se -\nne - - - - - w sw - -\nse - - sw - s se - - -\n- - - nw - se - - - -\nn - - ne - - - ne ne nw\n- e - - sw - - - - -\n- - - - - e - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/146.a.htm"
+    },
+    "147_10x10": {
+      "id": "147_10x10",
+      "problem": "10 10 1\n1 4 3 4 1 2 1 8 1 1\n3 4 1 3 2 2 4 3 3 1\ns - - - s - - - - -\n- - ne - - - e - - -\n- e n - - - - - - nw\nse - - - - - sw - - -\n- - sw - sw n w - nw -\nse - - - - sw se sw - -\n- - - - - se nw - - -\n- - - - - - e - - -\n- - - - - - - - - -\n- - ne - e - n - n n",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/147.a.htm"
+    },
+    "148_10x10": {
+      "id": "148_10x10",
+      "problem": "10 10 1\n2 3 1 1 2 7 1 3 2 4\n1 4 3 1 6 1 0 4 3 3\n- sw - s - - - sw - -\n- - - - - - - - s -\ns - - - ne - - - nw -\n- - - - - - w - nw -\n- n se - - - - - - -\n- - - - - nw nw se - w\nse - - - - ne - - n n\n- - - se s - - - - -\n- - - - - - w - - -\n- ne n - - - - e ne -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/148.a.htm"
+    },
+    "149_10x10": {
+      "id": "149_10x10",
+      "problem": "10 10 1\n2 1 4 1 6 3 2 4 2 1\n5 2 3 6 2 2 1 3 1 1\n- s - s - - - sw sw -\nse - e sw - - - nw - -\nn sw - - nw n - sw - -\n- - - - - - - - s -\n- - - - w - se - nw -\n- - - - - s ne - - n\n- - - se - - - - - w\n- - - - - - - - - -\n- - e - - - - - - -\n- ne e - - ne - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/149.a.htm"
+    },
+    "150_10x10": {
+      "id": "150_10x10",
+      "problem": "10 10 1\n5 1 3 2 2 1 2 4 1 4\n1 0 6 3 3 3 1 5 2 1\ne - - se - - sw - - -\n- - - sw sw - - sw se -\n- - - - - - se - - -\n- nw - se - - - sw nw -\n- - - - - e - sw - -\n- - - - - - - - sw -\n- - - - n - - - - s\n- w - - - ne - - - -\n- e - - - nw - nw n -\n- - - - nw - - - - w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/150.a.htm"
+    },
+    "151_8x8": {
+      "id": "151_8x8",
+      "problem": "8 8 1\n1 1 3 3 4 1 1 1\n1 4 2 2 2 2 2 0\n- e - sw - - - s\n- - - - - - sw -\n- - ne - n - w -\n- - - w - sw - -\n- se - se - n - -\n- - - - - - - -\n- n - - - - n -\nn - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/151.a.htm"
+    },
+    "152_8x8": {
+      "id": "152_8x8",
+      "problem": "8 8 1\n3 3 1 1 3 1 5 0\n4 2 1 1 2 3 3 1\n- - - - - s - sw\n- - se sw - nw - -\nne - - nw - - - -\n- - ne - - - - -\n- - - - - - - -\n- - nw - ne - - -\nne nw ne - - - nw -\n- - - n - nw - w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/152.a.htm"
+    },
+    "153_8x8": {
+      "id": "153_8x8",
+      "problem": "8 8 1\n1 5 2 1 2 3 1 5\n1 2 2 4 3 3 1 4\n- - - s se w se -\n- - w - - - - -\n- - w - e - - -\n- - - - - - - -\nn - - - - n sw nw\nne - - - s - - sw\nne ne - e n - se -\n- - w - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/153.a.htm"
+    },
+    "154_8x8": {
+      "id": "154_8x8",
+      "problem": "8 8 1\n1 1 2 0 3 3 2 4\n1 3 2 3 3 2 1 1\ns e - - - - - -\n- - se sw - - - -\n- - - e se - nw -\n- - ne - - ne - -\n- se - - - w - -\n- - - - ne - ne -\n- - - - - - w -\n- n e - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/154.a.htm"
+    },
+    "155_8x8": {
+      "id": "155_8x8",
+      "problem": "8 8 1\n1 1 2 3 2 4 1 2\n3 1 2 4 1 1 2 2\n- - - - w - - -\ns - - - - n - nw\n- - - - - sw - -\n- ne - - nw - - -\n- - - w n - - -\n- - - - - - - w\n- - e - ne - nw s\n- ne - - - - w -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/155.a.htm"
+    },
+    "156_10x10": {
+      "id": "156_10x10",
+      "problem": "10 10 1\n4 2 1 5 1 4 1 3 1 2\n3 3 3 4 1 2 4 2 1 1\n- - s - sw - e - - sw\n- - sw - nw - - sw - -\n- nw - - s w - - - -\n- - - e sw - - - - -\ne - - - - - - - - nw\n- - - w e - - - - -\nne - - - - - se - - -\n- - e - ne - ne - - n\n- e - - - - - - n -\n- - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/156.a.htm"
+    },
+    "157_10x10": {
+      "id": "157_10x10",
+      "problem": "10 10 1\n1 5 5 1 1 5 5 3 1 1\n3 2 4 2 2 3 1 6 3 2\ns - - - se - - - sw -\n- - - sw s - sw - s -\nne - - nw - - - - - -\n- - ne sw - - - - - nw\n- - w nw - - - - - -\n- - - - sw e - n - -\n- - s - ne - w sw - -\n- - - - - - - - - -\n- - - n ne e - - - -\n- - - w e ne - ne - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/157.a.htm"
+    },
+    "158_10x10": {
+      "id": "158_10x10",
+      "problem": "10 10 1\n3 5 1 1 3 2 2 5 3 1\n5 1 1 4 3 3 3 1 2 3\n- - s se - - - - - -\nne - - - - - - - - sw\nn sw - - - sw - n - -\n- - - - - - n - - -\nne - se - - - w - - -\nne - - - e se se - n sw\nne - - ne - - - - - -\n- - - - - - sw - w -\n- - - - - w - - - -\n- w - - - e - - nw -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/158.a.htm"
+    },
+    "159_10x10": {
+      "id": "159_10x10",
+      "problem": "10 10 1\n1 4 1 3 2 3 4 3 2 1\n0 5 5 2 1 0 2 2 3 4\nse - s - se - - - - sw\nse - - - - - sw - - -\n- - - - - - - - nw sw\n- - - - - - w - - -\nne - - - s - - - - s\nne - se - n ne - - sw -\n- - sw s - - - - - -\n- - e - - - - - - -\nn - sw - - - - - sw -\n- - - - - ne - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/159.a.htm"
+    },
+    "160_10x10": {
+      "id": "160_10x10",
+      "problem": "10 10 1\n3 2 3 3 3 4 3 1 1 1\n2 2 6 1 1 1 1 2 4 4\n- - se - w - - s s -\n- - - - w - - - - -\n- - - - - - - - - -\ns e s - - - - - nw -\nne - nw - - - - - - -\n- n - se - - n w - -\n- - - - - - - w - -\nne - - - - - - - sw -\nse - - - - sw - nw - -\n- - ne - - nw - - - n",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/160.a.htm"
+    },
+    "161_8x8": {
+      "id": "161_8x8",
+      "problem": "8 8 1\n- 3 3 2 - 3 3 -\n1 3 2 4 - - 4 1\n- se - - - w - s\n- - - - se - sw -\nse - w - nw - sw -\n- - - - s - - -\n- - - - - - - w\nne ne se - - - - -\n- - - - - - - -\ne - - - ne - - nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/161.a.htm"
+    },
+    "162_8x8": {
+      "id": "162_8x8",
+      "problem": "8 8 1\n1 2 4 2 2 2 - 2\n- 1 5 - 4 2 - -\nse - - - - - - w\n- e - - - - - -\n- - - - - - - sw\nne s - - - - - nw\n- - ne - sw - - -\n- e - n - n sw n\nn - - - - - - -\n- - - ne - - ne -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/162.a.htm"
+    },
+    "163_8x8": {
+      "id": "163_8x8",
+      "problem": "8 8 1\n1 1 - 4 1 2 3 -\n3 - 1 2 - 3 4 1\n- s s - - w - -\n- - - - - - sw w\n- - - - se - n -\n- - - e se - - n\n- se se - se - - -\n- - - - - - - -\n- - - - n ne - -\nn - - - - - w -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/163.a.htm"
+    },
+    "164_8x8": {
+      "id": "164_8x8",
+      "problem": "8 8 1\n- 3 5 1 - - 1 1\n- - 4 - 3 - 2 1\ne - - sw - - - -\nse - - s e - s -\n- - - - e - - -\n- - - nw se sw - sw\n- n - - - - e -\ne - - - - - - -\nn - - w - - - -\ne - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/164.a.htm"
+    },
+    "165_8x8": {
+      "id": "165_8x8",
+      "problem": "8 8 1\n2 1 4 2 1 - - -\n- 4 - 3 2 2 2 -\n- - se - se sw - s\n- - - - - - - -\nn - - - - - - -\ns - - - s - - -\nse - - w - - - nw\n- - - - - - nw -\n- n s - se - - -\nne - - - - - - nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/165.a.htm"
+    },
+    "166_10x10": {
+      "id": "166_10x10",
+      "problem": "10 10 1\n1 3 1 5 4 3 4 1 6 0\n5 3 1 2 3 1 4 3 4 2\n- - - - - sw - - - -\nne - w - - nw e - - -\n- ne - - sw - - sw - w\n- - - - - se - sw - sw\n- - - - - - n - - nw\n- - - ne se - - - - w\nse ne se - - - - - - sw\n- - - - - se - - - sw\nn - - - w - - - - -\n- - n - ne - - n - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/166.a.htm"
+    },
+    "167_10x10": {
+      "id": "167_10x10",
+      "problem": "10 10 1\n1 2 2 4 2 5 2 7 1 1\n2 5 3 1 1 2 4 1 4 4\ns - se - - - w - - -\n- - - - - - sw - nw -\n- - n - - - - - sw -\ne n s - - - - - nw s\n- - - - - - - - nw w\n- - - ne sw - s - - -\n- - - - - - - - - -\ne - - nw - s nw - - sw\n- - - - - ne - - - sw\n- - - ne nw - ne - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/167.a.htm"
+    },
+    "168_10x10": {
+      "id": "168_10x10",
+      "problem": "10 10 1\n1 3 4 5 2 2 2 2 1 0\n2 2 1 3 1 3 3 1 4 2\nse - - - - sw - w - -\nse - - e - - - - - -\ns - - - - se - - - -\n- - - - - - - - - -\n- - sw - - - - - - sw\n- - n - s - - - - -\n- - - - w - - - - -\ne - - - n - n - - -\n- - - - - - - - n -\nne ne - w nw e - nw - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/168.a.htm"
+    },
+    "169_10x10": {
+      "id": "169_10x10",
+      "problem": "10 10 1\n2 1 6 5 0 3 2 1 2 3\n3 1 5 1 1 4 3 3 1 3\n- s - - e - - - - -\n- e - sw - se sw - - -\nne - - - - - - s - -\ne se - se - - nw - - sw\n- ne - - - - - - - -\n- - - - - - - - - s\nn se - - - - w - - -\n- - - - e - - - n -\n- - - - - - - - - w\n- w ne - - nw e - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/169.a.htm"
+    },
+    "170_10x10": {
+      "id": "170_10x10",
+      "problem": "10 10 1\n5 1 2 3 5 3 3 2 3 1\n5 3 1 4 3 2 1 5 2 2\n- - w - sw - - - - -\n- se - - - - sw s nw s\n- - n - - - ne - - w\n- - - w - n nw - - nw\n- se - nw - - - - s nw\ns - e - - s - - - -\n- - - - - - w - - -\n- - ne - w - - - - -\n- se e - - - - - - -\n- n - - ne - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/170.a.htm"
+    },
+    "171_8x8": {
+      "id": "171_8x8",
+      "problem": "8 8 1\n- 4 3 1 2 - - 2\n1 - - - 3 4 2 -\n- se - - - - - w\ne - - - - sw - -\n- - - - - w - -\ne sw - - - ne - n\n- - e - - - sw s\nne - - - - s - -\nse - s n - - - -\n- - - e - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/171.a.htm"
+    },
+    "172_8x8": {
+      "id": "172_8x8",
+      "problem": "8 8 1\n1 4 3 1 - - - -\n2 1 - 3 1 - 1 -\ns - - sw - s - s\n- ne nw - sw - - -\nse - - - - - - -\n- - - ne - w - -\nne se - - sw - n -\n- - - - e - - -\n- e - - - - - sw\n- - - nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/172.a.htm"
+    },
+    "173_8x8": {
+      "id": "173_8x8",
+      "problem": "8 8 1\n1 4 1 4 - - - 3\n- 1 - - - 2 5 1\n- - - - - - - -\ne - - - - - nw -\n- e - - - - n n\nse e - - n - - -\nse - e - - - sw nw\nn - - - - - - s\n- - ne - - - - -\ne - nw - ne - - nw",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/173.a.htm"
+    },
+    "175_8x8": {
+      "id": "175_8x8",
+      "problem": "8 8 1\n2 1 1 4 3 - 3 -\n- 1 4 - - 2 - 4\n- e - - - se - -\n- - - - - - w sw\n- - - - - - - -\ne - - - - - sw -\n- - n - - - - -\n- - ne - se - - s\nn - - - s ne - nw\n- n w - - ne - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/175.a.htm"
+    },
+    "176_10x10": {
+      "id": "176_10x10",
+      "problem": "10 10 1\n5 5 2 3 1 1 6 1 1 2\n3 3 1 3 2 4 3 5 2 1\n- - - - - - - - sw -\n- w - - e - - - - -\ne - - - - se - - nw -\n- - sw w nw nw - - s sw\n- - - w nw - - - - -\n- - - - - sw - - - -\n- se nw w - se - - - -\n- - - - nw se - n - -\n- nw - - n n - - - n\ne - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/176.a.htm"
+    },
+    "177_10x10": {
+      "id": "177_10x10",
+      "problem": "10 10 1\n8 1 4 1 3 1 3 5 1 3\n6 3 3 4 3 4 1 1 4 1\n- - - s - se - - s -\n- ne w - - se ne - - -\n- - e - - - nw sw - n\n- w - - - - - - - nw\n- ne - sw s - se - - -\n- nw - sw - - ne - - -\n- - - - - n w sw - -\n- n - - - nw - - sw -\n- - - nw - - - - nw -\n- ne - - - - - - - w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/177.a.htm"
+    },
+    "178_10x10": {
+      "id": "178_10x10",
+      "problem": "10 10 1\n2 3 2 7 0 2 1 2 2 4\n4 3 2 1 0 2 3 5 3 2\n- se - - se - - - - -\n- - - - w - - - ne -\n- - se - sw se - - - -\n- - - - - - - n - -\nne - s - - - - - - nw\n- - se - - - - nw nw -\n- - se - se - - - - -\n- ne - - ne - e ne - -\nn - - - - w - - - -\n- w e - - - - - nw -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/178.a.htm"
+    },
+    "179_10x10": {
+      "id": "179_10x10",
+      "problem": "10 10 1\n3 0 4 6 2 2 1 3 1 1\n1 5 3 1 3 1 3 3 2 1\n- - se - se - - - w -\nse - - - - - - - - -\n- - - - - - - - - -\nne - ne sw - ne - - - -\n- - - - - - ne - - nw\nn - sw - - - - - nw w\n- - se - - - - - - -\n- - ne - - - ne nw - -\n- e - - n - - - - -\n- nw e ne - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/179.a.htm"
+    },
+    "180_10x10": {
+      "id": "180_10x10",
+      "problem": "10 10 1\n3 2 5 2 3 4 1 3 1 2\n1 6 2 1 3 2 6 2 2 1\n- - - se sw - se e - -\n- - - - - - - - s s\n- n - s - - - - w -\n- - se - s se - - - w\nse - - w - - - - - -\nse - - w - n - - - -\n- - - - - - - sw - -\n- - - - - - w - nw -\n- w - - - - - - - -\n- - - nw - ne n - w -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/180.a.htm"
+    },
+    "181_8x8": {
+      "id": "181_8x8",
+      "problem": "8 8 1\n1 2 - 1 2 2 - -\n2 1 1 2 - 4 - -\n- - - - - w sw -\n- se - - - - sw w\n- s - - - - - sw\n- - - - - - - -\n- ne se - - - - -\n- se - - - - n -\nn - - - - - - n\n- e - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/181.a.htm"
+    },
+    "182_8x8": {
+      "id": "182_8x8",
+      "problem": "8 8 1\n- - 5 2 2 1 3 -\n2 3 2 - 1 - 4 -\n- - - sw - - - -\nne se - - - sw - sw\nne - - n - - - -\n- se - - w - - -\ne - - - - sw - nw\n- - - e - - - -\nn - - - - - s -\nne - - - - n - n",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/182.a.htm"
+    },
+    "183_8x8": {
+      "id": "183_8x8",
+      "problem": "8 8 1\n2 - 1 - 2 4 2 2\n1 - 1 - - - 1 3\nse - - se - - se w\n- sw - - - w sw -\n- - s - sw - - -\n- - - - - sw - s\ns n - - - sw s sw\n- - - - - - - -\n- - se - se - - -\n- - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/183.a.htm"
+    },
+    "184_10x10": {
+      "id": "184_10x10",
+      "problem": "10 10 1\n2 2 5 1 3 6 1 4 2 1\n0 5 5 2 1 1 1 5 6 1\n- se - - se sw - - sw -\n- - - sw - - - - - sw\n- n - - - - - - - -\n- - - - - e - - nw -\nn s - w n - - - sw -\n- - s - - - - - - w\ns - - - s - - - w nw\n- - - - - - e - sw -\n- - - - - - - - - -\n- - - n ne - n ne - w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/184.a.htm"
+    },
+    "185_10x10": {
+      "id": "185_10x10",
+      "problem": "10 10 1\n2 2 3 2 1 3 2 3 4 3\n1 2 3 1 5 2 5 4 1 1\n- - - - s - - - - -\n- - w e - - - - - nw\n- - sw - - w se - - sw\n- - - sw - - ne - w nw\n- - - - - - - - - -\n- se sw s - - w se - sw\nse - - - - - sw ne - -\n- - - - - - n - - -\ne - - - - - - ne - -\n- - - - - - - - - w",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/185.a.htm"
+    },
+    "186_10x10": {
+      "id": "186_10x10",
+      "problem": "10 10 1\n1 3 3 3 2 4 4 2 1 3\n1 3 5 1 2 1 3 2 4 4\n- - se sw se sw - se se -\ns - - - - - - nw - -\n- - - - - - - nw - -\n- - - nw - n - w - s\n- - - - - w - - - -\ne se - - - - - - - -\n- - - - s - - - - sw\n- n - - - - - n - -\n- - se - - - - - - -\nne - w - - - nw nw n -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/186.a.htm"
+    },
+    "187_10x10": {
+      "id": "187_10x10",
+      "problem": "10 10 1\n4 5 4 1 2 3 2 4 1 1\n3 1 1 1 4 4 2 4 1 6\n- - - s - - - - - s\nse ne - - e - - - nw -\ne - - - - se - - - -\ne - - - - sw - - - -\n- - sw - nw - s - - -\nne - - w - - - - - sw\n- se e - - s ne - - -\ns - - - - - - - nw sw\nse - - sw - - - - - w\n- - - - - nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/187.a.htm"
+    },
+    "188_10x10": {
+      "id": "188_10x10",
+      "problem": "10 10 1\n1 1 2 2 1 6 1 3 3 5\n1 3 4 1 2 4 3 1 3 3\ns se - - - - se - sw -\n- s - sw s - e - - -\n- - - - ne - - - - n\n- - s se - - - se s sw\n- - - - - - e n - -\n- se - - sw - - - - -\n- - - - - - - - - -\n- - - - se - se - ne -\n- - - - - - - - - -\n- - ne - - - n ne - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/188.a.htm"
+    },
+    "189_12x12": {
+      "id": "189_12x12",
+      "problem": "12 12 1\n2 7 2 6 1 5 1 0 5 3 3 5\n2 5 6 3 1 5 1 4 2 5 2 4\n- - - - se - e - sw w - -\n- - - - - - w - - - - -\n- - - - - - - - - - - nw\n- - s sw ne - - - - nw nw nw\n- - - nw - - w - ne nw - -\n- - - - n - nw se sw - - -\n- - - se nw - sw - - - w -\n- - - - - w - sw - - - -\n- - e - - - se ne nw - - -\n- - - - - - - - - - - -\nn - - - e - - ne - ne se -\n- - nw nw nw ne w - - - - -",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/189.a.htm"
+    },
+    "190_14x14": {
+      "id": "190_14x14",
+      "problem": "14 14 1\n1 11 2 1 2 3 6 3 2 5 2 4 5 1\n5 3 5 4 2 3 4 4 1 2 5 1 8 1\ns - - - - - - - - - se - - -\n- ne nw - se - - - - se w - - nw\n- - s - se - - - - - - - sw -\nne - - - w - n - - - - - - -\n- - - - sw ne - sw - - - nw - sw\nne - - - se - - - ne - - - - -\n- - se w - - - - - ne se - nw -\n- - - nw - s - - - - - - sw sw\ne - - - - sw - n - - - - - -\n- - - - n e se - - nw - - s -\nne - se - - - - - - - - - sw -\ne - - - - se - - - - ne - - -\n- - - - - - - - n - - - - -\n- - e - - - - - - - - - - n",
+      "source": "https://www.janko.at/Raetsel/Sternenhimmel/190.a.htm"
+    }
+  }
+}

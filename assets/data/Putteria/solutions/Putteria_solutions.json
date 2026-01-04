@@ -1,0 +1,305 @@
+{
+  "count": 60,
+  "solutions": {
+    "01_5x5": {
+      "id": "01_5x5",
+      "solution": "5 5\n- 1 - - 4\n2 - - 1 -\n- 4 - - 2\n4 - - 3 -\n- - 4 - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/001.a.htm"
+    },
+    "02_5x5": {
+      "id": "02_5x5",
+      "solution": "5 5\n- - 2 - 1\n2 - - 4 -\n- - 4 - -\n4 - - - 5\n- 2 - 1 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/002.a.htm"
+    },
+    "03_5x5": {
+      "id": "03_5x5",
+      "solution": "5 5\n- - - 5 -\n5 - - - -\n- - - - 5\n- - 5 - -\n- 5 - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/003.a.htm"
+    },
+    "04_8x8": {
+      "id": "04_8x8",
+      "solution": "8 8\n- 3 - 2 - - - 1\n- - - - - 1 - -\n- 4 - - - - - 8\n1 - 3 - 5 - 7 -\n- 2 - 4 - 6 - -\n- - 4 - - - - 3\n3 - - - 2 - - -\n- - - 3 - - 2 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/004.a.htm"
+    },
+    "05_8x8": {
+      "id": "05_8x8",
+      "solution": "8 8\n- - - 3 - - 4 -\n- - 4 - - 3 - -\n- - - - 3 - - 5\n- 5 - - - - 2 -\n5 - 3 - 4 - - -\n- - - 5 - - - 4\n- - 5 - 2 - 3 -\n- - - - - 4 - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/005.a.htm"
+    },
+    "06_8x8": {
+      "id": "06_8x8",
+      "solution": "8 8\n- - - - - - 5 -\n5 - - 4 - - - 3\n- 3 - - 5 - 4 -\n- - - - - 4 - -\n- 4 - - - - - -\n- - 3 - - 5 - 4\n- 5 - - - - 3 -\n3 - - - 4 - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/006.a.htm"
+    },
+    "07_8x8": {
+      "id": "07_8x8",
+      "solution": "8 8\n1 - - - - 4 - 2\n- 4 - 3 - - - -\n3 - - - - - 1 -\n- - - 4 - 5 - 3\n- - 3 - - - 5 -\n- 3 - - 4 - - 5\n2 - - 5 - - - -\n- - 4 - - - 3 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/007.a.htm"
+    },
+    "08_8x8": {
+      "id": "08_8x8",
+      "solution": "8 8\n- - - - 2 - 3 -\n3 - - 5 - - - -\n- 2 - - 3 - 5 -\n5 - - - - 4 - -\n- - - - 5 - - 2\n2 - - 3 - - 4 -\n- - 5 - - - - 3\n- 3 - - - 5 - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/008.a.htm"
+    },
+    "09_8x8": {
+      "id": "09_8x8",
+      "solution": "8 8\n- 3 - 2 - 1 - -\n- - - - 5 - - 3\n- 5 - - - 4 - -\n5 - - 3 - - 4 -\n- 1 - - 3 - - 4\n- - 4 - - 3 - -\n3 - - 4 - - - -\n- - - - 4 - 3 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/009.a.htm"
+    },
+    "10_8x8": {
+      "id": "10_8x8",
+      "solution": "8 8\n- - - 5 - - - -\n- - 5 - 4 - - -\n- - - 4 - - 5 -\n- 4 - - - - - 5\n5 - - - - - 4 -\n- 5 - - - 4 - -\n- - 4 - 5 - - -\n- - - - - 5 - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/010.a.htm"
+    },
+    "11_8x8": {
+      "id": "11_8x8",
+      "solution": "8 8\n- 2 - - 3 - - 4\n3 - - 4 - 2 - -\n- - 1 - 4 - - -\n2 - - 5 - - 1 -\n- 4 - - 1 - - 3\n4 - - 3 - - 5 -\n- - 4 - - 3 - 1\n- - - 1 - - 4 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/011.a.htm"
+    },
+    "12_8x8": {
+      "id": "12_8x8",
+      "solution": "8 8\n- - - 4 - - - -\n- - 4 - 3 - - -\n- - - 5 - - 4 -\n- 3 - - - 5 - 4\n4 - - 3 - - 5 -\n- 4 - - 5 - - -\n- - 3 - - 4 - -\n- - - - 4 - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/012.a.htm"
+    },
+    "13_9x9": {
+      "id": "13_9x9",
+      "solution": "9 9\n- 9 - - - - - - -\n- - - - - 9 - - -\n- - - - - - - - 9\n- - 9 - - - - - -\n- - - - - - - 9 -\n- - - - 9 - - - -\n- - - - - - 9 - -\n- - - 9 - - - - -\n9 - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/013.a.htm"
+    },
+    "14_9x9": {
+      "id": "14_9x9",
+      "solution": "9 9\n- - - - - - - 9 -\n- - - 9 - - - - -\n- 9 - - - - - - -\n- - - - - - 9 - -\n- - - - 9 - - - -\n9 - - - - - - - -\n- - - - - - - - 9\n- - - - - 9 - - -\n- - 9 - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/014.a.htm"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "solution": "10 10\n4 - - - - - 5 - - -\n- - 5 - - - - - 4 -\n3 - - - 4 - - - - 5\n- 5 - 3 - - 4 - - -\n- - - - - 5 - - 3 -\n- 4 - - - - - 5 - 3\n- - 3 - 5 - - - - -\n5 - - - - - - 3 - 4\n- - - 5 - 4 - - - -\n- - 4 - - - - - 5 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/015.a.htm"
+    },
+    "16_10x10": {
+      "id": "16_10x10",
+      "solution": "10 10\n- - 5 - - 2 - - 3 -\n3 - - - - - 4 - - -\n- - 4 - 3 - - - 5 -\n4 - - 2 - - - - - 1\n- - 3 - - 4 - - - -\n- - - - 6 - 5 - 4 -\n- 5 - - - 3 - - - 4\n5 - 2 - 4 - - - - -\n- - - 4 - - 2 - - 3\n- 3 - - 2 - - 5 - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/016.a.htm"
+    },
+    "17_10x10": {
+      "id": "17_10x10",
+      "solution": "10 10\n- 5 - 2 - - - - - 1\n3 - - - 5 - - - - -\n- - - - - 3 - - - 5\n2 - - - 4 - - 5 - -\n- - 5 - - - 4 - - 3\n5 - - 4 - - - 7 - -\n- - - - - 4 - - - -\n- - - 3 - - 5 - - 4\n- 4 - - 3 - - - 5 -\n4 - - 5 - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/017.a.htm"
+    },
+    "18_10x10": {
+      "id": "18_10x10",
+      "solution": "10 10\n- 3 - 4 - - - - 1 -\n2 - 4 - - - - 5 - -\n- 5 - - - - 4 - - -\n- - 3 - 5 - - - - -\n- - - - - - 5 - 3 -\n3 - - - - 4 - - - 5\n- 4 - 5 - - - 3 - -\n- - - - - 5 - - - -\n5 - - - 4 - 1 - - 2\n- 2 - 1 - 7 - - 5 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/018.a.htm"
+    },
+    "19_16x16": {
+      "id": "19_16x16",
+      "solution": "16 16\n- - - - - - - 9 - - - - - - - -\n- - - - - - 9 - 8 - - - - - - -\n- - - - - 9 - - - - 8 - - - - -\n- - - - 9 - - - - - - 8 - - - -\n- - - - - - 8 - - - - - 9 - - -\n- - 8 - - - - - - - - - - 9 - -\n- - - - - - - - - - - - 8 - 9 -\n- 8 - - - - - - - - - - - - - 9\n9 - - - - - - - - - - - - - 8 -\n- 9 - 8 - - - - - - - - - - - -\n- - 9 - - - - - - - - - - 8 - -\n- - - 9 - - - - - 8 - - - - - -\n- - - - 8 - - - - - - 9 - - - -\n- - - - - 8 - - - - 9 - - - - -\n- - - - - - - 8 - 9 - - - - - -\n- - - - - - - - 9 - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/019.a.htm"
+    },
+    "20_13x17": {
+      "id": "20_13x17",
+      "solution": "13 17\n- - - - - 2 - - - - 5 - - - - - 3\n7 - - - 2 - 4 - 3 - - - - - - - -\n- - 1 - - - - 11 - 3 - 5 - 4 - - 2\n2 - - - - - - - - - 7 - - - - 4 -\n- 10 - 4 - - - - - - - 3 - - - - 5\n5 - 3 - - - - - - 4 - - - - 7 - -\n- 4 - - - - 2 - - - 1 - - 5 - 3 -\n- - - 10 - 11 - - 5 - - - - - - - -\n- - 4 - - - 1 - - - 9 - 3 - 2 - -\n- - - 2 - - - - 4 - - - - 12 - - 1\n- - 2 - 4 - - - - 5 - - - - - - -\n- - - - - - - 1 - - - - 5 - 3 - 4\n- - 5 - - 4 - - - - 3 - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/020.a.htm"
+    },
+    "21_5x5": {
+      "id": "21_5x5",
+      "solution": "5 5\n- 5 - - -\n2 - - - 3\n- - 5 - -\n- - - 3 -\n3 - 4 - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/021.a.htm"
+    },
+    "22_6x6": {
+      "id": "22_6x6",
+      "solution": "6 6\n1 - 4 - 2 -\n- 1 - - - 2\n3 - - - 4 -\n- 3 - 4 - -\n2 - - - 3 -\n- 4 - - - 3",
+      "source": "https://www.janko.at/Raetsel/Putteria/022.a.htm"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "solution": "8 8\n- 2 - - - 4 - -\n- - 3 - 4 - - 2\n4 - - 2 - - 5 -\n- 4 - - - 2 - -\n- - 2 - - - 4 -\n- 5 - - 2 - - 4\n2 - - 4 - 3 - -\n- - 4 - - - 2 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/023.a.htm"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "solution": "8 8\n4 - - - - 8 - -\n- - 2 - 3 - 1 -\n2 - - 4 - - - -\n- - - - 12 - 3 -\n- 4 - 2 - - - 8\n3 - - - - 1 - -\n- - 3 - - - - 1\n- - - - - 3 - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/024.a.htm"
+    },
+    "25_8x8": {
+      "id": "25_8x8",
+      "solution": "8 8\n- 3 - - - 4 - -\n- - 4 - - - 5 -\n- - - - 4 - - 3\n4 - - 5 - 3 - -\n- - - - - - 4 -\n3 - - 4 - - - -\n- - 5 - - 2 - 4\n- 4 - - 3 - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/025.a.htm"
+    },
+    "26_8x8": {
+      "id": "26_8x8",
+      "solution": "8 8\n- 3 - 5 - - - -\n- - 5 - 2 - - 3\n- - - 2 - 4 - -\n2 - - - - - 3 -\n- - 2 - 3 - - 5\n- 5 - - - - - -\n3 - 4 - - 5 - -\n- - - 3 - - 5 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/026.a.htm"
+    },
+    "27_8x8": {
+      "id": "27_8x8",
+      "solution": "8 8\n3 - 4 - 5 - - 1\n- 2 - - - 4 - -\n4 - - 2 - - - -\n- - 2 - - - 4 -\n- 3 - 4 - 2 - -\n- - 5 - 2 - - 4\n1 - - 3 - - 2 -\n- - 3 - 4 - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/027.a.htm"
+    },
+    "28_10x10": {
+      "id": "28_10x10",
+      "solution": "10 10\n- - 5 - - - 4 - - -\n- 5 - 4 - - - - 6 -\n- - - - - 5 - - - 4\n- - 4 - - - - 5 - -\n- - - - - - - - 4 -\n5 - 6 - 4 - 1 - - -\n- - - - - 4 - 6 - 5\n- - 1 - - - 5 - - -\n- - - - 5 - - 4 - -\n- - - 5 - - 3 - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/028.a.htm"
+    },
+    "29_10x10": {
+      "id": "29_10x10",
+      "solution": "10 10\n- - - 6 - - - - - -\n- 6 - - - - - - 3 -\n4 - - - 3 - - - - 6\n- 4 - - - 6 - - - -\n3 - 6 - - - 4 - - 2\n- - - 3 - - - - 6 -\n- 5 - - - - - 6 - -\n- - 4 - - - - - - 1\n- 3 - - 6 - - 4 - -\n- - - - - - 6 - - 3",
+      "source": "https://www.janko.at/Raetsel/Putteria/029.a.htm"
+    },
+    "30_16x16": {
+      "id": "30_16x16",
+      "solution": "16 16\n- - - 6 - - - - - - 5 - 3 - - -\n- - - - - 3 - - - 5 - - - 6 - -\n6 - 2 - 1 - - - - - 3 - - - - 5\n- 2 - 4 - - - - 5 - - 6 - - 1 -\n1 - - - 5 - - 2 - - 6 - - - - 3\n- 1 - - - - - - - - - 5 - - 4 -\n2 - - - - 6 - 5 - 3 - - - - - -\n- 3 - 2 - - - - - - 4 - 5 - 6 -\n- - 5 - - - 6 - 3 - - 1 - - - -\n- 4 - 3 - 2 - - - - - - 6 - 5 -\n- - 3 - - - 5 - - - - - - 4 - -\n4 - - 5 - - - 1 - - - 3 - - - 6\n- 5 - - - - - - 6 - - - - - - -\n5 - - - - - - 6 - - 2 - 4 - - 1\n- - 6 - - - 2 - - - - 4 - 5 - -\n3 - - - - 5 - - - 6 - - - - - 4",
+      "source": "https://www.janko.at/Raetsel/Putteria/030.a.htm"
+    },
+    "31_6x6": {
+      "id": "31_6x6",
+      "solution": "6 6\n1 - 4 - - 3\n- 3 - 4 - -\n3 - - - 2 -\n- - 3 - - -\n- 1 - - 3 -\n4 - - 3 - 2",
+      "source": "https://www.janko.at/Raetsel/Putteria/031.a.htm"
+    },
+    "32_6x6": {
+      "id": "32_6x6",
+      "solution": "6 6\n- - - 4 - -\n- - - - 4 -\n- - 3 - - 4\n- 4 - - 3 -\n4 - - 3 - -\n- - 4 - - 3",
+      "source": "https://www.janko.at/Raetsel/Putteria/032.a.htm"
+    },
+    "33_6x6": {
+      "id": "33_6x6",
+      "solution": "6 6\n1 - - - 4 -\n- - - 4 - 5\n- 4 - - - -\n5 - 4 - - -\n- - - - - 4\n4 - - - 1 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/033.a.htm"
+    },
+    "34_8x8": {
+      "id": "34_8x8",
+      "solution": "8 8\n1 - - 4 - - 5 -\n- 2 - - - - - 4\n4 - 3 - - - - -\n- 5 - - - 4 - -\n5 - - - 3 - 4 -\n- - - - - 5 - 3\n- 3 - - - - 2 -\n2 - - - 4 - - 1",
+      "source": "https://www.janko.at/Raetsel/Putteria/034.a.htm"
+    },
+    "35_8x8": {
+      "id": "35_8x8",
+      "solution": "8 8\n- - 3 - 5 - - -\n- - - 5 - - - -\n- 3 - - 2 - 5 -\n- - 5 - - - - -\n- - - 3 - - - 5\n5 - 2 - - - - -\n- 5 - - 3 - 2 -\n2 - - - - 5 - 4",
+      "source": "https://www.janko.at/Raetsel/Putteria/035.a.htm"
+    },
+    "36_8x8": {
+      "id": "36_8x8",
+      "solution": "8 8\n- - 3 - - 4 - -\n5 - - 4 - - - -\n- 4 - - - 3 - -\n- - - 5 - - 4 -\n- 5 - - 4 - - -\n- - 4 - - - 3 -\n- 3 - - - 5 - 4\n4 - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/036.a.htm"
+    },
+    "37_8x8": {
+      "id": "37_8x8",
+      "solution": "8 8\n- - - - - - 3 -\n- - 4 - - 3 - 5\n3 - - 4 - - - -\n- 4 - - - - 2 -\n2 - - - - 5 - -\n- - - 5 - - - 4\n- 3 - - - - 5 -\n4 - 3 - 5 - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/037.a.htm"
+    },
+    "38_8x8": {
+      "id": "38_8x8",
+      "solution": "8 8\n5 - - - - - - -\n- 2 - - - 3 - 5\n2 - - - 5 - - -\n- 5 - 4 - 2 - -\n- - 3 - - - - 2\n3 - - - - 5 - -\n- 4 - 2 - - 3 -\n- - 2 - 4 - - 3",
+      "source": "https://www.janko.at/Raetsel/Putteria/038.a.htm"
+    },
+    "39_10x10": {
+      "id": "39_10x10",
+      "solution": "10 10\n- 3 - 4 - - - - 1 -\n2 - 4 - - - - 5 - -\n- 5 - - - - 4 - - -\n- - 3 - 5 - - - - -\n- - - - - - 5 - 3 -\n3 - - - - 4 - - - 5\n- 4 - 5 - - - 3 - -\n- - - - - 5 - - - -\n5 - - - 4 - 1 - - 2\n- 2 - 1 - 7 - - 5 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/039.a.htm"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "solution": "10 10\n- - 5 - - 2 - - 3 -\n3 - - - - - 4 - - -\n- - 4 - 3 - - - 5 -\n4 - - 2 - - - - - 1\n- - 3 - - 4 - - - -\n- - - - 6 - 5 - 4 -\n- 5 - - - 3 - - - 4\n5 - 2 - 4 - - - - -\n- - - 4 - - 2 - - 3\n- 3 - - 2 - - 5 - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/040.a.htm"
+    },
+    "41_5x5": {
+      "id": "41_5x5",
+      "solution": "5 5\n- 5 - - -\n2 - - - 3\n- - 5 - -\n- - - 3 -\n3 - 4 - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/041.a.htm"
+    },
+    "42_6x6": {
+      "id": "42_6x6",
+      "solution": "6 6\n- 2 - - 1 -\n3 - 1 - - 2\n- - - - 3 -\n- 3 - - - -\n- - - 1 - 3\n1 - 14 - 2 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/042.a.htm"
+    },
+    "43_6x6": {
+      "id": "43_6x6",
+      "solution": "6 6\n- - 3 - 2 -\n2 - - 3 - 1\n- - 2 - 3 -\n- 5 - 4 - -\n1 - 4 - - 3\n- 3 - - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/043.a.htm"
+    },
+    "44_8x8": {
+      "id": "44_8x8",
+      "solution": "8 8\n5 - - 4 - - - -\n- 4 - - 5 - 3 -\n- - - - - 4 - 3\n4 - - - - - - -\n- - - - - - - 4\n3 - 4 - - - - -\n- 3 - 5 - - 4 -\n- - - - 4 - - 5",
+      "source": "https://www.janko.at/Raetsel/Putteria/044.a.htm"
+    },
+    "45_8x8": {
+      "id": "45_8x8",
+      "solution": "8 8\n- - 4 - - 5 - -\n- - - - 5 - - -\n- - 5 - - - 6 -\n- 4 - 6 - - - -\n5 - - - 4 - - -\n- - - - - - 5 -\n- - - 4 - 1 - 5\n- 5 - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/045.a.htm"
+    },
+    "46_8x8": {
+      "id": "46_8x8",
+      "solution": "8 8\n- - - 3 - - - 4\n- 4 - - - - 3 -\n3 - - 2 - 4 - -\n- - 2 - 6 - - 3\n5 - - - - 2 - -\n- - 4 - - - - 2\n2 - - - 4 - - -\n- 5 - 4 - - 2 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/046.a.htm"
+    },
+    "47_8x8": {
+      "id": "47_8x8",
+      "solution": "8 8\n- - 2 - 4 - - 3\n2 - - 5 - - - -\n- 3 - - - - 5 -\n5 - - - - 3 - 4\n- - 4 - 5 - - -\n- 5 - - - - - 2\n- - - - 2 - 3 -\n- - 3 - - 4 - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/047.a.htm"
+    },
+    "48_8x8": {
+      "id": "48_8x8",
+      "solution": "8 8\n5 - - - - - - -\n- 2 - - - 3 - 5\n2 - - - 5 - - -\n- 5 - 4 - 2 - -\n- - 3 - - - - 2\n3 - - - - 5 - -\n- 4 - 2 - - 3 -\n- - 2 - 4 - - 3",
+      "source": "https://www.janko.at/Raetsel/Putteria/048.a.htm"
+    },
+    "49_10x10": {
+      "id": "49_10x10",
+      "solution": "10 10\n- - - 3 - - 2 - 4 -\n- 3 - - - - - - - -\n6 - - - - 7 - 2 - -\n- - 3 - - - - - - 4\n3 - - - - - 7 - 2 -\n- - 7 - - - - - - -\n- - - - - - - 7 - 2\n- - 6 - 7 - - - 1 -\n- - - 7 - - - 4 - -\n- 6 - - - - - - 7 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/049.a.htm"
+    },
+    "50_10x10": {
+      "id": "50_10x10",
+      "solution": "10 10\n- 4 - - - - - 3 - 2\n- - - 4 - - - - 5 -\n- 5 - - 2 - - - - 4\n4 - 2 - - - - 5 - -\n- - - 3 - 5 - - - -\n2 - 5 - - - 3 - - -\n- - - 2 - 3 - - - 5\n3 - - - 4 - 5 - 2 -\n- - 4 - - 2 - - - 3\n- 3 - - - - 2 - 4 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/050.a.htm"
+    },
+    "51_5x5": {
+      "id": "51_5x5",
+      "solution": "5 5\n4 - - - -\n- 1 - 4 -\n- - 3 - 4\n- 3 - 1 -\n1 - 4 - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/051.a.htm"
+    },
+    "52_6x6": {
+      "id": "52_6x6",
+      "solution": "6 6\n- 6 - 1 - -\n1 - - - 6 -\n- 1 - 2 - 6\n2 - - - 1 -\n- - 1 - - -\n5 - - 3 - 1",
+      "source": "https://www.janko.at/Raetsel/Putteria/052.a.htm"
+    },
+    "53_6x6": {
+      "id": "53_6x6",
+      "solution": "6 6\n- 3 - - - -\n- - - 4 - 3\n4 - 5 - - -\n- 2 - 3 - 4\n3 - - - - -\n- - 2 - 3 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/053.a.htm"
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "solution": "8 8\n2 - - 5 - - - -\n- - 4 - 3 - 2 -\n- 2 - 1 - - - 5\n4 - 5 - - 2 - -\n- - - - - - 5 -\n- 5 - - - - - -\n3 - - - - 5 - 4\n- 4 - - 2 - 1 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/054.a.htm"
+    },
+    "55_8x8": {
+      "id": "55_8x8",
+      "solution": "8 8\n- - - - - - 5 -\n5 - - 4 - - - 3\n- 3 - - 5 - 4 -\n- - - - - 4 - -\n- 4 - - - - - -\n- - 3 - - 5 - 4\n- 5 - - - - 3 -\n3 - - - 4 - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/055.a.htm"
+    },
+    "56_8x8": {
+      "id": "56_8x8",
+      "solution": "8 8\n4 - - - - 8 - -\n- - 2 - 3 - 1 -\n2 - - 4 - - - -\n- - - - 12 - 3 -\n- 4 - 2 - - - 8\n3 - - - - 1 - -\n- - 3 - - - - 1\n- - - - - 3 - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/056.a.htm"
+    },
+    "57_8x8": {
+      "id": "57_8x8",
+      "solution": "8 8\n- - - - - 4 - -\n2 - 3 - 4 - - -\n- 4 - 2 - 3 - -\n6 - - - - - 4 -\n- - 4 - - - - -\n- 6 - 3 - - - 4\n- - - - 6 - 3 -\n- - - - - 6 - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/057.a.htm"
+    },
+    "58_8x8": {
+      "id": "58_8x8",
+      "solution": "8 8\n- 2 - 4 - - 3 -\n2 - 3 - - - - 4\n- 4 - - 3 - - -\n- - - 3 - 4 - -\n4 - 2 - - - - 3\n- 3 - - 4 - - -\n- - 4 - - 3 - -\n- - - 5 - - 4 -",
+      "source": "https://www.janko.at/Raetsel/Putteria/058.a.htm"
+    },
+    "59_10x10": {
+      "id": "59_10x10",
+      "solution": "10 10\n3 - 4 - 2 - 1 - - -\n- 1 - 5 - 4 - 3 - -\n2 - - - - - - - 4 -\n- - - 4 - 3 - 5 - -\n5 - - - - - 2 - - 4\n- 4 - 3 - - - - 2 -\n- - - - 4 - - - - 5\n- - 3 - - - 4 - - -\n- - - - - 2 - 4 - 3\n4 - 2 - 5 - 3 - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/059.a.htm"
+    },
+    "60_10x10": {
+      "id": "60_10x10",
+      "solution": "10 10\n- 4 - - - 8 - 2 - -\n- - - 8 - - - - - 3\n4 - - - - - - - 8 -\n- 8 - - - - - - - 2\n- - - - 8 - - - - -\n3 - - - - - 8 - - -\n- - - - - - - 8 - -\n2 - - - - - - - - 8\n- - 8 - - - - - - -\n8 - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Putteria/060.a.htm"
+    }
+  }
+}
