@@ -86,6 +86,18 @@ from NurimisakiCrawler import NurimisakiCrawler
 from NawabariCrawler import NawabariCrawler
 from TriplettsCrawler import TriplettsCrawler
 from DoorsCrawler import DoorsCrawler
+from AqreCrawler import AqreCrawler
+from CanalViewCrawler import CanalViewCrawler
+from ArafCrawler import ArafCrawler
+from FactorsCrawler import FactorsCrawler
+from HanareCrawler import HanareCrawler
+from PaintAreaCrawler import PaintAreaCrawler # Pentoeria
+from NanroCrawler import NanroCrawler
+from NurikabeCrawler import NurikabeCrawler
+from SukoroCrawler import SukoroCrawler
+from CojunCrawler import CojunCrawler
+from KurottoCrawler import KurottoCrawler
+
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -163,7 +175,7 @@ class CrawlerFactory:
         "NumberLink": NumberLinkCrawler,
         "Bricks": BricksCrawler,
         "SkyscraperSudoku": SkyscraperSudokuCrawler,
-        "Kuroshiro": KuroshiroCrawler,
+        "Kuroshiro": KuroshiroCrawler, # TODO: not run yet
         "Battleship": BattleshipCrawler,
         "Stitches": StitchesCrawler,
         "KenKen": KenKenCrawler,
@@ -179,7 +191,20 @@ class CrawlerFactory:
         "Nurimisaki": NurimisakiCrawler,
         "Nawabari": NawabariCrawler,
         "Tripletts": TriplettsCrawler,
-        "Doors": DoorsCrawler
+        "Doors": DoorsCrawler,
+        "Aqre": AqreCrawler,
+        "CanalView": CanalViewCrawler,
+        "Araf": ArafCrawler,
+        "Factors": FactorsCrawler,
+        "Hanare": HanareCrawler,
+        "PaintArea": PaintAreaCrawler,
+        "Nanro": NanroCrawler,
+        "Nurikabe": NurikabeCrawler,
+        "Sukoro": SukoroCrawler, # TODO: not run yet
+        "Cojun": CojunCrawler, # TODO: not run yet
+        "Kurotto": KurottoCrawler
+        # Shakashaka: TODO:
+        # Doppelblock: TODO:
     }
     
     @classmethod
