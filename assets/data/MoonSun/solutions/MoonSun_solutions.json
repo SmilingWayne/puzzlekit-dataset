@@ -121,9 +121,9 @@
       "solution": "10 10\n- se ew sw - - se ew ew sw\nse nw - ne sw se nw - - ns\nns - - - ns ns se ew ew nw\nne sw - se nw ns ns se ew sw\nse nw - ne ew nw ne nw - ns\nns - - - - - se sw - ns\nns se ew ew ew ew nw ns - ns\nne nw - - - se ew nw - ns\n- se ew ew ew nw se sw - ns\n- ne ew ew ew ew nw ne ew nw",
       "source": "https://www.janko.at/Raetsel/Moonsun/024.a.htm"
     },
-    "25_21x10": {
-      "id": "25_21x10",
-      "solution": "21 10\n- - se ew ew sw - se ew sw\n- - ns - - ns - ne sw ns\nse sw ne sw - ne ew ew nw ns\nns ne ew nw - - se sw - ns\nns - - - se ew nw ne ew nw\nne sw - - ns - - - se sw\n- ne sw - ne ew ew sw ns ns\nse sw ns - se ew sw ns ns ns\nns ne nw - ns - ns ne nw ns\nne ew ew ew nw - ne ew ew nw\n[solution]\n- - se ew ew sw - se ew sw\n- - ns - - ns - ne sw ns\nse sw ne sw - ne ew ew nw ns\nns ne ew nw - - se sw - ns\nns - - - se ew nw ne ew nw\nne sw - - ns - - - se sw\n- ne sw - ne ew ew sw ns ns\nse sw ns - se ew sw ns ns ns\nns ne nw - ns - ns ne nw ns\nne ew ew ew nw - ne ew ew nw",
+    "25_10x10": {
+      "id": "25_10x10",
+      "solution": "10 10\n- - se ew ew sw - se ew sw\n- - ns - - ns - ne sw ns\nse sw ne sw - ne ew ew nw ns\nns ne ew nw - - se sw - ns\nns - - - se ew nw ne ew nw\nne sw - - ns - - - se sw\n- ne sw - ne ew ew sw ns ns\nse sw ns - se ew sw ns ns ns\nns ne nw - ns - ns ne nw ns\nne ew ew ew nw - ne ew ew nw",
       "source": "https://www.janko.at/Raetsel/Moonsun/025.a.htm"
     },
     "26_10x10": {

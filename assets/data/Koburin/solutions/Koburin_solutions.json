@@ -593,7 +593,7 @@
     },
     "119_12x12": {
       "id": "119_12x12",
-      "solution": "12 12\nx se sw se ew ew sw x se ew sw x\nse nw ne nw x se nw x ns x ne sw\nne sw x x se nw x x ne ew sw ns\nse nw se ew nw se ew ew sw x ns ns\nns x ne sw x ns x se nw se nw ns\nne sw x ns se nw x ns x ns x ns\nse nw x ne nw se ew nw se nw x ns\nns x se sw x ns x x ns x se nw\nns x ns ne sw ne sw se nw se nw x\nns x ns x ns x ne nw x ne ew sw\nne sw ne sw ne sw x se ew sw x ns\nx ne ew nw x ne ew nw x ne ew nw",
+      "solution": "12 12\n- es sw es ew ew sw x es ew sw x\nes nw en nw - es nw - ns - en sw\nen sw x - es nw - x en ew sw ns\nes nw es ew nw es ew ew sw - ns ns\nns - en sw x ns - es nw es nw ns\nen sw x ns es nw x ns - ns x ns\nes nw - en nw es ew nw es nw - ns\nns x es sw - ns - x ns x es nw\nns - ns en sw en sw es nw es nw -\nns x ns - ns - en nw - en ew sw\nen sw en sw en sw - es ew sw - ns\nx en ew nw x en ew nw x en ew nw",
       "source": "https://www.janko.at/Raetsel/Koburin/119.a.htm"
     },
     "120_12x12": {
@@ -653,102 +653,102 @@
     },
     "131_10x10": {
       "id": "131_10x10",
-      "solution": "10 10\nse sw - es ew ew ew ew sw -\nns sn - ne we we ws - en sw\nns en sw - - es nw se ws sn\nns - sn es ew nw se wn ne wn\nne ws en nw - se wn - - -\nes nw - - se wn - es ew sw\nne ws - se wn es ew nw se wn\n- ns - en ew nw - - sn -\nes nw se ws - se we ws en sw\nne we wn ne we wn - ne we wn",
+      "solution": "10 10\nes sw - es ew ew ew ew sw x\nns ns x en ew ew sw - en sw\nns en sw x - es nw es sw ns\nns - ns es ew nw es nw en nw\nen sw en nw - es nw - x -\nes nw - x es nw x es ew sw\nen sw - es nw es ew nw es nw\n- ns x en ew nw - x ns -\nes nw es sw - es ew sw en sw\nen ew nw en ew nw x en ew nw\n",
       "source": "https://www.janko.at/Raetsel/Koburin/131.a.htm"
     },
     "132_10x10": {
       "id": "132_10x10",
-      "solution": "10 10\n- se ew sw - es sw - es sw\nes nw - en ew nw en ew nw sn\nns - - - - se ws - se wn\nne ws - se we wn ns - sn -\nes nw se wn - - ne ws en sw\nns - sn - es sw - ne we wn\nne ws en ew nw en sw es ew sw\nes nw - - se ws en nw - sn\nns se ws se wn ns - - se wn\nne wn ne wn - ne we we wn -",
+      "solution": "10 10\nx es ew sw - es sw - es sw\nes nw x en ew nw en ew nw ns\nns x - - x es sw x es nw\nen sw x es ew nw ns - ns -\nes nw es nw - x en sw en sw\nns - ns - es sw - en ew nw\nen sw en ew nw en sw es ew sw\nes nw x - es sw en nw - ns\nns es sw es nw ns x - es nw\nen nw en nw - en ew ew nw x\n",
       "source": "https://www.janko.at/Raetsel/Koburin/132.a.htm"
     },
     "133_10x10": {
       "id": "133_10x10",
-      "solution": "10 10\nse ew sw es ew sw - es sw -\nns - en nw - en ew nw en sw\nns - - se we we we ws - sn\nns - se wn - - - ns - sn\nns se wn - es ew sw ne we wn\nns sn - - ns - en sw - -\nns en ew sw ne ws - en ew sw\nne ws - en ew nw se ws - sn\nes nw se we ws - sn ns - sn\nne we wn - ne we wn ne we wn",
+      "solution": "10 10\nes ew sw es ew sw - es sw -\nns x en nw - en ew nw en sw\nns - x es ew ew ew sw x ns\nns x es nw x - x ns - ns\nns es nw x es ew sw en ew nw\nns ns x - ns - en sw - x\nns en ew sw en sw - en ew sw\nen sw - en ew nw es sw - ns\nes nw es ew sw - ns ns x ns\nen ew nw x en ew nw en ew nw",
       "source": "https://www.janko.at/Raetsel/Koburin/133.a.htm"
     },
     "134_10x10": {
       "id": "134_10x10",
-      "solution": "10 10\nse ew ew ew sw - es ew sw -\nns - - - en ew nw - en sw\nns se we ws - - - se we wn\nne wn - ne we we ws en sw -\n- es sw - - - ns - en sw\nes nw sn es ew sw ne ws - sn\nne ws en nw - sn es nw se wn\nes nw - se ws en nw - en sw\nns - - sn ne ws se we ws sn\nne we we wn - ne wn - ne wn",
+      "solution": "10 10\nes ew ew ew sw x es ew sw x\nns x - x en ew nw - en sw\nns es ew sw - x - es ew nw\nen nw x en ew ew sw en sw x\n- es sw x - x ns - en sw\nes nw ns es ew sw en sw - ns\nen sw en nw x ns es nw es nw\nes nw x es sw en nw - en sw\nns x - ns en sw es ew sw ns\nen ew ew nw - en nw - en nw",
       "source": "https://www.janko.at/Raetsel/Koburin/134.a.htm"
     },
     "135_10x10": {
       "id": "135_10x10",
-      "solution": "10 10\n- se sw - es sw - es ew sw\nes nw sn es nw sn es nw se wn\nns - en nw - en nw - sn -\nne ws - se we ws - - en sw\n- ns - sn es nw se we ws sn\nes nw - sn ns - en sw ne wn\nns - se wn ne ws - en sw -\nns - en sw - ne ws - en sw\nne ws - en sw - ns se ws sn\n- ne we we wn - ne wn ne wn",
+      "solution": "10 10\nx es sw - es sw x es ew sw\nes nw ns es nw ns es nw es nw\nns - en nw x en nw x ns -\nen sw x es ew sw x - en sw\nx ns - ns es nw es ew sw ns\nes nw x ns ns - en sw en nw\nns x es nw en sw - en sw x\nns - en sw x en sw - en sw\nen sw - en sw - ns es sw ns\nx en ew ew nw x en nw en nw",
       "source": "https://www.janko.at/Raetsel/Koburin/135.a.htm"
     },
     "136_12x12": {
       "id": "136_12x12",
-      "solution": "12 12\nse sw - se sw - se sw - se sw -\nns ne ew nw ns se nw ns se nw ne sw\nns - - - ns ns - ne nw - - ns\nne ew sw - ne nw - - se ew ew nw\n- se nw se sw - se ew nw - - -\nse nw - ns ne sw ne sw - se ew sw\nns - - ns se nw - ne sw ne sw ns\nns se ew nw ns - - se nw - ns ns\nne nw - se nw se ew nw - se nw ns\n- - se nw - ns - - se nw - ns\nse ew nw se sw ne ew ew nw - se nw\nne ew ew nw ne ew ew ew ew ew nw -",
+      "solution": "12 12\nes sw - es sw - es sw - es sw x\nns en ew nw ns es nw ns es nw en sw\nns x - - ns ns - en nw - x ns\nen ew sw x en nw x - es ew ew nw\n- es nw es sw - es ew nw - x -\nes nw x ns en sw en sw x es ew sw\nns x - ns es nw x en sw en sw ns\nns es ew nw ns x - es nw - ns ns\nen nw - es nw es ew nw - es nw ns\nx - es nw - ns x - es nw x ns\nes ew nw es sw en ew ew nw x es nw\nen ew ew nw en ew ew ew ew ew nw -",
       "source": "https://www.janko.at/Raetsel/Koburin/136.a.htm"
     },
     "137_12x12": {
       "id": "137_12x12",
-      "solution": "12 12\nse ew ew ew sw - se sw - se ew sw\nns - se ew nw - ns ne ew nw - ns\nne sw ne sw - se nw - - se ew nw\nse nw - ns - ns se ew sw ne sw -\nns - - ne sw ne nw - ns - ne sw\nne ew sw - ne sw - se nw se sw ns\n- - ns - se nw - ns - ns ne nw\nse ew nw se nw - se nw - ne sw -\nne ew sw ne sw se nw se sw - ne sw\n- se nw - ne nw - ns ne sw - ns\nse nw - se sw - se nw se nw - ns\nne ew ew nw ne ew nw - ne ew ew nw",
+      "solution": "12 12\nes ew ew ew sw - es sw x es ew sw\nns - es ew nw x ns en ew nw - ns\nen sw en sw x es nw x - es ew nw\nes nw x ns - ns es ew sw en sw x\nns x - en sw en nw - ns - en sw\nen ew sw - en sw - es nw es sw ns\nx - ns x es nw x ns x ns en nw\nes ew nw es nw - es nw - en sw x\nen ew sw en sw es nw es sw - en sw\n- es nw - en nw x ns en sw - ns\nes nw - es sw - es nw es nw x ns\nen ew ew nw en ew nw - en ew ew nw",
       "source": "https://www.janko.at/Raetsel/Koburin/137.a.htm"
     },
     "138_12x12": {
       "id": "138_12x12",
-      "solution": "12 12\nse ew sw - se sw se ew sw se sw -\nne sw ne ew nw ne nw - ns ns ne sw\n- ne sw - se sw se ew nw ns - ns\nse ew nw se nw ne nw se ew nw - ns\nne ew sw ne ew sw - ne sw - se nw\n- - ns - - ne sw - ns - ns -\nse sw ne ew sw - ne sw ne sw ne sw\nns ne sw - ne ew sw ne sw ns - ns\nns - ne sw - se nw - ne nw - ns\nns - - ne ew nw - - - - se nw\nne sw se ew sw se sw se ew sw ne sw\n- ne nw - ne nw ne nw - ne ew nw",
+      "solution": "12 12\nes ew sw - es sw es ew sw es sw -\nen sw en ew nw en nw - ns ns en sw\n- en sw - es sw es ew nw ns - ns\nes ew nw es nw en nw es ew nw x ns\nen ew sw en ew sw - en sw x es nw\nx - ns x - en sw - ns - ns x\nes sw en ew sw - en sw en sw en sw\nns en sw - en ew sw en sw ns x ns\nns x en sw - es nw x en nw - ns\nns - x en ew nw x - - x es nw\nen sw es ew sw es sw es ew sw en sw\nx en nw - en nw en nw - en ew nw",
       "source": "https://www.janko.at/Raetsel/Koburin/138.a.htm"
     },
     "139_12x12": {
       "id": "139_12x12",
-      "solution": "12 12\nse ew ew ew sw se ew ew sw se ew sw\nne ew sw - ne nw - - ne nw - ns\n- se nw se sw se ew sw - - se nw\nse nw - ns ne nw - ne sw - ns -\nne sw se nw - se ew sw ne sw ne sw\n- ns ns - se nw se nw - ns - ns\nse nw ns - ns - ns - se nw - ns\nns - ne ew nw se nw - ns - - ns\nne ew sw - se nw se ew nw se ew nw\nse ew nw se nw se nw - - ne sw -\nns - - ns - ns - se ew sw ne sw\nne ew ew nw - ne ew nw - ne ew nw",
+      "solution": "12 12\nes ew ew ew sw es ew ew sw es ew sw\nen ew sw - en nw x - en nw - ns\nx es nw es sw es ew sw x - es nw\nes nw - ns en nw - en sw x ns x\nen sw es nw - es ew sw en sw en sw\n- ns ns - es nw es nw - ns - ns\nes nw ns x ns x ns - es nw x ns\nns - en ew nw es nw x ns x - ns\nen ew sw x es nw es ew nw es ew nw\nes ew nw es nw es nw x - en sw -\nns - x ns x ns - es ew sw en sw\nen ew ew nw - en ew nw - en ew nw",
       "source": "https://www.janko.at/Raetsel/Koburin/139.a.htm"
     },
     "140_12x12": {
       "id": "140_12x12",
-      "solution": "12 12\nse ew sw - se ew ew ew ew ew ew sw\nne sw ne sw ne sw - - se ew sw ns\n- ns se nw - ns - se nw - ne nw\nse nw ns se ew nw se nw - se sw -\nns - ne nw - - ne ew sw ns ne sw\nne ew sw se ew sw - - ne nw - ns\n- - ne nw - ne ew ew sw - se nw\nse ew sw se ew sw - - ns - ns -\nns - ne nw - ne sw se nw - ne sw\nns - - se ew sw ne nw se sw - ns\nne sw se nw se nw - se nw ns se nw\n- ne nw - ne ew ew nw - ne nw -",
+      "solution": "12 12\nes ew sw - es ew ew ew ew ew ew sw\nen sw en sw en sw - x es ew sw ns\n- ns es nw - ns x es nw - en nw\nes nw ns es ew nw es nw - es sw x\nns - en nw x - en ew sw ns en sw\nen ew sw es ew sw - x en nw - ns\n- x en nw - en ew ew sw x es nw\nes ew sw es ew sw - x ns - ns x\nns - en nw - en sw es nw x en sw\nns x - es ew sw en nw es sw - ns\nen sw es nw es nw - es nw ns es nw\nx en nw - en ew ew nw x en nw x",
       "source": "https://www.janko.at/Raetsel/Koburin/140.a.htm"
     },
     "141_10x10": {
       "id": "141_10x10",
-      "solution": "10 10\nse sw - es sw es ew ew sw -\nns en sw ns en nw - - en sw\nns - en nw - - se we we wn\nne we ws - se ws en sw - -\n- - ne we wn ne ws en ew sw\nes ew sw - es ew nw se we wn\nns - en sw ns - - en sw -\nns - - en nw se we ws en sw\nne ws se ws - sn - ns - sn\n- ne wn ne we wn - ne we wn",
+      "solution": "10 10\nes sw - es sw es ew ew sw -\nns en sw ns en nw x - en sw\nns - en nw x - es ew ew nw\nen ew sw - es sw en sw x -\n- x en ew nw en sw en ew sw\nes ew sw x es ew nw es ew nw\nns x en sw ns - x en sw -\nns - x en nw es ew sw en sw\nen sw es sw - ns x ns - ns\n- en nw en ew nw - en ew nw",
       "source": "https://www.janko.at/Raetsel/Koburin/141.a.htm"
     },
     "142_10x10": {
       "id": "142_10x10",
-      "solution": "10 10\nse ew ew sw - es ew ew sw -\nne ws - sn es nw - - en sw\n- ne ws en nw - se we ws sn\nes ew nw - - se wn - ne wn\nns - se we ws sn es sw - -\nne we wn - ns en nw en ew sw\n- - es ew nw - se ws - sn\nes ew nw - - se wn ns - sn\nne ws se we ws en sw ne ws sn\n- ne wn - ne we wn - ne wn",
+      "solution": "10 10\nes ew ew sw - es ew ew sw x\nen sw - ns es nw x - en sw\n- en sw en nw - es ew sw ns\nes ew nw x - es nw - en nw\nns - es ew sw ns es sw - x\nen ew nw x ns en nw en ew sw\nx - es ew nw - es sw - ns\nes ew nw x - es nw ns x ns\nen sw es ew sw en sw en sw ns\n- en nw - en ew nw - en nw",
       "source": "https://www.janko.at/Raetsel/Koburin/142.a.htm"
     },
     "143_10x10": {
       "id": "143_10x10",
-      "solution": "10 10\n- se ew ew sw - es ew sw -\nes nw - - en ew nw - en sw\nns - se we ws - - se we wn\nns se wn - ne ws - sn - -\nne wn es ew sw ne ws en sw -\n- es nw - sn - ne ws en sw\nes nw se ws en ew sw ns - sn\nns - sn ns - - en nw se wn\nns - sn ns se we ws - en sw\nne we wn ne wn - ne we we wn",
+      "solution": "10 10\nx es ew ew sw x es ew sw x\nes nw - x en ew nw - en sw\nns - es ew sw x - es ew nw\nns es nw x en sw x ns - x\nen nw es ew sw en sw en sw -\n- es nw - ns - en sw en sw\nes nw es sw en ew sw ns - ns\nns - ns ns x - en nw es nw\nns x ns ns es ew sw x en sw\nen ew nw en nw - en ew ew nw",
       "source": "https://www.janko.at/Raetsel/Koburin/143.a.htm"
     },
     "144_10x10": {
       "id": "144_10x10",
-      "solution": "10 10\nse ew ew ew ew sw - es ew sw\nne we ws - - sn es nw - sn\n- - ne ws - en nw - se wn\nes ew sw ne we ws - se wn -\nns - en sw - ne ws en ew sw\nne ws - sn - es nw se we wn\n- ns - sn es nw se wn - -\nes nw - en nw - en ew ew sw\nns se we ws se ws - - se wn\nne wn - ne wn ne we we wn -",
+      "solution": "10 10\nes ew ew ew ew sw x es ew sw\nen ew sw x - ns es nw - ns\nx - en sw x en nw - es nw\nes ew sw en ew sw - es nw x\nns - en sw x en sw en ew sw\nen sw x ns - es nw es ew nw\nx ns - ns es nw es nw x -\nes nw x en nw x en ew ew sw\nns es ew sw es sw - x es nw\nen nw - en nw en ew ew nw -",
       "source": "https://www.janko.at/Raetsel/Koburin/144.a.htm"
     },
     "145_10x10": {
       "id": "145_10x10",
-      "solution": "10 10\nse ew sw es ew sw - es ew sw\nns - en nw - en ew nw - sn\nne ws - se ws - - se we wn\n- ns - sn ne we ws en sw -\nes nw - en sw - ns - en sw\nne we ws - en sw ne we ws sn\n- - ns - - en sw - ne wn\nes ew nw se ws - en ew sw -\nne ws se wn ns se ws - en sw\n- ne wn - ne wn ne we we wn",
+      "solution": "10 10\nes ew sw es ew sw x es ew sw\nns - en nw - en ew nw - ns\nen sw x es sw x - es ew nw\n- ns - ns en ew sw en sw x\nes nw x en sw - ns - en sw\nen ew sw x en sw en ew sw ns\n- x ns - x en sw - en nw\nes ew nw es sw x en ew sw -\nen sw es nw ns es sw - en sw\n- en nw - en nw en ew ew nw",
       "source": "https://www.janko.at/Raetsel/Koburin/145.a.htm"
     },
     "146_12x12": {
       "id": "146_12x12",
-      "solution": "12 12\nse ew sw se ew ew sw - se ew ew sw\nne sw ne nw - - ne sw ns - se nw\nse nw - se ew sw - ns ns - ns -\nns - - ns - ne sw ne nw - ne sw\nne ew sw ne sw - ns - se sw - ns\n- - ns se nw se nw se nw ne sw ns\nse sw ne nw - ns - ne sw - ns ns\nns ne sw - se nw - se nw - ne nw\nns - ne ew nw se ew nw se sw - -\nns se sw - - ne ew ew nw ne ew sw\nns ns ne sw se sw se ew sw - - ns\nne nw - ne nw ne nw - ne ew ew nw",
+      "solution": "12 12\nes ew sw es ew ew sw - es ew ew sw\nen sw en nw - x en sw ns x es nw\nes nw - es ew sw x ns ns - ns -\nns - x ns - en sw en nw x en sw\nen ew sw en sw - ns - es sw x ns\nx - ns es nw es nw es nw en sw ns\nes sw en nw - ns x en sw x ns ns\nns en sw - es nw - es nw - en nw\nns - en ew nw es ew nw es sw x -\nns es sw x - en ew ew nw en ew sw\nns ns en sw es sw es ew sw x - ns\nen nw - en nw en nw - en ew ew nw",
       "source": "https://www.janko.at/Raetsel/Koburin/146.a.htm"
     },
     "147_12x12": {
       "id": "147_12x12",
-      "solution": "12 12\nse sw se ew sw - se ew ew ew sw -\nns ne nw - ne ew nw - - - ne sw\nne sw se ew ew sw - se ew sw - ns\n- ne nw - - ne sw ns - ne ew nw\nse sw - se sw - ns ne ew sw - -\nns ns se nw ns se nw - - ne ew sw\nns ne nw - ne nw se ew sw - se nw\nns - se ew sw - ne sw ne ew nw -\nne ew nw - ne sw - ns - se ew sw\n- - se ew ew nw - ne ew nw - ns\nse ew nw - - se ew sw - - se nw\nne ew ew ew ew nw - ne ew ew nw -",
+      "solution": "12 12\nes sw es ew sw x es ew ew ew sw x\nns en nw - en ew nw x - x en sw\nen sw es ew ew sw - es ew sw - ns\n- en nw x - en sw ns x en ew nw\nes sw - es sw x ns en ew sw x -\nns ns es nw ns es nw x - en ew sw\nns en nw x en nw es ew sw x es nw\nns - es ew sw - en sw en ew nw -\nen ew nw x en sw - ns - es ew sw\n- x es ew ew nw x en ew nw - ns\nes ew nw x - es ew sw - x es nw\nen ew ew ew ew nw - en ew ew nw x",
       "source": "https://www.janko.at/Raetsel/Koburin/147.a.htm"
     },
     "148_12x12": {
       "id": "148_12x12",
-      "solution": "12 12\nse ew sw - se ew ew sw - se ew sw\nns - ns se nw - se nw - ns - ns\nns - ne nw - se nw - se nw - ns\nne sw - - se nw - se nw se ew nw\n- ns se ew nw - se nw - ns - -\nse nw ns - se ew nw - - ne ew sw\nns - ne ew nw - se ew ew sw - ns\nne ew sw - se sw ns - se nw se nw\n- se nw se nw ne nw se nw se nw -\nse nw - ne sw - se nw - ne ew sw\nns - se sw ns - ns - se sw se nw\nne ew nw ne nw - ne ew nw ne nw -",
+      "solution": "12 12\nes ew sw x es ew ew sw - es ew sw\nns - ns es nw - es nw x ns - ns\nns x en nw - es nw x es nw x ns\nen sw - x es nw x es nw es ew nw\n- ns es ew nw x es nw x ns - x\nes nw ns - es ew nw x - en ew sw\nns x en ew nw - es ew ew sw - ns\nen ew sw - es sw ns x es nw es nw\nx es nw es nw en nw es nw es nw -\nes nw - en sw x es nw - en ew sw\nns - es sw ns - ns - es sw es nw\nen ew nw en nw x en ew nw en nw -",
       "source": "https://www.janko.at/Raetsel/Koburin/148.a.htm"
     },
     "149_12x12": {
       "id": "149_12x12",
-      "solution": "12 12\nse ew ew ew ew ew sw - se ew ew sw\nne ew sw - - - ne sw ne ew sw ns\n- - ne ew ew sw - ne sw - ns ns\nse ew sw - - ne ew sw ne ew nw ns\nns - ne ew sw - se nw - - se nw\nne ew sw - ne ew nw - se ew nw -\n- - ne sw se ew ew sw ne sw se sw\nse sw - ne nw - se nw - ne nw ns\nns ne sw - - se nw se ew sw - ns\nns - ne ew ew nw - ns - ns - ns\nns - se ew sw - se nw se nw se nw\nne ew nw - ne ew nw - ne ew nw -",
+      "solution": "12 12\nes ew ew ew ew ew sw - es ew ew sw\nen ew sw x - x en sw en ew sw ns\n- x en ew ew sw x en sw - ns ns\nes ew sw x - en ew sw en ew nw ns\nns - en ew sw x es nw x - es nw\nen ew sw - en ew nw - es ew nw -\n- x en sw es ew ew sw en sw es sw\nes sw - en nw - es nw - en nw ns\nns en sw x - es nw es ew sw x ns\nns - en ew ew nw x ns - ns - ns\nns x es ew sw x es nw es nw es nw\nen ew nw - en ew nw - en ew nw -",
       "source": "https://www.janko.at/Raetsel/Koburin/149.a.htm"
     },
     "150_12x12": {
       "id": "150_12x12",
-      "solution": "12 12\nse ew sw - se ew ew ew sw - se sw\nns - ns se nw - - - ne ew nw ns\nne sw ne nw - se ew ew sw - se nw\nse nw - se sw ne sw - ns - ns -\nns - se nw ns - ne sw ne sw ne sw\nne sw ns - ns se ew nw - ne sw ns\n- ns ne sw ne nw - se ew sw ne nw\nse nw - ne sw - se nw - ns - -\nns - - - ne ew nw se sw ne ew sw\nns se ew sw - - - ns ne sw - ns\nns ns - ns - se sw ns - ns se nw\nne nw - ne ew nw ne nw - ne nw -",
+      "solution": "12 12\nes ew sw x es ew ew ew sw - es sw\nns - ns es nw x - x en ew nw ns\nen sw en nw - es ew ew sw x es nw\nes nw - es sw en sw - ns - ns -\nns - es nw ns x en sw en sw en sw\nen sw ns x ns es ew nw - en sw ns\nx ns en sw en nw - es ew sw en nw\nes nw x en sw x es nw - ns - x\nns x - x en ew nw es sw en ew sw\nns es ew sw - x - ns en sw x ns\nns ns x ns x es sw ns x ns es nw\nen nw - en ew nw en nw - en nw -",
       "source": "https://www.janko.at/Raetsel/Koburin/150.a.htm"
     }
   }
