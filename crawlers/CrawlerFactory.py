@@ -97,6 +97,7 @@ from NurikabeCrawler import NurikabeCrawler
 from SukoroCrawler import SukoroCrawler
 from CojunCrawler import CojunCrawler
 from KurottoCrawler import KurottoCrawler
+from RekutoCrawler import RekutoCrawler
 
 from typing import Dict, Any
 
@@ -202,9 +203,10 @@ class CrawlerFactory:
         "Nurikabe": NurikabeCrawler,
         "Sukoro": SukoroCrawler, # TODO: not run yet
         "Cojun": CojunCrawler, # TODO: not run yet
-        "Kurotto": KurottoCrawler
+        "Kurotto": KurottoCrawler,
         # Shakashaka: TODO:
         # Doppelblock: TODO:
+        "Rekuto": RekutoCrawler
     }
     
     @classmethod
