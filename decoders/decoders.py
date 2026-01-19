@@ -4,7 +4,7 @@
 # This is especially helpful if you want to parse these grids
 # into computer-friendly style.
 
-from typing import Dict, Optional, Callable
+from typing import Dict, Optional, Callable, List
 import hashlib
 
 def shigoki_parser(num_rows: int, num_cols: int, strs: str):
@@ -145,6 +145,41 @@ def starbattle_parser(num_rows: int, num_cols: int, strs: str) -> str:
     contents = "\n".join([" ".join(row) for row in matrix])
     return f"{headers}\n{contents}"
 
+def battleship_parser(cols_top: List[int], rows_left: List[int], strs: str) -> str:
+    # fill it on you own
+    # cols_top = [2,9,5,4,6,8,6,5,11,2,5,3,2,13,2,5,11,5,10,7,5,4,9,6,2,3,10,1,2,2]
+    # rows_left = [8,4,6,2,1,7,7,9,5,4,5,6,3,17,3,5,4,10,4,15,3,2,2,15,3,8,1,2,2,2]
+    # o6f4g6a4b3zr4n5zt2s6a2b4m6b4zn6c4r2m5h3h5w1c5d2l3d2z6d0zc0a6c2a4b6f4zg3h1c1i3d5s1k5m4a5zh2a5m2q0b6zf5p2b2zzj6a2b4b2a4j1b4zk4j5zq4ze6n1a1x
+    num_rows = len(rows_left)
+    num_cols = len(cols_top)
+    arr = ["-" for _ in range(num_rows * num_cols)]
+    i = 0
+    cur_idx = 0
+    while i < len(strs):
+        if strs[i] in "abcdefghijklmnopqrstuvwxyz":
+            for k in range(ord(strs[i]) - ord('a') + 1):
+                cur_idx += 1
+            i += 1
+            continue
+        else:
+            
+            if strs[i] in "0123456":
+                if strs[i] == "0":   arr[cur_idx] = "x"
+                elif strs[i] == "1": arr[cur_idx] = "o"
+                elif strs[i] == "2": arr[cur_idx] = "m"
+                elif strs[i] == "3": arr[cur_idx] = "n"
+                elif strs[i] == "4": arr[cur_idx] = "e"
+                elif strs[i] == "5": arr[cur_idx] = "s"
+                elif strs[i] == "6": arr[cur_idx] = "w"
+                cur_idx += 1
+                i += 1
+    # print(arr)
+    ret_mat = [arr[idx: idx + num_cols] for idx in range(0, num_rows * num_cols, num_cols)]
+    headers = f"{num_rows} {num_cols} 9 8 7 6 5 4 3 2 1"
+    rows_cols = f"{' '.join(map(lambda x: str(x), cols_top))}\n{' '.join(map(lambda x: str(x), rows_left))}"
+    contents = "\n".join([" ".join(row) for row in ret_mat])
+    return f"{headers}\n{rows_cols}\n{contents}"
+
 def puzzle_to_dict(
     puzzle_type: str,  # 谜题类型，如 "dominos", "shikaku" 等
     num_rows: int,
@@ -162,7 +197,8 @@ def puzzle_to_dict(
         "shikaku": shikaku_parser,
         "dominos": dominos_parser,
         "masyu": masyu_parser,
-        "starbattle": starbattle_parser
+        "starbattle": starbattle_parser,
+        "battleship": battleship_parser
     }
     
     if parser_func is None:
@@ -207,9 +243,13 @@ if __name__ == "__main__":
     # target_str = "cWcBfWhBcWbBcBaWdWaWBcWBbWaWaBbBbWfWeWbBaWnWbWdBcWWaBaWiWbWcBcWfWbWaWdWcBaWdWiBWaWWaWBeBbWaWBWaBbBaWdBcWbBhWBsWdBeWWaWWbWdWBcWaWaWbBfWWaWaWWfWWaWbWaWbWbWcWbWWfWgWhBeBbWjWbWWWaWcWcBBcWbBcBbWBWbWaBWaWWWdWcWbWiBgWBiWbWbBfBbBaWbBBaWaWfWbWeWgBaBcWaWjBaWbWcBBbWbBbWiWaWWBcBfBgWbBbWlWbWaBdBeBfWbWbWWBaBbWkBcWWgWeWeBWcBaBfBWaWeBaBWWbBfBWbWhBdWfBfWaBaBWWbBcBcBBaWdWbBbWaWWdWbWaWdWdWWeWWcWWjBaBfBWhWWeBdBbWcWfBfWaWaBbWBcBdWBaWfWdWiBbWfWaWbWWcBeWbBbWWbBbBbWaWcBbWWbWcWbBaWaWcBdBdWbWbBfWdWjBcBcBeWaBcWeWcWcWbWaWaBdWdWdWaWbWBWaBcWaBcWbWWbWaWdWbWWeBfBbBcBaWaWaWbWcBbBaBdBcWaWcWaBcWdBWdWaWaWBoWgBaWdWbWfWbBaBaBaBcWWWbWbWbWaWfWBdWbBbBbBdWaBaBaWhBcWbBaBbWcBdWaBhWbBcBaWaWbWcWbWaBaBbBaWbBbWeWbBcWbWaWaWcWcWcWaWdWdBdBcWeWWeWcWcBhBdWgBdWaWWgBbBbBcBaBaBeBbWcBaWaWBbWpWWeBaWcWdWfBbBfBaWaWaWcWeWdWbWcWcBdBeWe"
     
     # ====> starbattle
-    target_str = "1,1,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,1,2,2,2,2,2,2,2,4,4,4,2,5,5,5,3,3,3,3,3,3,1,1,2,2,2,2,2,2,4,6,4,4,4,5,5,5,5,5,3,3,3,1,1,2,2,2,6,6,6,4,6,4,7,5,5,5,3,3,3,3,3,8,1,1,1,2,6,6,6,6,6,6,4,7,7,7,7,3,3,8,8,3,8,1,1,6,6,6,6,6,6,6,6,4,7,7,7,7,3,3,8,8,3,8,1,6,6,6,9,6,6,6,6,6,7,7,7,7,7,7,8,8,8,8,8,1,6,6,6,9,6,9,9,9,6,7,7,7,7,10,8,8,8,8,8,8,1,1,9,9,9,9,9,7,7,7,7,7,10,10,10,8,8,8,8,8,11,1,12,12,12,12,12,12,7,7,7,13,7,10,14,10,8,8,11,11,11,11,12,12,12,12,12,12,13,13,13,7,13,7,10,14,10,14,11,11,14,14,11,12,12,12,12,12,15,15,15,13,13,13,13,10,14,14,14,14,14,14,14,11,12,12,12,12,15,15,15,15,15,15,15,13,10,14,10,10,14,14,14,14,11,12,12,12,15,15,15,15,15,15,15,15,13,10,10,10,14,14,14,14,14,14,12,12,12,16,15,15,15,15,15,15,15,15,15,10,17,17,14,14,14,18,14,12,16,16,16,16,16,15,15,15,15,15,17,17,17,17,14,14,14,14,18,14,12,19,19,16,15,15,15,20,15,15,15,17,21,17,21,14,14,14,14,18,14,19,19,19,16,16,16,15,20,15,17,17,17,21,21,21,21,21,18,18,18,14,19,19,19,19,19,19,19,20,20,21,21,21,21,21,21,21,21,21,21,18,18,19,19,19,19,19,19,19,19,20,20,20,20,21,21,21,21,21,21,21,21,18,19,19,19,19,19,19,19,20,20,21,21,21,21,21,21,21,21,21,21,18,18"
-    ret = puzzle_to_dict("starbattle", 21, 21, target_str)
-    # ret = masyu_parser(35, 35, target_str)
+    # target_str = "1,1,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,1,2,2,2,2,2,2,2,4,4,4,2,5,5,5,3,3,3,3,3,3,1,1,2,2,2,2,2,2,4,6,4,4,4,5,5,5,5,5,3,3,3,1,1,2,2,2,6,6,6,4,6,4,7,5,5,5,3,3,3,3,3,8,1,1,1,2,6,6,6,6,6,6,4,7,7,7,7,3,3,8,8,3,8,1,1,6,6,6,6,6,6,6,6,4,7,7,7,7,3,3,8,8,3,8,1,6,6,6,9,6,6,6,6,6,7,7,7,7,7,7,8,8,8,8,8,1,6,6,6,9,6,9,9,9,6,7,7,7,7,10,8,8,8,8,8,8,1,1,9,9,9,9,9,7,7,7,7,7,10,10,10,8,8,8,8,8,11,1,12,12,12,12,12,12,7,7,7,13,7,10,14,10,8,8,11,11,11,11,12,12,12,12,12,12,13,13,13,7,13,7,10,14,10,14,11,11,14,14,11,12,12,12,12,12,15,15,15,13,13,13,13,10,14,14,14,14,14,14,14,11,12,12,12,12,15,15,15,15,15,15,15,13,10,14,10,10,14,14,14,14,11,12,12,12,15,15,15,15,15,15,15,15,13,10,10,10,14,14,14,14,14,14,12,12,12,16,15,15,15,15,15,15,15,15,15,10,17,17,14,14,14,18,14,12,16,16,16,16,16,15,15,15,15,15,17,17,17,17,14,14,14,14,18,14,12,19,19,16,15,15,15,20,15,15,15,17,21,17,21,14,14,14,14,18,14,19,19,19,16,16,16,15,20,15,17,17,17,21,21,21,21,21,18,18,18,14,19,19,19,19,19,19,19,20,20,21,21,21,21,21,21,21,21,21,21,18,18,19,19,19,19,19,19,19,19,20,20,20,20,21,21,21,21,21,21,21,21,18,19,19,19,19,19,19,19,20,20,21,21,21,21,21,21,21,21,21,21,18,18"
+    # ret = puzzle_to_dict("starbattle", 21, 21, target_str)
+    # # ret = masyu_parser(35, 35, target_str)
+    target_str = "o6f4g6a4b3zr4n5zt2s6a2b4m6b4zn6c4r2m5h3h5w1c5d2l3d2z6d0zc0a6c2a4b6f4zg3h1c1i3d5s1k5m4a5zh2a5m2q0b6zf5p2b2zzj6a2b4b2a4j1b4zk4j5zq4ze6n1a1x"
+    ret = puzzle_to_dict("battleship", 
+        [2,9,5,4,6,8,6,5,11,2,5,3,2,13,2,5,11,5,10,7,5,4,9,6,2,3,10,1,2,2], 
+        [8,4,6,2,1,7,7,9,5,4,5,6,3,17,3,5,4,10,4,15,3,2,2,15,3,8,1,2,2,2], target_str)
     print(ret)
     
 

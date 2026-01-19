@@ -181,9 +181,9 @@
       "solution": "12 12\n- - - x - - - x - x - x\n- x x x - x - x - x x x\n- x - x x x x x - x - -\n- x - - x - - x x x - x\nx x x x x x x x - x x x\nx - x - x - x - x - x -\nx - - x x x - x x x - -\nx - x x - - x - - x x x\nx x - - - x x x x x - x\n- x - x - x - x - x x -\n- x - x x x - x x - x x\nx x x x - x x - - - - x",
       "source": "https://www.janko.at/Raetsel/Peintoeria/040.a.htm"
     },
-    "41_17x8": {
-      "id": "41_17x8",
-      "solution": "17 8\nx - x - x - x x\nx x x x x x x -\nx - - x - - x -\nx x - - x x x x\nx - x x - x - x\nx x - x x x - x\nx - - - x - - -\nx x x - x x x x\n[solution]\nx - x - x - x x\nx x x x x x x -\nx - - x - - x -\nx x - - x x x x\nx - x x - x - x\nx x - x x x - x\nx - - - x - - -\nx x x - x x x x",
+    "41_8x8": {
+      "id": "41_8x8",
+      "solution": "8 8\nx - x - x - x x\nx x x x x x x -\nx - - x - - x -\nx x - - x x x x\nx - x x - x - x\nx x - x x x - x\nx - - - x - - -\nx x x - x x x x",
       "source": "https://www.janko.at/Raetsel/Peintoeria/041.a.htm"
     },
     "42_8x8": {

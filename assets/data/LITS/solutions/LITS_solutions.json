@@ -1680,17 +1680,17 @@
       "source": "https://www.janko.at/Raetsel/LITS/280.a.htm",
       "solution": "10 10\nS S - T - - I L L -\n- S S T T - I - L -\n- - - T - - I - L I\nI - L L L - I - - I\nI - - - L - L L - I\nI - - T T T L - - I\nI - - - T - L - - L\nL S S - - - - - - L\nL - S S I I I I L L\nL L - - - - - - - -"
     },
-    "281_11x1": {
-      "id": "281_11x1",
+    "281_10x10": {
+      "id": "281_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/LITS/281.a.htm",
-      "solution": "11 1\n- S S - - - S S - I\n- - S S - - - S S I\nT - L - - - L L - I\nT T L L L - L - S I\nT - - - - - L S S -\nI - - - - - - S - -\nI - - - - - L L L -\nI S S - - S S - L -\nI - S S - - S S - -\n- - - I I I I - - -"
+      "solution": "10 10\n- S S - - - S S - I\n- - S S - - - S S I\nT - L - - - L L - I\nT T L L L - L - S I\nT - - - - - L S S -\nI - - - - - - S - -\nI - - - - - L L L -\nI S S - - S S - L -\nI - S S - - S S - -\n- - - I I I I - - -"
     },
-    "282_11x1": {
-      "id": "282_11x1",
+    "282_10x10": {
+      "id": "282_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/LITS/282.a.htm",
-      "solution": "11 1\nS S - L L T - L L L\n- S S L - T T L - I\n- - - L - T - T - I\nL - I I I I T T - I\nL L L - T - - T - I\nT - - T T L L L - S\nT T - - T - - L S S\nT - - I I I I - S -\n- T - L - - - - - -\nT T T L L L I I I I"
+      "solution": "10 10\nS S - L L T - L L L\n- S S L - T T L - I\n- - - L - T - T - I\nL - I I I I T T - I\nL L L - T - - T - I\nT - - T T L L L - S\nT T - - T - - L S S\nT - - I I I I - S -\n- T - L - - - - - -\nT T T L L L I I I I"
     },
     "283_10x10": {
       "id": "283_10x10",
@@ -1698,47 +1698,47 @@
       "source": "https://www.janko.at/Raetsel/LITS/283.a.htm",
       "solution": "10 10\nT - L L L - - L L L\nT T L - I I I I - L\nT - - L L - - T T T\nL S S - L S S - T -\nL - S S L - S S L L\nL L T - T T T - - L\nS - T T - T - T - L\nS S T - - L T T - -\n- S - L L L - T - -\nI I I I - I I I I -"
     },
-    "284_11x1": {
-      "id": "284_11x1",
+    "284_10x10": {
+      "id": "284_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/LITS/284.a.htm",
-      "solution": "11 1\n- - - - - - - L L L\n- - - - - T - S - L\nT - L - T T T S S -\nT T L L L - - - S I\nT - - S - T - - - I\nL L S S T T L L - I\nL - S - - T - L - I\nL I I I I L - L - L\n- - T - - L - - - L\n- T T T L L - - L L"
+      "solution": "10 10\n- - - - - - - L L L\n- - - - - T - S - L\nT - L - T T T S S -\nT T L L L - - - S I\nT - - S - T - - - I\nL L S S T T L L - I\nL - S - - T - L - I\nL I I I I L - L - L\n- - T - - L - - - L\n- T T T L L - - L L"
     },
-    "285_11x1": {
-      "id": "285_11x1",
+    "285_10x10": {
+      "id": "285_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/LITS/285.a.htm",
-      "solution": "11 1\nL L S S - - T T T L\nL - - S S - - T - L\nL T T T - - S S L L\n- - T - I S S - - I\n- S S - I - T - - I\n- - S S I T T T - I\n- L L - I - L - T I\n- L - - L L L T T -\n- L - - - - T - T -\nI I I I - T T T - -"
+      "solution": "10 10\nL L S S - - T T T L\nL - - S S - - T - L\nL T T T - - S S L L\n- - T - I S S - - I\n- S S - I - T - - I\n- - S S I T T T - I\n- L L - I - L - T I\n- L - - L L L T T -\n- L - - - - T - T -\nI I I I - T T T - -"
     },
-    "286_11x1": {
-      "id": "286_11x1",
+    "286_10x10": {
+      "id": "286_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/LITS/286.a.htm",
-      "solution": "11 1\nT - L - - - I I I I\nT T L - T - L - - -\nT - L L T T L - I -\nL L T - T - L L I -\nL - T T L L T - I -\nL - T - L - T T I L\nI I I I L - T - - L\nL - T - I I I I L L\nL - T T - - L - T -\nL L T - L L L T T T"
+      "solution": "10 10\nT - L - - - I I I I\nT T L - T - L - - -\nT - L L T T L - I -\nL L T - T - L L I -\nL - T T L L T - I -\nL - T - L - T T I L\nI I I I L - T - - L\nL - T - I I I I L L\nL - T T - - L - T -\nL L T - L L L T T T"
     },
-    "287_11x1": {
-      "id": "287_11x1",
+    "287_10x10": {
+      "id": "287_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/LITS/287.a.htm",
-      "solution": "11 1\nT T T - - S S - L L\n- T - - - - S S - L\nL L - T - L L - T L\nL - - T T - L T T -\nL S - T - - L - T -\n- S S L L I I I I -\n- - S - L - - L - -\nL L - - L - - L L L\nL - - - - - S S - -\nL I I I I S S - - -"
+      "solution": "10 10\nT T T - - S S - L L\n- T - - - - S S - L\nL L - T - L L - T L\nL - - T T - L T T -\nL S - T - - L - T -\n- S S L L I I I I -\n- - S - L - - L - -\nL L - - L - - L L L\nL - - - - - S S - -\nL I I I I S S - - -"
     },
-    "288_11x1": {
-      "id": "288_11x1",
+    "288_10x10": {
+      "id": "288_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/LITS/288.a.htm",
-      "solution": "11 1\nI I I I - T T T L L\n- - - S - - T - - L\nL L L S S - - - - L\nL - I - S - - - - S\nI - I - - - L L S S\nI - I - S S L - S -\nI - I S S - L - - -\nI S - - - - - - - -\n- S S - - - - - - L\n- - S I I I I L L L"
+      "solution": "10 10\nI I I I - T T T L L\n- - - S - - T - - L\nL L L S S - - - - L\nL - I - S - - - - S\nI - I - - - L L S S\nI - I - S S L - S -\nI - I S S - L - - -\nI S - - - - - - - -\n- S S - - - - - - L\n- - S I I I I L L L"
     },
-    "289_11x1": {
-      "id": "289_11x1",
+    "289_10x10": {
+      "id": "289_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/LITS/289.a.htm",
-      "solution": "11 1\nS - L L L T T T - -\nS S L - - - T - - -\n- S - I - - L L - I\nT T T I - - - L - I\n- T - I - - S L - I\nL L - I - S S - - I\nL - T T T S - T L L\nL - - T - - T T - L\n- - - L - - - T - L\n- - - L L L I I I I"
+      "solution": "10 10\nS - L L L T T T - -\nS S L - - - T - - -\n- S - I - - L L - I\nT T T I - - - L - I\n- T - I - - S L - I\nL L - I - S S - - I\nL - T T T S - T L L\nL - - T - - T T - L\n- - - L - - - T - L\n- - - L L L I I I I"
     },
-    "290_11x1": {
-      "id": "290_11x1",
+    "290_10x10": {
+      "id": "290_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/LITS/290.a.htm",
-      "solution": "11 1\nT - L L S - T T T L\nT T L - S S - T - L\nT - L S - S - S L L\n- T - S S - S S - -\nT T T - S L S - - -\nL - S S - L - S - -\nL - - S S L L S S -\nL L - L - T - - S L\n- T - L - T T - - L\nT T T L L T - - L L"
+      "solution": "10 10\nT - L L S - T T T L\nT T L - S S - T - L\nT - L S - S - S L L\n- T - S S - S S - -\nT T T - S L S - - -\nL - S S - L - S - -\nL - - S S L L S S -\nL L - L - T - - S L\n- T - L - T T - - L\nT T T L L T - - L L"
     },
     "291_10x10": {
       "id": "291_10x10",

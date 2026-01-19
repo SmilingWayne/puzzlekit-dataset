@@ -95,7 +95,7 @@ def generate_markdown_table():
     total_solutions = 0
 
     # Table headers
-    headers = ["No.", "Puzzle Name", "Problems", "Solutions", "Max Size", "solved?", "crawler?"]
+    headers = ["No.", "Puzzle Name", "Problems", "Solutions", "Max Size", "crawler?"]
     
     # Traverse each puzzle directory
     for idx, puzzle_name in enumerate(subdirs, 1):
@@ -160,7 +160,7 @@ def generate_markdown_table():
             pass
 
         table_data.append([str(idx), puzzle_name, str(p_count), str(s_count), 
-                          max_size, solved_status, crawler_status])
+                          max_size, crawler_status])
 
     # --- Generate Markdown Output ---
 
