@@ -1,5 +1,5 @@
 # puzzle_scraper/__init__.py  
-"""Puzzle Scraper 包"""  
+"""Puzzle Scraper"""  
   
 from .scraper import PuzzleScraper  
 from .models import PuzzleData, ScrapingResult  

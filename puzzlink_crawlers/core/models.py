@@ -1,29 +1,28 @@
 # puzzle_scraper/models.py  
-"""数据模型定义"""  
+"""data model definition"""  
   
 from dataclasses import dataclass, field  
 from typing import Optional, List  
 from datetime import datetime  
-  
-  
+
 @dataclass  
 class PuzzleData:  
-    """单个谜题的数据结构"""  
-    name: str                          # 谜题名称（如 mejilink001）  
-    puzzle_type: str                   # 谜题类型  
+    """Single puzzle data structure"""  
+    name: str                          # Puzzle name（如 mejilink001）  
+    puzzle_type: str                   # Puzzle type   
     puzz_link_url: str                 # puzz.link URL  
-    date: Optional[str] = None         # 发布日期  
-    author: Optional[str] = None       # 作者  
-    solves: Optional[int] = None       # 解题次数  
-    difficulty: Optional[int] = None   # 难度  
-    source_url: Optional[str] = None   # 原始来源链接（Twitter等）  
+    date: Optional[str] = None         # Release date 
+    author: Optional[str] = None       # Author.  
+    solves: Optional[int] = None       # Solve time.
+    difficulty: Optional[int] = None   # Diffifulty.  
+    source_url: Optional[str] = None   # Original link（Twitter, etc. ）  
     pzplus_url: Optional[str] = None   # pzplus URL  
     pzv_url: Optional[str] = None      # pzv.jp URL  
-    has_variant_tag: bool = False      # 是否有 variant 标签  
+    has_variant_tag: bool = False      # with variant or not.
     scraped_at: str = field(default_factory=lambda: datetime.now().isoformat())  
       
     def to_dict(self) -> dict:  
-        """转换为字典格式"""  
+        """convert to dict form."""  
         return {  
             'name': self.name,  
             'puzzle_type': self.puzzle_type,  
@@ -37,11 +36,10 @@ class PuzzleData:
             'pzv_url': self.pzv_url,  
             'scraped_at': self.scraped_at  
         }  
-  
-  
+
 @dataclass  
 class ScrapingResult:  
-    """爬取结果汇总"""  
+    """Collection."""  
     puzzle_type: str  
     total_found: int = 0  
     total_scraped: int = 0  

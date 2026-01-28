@@ -1,5 +1,5 @@
 # puzzle_scraper/parser.py  
-"""HTML 解析模块"""  
+"""HTML parser module"""  
   
 import re  
 from typing import Optional, Tuple, List  
@@ -13,13 +13,11 @@ logger = setup_logger(__name__)
   
   
 class PuzzleParser:  
-    """谜题 HTML 解析器"""  
+    """HTML Parser"""  
       
     @staticmethod  
     def parse_difficulty_info(title_text: str) -> Tuple[Optional[int], Optional[int]]:  
-        """  
-        解析难度信息  
-          
+        """
         Args:  
             title_text: 如 "solves: 1723, difficulty: 5"  
           
@@ -101,21 +99,19 @@ class PuzzleParser:
                     puzzle_type_span.get('title')  
                 )  
               
-            # 获取来源链接  
+            # Get source link  
             source_link = soup.find('a', class_='longlink')  
             source_url = source_link.get('href', '') if source_link else None  
               
-            # 获取 pzplus URL  
+            # Get pzplus url.
             pzplus_anchor = soup.find('a', class_='lpzp')  
             pzplus_url = pzplus_anchor.get('href', '') if pzplus_anchor else None  
             if pzplus_url and pzplus_url.startswith('/'):  
                 pzplus_url = f"https://pzplus.tck.mn{pzplus_url}"  
-              
-            # 获取 pzv.jp URL  
+            
             pzv_anchor = soup.find('a', class_='lpzv')  
             pzv_url = pzv_anchor.get('href', '') if pzv_anchor else None  
-              
-            # 构建谜题名称  
+            
             puzzle_name = f"{puzzle_type}{idx:04d}"  
               
             return PuzzleData(  
@@ -133,24 +129,24 @@ class PuzzleParser:
             )  
               
         except Exception as e:  
-            logger.error(f"解析谜题元素失败 (idx={idx}): {e}")  
+            logger.error(f"Fail to parse puzzle element: (idx={idx}): {e}")  
             return None  
       
     @staticmethod  
     async def get_puzzle_elements(page: Page) -> List[Locator]:  
         """  
-        获取页面上所有的谜题元素  
+        Get all puzzle element.  
           
         Args:  
-            page: Playwright Page 对象  
+            page: Playwright Page object  
           
         Returns:  
-            谜题元素列表  
+            List of puzzle element  
         """  
-        # 等待 tweets 容器加载  
+        # Wait fot tweets element.
         await page.wait_for_selector('ul.tweets', timeout=10000)  
           
-        # 获取所有谜题元素  
+        # Get all puzzle element.
         elements = page.locator('ul.tweets li.pzvpuzzle')  
         count = await elements.count()  
           

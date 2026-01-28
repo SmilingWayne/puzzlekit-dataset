@@ -1,5 +1,5 @@
 # puzzle_scraper/logger.py  
-"""日志配置模块"""  
+"""Log configuration."""  
   
 import logging  
 import sys  
@@ -8,22 +8,19 @@ from datetime import datetime
   
 def setup_logger(name: str, log_file: str = None) -> logging.Logger:  
     """  
-    设置并返回一个配置好的 logger  
+    Setup and return logger  
       
     Args:  
-        name: logger 名称  
-        log_file: 日志文件路径，如果为 None 则只输出到控制台  
+        name: logger name.  
+        log_file: Log file path.
       
     Returns:  
-        配置好的 Logger 实例  
     """  
     logger = logging.getLogger(name)  
     logger.setLevel(logging.DEBUG)  
       
-    # 清除已有的 handlers  
     logger.handlers.clear()  
       
-    # 控制台 handler  
     console_handler = logging.StreamHandler(sys.stdout)  
     console_handler.setLevel(logging.INFO)  
     console_format = logging.Formatter(  
@@ -33,7 +30,6 @@ def setup_logger(name: str, log_file: str = None) -> logging.Logger:
     console_handler.setFormatter(console_format)  
     logger.addHandler(console_handler)  
       
-    # 文件 handler（如果指定了日志文件）  
     if log_file:  
         file_handler = logging.FileHandler(log_file, encoding='utf-8')  
         file_handler.setLevel(logging.DEBUG)  
@@ -48,6 +44,5 @@ def setup_logger(name: str, log_file: str = None) -> logging.Logger:
   
   
 def get_log_filename(puzzle_name: str) -> str:  
-    """生成带时间戳的日志文件名"""  
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')  
     return f"logs/{puzzle_name}_{timestamp}.log"  
