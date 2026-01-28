@@ -3,7 +3,7 @@ from Core.core import CrawlerConfig
 
 def main():
     # Define configuration
-    target = "Rekuto"
+    target = "Shakashaka"
     
     # NOTE:
     #   puzzle_name: The name of dataset saved to repo;
@@ -22,8 +22,8 @@ def main():
     
     config = CrawlerConfig(
         puzzle_name= f"{target}",
-        index_url = f"https://www.janko.at/Raetsel/Rekuto/index.htm",
-        base_url = f"https://www.janko.at/Raetsel/Rekuto/",
+        index_url = f"https://www.janko.at/Raetsel/Shakashaka/index.htm",
+        base_url = f"https://www.janko.at/Raetsel/Shakashaka/",
         headless = True,  # Set to False to watch the browser for debugging
         partial_test = False # If you wanna check instead of accessing full data, set to True
         # output_dir = './data'

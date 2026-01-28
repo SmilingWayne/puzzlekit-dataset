@@ -7,7 +7,7 @@ from MagneticCrawler import MagneticCrawler
 from MinesweeperCrawler import MinesweeperCrawler
 from SuguruCrawler import SuguruCrawler # problems, areas, solutions
 from Str8tCrawler import Str8tCrawler
-from KakurasuCrawler import KakurasuCrawler # To be added
+from KakurasuCrawler import KakurasuCrawler
 from FuzuliCrawler import FuzuliCrawler
 from SnakeCrawler import SnakeCrawler
 from MakaroCrawler import MakaroCrawler
@@ -98,6 +98,8 @@ from SukoroCrawler import SukoroCrawler
 from CojunCrawler import CojunCrawler
 from KurottoCrawler import KurottoCrawler
 from RekutoCrawler import RekutoCrawler
+from GeradewegCrawler import GeradewegCrawler
+from ShakashakaCrawler import ShakashakaCrawler
 
 from typing import Dict, Any
 
@@ -201,12 +203,13 @@ class CrawlerFactory:
         "PaintArea": PaintAreaCrawler,
         "Nanro": NanroCrawler,
         "Nurikabe": NurikabeCrawler,
-        "Sukoro": SukoroCrawler, # TODO: not run yet
-        "Cojun": CojunCrawler, # TODO: not run yet
+        "Sukoro": SukoroCrawler,
+        "Cojun": CojunCrawler, 
         "Kurotto": KurottoCrawler,
-        # Shakashaka: TODO:
         # Doppelblock: TODO:
-        "Rekuto": RekutoCrawler
+        "Rekuto": RekutoCrawler,
+        "Geradeweg": GeradewegCrawler,
+        "Shakashaka": ShakashakaCrawler
     }
     
     @classmethod

@@ -251,19 +251,19 @@
       "problem": "14 14\n- - 3sx - - - 8sx - x - - 0ex - 3wx\n- - - - 6eo - - - - - - - - -\n- - - - - - - - - 1wo - 0no - -\n- - - - - - - 3so - - - - 5wo -\n- - - - - 2nx - - - - - - - -\n2sx - - - 1nx - - 3so - - - - - -\n- - 0no - - - 1eo - - - 1no - - -\n- 2no - - - - - - 2nx - - - - -\n- - - - - - - x - - - 5wo - -\n3ex - 2so - - - - x - - - - 2no -\n- - - - - 4no - - - - 3wx - - -\n- - - 4nx - - - - 3no - - - 1so -\n- - - - - 4no - - - 3no - 5no - -\nx x x - - - - 3wx - - - - - 6nx",
       "source": "https://www.janko.at/Raetsel/Castle-Wall/050.a.htm"
     },
-    "51_21x10": {
-      "id": "51_21x10",
-      "problem": "21 10\n4sx - - 1sx - - - - - 4wx\n- - - - - o 3so o - -\n- - 2so - - - - - 1no -\n1nx - - - 2sx - - - - -\n- - - - - - 3so - - -\n- - 0no - 1wo - - - - -\n2nx - - - - 1so - - - -\n- - - 1wx - - - - 2no -\n- 3no - - - - - 1eo - -\n- - - - - 2nx - - - 4nx",
+    "51_10x10": {
+      "id": "51_10x10",
+      "problem": "10 10\n4sx - - 1sx - - - - - 4wx\n- - - - - o 3so o - -\n- - 2so - - - - - 1no -\n1nx - - - 2sx - - - - -\n- - - - - - 3so - - -\n- - 0no - 1wo - - - - -\n2nx - - - - 1so - - - -\n- - - 1wx - - - - 2no -\n- 3no - - - - - 1eo - -\n- - - - - 2nx - - - 4nx",
       "source": "https://www.janko.at/Raetsel/Castle-Wall/051.a.htm"
     },
-    "52_21x10": {
-      "id": "52_21x10",
-      "problem": "21 10\n5ex - - - - 4sx - - - 6sx\n- - - - - - - 2wo - -\n4sx - - - 0eo - - - - -\n- - - - - - - o - -\n- 2eo - - - - - - - -\n- - - - 1wo - - 0nx - -\n- - 4nx - - - 1sx - - -\n- - - - 1no - - - 2no -\n- - 4eo - - 4no - - - -\n4nx - - - - - - - 2nx -",
+    "52_10x10": {
+      "id": "52_10x10",
+      "problem": "10 10\n5ex - - - - 4sx - - - 6sx\n- - - - - - - 2wo - -\n4sx - - - 0eo - - - - -\n- - - - - - - o - -\n- 2eo - - - - - - - -\n- - - - 1wo - - 0nx - -\n- - 4nx - - - 1sx - - -\n- - - - 1no - - - 2no -\n- - 4eo - - 4no - - - -\n4nx - - - - - - - 2nx -",
       "source": "https://www.janko.at/Raetsel/Castle-Wall/052.a.htm"
     },
-    "53_21x10": {
-      "id": "53_21x10",
-      "problem": "21 10\n- - - - - - x - 2sx -\nx - 3eo - x - - - - -\n- - - - x - - - 0no -\n- 4eo - - - - 2eo - - -\n- - 1no - - - - - - -\n2sx - - - 3so - 1ex - - -\n- - - - - - - - 5wo -\n- 1so o - - 0wo - 0wo - -\n- - - - - - - - - 5nx\n4nx - - 1ex - - x 3nx x -",
+    "53_10x10": {
+      "id": "53_10x10",
+      "problem": "10 10\n- - - - - - x - 2sx -\nx - 3eo - x - - - - -\n- - - - x - - - 0no -\n- 4eo - - - - 2eo - - -\n- - 1no - - - - - - -\n2sx - - - 3so - 1ex - - -\n- - - - - - - - 5wo -\n- 1so o - - 0wo - 0wo - -\n- - - - - - - - - 5nx\n4nx - - 1ex - - x 3nx x -",
       "source": "https://www.janko.at/Raetsel/Castle-Wall/053.a.htm"
     },
     "54_12x12": {
@@ -281,14 +281,14 @@
       "problem": "12 12\n5sx - - - - 6sx - 2wx - - - 4wx\n- - 3so - - - - - - 5wo - -\n- 1no - - - - - 1eo - - o -\n- - - - - 5sx - - - - 3wo -\n2nx - - - - - - x - - 2wo -\n- - - - 2so - - - - - - -\n- - - 2eo - - - - - 3no - 3wx\n2sx - 3eo - - - - 1ex - - - -\n- - o - - - - - - - - -\n- - - - 1sx - - - 1wo o - 5nx\n- - - - - - 5no - - - - -\n6ex - - 5ex - - - - 4nx - - -",
       "source": "https://www.janko.at/Raetsel/Castle-Wall/056.a.htm"
     },
-    "57_25x12": {
-      "id": "57_25x12",
-      "problem": "25 12\n- - - 2wx - - - - - - - 5sx\n- - - - - 3wo - - - 5wo - -\n3ex - - 3so - - - 0nx - - - -\n- - 1no - - - 1nx - 2sx - - 4sx\n- - - - - - - 0nx - - - -\n2nx - 3so - - 1no - - - - 2wo -\n- - - - - - - - 2so - - -\n- 4no - 2sx - - 1wx - - - 3nx -\n- - - - - 2nx - - - - - -\n0sx - 6eo - - - - - - - 6wo -\n- - - - 4eo - - - - 5no - -\n4nx - - - - - 3wx - - - - 5wx",
+    "57_12x12": {
+      "id": "57_12x12",
+      "problem": "12 12\n- - - 2wx - - - - - - - 5sx\n- - - - - 3wo - - - 5wo - -\n3ex - - 3so - - - 0nx - - - -\n- - 1no - - - 1nx - 2sx - - 4sx\n- - - - - - - 0nx - - - -\n2nx - 3so - - 1no - - - - 2wo -\n- - - - - - - - 2so - - -\n- 4no - 2sx - - 1wx - - - 3nx -\n- - - - - 2nx - - - - - -\n0sx - 6eo - - - - - - - 6wo -\n- - - - 4eo - - - - 5no - -\n4nx - - - - - 3wx - - - - 5wx",
       "source": "https://www.janko.at/Raetsel/Castle-Wall/057.a.htm"
     },
-    "58_29x14": {
-      "id": "58_29x14",
-      "problem": "29 14\n8sx - - - - 2wx - 2wx - - 3sx - - -\n- - - - - - 3sx - - - - - 1so -\n- 4so - - 4so - - - 1no - - - - -\n- - 4eo - - - - 1no - - - - x x\n5ex - - - - 4sx - - - - 0nx - - -\n- - - 1wx - - - - 2no - - - 6wo -\n- 2so - - - - - - - - 3so - - -\n- - 4no - 5ex - - - - - - - - -\n- - o - - - 2so - - o - x x -\n- - o - - - - - - - - - - 4nx\n- - - - 3nx - - - 2wx - 2wo - - -\n4ex - 0wo - - - 1wo - - - - 1eo - -\n- - - - - - - 3no - x - - - 5nx\n- - - - - 3wx - - - x - 0ex - -",
+    "58_14x14": {
+      "id": "58_14x14",
+      "problem": "14 14\n8sx - - - - 2wx - 2wx - - 3sx - - -\n- - - - - - 3sx - - - - - 1so -\n- 4so - - 4so - - - 1no - - - - -\n- - 4eo - - - - 1no - - - - x x\n5ex - - - - 4sx - - - - 0nx - - -\n- - - 1wx - - - - 2no - - - 6wo -\n- 2so - - - - - - - - 3so - - -\n- - 4no - 5ex - - - - - - - - -\n- - o - - - 2so - - o - x x -\n- - o - - - - - - - - - - 4nx\n- - - - 3nx - - - 2wx - 2wo - - -\n4ex - 0wo - - - 1wo - - - - 1eo - -\n- - - - - - - 3no - x - - - 5nx\n- - - - - 3wx - - - x - 0ex - -",
       "source": "https://www.janko.at/Raetsel/Castle-Wall/058.a.htm"
     },
     "59_14x14": {
