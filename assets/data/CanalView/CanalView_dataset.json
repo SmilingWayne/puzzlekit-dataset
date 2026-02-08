@@ -1,0 +1,667 @@
+{
+  "count": 110,
+  "count_sol": 110,
+  "name": "CanalView",
+  "data": {
+    "01_6x6": {
+      "problem": "6 6\n- 4 - - - -\n- 1 6 - 3 -\n3 - - - 3 -\n- - - 5 3 -\n5 - - - - -\n- 2 - - - -",
+      "solution": "6 6\n- - x x x x\n- - - x - x\n- x x x - -\n- - x - - x\n- x x x x x\n- - x - x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/001.a.htm",
+      "info": ""
+    },
+    "02_6x6": {
+      "problem": "6 6\n- - - - 7 -\n- - - - - -\n- - 7 - - -\n7 - - - - -\n- - 7 - - -\n4 - - - - 2",
+      "solution": "6 6\nx x x x - x\nx - x - x x\nx x - x x -\n- x x x - x\nx x - x x x\n- x x x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/002.a.htm",
+      "info": ""
+    },
+    "03_6x6": {
+      "problem": "6 6\n- - 8 - - -\n1 2 - 3 3 -\n- - - - - -\n3 3 - - 1 -\n- - - - - -\n- - - 2 - -",
+      "solution": "6 6\n- - - x x x\n- - x - - x\nx x x x x x\n- - x - - -\nx x x x - -\nx - x - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/003.a.htm",
+      "info": ""
+    },
+    "04_6x6": {
+      "problem": "6 6\n- - 5 - - 1\n- - - - - -\n- - - - - 1\n- - - - - -\n- - - - - -\n- 5 - 5 - -",
+      "solution": "6 6\nx x - x - -\nx - x x x x\nx x x - - -\n- x - x - -\nx x x x x -\nx - x - x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/004.a.htm",
+      "info": ""
+    },
+    "05_6x6": {
+      "problem": "6 6\n- - 3 - - -\n- - - - - -\n- 3 - - - -\n- - - - 1 -\n- - - - 3 -\n- 2 - - - 5",
+      "solution": "6 6\n- - - x x x\n- - - x - x\n- - x x - x\nx x x - - x\nx - x x - x\nx - x - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/005.a.htm",
+      "info": ""
+    },
+    "06_6x6": {
+      "problem": "6 6\n- - 5 - - 2\n- - - - 8 -\n4 - - 4 - -\n- - - - - 1\n- - - - - -\n- - - - - -",
+      "solution": "6 6\n- - - x x -\nx x x x - -\n- - x - x -\nx x x - x -\nx - - x x -\nx x x x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/006.a.htm",
+      "info": ""
+    },
+    "07_8x8": {
+      "problem": "8 8\n- - - - - - 6 -\n- - - 6 - - - -\n- 1 5 - - - 5 1\n- 2 - - - - - -\n- - - - - - - -\n- 3 1 - - 2 3 2\n8 - - - - - - -\n- - - 1 - - 2 -",
+      "solution": "8 8\nx x x x x x - -\nx - x - x - - -\nx - - x x x - -\nx - - x - x x x\nx x - x x - x -\n- - - - x - - -\n- x x x x x x x\nx x - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/007.a.htm",
+      "info": ""
+    },
+    "08_8x8": {
+      "problem": "8 8\n1 10 - - - 3 - 7\n- - - - - 9 - -\n6 - - - - - - -\n2 - - 5 - - 2 -\n- - 4 - 3 - - -\n- - - - - - - -\n- - 5 - 4 - 4 -\n- - - - - - - -",
+      "solution": "8 8\n- - x x x - - -\nx x - - x - x x\n- x x x x x - x\n- x - - - x - x\nx x - x - x - x\n- x x x x x x x\nx x - x - x - x\n- x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/008.a.htm",
+      "info": ""
+    },
+    "09_8x8": {
+      "problem": "8 8\n- - - - - 5 - -\n- 2 2 4 - 7 - -\n7 - - - - - 5 -\n- 1 2 - 7 - - -\n- 2 - 4 - - - -\n- - - - - - - 2\n- 3 - - - - 3 -\n- - - 2 2 - - -",
+      "solution": "8 8\nx x x x x - - -\nx - - - x - - -\n- - x x x x - -\nx - - x - x x x\nx - - - - x - x\nx x x x - x - -\nx - - x x x - -\nx x - - - x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/009.a.htm",
+      "info": ""
+    },
+    "10_8x8": {
+      "problem": "8 8\n- 2 5 - - - - -\n- - - - 9 - - 2\n- - - - - - - -\n- - - - - 5 - -\n7 - 6 - - - - -\n- - - - - 1 - 1\n- - - - - - - -\n2 - 3 - - - 3 -",
+      "solution": "8 8\nx - - x x x x x\nx x - x - x - -\nx - x x x x x x\nx x x - x - x -\n- x - x x - x x\nx x x - x - - -\nx - - - x - - -\n- - - x x x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/010.a.htm",
+      "info": ""
+    },
+    "11_8x8": {
+      "problem": "8 8\n- - - - - - 1 -\n1 3 5 - - - 4 -\n- - - - - - - 2\n- - 5 - - - - -\n- - - - 6 - - -\n2 3 - - - - - -\n- - 3 - - 2 2 -\n- 6 - - - - - -",
+      "solution": "8 8\nx x x x - x - -\n- - - x x x - -\n- x x x - x x -\nx x - - - x - -\nx - x - - x x x\n- - x x x - - x\n- - - - x - - x\n- - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/011.a.htm",
+      "info": ""
+    },
+    "12_8x8": {
+      "problem": "8 8\n4 - - 3 - - - -\n- - - - - 6 - -\n- - - 7 - - - 5\n- - - 1 - - - -\n- - 2 - - - - 3\n1 - - 2 - - 6 -\n1 - 2 - - - - -\n- - - - - 4 - -",
+      "solution": "8 8\n- x x - - - - -\nx - x x x - x x\nx x x - x x x -\n- x - - x - x x\nx x - - - x x -\n- - - - x x - -\n- x - - x - - -\n- x x x x - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/012.a.htm",
+      "info": ""
+    },
+    "13_10x10": {
+      "problem": "10 10\n4 - - - - 6 - - 2 -\n- - - - - - 8 - - -\n- - - - 4 - - 3 - -\n- 4 3 - - 5 - 6 - -\n1 - 1 - - - - - - -\n- - 2 5 - - - - - -\n- - - - - - - - 4 -\n- - 4 - 5 - - 4 1 -\n- - - - - 2 - - 2 -\n- - - 7 - 1 - 2 - -",
+      "solution": "10 10\n- x x x x - - - - x\n- - x - x x - x x x\n- - x - - x x - - x\n- - - - - - x - x x\n- x - - - x x x - x\n- x - - x x - x x x\n- x x x x - x x - x\nx x - x - - x - - x\nx - - x x - - - - x\nx x x - x - - - x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/013.a.htm",
+      "info": ""
+    },
+    "14_10x10": {
+      "problem": "10 10\n2 - - - - 4 - - - -\n- - 2 - - - - - 3 -\n- - - 1 - - - - 1 -\n- - - - - 3 - - - -\n- - - 4 - 2 - - - 2\n- 3 - - - 1 5 - - -\n- 2 - 3 - - - - - -\n- - - - - - 8 - - 4\n- 2 5 1 6 - - - 5 -\n- - - - - 2 3 - - 2",
+      "solution": "10 10\n- x x - - - x x x x\n- x - - - - - x - x\nx x - - - - - x - -\nx - x x x - - x - -\nx x x - - - x x - -\nx - x - x - - x x x\nx - x - x - x x - x\nx - x x x x - x x -\nx - - - - x x x - -\nx x - - - - - x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/014.a.htm",
+      "info": ""
+    },
+    "15_10x10": {
+      "problem": "10 10\n- - - - - 8 - - - -\n- 2 - 5 - - - 7 - -\n- - - - - 8 - - - 6\n3 - 1 4 - - - - - -\n- 5 - 1 - 6 - - - -\n1 - - 1 11 - - - - 3\n2 - 4 - - - - 2 - -\n- - - - - 6 - - - -\n- - - - - - - 6 - -\n- - - - - 10 - - - -",
+      "solution": "10 10\nx x x x x - x x - x\nx - - - x x x - x x\nx - x x x - x x x -\n- - - - x x x - x x\n- - - - x - x x x -\n- x - - - x x - x -\n- x - x x - x - - x\nx x x - x - x x x x\n- x - - x x x - x -\nx x x x x - x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/015.a.htm",
+      "info": ""
+    },
+    "16_10x10": {
+      "problem": "10 10\n2 - - 7 - - - - - -\n- - - - - - - - - -\n- - - - - - 3 2 - -\n- - - - 7 - - - - 3\n- 3 - - - 8 - 6 1 5\n- - - 9 - - - - - -\n- - - - - - - - - -\n10 - - - - - 6 - - -\n- - 5 - 5 - - - 6 -\n- - - - - - - - - -",
+      "solution": "10 10\n- x x - x - - - - x\n- - x x x x x x x x\nx - - x - x - - - x\nx x x x - x x x - -\nx - - x - - - - - -\nx x x - x x - x x x\nx - x - - x x x - x\n- x x x - x - x x x\nx - - x - x x x - x\nx x x x x x - x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/016.a.htm",
+      "info": ""
+    },
+    "17_10x10": {
+      "problem": "10 10\n- - - - - - 8 - 1 -\n- 2 - - - - - - - -\n- - - - - 3 - - 2 -\n- - 6 - - - - 1 - -\n- - - - 4 - - - - -\n- 3 8 - - - - 9 - -\n- - - - 6 4 - - - -\n- 2 - 7 - 3 - - 5 -\n- - - - - - - - - -\n- - - 1 - - - 5 - 2",
+      "solution": "10 10\n- x x x x x - - - -\n- - x - - x x x x x\n- - x - - - x - - x\n- x - x - - x - - x\n- x x x - - - - - x\n- - - x x x x - x x\n- x x x - - x x x -\n- - x - x - - x - x\n- - x x x x - x x x\n- - - - - x x - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/017.a.htm",
+      "info": ""
+    },
+    "18_12x12": {
+      "problem": "12 12\n- - - - - 7 - - - - - -\n- 4 - 3 - - - - - - - -\n- - - - - 4 - - - - - 6\n- - - - - - - - - 8 - -\n- - - - - 6 - 4 - - - -\n- - - - - - - - - - 1 3\n- 4 - - - 4 - 7 - - - -\n10 - - - - - - - 9 - - -\n- - - - - - 9 - - - - -\n- - 14 - - - - 5 - - 3 -\n- 5 - - 13 - - 3 - 4 - -\n- - - - - - - - - - - -",
+      "solution": "12 12\nx x x x x - x x - - - x\nx - - - x - - x x - x x\n- x - x x - x - x x x -\nx x x - x x x x x - x x\nx - x x x - x - x - - -\nx x x - x x x x - - - -\nx - x - x - x - x x x x\n- x x - x x x x - - - x\nx - x - x - - - x x x x\nx x - x x x x - x - - -\nx - x x - - x - x - x x\nx x x - x x x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/018.a.htm",
+      "info": ""
+    },
+    "19_12x12": {
+      "problem": "12 12\n8 - - 2 - - - 4 - - - -\n- - - - 6 - - - - 2 3 -\n- - - - - - - - - - - -\n- 2 - - 4 4 - - 3 - - -\n- - - 5 - - 4 - - - 3 -\n- - - - - - - - 3 - - -\n- - - - - 3 - - - 2 3 -\n- 2 - 3 3 1 - 2 - - - -\n- - - - - - - - - - - -\n- - - - - - - - 2 - - 1\n- - 1 10 - - - - - - - -\n- 3 - - - - 5 - - 3 1 -",
+      "solution": "12 12\n- - - - - - - - x x x x\nx x x x - x - - x - - x\nx - - x x x x x x - x x\nx - - - - - x - - - - x\nx x x - x x - - - x - x\nx - x - x - - - - x x x\nx - x x x - - - - - - -\nx - - - - - x - - - x -\nx x x x - - x x - x x x\n- - - x x - x - - x - -\n- - - - x x x x x x x -\n- - x x x - - x - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/019.a.htm",
+      "info": ""
+    },
+    "20_12x12": {
+      "problem": "12 12\n- - - - - - - - 2 - - -\n- - - 4 - 11 - - - - - -\n- - - - 6 - 3 - 1 - - 3\n- - - - - - - - 4 - - -\n13 - - - - - - - - - - 8\n- - 10 - - - - - - - - -\n- - - 7 - - - - - 1 - -\n- - - - - - - 2 1 5 - -\n- - - - 9 - - - - - - -\n- 2 - 5 - - - - - - - -\n- - - - - 6 - - - - - -\n- - 2 - - - 5 - - 7 - -",
+      "solution": "12 12\nx x x x x x - x - x - x\nx - x - x - x x - x x x\nx - x x - x - x - - x -\nx - x - x x - x - x x -\n- x x x - x x x x - x -\nx - - x x x - - - x x x\nx x x - - x x x - - - x\nx - x x x x - - - - x x\nx - - x - x x x x x - x\nx - - - x - x - - x x x\nx x x x x - x - x x - x\n- - - x - - - x x - x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/020.a.htm",
+      "info": ""
+    },
+    "21_6x6": {
+      "problem": "6 6\n- 1 5 - - -\n- - - - 2 -\n1 - - 4 - -\n- 4 - - - -\n- - - 3 - -\n- - - - - -",
+      "solution": "6 6\n- - - - - -\nx x x - - -\n- - x - x x\n- - x x x -\n- x x - - -\n- - x - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/021.a.htm",
+      "info": ""
+    },
+    "22_6x6": {
+      "problem": "6 6\n- - - - - -\n- 2 - 2 - 1\n2 - - 2 - -\n- 3 - - - -\n3 - - - - -\n- - - 1 - -",
+      "solution": "6 6\n- - x x x x\n- - x - - -\n- x x - - -\n- - x - - -\n- x x x - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/022.a.htm",
+      "info": ""
+    },
+    "23_8x8": {
+      "problem": "8 8\n- - 6 - - - - -\n- - - - - - - -\n- - - - - 5 - 5\n6 - - - - - - -\n- - - - 5 - - -\n- - 2 5 - - - -\n- - 1 - - - 5 -\n- - - - - - - -",
+      "solution": "8 8\nx x - x x x - x\n- x x x - x x x\nx x - x - - x -\n- x x x x x - x\n- x - x - x x x\nx x - - - - x -\nx - - - - x - x\nx x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/023.a.htm",
+      "info": ""
+    },
+    "24_8x8": {
+      "problem": "8 8\n- - - - - - - -\n1 3 - - - 1 - -\n- - - - - - - 2\n- - 4 - 1 - - -\n- 6 - - 4 - - -\n- - - - - - 6 -\n- - - - - 4 - -\n7 - - - - - - 6",
+      "solution": "8 8\nx x x x x x x x\n- - - x - - - x\n- x x x - - - -\nx x - x - - - -\nx - - x - x x -\n- x - x x x - -\nx x - x - - x -\n- x x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/024.a.htm",
+      "info": ""
+    },
+    "25_8x8": {
+      "problem": "8 8\n- - - - - - - 2\n- - - - - - - -\n- 3 - - - - - -\n- 1 - - - - 1 2\n- - - 2 4 - - -\n- 2 - - - 5 - 2\n- - - - - 6 2 -\n7 1 - - - - - -",
+      "solution": "8 8\nx x x x x - - -\nx - x - x x x x\nx - x x - x - x\nx - - x - x - -\nx - - - - x - -\nx - - - x - - -\nx x x x x - - x\n- - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/025.a.htm",
+      "info": ""
+    },
+    "26_8x8": {
+      "problem": "8 8\n4 - - - - - - -\n- - - - - 6 - -\n- 4 - - - - 5 2\n- 2 - - 4 - - -\n- - - - 4 - - -\n- 3 - - - - - -\n- - 8 - - - 4 -\n- - - - 8 - - -",
+      "solution": "8 8\n- x x x x - - -\n- - - x - - - -\n- - x x x x - -\n- - x - - x x x\n- x x x - x - x\nx - x - - x - -\nx - - x x x - -\nx x x x - x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/026.a.htm",
+      "info": ""
+    },
+    "27_10x10": {
+      "problem": "10 10\n- 2 - - 1 5 - - - -\n- - - - - - - - 1 -\n- - - - - - - - - -\n3 1 5 - - - - - - -\n- - - - 1 5 - - - 6\n7 - - - - - - - - -\n- - - - - - - - - -\n- - 2 2 - - - 8 1 -\n- - - - - 3 - - 3 3\n- - - - - 5 - - - -",
+      "solution": "10 10\nx - x - - - x x - -\nx - x x x x x - - x\nx x x - - x - x - x\n- - - - x x x x x x\n- - x - - - - x - -\n- x x x - x - x x x\nx x - x x x x x - x\nx - - - - - x - - x\nx - x - x - x x - -\nx x x x x - - x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/027.a.htm",
+      "info": ""
+    },
+    "28_10x10": {
+      "problem": "10 10\n- - - - - 2 - - 1 -\n- 4 1 - - - - 3 - -\n- - - - - 5 1 - - -\n- - - - - - - - - 4\n- 4 1 3 - - - - - 1\n- - 8 - - - - - - -\n- - - - - - - - - -\n- - - - - 3 - - - 4\n- - - 1 - - 2 - - -\n- - - - - 4 2 - - 2",
+      "solution": "10 10\nx x x - x - - - - x\nx - - - x x x - - x\nx x - - x - - - x x\n- x x x x x - - x -\n- - - - - x - - x -\n- x - x x x x x x -\nx x x x - - - - x x\nx - - - - - x x x -\nx x - - - - - x - -\n- x x x x - - x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/028.a.htm",
+      "info": ""
+    },
+    "29_10x10": {
+      "problem": "10 10\n- 4 - - - - 6 1 - -\n- - - - 3 - - 5 - -\n- - - - - - - - - 5\n- 2 - - - - - - - -\n- - - 4 - 4 - - - 7\n- - - - - - - 13 - -\n- - - - 5 - - - - -\n- - - 7 - - - - 3 -\n5 - - - - - 7 - - -\n- - - 3 - 5 - - - -",
+      "solution": "10 10\nx - x x - x - - x -\nx x x - - x x - x x\n- - x x x - x x x -\nx - x - - x x - x x\nx - x - x - x - x -\nx x x x x x x - x x\nx - - x - - - x - x\nx x x - x - x x - x\n- - x x x x - x - x\n- x x - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/029.a.htm",
+      "info": ""
+    },
+    "30_10x10": {
+      "problem": "10 10\n- - - - 1 - 4 - - -\n- - - - 6 - - - - -\n- - - 4 - - - - - -\n- 2 - 4 - - - 5 3 -\n- - - - - - - - - -\n- 1 - - 9 - 4 - - 9\n- - - - - - 7 - - -\n- - - - - 4 2 - - -\n1 10 - - - - - - - -\n- - - 5 - - - 2 - -",
+      "solution": "10 10\nx x x - - x - x x x\nx - x x - x - - - x\nx - x - x x - x x x\nx - - - x - x - - x\nx x x x x - x x x x\n- - - x - x - x - -\n- - x x x x - x x x\n- x x - x - - - - x\n- - x x x x x x x x\nx x x - x - x - - x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/030.a.htm",
+      "info": ""
+    },
+    "31_6x6": {
+      "problem": "6 6\n- - - - - -\n4 - - - 1 -\n- - - - - -\n- 2 2 - - -\n- - - 2 2 -\n- 1 - - - -",
+      "solution": "6 6\n- - - - - -\n- - - - - -\nx x x x x x\nx - - x - x\nx - - - - x\nx - - - x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/031.a.htm",
+      "info": ""
+    },
+    "32_6x6": {
+      "problem": "6 6\n- - - - 4 -\n- - 4 - - -\n3 4 - - - -\n- - - - - 2\n- - - - - -\n- 2 - - 1 -",
+      "solution": "6 6\nx x x x - -\n- x - x - -\n- - x x - -\nx - - x x -\nx x x x - -\nx - - x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/032.a.htm",
+      "info": ""
+    },
+    "33_8x8": {
+      "problem": "8 8\n- - - - 8 - - -\n- 1 - - - - - 1\n- 1 - - - - - 3\n3 - - - 6 - - -\n- - - 3 - - - -\n- 4 - - - - - -\n- 2 - - 1 - - -\n3 - - - - - 2 -",
+      "solution": "8 8\nx x x x - x x -\n- - - x x - x -\n- - - - x x x -\n- x x x - x - -\n- - x - - x x x\n- - x x x x - x\n- - x - - - x x\n- x x x - - - x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/033.a.htm",
+      "info": ""
+    },
+    "34_8x8": {
+      "problem": "8 8\n- - - - - - - -\n- 4 - - 3 3 - 2\n- - 7 - - - - -\n- - 4 - 4 - - 2\n- - - - - 4 - -\n- - - 8 - - - 3\n- 6 - - - - - -\n- - - 4 3 1 - -",
+      "solution": "8 8\nx x x - - x x -\nx - x x - - x -\nx - - x x x x x\nx - - - - - x -\nx - x x x - - -\nx x x - x x x -\nx - x x x - x -\nx x x - - - x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/034.a.htm",
+      "info": ""
+    },
+    "35_8x8": {
+      "problem": "8 8\n- - - - 2 - - -\n2 - 5 - - 5 - 4\n- - - - - - - -\n- - - - - - 10 -\n- - - 5 - - - -\n2 4 - - - - - -\n- - - - - - 4 -\n- - - 4 - - - -",
+      "solution": "8 8\nx x - - - x x -\n- x - - - - x -\n- x x - - x x x\nx - x x x x - x\nx x x - - x x x\n- - x x x - x -\n- - - - x - - x\n- - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/035.a.htm",
+      "info": ""
+    },
+    "36_8x8": {
+      "problem": "8 8\n- 6 - - - - - -\n- - - - - - - 2\n- 2 4 - - - - -\n- 4 - 1 4 - - -\n- - - 5 - - - 3\n- - 6 2 - - 6 -\n- 9 - - - - - -\n- - - - - 4 - -",
+      "solution": "8 8\nx - x x x x - -\nx x x - - x x -\nx - - - - - x -\nx - x - - - x -\n- x x - x x x -\nx x - - x - - -\nx - x x x x x -\nx x x - x - x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/036.a.htm",
+      "info": ""
+    },
+    "37_10x10": {
+      "problem": "10 10\n- - 9 - - - - - - 6\n- - - - - - - - 1 -\n- - 8 - - - - - - -\n1 - - - 3 5 2 - - -\n- - - - - - 3 - - -\n9 - - - - - - - - -\n1 - - 7 - - - - - 3\n- - - 3 - 5 - - 2 -\n- 6 - - - - - - - -\n3 - - - 9 - - 2 - -",
+      "solution": "10 10\nx x - x x x x x x -\n- x x x - x - - - -\nx x - x x x x - - -\n- - x x - - - x - x\n- x - x - x - x - x\n- x x x x x x x x x\n- x - - x - - x - -\n- x x - x - x x - -\n- - x - x x - - - -\n- x x x - x x - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/037.a.htm",
+      "info": ""
+    },
+    "38_10x10": {
+      "problem": "10 10\n- - - 2 - - 4 - - -\n- 6 - - - - - - - -\n- - - - - - - 4 - -\n- - - - 7 - - - - -\n- - 2 - - - - - 3 -\n- - 1 - - 3 - - - 2\n9 - - 2 2 - - - 1 -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - 4 - - - 3 - -",
+      "solution": "10 10\n- - x - - x - - - -\n- - x x x x x - - -\nx x x - x - x - - -\nx - - - - x x x x x\nx x - - - - - x - x\nx - - - - - x x - -\n- x x - - x x - - -\nx x - - - - x x x x\nx - x x x x x - - x\nx x x - - - x - x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/038.a.htm",
+      "info": ""
+    },
+    "39_10x10": {
+      "problem": "10 10\n- 5 - - 1 - 2 - - 9\n4 - - - - - 2 - - -\n- - 5 - - - - - - -\n- - - - - - 1 - - -\n- - - - - - 3 9 - -\n- - - - - - - - 5 -\n- 2 - - 1 - - - 3 -\n- - - - - 7 - - - -\n- - 2 1 - - 1 4 - -\n- - - - 4 - - - - -",
+      "solution": "10 10\n- - x - - x - x - -\n- x x x - x - x - x\nx x - - x x - x x x\n- x x x x - - x - x\nx x - - x x - - x x\nx - - - - x x x - x\nx - - - - x - x - x\nx x x - - - x x x x\nx - - - - - - - - x\nx x x x - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/039.a.htm",
+      "info": ""
+    },
+    "40_10x10": {
+      "problem": "10 10\n- - - 3 - - - 5 - -\n- - - - - - - - - 9\n- 3 4 1 - - - - 3 -\n- - - 5 - - - - - -\n- - - 1 - - - - - 1\n9 - 2 - - - - 11 - -\n- - - - - - 3 - 3 -\n- 2 - 4 - - 4 - - -\n- - - - - - - - 9 -\n- - - - - 1 3 - - -",
+      "solution": "10 10\nx - x - x - x - - -\nx x x x x x x x x -\nx - - - - x - x - -\nx x x - x x - x x x\nx - x - - - x x - -\n- - - - x x x - - -\nx - - x x - - x - x\nx - x - x - - x x x\nx - x x x x x x - x\nx x x - - - - x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/040.a.htm",
+      "info": ""
+    },
+    "41_6x6": {
+      "problem": "6 6\n- - - 4 - -\n- - - - - -\n- 1 4 - 3 1\n- - - - - 5\n- 1 - - - -\n- - - - - -",
+      "solution": "6 6\n- - x - - -\n- - x x x x\n- - - x - -\nx x x x x -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/041.a.htm",
+      "info": ""
+    },
+    "42_6x6": {
+      "problem": "6 6\n- 2 2 - - -\n- - - - 1 -\n- 6 - - - -\n- 1 - - - -\n- - 3 - - -\n- 1 - 1 1 -",
+      "solution": "6 6\nx - - - - -\nx x x - - -\nx - x x x x\nx - - - - x\nx - - x x x\nx - - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/042.a.htm",
+      "info": ""
+    },
+    "43_8x8": {
+      "problem": "8 8\n1 - 3 - - - - 2\n- - - - - - - -\n- - 4 - - - - 3\n- - - - - - - -\n2 - - 7 - 2 5 -\n3 - - - - - - 5\n- - 3 - - - - -\n- - - - - - 6 -",
+      "solution": "8 8\n- x - x - x x -\n- x x x x x - -\n- x - - x - x -\n- - x x x x x x\n- x x - x - - x\n- x - x x - x -\nx x - x - x x x\nx - - x x x - x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/043.a.htm",
+      "info": ""
+    },
+    "44_8x8": {
+      "problem": "8 8\n- 8 - - - - - -\n- - - - - 3 - -\n- 8 - - - - - -\n- - - - 5 - - 5\n- - 10 - - - - -\n4 - - - - 6 - -\n- - - - - - - -\n- 4 - 1 - 1 2 -",
+      "solution": "8 8\nx - x x x x x x\nx x x - x - x -\nx - x x - - x x\n- x x - - x x -\nx x - x x x - x\n- x x - x - x x\nx x - x x x x -\n- - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/044.a.htm",
+      "info": ""
+    },
+    "45_8x8": {
+      "problem": "8 8\n- - - - - 8 - -\n- - - - - - - 5\n- - 4 - 3 - - -\n- - - 4 3 - - -\n4 - - - 1 5 - 3\n- - - - 4 - - -\n- - - - - - - -\n- 6 - - - - - -",
+      "solution": "8 8\nx x x x x - - -\nx - x - x x x -\nx x - - - x - x\nx - - - - x x x\n- - - x - - x -\n- - x x - x x -\n- - - x - - x -\n- - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/045.a.htm",
+      "info": ""
+    },
+    "46_8x8": {
+      "problem": "8 8\n- 8 - 5 - - - -\n- - - - - - - 2\n- - - 6 - - - -\n- - - - - 7 3 -\n1 - - - - - - -\n- - 3 - - - - -\n- - - - 3 - - 3\n- 13 - - - - - -",
+      "solution": "8 8\nx - x - x x x -\nx x x x x - x -\n- x - - x x x x\n- x - x x - - -\n- x - - - x - x\n- x - - x x x x\nx x x - - x - -\nx - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/046.a.htm",
+      "info": ""
+    },
+    "47_10x10": {
+      "problem": "10 10\n- - - - 1 - - 1 - -\n1 - 2 - - - - 4 - -\n- - 3 - - - - - - 4\n- - 3 - - - - - 5 -\n- - - - - - 10 - - 2\n- 3 - - - - - - - -\n- - - 7 - - - - - 3\n- 2 2 - - - - - 2 -\n6 - - - - - - - 3 -\n- - - - - - 4 - - -",
+      "solution": "10 10\n- - - - - - - - x -\n- - - x x - - - x -\nx x - x - x x x x -\n- x - x - x - x - -\nx x x x x x - x x -\n- - - - x - x - - -\n- - - - x x x x - -\n- - - x - x - x - x\n- x x x x x - x - x\nx x - x - x - x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/047.a.htm",
+      "info": ""
+    },
+    "48_10x10": {
+      "problem": "10 10\n- - - - - 8 - 3 1 2\n- - - - - - - - - -\n3 - - - 9 - - - - -\n- - - 3 - - 3 - - -\n- - - - - - - 5 - -\n14 - - - - - - - - -\n- - - - 4 - 1 - - -\n- 8 3 - 2 - - - - -\n- 3 - - 4 - - - - -\n- - - 5 - - - - 1 2",
+      "solution": "10 10\nx x x x x - - - - -\n- x - - x x x x x x\n- x x x - x - x - x\n- x - - x x - x - -\nx x - - x - - - x -\n- x x x x x x x x x\nx x - x - - - - x -\nx - - x - x - x x x\nx - x - - x x x - x\nx x x - x x - x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/048.a.htm",
+      "info": ""
+    },
+    "49_10x10": {
+      "problem": "10 10\n6 5 - - - - - - - -\n- 3 - - - - - - - -\n- - - 4 - 3 - - - -\n- 2 - - - - - - - 2\n- - - - - - 2 2 - 1\n- 3 - - - - - 2 - -\n- - - - 3 - - - - 3\n7 - 1 - - - - - - -\n- - - - - - 2 - - -\n- - - - 6 3 - - - -",
+      "solution": "10 10\n- - x x x x x - - -\nx - x - x - x - - -\nx x x - x - x x - -\nx - - - x - - x x -\nx - - - x x - - - -\nx - - - - x - - x x\nx x - - - x - - x -\n- x - - x x x x x x\n- - - x x - - - x -\nx x x x - - x x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/049.a.htm",
+      "info": ""
+    },
+    "50_10x10": {
+      "problem": "10 10\n- - - - - - - 3 - -\n- 3 5 - - - 11 - - -\n- - - - - - - 2 - -\n3 - 7 - - - - - - -\n- - - - 3 - - - - 6\n- - - - 6 - - 4 - 2\n- - 3 - - - - - - -\n- - 2 - 3 - - - - -\n- - - - - - 9 - - 2\n- - 2 - 2 - 1 - 6 -",
+      "solution": "10 10\nx x x x - x x - - -\nx - - x x x - x x x\nx x x - x - x - - x\n- - - x x x x - x x\n- - x - - - x x x -\nx x x x - x x - x -\n- x - - - x - - x x\n- x - - - x x - x -\nx x x x x x - x x -\n- x - - - x - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/050.a.htm",
+      "info": ""
+    },
+    "51_6x6": {
+      "problem": "6 6\n- 3 - 5 - -\n- - - - - -\n- - - - - -\n- 1 - - - -\n- 1 - - - -\n- 1 - 2 - 1",
+      "solution": "6 6\nx - x - x x\nx x x x - x\nx - - x x x\nx - - - x -\nx - - x x -\nx - - - x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/051.a.htm",
+      "info": ""
+    },
+    "52_6x6": {
+      "problem": "6 6\n5 - - - - -\n1 - - 3 - -\n- - - - - 4\n- - - - - -\n1 3 - - - -\n- - - 4 - 1",
+      "solution": "6 6\n- x x x x x\n- x - - x -\n- - x x x -\n- x x - x x\n- - x - x -\nx x x - x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/052.a.htm",
+      "info": ""
+    },
+    "53_8x8": {
+      "problem": "8 8\n1 - - - - 8 - -\n7 - - - - - - 6\n- - - 3 3 - - -\n- - - - - - 3 4\n- - - 1 - - 3 -\n- - - 4 - - - -\n- - 2 - - - - -\n- 2 - 2 - - - -",
+      "solution": "8 8\n- x - x - - x -\n- x x x x x x -\nx x - - - x - -\n- x - x x x - -\nx x - - - x - x\nx - - - x x x x\nx x - - - x - x\nx - - - x x - x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/053.a.htm",
+      "info": ""
+    },
+    "54_8x8": {
+      "problem": "8 8\n3 - - - - - - -\n- - 2 - - - - -\n- - - 2 - - 3 -\n- - - 4 - 7 - -\n2 - - - - - - -\n4 - - - 3 - 4 -\n- - - - - - - 5\n- - - - - - - -",
+      "solution": "8 8\n- x x x - x x x\n- x - - - x - x\n- x - - x x - x\nx x x - x - - x\n- x - - - x x x\n- x x - - x - -\nx - x x x x x -\nx x x - x - x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/054.a.htm",
+      "info": ""
+    },
+    "55_10x10": {
+      "problem": "10 10\n- - - - 4 3 - 4 - -\n- - 4 - - - - - - -\n- - - 7 2 - 7 - 2 2\n- 7 - - - - - - - -\n1 - - - 1 3 - - - -\n- - - - - - - - - 4\n- 4 - - - - - - 4 -\n- - - - 5 - - - - 3\n- 2 1 5 - - 3 - 3 -\n- 1 - - 4 - - - - 4",
+      "solution": "10 10\n- x x x - - x - - x\n- x - - x x x x x x\n- x x - - x - x - -\n- - x x - - x x - -\n- x - x - - x - x -\n- x x x - x x x x -\nx - - x x x - x - -\nx x x x - - x x x -\nx - - - - - - x - -\nx - - - - x x x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/055.a.htm",
+      "info": ""
+    },
+    "56_10x10": {
+      "problem": "10 10\n- - - - - - 6 - - -\n- 3 - - - - - - 3 -\n- - - - 5 - 5 - - -\n- 3 - 6 - - - 9 - -\n- - 2 - - - - - - -\n- - - - - - 5 - - 1\n- - - - 3 - - - - -\n- 4 - - - - - 6 - -\n- - - - 4 - 5 - - -\n5 - - - 1 - - - - 1",
+      "solution": "10 10\nx x x x x x - - - -\nx - - x - x - - - -\nx x - x - x - x x -\n- - - - x x x - x x\n- x - - x - x x x -\nx x x x x - - x - -\nx - - - - - x x x x\nx - x - - - x - x -\nx x x x - - - x x x\n- x - x - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/056.a.htm",
+      "info": ""
+    },
+    "57_10x10": {
+      "problem": "10 10\n2 - - 3 - 1 - - - -\n- - - - - - - - - -\n- - - - 5 - - - - 1\n5 - - - - - 10 1 - -\n- 1 - - - - - - - 1\n- - 4 - - - - - - -\n- - 4 - - - 3 - 5 -\n- 3 - - - 3 - 2 - -\n- - - 11 - - - - 4 -\n- 4 - - - 4 - - - -",
+      "solution": "10 10\n- x x - - - x - - -\n- - x x - - x x x -\n- - x - - x x - x -\n- x x x x x - - x -\n- - - - x - x - x -\n- - - x x x x - x -\n- - - x - x - - - -\n- - x x - - - - - -\nx x x - x x x x - -\n- - x x x - - x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/057.a.htm",
+      "info": ""
+    },
+    "58_12x12": {
+      "problem": "12 12\n- - - - - - 6 3 - 3 - -\n- - - - 3 - - - - - 3 -\n- 3 - - - - - - - - 2 3\n- 4 2 - - - - - 6 - - -\n1 - - 4 - - - - 1 3 5 -\n- - 2 - - - - - - - - -\n5 - - 6 - - 7 - 2 - - -\n- - 4 - - - - - - - - 2\n- 8 - - - 5 - 6 2 - 5 -\n- - 4 - 4 - 9 - - - - -\n- - - - - 7 - - 4 - - -\n- - 3 - - - - 5 - 4 1 -",
+      "solution": "12 12\nx x x x x x - - - - - -\nx - - x - x - x x x - -\nx - x x - x - x - x - -\n- - - x - x x x - x x x\n- x - - - - x - - - - x\n- x - - - - x x x - x x\n- x x - - x - x - - x -\nx x - x - x x x - x x -\nx - - x x - x - - x - -\nx x - x - - - x x x x x\n- x x x x - x x - x - x\nx x - - x x x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/058.a.htm",
+      "info": ""
+    },
+    "59_14x14": {
+      "problem": "14 14\n- - - - 2 - 2 - - - - 9 - -\n- - 2 - 2 - - - - - - - - -\n- - - - 6 - - - - - 4 - - 2\n- 2 - - 1 7 3 - 1 8 - - - -\n- - - - - - - 9 1 - 4 - - 4\n1 - 7 - - - - - - - - - - -\n- - - - 4 - - - - - - - 6 -\n- 5 - 9 3 - - - - - - - - -\n- - - - 7 - - - - - - 9 - 7\n- - 8 3 - 1 3 1 3 - 7 - - -\n- - - - - 13 - - - - - - - -\n- 5 - - - - - - - - - - - -\n- 2 - - 5 - 1 - 3 2 - - - -\n4 - - - - 6 - 6 - - - - - -",
+      "solution": "14 14\n- - - x - x - x - - x - x -\n- - - x - x - x x x x x x x\n- x x x - x x x - - - x - -\n- - - x - - - x - - x x x x\nx x x x - x x - - x - x - -\n- - - x x x - x - x x x x x\n- - x x - x - x x x - x - x\nx - x - - x x x - x x x x x\nx x x x - - x - - - x - x -\n- x - - x - - - - x - - x x\nx x x x x - x x x x x x - x\nx - x - x x - - x - x - x x\n- - x - - x - - - - x - x -\n- x x x x - - - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/059.a.htm",
+      "info": ""
+    },
+    "60_17x17": {
+      "problem": "17 17\n- 2 2 - - 5 - - - 1 - - - - - 1 -\n- - - - - - 1 - - 1 - 1 - 5 - - -\n2 5 - - - - - - - 2 - - - - - - -\n- - - - - - - - - - - - - - 14 - 1\n- - - - 7 - 5 2 1 - - 2 - - - - 1\n- - - 7 - - - - 1 - 7 - - - - - -\n- - - 3 - 13 - 3 2 - - 4 - 5 - - -\n- 4 - 8 - - - - - - 8 - - - 3 4 -\n7 - - - - - 5 - 5 - - - 4 3 - - -\n- - - 3 - - - - - 7 - 4 - 1 - 7 -\n- - 9 - - - 8 - - - - - - 4 - - 3\n- - - - 2 - - - 2 - - 2 - - 7 - -\n4 - 2 - 5 - 5 - - - - 1 6 - - - -\n- 8 - - - - - - - - - 3 - 4 3 - 1\n- - - - - - - 12 - - - - - - - - -\n- - 3 - - - - - 6 - 8 2 - - 1 - -\n- - - - - 5 - - - - - 3 - - - - -",
+      "solution": "17 17\nx - - - - - - - - - x - - - x - -\nx x x - - x - - - - x - - - x - -\n- - x x - x - x - - x - - x x x x\n- x - x x x x x x x x x x x - - -\nx x x x - x - - - - - - - x - - -\nx - x - x x x - - x - x x x x x x\nx x x - - - x - - x - - x - - x -\nx - x - x x x x x x - x x - - - x\n- x x x - x - x - x - x - - x x x\n- - x - - x - - x - x - - - x - -\n- - - x x x - x x x x x - - x x -\n- - - - - x - - - - x - - x - x x\n- - - - - x - x - - x - - x x x -\nx - x x x x x x x - x - x - - x -\nx - x - x - x - x x x x x x x x -\nx - - - x - x x - x - - x - - - -\nx x x x x - - - x x x - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/060.a.htm",
+      "info": ""
+    },
+    "61_6x6": {
+      "problem": "6 6\n- - - - - -\n1 4 - - - 2\n6 - - - - -\n- - - - - -\n- - 1 2 2 -\n- - - - - 2",
+      "solution": "6 6\nx x x x x x\n- - x - x -\n- x x x - -\nx x - x x x\nx - - - - x\nx x x - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/061.a.htm",
+      "info": ""
+    },
+    "62_6x6": {
+      "problem": "6 6\n- - - - - -\n- - - 6 - -\n- - - - - 4\n- - - - 4 -\n- - 5 - 2 -\n- 8 - - - -",
+      "solution": "6 6\nx x x x x x\nx - x - - x\nx x - x x -\n- x x x - -\nx x - x - -\nx - x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/062.a.htm",
+      "info": ""
+    },
+    "63_8x8": {
+      "problem": "8 8\n- - - - - - 2 -\n8 - - - - - - -\n- - - - 6 - - -\n- - - - - - 7 -\n- 2 - 7 - - 2 -\n- 5 - - - - - -\n- 1 - - 4 - - -\n- 7 - - - - - -",
+      "solution": "8 8\nx x x x - x - x\n- x - x x x - x\nx - - x - x x x\nx x x x x x - -\nx - - - - x - x\nx - x x x x - x\nx - - x - x - x\nx - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/063.a.htm",
+      "info": ""
+    },
+    "64_8x8": {
+      "problem": "8 8\n- - - - - - - -\n3 - 1 1 - - - -\n- - 4 - - 4 3 -\n- - - - - - - -\n- 7 - - - - - -\n- - - - - - 7 -\n- - - - 8 - - 3\n- - - - - 4 - -",
+      "solution": "8 8\nx x - x x x x x\n- x - - - x - x\nx x - - x - - x\n- x x x x x x x\nx - x - x - x -\nx x - x x x - -\nx - x x - x x -\nx x x - - - x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/064.a.htm",
+      "info": ""
+    },
+    "65_10x10": {
+      "problem": "10 10\n- - 3 - - - - - - -\n- 2 - - 6 - - - - -\n- - 2 - 2 - 1 3 - 3\n- 6 1 - - 4 - 2 - -\n- - - - - - - 8 - 2\n5 - 2 - 7 - - 1 - -\n2 - - 3 - - - 2 - -\n- - 4 - - - 1 - 8 -\n- - - - - - - - - -\n- - - - - 4 1 1 1 -",
+      "solution": "10 10\n- - - x x x - x - -\nx - - - - x x x x x\nx x - - - - - - x -\nx - - - x - - - x x\nx x x x x x x - x -\n- x - - - x - - x -\n- x - - x x - - x x\nx x - x x - - - - x\n- - - - x x x x x x\n- - x x x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/065.a.htm",
+      "info": ""
+    },
+    "66_10x10": {
+      "problem": "10 10\n- - 2 - 4 5 - - - -\n- 3 - 3 - - - - - -\n- - - - - - - - - 6\n- 3 - 7 - - - - - -\n- 1 4 - - 4 - - - -\n- - 4 - 5 - - 3 - -\n- 2 - - - - 4 - 6 -\n- - - - 1 - 3 - - -\n- - - - - 5 - 1 - -\n- 2 - - 2 - - 2 - -",
+      "solution": "10 10\nx x - - - - x x x x\nx - - - x x - x - x\nx x x x x - x x x -\nx - x - x x x - x x\nx - - x x - x - x -\nx - - x - - x - x x\nx - x - - - - - - x\nx - x - - - - x x x\nx x x x x - - - - x\nx - - x - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/066.a.htm",
+      "info": ""
+    },
+    "67_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- 6 - 5 - 2 - 1 3 -\n- - - - 3 - 3 - - -\n- - - - - - - - - -\n- - - - - - - 13 - -\n- - - 5 - 5 - - - -\n- - - - - - 12 - - -\n- - - 1 - - - - 4 7\n- - 3 - - 3 - - - -\n3 - - - - 4 - - - -",
+      "solution": "10 10\nx x x - x x x x x x\nx - x - x - - - - x\nx x - x - - - - x x\n- x - x - - x x - x\nx x x x x x x - x x\nx - x - - - x x - x\nx x - x x x - x x x\n- x - - - x x x - -\nx x - - - - x - - -\n- x x - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/067.a.htm",
+      "info": ""
+    },
+    "68_12x12": {
+      "problem": "12 12\n- - - - - - - - 7 - 1 -\n- - - 1 - - 4 - - - 3 -\n- 1 - 1 - - 2 - 3 - 2 2\n- 1 - - - - - - - - - -\n- 2 2 - 1 - - - 2 - 2 -\n- - - 4 4 - - - 3 - - 2\n6 5 - - - - - - - - 1 -\n- - - 2 7 - - - - 2 - -\n- - - - - - - 1 - - - -\n3 - 2 - - - 2 2 - - 2 -\n- 2 - 8 - - - - - - - -\n- - - - - 2 - 3 - - 1 4",
+      "solution": "12 12\n- - - x x x x x - x - -\n- - - - - - - x x x - -\nx - - - - x - - - x - -\nx - - x x x x x x x x x\nx - - - - - - x - - - x\nx x x - - x x x - - - -\n- - x x x x - - - - - -\nx - - - - x x x - - x x\nx x x x x x - - - - - x\n- x - - x - - - x - - x\n- - - - x x x x x x x x\n- - - - - - x - x - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/068.a.htm",
+      "info": ""
+    },
+    "69_14x14": {
+      "problem": "14 14\n- - - - - - - - - 9 - - 3 -\n- - 3 - 3 - 2 - - 6 - - - -\n- - - - - 2 - - - - - - - 2\n- 2 - 1 - - 5 - - - 3 - 3 -\n- 3 - - 2 - - - - 8 - - - -\n- - - - 4 - - 8 - - - 9 - -\n- - - - - 8 - - - 2 7 1 3 -\n2 - 3 4 - - - 5 - 5 - - - 3\n- - 7 - 5 - 9 - - - - - - -\n7 - - 5 - - - 5 - 6 - - - -\n- 5 - 3 - 4 1 - - 4 - 2 - 1\n- - - - - - - - - - - 4 - -\n- - - 3 - - - - - - - 1 - -\n- - - - - 7 - 2 - - - - - 4",
+      "solution": "14 14\nx x x x x x x x x - - x - x\nx - - x - x - - x - x x x x\nx x x - - - - x x x - x - -\nx - - - - - - x - - - x - -\nx - x x - - x x x - x x x x\n- - x - - x x - x x x - x -\nx x x x x - x - x - - - - -\n- - - - x x x - x - x x x -\nx x - - - - - x x x x - - -\n- x x - x x x - x - x x x x\nx - x - x - - - - - x - - -\nx x x x x x - x x x x - - -\nx - x - - x x x - x - - - -\nx x x x x - - - - x x x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/069.a.htm",
+      "info": ""
+    },
+    "70_17x17": {
+      "problem": "17 17\n- - - - 7 - - - - - - - - 7 - - -\n- - - - - 5 - - - 2 - - - 3 - - -\n- - - 5 - - - 5 8 - - - - - - - -\n- 2 1 10 - - - 2 - 5 - - 4 - - 5 -\n- 4 - - - - 11 - - - - - - 9 - - -\n- - - - - - - - 2 - 6 - 3 - 6 - 6\n- 2 1 - 2 - - - - - - - - 4 - 2 -\n16 - 1 - - 2 - - - 6 - - - 3 - - -\n- 1 2 - - 2 4 - - - - - 3 - 1 - -\n- - - - 3 - 2 - 8 - - - - - 6 - 1\n- 10 - - - - - - - - - 6 - - 3 - 1\n- - - - 2 2 5 - - - - - - 10 - - 3\n- - - - 7 - - - - - 8 - - - - - -\n- - - - - - - 10 - - - 3 - - 4 - -\n- 5 - - - - - - - - - 7 4 - - - -\n- 2 - - - 1 4 3 - - - - 4 - - 8 -\n- - - - 4 3 - - - 3 - - - - - - -",
+      "solution": "17 17\nx x x x - - - x x x x x x - x - x\nx - - x x - x x - - - - x - x - x\nx x - - x x x - - x x x x x x x x\nx - - - x - x - - - x - - - x - x\nx - x x - x - x x x x x x - x x x\nx x - x x x x - - x - x - - - x -\nx - - x - - - x - x x x x - - - -\n- - - x - - x x - - - x - - - - -\nx - - x x - - x x x - x - x - - -\nx - - x - - - x - x x x x x - x -\nx - x x x x x x x x - - - x - x -\nx x - x - - - x - - - - - - x x -\nx - x x - x x x x x - - - x - x x\nx x x - - - x - x - x - x x - x -\nx - x x x - x x x x x - - x x x -\nx - x - x - - - x - x x - x - - x\nx - x x - - x x x - - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/070.a.htm",
+      "info": ""
+    },
+    "71_6x6": {
+      "problem": "6 6\n- - - - - -\n1 - - - 3 -\n- - 5 - - 2\n3 - - - - -\n1 - 2 - - -\n- 2 - - - -",
+      "solution": "6 6\nx x x - - -\n- - x x - -\n- - - x x -\n- x x x - -\n- x - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/071.a.htm",
+      "info": ""
+    },
+    "72_6x6": {
+      "problem": "6 6\n- - 5 - - -\n6 - - 1 - -\n- - - - - -\n- - - - - 5\n- - - - - -\n- 1 - 1 - -",
+      "solution": "6 6\nx x - x x x\n- x - - - x\nx x x - x x\nx - x - x -\nx - x x x x\nx - - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/072.a.htm",
+      "info": ""
+    },
+    "73_8x8": {
+      "problem": "8 8\n- - - - - - 13 -\n- - - 2 - 3 - -\n- 1 3 2 - - - 2\n- 3 - - - - - -\n- 1 - 6 - - - -\n- - - - - 6 - -\n- - - 2 - - - -\n- - - - - 1 - -",
+      "solution": "8 8\nx x x x x x - -\nx - - - x - x -\nx - - - x - x -\n- - x x x - x x\n- - x - x x x -\n- - x x x - x x\n- - - - x - x -\n- - - - - - x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/073.a.htm",
+      "info": ""
+    },
+    "74_8x8": {
+      "problem": "8 8\n- - - - - - - -\n- - 2 - 5 - - -\n- 3 - - - 4 - -\n- - - - - - 6 4\n- 4 - - - - - -\n- - - - - - - 2\n- - 3 - 1 - - 1\n- 2 - 7 - - 3 -",
+      "solution": "8 8\n- - - x x x - x\n- - - x - x x x\n- - x x - - - x\nx x - x x x - -\nx - - x - x x x\nx x x x - - x -\n- x - x - - x -\n- - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/074.a.htm",
+      "info": ""
+    },
+    "75_10x10": {
+      "problem": "10 10\n- - - - - - - 4 - -\n- 8 - - - - - - - -\n- - - - 4 1 - - - -\n- - 2 - - 4 3 - - -\n5 - - - - - 1 3 - -\n- - - - - - 5 - - -\n1 4 - - - 3 - - - 7\n- - - - - 5 - - - 3\n4 - - - - 1 - 3 - 2\n- 2 - 2 - - - 3 - -",
+      "solution": "10 10\nx x x - x - x - - x\nx - x x x x x x - x\nx - - x - - - x - x\nx - - x x - - x x x\n- x - x - x - - - x\n- x x x x x - - x x\n- - - - x - - - x -\nx x - x x - x x x -\n- x x x - - x - x -\n- - - - - - x - x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/075.a.htm",
+      "info": ""
+    },
+    "76_10x10": {
+      "problem": "10 10\n- - - - - 9 - - - -\n9 - - - - 5 3 - - -\n- 2 - 8 - - - - - 7\n- - - - 5 - 2 - 1 -\n- 2 9 - - - 4 1 2 -\n- - - - 6 - - - - 4\n- 6 - - - - 5 - - 1\n- 1 - - - 5 - - - -\n- 3 - 3 - - 1 - - -\n- - - - - - - - 8 -",
+      "solution": "10 10\nx x x x x - x x x x\n- - x - - - - x - x\nx - x - x x x x x -\nx - x x - x - - - -\nx - - x x x - - - -\nx x x - - x x x x -\nx - x x x x - - x -\nx - - - - - - - - -\nx - x - x - - - - -\nx x x x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/076.a.htm",
+      "info": ""
+    },
+    "77_10x10": {
+      "problem": "10 10\n- - - - 2 - - - - 5\n- - - 2 - - 1 - - -\n- - - - - - - - 6 -\n1 7 - - 1 - - - - -\n- - - - - - - - 11 -\n- - 7 - - - 4 - - -\n- - - - 3 2 - - - -\n- - - - - 4 - - - -\n2 - 2 - 2 - - 1 3 -\n- - 3 - - - - - - -",
+      "solution": "10 10\n- - x x - - - x x -\n- - x - - - - - x x\nx x x - - - x x - x\n- - x - - - - x x x\n- x x x x x x x - -\n- x - - - x - x x -\n- x x x - - - - x -\nx x - x - - x x x x\n- x - x - - - - - -\n- - - x x x - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/077.a.htm",
+      "info": ""
+    },
+    "78_12x12": {
+      "problem": "12 12\n- - - - - 9 - - - - - -\n1 2 - 11 - - - - - - - 8\n- 2 - - - - - 2 - - - -\n- - 4 - - - - - - - - -\n8 - - - - - - 1 5 - 7 -\n- - - - - - - 4 - 4 - -\n- - - - 2 - - - - - 2 -\n- - - - - - - - - 10 1 -\n- 3 - 5 2 3 - 7 - - 2 -\n- - - - - 7 - - - - - -\n- 2 5 - 8 - - - - - - 7\n- - 1 - 2 - 3 - - 5 - -",
+      "solution": "12 12\nx x x x x - x - x - x x\n- - x - x x x x x x x -\n- - x x - x - - x - x -\n- - - x - x x - x x x x\n- x - - - - x - - x - x\nx x - - - x x - - - x x\nx - x - - x - x - - - x\nx - x x x x x x x - - x\nx - x - - - - - x x - -\nx x x x x - - x - x - -\nx - - x - x x x x x x -\nx - - x - x - x - - x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/078.a.htm",
+      "info": ""
+    },
+    "79_14x14": {
+      "problem": "14 14\n- - - - - - - - - - - 3 - -\n- - 2 - 1 1 2 - - - - 5 - 3\n- 2 - 10 - - - - - - - - - -\n- - - - - 2 4 - 7 - 5 - - 1\n- - 2 - 2 - - - - - - - - 2\n- - - - 1 - - - - - - 5 1 -\n- - - - - - - - - - - - 4 7\n10 - 4 - - 2 - - - 4 - 7 - -\n- 5 4 - - - - 12 - 3 - - - -\n- - - 5 - 5 4 - - - 8 - - -\n9 - - - - - - - - - - - - -\n- - 1 - - - 3 - 3 - 2 - - -\n- 1 - - - - - - - - 6 - - -\n- - - - 5 - - - 2 - 2 - - -",
+      "solution": "14 14\nx - - - - - x x x - x - x x\nx x - - - - - - x - x - x -\nx - - - x x x x x x x x x x\nx - - - - - - x - x - x - -\nx - - - - x x - x x - x x -\nx - x - - - x x x - x - - -\nx x x x x x - x - x x x - -\n- x - x - - - x x - x - x x\nx - - x x x x - x - x x - x\nx x - - x - - x x - - x x x\n- x x x x x x x - x x x - x\n- - - - - x - x - x - - - x\n- - - x x x - x x x - x x x\nx x x x - - - - - x - x - x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/079.a.htm",
+      "info": ""
+    },
+    "80_17x17": {
+      "problem": "17 17\n- - - - - - - - - - - 5 - - - - -\n5 - - - - 13 - 1 1 - - - - - 4 - 2\n- - 5 - 4 - - - - - - 3 - - - - -\n4 - - - - - 5 - 3 - - 6 - - - - -\n5 - - - 3 - - - - - - - - - 10 - -\n- - - 6 - - - - 3 - - - 7 1 2 - -\n- 8 - - 12 - - - - - - - - 11 - 4 2\n- - 3 - - - - - - - 3 - - - - - 3\n- - - - - - - 8 - - - - - - 8 - 1\n- - - - 1 - - - - 5 - - - 4 - - -\n- 2 - - 2 - - 4 - - - - 2 - - - -\n- 3 - - 8 - 2 3 - - - - 2 6 - 4 -\n- - 7 - - - 7 - - 14 - - - - - - -\n- - - - - - - 6 - - - 6 3 - - - 3\n- - - - - - - - 15 - - - - - 4 - -\n- - 4 2 - 3 3 2 2 - 1 - - - - - -\n- - - 9 - - - - - - - - 2 - - - -",
+      "solution": "17 17\n- - x - x x x - - - - - x x x x x\n- x x x x - x - - - - - x - - x -\nx x - - - x x - x x - - x x x - -\n- x x x - x - - - x - - x - x x -\n- x - - - x x - x x x x x x - x x\nx x x - x x - x - - - x - - - - x\nx - x x - x x x x x x x x - x - -\nx - - - x x - x - x - x - x x x -\nx x x x - x x - x x - x - x - x -\n- - - x - - - x x - - - - - x x -\nx - x - - x x - x - x x - - x - -\nx - x x - x - - x x - x - - x - -\nx - - x x x - x x - x x x x x x x\nx - x - x - x - x x x - - x - x -\nx x x x x x x x - x - - x x - x x\n- x - - x - - - - x - - - x - - -\nx x x - x x x x x x - - - x x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/080.a.htm",
+      "info": ""
+    },
+    "81_6x6": {
+      "problem": "6 6\n- - - - 7 -\n- 4 - - - -\n- - - 4 - 1\n4 - - - - 4\n- - - - - -\n- - - - - 3",
+      "solution": "6 6\nx x x x - -\nx - - x x -\n- x - - x -\n- x x x x -\n- - x - - -\n- - x x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/081.a.htm",
+      "info": ""
+    },
+    "82_6x6": {
+      "problem": "6 6\n- 2 - - 2 -\n2 2 - - - -\n- - - - 4 -\n- - - - - -\n- 2 - - - -\n- - 6 - - -",
+      "solution": "6 6\n- - x x - -\n- - x - - -\nx x x x - -\nx - x - - -\n- - x x - -\n- - - x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/082.a.htm",
+      "info": ""
+    },
+    "83_8x8": {
+      "problem": "8 8\n- 4 1 - - - - -\n- - - 5 2 - - 2\n- - - - 5 - - -\n- - - - - - 6 -\n- - - - 3 - 1 3\n- 2 - - - - - -\n- - - - - - - -\n- 3 - 2 - 7 - -",
+      "solution": "8 8\nx - - - x x x x\nx x x - - x - -\n- x - x - x x x\n- x x x x x - -\n- - x - - x - -\n- - x - x x - x\nx x x x - x x x\nx - x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/083.a.htm",
+      "info": ""
+    },
+    "84_8x8": {
+      "problem": "8 8\n- - - - - - - 7\n- 3 - 5 - - - -\n- - - - 5 - 5 -\n- - - - - - - -\n- 2 2 - 1 - - 1\n- - - - - - - -\n- - - - - 6 - 2\n- - 4 1 - - - -",
+      "solution": "8 8\nx x x x x x x -\nx - x - x - - -\nx - x x - - - -\nx - - x x x x -\nx - - - - - x -\nx x x - - x x -\nx - x x x - x -\nx x - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/084.a.htm",
+      "info": ""
+    },
+    "85_10x10": {
+      "problem": "10 10\n- 5 - - - - - - - -\n- - - - 1 1 1 - - 2\n4 - - - 2 - 3 - - -\n- - - - - - - - 11 -\n5 4 - 3 1 - - - - -\n- 3 - 1 - 1 - 3 - -\n- - - - - - 3 4 - -\n- 6 - - - 8 - - - -\n- - - 5 - 2 - - 5 -\n- 2 - - - - - - - 7",
+      "solution": "10 10\nx - x - x x x x x x\nx x x - - - - - x -\n- x - x - - - x x -\nx x x x x x x x - -\n- - x - - - - x - -\nx - x - - - - - - -\nx x x - x x - - x -\nx - x x x - x x x x\nx x x - x - - x - x\n- - x - x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/085.a.htm",
+      "info": ""
+    },
+    "86_10x10": {
+      "problem": "10 10\n- - - - 10 - - - 2 -\n- - - - - - - - - -\n4 - - - - 2 - - 5 -\n- - - - - 5 - - - 4\n- - 8 - - - - - - 6\n5 - - - - - - - - -\n- 3 - 3 - 2 - 4 - 1\n- - - 2 - 3 - - - 1\n2 - - - - - 11 - - -\n1 - 7 - - 2 - - - -",
+      "solution": "10 10\nx - - x - - x - - x\nx x - x x - x x x x\n- x x - x - x - - x\n- - x x x - x - x -\nx x - - x x x x x -\n- x x x x - x - x x\n- - x - x - x - - -\n- - x - x - x x - -\n- x x - x - - x x x\n- x - x x - - x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/086.a.htm",
+      "info": ""
+    },
+    "87_10x10": {
+      "problem": "10 10\n- 2 5 - 2 - - 2 - -\n- - - - - - - 3 - -\n- 4 - 8 - - - - - 7\n- - - - - - - - - -\n1 - - - - - - - - -\n- - - - - 13 - - - 5\n- - 7 - 4 - - - - 1\n- 2 - 5 - - - 3 - -\n- - - - - 7 - 3 - -\n- - - - 7 - - - - -",
+      "solution": "10 10\nx - - - - x x - - -\nx x x x - x - - x -\nx - x - x x x x x -\n- x x x - x - x - x\n- - x - x x x - x x\nx x x x x - x x x -\n- - - - - - x - x -\n- - x - x x x - - -\n- x x x x - x - x -\n- - - - - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/087.a.htm",
+      "info": ""
+    },
+    "88_12x12": {
+      "problem": "12 12\n- - - 3 - - - - 7 - - -\n- - - 1 - - - - - - 2 -\n- - 4 - - 1 - - - 2 - -\n- 8 - - 2 6 - - - 4 - -\n- - - - - - - 8 - - - 3\n7 - 2 3 - - 4 2 - 2 1 -\n- - - - - - 8 - - 3 1 3\n3 - 3 - - 3 - - - - - -\n- - - - - - - - 7 - 5 -\n- - 3 - 2 - 2 - - 2 - -\n- - 1 - 1 1 - 2 1 - - -\n- - - - 1 5 - - - - - 5",
+      "solution": "12 12\nx x x - - - - - - - - -\nx - x - - - - - x x - -\nx x - - - - x - x - - -\nx - - x - - x x x - - -\nx x - x x x x - x x x -\n- x - - - x - - x - - -\nx x x x x x - x x - - -\n- x - - - - - - x x x x\nx x x x x - - - - - - x\n- x - x - - - - - - x x\n- - - x - - x - - - x -\n- - - x - - x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/088.a.htm",
+      "info": ""
+    },
+    "89_14x14": {
+      "problem": "14 14\n2 - - - 4 1 1 1 - 2 - - 3 -\n- 5 - - - - - - - - 4 - - -\n- - - 4 - 3 2 2 2 - 3 - - -\n6 - 6 11 - - - - - - - - - -\n- - - - - - 1 - 3 - - - - 4\n- - - 2 4 - 3 6 - - - - - -\n- - - 3 - 1 - 2 - 9 5 - - -\n- 1 - 2 - 1 - 4 5 - - - 3 -\n- - 2 - 4 3 - - - - - 3 - -\n- - - - - - - - - - - 1 - -\n- 1 2 6 - - - - - - - 6 - -\n- - - - - - - - - - 3 - - 1\n- - - - 5 - - - - - - - - 6\n- 1 3 - - - 4 - - - - 2 - 1",
+      "solution": "14 14\n- - - - - - - - - - x x - -\nx - x - x x x x x - - x x x\nx x x - x - - - - - - - - x\n- x - - x x x x x x x x x x\nx x x x x - - - - - x - - -\nx - x - - - - - x x x x x x\nx x x - - - x - x - - x - -\n- - - - - - x - - x x x - -\n- - - x - - x x - x - - - -\n- - x x x x - x - x - - x -\n- - - - x - x x x x x - x -\nx x x x x x x - - x - - x -\nx - - x - - - x x x x x x -\nx - - x x x - x - x - - x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/089.a.htm",
+      "info": ""
+    },
+    "90_17x17": {
+      "problem": "17 17\n2 - 2 - - - - - 1 - 7 - - - - - 5\n- - - - - - 2 - 4 - - - 5 3 1 1 -\n- - - - - 12 - - - - - - - - 3 - -\n- - - 3 - - - - - 3 1 - 3 - - 1 -\n1 - - 1 2 - - - - 2 3 - 6 - - - 2\n- - - - - - - - 10 6 - - - - - - -\n1 - 2 - 2 6 - 7 - - - 10 - 4 - - -\n5 - 5 - - - 7 - - - - - - - - - -\n- - - - 6 - - 1 - - - 3 - 5 6 - 2\n- 8 - 4 - 3 - - - - - - - - - - -\n- - - - 2 2 - 3 - 1 - 2 6 - 5 - -\n- - - - - - - - 8 - - 2 - - - 6 -\n8 3 - - - - 4 - - 3 - - - - - - 2\n- - - - - 6 2 - - - - 3 - - 4 4 -\n- 4 - 5 - - - 3 - 2 - - - 4 - - 2\n- - 6 - - 2 - 1 1 - 8 - - - - - -\n- - - - - - - - - - - - - - 3 - 2",
+      "solution": "17 17\n- - - x x - - - - x - x x x x x -\nx - - x - - - - - x x x - - - - -\nx x x x x - x x x x - x x x - - -\n- x - - - x x - - - - x - x - - -\n- x - - - x - x x - - x - - x x -\n- x x x x x x x - - x x x x x - -\n- x - - - - x - x x x - x - x - -\n- x - x x x - x x - - - x x x - -\nx x x x - x - - - - x - x - - x -\nx - - - - - x - - - x x x x x x x\nx - - x - - x - - - x - - x - x -\nx x x x x x x x - - x - - x x - -\n- - x - - - - x - - x x x - x x -\nx x x x x - - - - - - - x x - - -\nx - x - x x x - - - - - x - - x -\nx x - - - - x - - x - x x x x x x\nx - - - - - - - - x x x - x - x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/090.a.htm",
+      "info": ""
+    },
+    "91_6x6": {
+      "problem": "6 6\n- - - - - 2\n4 - - - - 1\n3 - - - - -\n- - - - - -\n- 2 - 3 - -\n- - - - - 1",
+      "solution": "6 6\nx x - x x -\n- x x x - -\n- - x - x x\nx x x x x -\nx - - - x x\nx - - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/091.a.htm",
+      "info": ""
+    },
+    "92_6x6": {
+      "problem": "6 6\n- 2 - 1 - -\n- - - 6 - -\n- - - - - -\n1 - - - - -\n- - - - - 9\n- - 6 1 2 -",
+      "solution": "6 6\n- - x - - x\nx x x - x x\n- - x x - x\n- - x - x x\nx x x x x -\n- x - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/092.a.htm",
+      "info": ""
+    },
+    "93_8x8": {
+      "problem": "8 8\n- 3 - 6 - - 4 -\n- - - - 7 - - -\n- 2 - - - 3 - 3\n- - - - - - - -\n3 - - - - - - -\n- - - - - - - 5\n- - - - - - - 1\n2 - - - - - 5 -",
+      "solution": "8 8\nx - x - - - - x\nx x x x - x x x\n- - - x - - x -\nx x x x x x x -\n- - - x - - - -\nx - x x x x x -\nx x x - x - x -\n- - - x x x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/093.a.htm",
+      "info": ""
+    },
+    "94_8x8": {
+      "problem": "8 8\n- - - - - - 7 1\n- - - - - - - -\n- - - 6 - 2 6 -\n- 7 - - - 4 - -\n- 2 - - - - - 1\n- - 9 - - - - -\n- - - - - - - -\n- 3 - - 6 - - 3",
+      "solution": "8 8\nx x x x x x - -\n- x - x - x x x\nx x x - - - - -\nx - x x x - x -\nx - x - x - x -\nx - - x x x x -\nx x x - x - x x\nx - x - - x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/094.a.htm",
+      "info": ""
+    },
+    "95_10x10": {
+      "problem": "10 10\n- - - - - - - 4 1 -\n- - 7 - - - - - - -\n- 2 - - - - - 2 2 -\n1 2 - - 1 1 - 1 - 4\n- - - - - 5 5 - 5 -\n- 2 - 6 - - - - - -\n- 5 - - 3 - - 3 - -\n- - 13 - - - - - - 8\n- - - - 5 - - - - -\n1 - 5 - - - 3 - 5 -",
+      "solution": "10 10\n- - - - x x x - - -\n- - - x x - x x x x\n- - x x - - x - - x\n- - x - - - x - - -\nx x x x x - - - - x\n- - x - - - x x x x\n- - x x - - - - x -\n- x - x x x x x x -\n- x x x - - - - x x\n- x - x x x - - - x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/095.a.htm",
+      "info": ""
+    },
+    "96_10x10": {
+      "problem": "10 10\n- 1 - - - - - - - 6\n- 1 - - 2 4 - 2 1 -\n- 7 - - - - - - - 2\n- - - 5 2 - 4 - - -\n- - - - - 2 - - - -\n- 3 - 3 1 - - 1 - -\n- - - - - 7 1 3 - -\n2 - - 3 6 - - - - -\n- - - - - - 7 - - -\n- - - 2 1 2 - - - -",
+      "solution": "10 10\nx - - x x x x x x -\nx - - - - - x - - -\nx - x x x x x - - -\nx x x - - x - - - x\n- - x x - - - - x x\nx - x - - - - - x -\nx x x x x - - - x -\n- - x - - x x x x -\n- x x x x x - x - -\n- - x - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/096.a.htm",
+      "info": ""
+    },
+    "97_10x10": {
+      "problem": "10 10\n- - - - - - 1 - 1 2\n- 3 - 2 6 - - - - -\n- - - - - - - - - -\n- - 4 - - - - - - 2\n- - - - - - - 8 - 2\n- - - - - 11 - - - -\n3 - 1 4 - - 6 - - -\n- - - - - 2 - - - -\n- - - - - 4 - 1 - -\n- - 1 - - - - - 4 -",
+      "solution": "10 10\n- - - - - - - - - -\n- - x - - x x x x x\n- x x x x x - x - x\nx x - - - - x x - -\nx - - x - x x - x -\nx x x x x - x x x x\n- - - - x x - x - -\n- - - - x - - - - -\n- - x x x - - - - -\n- - - - x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/097.a.htm",
+      "info": ""
+    },
+    "98_12x12": {
+      "problem": "12 12\n- - - - - 11 - - - - - -\n- 3 - - 2 - - - 2 3 - -\n- - - - - - 3 - - - 8 -\n3 6 - - - - - - 4 - - -\n- - - 3 - - - - - - - 5\n- - - - - 6 - - - 3 - -\n- - 2 - - - - - - - - -\n- - - - - - 7 1 - 5 4 1\n- - - - - - - 5 2 - - -\n- 7 - - - - 10 - - - - 6\n- - - 5 - - - - 6 - - -\n6 3 - - 2 5 - - - - - -",
+      "solution": "12 12\nx x x x x - x x x x x x\nx - - x - - - - - - - x\nx x x - - - - x x x - x\n- - x x x - - - - x x x\n- x x - - - - - - - x -\nx x - - - - x - x - x -\nx - - x - x x x x x x x\nx - x x x x - - - - - -\nx x - - - x x - - x - -\nx - x x x x - x x x x -\nx x x - - x x x - x - x\n- - x x - - - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/098.a.htm",
+      "info": ""
+    },
+    "99_14x14": {
+      "problem": "14 14\n- - - - - 6 2 - 5 - - - - -\n- 3 - - - - - - - - - - - -\n- 3 - 1 - - 1 - 5 - - - - -\n- - - - - 1 1 1 - - 5 4 2 -\n- - - - - 13 - - - - - - - -\n1 3 - - - 1 6 - - - - - - -\n- - 4 - - 5 - - - - - - 3 -\n- - - 3 - - - 3 - - 4 - 2 -\n- - - - - 4 - 2 - - - - - -\n- 2 - 3 - - - 1 5 2 - 2 1 -\n- - - - - 6 - - 2 - 3 - - -\n- 2 - 4 - 3 12 - - - - - - -\n2 - 3 - - - - 1 1 2 2 - 3 -\n- - - - - - 1 - - - - - - -",
+      "solution": "14 14\nx x x x x - - x - x x x - -\nx - x - x x x x x x - x - -\nx - - - x - - - - x x x x -\n- x - - x - - - - x - - - -\nx x x x x - x x x x x x x x\n- - x - x - - - x - x - - x\n- - - x x - x x x - x x - x\n- - - - x - x - x - - x - x\n- - x x x - x - x - - - - x\n- - x - - - x - - - - - - x\nx x x x x - x - - x - x - x\nx - - - x - - x x x x x x x\n- - - x x x - - - - - - - x\n- - - x - x - - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/099.a.htm",
+      "info": ""
+    },
+    "100_17x17": {
+      "problem": "17 17\n- - - - 5 - - - - - - - - - - 3 -\n- 3 - - - - 3 6 - - - - - - - - -\n- 3 - - 4 - - 2 - 3 - - - - - - -\n- 3 - - - - - - - 6 9 - - - - - -\n- - 7 - - 4 - - 5 - 5 - 11 - - 2 2\n7 - - - 1 7 - - 4 - - 6 - - 9 1 -\n- 6 - - - - 8 - - 6 - 2 - - - - 8\n- 1 - - - - 2 - - - - - - 3 - - -\n- - - 4 - - - - - - 10 - - - - - -\n- - - - 2 - - - - - - - - - - - -\n4 - 3 - 4 - - - - 4 - 4 - - 13 - -\n- 4 - - - 8 2 - - - - 2 7 - - 4 -\n- - - 8 - - - - - - - - - - - - -\n- - 3 - - - 5 1 2 4 - 5 4 - - - -\n- - - - - - - 5 4 - - - - 9 - - -\n5 - 2 3 - - - - - - - - - - - - -\n- - - - - - - 7 - - 1 - 1 1 5 - 2",
+      "solution": "17 17\nx x x x - - x x x - x - x x x - -\nx - x - x x - - x x x x x - - - -\nx - x x - x - - x - x - x - x - x\nx - - x - x x x x - - x x x x x x\nx x - x - - x - - x - x - - x - -\n- x x - - - x x - x x - x x - - -\n- - x x x x - x - - x - x - x x -\n- - x - - x - x - x x - x - x - x\n- - x - - x - x - x - - x x x x x\n- - - x - x - x x x x x x - x - x\n- - - x - x x x - - x - x x - x x\nx - x x - - - - x - x - - - x - x\nx x x - - x x x x x x x x - x x x\nx - - x - x - - - - x - - x x - -\nx x - x x x x - - x x x x - x x x\n- x - - - - x x - x - x - x x - x\n- x x x x x x - - - - x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/100.a.htm",
+      "info": ""
+    },
+    "101_8x8": {
+      "problem": "8 8\n- 3 - - 6 - - -\n- - - - - - 5 -\n- 4 - - 5 - - -\n- - 9 - - - - -\n- 6 - - - - - 7\n- - - - 4 - - -\n- - - - - - - -\n- - - 8 - - - 3",
+      "solution": "8 8\nx - x x - x x x\nx - - x x x - x\nx - x x - x - x\nx x - x x x x x\nx - x x - - x -\nx x - x - x - x\n- x x x x x x x\n- - - - x - x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/101.a.htm",
+      "info": ""
+    },
+    "102_8x8": {
+      "problem": "8 8\n- - - - - 6 - 2\n- - - 6 - - - -\n- - - - - - - 1\n- - - 4 - 2 - -\n- - - - - - 2 -\n5 - - - - 2 - -\n- - - - - 2 - -\n1 1 - 3 - - - -",
+      "solution": "8 8\n- x x x x - x -\nx - x - x x x x\nx - x - x - - -\nx x x - x - - -\nx - x - x x - -\n- - x - x - - -\nx x x - x - - -\n- - - - x x x -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/102.a.htm",
+      "info": ""
+    },
+    "103_10x10": {
+      "problem": "10 10\n- - - - - - - - - 6\n- - 3 - 2 2 - - - 1\n2 - - - - - - - - -\n- - - - - 10 - - 2 -\n3 - 2 7 - - - - - -\n- 1 - - 3 - - 1 - 1\n- - - - - - - 2 - -\n- - - - 2 - 4 - - 2\n- - - - - - - - 2 -\n- - 1 - - - - - - -",
+      "solution": "10 10\n- - - x x x x x x -\n- - - x - - - x - -\n- x x - - x x x x x\n- - x x x - x - - -\n- - - - x x x x x x\nx - - - - x - - - -\nx - - - - x x - - -\nx x - - - x - - - -\n- x x x x x x - - x\n- - - - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/103.a.htm",
+      "info": ""
+    },
+    "104_10x10": {
+      "problem": "10 10\n- - - 4 - - - - - 4\n8 - - - - 7 - - - -\n- 2 3 7 - - - - - -\n- - - - - 7 - - - 5\n- - 4 - - - 8 - 6 -\n- - - - - - - - - -\n- 3 - - - - - 4 - 1\n- - - - - 5 - 1 - 1\n- 2 - - - 2 1 1 - -\n- 7 - - - - - - - -",
+      "solution": "10 10\n- - x - x x - x x -\n- - x x x - x x - x\nx - - - x x x - x x\nx x x x - - x x x -\nx - - x x x - x - -\nx x - x - x x x x -\nx - - - x x - - x -\nx x - x x - - - x -\nx - - - x - - - - -\nx - x x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/104.a.htm",
+      "info": ""
+    },
+    "105_12x12": {
+      "problem": "12 12\n- - - - 11 - - - - - - -\n1 2 - - - - 2 - 5 - 2 -\n- - 6 4 - - 4 - - 2 1 -\n- - - - - 8 - 7 - 1 - -\n- 4 - 4 - - - - - 2 - 4\n- - - 3 - - - - - - - -\n- - - - - - - - - - - -\n1 - 8 2 - - 2 - - - - -\n- - - - - - - - 12 - - -\n- 5 - - - 1 2 - 2 - 3 2\n- - - - - 5 1 - - - - -\n- - 4 3 - - - 5 - - - 1",
+      "solution": "12 12\n- - - - - x x x x x x x\n- - - x x - - x - - - x\nx x - - x x - x x - - x\n- x x x x - - - x - - x\n- - x - x x - x x - - -\nx x x - - x - x - - - -\n- - x - x x x x x - - -\n- x - - x - - - x x - -\n- x x x x x x x - x x x\n- - x - - - - x - x - -\n- x x x x - - x - x x x\n- x - - x x - - x x - -",
+      "source": "https://www.janko.at/Raetsel/Canal-View/105.a.htm",
+      "info": ""
+    },
+    "106_12x12": {
+      "problem": "12 12\n- 4 - 2 - 5 - 2 - 3 - -\n10 - - - - - - - - - - -\n1 - 4 - 2 - - - 2 3 - -\n3 - - - 5 - - 4 - 1 - 2\n- 4 - 4 2 - - - - - - -\n- - - - - - - 5 - 3 - -\n- 4 - - 3 9 - - - - 11 6\n- - - - - 1 - - 4 - - -\n- 3 - - - 3 - - - - - -\n- - - - - 1 5 3 - - - -\n- 3 - 7 - - - - - - 9 -\n- - - - - 6 - - - - - -",
+      "solution": "12 12\n- - x - - - - - - - x x\n- x x x x x x x x x x -\n- x - - - x - x - - x x\n- x x x - x x - - - x -\n- - - - - x - - - - x -\nx x - x x x x - - - x x\nx - x x - - x x x x - -\nx - - x - - x - - - x x\nx - x - - - x x x - - x\nx x x - - - - - x - x x\nx - - - x x x x x x - x\nx x x x x - - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/106.a.htm",
+      "info": ""
+    },
+    "107_14x14": {
+      "problem": "14 14\n4 - - - - - - - - - - - - -\n- - 4 - 1 - - - - 5 1 - - 1\n- - - - 5 - 2 - - - 6 - - -\n- - - - - 5 9 - - - - - - -\n4 - - - 7 3 - - - - - 4 - -\n4 - - - - - - 12 - - - - 8 -\n- - - - - 2 3 - - - - 3 - -\n- - 1 1 - 2 - - - - - - - -\n- - 3 - - - - - - - 6 2 5 1\n9 - - - - 2 - - - - 6 - - -\n- - - - - - 5 1 - - - 4 - 3\n- - - 2 - 2 - - - - - 2 - -\n- 2 - - 2 2 - 3 - - - - - 3\n- - - - - - - - - 10 - - - -",
+      "solution": "14 14\n- x x x - x x x - x x x x -\nx x - - - x - x x - - - x -\n- x x x - x - x - x - - x -\nx x - x x - - x x x x x x x\n- x x x - - x x - - x - x -\n- x - x x x x - - x x x - -\nx x x - x - - x - - x - - -\nx - - - x - - x x x x x - -\nx x - - - x x x - x - - - -\n- x x - - - x - x x - x x x\nx x - - - - - - - x x - x -\nx - - - - - x x - x - - x x\nx - - x - - x - - x x - x -\nx x x x x x x x - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/107.a.htm",
+      "info": ""
+    },
+    "108_14x14": {
+      "problem": "14 14\n- - - - - - 4 - - - - 1 - -\n- 1 - - - - - - - - - 5 - -\n- - - - 5 3 - - 1 2 - - - 7\n- - - - - 5 - 2 - - - - - -\n- - - - - - - - 4 4 5 - - -\n4 - - - - 2 3 - - - 1 2 5 -\n- - - - - - - - - - - - - -\n7 2 10 - 5 - - - - - 1 - - 6\n- - - - 4 1 - 4 3 - - 3 - -\n- 3 - 5 - - - - - 13 - - - -\n- 6 - - - - - 10 - - - - 7 1\n- - - - - 4 - - 6 - - - - -\n- 4 - - - - - 4 - - - 5 - 3\n- - 9 - - - - - 1 7 - - - -",
+      "solution": "14 14\n- - x x x x - - - - x - - x\n- - - x - x - - x x x - x x\nx x - x - - x - - - x - x -\nx - x x x - x - - - x x x x\nx x x - x x x x - - - x - x\n- - x - x - - - - x - - - x\nx x x x x - - x x x - - x x\n- - - x - - x x - x - - x -\nx x x x - - x - - x - - x x\nx - x - - - x x x - x x x -\nx - x x x x x - x x x - - -\nx - x - x - x x - x - - x x\nx - x x - - - - x x x - x -\nx x - x x - - - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/108.a.htm",
+      "info": ""
+    },
+    "109_17x17": {
+      "problem": "17 17\n- - - 1 6 - 4 1 - 1 - - - 5 - - -\n- - - - - - - - - - 10 - 5 - - 4 -\n1 2 - - - 4 - 5 - - - 2 - - - - -\n- - 2 - - 3 - - 5 1 1 - - - 2 1 -\n1 4 - - - - 14 - - - - - - - - 8 -\n- - - - - - - - 3 1 - 2 - - - - -\n- - - 1 6 - - 3 - 9 - - - - - - -\n- - - 10 - - - - - - - 8 2 - 1 - -\n- 10 - - 1 - 3 - - - 3 - 2 - 2 1 -\n5 - - - - 2 1 - 1 - - 4 - - - - -\n1 - 8 - - - - - - - 1 - 2 - - 1 -\n1 - 2 - - - 2 - - - - - - - - - -\n1 - - - - - 2 - 3 - - - 5 - 4 - -\n- - 1 5 - 3 - 4 - - 2 - - - - - 5\n- - - - - - - - - 8 2 - - 4 - - -\n- - - - - 4 - - - - 3 - - 1 1 - 2\n- - 1 - - 1 - - 7 - - - - 4 - - -",
+      "solution": "17 17\n- x - - - x - - - - - - - - x x x\nx x x x x x x x x x - - - x x - x\n- - - - x - x - x - - - x x - - x\n- - - - x - x x - - - - x - - - x\n- - x - x - - x x x x x x x x - -\nx x x x x x x - - - - - - - x - -\n- x - - - - x - x - x x x x - - -\nx x x - x x x x x x x - - x - - -\nx - x - - - - - - x - - - x - - -\n- x x x - - - - - x - - x x x x -\n- x - x x x x - - x - - - x - - -\n- x - x - x - - - - - - - - - - -\n- x - x x - - - - - - - - x - x x\n- x - - x - x - x x - - x x x x -\n- - - - x x x x x - - x x - - x -\n- - x x x - - - x x - - x - - x -\n- - - - x - - - - x x x x - - x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/109.a.htm",
+      "info": ""
+    },
+    "110_17x17": {
+      "problem": "17 17\n- 3 - - - 4 - - - 1 - - - - - - -\n- - - - - - - - - - - - 3 - - - 9\n- - 4 - - 7 - - 3 12 - - - - - - -\n- 3 - - - - 4 - - - 4 3 2 - - 2 -\n- - - - 5 - - - - - 7 - 2 - 4 1 -\n- 3 6 - 6 - - - 8 - - - - - - - -\n- - - - - - 1 - - - 5 3 - - - 2 -\n- - - - - - - - - - - - - 7 - - -\n- - - 2 - 5 - 11 - 7 - 3 - - - - -\n- 1 - 7 - - - - - - - - - 8 - 2 -\n15 - - - 7 - - - - - - - 6 - 2 1 -\n- - - - - - 7 - - - 7 - - - - - -\n- - - 2 - - 5 - - - - - - - 3 5 -\n- 2 - 1 - 1 - 4 - - 2 - - - - - 5\n- 3 - - - - - - - - - - 10 - 4 - -\n- - - - 4 - - 3 - 3 2 3 - - - - 3\n- - - 2 6 - - - - - - - 2 - - - -",
+      "solution": "17 17\nx - x - x - x x - - x - x x x x x\nx x x x x x - x x - x - - x - - -\nx - - - x - x x - - x x x x x x x\nx - x - - x - x - x - - - x - - x\nx x x - - x x x x x - x - - - - x\nx - - x - x - x - x x x x x x - x\nx x x x x - - x - x - - - - x - x\nx - x - x - - x x x x x x - x - x\nx - x - x - x - x - x - x - x x x\nx - - - x x x x x - x - x - - - x\n- - - x - x - - x x - x - x - - -\nx x x x x x - x - x - x x x x x -\nx - - - - - - x x x x x - x - - -\nx - x - - - - - x - - - x x x x -\nx - x - - x x x x x x x - x - x x\nx x x x - - - - x - - - x x - x -\n- - x - - x x x x x x - - x - x x",
+      "source": "https://www.janko.at/Raetsel/Canal-View/110.a.htm",
+      "info": ""
+    }
+  }
+}

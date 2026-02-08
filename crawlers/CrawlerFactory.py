@@ -100,6 +100,11 @@ from KurottoCrawler import KurottoCrawler
 from RekutoCrawler import RekutoCrawler
 from GeradewegCrawler import GeradewegCrawler
 from ShakashakaCrawler import ShakashakaCrawler
+from DoppelBlockCrawler import DoppelBlockCrawler
+from HashiCrawler import HashiCrawler
+from PipelineCrawler import PipelineCrawler
+from PipelinkCrawler import PipelinkCrawler
+from ChoconaCrawler import ChoconaCrawler
 
 from typing import Dict, Any
 
@@ -206,10 +211,14 @@ class CrawlerFactory:
         "Sukoro": SukoroCrawler,
         "Cojun": CojunCrawler, 
         "Kurotto": KurottoCrawler,
-        # Doppelblock: TODO:
+        "DoppelBlock": DoppelBlockCrawler,
         "Rekuto": RekutoCrawler,
         "Geradeweg": GeradewegCrawler,
-        "Shakashaka": ShakashakaCrawler
+        "Shakashaka": ShakashakaCrawler,
+        "Hashi": HashiCrawler,
+        "Pipeline": PipelineCrawler,
+        "Pipelink": PipelinkCrawler,
+        "Chocona": ChoconaCrawler
     }
     
     @classmethod

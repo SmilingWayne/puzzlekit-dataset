@@ -1,0 +1,487 @@
+{
+  "count": 80,
+  "count_sol": 80,
+  "name": "Detour",
+  "data": {
+    "01_4x4": {
+      "problem": "4 4\n- - - 3\n- 2 - -\n- - - -\n- 1 - -\n1 1 1 5\n2 3 3 5\n2 3 3 5\n2 4 4 4",
+      "solution": "4 4\nse ew ew sw\nns se ew nw\nns ne ew sw\nne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/001.a.htm",
+      "info": ""
+    },
+    "02_7x6": {
+      "problem": "7 6\n8 - - 8 - -\n- - - - - -\n- - - - - -\n1 8 - - - -\n- - - - - -\n- - - - - -\n- - - - 4 -\n1 1 1 5 5 5\n1 1 1 5 5 5\n1 1 1 5 5 5\n2 3 3 3 3 6\n2 4 3 3 3 6\n2 4 4 3 3 6\n2 4 4 4 6 6",
+      "solution": "7 6\nse ew sw se ew sw\nne sw ne nw se nw\nse nw se sw ne sw\nns se nw ns se nw\nns ns se nw ne sw\nns ns ns se sw ns\nne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/002.a.htm",
+      "info": ""
+    },
+    "03_8x8": {
+      "problem": "8 8\n1 - - 4 - - - -\n- - - - - - - -\n- - - - - - - -\n- - 5 - - - - -\n- - - - - - - -\n- - - - - 3 - -\n- 6 - - - - - -\n8 - - - - - - -\n1 1 1 8 8 8 8 9\n1 4 1 1 1 8 8 9\n1 1 6 1 1 8 8 9\n1 2 7 7 9 9 9 9\n2 2 7 7 9 9 9 9\n2 2 7 7 9 10 10 10\n2 5 5 5 5 5 5 10\n3 3 3 3 3 3 3 3",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nns se ew ew ew nw ns ns\nns ns se ew ew sw ns ns\nns ns ne ew sw ne nw ns\nns ns se sw ne sw se nw\nns ne nw ne ew nw ne sw\nns se sw se sw se sw ns\nne nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/003.a.htm",
+      "info": ""
+    },
+    "04_8x8": {
+      "problem": "8 8\n- 7 - - 2 5 - -\n- - - - - - - 1\n- - 1 - - - - -\n- - - - - - - -\n- - - 2 - - - -\n2 - - - - 1 - -\n- - 4 - - - - -\n- - - - - - - -\n1 5 5 5 10 11 11 11\n1 5 5 5 10 11 11 15\n1 5 6 6 10 11 14 15\n2 2 2 6 6 8 14 14\n3 3 2 8 8 8 14 14\n4 2 2 9 8 12 12 12\n4 2 7 9 8 13 13 12\n4 4 7 7 7 12 12 12",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ne nw ne nw ns\nne sw se ew ew ew ew nw\nse nw ne ew ew sw se sw\nns se ew ew sw ns ns ns\nns ne ew sw ns ns ns ns\nns se sw ns ns ne nw ns\nne nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/004.a.htm",
+      "info": ""
+    },
+    "05_8x8": {
+      "problem": "8 8\n2 - - - 1 - 2 -\n- - - - - - - -\n- - 2 - 3 - 4 -\n- - - - - - - -\n4 3 1 2 1 - - -\n- - - - - - 2 -\n- - - - - - - -\n- - - - - - - -\n1 4 4 4 9 9 14 14\n1 1 4 6 9 9 14 14\n1 2 6 6 10 10 15 15\n2 2 2 6 10 10 15 15\n3 5 7 8 11 13 13 13\n3 5 7 8 11 13 16 16\n3 5 7 8 11 11 12 16\n3 5 7 8 12 12 12 16",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nns se nw ns se ew sw ns\nns ne sw ns ne sw ne nw\nne sw ns ne sw ns se sw\nse nw ns se nw ne nw ns\nne sw ns ne ew ew sw ns\nse nw ne ew ew ew nw ns\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/005.a.htm",
+      "info": ""
+    },
+    "06_8x8": {
+      "problem": "8 8\n10 - - 1 - - 4 -\n- - - - - - - -\n- 2 - 1 - - 1 -\n- - 3 - - - - -\n- - - - - - - -\n- - - - - 4 - -\n- - - - - - - -\n- - 3 - - - - -\n1 1 2 7 7 7 12 12\n1 1 2 8 8 8 12 12\n1 2 2 9 8 8 13 12\n1 3 4 4 4 4 13 12\n1 3 4 4 4 4 13 12\n1 3 5 5 10 11 11 12\n1 1 5 5 5 11 12 12\n1 1 6 6 6 11 12 12",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nne sw ns ne sw se sw ns\nse nw ns se nw ns ns ns\nne sw ns ns se nw ns ns\nse nw ns ns ns se nw ns\nne sw ne nw ns ne sw ns\nse nw se sw ns se nw ns\nne ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/006.a.htm",
+      "info": ""
+    },
+    "07_8x8": {
+      "problem": "8 8\n1 - - - - 2 - -\n- 5 - - - - - -\n- - - - - - - -\n4 - - - - - - -\n- - - - - - - -\n- - 3 - - - - -\n- - 7 - - - - -\n- - - 5 - - - -\n1 1 1 1 1 10 10 10\n1 3 3 3 3 3 6 10\n1 3 5 5 5 5 6 10\n2 3 6 6 6 6 6 10\n2 4 4 4 4 4 8 10\n2 4 7 7 7 7 8 9\n2 4 8 8 8 8 8 9\n2 2 2 9 9 9 9 9",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nns se ew ew sw se sw ns\nns ne ew sw ne nw ns ns\nne sw se nw se ew nw ns\nse nw ne sw ne sw se nw\nns se ew nw se nw ne sw\nns ne sw se nw se sw ns\nne ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/007.a.htm",
+      "info": ""
+    },
+    "08_10x10": {
+      "problem": "10 10\n- - - - - 5 - - - -\n- - - - - - - - - -\n7 - - - - - - - - -\n- - - 4 - - - - 2 -\n- - 0 - 3 - - - - -\n- - - - - - - - - -\n- - - - 0 - - - - -\n- 6 - - - - - - - -\n- - - - - 1 - - - -\n- - - - - - - - 1 -\n1 1 2 2 3 12 12 12 17 17\n1 2 2 3 3 12 12 14 14 17\n2 2 3 3 9 9 14 14 14 18\n2 3 3 9 9 9 15 14 18 18\n3 3 7 7 10 10 15 15 18 18\n4 4 7 7 10 10 15 15 13 13\n4 4 6 7 11 11 11 13 13 16\n4 6 6 6 11 11 13 13 16 16\n5 6 6 8 8 13 13 16 16 19\n5 5 8 8 8 13 16 16 19 19",
+      "solution": "10 10\nse ew sw se sw se sw se ew sw\nne sw ne nw ne nw ne nw se nw\nse nw se sw se sw se sw ne sw\nne ew nw ne nw ns ns ne sw ns\nse ew ew ew sw ns ne sw ns ns\nns se ew ew nw ne ew nw ns ns\nns ns se ew ew ew ew ew nw ns\nns ne nw se ew ew ew ew sw ns\nns se sw ns se ew ew ew nw ns\nne nw ne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/008.a.htm",
+      "info": ""
+    },
+    "09_3x6": {
+      "problem": "3 6\n- 1 - - - -\n- - - - 1 -\n- - - - - -\n1 2 1 1 1 1\n1 2 1 1 3 1\n1 1 1 1 3 1",
+      "solution": "3 6\nse ew ew sw se sw\nns se sw ne nw ns\nne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/009.a.htm",
+      "info": ""
+    },
+    "10_5x6": {
+      "problem": "5 6\n21 - - - - -\n- - - - - -\n- - - - - -\n- - 3 - - -\n- - - - - -\n1 1 1 1 1 1\n1 1 1 1 1 1\n1 1 1 1 1 1\n1 1 2 2 2 1\n1 1 2 2 2 1",
+      "solution": "5 6\nse sw se sw se sw\nns ne nw ne nw ns\nne sw se sw se nw\nse nw ns ns ne sw\nne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/010.a.htm",
+      "info": ""
+    },
+    "11_8x8": {
+      "problem": "8 8\n2 8 - - - 5 - -\n- - - - - - - -\n- 8 - 11 - - - 1\n- - - - - - - -\n1 - - - - - - -\n- - - - - - - -\n3 - 4 - - - 3 -\n- - - - - - - -\n1 4 4 4 4 8 8 8\n1 4 4 4 4 8 8 8\n1 5 5 7 7 7 7 10\n1 5 5 7 7 7 7 10\n2 5 5 7 7 7 7 10\n2 5 5 7 7 7 7 10\n3 3 6 6 6 6 9 9\n3 3 6 6 6 6 9 9",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ne nw ne nw ns\nns se sw se ew ew sw ns\nne nw ne nw se sw ns ns\nse sw se sw ns ne nw ns\nns ne nw ns ne sw se nw\nns se sw ne ew nw ne sw\nne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/011.a.htm",
+      "info": ""
+    },
+    "12_6x6": {
+      "problem": "6 6\n3 - 2 - 2 -\n2 - - - - -\n- - - - - -\n- 2 - - 1 -\n1 - - - - -\n- - - - - -\n1 1 5 5 8 8\n2 1 6 6 6 8\n2 1 6 6 6 10\n2 4 4 4 9 10\n3 4 4 4 9 10\n3 3 7 7 9 9",
+      "solution": "6 6\nse ew sw se ew sw\nne sw ns ns se nw\nse nw ne nw ne sw\nns se ew ew ew nw\nns ne ew ew ew sw\nne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/012.a.htm",
+      "info": ""
+    },
+    "13_8x8": {
+      "problem": "8 8\n- - 2 - - - - 2\n- - - - - - - -\n8 - - - - - - -\n2 - 2 - - 1 - 1\n- - - - - - - -\n8 - - - - - - -\n1 - - - - 1 - -\n- - - - - - - -\n1 1 8 10 10 10 10 16\n1 1 8 10 10 10 10 16\n2 2 2 2 2 2 2 2\n3 6 9 11 11 12 14 17\n3 6 9 11 11 12 14 17\n4 4 4 4 4 4 4 4\n5 7 7 7 7 13 15 15\n5 7 7 7 7 13 15 15",
+      "solution": "8 8\nse sw se ew ew ew ew sw\nns ne nw se ew ew ew nw\nne sw se nw se sw se sw\nse nw ne ew nw ne nw ns\nne sw se ew ew ew ew nw\nse nw ne sw se sw se sw\nns se sw ne nw ne nw ns\nne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/013.a.htm",
+      "info": ""
+    },
+    "14_8x8": {
+      "problem": "8 8\n3 3 4 - - - - -\n- - - - - - - -\n- - - 3 3 4 - -\n- - - - - - - -\n- - - - - - - -\n3 3 4 - - - - -\n- - - - - - - -\n- - - - - - - -\n1 4 6 8 8 8 8 8\n1 4 6 8 8 8 8 8\n1 4 6 9 10 11 11 8\n2 4 6 9 10 10 11 8\n2 2 2 9 10 11 11 8\n3 5 7 7 7 7 11 3\n3 5 5 7 7 11 11 3\n3 3 3 3 3 3 3 3",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nne sw ne nw se ew sw ns\nse nw se sw ne sw ns ns\nns se nw ne sw ns ns ns\nne nw se sw ne nw ns ns\nse sw ns ns se sw ns ns\nns ne nw ne nw ne nw ns\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/014.a.htm",
+      "info": ""
+    },
+    "15_10x10": {
+      "problem": "10 10\n- - - 3 - - - - - -\n- - - - 2 - 2 - - -\n8 - - - - - - - 1 -\n- - - - - - - - - -\n- - 3 4 - - - - - -\n4 - - - - - - - - -\n- - 2 - 6 - - - - -\n- - - - - - 1 - - -\n3 - - - - - - - - -\n- - - 2 - - - 4 - -\n1 1 1 8 8 8 8 17 17 17\n1 1 5 5 11 11 14 14 17 17\n2 2 5 5 11 11 14 14 19 19\n2 2 2 2 2 2 15 14 19 19\n2 2 6 9 9 9 15 15 19 19\n3 3 6 6 9 9 9 15 12 12\n3 3 7 6 12 12 12 12 12 12\n3 3 7 7 13 13 16 16 12 12\n4 4 7 7 13 13 16 16 18 18\n4 4 4 10 10 10 10 18 18 18",
+      "solution": "10 10\nse ew sw se ew sw se sw se sw\nne sw ns ne sw ns ns ne nw ns\nse nw ne ew nw ns ns se sw ns\nns se sw se ew nw ns ns ns ns\nne nw ns ne ew ew nw ns ns ns\nse sw ne sw se sw se nw ns ns\nns ne ew nw ns ne nw se nw ns\nns se ew sw ns se sw ns se nw\nns ne sw ns ne nw ns ns ne sw\nne ew nw ne ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/015.a.htm",
+      "info": ""
+    },
+    "16_10x10": {
+      "problem": "10 10\n- - - - 2 - - - 4 -\n- - 5 - - - - - - -\n6 - - - - - - - - -\n- 2 - - - - - 1 - -\n- - - - - - - - - -\n- - - - - - - - 4 -\n5 - - - - - 1 - - -\n- - 3 - - - - - - -\n- - 2 - - 5 - - - -\n- - - - - - - 4 - -\n1 1 1 6 10 10 10 10 16 16\n1 1 6 6 6 10 11 10 16 16\n2 2 5 6 7 11 11 11 14 16\n2 5 5 5 7 7 11 14 14 14\n2 2 5 7 7 7 7 7 14 17\n2 3 7 7 7 7 7 13 17 17\n3 3 3 8 7 7 13 13 13 17\n4 3 8 8 8 7 12 13 17 17\n4 4 9 8 9 12 12 12 15 15\n4 4 9 9 9 9 12 15 15 15",
+      "solution": "10 10\nse ew sw se ew ew ew sw se sw\nne sw ne nw se ew sw ne nw ns\nse nw se sw ne sw ne ew ew nw\nne sw ns ns se nw se ew ew sw\nse nw ns ns ne sw ns se ew nw\nne sw ns ne sw ns ns ns se sw\nse nw ne sw ne nw ns ns ns ns\nns se ew nw se ew nw ne nw ns\nns ne ew ew nw se sw se sw ns\nne ew ew ew ew nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/016.a.htm",
+      "info": ""
+    },
+    "17_9x14": {
+      "problem": "9 14\n4 - - - 2 - - - - - 2 - - -\n- - - 1 - - - - - - - - - -\n3 - - - - - 8 - - - - - - -\n- - - - 3 - 7 - - - 3 - - -\n- - - - - - - - 0 - - - - -\n- - - - - - - - - 3 1 - - -\n- 5 - - 1 - - - - - - - - 2\n3 - - - - - - - - - - - - -\n- - - - - - 4 - - - - - - -\n1 1 1 1 6 6 11 11 11 11 17 17 17 22\n1 1 1 5 6 6 11 11 11 11 17 17 17 22\n2 2 2 5 6 7 12 12 12 12 12 12 12 12\n2 2 2 5 7 7 13 13 13 13 18 18 21 21\n2 2 2 5 8 8 13 13 15 15 18 18 21 21\n2 2 2 5 8 8 13 13 15 16 19 19 19 19\n2 4 4 4 9 9 13 13 13 16 20 20 20 23\n3 3 3 4 10 10 13 13 13 16 20 20 20 23\n3 3 3 4 10 10 14 14 14 14 14 14 14 23",
+      "solution": "9 14\nse sw se ew ew ew sw se sw se ew ew ew sw\nns ns ne ew ew sw ne nw ne nw se ew sw ns\nns ns se sw se nw se sw se sw ne sw ne nw\nns ns ns ns ne sw ns ns ns ns se nw se sw\nns ns ns ns se nw ns ns ns ns ne ew nw ns\nns ne nw ns ne ew nw ns ns ne ew ew ew nw\nns se sw ne ew sw se nw ne sw se ew ew sw\nns ns ns se sw ne nw se sw ne nw se sw ns\nne nw ne nw ne ew ew nw ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/017.a.htm",
+      "info": ""
+    },
+    "18_10x10": {
+      "problem": "10 10\n11 - - 1 - 1 1 1 - -\n- - - - - - - 1 - -\n- - - 11 - - - - - -\n- - - - - - - - - -\n1 - - 11 - - - - - -\n- - 1 - - 1 - - - -\n- - - - - - 1 - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n1 1 1 5 5 10 12 14 14 14\n1 1 1 5 5 10 12 15 15 14\n1 1 1 6 6 10 12 6 15 15\n1 1 1 7 6 10 12 6 6 6\n2 2 2 8 6 6 6 6 16 16\n3 3 4 8 8 11 11 11 16 16\n3 3 4 9 8 8 13 13 13 13\n3 3 4 9 9 8 13 13 13 13\n3 3 4 8 8 8 8 8 8 8\n3 3 3 3 3 3 8 8 8 8",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ne nw se ew ew ew ew sw ns\nne sw se nw se ew ew sw ns ns\nse nw ne sw ne sw se nw ne nw\nns se ew nw se nw ne sw se sw\nns ne ew sw ne ew sw ns ns ns\nns se sw ne ew sw ns ns ns ns\nns ns ns se sw ne nw ns ns ns\nns ns ns ns ns se sw ne nw ns\nne nw ne nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/018.a.htm",
+      "info": ""
+    },
+    "19_10x10": {
+      "problem": "10 10\n1 - - - 0 - - - 1 -\n- - - - - - - - - -\n4 - - 7 3 - - 2 - -\n3 - - - - - - - - -\n- - - - - - - - - -\n5 - 1 - - - - 3 - -\n- - - 5 - - - 1 - -\n- 2 - 3 - - - 4 - -\n- - 3 - 2 - 3 - - -\n- - - - - - - - 2 -\n1 1 7 7 13 13 16 16 23 23\n1 2 7 7 13 13 16 16 19 23\n2 2 2 10 14 14 14 19 19 23\n3 5 5 10 10 10 10 17 23 23\n3 3 3 10 10 10 17 17 23 23\n4 4 8 8 11 11 11 20 20 20\n4 4 8 11 11 11 11 21 21 20\n4 6 6 12 12 12 11 22 22 22\n4 6 9 9 15 15 18 18 22 24\n4 4 9 9 15 15 18 18 24 24",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se sw se ew ew sw se sw ns\nne nw ne nw se sw ne nw ns ns\nse ew sw se nw ne ew sw ns ns\nne sw ns ne sw se ew nw ns ns\nse nw ne ew nw ne sw se nw ns\nns se ew ew ew ew nw ns se nw\nns ne ew sw se sw se nw ne sw\nns se sw ne nw ne nw se sw ns\nne nw ne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/019.a.htm",
+      "info": ""
+    },
+    "20_10x10": {
+      "problem": "10 10\n- - 2 - - - 0 - 3 -\n- - - - - - - 3 - -\n1 3 - - 2 - - - - -\n- - - - - - - - - -\n24 - 2 - 0 - 4 - - -\n- - - - - - - - - -\n- - - - 2 - - - - 2\n- 1 - - - - - 1 - -\n3 - - - - - - - - -\n- - 1 - - - 2 - - -\n1 1 8 8 3 3 14 14 19 19\n1 1 6 3 3 3 3 17 19 19\n2 6 6 3 11 11 3 17 17 21\n2 3 3 3 11 11 3 3 3 21\n3 3 9 9 12 12 15 15 3 3\n3 3 9 9 12 12 15 15 3 3\n4 3 3 3 13 13 3 3 3 22\n4 7 7 3 13 13 3 18 18 22\n5 5 7 3 3 3 3 18 20 20\n5 5 10 10 3 3 16 16 20 20",
+      "solution": "10 10\nse sw se sw se ew ew ew ew sw\nns ne nw ns ne ew ew sw se nw\nns se sw ne ew ew ew nw ne sw\nne nw ns se sw se ew sw se nw\nse ew nw ns ns ns se nw ne sw\nns se sw ns ns ns ne sw se nw\nne nw ne nw ns ne sw ns ne sw\nse ew ew sw ns se nw ns se nw\nns se sw ne nw ne sw ns ne sw\nne nw ne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/020.a.htm",
+      "info": ""
+    },
+    "21_4x4": {
+      "problem": "4 4\n- - - 3\n- 2 - -\n- - - -\n- 1 - -\n1 1 1 5\n2 3 3 5\n2 3 3 5\n2 4 4 4",
+      "solution": "4 4\nse ew ew sw\nns se ew nw\nns ne ew sw\nne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/021.a.htm",
+      "info": ""
+    },
+    "22_6x6": {
+      "problem": "6 6\n10 - 0 - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n1 1 3 3 1 1\n2 1 3 3 1 1\n2 1 3 3 1 1\n1 1 3 3 3 1\n1 1 1 1 1 1\n1 1 1 1 1 1",
+      "solution": "6 6\nse ew ew ew ew sw\nne ew ew ew sw ns\nse ew ew ew nw ns\nns se ew ew ew nw\nns ne ew ew ew sw\nne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/022.a.htm",
+      "info": ""
+    },
+    "23_6x6": {
+      "problem": "6 6\n- - - - - -\n- - - - - -\n- 1 - - 0 -\n- - 1 0 - -\n- - 1 0 - -\n- - 1 0 - -\n1 1 1 1 1 1\n1 1 1 1 1 1\n1 2 1 1 9 1\n1 1 3 6 1 1\n1 1 4 7 1 1\n1 1 5 8 1 1",
+      "solution": "6 6\nse sw se ew ew sw\nns ne nw se ew nw\nns se sw ne ew sw\nns ns ne ew sw ns\nns ns se ew nw ns\nne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/023.a.htm",
+      "info": ""
+    },
+    "24_6x6": {
+      "problem": "6 6\n- - - - - -\n1 - 1 0 - 0\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n1 1 1 1 1 1\n2 1 3 4 1 5\n2 1 3 4 1 5\n2 1 3 4 1 5\n1 1 3 4 1 1\n1 1 3 4 1 1",
+      "solution": "6 6\nse sw se ew ew sw\nns ns ne ew sw ns\nns ne ew ew nw ns\nne ew ew ew sw ns\nse ew ew ew nw ns\nne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/024.a.htm",
+      "info": ""
+    },
+    "25_8x8": {
+      "problem": "8 8\n1 - - 4 - - - -\n- - - - - - - -\n- - - - - - - -\n- - 5 - - - - -\n- - - - - - - -\n- - - - - 3 - -\n- 6 - - - - - -\n8 - - - - - - -\n1 1 1 8 8 8 8 9\n1 4 1 1 1 8 8 9\n1 1 6 1 1 8 8 9\n1 2 7 7 9 9 9 9\n2 2 7 7 9 9 9 9\n2 2 7 7 9 10 10 10\n2 5 5 5 5 5 5 10\n3 3 3 3 3 3 3 3",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nns se ew ew ew nw ns ns\nns ns se ew ew sw ns ns\nns ns ne ew sw ne nw ns\nns ns se sw ne sw se nw\nns ne nw ne ew nw ne sw\nns se sw se sw se sw ns\nne nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/025.a.htm",
+      "info": ""
+    },
+    "26_8x8": {
+      "problem": "8 8\n2 8 - - - 5 - -\n- - - - - - - -\n- 8 - 11 - - - 1\n- - - - - - - -\n1 - - - - - - -\n- - - - - - - -\n3 - 4 - - - 3 -\n- - - - - - - -\n1 4 4 4 4 8 8 8\n1 4 4 4 4 8 8 8\n1 5 5 7 7 7 7 10\n1 5 5 7 7 7 7 10\n2 5 5 7 7 7 7 10\n2 5 5 7 7 7 7 10\n3 3 6 6 6 6 9 9\n3 3 6 6 6 6 9 9",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ne nw ne nw ns\nns se sw se ew ew sw ns\nne nw ne nw se sw ns ns\nse sw se sw ns ne nw ns\nns ne nw ns ne sw se nw\nns se sw ne ew nw ne sw\nne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/026.a.htm",
+      "info": ""
+    },
+    "27_8x8": {
+      "problem": "8 8\n2 - 7 - - - 7 -\n- - - - - - - -\n- - 2 - 7 - - -\n- - - - - - - -\n2 - - - - - 3 -\n- - - - - - - -\n- - 2 - - - - -\n- - - - - - - -\n1 1 3 3 3 3 7 7\n1 1 3 3 3 3 7 7\n1 1 4 4 6 6 7 7\n1 1 4 4 6 6 7 7\n2 2 4 4 6 6 8 8\n2 2 4 4 6 6 8 8\n2 2 5 5 5 5 8 8\n2 2 5 5 5 5 8 8",
+      "solution": "8 8\nse ew sw se ew sw se sw\nns se nw ne sw ne nw ns\nns ns se sw ne sw se nw\nns ns ns ns se nw ne sw\nns ns ns ns ns se sw ns\nns ns ns ns ne nw ns ns\nns ne nw ne ew ew nw ns\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/027.a.htm",
+      "info": ""
+    },
+    "28_7x8": {
+      "problem": "7 8\n46 - - - - - - -\n- - - - - - - -\n- - - - - 1 - -\n- - - - - - - -\n- - - 1 - - - -\n- - - - - - - -\n- - - - - - - -\n1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1\n1 1 1 1 1 3 1 1\n1 1 1 1 1 3 1 1\n1 1 1 2 1 1 1 1\n1 1 1 2 1 1 1 1\n1 1 1 1 1 1 1 1",
+      "solution": "7 8\nse ew sw se sw se ew sw\nne sw ne nw ne nw se nw\nse nw se sw se sw ne sw\nne sw ns ne nw ns se nw\nse nw ne sw se nw ne sw\nns se sw ns ns se sw ns\nne nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/028.a.htm",
+      "info": ""
+    },
+    "29_8x8": {
+      "problem": "8 8\n4 - - - - - - -\n- 4 - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n1 1 1 3 3 1 1 1\n1 2 2 3 3 2 2 1\n1 2 3 3 3 3 2 1\n1 2 2 2 2 2 2 1\n1 2 4 4 4 4 2 1\n1 2 4 4 4 4 2 1\n1 2 2 4 4 2 2 1\n1 1 1 1 1 1 1 1",
+      "solution": "8 8\nse ew ew sw se ew ew sw\nns se ew nw ne ew sw ns\nns ns se sw se sw ns ns\nns ns ns ns ns ns ns ns\nns ns ns ne nw ns ns ns\nns ns ne sw se nw ns ns\nns ne ew nw ne ew nw ns\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/029.a.htm",
+      "info": ""
+    },
+    "30_13x12": {
+      "problem": "13 12\n- - - - - - - 2 - - - -\n- - - - - - - - - - - -\n- - 3 3 - - - - - - - -\n- - - - - - - - - 1 - -\n- - - 0 2 - - 0 - - - - \n- 2 - - - - - - - 1 - -\n- - - - 2 - 0 - 1 - - - \n- - - - - - - - - - - - \n- - - 1 - - - - - - - - \n- - 2 - 2 - - - - 2 - -\n- - - - - - - 1 - - - -\n2 - - - - - - - - - - - \n- 2 - - - - - - - - - -\n1 1 2 2 3 3 3 5 5 5 6 6\n1 1 2 2 3 3 3 5 9 5 6 6\n1 1 14 4 4 4 4 4 9 9 7 8\n15 15 14 13 13 13 11 11 11 10 7 8\n15 15 14 18 12 12 11 7 7 7 7 8\n16 17 17 18 18 18 19 19 19 20 7 8\n16 17 17 18 24 24 23 23 21 21 25 25\n28 28 28 28 26 26 23 22 22 21 25 25\n28 28 28 26 26 27 27 22 21 21 25 25\n29 29 33 33 34 34 34 38 38 39 39 39\n29 29 32 33 34 34 34 37 38 39 40 40\n30 30 32 32 32 35 35 37 37 37 40 40\n30 31 31 31 31 35 35 36 36 37 40 40",
+      "solution": "13 12\nse sw se sw se ew ew ew ew sw se sw\nns ne nw ne nw se ew ew sw ne nw ns\nne sw se ew ew nw se sw ns se ew nw\nse nw ne ew sw se nw ne nw ne ew sw\nne sw se ew nw ne ew ew ew ew ew nw\nse nw ne ew ew ew ew ew sw se ew sw\nne ew ew ew sw se ew ew nw ns se nw\nse sw se sw ns ne ew ew sw ns ne sw\nns ne nw ns ns se ew sw ns ns se nw\nns se ew nw ns ns se nw ns ns ne sw\nns ne ew sw ns ns ne ew nw ns se nw\nns se sw ne nw ne ew ew ew nw ne sw\nne nw ne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/030.a.htm",
+      "info": ""
+    },
+    "31_8x8": {
+      "problem": "8 8\n2 - 7 - - 2 - -\n- - - - - - - -\n- - - - - 3 - -\n4 - - 4 - - - -\n- - - - - 5 - -\n4 - - 3 - - - -\n- - - - - 4 - -\n- - - - - - - -\n1 1 4 4 4 7 7 7\n1 1 4 4 4 7 7 7\n1 1 4 4 4 8 8 8\n2 2 2 5 5 8 8 8\n2 2 2 5 5 9 9 9\n3 3 3 6 6 9 9 9\n3 3 3 6 6 10 10 10\n3 3 3 6 6 10 10 10",
+      "solution": "8 8\nse ew ew sw se ew ew sw\nns se sw ns ne ew sw ns\nns ns ne nw se ew nw ns\nns ne sw se nw se ew nw\nns se nw ne sw ne ew sw\nns ns se sw ne sw se nw\nns ne nw ne ew nw ne sw\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/031.a.htm",
+      "info": ""
+    },
+    "32_8x8": {
+      "problem": "8 8\n- - - 3 - 1 - -\n- 4 - - - - 3 -\n- - - - - - - -\n1 3 - - - 3 - -\n- - - - - - - -\n- 3 - 3 - 0 - -\n- - - - - - 1 -\n- - - - - - - -\n1 1 1 7 7 10 14 14\n1 4 4 7 7 10 15 15\n1 4 4 7 7 10 15 15\n2 5 5 8 8 11 11 11\n2 5 5 8 8 11 11 11\n2 6 6 9 9 12 16 16\n3 6 6 9 9 13 17 16\n3 3 3 9 9 13 17 16",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nns se nw ns se ew ew nw\nns ne sw ns ne sw se sw\nns se nw ns se nw ns ns\nns ne ew nw ns se nw ns\nne sw se sw ns ns se nw\nse nw ns ns ne nw ne sw\nne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/032.a.htm",
+      "info": ""
+    },
+    "33_8x8": {
+      "problem": "8 8\n4 - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- 24 - - - - - -\n- - - - - - - -\n1 1 1 1 1 1 1 3\n1 1 1 1 1 1 3 3\n1 1 1 1 1 3 3 3\n1 1 1 1 3 3 3 3\n1 1 1 3 3 3 3 3\n1 1 3 3 3 3 3 3\n1 3 3 3 3 3 3 3\n2 2 2 2 2 2 2 2",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nns se ew ew ew ew sw ns\nns ns se ew ew sw ne nw\nns ns ns se ew nw se sw\nns ns ns ne sw se nw ns\nns ns ne sw ne nw se nw\nns ne ew nw se sw ne sw\nne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/033.a.htm",
+      "info": ""
+    },
+    "34_8x8": {
+      "problem": "8 8\n- - - 6 - - - -\n- - - - - - - -\n6 - - - - - - -\n- - - 0 - - 6 -\n- - - - - - - -\n- - - - - - - -\n- - 0 - - - - -\n- - - - - - - -\n1 1 1 4 4 4 1 1\n1 1 1 4 4 4 1 1\n2 2 1 1 1 1 1 1\n2 2 1 5 5 1 6 6\n2 2 1 5 5 1 6 6\n1 1 1 1 1 1 6 6\n1 1 3 3 3 1 1 1\n1 1 3 3 3 1 1 1",
+      "solution": "8 8\nse ew sw se sw se ew sw\nne sw ne nw ne nw se nw\nse nw se sw se sw ne sw\nne sw ns ns ns ns se nw\nse nw ns ns ns ns ne sw\nne ew nw ne nw ns se nw\nse ew ew ew ew nw ne sw\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/034.a.htm",
+      "info": ""
+    },
+    "35_8x8": {
+      "problem": "8 8\n- - - - - - - -\n- - - - - 0 - -\n- 0 - - - - - -\n- - 2 - - - - -\n- - - - 2 - - -\n- - 0 - - - - -\n- - 2 - - 2 - -\n- - - - - - - -\n1 1 1 1 1 1 1 1\n1 1 1 1 1 8 1 1\n1 2 2 2 1 8 1 1\n1 1 3 1 1 8 1 1\n1 1 3 1 7 7 1 1\n1 1 4 4 4 1 1 1\n1 1 5 6 6 9 1 1\n1 1 5 6 6 9 1 1",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nne ew ew ew sw ns ns ns\nse ew ew ew nw ns ns ns\nns se sw se sw ns ns ns\nns ns ne nw ne nw ns ns\nns ne ew ew ew ew nw ns\nns se sw se sw se sw ns\nne nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/035.a.htm",
+      "info": ""
+    },
+    "36_8x8": {
+      "problem": "8 8\n- - - 3 - - - -\n- 0 - - - - 0 -\n2 - - - - - - -\n- - - 0 - - - 2\n- - - - - - - -\n- 2 - - - - - -\n- - - - - 1 - -\n- - 1 - - - - -\n1 1 1 8 8 8 12 12\n1 4 4 5 5 5 13 12\n2 5 5 5 5 5 13 12\n2 5 5 9 9 5 5 14\n2 5 5 9 9 5 5 14\n3 6 5 5 5 5 5 14\n3 6 5 5 5 10 10 11\n3 3 7 7 7 11 11 11",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ns ns ne nw ns ns ns\nns ne nw se sw ns ns ns\nne ew sw ns ns ne nw ns\nse sw ns ns ns se ew nw\nns ne nw ns ne nw se sw\nns se sw ne ew ew nw ns\nne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/036.a.htm",
+      "info": ""
+    },
+    "37_8x8": {
+      "problem": "8 8\n- - 1 3 - - - -\n- - - - - - - -\n- - - - - 1 - -\n2 - - - 0 4 - -\n1 - 1 - - - - -\n- - - - - - - -\n- 0 - 3 - 1 - -\n- - - - - - - -\n1 1 6 9 9 14 14 14\n1 1 6 9 9 14 14 14\n1 1 1 9 9 15 15 15\n2 2 2 10 12 16 16 16\n3 3 7 7 13 16 16 16\n4 4 7 7 11 17 17 17\n4 5 8 11 11 18 17 17\n4 5 8 11 11 18 17 17",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nne sw se sw se ew sw ns\nse nw ns ns ne sw ns ns\nns se nw ne ew nw ne nw\nns ne ew ew ew ew ew sw\nne ew ew sw se sw se nw\nse ew ew nw ns ns ne sw\nne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/037.a.htm",
+      "info": ""
+    },
+    "38_9x10": {
+      "problem": "9 10\n79 - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - 1 - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n1 1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1\n1 1 1 1 2 1 1 1 1 1\n1 1 1 1 2 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1",
+      "solution": "9 10\nse ew ew sw se ew sw se ew sw\nne sw se nw ne sw ne nw se nw\nse nw ne sw se nw se sw ne sw\nne sw se nw ns se nw ns se nw\nse nw ne sw ne nw se nw ne sw\nne sw se nw se sw ne sw se nw\nse nw ne ew nw ne ew nw ne sw\nns se sw se sw se sw se sw ns\nne nw ne nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/038.a.htm",
+      "info": ""
+    },
+    "39_10x10": {
+      "problem": "10 10\n1 - - - 0 - - - 1 -\n- - - - - - - - - -\n4 - - 7 3 - - 2 - -\n3 - - - - - - - - -\n- - - - - - - - - -\n5 - 1 - - - - 3 - -\n- - - 5 - - - 1 - -\n- 2 - 3 - - - 4 - -\n- - 3 - 2 - 3 - - -\n- - - - - - - - 2 -\n1 1 7 7 13 13 16 16 23 23\n1 2 7 7 13 13 16 16 19 23\n2 2 2 10 14 14 14 19 19 23\n3 5 5 10 10 10 10 17 23 23\n3 3 3 10 10 10 17 17 23 23\n4 4 8 8 11 11 11 20 20 20\n4 4 8 11 11 11 11 21 21 20\n4 6 6 12 12 12 11 22 22 22\n4 6 9 9 15 15 18 18 22 24\n4 4 9 9 15 15 18 18 24 24",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se sw se ew ew sw se sw ns\nne nw ne nw se sw ne nw ns ns\nse ew sw se nw ne ew sw ns ns\nne sw ns ne sw se ew nw ns ns\nse nw ne ew nw ne sw se nw ns\nns se ew ew ew ew nw ns se nw\nns ne ew sw se sw se nw ne sw\nns se sw ne nw ne nw se sw ns\nne nw ne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/039.a.htm",
+      "info": ""
+    },
+    "40_12x12": {
+      "problem": "12 12\n2 - 0 - - 0 - - 3 - - -\n- 9 - - - - - - - - 3 -\n2 - - - 2 - - - - - 6 -\n- - 2 - 4 - - - - - - -\n- 6 2 - - - - - 2 - - -\n- - - - 4 - - - - - - -\n1 - - 2 4 - - - 2 - - -\n- - - - - - - - - - - -\n3 - 3 - 4 - - - 1 - 2 -\n- - - - - - - - 1 - - -\n- - 9 - - - - - - - - -\n3 - - - - - 1 - - 1 2 -\n1 1 10 17 17 29 31 31 35 35 35 35\n1 7 7 7 7 7 7 7 7 7 44 44\n2 8 11 11 20 20 20 33 36 36 45 44\n2 8 12 12 21 21 21 21 36 36 45 44\n3 9 13 18 22 22 22 22 37 41 45 48\n3 9 13 18 23 23 23 23 37 41 45 48\n4 9 14 19 24 24 24 24 38 42 45 49\n4 9 14 19 25 25 25 25 38 42 45 49\n5 9 15 15 26 26 26 26 39 39 46 50\n5 9 15 15 27 30 30 30 40 40 46 50\n5 5 16 16 16 16 16 16 16 16 16 47\n6 6 6 6 28 28 32 34 34 43 47 47",
+      "solution": "12 12\nse ew ew sw se ew sw se sw se ew sw\nne sw se nw ne sw ne nw ne nw se nw\nse nw ns se sw ne ew sw se sw ne sw\nne sw ne nw ne sw se nw ns ne sw ns\nse nw se ew sw ns ne sw ne sw ne nw\nne sw ne sw ne nw se nw se nw se sw\nse nw se nw se sw ne sw ne ew nw ns\nns se nw se nw ne sw ns se sw se nw\nns ne sw ne sw se nw ne nw ns ne sw\nne sw ne ew nw ne ew ew ew nw se nw\nse nw se sw se sw se sw se sw ne sw\nne ew nw ne nw ne nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/040.a.htm",
+      "info": ""
+    },
+    "41_8x8": {
+      "problem": "8 8\n- - - - - 1 - -\n- - - 1 - - - -\n1 - - - - - - -\n- 1 - 3 - - - -\n- 1 - 3 3 - - -\n- - - - 1 - 1 -\n- 1 - - - - - -\n- - - - - - - -\n1 1 1 1 1 12 14 14\n1 1 1 7 1 12 14 14\n2 2 1 7 1 12 14 14\n3 4 4 8 8 8 8 8\n3 5 5 9 10 10 10 10\n3 3 3 9 11 13 15 13\n3 6 6 9 11 13 15 13\n3 3 3 9 11 13 13 13",
+      "solution": "8 8\nse sw se sw se ew ew sw\nns ne nw ne nw se sw ns\nns se ew ew sw ns ns ns\nns ne ew sw ne nw ns ns\nne ew sw ne sw se nw ns\nse sw ne sw ns ne sw ns\nns ne ew nw ne sw ns ns\nne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/041.a.htm",
+      "info": ""
+    },
+    "42_8x8": {
+      "problem": "8 8\n- 3 - - 3 - - -\n- - - - - - - -\n- 10 - - - - - -\n- - 0 - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n1 2 2 2 5 5 5 1\n1 2 2 2 5 5 5 1\n1 3 3 3 3 3 3 1\n1 3 4 4 4 4 3 1\n1 3 3 3 3 4 3 1\n1 1 4 4 4 4 1 1\n1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1",
+      "solution": "8 8\nse ew ew sw se ew ew sw\nns se ew nw ne ew sw ns\nns ne sw se sw se nw ns\nne sw ns ns ns ns se nw\nse nw ns ns ns ns ne sw\nne sw ns ns ns ns se nw\nse nw ne nw ne nw ne sw\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/042.a.htm",
+      "info": ""
+    },
+    "43_8x8": {
+      "problem": "8 8\n1 0 - - 1 - - -\n- - - - - - - -\n2 - 0 2 - 0 - -\n- - - - - - - -\n3 - - 0 1 0 - -\n- - - - - - - -\n4 - - - 0 1 - -\n- - - - - - - -\n1 6 2 2 10 10 2 2\n2 2 2 2 2 2 2 2\n3 3 7 8 8 13 2 2\n2 2 2 2 2 2 2 2\n4 4 4 9 11 14 14 2\n2 2 2 2 2 2 2 2\n5 5 5 5 12 15 15 2\n2 2 2 2 2 2 2 2",
+      "solution": "8 8\nse ew ew sw se ew ew sw\nne sw se nw ns se sw ns\nse nw ns se nw ns ns ns\nne sw ns ne sw ns ns ns\nse nw ne ew nw ns ns ns\nne sw se ew sw ns ne nw\nse nw ne sw ns ne ew sw\nne ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/043.a.htm",
+      "info": ""
+    },
+    "44_8x8": {
+      "problem": "8 8\n4 - 1 - - - - -\n- - - 1 2 - - -\n4 - - - - - - 2\n- 2 - - - 0 - -\n- 1 - - - 2 - -\n- - - 2 2 - - -\n- - - - - - - -\n- - 3 - - - - -\n1 1 6 6 6 6 13 13\n1 1 1 8 11 13 13 13\n2 1 1 8 11 13 13 17\n2 4 4 9 9 14 14 17\n2 5 5 9 9 15 15 17\n2 3 3 10 12 16 16 17\n3 3 3 10 12 16 16 16\n3 3 7 7 7 7 16 16",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nne ew sw se sw ne nw ns\nse ew nw ns ne ew ew nw\nne sw se nw se ew ew sw\nse nw ns se nw se sw ns\nne sw ne nw se nw ns ns\nse nw se sw ne sw ns ns\nne ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/044.a.htm",
+      "info": ""
+    },
+    "45_8x8": {
+      "problem": "8 8\n- - 1 - - - - -\n- - - - - - - -\n- - 4 - - - 3 -\n5 - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - 5 - - - -\n- - - - - - - -\n1 1 4 4 7 7 7 7\n1 1 4 4 7 7 7 7\n1 1 5 5 5 5 8 8\n2 2 5 5 5 5 8 8\n2 2 5 5 5 5 9 9\n2 2 5 5 5 5 9 9\n3 3 3 6 6 6 9 9\n3 3 3 6 6 6 9 9",
+      "solution": "8 8\nse ew ew ew sw se ew sw\nne sw se ew nw ns se nw\nse nw ne ew ew nw ne sw\nns se ew ew ew ew sw ns\nne nw se ew ew ew nw ns\nse sw ns se ew ew sw ns\nns ne nw ne sw se nw ns\nne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/045.a.htm",
+      "info": ""
+    },
+    "46_8x8": {
+      "problem": "8 8\n- - - - - - - -\n- - - 0 - - - -\n- - 1 - 1 - 1 -\n- - - - - - - -\n- - 8 - - - - -\n- - - - - - - -\n- - 2 - 2 - - -\n- - - - - - - -\n1 1 1 1 1 1 1 1\n1 1 1 5 5 1 1 1\n1 1 2 2 6 6 8 8\n1 1 2 2 6 6 8 8\n1 1 3 3 3 3 9 9\n1 1 3 3 3 3 9 9\n1 1 4 4 7 7 9 9\n1 1 4 4 7 7 9 9",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ns ns ne nw ns\nns se sw ns ns se sw ns\nns ns ns ns ns ns ns ns\nns ns ne nw ne nw ns ns\nns ns se sw se sw ns ns\nns ne nw ne nw ne nw ns\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/046.a.htm",
+      "info": ""
+    },
+    "47_10x10": {
+      "problem": "10 10\n3 - - - 5 - - 2 - 1\n- 0 - - - - - - - -\n- - - - - - - - - -\n- - - - - - 0 - - -\n- - - - - - - - - -\n4 - - - - - 2 - - -\n- - - - - - 3 - - -\n- - 4 - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n1 3 3 3 7 7 7 13 13 14\n1 4 4 4 7 7 7 13 13 14\n1 4 5 4 7 7 7 13 13 14\n1 4 4 4 8 8 9 9 9 12\n1 1 1 4 8 8 9 10 9 12\n2 2 2 4 8 8 10 10 9 12\n2 4 4 4 8 8 11 11 9 12\n2 2 6 6 8 8 12 11 9 12\n2 2 6 6 8 8 12 12 9 12\n2 2 6 6 8 8 12 12 12 12",
+      "solution": "10 10\nse sw se sw se sw se ew ew sw\nns ns ns ns ns ns ne ew sw ns\nns ns ns ns ns ne ew ew nw ns\nns ns ns ns ns se ew ew ew nw\nns ne nw ns ns ne ew ew ew sw\nns se sw ns ne ew sw se ew nw\nns ns ns ns se ew nw ne ew sw\nns ns ns ne nw se sw se ew nw\nns ns ns se sw ns ns ne ew sw\nne nw ne nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/047.a.htm",
+      "info": ""
+    },
+    "48_10x10": {
+      "problem": "10 10\n6 - - - - - - - - -\n- 4 - - - - - - - -\n- - - - 0 - - 1 - -\n- - - - - - - - - -\n- - 6 - - - - - - -\n- - - - - - - - - -\n- - - - - - 3 - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n1 1 1 1 1 1 1 1 1 1\n1 2 2 2 2 2 2 2 2 1\n1 2 3 3 6 7 7 9 2 1\n1 2 3 3 6 7 7 9 2 1\n1 2 4 4 4 7 7 9 2 1\n1 2 4 4 4 7 7 9 2 1\n1 2 5 5 5 5 8 8 2 1\n1 2 5 5 5 5 8 8 2 1\n1 2 2 2 2 2 2 2 2 1\n1 1 1 1 1 1 1 1 1 1",
+      "solution": "10 10\nse ew ew ew ew ew ew sw se sw\nns se ew ew ew ew sw ns ns ns\nns ns se ew ew ew nw ns ns ns\nns ns ns se ew ew sw ns ns ns\nns ns ne nw se ew nw ns ns ns\nns ns se sw ne sw se nw ns ns\nns ns ns ne ew nw ne sw ns ns\nns ns ne ew ew ew ew nw ns ns\nns ne ew ew ew ew ew ew nw ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/048.a.htm",
+      "info": ""
+    },
+    "49_10x10": {
+      "problem": "10 10\n- - 1 2 - - 2 2 - -\n- - - - - - - - - -\n2 1 - - 1 2 1 - 1 1\n- - - - - - 1 - - -\n- - 2 1 1 - 1 1 - -\n- - - - 1 - - - - -\n2 2 1 - 1 1 - - 1 1\n- - 1 - - - - - - -\n- - 1 1 - - 2 2 - -\n- - - - - - - - - -\n1 1 11 18 21 21 31 38 41 41\n2 2 11 18 22 22 31 38 42 42\n3 9 12 12 23 29 32 32 43 49\n3 9 13 13 23 29 33 33 43 49\n4 4 14 19 24 24 34 39 44 44\n5 5 14 19 25 25 34 39 45 45\n6 10 15 15 26 30 35 35 46 50\n6 10 16 16 26 30 36 36 46 50\n7 7 17 20 27 27 37 40 47 47\n8 8 17 20 28 28 37 40 48 48",
+      "solution": "10 10\nse ew ew sw se ew sw se ew sw\nne ew sw ne nw se nw ne sw ns\nse ew nw se ew nw se ew nw ns\nne sw se nw se sw ns se ew nw\nse nw ne sw ns ne nw ne ew sw\nns se sw ns ns se ew ew ew nw\nne nw ns ne nw ne ew ew ew sw\nse sw ns se ew ew ew ew sw ns\nns ne nw ne ew ew sw se nw ns\nne ew ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/049.a.htm",
+      "info": ""
+    },
+    "50_10x10": {
+      "problem": "10 10\n4 3 - - - 0 3 - - -\n- - - - - - 2 - 4 -\n- - - - - - - - - -\n- - - - - - - - - -\n1 - - - 4 - - - - -\n- - - - - - 3 - - -\n- - - - 0 - - - - 1\n0 - - - - - - - - -\n- - - - - - - 4 - -\n- - - - - - - - - -\n1 6 6 9 9 12 15 15 15 15\n1 6 6 9 9 12 16 16 19 19\n1 7 7 7 7 12 16 16 19 19\n1 7 7 7 7 12 16 16 20 20\n2 2 2 2 10 10 16 16 20 20\n3 3 8 8 10 10 17 17 17 17\n3 3 8 8 11 13 13 13 13 21\n4 4 8 8 11 13 13 13 13 21\n4 4 8 8 11 14 14 18 18 21\n5 5 5 5 11 14 14 18 18 21",
+      "solution": "10 10\nse ew sw se ew ew sw se ew sw\nne sw ne nw se ew nw ns se nw\nse nw se sw ne ew ew nw ne sw\nne ew nw ne ew ew ew ew sw ns\nse ew ew ew sw se ew ew nw ns\nns se sw se nw ne sw se sw ns\nns ns ns ne ew sw ne nw ns ns\nns ns ns se ew nw se ew nw ns\nns ns ns ne ew ew nw se sw ns\nne nw ne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/050.a.htm",
+      "info": ""
+    },
+    "51_8x8": {
+      "problem": "8 8\n1 - 0 - - 1 - -\n1 - - 1 - - 4 -\n3 - - - 2 2 - -\n2 - 3 - - - - -\n- - - 2 3 - - 2\n- - - - - 3 - -\n4 - - 2 - 2 - -\n- - - - - - - -\n1 1 8 8 8 14 14 14\n2 2 2 9 9 9 17 17\n3 3 3 9 10 15 17 17\n4 3 6 10 10 15 15 15\n4 6 6 11 12 12 12 18\n4 4 6 11 11 16 16 18\n5 5 5 7 11 13 16 18\n5 7 7 7 13 13 16 18",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nne ew ew ew ew sw se nw\nse sw se ew sw ns ne sw\nns ns ne sw ns ns se nw\nns ne ew nw ne nw ne sw\nne sw se ew sw se sw ns\nse nw ne sw ns ns ns ns\nne ew ew nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/051.a.htm",
+      "info": ""
+    },
+    "52_8x8": {
+      "problem": "8 8\n2 1 0 - 0 0 - 2\n- - 1 1 - - 0 -\n2 - - - - - - 1\n1 - 1 - 2 - 1 -\n1 - 3 2 - - - -\n1 - - - - 2 - 1\n- - 2 - 2 - 2 -\n3 - - - - - - -\n1 7 8 8 15 18 18 23\n1 7 9 13 15 18 19 23\n2 2 9 13 13 19 19 24\n3 3 10 10 16 16 22 24\n4 4 11 14 14 16 22 24\n5 4 11 11 14 20 20 25\n5 5 12 12 17 20 21 25\n6 6 6 12 17 21 21 25",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nne sw se ew ew ew ew nw\nse nw ns se ew ew ew sw\nns se nw ns se ew sw ns\nns ns se nw ne sw ns ns\nns ne nw se ew nw ns ns\nns se sw ne sw se nw ns\nne nw ne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/052.a.htm",
+      "info": ""
+    },
+    "53_8x8": {
+      "problem": "8 8\n2 - - - - 1 - -\n- 1 3 - - 4 - -\n- - - - - - - -\n3 - - - 1 - 1 0\n- - - - - 0 - -\n2 - - - 3 - - -\n2 - - - - - - -\n- - - - - - - -\n1 6 6 6 11 14 14 14\n1 2 7 7 11 15 15 17\n2 2 7 11 11 15 17 17\n3 3 8 8 12 15 18 20\n3 3 9 8 12 16 18 20\n4 4 9 8 13 16 16 20\n5 5 9 9 13 13 19 19\n5 5 10 10 10 13 19 19",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nne ew sw se ew sw se nw\nse ew nw ns se nw ne sw\nns se ew nw ns se sw ns\nne nw se ew nw ns ns ns\nse sw ne ew sw ns ns ns\nns ne ew ew nw ns ns ns\nne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/053.a.htm",
+      "info": ""
+    },
+    "54_8x8": {
+      "problem": "8 8\n- 2 2 - - - 1 2\n- - 1 - - 2 - -\n- - - 1 - - - -\n- 3 1 - - - - -\n- - - - 3 - - -\n- - - - - - - 2\n- - 2 1 - 2 - -\n- - - - - - 1 -\n1 5 7 7 15 15 22 25\n1 5 8 7 15 18 18 25\n1 5 8 12 12 19 18 25\n2 6 9 13 13 19 19 23\n2 6 9 10 16 20 23 23\n3 6 10 10 16 20 20 26\n3 3 11 14 16 21 21 26\n4 4 11 11 17 17 24 24",
+      "solution": "8 8\nse ew ew sw se sw se sw\nns se sw ne nw ne nw ns\nne nw ns se ew ew ew nw\nse sw ns ne ew sw se sw\nns ne nw se sw ne nw ns\nne sw se nw ne sw se nw\nse nw ne sw se nw ne sw\nne ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/054.a.htm",
+      "info": ""
+    },
+    "55_10x10": {
+      "problem": "10 10\n1 - - 0 - 2 - - - 1\n4 - 4 - 1 - 4 - 2 -\n- - - - - - - - - -\n2 - - 2 2 - 3 - - -\n- 2 - - 1 - - 4 2 -\n0 3 - - - - - - - 1\n- - - 3 - - - 2 - -\n- 1 3 3 - - 3 - - -\n- - - - - 0 - - 2 -\n2 - - - - - 2 - - -\n1 1 1 11 11 19 19 19 19 30\n2 2 7 11 16 16 20 20 26 30\n2 2 7 11 16 16 20 20 26 30\n3 7 7 12 17 17 21 21 26 26\n3 8 8 12 18 18 21 22 27 27\n4 9 8 12 18 18 22 22 27 28\n4 9 9 13 13 13 22 25 27 28\n4 5 10 14 14 13 23 25 28 28\n5 5 10 14 14 15 23 23 29 29\n6 6 10 15 15 15 24 24 24 29",
+      "solution": "10 10\nse ew ew ew ew ew sw se ew sw\nne sw se ew ew ew nw ne sw ns\nse nw ne ew ew sw se sw ns ns\nne sw se ew sw ne nw ne nw ns\nse nw ne sw ns se sw se sw ns\nns se ew nw ns ns ne nw ns ns\nns ne sw se nw ne sw se nw ns\nns se nw ns se ew nw ne sw ns\nns ns se nw ne ew sw se nw ns\nne nw ne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/055.a.htm",
+      "info": ""
+    },
+    "56_10x10": {
+      "problem": "10 10\n1 1 - 1 - - 1 - - 3\n- - - 2 - - 2 - - -\n- 1 - - - - - - - -\n3 - 2 - 2 - - 2 - 2\n- - - - 1 - 2 - - -\n5 - 1 - - - - - 2 -\n- 3 - 2 4 - - 1 - 2\n- - - - 5 - - - - -\n- 2 - 2 - - - - - -\n- - - - - 1 - - - -\n1 4 4 11 11 11 21 21 21 24\n1 4 4 12 11 11 18 21 24 24\n1 5 5 12 12 18 18 21 24 24\n2 2 9 9 14 14 14 22 22 25\n2 2 9 9 15 15 19 19 25 25\n3 2 10 10 15 19 19 19 26 25\n3 6 6 13 16 16 16 23 26 27\n3 6 6 13 17 16 16 23 26 27\n3 7 7 8 17 17 17 23 26 27\n3 8 8 8 17 20 20 20 26 27",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se ew ew ew sw se ew sw ns\nns ns se sw se nw ns se nw ns\nns ne nw ns ns se nw ne sw ns\nns se ew nw ns ns se ew nw ns\nne nw se ew nw ns ne ew ew nw\nse ew nw se sw ne ew ew ew sw\nne sw se nw ne sw se ew sw ns\nse nw ne sw se nw ne sw ns ns\nne ew ew nw ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/056.a.htm",
+      "info": ""
+    },
+    "57_10x10": {
+      "problem": "10 10\n1 - 2 - - - 2 - - -\n- - - - 3 - - - - -\n- 2 1 - - 1 1 - 4 -\n- - 4 - - - - - - -\n1 - - - 1 - - - - -\n- - - - - 3 - - - -\n1 - - - - 2 - - 1 -\n- - - - - - - - 2 -\n2 - 0 - 2 2 - - - 2\n- - - - - - - - - -\n1 6 9 13 13 19 24 28 28 34\n1 6 9 9 16 19 24 24 28 34\n1 2 10 10 16 20 25 24 29 34\n2 2 7 10 16 20 25 29 29 29\n3 2 7 10 17 17 25 30 30 30\n3 7 7 14 14 21 21 21 21 30\n4 8 11 11 14 22 26 26 32 32\n4 8 11 15 14 22 27 27 33 33\n5 8 12 15 18 23 27 27 31 35\n5 8 12 12 18 23 23 31 31 35",
+      "solution": "10 10\nse sw se ew ew ew ew sw se sw\nns ns ne ew sw se sw ne nw ns\nns ne ew ew nw ns ne ew sw ns\nne ew sw se sw ne ew sw ne nw\nse ew nw ns ns se ew nw se sw\nns se sw ns ne nw se ew nw ns\nns ns ns ne sw se nw se sw ns\nne nw ne sw ne nw se nw ne nw\nse ew ew nw se sw ne ew ew sw\nne ew ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/057.a.htm",
+      "info": ""
+    },
+    "58_10x10": {
+      "problem": "10 10\n- - - 1 - - 0 - - 2\n- 0 - 1 - - - 1 2 -\n0 - 2 - - - - - - -\n- - - - - 4 - - - -\n- - 3 - - - - 1 - -\n2 - - - 1 - - - - -\n- 1 - 3 - - 3 - - 0\n- - 3 - - - - - - -\n- 2 2 2 - - - - 2 -\n- - - - - 3 - - - -\n1 6 6 15 15 15 25 25 25 35\n1 7 7 16 15 21 21 29 32 35\n2 2 11 16 16 22 22 29 32 36\n3 3 11 11 16 23 22 30 30 36\n3 3 12 12 12 23 23 31 33 33\n4 8 8 12 19 19 23 31 31 31\n4 9 9 17 17 17 26 26 26 37\n4 9 13 13 13 17 27 27 27 37\n5 10 14 18 20 20 28 28 34 34\n5 10 14 18 18 24 24 24 34 34",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ns ns se sw se ew sw se nw\nns ns ns ns ns ne sw ns ne sw\nns ns ne nw ns se nw ne sw ns\nns ns se sw ne nw se sw ns ns\nns ne nw ns se ew nw ns ns ns\nne ew sw ne nw se sw ne nw ns\nse ew nw se sw ns ns se sw ns\nns se sw ns ns ns ns ns ns ns\nne nw ne nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/058.a.htm",
+      "info": ""
+    },
+    "59_12x12": {
+      "problem": "12 12\n3 - 0 - 0 - - 2 3 2 - -\n- 0 3 - - - - - - 1 3 -\n- - 2 - 2 3 4 - - - 2 -\n1 - - - - - - - - - - -\n1 - - 2 - - 2 - - - 1 -\n3 - - - 3 - 0 1 2 2 2 -\n- - 1 - - - - - - - - 2\n1 - - - 3 - - - - 3 - -\n2 - 1 - - 2 3 - - - 1 -\n1 - 2 - - - - - 2 - - -\n- - - - 3 2 - 2 3 - - 2\n- 2 - - - - - - - - - -\n1 1 11 11 19 19 19 23 31 37 37 37\n1 8 12 12 12 23 23 23 31 38 41 41\n1 8 13 13 20 24 26 31 31 38 39 41\n2 2 13 13 20 24 26 26 26 39 39 41\n3 3 3 14 14 24 27 27 27 27 42 42\n4 4 14 14 21 21 28 32 33 40 43 43\n4 4 15 15 15 21 28 32 33 40 43 46\n5 5 5 5 22 22 22 22 33 34 43 46\n6 6 16 16 16 17 29 29 34 34 44 44\n7 6 9 17 17 17 29 29 35 35 44 44\n7 9 9 9 18 25 25 30 36 36 36 45\n7 10 10 18 18 18 30 30 30 36 45 45",
+      "solution": "12 12\nse ew ew ew ew ew ew ew sw se ew sw\nne ew sw se sw se ew sw ns ns se nw\nse ew nw ns ne nw se nw ne nw ne sw\nns se ew nw se sw ne sw se ew sw ns\nns ns se ew nw ne ew nw ns se nw ns\nne nw ne ew sw se ew ew nw ne sw ns\nse ew ew ew nw ne ew sw se sw ne nw\nne ew ew ew sw se sw ns ns ne ew sw\nse ew ew sw ns ns ns ne nw se sw ns\nns se sw ne nw ns ne sw se nw ns ns\nns ns ns se sw ne sw ns ne sw ns ns\nne nw ne nw ne ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/059.a.htm",
+      "info": ""
+    },
+    "60_12x12": {
+      "problem": "12 12\n1 2 3 - 2 - 0 0 - 1 - 4\n- - - - - - - - 1 - - -\n- 3 3 - - 2 2 - - 3 - -\n2 - - - - - - 3 - - - 3\n- - 1 - 4 2 - - - - 2 -\n- 2 - - - - 2 2 - - - -\n- 2 - - 4 1 - - - 1 - -\n3 - - - - - - 0 - - 2 -\n- 2 3 - 0 - - 0 0 - 4 0\n1 - - - 1 3 0 - - - - -\n- 0 - - - - - 2 - 1 - -\n- 3 - - - - - - 3 - - -\n1 5 12 12 19 19 25 29 29 39 39 43\n1 5 12 12 19 19 25 29 35 39 43 43\n1 6 13 13 13 20 26 26 35 40 40 43\n2 6 6 13 20 20 20 30 35 40 40 46\n2 6 14 14 17 23 23 30 30 30 44 46\n2 7 7 17 17 23 27 31 31 31 44 46\n2 8 8 17 15 24 27 27 27 41 44 46\n3 3 15 15 15 24 24 32 32 41 45 45\n3 9 16 16 21 21 24 33 36 36 37 47\n4 9 16 16 18 22 28 33 37 37 37 47\n4 10 10 18 18 22 28 34 34 42 42 42\n4 11 11 11 22 22 28 34 38 38 38 42",
+      "solution": "12 12\nse sw se ew ew ew ew ew ew ew ew sw\nns ne nw se sw se ew ew ew sw se nw\nns se ew nw ne nw se sw se nw ne sw\nns ne sw se ew sw ns ns ns se ew nw\nne ew nw ns se nw ns ne nw ne ew sw\nse sw se nw ne sw ne ew sw se sw ns\nns ne nw se sw ne ew ew nw ns ne nw\nne sw se nw ne ew ew ew ew nw se sw\nse nw ne ew ew ew ew ew ew ew nw ns\nns se sw se sw se ew ew sw se sw ns\nns ns ns ns ns ne ew sw ns ns ns ns\nne nw ne nw ne ew ew nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/060.a.htm",
+      "info": ""
+    },
+    "61_8x8": {
+      "problem": "8 8\n- 1 2 - 2 - 1 -\n1 - - - 2 2 - -\n- - 1 - - - - -\n- - 1 - - - - -\n- - - - - 2 - -\n- - 3 2 2 - 2 -\n2 - - - - - - -\n- - - 1 - - - -\n1 7 9 9 16 16 23 23\n2 7 7 9 17 20 24 24\n2 2 10 10 17 20 25 25\n3 3 11 10 18 18 26 26\n4 4 11 13 13 21 21 21\n5 5 12 14 19 19 22 28\n6 6 12 14 14 22 22 28\n6 8 12 15 15 15 27 27",
+      "solution": "8 8\nse sw se ew sw se ew sw\nns ns ns se nw ne sw ns\nns ne nw ns se sw ns ns\nns se sw ns ns ne nw ns\nns ns ns ne nw se ew nw\nns ns ne sw se nw se sw\nns ne sw ns ne ew nw ns\nne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/061.a.htm",
+      "info": ""
+    },
+    "62_8x8": {
+      "problem": "8 8\n- - 5 - 0 - - -\n- - - - - - - -\n4 - - - - - - 5\n- - - - - 5 - -\n4 - - - - - - -\n- - 3 - - - - 4\n- - - - - - - -\n2 - - - - - - -\n1 1 6 6 10 10 10 15\n1 1 6 6 11 11 10 15\n2 2 7 6 11 11 11 13\n2 2 7 7 7 8 13 13\n3 3 8 8 8 8 13 13\n3 3 9 9 9 12 12 14\n3 5 5 9 9 12 14 14\n4 4 4 4 12 12 14 14",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nne sw ne nw se ew ew nw\nse nw se sw ne ew ew sw\nne sw ns ne ew sw se nw\nse nw ne sw se nw ne sw\nne ew sw ns ne sw se nw\nse ew nw ns se nw ne sw\nne ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/062.a.htm",
+      "info": ""
+    },
+    "63_8x8": {
+      "problem": "8 8\n1 - - - - 4 - 3\n- - - 4 - - - -\n- - - - - - - -\n0 - - 2 - - 3 -\n- - - - - - - -\n2 - - - - 2 - -\n- - 0 3 - - - 2\n- - - - - - - -\n1 1 2 9 9 12 12 16\n2 2 2 7 7 12 12 16\n2 2 7 7 7 12 12 16\n3 3 8 10 10 10 15 16\n3 3 8 8 5 10 15 15\n4 5 5 5 5 13 13 15\n4 4 6 11 11 13 13 14\n4 6 6 11 11 14 14 14",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nns se sw se ew sw se nw\nns ns ne nw se nw ne sw\nns ns se sw ne ew sw ns\nns ns ns ne ew ew nw ns\nns ns ne ew sw se ew nw\nns ne ew sw ns ne ew sw\nne ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/063.a.htm",
+      "info": ""
+    },
+    "64_10x10": {
+      "problem": "10 10\n2 0 - - 2 - 1 2 3 3\n- - 1 1 2 - - - - -\n0 - - - - - 1 - - -\n0 - 0 2 - 3 - 0 - -\n- 2 - - - - 3 - 0 -\n- - - 2 - 1 - 4 1 -\n4 - - 2 - - - - - -\n- - 1 - 1 - - - 2 -\n1 1 0 - - 2 - 3 3 -\n- - - - 0 - - - - -\n1 6 6 6 17 17 24 29 31 36\n1 1 9 13 18 17 24 29 31 36\n2 2 9 13 18 18 25 25 31 36\n3 2 10 14 14 21 21 30 31 36\n3 7 10 14 14 21 26 30 32 32\n3 7 7 15 15 22 26 27 33 33\n4 4 7 16 16 22 26 27 33 33\n4 4 11 11 19 19 27 27 34 34\n5 8 12 12 19 23 23 28 35 35\n5 8 8 8 20 20 28 28 35 35",
+      "solution": "10 10\nse ew ew ew ew sw se sw se sw\nns se sw se ew nw ns ne nw ns\nns ns ns ns se sw ns se ew nw\nns ns ns ns ns ne nw ns se sw\nns ns ns ne nw se sw ns ns ns\nns ns ne sw se nw ne nw ns ns\nne nw se nw ne ew sw se nw ns\nse sw ne ew ew sw ne nw se nw\nns ne ew ew ew nw se sw ne sw\nne ew ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/064.a.htm",
+      "info": ""
+    },
+    "65_10x10": {
+      "problem": "10 10\n2 2 3 - 2 1 - 3 1 -\n- - 2 - - - - - - 2\n2 - - 1 2 - 3 1 - -\n- 3 2 - 2 - - - - -\n- - - - 2 - - 2 2 -\n1 - 3 - - - 2 - - -\n- 1 - - 2 - - - 2 -\n1 - - 2 1 - - - - 2\n- - - - - 2 - - 1 -\n1 - - 3 - - - - - -\n1 7 10 10 16 22 22 24 30 30\n1 7 11 10 16 16 24 24 24 33\n2 7 11 14 17 17 25 27 27 33\n2 3 12 14 18 18 25 25 25 33\n3 3 12 14 19 19 19 28 31 31\n4 4 13 13 13 19 26 28 31 31\n4 8 8 13 20 20 26 26 32 32\n5 5 5 9 21 21 21 26 32 34\n5 9 9 9 21 23 23 23 29 34\n6 6 6 15 15 15 23 29 29 29",
+      "solution": "10 10\nse ew sw se sw se ew ew ew sw\nne sw ne nw ns ne sw se sw ns\nse nw se ew nw se nw ns ne nw\nne sw ne ew sw ne sw ne ew sw\nse nw se sw ne ew nw se ew nw\nns se nw ns se ew sw ne ew sw\nns ns se nw ne sw ns se sw ns\nns ns ne ew sw ns ns ns ne nw\nns ne ew sw ns ns ns ne ew sw\nne ew ew nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/065.a.htm",
+      "info": ""
+    },
+    "66_10x10": {
+      "problem": "10 10\n1 1 0 - 2 - - - 2 -\n- - - 4 2 - 3 1 - 0\n3 - - - - - - - - -\n- - 2 - - - 2 - - 2\n2 3 - 2 - - 3 - - -\n- - 3 - - 1 - - 1 -\n- - 2 - - - 3 - - -\n3 1 3 - 2 3 3 - - 0\n- - 0 - - - - - 4 -\n- - - - - - - - - -\n1 5 8 8 16 16 16 16 28 28\n1 5 5 9 17 17 19 26 28 31\n2 2 9 9 17 19 19 26 28 31\n2 2 10 9 17 19 22 22 22 29\n3 6 10 15 15 15 23 22 29 29\n3 6 11 11 11 20 23 23 30 30\n3 6 12 12 11 20 24 24 24 30\n4 7 13 13 18 21 25 25 24 32\n4 7 14 13 18 21 25 25 27 32\n4 7 14 13 18 21 21 27 27 27",
+      "solution": "10 10\nse ew ew ew sw se ew ew ew sw\nns se ew sw ns ne sw se sw ns\nne nw se nw ne sw ns ns ns ns\nse ew nw se ew nw ns ns ne nw\nne sw se nw se ew nw ne ew sw\nse nw ne sw ns se sw se sw ns\nns se sw ne nw ns ne nw ns ns\nne nw ne sw se nw se ew nw ns\nse ew ew nw ns se nw se sw ns\nne ew ew ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/066.a.htm",
+      "info": ""
+    },
+    "67_10x10": {
+      "problem": "10 10\n1 - 3 - - 3 - - 1 1\n4 - - 2 - - 1 - - -\n- 3 - - 3 - 3 - - -\n- - 4 - - - 3 - 2 -\n3 - - - 1 - - - 2 -\n- 1 - 2 3 - - - - 0\n- 3 - - 1 - - 4 - -\n- - 2 2 - - - - - 3\n- - - - - 4 - - - -\n1 - - 0 - 1 - 1 - -\n1 1 8 8 8 19 19 19 28 30\n2 2 2 9 8 19 22 22 28 30\n2 3 9 9 15 15 23 23 23 30\n3 3 10 10 15 15 24 23 29 29\n4 3 10 10 16 16 24 24 26 29\n4 7 7 11 17 17 17 26 26 31\n4 5 11 11 18 18 17 25 26 31\n4 5 12 13 13 13 25 25 25 32\n5 5 12 12 13 20 20 20 20 32\n6 6 12 14 14 21 21 27 27 32",
+      "solution": "10 10\nse ew sw se ew ew sw se ew sw\nne sw ne nw se sw ns ne sw ns\nse nw se ew nw ns ne ew nw ns\nns se nw se sw ne sw se ew nw\nne nw se nw ns se nw ne ew sw\nse ew nw se nw ne ew ew sw ns\nns se sw ns se ew sw se nw ns\nne nw ns ns ne sw ne nw se nw\nse ew nw ne ew nw se sw ne sw\nne ew ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/067.a.htm",
+      "info": ""
+    },
+    "68_12x12": {
+      "problem": "12 12\n3 - 3 - - 2 - 2 - 1 - 1\n- - 0 - - - 1 - 0 2 - -\n3 - - - 2 - 1 - - - 2 3\n1 - 1 - - 1 4 - - - - -\n- - 1 - 1 - - - 3 2 - -\n1 - 2 - - 1 1 - - - - -\n2 1 - - - - 0 - - 2 1 -\n- - 1 - 2 - 2 2 - - - 2\n2 2 - 3 - - - - 3 - - -\n- - 1 - 2 2 - 1 - 1 - -\n- - - - - - 1 3 - 0 1 1\n3 - - - - - - - - - - -\n1 1 11 11 11 22 22 33 33 42 42 49\n1 1 12 12 11 22 27 27 37 43 42 42\n2 2 12 12 18 18 28 28 37 43 38 50\n3 2 13 13 18 23 29 29 38 38 38 50\n3 3 14 14 19 23 29 29 39 44 44 50\n4 4 15 15 19 24 30 30 39 44 44 50\n5 8 15 15 19 24 31 31 39 40 47 47\n5 8 16 16 20 20 25 34 40 40 40 51\n6 9 9 17 17 25 25 34 41 41 41 51\n6 6 10 17 21 26 26 35 35 45 45 45\n6 10 10 10 21 26 32 36 36 46 48 52\n7 7 7 7 21 21 32 36 36 46 48 52",
+      "solution": "12 12\nse ew sw se sw se ew sw se ew ew sw\nne sw ns ns ns ne sw ns ns se ew nw\nse nw ns ns ne ew nw ns ns ne ew sw\nns se nw ns se ew sw ne nw se ew nw\nns ne ew nw ns se nw se sw ns se sw\nne ew ew sw ns ne ew nw ne nw ns ns\nse ew ew nw ne ew ew ew sw se nw ns\nne sw se ew sw se ew sw ns ns se nw\nse nw ne sw ne nw se nw ne nw ne sw\nns se ew nw se sw ns se ew ew sw ns\nns ns se ew nw ne nw ns se ew nw ns\nne nw ne ew ew ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/068.a.htm",
+      "info": ""
+    },
+    "69_12x12": {
+      "problem": "12 12\n2 - 4 - - - 3 - 2 - 2 -\n- - - 2 - - - - - 5 - -\n4 - - 1 - - - - - - - -\n- - - - - 5 - - - - 2 3\n- - 2 - - - - - 2 - - -\n5 4 - - - - 2 - - - - -\n- - - - 3 6 - - - 4 - -\n- - 3 - - - - - 4 - - 4\n- - - - - - - - - - 4 -\n- - 4 - - 3 - - - - - -\n- - - 2 - - 4 - - - 1 -\n- - - - - - - - - - - -\n1 1 7 7 7 7 17 17 19 19 26 26\n1 1 1 9 9 7 17 17 19 23 23 26\n2 2 1 10 7 7 17 19 19 23 23 23\n2 2 1 10 10 13 13 19 19 23 24 28\n2 2 8 8 10 13 13 13 20 20 24 28\n3 6 6 6 13 13 18 18 20 24 24 28\n3 3 6 6 11 14 14 14 20 25 25 25\n3 3 4 11 11 11 14 14 21 25 25 29\n3 4 4 11 11 11 14 14 21 21 22 29\n4 4 5 5 5 15 15 15 21 22 22 29\n4 4 5 12 12 15 16 16 22 22 27 29\n5 5 5 12 12 16 16 16 16 22 27 27",
+      "solution": "12 12\nse ew ew sw se ew ew ew ew sw se sw\nns se ew nw ne ew sw se sw ne nw ns\nns ne ew ew sw se nw ns ns se ew nw\nns se ew sw ns ne sw ns ns ne ew sw\nne nw se nw ns se nw ns ne ew ew nw\nse ew nw se nw ns se nw se sw se sw\nns se sw ne sw ns ne sw ns ne nw ns\nne nw ne sw ns ns se nw ne sw se nw\nse ew ew nw ns ns ne sw se nw ne sw\nns se ew sw ns ne sw ne nw se ew nw\nns ne sw ns ne ew nw se sw ne ew sw\nne ew nw ne ew ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/069.a.htm",
+      "info": ""
+    },
+    "70_12x12": {
+      "problem": "12 12\n2 2 - 0 - - 2 - 1 - 2 -\n- 2 - 2 - 2 2 - - 2 - 2\n- 3 - 3 - - - 1 - - 1 -\n- - - - 2 4 - 2 - - - -\n- - - - - 1 - - 2 - 3 1\n3 3 - - - - - 2 - - - -\n- - 1 - 2 3 - - 3 2 - 2\n- 1 - 1 - - - - - - - -\n1 - - - 1 - 1 1 - 3 - -\n0 - 0 - 3 1 - 3 3 - 4 -\n- - 3 1 - - - - 2 - - -\n- - - - - 1 - - - - 1 -\n1 7 7 15 15 15 28 28 36 36 45 45\n1 8 8 16 16 19 29 28 36 42 45 49\n1 2 8 11 19 19 29 32 32 42 46 49\n1 2 11 11 17 23 23 33 33 42 46 49\n2 2 11 17 17 24 23 33 37 37 38 50\n3 9 9 9 17 24 23 34 38 38 38 50\n3 3 12 12 20 25 25 34 39 43 43 51\n3 10 10 13 20 20 25 25 39 39 43 51\n4 4 13 13 21 21 30 35 35 44 44 44\n5 5 14 14 22 26 30 31 40 40 47 47\n5 5 6 18 22 26 31 31 41 40 47 47\n6 6 6 18 22 27 27 27 41 40 48 48",
+      "solution": "12 12\nse sw se ew ew ew sw se ew ew ew sw\nns ne nw se sw se nw ns se ew sw ns\nns se ew nw ns ne sw ns ne sw ne nw\nne nw se ew nw se nw ne sw ne ew sw\nse ew nw se ew nw se ew nw se sw ns\nns se sw ne ew ew nw se ew nw ne nw\nne nw ns se ew ew sw ne sw se ew sw\nse ew nw ns se sw ne sw ne nw se nw\nns se sw ns ns ne sw ne ew sw ne sw\nns ns ns ns ne sw ns se ew nw se nw\nns ns ns ne sw ns ne nw se sw ne sw\nne nw ne ew nw ne ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/070.a.htm",
+      "info": ""
+    },
+    "71_8x8": {
+      "problem": "8 8\n1 - 3 - - - 2 -\n- - 3 - - - - 2\n1 - - - - - - -\n- 3 - - - - - 2\n- 2 - - - 3 - -\n- - 0 - - - - -\n2 - - - - - 1 -\n- - - - - 2 - -\n1 1 9 9 14 15 20 20\n2 2 6 9 15 15 20 21\n3 6 6 12 12 12 21 21\n3 7 7 7 16 17 17 22\n3 4 10 10 16 18 22 22\n4 4 11 10 16 18 23 23\n5 5 11 13 13 18 24 24\n5 8 8 8 13 19 19 19",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nne sw ne nw se ew sw ns\nse nw se sw ne sw ne nw\nns se nw ne sw ne ew sw\nns ne ew sw ns se sw ns\nns se ew nw ne nw ns ns\nns ne ew ew sw se nw ns\nne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/071.a.htm",
+      "info": ""
+    },
+    "72_8x8": {
+      "problem": "8 8\n3 - 2 - 3 - - -\n- - 3 - - - - -\n2 - - - - - - -\n- - 4 - - 3 - 1\n1 - - - - - - -\n- - - 2 - - - -\n- 2 - - 1 - - 2\n- - - - - - - -\n1 1 7 7 11 11 11 16\n1 1 4 7 9 14 14 16\n2 4 4 9 9 14 14 16\n2 2 8 8 9 15 15 17\n3 2 8 8 12 12 15 17\n3 5 5 10 12 12 15 17\n3 6 6 10 13 13 15 18\n3 6 6 10 10 13 13 18",
+      "solution": "8 8\nse ew ew sw se sw se sw\nne sw se nw ns ns ns ns\nse nw ne ew nw ns ns ns\nns se sw se sw ns ns ns\nns ns ne nw ns ne nw ns\nns ns se sw ne sw se nw\nns ns ns ne ew nw ne sw\nne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/072.a.htm",
+      "info": ""
+    },
+    "73_8x8": {
+      "problem": "8 8\n1 - 1 - - 2 2 -\n- - - 0 - - 1 -\n- - 2 - - - - -\n- 2 - 2 - - - 2\n- - - - 0 - - -\n- - - - 3 - - -\n- 2 2 1 - 1 - -\n- - - 1 - - - -\n1 1 7 11 11 19 22 22\n2 7 7 12 11 19 23 22\n2 2 8 12 16 20 23 23\n3 4 8 13 16 20 24 25\n4 4 9 13 17 17 24 25\n5 5 9 9 18 18 18 26\n5 6 10 14 14 21 21 26\n6 6 10 15 15 15 21 26",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nns se ew ew ew nw ns ns\nns ns se ew ew ew nw ns\nns ne nw se ew ew ew nw\nns se sw ne ew ew ew sw\nns ns ne ew sw se sw ns\nns ns se ew nw ns ns ns\nne nw ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/073.a.htm",
+      "info": ""
+    },
+    "74_10x10": {
+      "problem": "10 10\n2 - 0 - - 2 6 - - 2\n- - - - - - 3 - - -\n2 - - - - - - 4 - -\n2 - - 0 - 3 - - - -\n4 - - - - - - 2 3 -\n- - 6 - - - - - - -\n- - 3 5 - 4 - - - -\n4 - - - - - - - - 3\n- - - - - - - 0 - -\n- - - - - - - - - -\n1 1 7 7 7 12 16 16 16 21\n1 1 7 7 12 12 9 16 16 21\n2 2 2 9 9 9 9 17 16 21\n3 3 2 10 10 13 17 17 17 21\n4 2 2 10 10 13 17 18 19 19\n4 4 8 8 8 13 13 18 19 19\n4 4 6 11 8 14 14 18 18 19\n5 6 6 11 8 14 14 18 18 20\n5 6 6 11 8 14 14 15 20 20\n5 5 5 11 11 15 15 15 20 20",
+      "solution": "10 10\nse ew ew ew ew sw se sw se sw\nns se ew ew sw ns ns ne nw ns\nns ns se sw ns ne nw se sw ns\nne nw ns ns ns se ew nw ne nw\nse ew nw ns ns ns se ew ew sw\nns se sw ne nw ne nw se ew nw\nne nw ne sw se ew sw ne ew sw\nse ew ew nw ne sw ne ew ew nw\nns se sw se sw ne ew ew ew sw\nne nw ne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/074.a.htm",
+      "info": ""
+    },
+    "75_10x10": {
+      "problem": "10 10\n3 - 2 2 - - - - 2 -\n- - - 2 - - 3 - - -\n3 - 2 - - - - - 2 2\n- - - 0 - 4 - 2 - -\n- - 5 5 - - - - - -\n4 - - - - - - - - -\n- - - 2 - 2 3 2 - -\n- - 3 - - - - - 1 -\n- 3 - - - - 2 4 - -\n3 - - - - - - - - -\n1 1 8 10 10 10 10 10 23 23\n1 1 8 11 11 11 17 17 23 23\n2 1 5 5 11 11 17 17 24 26\n2 5 5 12 12 15 15 20 24 26\n2 2 6 13 13 15 15 20 24 26\n3 6 6 13 13 13 15 20 20 26\n3 6 6 14 14 16 18 21 21 21\n3 3 9 9 9 16 18 18 25 25\n3 7 7 7 9 16 19 22 22 25\n4 4 4 4 4 16 19 19 22 22",
+      "solution": "10 10\nse sw se sw se ew ew ew ew sw\nns ne nw ns ne ew sw se sw ns\nne ew sw ns se ew nw ns ne nw\nse ew nw ns ns se sw ne ew sw\nne ew sw ne nw ns ne ew sw ns\nse sw ne sw se nw se ew nw ns\nns ne sw ne nw se nw se ew nw\nne sw ne ew sw ne sw ne ew sw\nse nw se sw ne ew nw se sw ns\nne ew nw ne ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/075.a.htm",
+      "info": ""
+    },
+    "76_10x10": {
+      "problem": "10 10\n3 2 1 - - 4 - - - 3\n- - - - - 4 2 - - -\n- - 2 - - - - - - 3\n2 - - 2 - - 1 - - -\n0 3 - - 1 1 - - - -\n- - - 2 - - 4 1 - 0\n0 0 3 - 2 - - - - -\n- - - - - - - - 3 -\n- - 2 1 - 3 - - - -\n2 - - - 2 - - 1 - -\n1 7 9 9 9 20 20 20 20 26\n1 7 7 7 9 16 23 26 26 26\n1 1 10 10 16 16 23 23 23 29\n2 2 2 13 13 16 24 24 29 29\n3 8 8 13 17 21 21 24 24 29\n3 3 8 14 17 17 25 27 27 31\n4 5 11 14 18 18 25 25 27 27\n4 5 11 11 11 18 18 25 30 30\n5 5 12 15 15 22 22 22 22 30\n6 6 12 12 19 19 19 28 28 28",
+      "solution": "10 10\nse ew ew ew ew sw se sw se sw\nns se ew sw se nw ns ne nw ns\nne nw se nw ne sw ns se sw ns\nse ew nw se ew nw ns ns ne nw\nns se sw ne ew ew nw ns se sw\nns ns ne sw se ew sw ns ns ns\nns ns se nw ns se nw ne nw ns\nns ns ne sw ns ne ew sw se nw\nns ns se nw ns se ew nw ne sw\nne nw ne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/076.a.htm",
+      "info": ""
+    },
+    "77_10x10": {
+      "problem": "10 10\n3 - 2 2 0 1 0 2 - -\n1 - - - - - - 0 - -\n- - - - - - 2 - - 1\n- - 1 - - 3 1 - 3 -\n2 - - 3 - - - - - -\n0 - - - - 1 2 - - 3\n3 - 2 - - - - 1 - -\n- 3 - 2 2 - 1 - 2 -\n- - - - - - - - - -\n- - 0 - 2 - - - - 1\n1 1 7 13 14 18 20 25 25 25\n2 1 7 13 14 18 20 26 26 25\n2 1 7 13 13 18 21 21 26 30\n2 2 8 8 8 15 22 21 28 30\n3 3 3 9 15 15 22 22 28 28\n4 4 9 9 15 19 23 23 28 31\n5 5 10 10 10 19 19 27 27 31\n5 6 10 11 16 16 24 27 29 31\n5 6 11 11 16 16 24 24 29 29\n6 6 12 12 17 17 17 17 29 32",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ns ns se ew ew ew ew ew nw\nns ne nw ns se sw se ew ew sw\nne ew sw ns ns ns ns se sw ns\nse sw ns ne nw ne nw ns ne nw\nns ns ne sw se ew sw ne ew sw\nns ne sw ns ne sw ns se ew nw\nne sw ns ne sw ns ns ns se sw\nse nw ne ew nw ns ns ne nw ns\nne ew ew ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/077.a.htm",
+      "info": ""
+    },
+    "78_12x12": {
+      "problem": "12 12\n4 - 4 - - - 1 - 3 - 3 4\n2 - - - 3 - - - - - - -\n- - - - - - 3 - - - - -\n4 - - 1 5 - - - 4 - - -\n- 1 - - 3 - - - - - 4 -\n- - - - - - 2 1 - 2 - -\n4 - 4 3 - - - - - - - -\n- - - - - - - 3 - 4 - -\n- - - - 3 - - - - - - 3\n5 - 1 - - - - - 3 - - -\n- - - 3 - 0 - - - - - -\n- - - - - 3 - - - - 1 -\n1 1 9 9 9 9 20 20 23 23 26 30\n2 1 1 9 13 13 20 23 23 23 26 30\n2 2 2 2 13 13 21 21 26 26 26 30\n3 3 3 10 14 14 14 21 27 27 30 30\n3 4 3 10 15 14 21 21 27 27 31 31\n4 4 10 10 15 14 17 24 24 28 31 31\n5 5 7 12 15 17 17 24 24 28 28 28\n5 5 7 12 12 12 17 22 22 29 29 28\n5 7 7 12 16 16 22 22 22 29 29 32\n6 6 11 11 11 16 16 16 25 25 32 32\n6 6 11 8 11 18 18 25 25 25 32 32\n6 8 8 8 8 19 19 19 19 19 33 33",
+      "solution": "12 12\nse sw se ew sw se ew ew ew ew ew sw\nns ne nw se nw ns se sw se sw se nw\nns se sw ns se nw ns ne nw ns ne sw\nne nw ns ns ne sw ne ew sw ne sw ns\nse ew nw ns se nw se sw ne sw ne nw\nns se ew nw ne sw ns ne ew nw se sw\nns ne sw se sw ns ne ew ew sw ns ns\nne sw ne nw ns ns se ew sw ne nw ns\nse nw se sw ne nw ns se nw se sw ns\nne sw ns ns se sw ns ns se nw ne nw\nse nw ns ns ns ns ns ns ne ew ew sw\nne ew nw ne nw ne nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/078.a.htm",
+      "info": ""
+    },
+    "79_12x12": {
+      "problem": "12 12\n4 2 - - - 2 - - - 4 3 -\n- 2 - 2 4 - 4 - - - - 2\n- - - - - - - - - - - -\n- - 5 - - - 4 - 4 - - -\n0 - - - - 1 - - - - - 2\n- - 3 - - - - - - - - -\n- 2 - 4 - - 3 1 - - 0 -\n- - - - 2 - - - - - - 2\n- - 1 - - - - 1 - - - -\n0 - - - 1 - - - - 4 - -\n1 2 - - 3 2 - - 3 2 - -\n- - - - - - - - - - - -\n1 6 6 6 6 18 18 18 18 27 33 33\n1 7 7 13 15 15 21 21 18 27 33 34\n1 7 7 13 15 15 21 21 27 27 34 34\n1 1 9 13 9 15 22 21 28 27 34 34\n2 2 9 9 9 19 22 22 28 28 28 29\n2 2 10 10 10 19 22 22 28 29 29 29\n2 3 10 11 11 11 23 24 24 24 30 29\n3 3 11 11 16 16 23 23 23 23 30 35\n3 3 12 12 12 16 16 25 25 30 30 35\n4 4 4 4 17 17 17 17 17 31 31 31\n5 8 8 4 14 20 20 20 26 32 31 31\n5 8 8 14 14 14 20 26 26 32 32 32",
+      "solution": "12 12\nse ew sw se ew ew ew sw se sw se sw\nne sw ns ne sw se ew nw ns ne nw ns\nse nw ns se nw ns se sw ne ew sw ns\nns se nw ns se nw ns ne sw se nw ns\nns ns se nw ne sw ne sw ns ne sw ns\nns ns ne ew sw ns se nw ne ew nw ns\nns ns se ew nw ne nw se ew ew ew nw\nns ne nw se sw se sw ne ew ew ew sw\nns se sw ns ns ns ns se ew ew ew nw\nns ns ns ns ns ns ns ne ew sw se sw\nns ns ns ns ns ns ns se sw ne nw ns\nne nw ne nw ne nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/079.a.htm",
+      "info": ""
+    },
+    "80_12x12": {
+      "problem": "12 12\n2 0 1 - - 2 - - 1 - 3 -\n- - - - 3 - - 4 2 - - -\n1 - 2 - - - 3 - 2 - 2 -\n2 - 1 - - - - - - - 1 -\n3 - - - 4 - 3 - 3 - - 0\n1 3 - - - - - - - 4 - -\n- - 3 - - 3 2 - 3 - - 2\n- 1 - 0 - - 2 - - - 2 -\n3 - 1 - - 0 - 1 - - - -\n- - - 2 1 - 2 - 3 - - 1\n2 2 - - - - - - 2 - - -\n- - - - - - - - - 1 - -\n1 8 12 12 12 23 23 23 32 32 41 41\n1 1 1 12 19 19 23 30 33 33 41 41\n2 2 13 13 19 19 24 30 34 34 42 42\n3 3 14 14 14 24 24 30 34 34 43 42\n4 4 4 14 20 20 25 30 35 35 43 44\n5 9 9 9 20 25 25 25 35 39 44 44\n5 5 15 15 20 21 28 28 36 39 39 46\n5 10 15 17 21 21 29 29 36 39 45 46\n6 10 16 17 21 26 26 31 36 36 45 45\n6 6 16 18 22 26 27 31 37 37 37 47\n7 11 11 18 22 27 27 31 38 38 37 47\n7 11 11 18 22 22 27 31 38 40 40 47",
+      "solution": "12 12\nse ew ew ew ew ew sw se ew sw se sw\nne ew ew sw se sw ns ne sw ne nw ns\nse ew sw ne nw ns ne sw ns se ew nw\nne sw ne ew ew nw se nw ns ne ew sw\nse nw se ew sw se nw se nw se sw ns\nns se nw se nw ne sw ns se nw ns ns\nns ns se nw se sw ne nw ne sw ne nw\nne nw ne ew nw ns se sw se nw se sw\nse ew ew ew sw ns ns ns ne ew nw ns\nne sw se sw ns ns ns ns se ew sw ns\nse nw ns ns ne nw ns ns ns se nw ns\nne ew nw ne ew ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/080.a.htm",
+      "info": ""
+    }
+  }
+}

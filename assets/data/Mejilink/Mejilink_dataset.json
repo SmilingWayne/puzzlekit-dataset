@@ -1,0 +1,13 @@
+{
+  "count": 1,
+  "count_sol": 0,
+  "name": "Mejilink",
+  "data": {
+    "test1_8x8": {
+      "problem": "8 8\n15 15 14 10 11 13 14 11\n13 14 11 13 14 3 13 13\n7 14 10 3 13 14 3 7\n14 10 8 11 4 10 11 13\n14 11 7 13 7 14 11 7\n12 10 11 7 14 9 14 11\n7 15 14 9 15 7 15 15\n14 11 15 7 15 14 10 11",
+      "solution": "",
+      "source": "https://www.janko.at/Raetsel/Mathrax/001.a.htm",
+      "info": ""
+    }
+  }
+}

@@ -1,0 +1,607 @@
+{
+  "count": 100,
+  "count_sol": 100,
+  "name": "Nurimisaki",
+  "data": {
+    "01_6x6": {
+      "problem": "6 6\n- - - - 5 -\n- - - - - -\n- - 2 - 2 -\n- - - - - -\n- - - - - 2\n- 4 - - 4 -",
+      "solution": "6 6\n- - - - - x\n- x x x x x\n- x - x - x\n- - - - - -\nx x x - x -\nx - - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/001.a.htm",
+      "info": ""
+    },
+    "02_6x6": {
+      "problem": "6 6\n6 - - - - -\n- - - - 2 -\n- - - 3 - -\n- 2 - - - -\n- - - - - 2\n- - - - - -",
+      "solution": "6 6\n- x - - - x\n- - - x - x\n- x x - x x\n- - x - - -\n- x - - x -\n- - - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/002.a.htm",
+      "info": ""
+    },
+    "03_6x6": {
+      "problem": "6 6\n6 - - - - ?\n- - - - ? -\n? - - 4 - -\n- - - - 2 -\n2 - - - - -\n- - - - 4 -",
+      "solution": "6 6\n- - - - - -\nx - x x - x\n- - x - x x\nx - x - - x\n- - x - x x\nx - - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/003.a.htm",
+      "info": ""
+    },
+    "04_6x6": {
+      "problem": "6 6\n- - ? - - -\n- - - - - -\n? - - - - -\n- 3 - - - 2\n- - - - - -\n5 - - - 5 -",
+      "solution": "6 6\nx x - x x x\n- - - - - x\n- x - x - -\nx - - - x -\nx x x - x x\n- - - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/004.a.htm",
+      "info": ""
+    },
+    "05_7x7": {
+      "problem": "7 7\n- - - 2 - 6 -\n- 2 - - - - 2\n- - - - - - -\n- 4 - - - - 4\n2 - - - - - -\n- - - - - - -\n2 - - 5 - - -",
+      "solution": "7 7\nx x - - x - x\nx - - x x - -\nx x - - x - x\nx - x - - - -\n- - x - x - x\nx - - - - - x\n- - x - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/005.a.htm",
+      "info": ""
+    },
+    "06_7x7": {
+      "problem": "7 7\n- - 5 - - - 5\n- 6 - - - - -\n- - - - 4 - 2\n- - - 4 - - -\n- - - - - - -\n- - - 2 - - 2\n6 - - - - - -",
+      "solution": "7 7\nx x - - - - -\nx - x - x x x\nx - - - - x -\nx - x - x - -\nx - x x x - x\nx - x - x - -\n- - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/006.a.htm",
+      "info": ""
+    },
+    "07_7x7": {
+      "problem": "7 7\n- 2 - - - ? -\n4 - - - - - -\n- - - - - 3 -\n- - - - - - 2\n- - - - - - -\n2 - 2 - - - -\n- - - ? - - ?",
+      "solution": "7 7\nx - x - - - x\n- - - - x x x\nx x x - - - x\nx - - - x x -\n- - x - - - -\n- x - - x - x\nx x x - x - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/007.a.htm",
+      "info": ""
+    },
+    "08_7x7": {
+      "problem": "7 7\n- - - - ? - -\n- ? - - - - 2\n4 - - - - - -\n- - - - - - 2\n- 3 - - - - -\n6 - - - - - -\n- 3 - - - - -",
+      "solution": "7 7\nx x x - - x x\nx - x - x - -\n- - - - x - x\nx x x - x - -\nx - x - x - x\n- - - - - - x\nx - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/008.a.htm",
+      "info": ""
+    },
+    "09_8x8": {
+      "problem": "8 8\n- 2 - - 2 - - -\n3 - - - - - 3 -\n- - - - - - - -\n- 3 - - - - - 2\n- - - - - - - -\n- 3 - - - - - -\n- - - - 2 - 2 -\n8 - - - - - - 8",
+      "solution": "8 8\nx - x x - x x x\n- - - x - - - x\nx x - x x - x x\nx - - - x - x -\nx x x - - - - -\nx - - - x x x x\nx x - x - x - x\n- - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/009.a.htm",
+      "info": ""
+    },
+    "10_8x8": {
+      "problem": "8 8\n- - 3 - 2 - 6 -\n- - - - - - - 5\n- - - - - - - -\n- - 2 - - - - 4\n4 - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- 2 - 4 - 2 - 3",
+      "solution": "8 8\n- - - x - x - x\n- x x - - - - -\n- - - - x x - x\nx x - x - - - -\n- x x - - x - x\n- - - - x x - -\n- x x - - - x -\n- - x - x - x -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/010.a.htm",
+      "info": ""
+    },
+    "11_8x8": {
+      "problem": "8 8\n- - - 5 - 2 - 5\n- ? - - - - - -\n- - - - - - - -\n- 2 - - - 2 - -\n- - - - - - - ?\n- - 2 - - - - -\n- - - - - - - 5\n? - ? - - - - -",
+      "solution": "8 8\nx x x - x - x -\nx - - - - - - -\nx x x - x x x -\nx - x - x - x -\n- - - - - - x -\n- x - x - x x x\n- x x - - - - -\n- x - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/011.a.htm",
+      "info": ""
+    },
+    "12_8x8": {
+      "problem": "8 8\n4 - 2 - - - - -\n- - - - - - 2 -\n- - 4 - - - - -\n- - - - - - - ?\n- - - - - - - -\n- - - - 3 - ? -\n- - 2 - - - - -\n3 - - - - - - 5",
+      "solution": "8 8\n- x - - x x x x\n- x x - x - - x\n- x - - - - x x\n- - x - x - - -\nx - - - x - x x\n- - x x - - - x\n- x - - x - x x\n- x x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/012.a.htm",
+      "info": ""
+    },
+    "13_9x9": {
+      "problem": "9 9\n- - 5 - 3 - 6 - -\n- 6 - - - - - - 5\n5 - - - 3 - - - -\n- - - 2 - 4 - - -\n- - 5 - 5 - - - -\n- - - 6 - - - - -\n- - - - - - - - -\n- - - - - - - 7 -\n- - 2 - 5 - 2 - -",
+      "solution": "9 9\nx x - x - x - x x\nx - - - - - - x -\n- x - x - x - x -\n- x - - x - - - -\n- x - x - x - x -\n- x x - - - - - -\n- - x x - x x x x\nx - - - - - - - x\nx x - x - x - x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/013.a.htm",
+      "info": ""
+    },
+    "14_9x9": {
+      "problem": "9 9\n- - 2 - - - - - -\n5 - - - - - 2 - -\n- 2 - - - 2 - - -\n- - - - - - 5 - -\n- - - - - - - - -\n- - - - 4 - - - -\n- - - 3 - - - - -\n- - - - 2 - - 2 -\n- 5 - - - 5 - - -",
+      "solution": "9 9\nx x - x - - - - -\n- - - - - x - x -\nx - x - x - x x -\nx x - - - - - x -\nx - - x x x x - -\nx - x x - - - - x\nx - - - x x - x x\nx x - x - x - - x\nx - - - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/014.a.htm",
+      "info": ""
+    },
+    "15_9x9": {
+      "problem": "9 9\n- ? - - - - - 4 -\n? - - - - - ? - -\n- - - - - - - 2 -\n3 - - - - - - - -\n- - 2 - - - - - -\n- 2 - - - - 3 - -\n- - - - - 4 - 2 -\n- - - - - - - - 6\n? - - ? - - ? - -",
+      "solution": "9 9\nx - x x - - - - x\n- - - - - x - x x\nx - x x - x x - -\n- - - x - - - x -\nx x - x - x - - -\n- - x x - x - x -\n- x - - - - x - -\n- - - x - x x x -\n- x x - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/015.a.htm",
+      "info": ""
+    },
+    "16_9x9": {
+      "problem": "9 9\n- - 9 - - - - - ?\n- 4 - - - - - - -\n? - - - - 4 - - -\n- - - - 3 - - - -\n- - - - - ? - - 2\n- - - - 3 - - - -\n3 - - - - ? - - -\n- - - - 2 - ? - ?\n3 - - - - - - - -",
+      "solution": "9 9\nx x - x - - - x -\nx - - - - x - x -\n- x - x x - - - -\n- x - x - x x - x\n- - - - - - x - -\nx x - x - x x - x\n- x - x x - - - -\n- - - x - x - x -\n- x - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/016.a.htm",
+      "info": ""
+    },
+    "17_10x10": {
+      "problem": "10 10\n- - 2 - 2 - 4 - - 4\n5 - - - - - - - - -\n- 2 - - - - - - - -\n5 - - - - - - 4 - -\n- - 2 - - - 2 - - 3\n- - - - - - - - - -\n- - - - - - - - - 2\n5 - 3 - - - 4 - - -\n- - - - - - - - - -\n- 2 - - 7 - 3 - 3 -",
+      "solution": "10 10\nx x - x - x - - - -\n- - - - - x x - x x\nx - x - x - - - - -\n- x x - - - x - x -\n- x - x - x - x x -\n- - - - - - - - x x\n- x x x - x x - x -\n- x - x - x - - - -\nx x - - - x x - x x\nx - - x - x - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/017.a.htm",
+      "info": ""
+    },
+    "18_10x10": {
+      "problem": "10 10\n- - - - - 3 - - - -\n- - - - - - - - - -\n- - - - - 3 - - - -\n4 - - - - - - - - -\n- - - - - - 4 - - -\n4 - - - - 2 - - - -\n- 7 - 7 - - - - - 7\n- - 2 - 2 - - - - -\n9 - - - - - - - 9 -\n- - - - - - 4 - - -",
+      "solution": "10 10\nx - - - x - x - - -\nx - x - - - - - x -\nx - x - x - x - x -\n- - - - x x x - - -\nx - x - - - - x x -\n- - - - x - x - - -\nx - x - x x - - x -\nx x - x - x - x x x\n- - - - - - - - - x\nx x x x x x - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/018.a.htm",
+      "info": ""
+    },
+    "19_10x10": {
+      "problem": "10 10\n- 6 - - 2 - ? - - -\n? - - - - 4 - - - -\n- - - - 4 - - - - ?\n3 - 3 - - - - - - -\n- - - - - - - - - -\n7 - - - - - 7 - - -\n- - - - - - - - - ?\n- - - - - - 2 - - -\n- - - 4 - - - - 5 -\n3 - ? - 3 - ? - - -",
+      "solution": "10 10\nx - x - - x - x x x\n- - - - x - - - - x\nx - x x - x - x - -\n- - - x - - - - x x\nx - x x - x x - - x\n- - - - - - - x - x\nx x x - x - x x - -\nx - - - x - - x - x\nx - x - x - x x - x\n- - - x - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/019.a.htm",
+      "info": ""
+    },
+    "20_10x10": {
+      "problem": "10 10\n? - - 5 - ? - 3 - ?\n- - - - - - - - - -\n4 - - - - 5 - - - -\n- ? - - - - - - - 4\n? - - - - - - - 7 -\n- - - - - - 2 - - -\n- - - 3 - ? - ? - -\n- - 3 - - - - - - -\n- ? - - - - - - - ?\n- - 2 - - - 2 - 4 -",
+      "solution": "10 10\n- - x - x - - - x -\nx - x - x x - x x -\n- - - - x - - - - -\nx - x - x x x - x -\n- x - - - - - - - x\n- - - x - x - x x x\n- x x - - - x - - x\n- - - x - x x x - x\nx - x - - - - - - -\nx x - - x x - x - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/020.a.htm",
+      "info": ""
+    },
+    "21_6x6": {
+      "problem": "6 6\n? - ? - ? -\n- - - - - -\n- - - - ? -\n- - - - - -\n- - - - ? -\n- 5 - 2 - -",
+      "solution": "6 6\n- x - - - x\n- - x - x x\nx - - - - x\nx - x x x x\nx - - - - x\nx - x - x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/021.a.htm",
+      "info": ""
+    },
+    "22_6x6": {
+      "problem": "6 6\n- - ? - - -\n- - - - 4 -\n? - - - - ?\n- ? - - - -\n- - ? - - -\n- ? - - - ?",
+      "solution": "6 6\nx x - x x x\nx - - - - x\n- - x - x -\nx - x - - -\nx x - x - x\nx - - - - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/022.a.htm",
+      "info": ""
+    },
+    "23_8x8": {
+      "problem": "8 8\n- - - 4 - ? - -\n- ? - - - - - -\n- - ? - - - - ?\n- - - - ? - - -\n- - 2 - - - - ?\n- - - - - - - -\n? - - - - - - ?\n- ? - - 2 - 7 -",
+      "solution": "8 8\nx x x - x - x x\n- - x - - - - x\n- x - - x x - -\n- - x - - x - x\nx - - x x x - -\nx - x - - - - x\n- - - - x x - -\nx - x - - x - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/023.a.htm",
+      "info": ""
+    },
+    "24_8x8": {
+      "problem": "8 8\n4 - - - - - ? -\n- - - - - - - -\n2 - - - - - 5 -\n- - - - - - - -\n- - - ? - - ? -\n- - 3 - - 2 - -\n- - - ? - - ? -\n- - - - - - - ?",
+      "solution": "8 8\n- - - - x - - x\nx x x - x - x x\n- x - - - - - x\n- - - x - x x x\nx - x - - - - x\n- - - x x - x x\n- x x - x x - x\n- - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/024.a.htm",
+      "info": ""
+    },
+    "25_8x8": {
+      "problem": "8 8\n- - - 4 - ? - -\n2 - ? - - - - 2\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n3 - - ? - - ? -\n- - - - - - - -\n? - - - ? - ? -",
+      "solution": "8 8\nx x x - x - x x\n- x - - - - x -\n- - x - x x - -\nx - - - - - - x\nx x - x x - x x\n- x - - x - - x\n- - - x x - x x\n- x x x - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/025.a.htm",
+      "info": ""
+    },
+    "26_10x10": {
+      "problem": "10 10\n- - - - ? - ? - - -\n- 4 - ? - - - - ? -\n- - ? - - - - 2 - -\n- - - ? - - - - ? -\n- - - - - - - - - 10\n? - ? - ? - - - - -\n- - - - - ? - - - 2\n- - - - - - - - - -\n- ? - - - - - - 3 -\n- - - - ? - ? - - -",
+      "solution": "10 10\nx x x x - x - x x x\nx - x - - - - - - x\nx - - x x - x - x x\nx - x - x - x x - x\n- - - - - - - - - -\n- x - x - x - x x x\nx x x x x - - x - -\nx - - - x x - - - x\nx - x - - - - x - x\nx x x x - x - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/026.a.htm",
+      "info": ""
+    },
+    "27_10x10": {
+      "problem": "10 10\n? - - - - ? - - - -\n- - 3 - ? - - - 2 -\n- - - ? - - - - - ?\n? - ? - - - - ? - -\n- - - ? - - ? - - -\n3 - - - - - - - - ?\n- - - - - - ? - - -\n? - - - - - - ? - ?\n- - - - 5 - ? - - -\n- - 2 - - - - - - -",
+      "solution": "10 10\n- x x x x - - - - x\n- - - x - x - x - x\nx - x - - - - x x -\n- - - x - x x - - -\nx - x - - x - x - x\n- - - x - - - - - -\nx x - - - x - x - x\n- x x - x x x - - -\n- - - - - x - x - x\nx x - x x x - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/027.a.htm",
+      "info": ""
+    },
+    "28_10x10": {
+      "problem": "10 10\n- - ? - - - - 3 - -\n- - - - ? - ? - - -\n- - - - - 2 - - - -\n- - ? - - - - - - -\n- ? - - - - - - - 6\n- - 3 - - - ? - - -\n6 - - - - - - 3 - -\n- - - - - - - - - -\n- ? - - - - - 4 - ?\n- - - ? - - - - - -",
+      "solution": "10 10\nx x - x x x x - - -\n- - - - - x - x x -\n- x x - x - - x - -\n- x - - - x - x - x\n- - x x - - - - - -\n- x - x - x - x - x\n- x - - - - x - - -\nx - - x x - x x x -\nx - x x - - - - x -\nx x x - - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/028.a.htm",
+      "info": ""
+    },
+    "29_10x10": {
+      "problem": "10 10\n? - - - - - - ? - -\n- - - - ? - - - 7 -\n- - - ? - - - - - -\n- ? - - ? - ? - - -\n- - - - - - - ? - ?\n2 - - - ? - 3 - - -\n- - - ? - - - - - -\n- - - - - ? - - - -\n- - - ? - - - ? - ?\n- - - - - - ? - - -",
+      "solution": "10 10\n- x - - - - - - x x\n- - - x - x - x - x\nx x - - x x - - - x\nx - - x - x - x - x\nx x - - - x x - - -\n- x - x - x - x - x\n- - - - x x - x - x\nx - x x x - - - - -\nx - x - x x x - x -\nx - - - - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/029.a.htm",
+      "info": ""
+    },
+    "30_10x10": {
+      "problem": "10 10\n- - - - - - - - - ?\n9 - - - - - 3 - ? -\n- - - - - - - - - -\n- - - - ? - - - - -\n- - ? - - - - - ? -\n- - - ? - - - - - ?\n- - - - - - - ? - -\n- - 8 - - - - - - -\n- - - - - - - - - ?\n- - - ? - ? - 3 - -",
+      "solution": "10 10\nx x - - - x x x x -\n- x - x - - - x - -\n- - - x x - x x x -\n- x x x - - - - - -\n- x - x x x - x - x\n- - - - x - - x x -\n- x x x x - x - x -\n- x - - - - - - - -\n- x x x x x - x x -\n- - - - x - - - x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/030.a.htm",
+      "info": ""
+    },
+    "31_6x6": {
+      "problem": "6 6\n- - 3 - - -\n- - - - 5 -\n- - 4 - - ?\n- - - - - -\n- - - - - 6\n- - 2 - ? -",
+      "solution": "6 6\n- - - x x x\n- x x x - x\n- x - - - -\n- x x x - x\n- - - - - -\nx x - x - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/031.a.htm",
+      "info": ""
+    },
+    "32_6x6": {
+      "problem": "6 6\n- ? - - - -\n- - - - ? -\n- - - - - -\n- - - - - -\n- 3 - 3 - -\n- - - - - -",
+      "solution": "6 6\nx - - x x x\nx x - x - x\nx - - - - -\nx - x x x -\nx - x - - -\nx x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/032.a.htm",
+      "info": ""
+    },
+    "33_8x8": {
+      "problem": "8 8\n- - - - - - - -\n4 - ? - 3 - ? -\n- - - - - - - -\n- - - - - - - -\n- ? - - - - ? -\n- - - - - - - ?\n8 - - - - - - -\n- ? - - - - - -",
+      "solution": "8 8\nx x x x x x x x\n- x - x - x - x\n- - - x - - - x\n- x - - - x x x\n- - x - x - - x\nx x x - x - x -\n- - - - - - - -\nx - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/033.a.htm",
+      "info": ""
+    },
+    "34_8x8": {
+      "problem": "8 8\n? - - - 3 - - ?\n- - - - - 2 - -\n? - - - ? - - -\n- - - - - ? - -\n2 - - - ? - - -\n- - - - - - - -\n- - - - - - 2 -\n4 - - - - - - -",
+      "solution": "8 8\n- x - - - x - -\n- - - x x - - x\n- x - - - x - x\nx x - x x - - -\n- x - x - x x -\n- - - x - - - -\nx - x - - x - x\n- - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/034.a.htm",
+      "info": ""
+    },
+    "35_8x8": {
+      "problem": "8 8\n- ? - - - - ? -\n- - ? - - - - -\n- ? - - - ? - 4\n- - ? - - - - -\n- - - - - - - -\n? - - - - - - -\n- 5 - ? - - - -\n- - - - - ? - ?",
+      "solution": "8 8\nx - - - - - - x\nx x - x - x x x\nx - x x - - x -\nx - - x - x x -\nx - x - - - x -\n- - - - x - - -\nx - x - x x - x\nx x x x x - - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/035.a.htm",
+      "info": ""
+    },
+    "36_10x10": {
+      "problem": "10 10\n- - - - - - ? - - -\n- - - - - - - - 5 -\n3 - - - - - - - - 5\n- - ? - - - - - - -\n- - - - - - - - - -\n- ? - - - - ? - ? -\n- - - - ? - - - - -\n- 3 - - - - ? - - -\n- - - - ? - - - - -\n- 8 - - - - - - - -",
+      "solution": "10 10\n- - - x x - - x x x\n- x - - - - x x - x\n- x x x x - - - - -\nx x - x - - x x - x\nx - - - - x - - - x\nx - x - x x - x - x\nx x x - - x x x x x\nx - - - x x - - - x\nx x - x - x x x - x\nx - - - - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/036.a.htm",
+      "info": ""
+    },
+    "37_10x10": {
+      "problem": "10 10\n- ? - ? - - ? - - -\n? - - - - - - - 8 -\n- - - - - - - - - -\n? - - - 3 - 7 - - -\n- ? - ? - - - - - -\n- - - - - - - - - 6\n- - - - - - - - - -\n- - - - - 4 - - - -\n- - - ? - - - - ? -\n- - 3 - ? - - - - -",
+      "solution": "10 10\nx - - - x x - x x x\n- x - x - - - x - x\n- - - - - x x x - x\n- x - x - x - x - x\nx - - - x x - x - x\nx x - x - - - - - -\nx - - - - x - x - x\n- - x - x - - - - x\n- x x - x x - x - x\n- - - x - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/037.a.htm",
+      "info": ""
+    },
+    "38_10x10": {
+      "problem": "10 10\n- ? - - 2 - - ? - ?\n- - - - - - 5 - - -\n- 7 - - - - - - - ?\n- - - - - - 2 - - -\n4 - - - - - - - - ?\n- - - - ? - 4 - - -\n4 - - - - - - - - 2\n- - - - - - - - - -\n- - ? - - - - - - ?\n? - - ? - ? - - - -",
+      "solution": "10 10\nx - - x - x x - - -\nx x - - - - - x - x\nx - x - x - x x - -\nx - x - x - - x - x\n- - - - x x x x - -\nx - x - - x - x - x\n- - - - x x - x - -\nx - x - - - - x - x\n- - - x - x - - - -\n- x x - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/038.a.htm",
+      "info": ""
+    },
+    "39_10x10": {
+      "problem": "10 10\n? - - 4 - - - 3 - 2\n- - - - - - - - - -\n2 - - - - - 2 - - -\n- ? - ? - - - - - -\n- - ? - - - - - - -\n? - - ? - - - - - -\n- - - - - ? - ? - 4\n- - - - 3 - - - ? -\n- - - - - - - - - -\n? - ? - - - - ? - -",
+      "solution": "10 10\n- - x - x - - - x -\nx - - - - - x x - -\n- - x - x - - x - x\nx - x - x - x - - -\nx x - x x - - - x -\n- x - - x x - x x -\n- - - x x - - - x -\n- x - - - x - x - x\n- x x - x - - - - x\n- x - - - - x - x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/039.a.htm",
+      "info": ""
+    },
+    "40_10x10": {
+      "problem": "10 10\n- - ? - - - - - - -\n- - - ? - ? - - - ?\n- - - - - - ? - ? -\n- - - - - - - - - -\n- - - ? - - - - - 7\n- - ? - - - - - - -\n- - - ? - - 4 - - ?\n7 - ? - - - - - - -\n- ? - - - ? - ? - -\n- - - - 4 - - - - -",
+      "solution": "10 10\nx - - x x - - - - -\n- - x - x - x - x -\n- x - - - x - - - x\n- - - x - x x - x x\n- x x - - - - - - -\n- - - x x - x x - x\n- x x - - - - x - -\n- x - x - x x x - x\nx - - - - - x - - x\nx x x x - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/040.a.htm",
+      "info": ""
+    },
+    "41_8x8": {
+      "problem": "8 8\n- - - 6 - - - -\n- ? - - 4 - ? -\n- - - - - - - -\n- - - - ? - - -\n- ? - - - - - ?\n- - - - - - - -\n- - - - ? - - -\n? - - ? - ? - -",
+      "solution": "8 8\nx x x - x x x x\nx - - - - x - x\nx x x - x x - x\nx - - - - x - x\nx - x - x x - -\nx x - - - - - x\n- - - x - x - x\n- x - - x - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/041.a.htm",
+      "info": ""
+    },
+    "42_8x8": {
+      "problem": "8 8\n? - - ? - - ? -\n- - - - - ? - -\n- - - - - - - -\n? - - - 3 - ? -\n- - - - - ? - -\n- - - - - - - -\n- 5 - - - - - -\n- - - - - 3 - ?",
+      "solution": "8 8\n- - - - x x - -\nx x - x - - x -\nx - - - - x x -\n- - x x - x - -\nx - - - x - x -\nx - x - - - - -\nx - x - x x x -\nx x x - - - x -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/042.a.htm",
+      "info": ""
+    },
+    "43_9x9": {
+      "problem": "9 9\n- - - - - - - 3 -\n- 4 - - - - - - -\n- - - - - - - - -\n- - - ? - - - ? -\n- - - - - - - - -\n- - ? - - - - 3 -\n- - - - - - - - -\n? - - ? - - - - ?\n- - - - - - - - -",
+      "solution": "9 9\nx x x x x - - - x\nx - x - - - x x x\nx - - - x - - - x\nx - x - x - x - x\n- - x x - - x x x\n- x - x - x x - x\n- - - x - - x - x\n- x - - x - - - -\nx x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/043.a.htm",
+      "info": ""
+    },
+    "44_9x9": {
+      "problem": "9 9\n- - - - - ? - - 5\n? - - 2 - - - - -\n- - - - 3 - - - -\n4 - - - - ? - - -\n- 2 - - ? - - - -\n? - - - - - - - -\n- - - - - - - 8 -\n- - - - - - - - -\n4 - - - ? - - ? -",
+      "solution": "9 9\n- - - x x - - x -\n- x - - x x - - -\nx x - x - - - x -\n- - - - x - x x -\nx - x - - x - - -\n- x x - x x - x x\n- - - - - - - - x\n- x - x x x - x x\n- x - - - x - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/044.a.htm",
+      "info": ""
+    },
+    "45_9x9": {
+      "problem": "9 9\n- - - ? - ? - 4 -\n? - 4 - - - - - ?\n- - - - - - - - -\n- - - - ? - - ? -\n- - - 3 - - 4 - -\n- - - - - ? - - -\n- - - - - - - - -\n- - ? - - - - - ?\n- ? - - - - - - -",
+      "solution": "9 9\nx x x - - - x - x\n- x - x - x x - -\n- - - - - - - - x\nx x - x - x x - x\nx - - - x x - x x\nx - x x x - - - -\n- - - - - x - x -\n- x - x - - - x -\n- - x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/045.a.htm",
+      "info": ""
+    },
+    "46_9x9": {
+      "problem": "9 9\n- ? - ? - - - 2 -\n- - - - - - - - 4\n- - - 4 - - - - -\n- - - - - 2 - - -\n- - - - - - - - ?\n- - 2 - - - - - -\n- - - 2 - - - ? -\n- - ? - ? - - - -\n7 - - - - - - - ?",
+      "solution": "9 9\nx - x - - x - - x\nx - x x - - - x -\n- - - - x x - - -\n- x x x x - - x -\n- - - - - x - x -\n- x - x - - - x x\n- x x - - x - - x\n- - - x - x - x x\n- x x x x x - - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/046.a.htm",
+      "info": ""
+    },
+    "47_9x9": {
+      "problem": "9 9\n- 6 - ? - - ? - 4\n6 - - - - - - - -\n- - - - - - - - -\n6 - - - - - - - ?\n- - - 2 - - - - -\n- - - - ? - - - -\n- - - - - - - - 4\n- ? - - - - - - -\n? - - - ? - - - 2",
+      "solution": "9 9\nx - x - x - - x -\n- - - - - - x x -\nx - x x x - - - -\n- - - - - - x x -\nx - x - x - - - x\n- - - x - - x - x\n- x - - x - - - -\n- - x - - - x - x\n- x x x - x x - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/047.a.htm",
+      "info": ""
+    },
+    "48_9x9": {
+      "problem": "9 9\n- 9 - ? - - - - ?\n- - - - - - - - -\n? - - - ? - ? - ?\n- - - 6 - - - - -\n4 - - - - - - ? -\n- - - - - - - - -\n2 - - - - - - - 3\n- - - - ? - - - -\n? - - - - ? - ? -",
+      "solution": "9 9\nx - x - x - - - -\nx - - - - - x x x\n- - x x - x - x -\nx - x - x - - - -\n- - - - x - x - x\nx - x - - - - x x\n- - x - x x - - -\nx - x - - x - x x\n- - - - x - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/048.a.htm",
+      "info": ""
+    },
+    "49_9x9": {
+      "problem": "9 9\n- 3 - ? - - - 2 -\n? - - - - - - - 2\n- ? - - - - - - -\n- - - - - - - - -\n- - - - - - ? - -\n? - - - - 4 - - ?\n- - - - - - - - -\n7 - - - - - - - ?\n- - 5 - 7 - - - -",
+      "solution": "9 9\nx - x - x x - - x\n- - - - x - - x -\nx - x - - - x - -\nx x x x - x x - x\n- - - x - x - - x\n- x - - - - x - -\nx x - x - x - - x\n- - - - - - - x -\nx x - x - x - - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/049.a.htm",
+      "info": ""
+    },
+    "50_9x9": {
+      "problem": "9 9\n- 3 - - ? - - ? -\n- - - ? - - - - 4\n- - - - - - - - -\n- - ? - - - - - 4\n- 3 - ? - - - 5 -\n- - - - - - - - -\n? - - - - - - - -\n- - - - - 2 - ? -\n? - - ? - - - - -",
+      "solution": "9 9\nx - x x - - x - x\nx - x - x - - - -\nx - - - - - x - x\nx x - x x - - - -\nx - x - - - x - x\nx - x x - x x x x\n- - - - - - - - x\nx x - x x - x - x\n- - - - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/050.a.htm",
+      "info": ""
+    },
+    "51_8x8": {
+      "problem": "8 8\n- ? - - 4 - ? -\n- - - - - - - -\n- - ? - - - - ?\n- - - - - - - -\n- ? - - - - - 3\n- - - - - ? - -\n- - 4 - - - - ?\n? - - ? - - - -",
+      "solution": "8 8\nx - x x - x - x\n- - - - - - - x\n- x - x - x x -\n- x x - - - - -\n- - x - x x x -\n- x x - x - x x\n- x - - - - x -\n- x x - x - - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/051.a.htm",
+      "info": ""
+    },
+    "52_8x8": {
+      "problem": "8 8\n- - 5 - - - - -\n- ? - - ? - ? -\n? - - - - ? - -\n- - - - - - - -\n- - - - - - - 2\n- - - ? - - - -\n? - 3 - - - - 4\n- ? - - - - - -",
+      "solution": "8 8\nx x - x x x x x\nx - - - - x - x\n- x - x x - - x\n- x - - - x - x\n- - - x - x - -\nx - x - - x - x\n- - - x - - - -\nx - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/052.a.htm",
+      "info": ""
+    },
+    "53_9x9": {
+      "problem": "9 9\n- 4 - - - - - - -\n- - - - - ? - ? -\n2 - - - - - ? - -\n- - - - - - - - -\n8 - - - - - - - -\n- - - - - - - - ?\n8 - - - - - - - -\n- 2 - 6 - 2 - ? -\n- - - - - - - - -",
+      "solution": "9 9\nx - - - - x x x x\nx x x x - - x - x\n- - x - - x - - x\nx - x - x x x - x\n- - - - - - - - x\nx x x - x x x - -\n- - - - - - - - x\nx - x - x - x - x\nx x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/053.a.htm",
+      "info": ""
+    },
+    "54_9x9": {
+      "problem": "9 9\n? - - - ? - ? - -\n- - - - - - - - ?\n- - - 3 - 4 - - -\n? - ? - ? - - - -\n- - - - - - - - ?\n? - - ? - - - ? -\n- - - - - - - - ?\n2 - - - - - - 3 -\n- 8 - - - 3 - - -",
+      "solution": "9 9\n- x x - - x - x x\n- - - - x x - x -\nx - x - x - - - -\n- - - x - x - x -\nx - x x - - - x -\n- - x - x - x - x\nx - - - - - - - -\n- - x - x x x - x\nx - x - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/054.a.htm",
+      "info": ""
+    },
+    "55_9x9": {
+      "problem": "9 9\n- - - ? - 4 - ? -\n? - 7 - - - - - -\n- ? - - - - - - ?\n- - ? - - - - - -\n- - - - - - ? - ?\n- - 3 - - - - - -\n? - - - - - ? - -\n- - - - - ? - - -\n9 - - - - - - - -",
+      "solution": "9 9\nx x x - x - x - x\n- x - - - - - - -\n- - x x x - x x -\n- x - x - - - x x\n- - - - - x - x -\nx x - x - x x x -\n- - x - - x - - -\nx - x - x - x x -\n- - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/055.a.htm",
+      "info": ""
+    },
+    "56_10x10": {
+      "problem": "10 10\n? - ? - 3 - - - - -\n- - - - - - ? - 3 -\n- - - - - - - ? - -\n- 4 - - - ? - - - -\n2 - - - - - - - - -\n- - - - ? - - - - -\n- - - - - 2 - - - -\n- - - - ? - - - ? -\n- - - 4 - - - - - -\n? - ? - ? - - - 2 -",
+      "solution": "10 10\n- - - x - x x x x x\nx - x x - - - x - x\nx - - - - x x - - x\nx - x - x - x x - -\n- x - - - - - x x -\n- - - x - x - - - -\nx x - x x - - x x -\nx - - x - x - x - -\nx - x - - - - x x -\n- - - x - x x x - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/056.a.htm",
+      "info": ""
+    },
+    "57_10x10": {
+      "problem": "10 10\n- ? - - - ? - - - 5\n6 - ? - - - - ? - -\n- - - ? - - 2 - - -\n- - ? - - ? - - - -\n- - - - - - - - - -\n- - ? - - - ? - - -\n? - - ? - - - - - ?\n- - - - - - - - - -\n? - - - ? - - - ? -\n- - - 4 - 5 - - - ?",
+      "solution": "10 10\nx - - - - - x x x -\n- x - x - x x - x -\n- x x - - x - - x -\n- x - x - - x - x -\n- - - - - x x - - -\n- x - x - - - x - x\n- x x - x - x - - -\nx x - - - - - - x x\n- x - x - x - x - x\n- - - - x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/057.a.htm",
+      "info": ""
+    },
+    "58_10x10": {
+      "problem": "10 10\n- - - - - - - ? - ?\n5 - - - - - - - - -\n- - - - ? - - ? - -\n- - 4 - - - - - ? -\n- - - 7 - - - - - -\n- - - - - ? - ? - -\n- - - - ? - - - - -\n- - - - - - 3 - - -\n- - - - 3 - - - - ?\n- 2 - ? - - - - - -",
+      "solution": "10 10\nx x - - - - x - x -\n- x - x x - - - - -\n- - - x - - x - x x\n- x - x x - x x - x\n- x x - - - - - - -\n- - - x x - x - x -\nx x - - - x x x - -\n- - - x x x - x - x\n- x - - - x - x - -\n- - x - x x - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/058.a.htm",
+      "info": ""
+    },
+    "59_10x10": {
+      "problem": "10 10\n- 8 - - - - - - - -\n- - ? - - - - - - ?\n- 3 - - 3 - - - - -\n- - - ? - - - 2 - ?\n- - - - - - - - - -\n- - ? - - - 5 - - -\n- ? - ? - - - - - -\n- - - - - - - - - 4\n? - ? - - - - - ? -\n- - - - 2 - - ? - -",
+      "solution": "10 10\nx - - - - - - - - x\nx x - x x x - x - -\nx - x x - - - x x x\nx - x - x - x - x -\n- - - - - - x - - -\n- x - x - x - x - x\n- - x - - - - x - x\n- x x x x x - - - -\n- x - - - - - x - x\nx x x x - x - - x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/059.a.htm",
+      "info": ""
+    },
+    "60_10x10": {
+      "problem": "10 10\n- - ? - 5 - - - - -\n? - - - - 4 - ? - -\n- - - - - - - - - -\n? - - - - 4 - ? - -\n- - - - ? - ? - - -\n- ? - ? - 5 - - - -\n- - - - ? - - - - -\n8 - - - - - - - - -\n- - - ? - ? - 4 - 6\n- ? - - - - - - - -",
+      "solution": "10 10\nx x - x - x x x x x\n- x - - - - x - - x\n- - - x - x x x - x\n- x - - - - x - - -\nx x - x - x - x x -\nx - - - x - - - - -\nx x - x - x x - x -\n- - - - - - - - x -\nx - x - x - x - x -\nx - x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/060.a.htm",
+      "info": ""
+    },
+    "61_8x8": {
+      "problem": "8 8\n- - - 4 - - - -\n- - - - ? - ? -\n? - - - - - - -\n- ? - - - - ? -\n- - - ? - - - -\n- 2 - - - - - ?\n- - - - - - ? -\n- ? - - 7 - - -",
+      "solution": "8 8\n- - - - x x x x\n- x - x - x - x\n- x - - - - - x\nx - - x - x - x\nx x x - - x x x\nx - - x - - - -\nx x - - - x - x\nx - - x - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/061.a.htm",
+      "info": ""
+    },
+    "62_8x8": {
+      "problem": "8 8\n- - - - 2 - ? -\n? - - - - ? - -\n- - - - 2 - - -\n- - - - - - - -\n? - - - - - - -\n- - - - - - ? -\n? - ? - - - - ?\n- 4 - 2 - - - -",
+      "solution": "8 8\nx x x - - x - -\n- x - - x - x -\n- - - x - - x -\nx x - x x - - -\n- - - - - - x x\nx - x x - x - x\n- - - x - - - -\nx - x - - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/062.a.htm",
+      "info": ""
+    },
+    "63_9x9": {
+      "problem": "9 9\n? - ? - - 4 - ? -\n- - - - - - - - -\n- - 2 - - - - - 7\n? - - - 5 - - - -\n- - - ? - - ? - -\n- - - - ? - - - -\n- ? - - - - ? - -\n- - - - - - - - -\n? - - - 2 - - - -",
+      "solution": "9 9\n- x - - x - x - x\n- - x - - - - - x\nx - - x x - x x -\n- - x x - - - - -\nx - x - x x - x -\nx - - - - x x x -\nx - x - x x - x -\nx x - - - - - x -\n- - - x - x - - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/063.a.htm",
+      "info": ""
+    },
+    "64_9x9": {
+      "problem": "9 9\n? - - - ? - 4 - ?\n- - - 2 - - - - -\n? - - - - - - - -\n- - - - - - - - -\n- - - - - - - - ?\n- - 2 - - - - - -\n? - - - - - ? - -\n- - - - - - - - ?\n- ? - 6 - - ? - -",
+      "solution": "9 9\n- - x x - x - x -\nx - x - - x - x -\n- - x x - x - - -\nx - - - - - - x x\n- - x - x - x x -\n- x - - x - - - -\n- x x - x x - x -\nx - - - - - x x -\nx - x - x - - x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/064.a.htm",
+      "info": ""
+    },
+    "65_9x9": {
+      "problem": "9 9\n- - - 3 - 2 - 2 -\n- - - - - - - - -\n? - - - - - - - -\n- - - - - - ? - -\n- - - - - - - - -\n4 - - - - ? - - ?\n- - - - ? - ? - -\n4 - - - - - - - ?\n- 4 - - ? - 2 - -",
+      "solution": "9 9\nx - - - x - x - x\nx - x x - - - - -\n- - x - - x x x -\nx - - - x x - - -\nx x x - - - x - x\n- - - - x - x - -\nx - x - - x - - x\n- - - - x x x - -\nx - x - - x - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/065.a.htm",
+      "info": ""
+    },
+    "66_10x10": {
+      "problem": "10 10\n- ? - - - - - ? - -\n- - - 2 - ? - - - -\n- - - - 8 - - - - -\n- - - - - - - - - 5\n- - - - - - - - - -\n? - ? - - - 2 - - -\n- - - ? - - - 4 - -\n- - ? - - - ? - - ?\n- ? - - - - - - ? -\n- - ? - - - - - - -",
+      "solution": "10 10\n- - x x x x x - - x\n- x - - x - - x - x\n- x - x - x - - - x\n- - - - - x x - x -\nx - x x - - - - - -\n- - - x - x - x x -\nx - x - - x x - x -\nx - - x - x - - x -\nx - x x - x x - - x\nx x - - - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/066.a.htm",
+      "info": ""
+    },
+    "67_10x10": {
+      "problem": "10 10\n- - ? - ? - - - ? -\n- 9 - - - - 4 - - ?\n- - - - - ? - - - -\n? - - - - - - - - 5\n- - - - ? - - - 2 -\n- - - - - - - 7 - ?\n- - - - - - - - - -\n4 - - - - 5 - - - -\n- - - 4 - - - - - -\n? - ? - - ? - - - 2",
+      "solution": "10 10\nx x - - - x x x - x\nx - x - x x - - - -\nx - x - x - x - x x\n- - - - x - - - - -\nx - x x - x - x - x\nx - - - - - - - x -\nx - x - x x - x x -\n- - - - x - - - - -\nx - x - x x - x - x\n- - - x x - - x - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/067.a.htm",
+      "info": ""
+    },
+    "68_10x10": {
+      "problem": "10 10\n- ? - - - - - - - -\n- - - - 4 - - - 2 -\n5 - - - - - - - - -\n- ? - - - - - - - -\n- - - 4 - - - - ? -\n- ? - - - - - - - -\n- - - - - - - - - 3\n? - - - - - - - - -\n- - - 3 - 3 - 3 - ?\n- - - - - - - - - -",
+      "solution": "10 10\nx - - x x x - - - x\nx x - x - x - x - x\n- - - - - x - x x x\nx - x x - x - - - x\nx x x - - - - x - x\nx - x x x x - x x x\nx - - - - - - - x -\n- - x x x - x - - -\nx - - - x - x - x -\nx x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/068.a.htm",
+      "info": ""
+    },
+    "69_10x10": {
+      "problem": "10 10\n? - 2 - - - - - - -\n- - - - - - - - 3 -\n- - - - ? - ? - - ?\n? - - - - 7 - - - -\n- - - - 4 - - - - 3\n? - - - - - - - - -\n- - - ? - - ? - - -\n? - - - - - - - - ?\n- - - ? - - - - - -\n- - ? - - ? - - 5 -",
+      "solution": "10 10\n- x - x - - - x x x\n- - - - - x - - - x\nx - x x - x - x x -\n- - - x x - x - - -\nx x - x - - - - x -\n- - - x x - x - - x\nx - x - x - - x - x\n- - - - - - x x - -\nx - x - x - - - - x\nx - - x x - x x - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/069.a.htm",
+      "info": ""
+    },
+    "70_10x10": {
+      "problem": "10 10\n- - 4 - ? - - - - -\n? - - - - - 4 - 6 -\n- - - - ? - - - - -\n? - - - - 4 - - - -\n- - - - - - ? - - -\n- - ? - - - - - - -\n- - - ? - - - - - -\n? - - - ? - - - - ?\n- - - - - 5 - - - -\n- 3 - - - - 2 - - ?",
+      "solution": "10 10\nx x - x - x x x x x\n- - - - - x - x - x\nx x - x - x - x - x\n- - - - x - - - - x\nx - x - - x - x - x\nx - - x - - x x - x\nx - x - x - - - - x\n- - - - - x x - x -\nx x x - x - - - - -\nx - - - x x - x x -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/070.a.htm",
+      "info": ""
+    },
+    "71_8x8": {
+      "problem": "8 8\n? - - - - - - -\n- - ? - ? - ? -\n- - - - - ? - ?\n- - - - - - - -\n5 - - - - - - -\n- - - - - - - -\n? - - - 3 - ? -\n- - 2 - - - - ?",
+      "solution": "8 8\n- x x x x x x x\n- x - - - x - x\n- x x - x - - -\n- - - - x x - x\n- x - x - - - -\nx - - - - x x -\n- - x x - x - -\nx - - x x x x -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/071.a.htm",
+      "info": ""
+    },
+    "72_8x8": {
+      "problem": "8 8\n- ? - - - 3 - ?\n4 - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - ? - - - - 5\n- - - - ? - ? -\n- - - - - - - -\n2 - - 5 - - - ?",
+      "solution": "8 8\nx - x - - - x -\n- - - - x x x -\nx - x - x - - -\n- - x - - - x -\n- x - x x - x -\n- - - x - - - x\nx - x x x - x x\n- - x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/072.a.htm",
+      "info": ""
+    },
+    "73_9x9": {
+      "problem": "9 9\n7 - - - - - ? - -\n- - - - - - - ? -\n- - - - - - - - -\n9 - - - - - - - ?\n- - - - - - - - -\n- - - - - - - - 2\n? - ? - - - - - -\n- - - - - - - - 3\n- - ? - ? - ? - -",
+      "solution": "9 9\n- - - - - - - x x\nx - x - x - x - x\nx - x - x - x - x\n- - - - - - - - -\nx - x - x - x - x\nx - x - - - x - -\n- - - x - x x - x\nx - x x - x - - -\nx - - x - x - x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/073.a.htm",
+      "info": ""
+    },
+    "74_9x9": {
+      "problem": "9 9\n- - ? - - - - ? -\n7 - - - - - - - ?\n- - - - ? - - - -\n- - - - - ? - - -\n- - - ? - - - ? -\n- - - - - - 6 - ?\n- - - - - - - ? -\n- 3 - - - - - - -\n- - - - - 4 - - -",
+      "solution": "9 9\nx x - x x x - - x\n- - - - - - - x -\nx x - x - x - - -\nx - - x x - - x -\nx - x - x x x - -\nx - - - - - - x -\nx x x - x - x - x\nx - - - x - - - x\nx x x x x - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/074.a.htm",
+      "info": ""
+    },
+    "75_9x9": {
+      "problem": "9 9\n2 - - 9 - - - - -\n- - - - 5 - - - 2\n- - - - - - - - -\n- - - - ? - - - -\n- 2 - - - ? - - -\n- - ? - - - - - -\n- ? - - - ? - - ?\n- - - - - - ? - -\n- - - - 5 - - 6 -",
+      "solution": "9 9\n- x x - x x - - -\n- - - - - x - x -\nx x x - x x - x x\nx - - - - x - - x\nx - x - x - x - x\nx x - - - - - - x\n- - x - x - x - -\n- x x - x x - - x\n- - - - - x x - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/075.a.htm",
+      "info": ""
+    },
+    "76_10x10": {
+      "problem": "10 10\n? - - - ? - ? - - ?\n- ? - ? - ? - - - -\n- - ? - - - - ? - -\n- - - - - - ? - - -\n- - - ? - - - - - -\n? - ? - 2 - - - - -\n- - - ? - - - - - -\n10 - - - - - - - - -\n- 6 - ? - 6 - - - -\n- - - - - - ? - - 10",
+      "solution": "10 10\n- x x x - x - - x -\n- - x - - - x - - -\n- x - x - x x - x -\n- - - - - - - x x -\nx - x - x - x - - -\n- - - x - - x - x -\nx - x - x - x - x -\n- - - - - - - - - -\nx - x - x - x - x -\nx x x x x x - - x -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/076.a.htm",
+      "info": ""
+    },
+    "77_10x10": {
+      "problem": "10 10\n3 - - - - - - - 5 -\n- - - - - - - - - -\n? - 3 - ? - 3 - - -\n- - - - - - - - - -\n5 - - - ? - ? - - -\n- - - - - - - - - ?\n? - 3 - - - - - - -\n- - - - - - - - - -\n- - - - - - - ? - 2\n- - - - 3 - - - - -",
+      "solution": "10 10\n- x - - - - - x - x\n- - - x - x - - - x\n- x - x - x - x - x\nx x x x x x x x - x\n- - - - - x - - - -\nx - x x x x x - x -\n- - - x - - - - - x\nx - x - - x - x - -\nx - - - x x - - x -\nx x x x - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/077.a.htm",
+      "info": ""
+    },
+    "78_10x10": {
+      "problem": "10 10\n- - - - - - - - 5 -\n- - ? - ? - - - - -\n- - - ? - - - - - -\n4 - - - - - - 2 - -\n- ? - - - - - - - 3\n3 - - - - - - 3 - -\n- - - - - - - - ? -\n- - - - - ? - - - ?\n- ? - - - - - - ? -\n- - - - - - 3 - - -",
+      "solution": "10 10\nx x x x - - - - - x\nx - - x - x - x x x\nx - x - x - - - - -\n- - - - x - x - x -\nx - x - - - x x x -\n- x - - x - - - x x\n- x - x x x - x - x\n- - - - x - - - - -\nx - x - - x x x - x\nx x x x - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/078.a.htm",
+      "info": ""
+    },
+    "79_10x10": {
+      "problem": "10 10\n- - ? - - - - - - -\n- ? - ? - - - - - -\n- - ? - - - - 3 - 2\n- - - - - - 3 - - -\n- ? - - - - - - 2 -\n- - - ? - - ? - - -\n- ? - - - - - - - -\n? - - - - - - - - -\n- - - - - ? - - - -\n- - ? - - - - ? - 2",
+      "solution": "10 10\nx x - - - - - - x x\n- - x - x - x - - -\n- x - x - - x - x -\n- - - - - x - x x x\nx - x x - - - x - -\nx x x - - x - x x -\nx - x x - x x - - -\n- - x - - - - - x x\nx - - - x - x - - -\nx x - x x x x - x -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/079.a.htm",
+      "info": ""
+    },
+    "80_10x10": {
+      "problem": "10 10\n- ? - - - - ? - 2 -\n- - 3 - - - - - - -\n- - - - - - - - - 7\n- - ? - - - ? - - -\n- - - - - - - 5 - -\n6 - - - - ? - - - -\n- - - - 4 - 4 - - -\n? - - 4 - ? - - - -\n- - - - - - - - - -\n? - - - - - ? - ? -",
+      "solution": "10 10\n- - x x - - - x - x\n- x - - - x x - - x\n- x x x - - - - x -\n- x - x - x - x x -\n- - - - - - x - x -\n- x x - x - x - x -\nx - - - - x - - - -\n- - x - x - x - x -\nx - x x - - - - - -\n- - - - - x - x - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/080.a.htm",
+      "info": ""
+    },
+    "81_8x8": {
+      "problem": "8 8\n- ? - - 2 - - ?\n- - - ? - - - -\n? - ? - - - - 2\n- - - - - - - -\n- - - - - - - ?\n2 - - - - - - -\n- ? - 5 - - - -\n- - - - 2 - - 2",
+      "solution": "8 8\nx - x x - x - -\nx - x - - - - x\n- - - x x x - -\nx - x x - - - x\nx - - - - x - -\n- - x x x x - x\nx - x - - - - -\nx x x x - x x -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/081.a.htm",
+      "info": ""
+    },
+    "82_8x8": {
+      "problem": "8 8\n- - ? - - - - -\n- 4 - - - - - -\n- - - - - ? - ?\n- - ? - ? - - -\n? - - - - - - -\n- - - - - ? - 2\n2 - - - - - - -\n- ? - - - - - 4",
+      "solution": "8 8\nx x - x - - - x\nx - - - - x - x\nx x x x x - - -\nx - - x - x - x\n- - x - - - - -\nx - - - x - x -\n- - x - - x x x\nx - x x - - - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/082.a.htm",
+      "info": ""
+    },
+    "83_9x9": {
+      "problem": "9 9\n- - - ? - - 3 - -\n- - ? - - - - - -\n- - - - - - ? - -\n- - - - - ? - - -\n? - - ? - - - - 2\n- - - - - ? - - -\n? - - ? - - - - 3\n- - - - - - - - -\n- - - - - - - 6 -",
+      "solution": "9 9\nx x x - - x - - -\nx - - x - x x x -\nx - x x - x - - -\nx - - - - - x - x\n- - x - x x x - -\nx - x x - - x - x\n- - x - - x - - -\nx - - x - x - x x\nx x - - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/083.a.htm",
+      "info": ""
+    },
+    "84_9x9": {
+      "problem": "9 9\n- - - 4 - - - - ?\n- - - - 4 - - - -\n- - - 2 - - - ? -\n- - - - - - - - -\n? - - - - - - ? -\n- - - - - 2 - - -\n- - ? - - - ? - ?\n- - - ? - - - - -\n- - 3 - ? - - ? -",
+      "solution": "9 9\n- - - - x x x - -\n- x x x - - - - x\n- - x - x - x - x\nx - - - - - - x x\n- x - x - x - - x\n- - - x - - x x x\n- x - x - x - x -\n- x x - - - - - -\n- - - x - x x - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/084.a.htm",
+      "info": ""
+    },
+    "85_9x9": {
+      "problem": "9 9\n? - 2 - ? - ? - ?\n- - - - - - - - -\n- - - - - ? - - -\n- ? - - - - - - 4\n- - - - - - - 4 -\n- - 5 - - - - - -\n- - - - - - - - -\n? - ? - ? - - - -\n- - - - - - 2 - -",
+      "solution": "9 9\n- x - x - x - x -\n- - - - - x - - -\n- x x - x - x - x\n- - x - x - - - -\n- x x - x - x - x\n- x - - - - - x x\n- x x - x x - - x\n- x - - - x x - x\nx x x x x x - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/085.a.htm",
+      "info": ""
+    },
+    "86_10x10": {
+      "problem": "10 10\n? - - - - 2 - - - 2\n- - - - - - - - - -\n4 - 2 - - - ? - - -\n- ? - ? - - - ? - -\n- - 2 - - ? - - - -\n- - - - - - - - - -\n- - - - ? - ? - - 4\n? - - ? - - - - - -\n- - - - ? - - - - ?\n2 - - ? - - - - 6 -",
+      "solution": "10 10\n- - x x x - x x - -\nx - - - - - - - - x\n- x - x - x - x - -\n- - x - - x x - x -\n- x - x - - x - - -\n- - - - - x x x - x\nx - x x - x - - - -\n- - - - x x x x - x\nx - x x - x - - - -\n- - x - - - - x - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/086.a.htm",
+      "info": ""
+    },
+    "87_10x10": {
+      "problem": "10 10\n? - - - - - 2 - - -\n- - - - - - - - ? -\n- 9 - - - - - - - -\n- - - ? - - - ? - -\n- ? - - 2 - - - - -\n- - - 3 - - - - - -\n- - - - - ? - - 2 -\n- ? - - ? - - - - -\n? - - - - - - - 7 -\n- - - - - - - - - -",
+      "solution": "10 10\n- - - - x - - x x x\nx x x - x - x x - x\nx - - - - - - - - -\nx x x - x - x - x -\nx - x x - - x x x -\nx - - - x x - - - -\nx x - x x - - x - x\nx - - x - x - x x x\n- x - - - - - - - x\n- - - x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/087.a.htm",
+      "info": ""
+    },
+    "88_10x10": {
+      "problem": "10 10\n6 - - - - - - 9 - 3\n- - - - - ? - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- 4 - - - - - - - 5\n- - - - - ? - - - -\n- - - 5 - - - - - ?\n- - - - - 2 - - - -\n- - - ? - - - - ? -\n? - ? - - - - - - -",
+      "solution": "10 10\n- - - - - - x - x -\nx - x x x - x - x -\nx - - - x x x - - -\nx x x - - - x - x x\nx - x - x - - - - -\nx - - - x - x - x x\nx - x - x x x - - -\n- - - x x - x - x x\n- x - - x - - - - x\n- x - x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/088.a.htm",
+      "info": ""
+    },
+    "89_10x10": {
+      "problem": "10 10\n2 - ? - - - - - - 2\n- - - - ? - - - - -\n- - - - - - - - - 4\n- - - - - - 4 - - -\n? - 2 - - - - - - -\n- ? - 4 - - - 2 - -\n- - - - - - - - ? -\n? - - - - - - 5 - -\n- ? - - - - - - - -\n- - - - - 4 - - - -",
+      "solution": "10 10\n- x - x - - - x - -\n- - - x - x - x - x\nx - x x x x - - - -\n- - - - - x - x - x\n- x - x - - x - - -\nx - x - x - x - x -\n- - - - x - x x - -\n- x x - - - - - x -\nx - - - x x - x - -\nx x x x x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/089.a.htm",
+      "info": ""
+    },
+    "90_10x10": {
+      "problem": "10 10\n- ? - - 3 - - - - -\n- - ? - - - 4 - ? -\n? - - ? - - - - - -\n- - - - - - - - - -\n8 - - - - - - - - ?\n- - - ? - ? - - - -\n- - - - - - ? - - -\n- - - - ? - - - ? -\n- ? - ? - - - - - -\n- - - - - 3 - - ? -",
+      "solution": "10 10\nx - x x - x x x x x\nx - - x - x - x - x\n- - x - - - - - - x\nx - x x x x - x x x\n- - - - - - - - x -\nx - x - x - x - - -\nx - - x x x - - x x\nx x - x - - x - - x\nx - - - x - - - x x\nx x x x x - x - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/090.a.htm",
+      "info": ""
+    },
+    "91_8x8": {
+      "problem": "8 8\n7 - - - - - - -\n- - - ? - - - -\n- - 3 - - ? - -\n? - - ? - - - -\n- - - - - - ? -\n? - - - - - - -\n- - - 4 - - - -\n- - - - - - ? -",
+      "solution": "8 8\n- - - - - - - x\nx - x - x x - x\n- - - x x - - -\n- x x - x x x -\nx x - - - x - -\n- x - x - - x -\n- - - - x - - -\nx x x x x x - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/091.a.htm",
+      "info": ""
+    },
+    "92_8x8": {
+      "problem": "8 8\n- - - - ? - - -\n- - - - - - ? -\n- ? - ? - - - ?\n- - ? - - - ? -\n- - - - - 6 - -\n- - - - - - ? -\n7 - ? - - - - 4\n- - - 2 - - - -",
+      "solution": "8 8\n- - - - - x x x\n- x x x x x - x\n- - x - - - - -\n- x - x - x - x\n- - - - - - x x\n- x - x - x - x\n- x - x - - - -\nx x x - - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/092.a.htm",
+      "info": ""
+    },
+    "93_9x9": {
+      "problem": "9 9\n? - ? - - - 4 - ?\n- - - - 2 - - - -\n? - - - - - - - -\n- - - - - - - - -\n- - ? - - ? - - ?\n- - - - ? - - - -\n- - - - - ? - - -\n2 - - - - - - - -\n- 2 - - ? - - 4 -",
+      "solution": "9 9\n- - - x x x - x -\nx - x - - x - - -\n- - - - x x - x x\nx - x - - - - - x\nx - - x x - x - -\nx - x - - x x - x\n- - - - x - - - x\n- x - x x x - x x\nx - - x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/093.a.htm",
+      "info": ""
+    },
+    "94_9x9": {
+      "problem": "9 9\n? - - - - 2 - - -\n- - - - - - - - 2\n- 2 - - - - - - -\n- - - - ? - - - -\n- - - - - ? - - -\n- - - - 3 - - - -\n? - - - - - - - 4\n- 4 - - ? - - - -\n- - - 2 - ? - ? -",
+      "solution": "9 9\n- - - x - - x x x\nx x - - - x x - -\nx - - x - - - - x\nx x - x - x x - -\n- - - x x - - x -\n- x - - - x - - -\n- x - x x x - x -\nx - - - - x - x x\nx x x - x - - - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/094.a.htm",
+      "info": ""
+    },
+    "95_9x9": {
+      "problem": "9 9\n? - ? - ? - ? - -\n- - - ? - ? - - -\n? - - - - - - - -\n- - - - - ? - - -\n- - ? - - - ? - -\n- ? - - - - - - -\n? - - - - - - - -\n- - - - - - ? - 5\n- 3 - - - 2 - - -",
+      "solution": "9 9\n- - - x - x - - x\nx - x - - - x - x\n- - x x - x x - x\nx - - - - - x - -\nx x - x - x - x -\nx - x - - - - - -\n- - - - x x x x -\nx x x - - - - x -\nx - - - x - x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/095.a.htm",
+      "info": ""
+    },
+    "96_10x10": {
+      "problem": "10 10\n- - - 3 - - - - ? -\n- - 2 - - - - - - -\n- - - - - - - 3 - ?\n- - - - - ? - - - -\n- - - - - - - - - -\n? - - - 2 - - - 2 -\n- - - - - - - - - -\n- - - - ? - - - - 2\n- - - - - - - - - -\n2 - 6 - ? - - - 3 -",
+      "solution": "10 10\nx x x - - - x - - x\nx - - x x - - - x x\nx - x - - - x - x -\nx - x - x - x x x -\nx - - - - x - - - -\n- x - x - x - x - x\n- - - x x x - x x x\nx x - x - x - x - -\n- - - - - - - - - x\n- x - x - x x x - x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/096.a.htm",
+      "info": ""
+    },
+    "97_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n5 - 2 - - - - ? - ?\n- - - - - ? - - - -\n- - - 2 - - - - - -\n- - - - ? - - - - -\n- - - - - - 4 - - -\n- - - - ? - - - - 2\n? - - ? - - - - - -\n- - - - - - - - 7 -\n- ? - ? - - - - - -",
+      "solution": "10 10\nx x x - - - - x x x\n- x - - x x - - x -\n- x x x x - - x - -\n- x - - x x - - - x\n- x - x - x x x - x\n- - - - - x - x - x\nx - x x - x - x - -\n- - x - x x - - - x\nx - - - - - - x - x\nx - x - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/097.a.htm",
+      "info": ""
+    },
+    "98_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - - ? - ?\n- - 3 - - - ? - 2 -\n- - - - 3 - - - - -\n? - ? - - - - - - -\n- - - - - - - 4 - -\n? - - - - - - - 2 -\n- - - ? - ? - - - -\n- - - - - - - - - -\n2 - - - ? - 2 - - 2",
+      "solution": "10 10\n- - - - x - - - - -\n- x x - - - x - x -\n- - - x - x - x - x\nx - x x - x - - - -\n- - - x x x - x x -\nx - x x - - - - x -\n- - - - - x - x - -\nx - x - x - - - x x\n- - - x x x x - - -\n- x - - - x - - x -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/098.a.htm",
+      "info": ""
+    },
+    "99_10x10": {
+      "problem": "10 10\n4 - - - - - 4 - - -\n- - - - - 2 - - - -\n- - ? - - - - - - ?\n- - - ? - - - - - -\n- ? - - - - - - 5 -\n- - - ? - - - ? - -\n4 - 5 - - - ? - ? -\n- - - - - - - - - -\n- - - - - - - - - 5\n? - - - - ? - ? - -",
+      "solution": "10 10\n- x - - - x - - - -\n- - - x - - x - x -\n- x - x - x - - x -\n- - x - - x - x x x\nx - x x - - - - - x\nx x x - x - x - x x\n- x - - - - - x - x\n- x x - x - x x - x\n- - - - x - - - - -\n- x x x x - x - x x",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/099.a.htm",
+      "info": ""
+    },
+    "100_10x10": {
+      "problem": "10 10\n- - ? - 3 - - - - 4\n? - - - - - - - - -\n- - - - - - - - - -\n5 - - - - ? - ? - -\n- - - - - - - - - -\n- - 4 - - 3 - - - -\n- - - ? - - ? - - -\n- - - - 2 - - - - 5\n- ? - - - - - - - -\n- - 4 - - - - - - 2",
+      "solution": "10 10\nx - - x - x - - - -\n- - x x - - - x - x\nx - - - - x x x - x\n- x - x x - x - - -\n- - - - - - x x x -\n- x - x x - x - - -\n- x x - x x - - x -\n- - x - - x x - x -\nx - x - x - - - - x\nx x - - - - x x - -",
+      "source": "https://www.janko.at/Raetsel/Nurimisaki/100.a.htm",
+      "info": ""
+    }
+  }
+}

@@ -1,0 +1,607 @@
+{
+  "count": 100,
+  "count_sol": 100,
+  "name": "Geradeweg",
+  "data": {
+    "01_5x5": {
+      "problem": "5 5\n2 - - - -\n- - 3 - -\n- - - - -\n- - - - -\n- - - - 4",
+      "solution": "5 5\nse ew sw se sw\nns - ns ns ns\nne sw ns ns ns\nse nw ne nw ns\nne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/001.a.htm",
+      "info": ""
+    },
+    "02_10x10": {
+      "problem": "10 10\n3 - - - - - - - - -\n- - - 2 - 2 - - - -\n- - - - - - - - - -\n- 3 - - - - 3 - - -\n- - - 5 - - - - - -\n1 - - - - - - - 2 -\n- - - - - - - 1 - -\n- 1 - - - - - - 1 -\n- - 2 - - 6 - - - -\n- - - - - - - - - 4",
+      "solution": "10 10\nse ew ew sw - se sw - - -\nns - - ns - ns ns - - -\nns - - ne ew nw ns - - -\nne ew ew sw se sw ne ew ew sw\nse ew sw ns ns ns se ew ew nw\nne sw ns ns ns ns ns se ew sw\nse nw ns ns ns ns ns ne sw ns\nns se nw ns ns ns ns se nw ns\nns ne ew nw ns ns ne nw - ns\nne ew ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/002.a.htm",
+      "info": ""
+    },
+    "03_10x10": {
+      "problem": "10 10\n5 - - - - - 2 - - -\n- - - - 3 4 - - - 1\n- - - - - - - - - -\n- 2 - - - - - - - -\n- - - - - - 5 - - -\n- - - - 3 - - - - -\n- - - 2 - - - - - -\n- - - - - - - - - -\n- - 2 - - - - 5 5 -\n3 - - - - - - - - -",
+      "solution": "10 10\nse ew ew ew ew sw se ew sw -\nns se ew ew sw ns ns - ne sw\nns ns - - ns ns ne sw se nw\nns ne ew sw ns ns se nw ne sw\nns - se nw ne nw ns se sw ns\nne sw ne ew ew sw ns ns ns ns\nse nw se ew sw ns ns ns ns ns\nns se nw - ns ns ns ns ns ns\nns ne ew sw ns ne nw ns ns ns\nne ew ew nw ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/003.a.htm",
+      "info": ""
+    },
+    "04_10x10": {
+      "problem": "10 10\n- - - - - - - - - 3\n- - 4 - 4 3 - 2 - -\n- - - 3 - - - - - -\n- - - - - - - 2 - -\n- - 3 - - - - 2 - -\n3 - - - - - - - 2 -\n- - - - - - 3 - - 4\n- - - - - - - - - -\n- - 3 - - - - - - -\n- 4 - - - 3 - - - -",
+      "solution": "10 10\nse ew ew ew ew sw se ew ew sw\nne ew ew ew sw ns ne ew sw ns\nse ew ew sw ns ns se ew nw ns\nne ew sw ns ns ne nw se ew nw\nse sw ns ns ns - - ns se sw\nns ns ns ne nw - se nw ns ns\nns ne nw - se sw ns se nw ns\nne ew ew sw ns ns ns ns - ns\nse ew ew nw ns ns ne nw se nw\nne ew ew ew nw ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/004.a.htm",
+      "info": ""
+    },
+    "05_8x8": {
+      "problem": "8 8\n7 - - - - - - -\n- 5 - - - - - -\n- - - - - - - -\n- - - 5 - - - -\n- - - - 3 - 2 -\n- - - - - - - -\n- - - - - 2 - -\n- - - - - - - 2",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nns se ew ew ew ew sw ns\nns ns se sw se ew nw ns\nns ns ns ns ns - se nw\nns ns ns ns ns - ns -\nns ns ns ns ne sw ne sw\nns ne nw ns - ns - ns\nne ew ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/005.a.htm",
+      "info": ""
+    },
+    "06_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - - - - -\n4 - - - 3 3 3 - - -\n- - - - 3 3 3 - - -\n- 1 - - 3 3 3 - - -\n- - - - - - - - - -\n- 2 2 2 - - 1 - - -\n- 2 2 2 - 1 1 1 - -\n- - 2 2 - - 1 - 1 -\n- - - - - 5 - - - -",
+      "solution": "10 10\nse ew ew ew ew ew sw - - -\nns se ew ew ew sw ns - - -\nns ne ew ew sw ns ns - - -\nns se ew sw ns ns ne ew ew sw\nne nw se nw ns ne ew ew sw ns\n- - ns - ne sw se ew nw ns\nse ew nw se ew nw ne sw - ns\nne ew sw ns - se sw ne sw ns\n- - ns ne ew nw ne sw ne nw\n- - ne ew ew ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/006.a.htm",
+      "info": ""
+    },
+    "07_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - 3 3 - - - -\n- - - 2 1 1 2 - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
+      "solution": "10 10\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - se ew ew sw - - -\n- - - ns se sw ns - - -\n- - - ne nw ne nw - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/007.a.htm",
+      "info": ""
+    },
+    "08_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - 3 3 - - - - -\n- - 2 1 1 2 - - - -\n- - - 1 1 - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
+      "solution": "10 10\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - se ew ew sw - - - -\n- - ns se sw ns - - - -\n- - ne nw ne nw - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/008.a.htm",
+      "info": ""
+    },
+    "09_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- 2 - - - - - - 2 -\n3 - 3 - - - - 2 - -\n- 1 - - - - - 5 - -\n- - - - - 2 - - - -\n- 2 - - - - - 2 - -\n1 - 4 - - - - 1 - -\n- 2 - 3 - - 3 - 3 -\n- - - - - - - 2 - -\n- - - 2 - - - - - -",
+      "solution": "10 10\n- - se ew ew ew ew sw - -\nse ew nw - se ew sw ne ew sw\nns se ew ew nw - ne ew sw ns\nns ne sw se ew ew ew ew nw ns\nne sw ns ne ew sw - - - ns\n- ns ns se sw ns se ew sw ns\nse nw ns ns ne nw ne sw ns ns\nne ew nw ns se ew ew nw ns ns\n- - se nw ns - se ew nw ns\n- - ne ew nw - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/009.a.htm",
+      "info": ""
+    },
+    "10_10x10": {
+      "problem": "10 10\n2 - - 2 - - - - - -\n- - - - - - - - - -\n- - - - - - - 4 2 -\n- - 4 - 3 - - - - -\n- - - - - 2 - - - -\n- - - 3 - - - - - -\n3 - 3 - - 2 - - - -\n- - - - - - - 3 - -\n- 1 2 - - - - - - -\n- - - - - - - - - 5",
+      "solution": "10 10\nse ew sw se ew sw se ew ew sw\nns - ns ns - ne nw se sw ns\nne sw ns ne ew ew sw ns ns ns\n- ns ns se ew ew nw ns ne nw\nse nw ne nw se ew sw ns se sw\nns se ew ew nw se nw ne nw ns\nns ne ew ew sw ns - - - ns\nne sw se ew nw ne ew ew sw ns\nse nw ns - se ew ew ew nw ns\nne ew nw - ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/010.a.htm",
+      "info": ""
+    },
+    "11_10x10": {
+      "problem": "10 10\n- - - - - 1 - - - -\n- 4 - - 3 - - 3 - -\n- - - - 4 - - - - -\n- - - 5 - - - - - -\n- - - - 5 - - - 4 -\n- - - - - 4 - - - -\n- - - - 3 - - - 2 -\n4 - - 2 - - - - - -\n- - - 1 - - 2 2 - -\n- - 2 - - - - - 2 -",
+      "solution": "10 10\n- se sw - - se sw se ew sw\n- ns ne ew ew nw ns ns se nw\n- ns se ew ew ew nw ns ns -\n- ns ne ew ew ew ew nw ns -\nse nw se ew ew ew ew sw ns -\nns - ne ew ew ew sw ne nw -\nns - se ew ew sw ne ew sw -\nns - ne ew sw ns se sw ns -\nne sw - se nw ns ns ns ne sw\n- ne ew nw - ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/011.a.htm",
+      "info": ""
+    },
+    "12_10x10": {
+      "problem": "10 10\n- - 2 - - - - 1 - -\n- - - - - 2 - - 2 -\n- - - 2 3 - - - - 2\n- - - - - - - - - -\n- - - - - - - 3 - -\n- - - - 4 5 - - - -\n2 - - 2 - - 4 - 3 -\n- - - - - - - - - -\n- - - - - - - - - -\n- 2 - - - 3 - 2 - -",
+      "solution": "10 10\n- se ew sw se sw se sw - -\nse nw - ns ns ns ns ne ew sw\nns se ew nw ns ne nw se sw ns\nns ne ew ew nw se sw ns ne nw\nne sw se ew sw ns ns ns - -\nse nw ne sw ns ns ns ne sw -\nns - - ns ns ns ns - ns -\nne sw se nw ns ns ne sw ns -\nse nw ns se nw ne sw ns ne sw\nne ew nw ne ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/012.a.htm",
+      "info": ""
+    },
+    "13_10x10": {
+      "problem": "10 10\n- 2 - - - - - 2 - -\n- - - - - 2 - - - -\n- - - 4 - - - - 2 -\n- - - - - 5 - - - -\n- 2 - - 2 - 1 - 2 -\n- - - - - 3 - - - -\n- - 4 - - - - - 3 -\n- - - 3 - - 2 - - -\n- 3 - - 2 - - 3 - -\n- - 2 - - - - - - -",
+      "solution": "10 10\nse ew sw - - se ew sw - -\nns se nw - - ns - ns - -\nns ne ew ew ew nw - ne ew sw\nne sw se sw se ew ew ew ew nw\n- ns ns ns ns se sw se ew sw\nse nw ns ne nw ns ne nw - ns\nne sw ns - - ns se ew ew nw\n- ns ne ew ew nw ns - - -\n- ns - se ew sw ne ew ew sw\n- ne ew nw - ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/013.a.htm",
+      "info": ""
+    },
+    "14_10x10": {
+      "problem": "10 10\n7 - - - - - - - - -\n- - - - 3 - - - 3 -\n- - 3 - - - - - - -\n- 4 - - - 2 - - - -\n- - - - 2 - - - 4 -\n- - - 1 - - - - - -\n- - - - - - - - - -\n- - - 1 - - - 5 - -\n- - - 6 - - - - - 2\n- - - - - - - - 2 -",
+      "solution": "10 10\nse ew ew ew ew ew ew sw se sw\nns se sw se ew ew sw ns ns ns\nns ns ns ns - se nw ns ns ns\nns ns ns ne sw ns - ne nw ns\nns ns ne sw ns ne ew ew ew nw\nns ne sw ne nw - - - - -\nns - ns se sw - - - - -\nne sw ne nw ne ew ew ew ew sw\n- ne ew ew ew ew ew sw - ns\n- - - - - - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/014.a.htm",
+      "info": ""
+    },
+    "15_10x10": {
+      "problem": "10 10\n3 - - - - - - 4 - -\n- - - - - 2 - - 1 -\n- 1 - - - - - - - 2\n- - - - - - - 2 - -\n- - - 7 8 - - 1 - -\n1 - - - - - - - - -\n- - - - - - - - - 3\n- - - - - 3 - - - -\n- - - - - - - 2 - -\n- 4 - - - - - - 3 -",
+      "solution": "10 10\nse ew ew sw se ew ew ew sw -\nns - - ns ns se ew sw ne sw\nns se sw ns ns ns - ns - ns\nne nw ns ns ns ne sw ne ew nw\nse ew nw ns ns - ne sw se sw\nne sw - ns ns - - ne nw ns\n- ns - ns ns se sw se sw ns\n- ns se nw ns ns ns ns ne nw\n- ns ne ew nw ns ns ne ew sw\n- ne ew ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/015.a.htm",
+      "info": ""
+    },
+    "16_10x10": {
+      "problem": "10 10\n7 - - - - - - - - -\n- - 4 - - - 1 - 2 -\n- - - 2 - - - - - -\n- - - - - - - - 1 -\n- - 1 - - - - 2 - -\n- 2 - - 4 - - - 3 -\n- - - - - - - - - -\n- - - - - - - - - -\n- - 2 3 - - - 1 - -\n- - - - - - - - - 9",
+      "solution": "10 10\nse ew ew ew ew ew ew sw se sw\nns se ew ew ew sw se nw ns ns\nns ne ew sw - ne nw se nw ns\nns se sw ns se ew sw ne sw ns\nns ns ne nw ns - ne ew nw ns\nns ne ew sw ns se ew ew sw ns\nns se sw ns ns ns - - ns ns\nne nw ns ns ne nw se sw ns ns\nse ew nw ne ew ew nw ne nw ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/016.a.htm",
+      "info": ""
+    },
+    "17_10x10": {
+      "problem": "10 10\n- - - - - - - - - 8\n- 1 1 - - - - - 4 -\n- - - 3 - - - - - -\n- 1 - - - - 3 - - -\n- - - - 1 - - 1 - -\n- 1 - - - 2 - 1 - -\n- - - - - - - - 2 -\n- - - - 2 - - 2 - -\n- - - - - - - - - -\n3 - - - - - 3 - - -",
+      "solution": "10 10\n- se ew ew ew ew ew ew ew sw\nse nw se sw se ew ew ew sw ns\nns se nw ns ne ew ew sw ns ns\nns ne sw ns se ew ew nw ns ns\nns - ns ne nw - se sw ns ns\nne sw ns se ew sw ns ne nw ns\nse nw ne nw - ns ne ew sw ns\nns - se ew sw ne ew sw ns ns\nns - ne sw ns - - ns ne nw\nne ew ew nw ne ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/017.a.htm",
+      "info": ""
+    },
+    "18_12x12": {
+      "problem": "12 12\n- - - - - - - - - - - -\n- 2 4 - - 4 4 - - - - 2\n- - - - - - - - 2 4 - -\n- - - 2 4 - 4 - - - - -\n- - - - - - - - - - - 2\n- - 2 - - - 2 4 - - - -\n- - - - - - - - - 2 - -\n4 - 2 - - - - - - - - -\n- - - - 2 4 - - - - 4 -\n- - - - - - - 4 - - - -\n- 2 2 - - - - - - - - -\n- - - - - - 4 - - - 2 -",
+      "solution": "12 12\n- se sw se ew ew ew ew ew ew ew sw\n- ns ns ne ew ew ew sw se sw - ns\nse nw ns se ew ew ew nw ns ns se nw\nne sw ns ns se ew ew ew nw ns ne sw\nse nw ne nw ns - se sw - ns - ns\nns se ew sw ns - ns ns se nw se nw\nns ne sw ns ns se nw ns ne ew nw -\nns - ns ne nw ns - ns - - - -\nne sw ne ew sw ns - ne ew ew ew sw\n- ns - - ns ns se ew ew ew sw ns\n- ne ew sw ne nw ne sw - se nw ns\n- - - ne ew ew ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/018.a.htm",
+      "info": ""
+    },
+    "19_12x12": {
+      "problem": "12 12\n- - - - - - - - - - - -\n- 3 3 2 - - - - - - 2 -\n- - 3 2 - - - - - 3 3 -\n- - - 3 - - - - 4 4 4 -\n4 - - - - 2 - - - - - -\n4 2 - - - 2 4 - - - - -\n- - - - - 4 2 2 - 1 1 -\n- - - - - - - - - - 1 -\n- 1 - - - - - 1 2 - - -\n- 2 2 - - - - - 3 - - -\n- 3 3 3 - - - - - - - -\n- - - - - - - - - - - -",
+      "solution": "12 12\n- se sw se ew ew ew ew ew sw - -\n- ns ns ns - se sw se sw ne ew sw\n- ns ns ne ew nw ns ns ne ew ew nw\nse nw ne ew ew sw ns ne ew ew ew sw\nns se ew sw - ns ns - - - - ns\nns ns - ne ew nw ne ew ew ew sw ns\nns ne ew ew ew sw se ew sw se nw ns\nne sw se sw - ns ns - ns ne sw ns\nse nw ns ns - ns ne sw ne ew nw ns\nne ew nw ns - ns - ne ew ew sw ns\nse ew ew nw - ne ew ew ew ew nw ns\nne ew ew ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/019.a.htm",
+      "info": ""
+    },
+    "20_13x13": {
+      "problem": "13 13\n- 2 2 - - - - - - 1 1 - -\n- - - - 2 2 - - 2 - - 4 -\n- - - 1 - - 3 - 2 - - 4 -\n- - - 1 - - 3 - - 3 3 - -\n- 3 - - 4 4 - - - - - - -\n- 3 - - - - - 1 - - - 1 -\n- 3 - - - - 2 - - - - 1 -\n- 3 - - - 1 - - - - - 1 -\n- - - - - - - 1 1 - - 1 -\n- - 4 4 - - 4 - - 2 - - -\n- 3 - - 1 - 4 - - 2 - - -\n- 3 - - 1 - - 3 3 - - - -\n- - 2 2 - - - - - - 2 2 -",
+      "solution": "13 13\nse ew sw se ew ew sw - se sw se sw -\nns - ns ne ew sw ns - ns ne nw ns -\nns se nw se sw ns ns - ne ew sw ns -\nns ns se nw ne nw ne ew ew sw ns ns -\nns ns ne ew ew ew sw - - ns ns ne sw\nns ne ew ew sw - ne sw - ns ne sw ns\nne ew ew sw ns se ew nw se nw se nw ns\nse ew ew nw ne nw se sw ne ew nw se nw\nne ew ew ew ew sw ns ne sw se sw ne sw\n- se ew ew ew nw ns se nw ns ne sw ns\n- ns - se sw - ns ne ew nw se nw ns\n- ns - ns ne sw ne ew ew sw ns - ns\n- ne ew nw - ne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/020.a.htm",
+      "info": ""
+    },
+    "21_5x5": {
+      "problem": "5 5\n- - - - -\n- 1 1 - -\n- 1 1 1 -\n- - 1 - -\n- 1 - - 2",
+      "solution": "5 5\n- - - - -\nse sw se sw -\nns ne nw ne sw\nns se sw - ns\nne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/021.a.htm",
+      "info": ""
+    },
+    "22_6x6": {
+      "problem": "6 6\n2 - - - 2 -\n- - - - - -\n- - - - 2 -\n- - 2 - - 2\n- - - - - -\n- - - - 2 -",
+      "solution": "6 6\nse ew sw se ew sw\nns - ne nw - ns\nne ew sw se ew nw\n- - ns ne ew sw\n- - ne sw - ns\n- - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/022.a.htm",
+      "info": ""
+    },
+    "23_7x7": {
+      "problem": "7 7\n- 1 - - - - -\n- - - - 3 - 3\n- 1 - - - - -\n- - - 1 - - -\n- - - - - 2 -\n4 - 4 - - - -\n- - - - - 2 -",
+      "solution": "7 7\n- se sw - se ew sw\nse nw ns - ns - ns\nns se nw - ns - ns\nns ne sw se nw se nw\nns - ne nw - ns -\nne ew ew ew sw ne sw\n- - - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/023.a.htm",
+      "info": ""
+    },
+    "24_8x8": {
+      "problem": "8 8\n- - - - - - 2 -\n1 - - 1 - - - -\n- - - 2 - 1 - -\n3 - - - 3 - 3 -\n- - - - - 1 - -\n- - - 1 2 - - -\n- - - - - - - -\n- - - - - 7 - -",
+      "solution": "8 8\nse ew ew sw - se ew sw\nne sw se nw se nw - ns\nse nw ne ew nw se sw ns\nns - se ew ew nw ns ns\nns se nw - se sw ns ns\nne nw se sw ns ne nw ns\nse ew nw ne nw - - ns\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/024.a.htm",
+      "info": ""
+    },
+    "25_9x9": {
+      "problem": "9 9\n- 2 - - - - - 2 -\n2 - - - 1 - 1 - -\n- 1 3 2 - - 2 - -\n- - - - - - - 1 -\n2 - - 2 - 2 - - 2\n- 1 - - - - - - -\n- - 2 - - 2 3 1 -\n- - 1 - 1 - - - 2\n- 2 - - - - - 2 -",
+      "solution": "9 9\nse ew sw - se sw se ew sw\nns - ns se nw ne nw se nw\nne sw ns ns - se ew nw -\nse nw ne nw - ns - se sw\nns se ew sw - ne ew nw ns\nne nw - ns - se sw se nw\n- se ew nw - ns ns ne sw\nse nw se sw se nw ns - ns\nne ew nw ne nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/025.a.htm",
+      "info": ""
+    },
+    "26_10x10": {
+      "problem": "10 10\n- 2 - - 3 - - - - -\n- 1 - - - - - - 5 -\n- - - 2 3 - - 4 - -\n- - - - - - - - - -\n4 - - - - 2 - - - -\n- - - - 5 - - - - -\n1 - - - - - 3 - - -\n- - - - - - - - - -\n- - - - - - - - - -\n2 - - 3 - - 3 - - -",
+      "solution": "10 10\nse ew sw se ew ew sw - se sw\nns se nw ns se sw ne sw ns ns\nns ne ew nw ns ne sw ns ns ns\nns - - - ns se nw ns ns ns\nne ew ew ew nw ns - ns ns ns\nse ew ew ew ew nw - ne nw ns\nne sw se sw - - se ew ew nw\nse nw ns ns - - ns - - -\nns - ns ns - - ns - - -\nne ew nw ne ew ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/026.a.htm",
+      "info": ""
+    },
+    "27_10x10": {
+      "problem": "10 10\n- 7 - - - - - - - -\n- - - - - - - 2 2 -\n2 - - 1 - - - - - -\n4 - - - - 5 - - - -\n- - - - - - 4 2 1 -\n- - - 5 - - - - - -\n- - 2 - - - - - - -\n- - - - 3 - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
+      "solution": "10 10\nse ew ew ew ew ew ew sw se sw\nns - se sw - se sw ns ns ns\nne ew nw ne sw ns ns ne nw ns\nse ew ew ew nw ns ns se sw ns\nns se ew sw - ns ns ns ne nw\nns ne sw ns - ns ne nw - -\nns - ns ns se nw - - - -\nne ew nw ns ns - - - - -\n- - - ns ns - - - - -\n- - - ne nw - - - - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/027.a.htm",
+      "info": ""
+    },
+    "28_10x10": {
+      "problem": "10 10\n- 8 - - - - - - - -\n- - - - - 5 - - - -\n7 - - - - - - 6 - -\n- - - 4 - - - - - -\n- - 8 - - 2 - 6 - -\n- - - - - - - - - 7\n- 6 - - 3 - - - - -\n- - - - - 2 - - - -\n- - - - 2 - - - - -\n- - - - - - - - - -",
+      "solution": "10 10\nse ew ew ew ew ew ew ew sw -\nns se sw se ew ew ew ew nw -\nns ns ns ne ew ew ew ew ew sw\nns ns ns se ew ew ew sw - ns\nns ns ns ns se ew sw ns - ns\nns ns ns ns ns - ns ns - ns\nns ns ns ns ns se nw ns - ns\nne nw ns ne nw ns - ns - ns\n- - ns se ew nw - ns - ns\n- - ne nw - - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/028.a.htm",
+      "info": ""
+    },
+    "29_10x10": {
+      "problem": "10 10\n- - - - - - 7 - - -\n- - 5 - - - - - - -\n- 2 1 - - 2 - 3 - -\n- - - 2 - - - - 5 -\n- 1 - - - 1 - - - -\n- - - - - 2 - 1 - -\n4 - - 2 - - - - 2 -\n- 3 - - 2 - 1 - - -\n- - 2 - - - - 3 - -\n- - - - - - - - 5 -",
+      "solution": "10 10\nse ew ew ew ew ew ew sw se sw\nns se ew ew ew ew sw ns ns ns\nns ns se sw se ew nw ns ns ns\nns ne nw ns ns se ew nw ns ns\nne sw se nw ne nw se sw ns ns\nse nw ne sw se ew nw ne nw ns\nns se sw ns ne sw - se ew nw\nns ns ns ne ew nw se nw - -\nns ns ne ew sw - ne ew ew sw\nne nw - - ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/029.a.htm",
+      "info": ""
+    },
+    "30_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n1 - - - 4 - - - 2 -\n- - 2 - - - - - - -\n- - - - - 4 - - - 1\n- 5 - 4 - - - - 2 -\n- - - 7 - - - - - -\n- - - - - - 3 - - -\n- 4 - - - - - - 1 -\n- - - - 2 1 - - - -\n- - - - - - - - 2 -",
+      "solution": "10 10\nse ew ew ew ew ew ew sw - -\nne sw se ew ew ew sw ne ew sw\n- ns ns - - - ne sw se nw\n- ns ne ew ew ew sw ns ne sw\n- ns se ew ew ew nw ne ew nw\n- ns ne ew ew ew ew ew ew sw\nse nw - - - se ew ew sw ns\nne ew ew ew sw ne sw se nw ns\n- - - - ns se nw ns - ns\n- - - - ne nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/030.a.htm",
+      "info": ""
+    },
+    "31_5x5": {
+      "problem": "5 5\n- - - - -\n- - 2 - -\n- 4 2 1 -\n- - - - -\n- - - - -",
+      "solution": "5 5\n- se ew ew sw\n- ns se ew nw\n- ns ns se sw\n- ns ne nw ns\n- ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/031.a.htm",
+      "info": ""
+    },
+    "32_6x6": {
+      "problem": "6 6\n- - - - 2 -\n1 - - - - -\n- - - 2 - -\n- - - - - -\n- 2 - - - 3\n- - - - - -",
+      "solution": "6 6\nse ew sw se ew sw\nne sw ne nw se nw\n- ne ew sw ne sw\n- se sw ns - ns\n- ns ne nw - ns\n- ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/032.a.htm",
+      "info": ""
+    },
+    "33_7x7": {
+      "problem": "7 7\n2 - - 3 - - -\n- - - - - - -\n- - - - - - 2\n- - - - - - -\n- - - 5 - - -\n- - - - - - -\n- - - - 3 - -",
+      "solution": "7 7\nse ew sw se ew ew sw\nns - ns ns - - ns\nne sw ns ns se ew nw\nse nw ne nw ne ew sw\nne ew ew ew ew sw ns\n- - - se ew nw ns\n- - - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/033.a.htm",
+      "info": ""
+    },
+    "34_8x8": {
+      "problem": "8 8\n- 2 - - - - - -\n- - - - 2 - - -\n- 3 - 4 - - 5 -\n7 - - - - - - -\n- - - - - - - -\n- - - 5 - - - -\n- - - - - - 6 -\n- - - - - - - -",
+      "solution": "8 8\nse ew sw se sw se sw -\nns se nw ns ns ns ns -\nns ns - ns ne nw ns -\nns ns - ns - - ns -\nns ne ew nw - - ns -\nns se ew ew ew ew nw -\nns ne ew ew ew ew ew sw\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/034.a.htm",
+      "info": ""
+    },
+    "35_8x8": {
+      "problem": "8 8\n- - 1 - - - - -\n- 2 1 - 2 1 - -\n- - 1 - - 1 - -\n- - - 1 - 1 - -\n- - 2 - 2 - - -\n- - 2 - - 2 - -\n- - 2 1 - 2 1 -\n- - - - - 2 - -",
+      "solution": "8 8\n- se sw - se ew ew sw\n- ns ne sw ns se sw ns\nse nw se nw ne nw ns ns\nns - ne sw - se nw ns\nne ew sw ne ew nw - ns\n- - ns se ew sw se nw\nse ew nw ne sw ns ne sw\nne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/035.a.htm",
+      "info": ""
+    },
+    "36_10x10": {
+      "problem": "10 10\n- - - - 2 - - - 4 -\n- - - - - 2 - - - -\n- - - 1 - - - - - -\n- - 2 - - - 2 2 - -\n3 - 2 - 2 - - - - -\n- - - 1 - - - - 1 3\n- 2 - - - - 4 - - -\n3 - - - - - - 3 - -\n- - - - - - - - - -\n- 1 - - 2 3 - - 3 -",
+      "solution": "10 10\n- - se ew sw se ew ew ew sw\n- - ns - ns ns se ew ew nw\nse sw ne sw ne nw ns se sw -\nns ne ew nw se ew nw ns ne sw\nns se ew sw ns se sw ne sw ns\nne nw se nw ne nw ns se nw ns\nse ew nw se ew sw ns ns se nw\nns - - ne sw ns ns ns ns -\nns se sw - ns ns ne nw ns -\nne nw ne ew nw ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/036.a.htm",
+      "info": ""
+    },
+    "37_10x10": {
+      "problem": "10 10\n- 2 - - - - 3 - - -\n2 - - - 3 - - - - -\n- - - 4 - 3 - - 4 -\n- - - - - - - - - -\n3 - 3 - 3 - - - - -\n- - - 2 - - - - - -\n- - - - - 2 3 - - 1\n- - - - - - - - 3 -\n- - 3 - 4 - - - - -\n- - - - - - - - - -",
+      "solution": "10 10\nse ew sw - - - se ew ew sw\nns - ne ew ew sw ns - se nw\nne ew ew ew sw ns ns - ns -\n- - - - ns ns ne sw ns -\nse ew ew sw ns ne sw ns ns -\nns - - ns ne sw ns ns ne sw\nns se sw ne sw ns ns ns se nw\nne nw ns - ne nw ne nw ns -\n- - ns se ew ew ew sw ns -\n- - ne nw - - - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/037.a.htm",
+      "info": ""
+    },
+    "38_10x10": {
+      "problem": "10 10\n- 5 - - - - - - - -\n- - - - - - - - - -\n- 3 - 2 - - 4 - - -\n- - - 5 - - - - - -\n- - - - - - 2 - - -\n- - 1 3 - - - - 1 -\n- - - - - - - - - 4\n- 4 - - 4 - 3 - 3 -\n- - - 1 - - - 3 - -\n- - - - - - - - - -",
+      "solution": "10 10\nse ew ew ew ew sw - - - -\nns se ew ew sw ns - - - -\nns ns se ew nw ne ew ew ew sw\nns ns ne ew ew ew ew sw - ns\nns ne sw se sw se ew nw se nw\nns se nw ns ns ne sw - ne sw\nns ns - ns ns - ns se sw ns\nns ns se nw ns - ns ns ns ns\nns ns ne sw ne ew nw ns ns ns\nne nw - ne ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/038.a.htm",
+      "info": ""
+    },
+    "39_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - 5 - - - -\n- 3 2 - - 4 - - - -\n- - - - - - - - 3 -\n- - - - 2 - - 2 - -\n- 2 - 1 - - - 5 - -\n- - - 3 - - 4 - - -\n- - - - - - - - 2 -\n- 3 - - - - - - - -\n- - - 4 - - - - 4 -",
+      "solution": "10 10\nse sw - - - - - se ew sw\nns ns se ew ew ew ew nw se nw\nns ns ns se ew ew ew sw ns -\nns ne nw ne ew sw se nw ns -\nns se sw se ew nw ne ew nw -\nns ns ne nw se ew ew ew ew sw\nns ne ew ew nw se ew ew ew nw\nne ew ew sw - ne sw se ew sw\nse ew ew nw se sw ne nw - ns\nne ew ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/039.a.htm",
+      "info": ""
+    },
+    "40_10x10": {
+      "problem": "10 10\n- - - - - 3 - - - -\n- 2 - - - - 2 - - -\n- - - - 2 - - 2 - -\n- - 4 - - 2 - - - -\n- - - - 1 - - 1 - -\n- 5 - 3 - - - 4 - -\n- - - - 2 - - - - -\n- - 2 - - 1 - - 3 -\n- 1 1 - 2 - - 3 - 0\n- - - - - - 0 - - -",
+      "solution": "10 10\n- - se sw se ew ew sw - -\nse ew nw ns ne ew sw ns - -\nns se sw ne ew sw ns ne ew sw\nns ns ns se sw ns ne sw - ns\nns ns ns ns ne nw - ne sw ns\nns ns ns ns se ew ew ew nw ns\nns ns ne nw ns - - se sw ns\nns ne ew sw ne sw - ns ns ns\nns se sw ne ew nw - ns ns ns\nne nw ne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/040.a.htm",
+      "info": ""
+    },
+    "41_10x10": {
+      "problem": "10 10\n4 - - - - - 2 - - -\n- - - 3 - 2 - - - -\n- - - - 2 - 3 - 2 -\n- - - 2 - - - - - -\n- - 1 - 1 - - - - 4\n- - - - - - - 3 - -\n- 2 - 3 - - - - - -\n2 - - - - 4 - - - -\n- - 2 - 5 - - - - -\n- - - - - - - - - -",
+      "solution": "10 10\nse ew ew ew sw se ew sw - -\nns se ew ew nw ns se nw se sw\nns ns - se ew nw ns - ns ns\nns ne sw ns - - ns se nw ns\nne sw ne nw se sw ne nw - ns\n- ne sw se nw ns se ew ew nw\nse ew nw ns se nw ne ew sw -\nns se sw ns ne ew ew ew nw -\nne nw ns ne ew ew ew ew sw -\n- - ne ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/041.a.htm",
+      "info": ""
+    },
+    "42_10x10": {
+      "problem": "10 10\n- 2 - - - - 3 - - -\n- - - - - - 2 - - -\n- - - - 2 - - - - 3\n- 1 - 2 - - - 2 - -\n- - - 3 - - - - 1 -\n- - - - - - - - - -\n- - - - 1 - - - 1 -\n- 2 3 - - 2 - - - 4\n- - - 3 - - - 2 - -\n- 2 - - 4 - - - - -",
+      "solution": "10 10\nse ew sw se sw se ew ew sw -\nns - ne nw ns ne ew sw ne sw\nne sw se ew nw se ew nw - ns\nse nw ne ew sw ns se ew sw ns\nns se ew ew nw ns ne sw ne nw\nns ne ew ew sw ne sw ns se sw\nne sw se sw ne sw ns ne nw ns\n- ns ns ns - ns ns se sw ns\nse nw ns ns - ne nw ns ns ns\nne ew nw ne ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/042.a.htm",
+      "info": ""
+    },
+    "43_10x10": {
+      "problem": "10 10\n- - - 2 - - - 5 - -\n1 - - - 1 - - 2 - -\n- - - - - - 1 - 1 -\n- - - - - - - - 2 -\n- - 3 - - 2 - 1 - -\n- 2 2 - 1 - 1 - - -\n- - - 1 - - - - - -\n- - - 1 2 - - 2 - 3\n- 3 3 - - 1 - - - -\n- - - - - - - 3 - -",
+      "solution": "10 10\n- se ew sw se ew ew ew ew sw\nse nw - ns ne sw se ew sw ns\nne ew sw ne ew nw ne sw ne nw\nse sw ne ew ew sw - ne ew sw\nns ne ew ew sw ns - se sw ns\nns se ew sw ne nw se nw ne nw\nns ns se nw se sw ne sw se sw\nne nw ne sw ns ne sw ns ns ns\nse ew ew nw ne sw ns ne nw ns\nne ew ew ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/043.a.htm",
+      "info": ""
+    },
+    "44_10x10": {
+      "problem": "10 10\n- - - - 3 - - - - -\n- 2 - - - 2 - 2 2 -\n- 3 - - - - - - - -\n- - - - - - - - - -\n- - - 2 - - 2 3 2 -\n- - 2 3 - - - - - -\n- - - - - 2 - - 2 -\n2 - - - - 3 - - - -\n- - - - - - - 2 2 -\n- - 3 - - - - - - -",
+      "solution": "10 10\n- - se ew ew sw - se sw -\nse ew nw - - ns - ns ns -\nne ew ew sw se nw se nw ne sw\nse sw - ns ns - ns se sw ns\nns ne ew nw ne ew nw ns ns ns\nne ew sw se ew ew sw ns ne nw\nse sw ns ns se ew nw ne ew sw\nns ne nw ns ne ew ew sw se nw\nne sw - ne sw - - ns ns -\n- ne ew ew nw - - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/044.a.htm",
+      "info": ""
+    },
+    "45_10x10": {
+      "problem": "10 10\n- - - 3 - - - 2 - -\n- 3 - - 2 - 2 - - -\n- - 2 5 - - - - 3 -\n- - - - 2 - - - - -\n- - - - - - - 3 - -\n2 - - - - - 3 - - -\n- - - - - - - - 3 -\n- 4 - - - - - 2 - -\n- - - 2 - - 3 - - -\n- - - - - - - - - -",
+      "solution": "10 10\n- se ew ew sw - se ew sw -\n- ns se sw ns - ns - ns -\n- ns ns ns ne ew nw - ns -\n- ne nw ns se ew sw - ne sw\n- - - ns ns - ne ew ew nw\nse ew sw ns ne ew ew sw se sw\nns - ne nw - - - ns ns ns\nne ew ew ew sw se ew nw ns ns\n- - se ew nw ne ew ew nw ns\n- - ne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/045.a.htm",
+      "info": ""
+    },
+    "46_10x10": {
+      "problem": "10 10\n- - 1 - 1 - 1 - 1 -\n- - - - - - - - - -\n1 - - - - - 2 - - 1\n- 2 - 1 1 - - 2 - -\n- - 2 - 1 - - - - 1\n1 - - - 1 - - - - -\n- - 2 - - 1 - 2 - 1\n- 2 - - - - - - - -\n1 - - - 1 - - - - 1\n- 2 - - - - 1 - 1 -",
+      "solution": "10 10\n- se sw se sw se sw se sw -\n- ns ne nw ne nw ne nw ne sw\nse nw se sw - se ew sw se nw\nne ew nw ne sw ns - ns ne sw\n- se ew sw ne nw se nw se nw\nse nw se nw se sw ne sw ne sw\nne sw ns se nw ne sw ns se nw\n- ns ne nw - - ne nw ne sw\nse nw se sw se sw se sw se nw\nne ew nw ne nw ne nw ne nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/046.a.htm",
+      "info": ""
+    },
+    "47_10x10": {
+      "problem": "10 10\n- 2 - - 2 - - - 2 -\n- - - - - 2 - - - 2\n- - 2 2 - - 2 - 2 -\n- 2 - - - 2 - 2 - -\n2 - 2 - 2 - - - - 2\n- - - 2 - - 2 - - 2\n- - 2 - - - 2 - - -\n- - - - - - - - 2 -\n2 - - 2 - - 2 - - -\n- 2 - - - 2 - 2 - -",
+      "solution": "10 10\nse ew sw se ew sw - se ew sw\nne sw ne nw - ns se nw - ns\n- ne ew sw se nw ns se ew nw\nse ew sw ns ne ew nw ns - -\nns - ns ne ew sw - ne ew sw\nne sw ne ew sw ne ew sw - ns\n- ne ew sw ns se ew nw se nw\nse ew ew nw ne nw se sw ns -\nns - se ew sw - ns ns ne sw\nne ew nw - ne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/047.a.htm",
+      "info": ""
+    },
+    "48_10x10": {
+      "problem": "10 10\n5 - - - - - - - 3 -\n- - - 2 - - - - - -\n- - 2 - - - - - - -\n- - - - 2 - - - - 3\n- - - - 8 - - - - -\n- - - - 8 - - - - -\n3 - - - - 2 - - - -\n- - - - - - - 2 - -\n- - - - - - 2 - - -\n- 3 - - - - - - - 5",
+      "solution": "10 10\nse ew ew ew ew sw se ew ew sw\nns - se ew sw ne nw - - ns\nns - ns se nw se sw - - ns\nns se nw ne ew nw ne ew ew nw\nns ne ew ew ew ew ew ew ew sw\nne ew ew ew ew ew ew ew sw ns\nse ew ew sw se ew sw se nw ns\nns - - ne nw se nw ns - ns\nns - - se sw ne ew nw - ns\nne ew ew nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/048.a.htm",
+      "info": ""
+    },
+    "49_10x10": {
+      "problem": "10 10\n- - 3 - 1 - - 2 - -\n- - - - - 2 - - - -\n- - - - 4 - - 2 - 2\n- - - - - 3 - - - -\n- 3 - - 2 - 2 - - -\n- - - - - - - 2 - -\n- - 2 1 - - 2 - - -\n- 1 - - 4 - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
+      "solution": "10 10\nse ew ew sw se sw se ew sw -\nns - - ne nw ns ne sw ne sw\nns se ew ew ew nw - ns - ns\nns ns se ew ew sw se nw se nw\nns ns ne ew sw ns ns - ne sw\nns ne ew sw ns ns ne ew sw ns\nne ew sw ne nw ne ew sw ns ns\nse sw ns se ew ew ew nw ns ns\nns ne nw ne ew ew ew ew nw ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/049.a.htm",
+      "info": ""
+    },
+    "50_10x10": {
+      "problem": "10 10\n- 1 - - - - - - - -\n- - 5 - - 1 - - 7 -\n- - - 3 - 2 - - - -\n3 - - - - 3 - - - -\n- - - - - 4 - - - -\n- - - - - 5 - - - -\n- - - - - 6 - - - -\n- - - - - 7 - - - -\n- - - - - 8 - - - 2\n- - - - - - - - - -",
+      "solution": "10 10\n- se sw - se sw - se sw -\nse nw ns se nw ne sw ns ns -\nns - ns ns se ew nw ns ns -\nns - ns ns ne ew ew nw ns -\nne sw ns ne ew ew ew sw ns -\n- ns ne ew ew ew ew nw ns -\n- ne ew ew ew ew ew sw ns -\nse ew ew ew ew ew ew nw ne sw\nne ew ew ew ew ew ew ew sw ns\n- - - - - - - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/050.a.htm",
+      "info": ""
+    },
+    "51_10x10": {
+      "problem": "10 10\n- - 3 - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - 5 - - - - -\n- - 5 - - - 5 - - -\n- 5 - 5 - 5 - 5 - -\n- - 5 - - - 5 - - -\n2 - - - 5 - - 1 - 4\n- - - - - - - - - -",
+      "solution": "10 10\n- se ew ew sw - - - - -\n- ne ew sw ns - - - - -\n- se sw ns ns - - - - -\n- ns ns ns ns - - - - -\n- ns ns ns ns - - - - -\n- ns ns ns ne ew ew ew ew sw\n- ns ns ne ew ew ew ew sw ns\nse nw ne ew ew ew ew sw ns ns\nns se ew ew ew ew sw ne nw ns\nne nw - - - - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/051.a.htm",
+      "info": ""
+    },
+    "52_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - - - - -\n- 3 - - - 2 - - 2 -\n1 - - - - 2 - - - -\n- - - 3 2 1 - 2 1 -\n- - - 4 - - - 2 - -\n- - - 5 - - - 3 - -\n- - - 3 - - - - - -\n- - 2 - - - - 2 - -\n- - - - 1 - - - - -",
+      "solution": "10 10\n- se ew ew ew ew ew ew ew sw\n- ns - se sw - se ew sw ns\n- ns - ns ne ew nw - ns ns\nse nw - ns se ew sw se nw ns\nne ew ew nw ns se nw ns se nw\nse ew ew ew nw ne ew nw ne sw\nne ew ew ew ew sw se ew ew nw\n- - se ew ew nw ne sw - -\n- - ns se sw se sw ns - -\n- - ne nw ne nw ne nw - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/052.a.htm",
+      "info": ""
+    },
+    "53_10x10": {
+      "problem": "10 10\n- - 3 - - - - - - -\n4 2 - - - - - - - -\n- - 1 - 3 2 2 2 2 -\n- - 1 - - - - - - -\n- - - - - 4 - 4 - -\n- - 1 - - 5 - - - -\n- 3 - 2 - - - 3 - -\n- - - 1 - 1 - - - 7\n1 - 1 - 3 - - 2 - -\n- - - - - - 2 - - -",
+      "solution": "10 10\nse ew ew sw - - - - - -\nns se ew nw se sw se sw se sw\nns ns se sw ns ns ns ns ns ns\nns ne nw ns ns ne nw ne nw ns\nne ew sw ns ne ew ew ew sw ns\n- se nw ne ew ew ew ew nw ns\n- ns se ew sw se ew ew sw ns\n- ns ne sw ns ne sw se nw ns\nse nw se nw ns - ns ns se nw\nne ew nw - ne ew nw ne nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/053.a.htm",
+      "info": ""
+    },
+    "54_10x10": {
+      "problem": "10 10\n- - - - - 1 - - - -\n- 9 - 8 - - - - 2 -\n- - - - 3 - - - - -\n- - - - - - - 2 - -\n- - - - - - - - - 2\n- - - - - 5 - - - -\n- - - - 3 - - - - -\n- - - - - - - - - 2\n- - - - - - - - - -\n- - - - - - - - - -",
+      "solution": "10 10\n- se sw se sw se sw se sw -\n- ns ns ns ne nw ne nw ns -\n- ns ns ns se ew ew sw ne sw\n- ns ns ns ns - - ns - ns\n- ns ns ns ns - - ne ew nw\n- ns ns ns ne ew ew ew ew sw\n- ns ns ns se ew ew sw - ns\n- ns ns ns ns - - ne ew nw\n- ns ne nw ns - - - - -\n- ne ew ew nw - - - - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/054.a.htm",
+      "info": ""
+    },
+    "55_10x10": {
+      "problem": "10 10\n9 - - - - - - - - -\n- - - - - - 3 - - -\n- 6 - - 2 - - - - -\n- - 2 1 - - - - - -\n- - - - - - - - 3 -\n- - 2 - - 5 - - - -\n- - - - - - - - - -\n- - - - - - - 2 - -\n- - - 2 - - - - - -\n- - - - - - - - - 7",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se ew sw se sw se ew ew nw\nns ns se nw ns ns ns se ew sw\nns ns ns se nw ns ns ne sw ns\nns ns ne nw - ns ne sw ns ns\nns ns se ew sw ns se nw ns ns\nns ns ns se nw ne nw se nw ns\nns ne nw ns - se sw ns - ns\nns se sw ne ew nw ne nw - ns\nne nw ne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/055.a.htm",
+      "info": ""
+    },
+    "56_10x10": {
+      "problem": "10 10\n- - 2 - 2 - - - - -\n- - - 2 - - - - 3 -\n- - 2 - 2 - - - - -\n- - - - 4 - - - - 3\n3 - - - - - - - 2 -\n- - - - - 2 - - - -\n4 - - 2 - - - 5 - -\n- - - - 2 - - - - -\n- 3 3 - - 2 - 5 - -\n- - - - - - - - - -",
+      "solution": "10 10\n- se ew sw se ew sw - - -\nse nw - ns ns - ne ew ew sw\nns se ew nw ne ew sw - - ns\nns ne ew ew ew sw ns - - ns\nne ew ew sw se nw ns se ew nw\nse sw se nw ne ew nw ns - -\nns ns ne ew sw - - ns - -\nns ns - - ns se sw ns - -\nns ne ew ew nw ns ns ns - -\nne ew ew ew ew nw ne nw - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/056.a.htm",
+      "info": ""
+    },
+    "57_10x10": {
+      "problem": "10 10\n- - - - - 8 - - - -\n- 3 - - - 7 - - - -\n- - - - 2 - - - - 4\n- - - - - - - - - -\n- - 2 2 - - - 3 - -\n- - - - 1 - - - 1 -\n3 - - - - 2 - - - -\n- 1 - - - 3 - - - 2\n- - - - - - - - - -\n- - - - - 7 - - - -",
+      "solution": "10 10\n- se ew ew ew ew ew ew ew sw\n- ns se ew ew ew ew ew ew nw\n- ns ne ew sw se ew ew ew sw\nse nw - - ns ne ew ew sw ns\nne sw se ew nw se ew ew nw ns\nse nw ns - se nw - se sw ns\nns - ne sw ne ew sw ns ne nw\nns se sw ne ew ew nw ne ew sw\nne nw ns - - - - - - ns\n- - ne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/057.a.htm",
+      "info": ""
+    },
+    "58_10x10": {
+      "problem": "10 10\n- 8 - - - - - - - -\n- 7 - - - - - - 7 -\n- - 5 - - - - 5 - -\n- - - 3 - - 3 - - -\n- - - - 2 - - - - -\n- - - - - 2 - - - -\n- - - 3 - - 3 - - -\n- - 5 - - - - 5 - -\n- 7 - - - - - - 7 -\n- - - - - - - - 8 -",
+      "solution": "10 10\nse ew ew ew ew ew ew ew sw -\nne ew ew ew ew ew ew sw ns -\n- se ew ew ew ew sw ns ns -\n- ns se ew ew sw ns ns ns -\n- ns ns se ew nw ns ns ns -\n- ns ns ns se ew nw ns ns -\n- ns ns ns ne ew ew nw ns -\n- ns ns ne ew ew ew ew nw -\n- ns ne ew ew ew ew ew ew sw\n- ne ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/058.a.htm",
+      "info": ""
+    },
+    "59_10x10": {
+      "problem": "10 10\n9 - - - - - - - - -\n- 7 - - - - - - - -\n- - 5 - - - - - - -\n- - - 3 - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - 4 - - -\n- - - 2 - - - 6 - -\n- - - - - - 1 - 8 -\n- - - - - - - - - -",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se ew ew ew ew ew ew sw ns\nns ns se ew ew ew ew sw ns ns\nns ns ns se ew ew sw ns ns ns\nns ns ns ns - - ns ns ns ns\nns ns ns ns - - ns ns ns ns\nns ns ns ne sw - ns ns ns ns\nns ns ne ew nw se nw ns ns ns\nns ne ew ew ew nw se nw ns ns\nne ew ew ew ew ew nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/059.a.htm",
+      "info": ""
+    },
+    "60_10x10": {
+      "problem": "10 10\n- - - 4 - - 4 - - -\n- 2 - - - - 2 - - -\n- - - - - - - - - -\n- 2 - 4 - - 5 - - 5\n- - - - 1 - - - - -\n- - - - - - - - - -\n5 - - 5 - - 4 3 - -\n- - - - - 1 - - 1 -\n- - - 2 - - - - - -\n- - - - - - 4 - - -",
+      "solution": "10 10\n- - - se ew ew ew sw - -\nse ew sw ns - se ew nw - -\nns se nw ns se nw - - - -\nns ns - ns ne ew ew ew ew sw\nns ne sw ne sw se ew sw - ns\nns - ne ew nw ne sw ns - ns\nne ew ew ew ew sw ns ns - ns\n- - - - se nw ns ne sw ns\n- - se ew nw - ns - ne nw\n- - ne ew ew ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/060.a.htm",
+      "info": ""
+    },
+    "61_10x10": {
+      "problem": "10 10\n- - 2 - - - - - 5 -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - 5 - - - - 3\n- - - - - - - - - -\n- - - - - 7 - - - -\n- 6 - - - - 6 - - -\n- - - - - - - 5 - -\n- - 1 - - - - - 4 -\n- - - - - 7 - - - -",
+      "solution": "10 10\nse ew sw - se ew ew ew ew sw\nne sw ns - ne sw - se ew nw\n- ns ne ew sw ns se nw se sw\n- ns - - ns ns ns se nw ns\n- ns - - ns ns ns ns - ns\n- ns - - ns ns ns ns se nw\n- ns - - ns ns ns ns ns -\n- ne sw se nw ns ns ns ns -\n- se nw ne ew nw ne nw ns -\n- ne ew ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/061.a.htm",
+      "info": ""
+    },
+    "62_10x10": {
+      "problem": "10 10\n- - - - - 5 3 - - -\n- 3 - - - - - - - -\n2 - - - - - - - - 4\n- - - - 2 - - - - -\n- - - - - - - - - -\n- 1 - - - - - - - -\n- - 1 - 1 - 2 - - -\n- 1 - - 1 - - - - -\n- - - - - - - - 2 -\n3 - - - - - - - - 4",
+      "solution": "10 10\nse ew ew ew ew sw se ew ew sw\nne ew ew sw - ns ns - - ns\nse ew sw ne sw ns ns - - ns\nns - ne sw ns ns ne sw - ns\nne ew sw ne nw ns se nw se nw\n- se nw - se nw ns - ne sw\nse nw se sw ne sw ne ew sw ns\nns se nw ne sw ne sw - ns ns\nns ne ew sw ne sw ne ew nw ns\nne ew ew nw - ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/062.a.htm",
+      "info": ""
+    },
+    "63_10x10": {
+      "problem": "10 10\n3 - - - - - - - - 5\n- - - - - - - - 3 -\n- - 4 - - - - - - -\n- - - 3 - - - 1 - -\n- - - - - 1 - - - -\n- - - - 1 - - - - -\n- - 1 - - - 3 - - -\n- - - - - - - 4 - -\n- 3 - - - - - - - -\n5 - - - - - - - - 3",
+      "solution": "10 10\nse ew ew sw se ew ew ew ew sw\nns - - ne nw se ew ew sw ns\nns se ew ew ew nw - - ns ns\nne nw se ew ew sw se sw ns ns\nse ew nw - - ne nw ne nw ns\nns se sw se sw - - se ew nw\nns ns ne nw ne ew ew nw se sw\nns ns - - se ew ew ew nw ns\nns ne ew ew nw se sw - - ns\nne ew ew ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/063.a.htm",
+      "info": ""
+    },
+    "64_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- 7 7 7 7 7 7 7 7 -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - 7 7 7 7 - - -\n2 - - - - - - - - -",
+      "solution": "10 10\n- se sw se sw se sw se sw -\n- ns ns ns ns ns ns ns ns -\n- ns ns ns ns ns ns ns ns -\n- ns ns ns ns ns ns ns ns -\n- ns ns ns ns ns ns ns ns -\n- ns ns ns ns ns ns ns ns -\n- ns ns ns ns ns ns ns ns -\nse nw ne nw ne nw ne nw ne sw\nns - se ew ew ew ew ew ew nw\nne ew nw - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/064.a.htm",
+      "info": ""
+    },
+    "65_9x9": {
+      "problem": "9 9\n- - - - - 3 - - -\n- 3 - - - - - 3 -\n- - - - - - - - -\n3 - - - 3 - - - -\n- - - 3 - 3 - - -\n- - - - 3 - - - 3\n- - - - - - - - -\n- 3 - - - - - 3 -\n- - - 3 - - - - -",
+      "solution": "9 9\n- - - - se ew ew sw -\nse ew ew sw ns se sw ns -\nns se ew nw ns ns ns ns -\nns ne ew ew nw ns ne nw -\nne ew ew sw - ne ew ew sw\n- se sw ns se ew ew sw ns\n- ns ns ns ns se ew nw ns\n- ns ne nw ns ne ew ew nw\n- ne ew ew nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/065.a.htm",
+      "info": ""
+    },
+    "66_10x10": {
+      "problem": "10 10\n- - 5 - - - - - - -\n2 - - - 1 2 3 - 2 -\n- 1 - - - - - - - -\n- 2 - - - - - 2 - -\n- 3 - - 1 - - - - -\n- - - - 2 - - 1 2 3\n- 2 - - 3 - - - - -\n- - 2 - - - - 1 - -\n- - 2 - - - - 2 - -\n2 - - - - - - 3 - -",
+      "solution": "10 10\nse ew ew ew ew sw se ew ew sw\nns se sw se sw ns ns se ew nw\nne nw ns ns ne nw ns ns - -\nse ew nw ne sw se nw ne ew sw\nne ew ew sw ne nw - se sw ns\n- se sw ne ew sw se nw ns ns\n- ns ne ew ew nw ne sw ne nw\nse nw se ew sw - se nw - -\nns - ns - ne sw ne ew sw -\nne ew nw - - ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/066.a.htm",
+      "info": ""
+    },
+    "67_10x10": {
+      "problem": "10 10\n- - 3 - 3 - - - - -\n- - - - - - 3 - - 3\n- - - - - - 3 - - -\n- 3 3 - - - - - - -\n- - - - 3 - - - - 3\n- - 3 3 - 3 - - - -\n- - - - - - - 3 - -\n- - 3 - 3 - 3 - - -\n- - - - - - - - - -\n- 3 - - - - - - - -",
+      "solution": "10 10\n- se ew ew sw se ew ew ew sw\nse nw se sw ns ne ew ew sw ns\nne sw ns ns ns se ew ew nw ns\n- ns ns ne nw ns se ew ew nw\n- ns ne ew ew nw ne ew ew sw\nse nw se ew ew sw se sw - ns\nne sw ns se sw ns ns ns - ns\n- ns ns ns ns ns ns ns se nw\n- ns ne nw ns ne nw ne nw -\n- ne ew ew nw - - - - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/067.a.htm",
+      "info": ""
+    },
+    "68_9x9": {
+      "problem": "9 9\n- - - - - - - - -\n- 2 - 2 - 2 - 2 -\n- - - - 2 - - - -\n- 2 - 1 - 1 - 2 -\n- - 2 - 2 - 2 - -\n- 2 - 2 - 1 - 2 -\n- - - - 2 - - - -\n- 2 - 2 - 1 - 2 -\n- - - - - - - - -",
+      "solution": "9 9\nse sw se ew ew sw - - -\nns ns ne ew sw ns se ew sw\nns ne ew sw ns ne nw se nw\nne ew sw ne nw se sw ns -\n- - ns se ew nw ns ne sw\nse ew nw ns se sw ne ew nw\nne sw se nw ns ne ew sw -\n- ns ne ew nw se sw ns -\n- ne ew ew ew nw ne nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/068.a.htm",
+      "info": ""
+    },
+    "69_10x10": {
+      "problem": "10 10\n9 - - - - - - - - -\n- 7 - - - - - - - -\n- - 2 - - 1 - - - -\n- - - - - - - - - -\n- - - - - 3 - 2 2 -\n- - 2 - 2 - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - 2 -\n- - - - - - - - - 4",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se ew ew ew ew ew ew sw ns\nns ns se ew sw se sw se nw ns\nns ns ns - ne nw ns ns - ns\nns ns ne ew ew sw ns ne ew nw\nns ns se ew sw ns ns se ew sw\nns ns ns - ns ns ns ne sw ns\nns ns ne sw ne nw ns - ns ns\nns ne ew nw se sw ne ew nw ns\nne ew ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/069.a.htm",
+      "info": ""
+    },
+    "70_10x10": {
+      "problem": "10 10\n9 - - - - - - - - - \n- 7 - - - - - - - - \n- - 2 - - 1 - - - - \n- - - - - - - - - - \n- - - - - 3 - 2 2 - \n- - 2 - 2 - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - 2 - \n- - - - - - - - - 4",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se ew ew ew ew ew ew sw ns\nns ns se ew sw se sw se nw ns\nns ns ns - ne nw ns ns - ns\nns ns ne ew ew sw ns ne ew nw\nns ns se ew sw ns ns se ew sw\nns ns ns - ns ns ns ne sw ns\nns ns ne sw ne nw ns - ns ns\nns ne ew nw se sw ne ew nw ns\nne ew ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/070.a.htm",
+      "info": ""
+    },
+    "71_10x10": {
+      "problem": "10 10\n- 2 - 2 - - - 2 - - \n- - 2 - - - 2 - - - \n- 2 - - 2 - - - 2 - \n- - - - - - - - - - \n2 - 2 - - - - 2 - 2 \n- - - 2 - - - - - - \n2 - 2 - - - 2 - - - \n- - - 2 - - - - - - \n- - - - 2 - 2 - - - \n- - - - - - - 2 - 2",
+      "solution": "10 10\nse ew sw se ew sw se ew sw -\nne sw ns ns se nw ns - ne sw\n- ns ne nw ns se nw se ew nw\nse nw se sw ne nw - ne ew sw\nns - ns ns - - se ew sw ns\nne ew nw ne ew sw ns - ne nw\nse ew sw se ew nw ne ew sw -\nns - ns ns se sw se sw ne sw\nne sw ne nw ns ns ns ns - ns\n- ne ew ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/071.a.htm",
+      "info": ""
+    },
+    "72_10x10": {
+      "problem": "10 10\n- - - - - - - - - - \n- 7 7 7 7 7 7 7 7 - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - 7 7 7 7 - - - \n2 - - - - - - - - -",
+      "solution": "10 10\n- se sw se sw se sw se sw -\n- ns ns ns ns ns ns ns ns -\n- ns ns ns ns ns ns ns ns -\n- ns ns ns ns ns ns ns ns -\n- ns ns ns ns ns ns ns ns -\n- ns ns ns ns ns ns ns ns -\n- ns ns ns ns ns ns ns ns -\nse nw ne nw ne nw ne nw ne sw\nns - se ew ew ew ew ew ew nw\nne ew nw - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/072.a.htm",
+      "info": ""
+    },
+    "73_10x10": {
+      "problem": "10 10\n5 - - - - - - - - 0 \n- - - - - 5 - - - - \n- - - - - - 5 - - - \n- - - 5 - - - - - - \n- - 5 - 5 - - - - - \n- - - 5 - - - - - - \n- - - - - - - - - - \n- 5 - - - - - - - - \n- - 5 - - 5 - 5 - - \n- - - - - - - - - -",
+      "solution": "10 10\nse ew ew ew ew sw se ew ew sw\nns se sw se sw ns ns - - ns\nns ns ns ns ns ns ns - - ns\nns ns ns ns ns ns ns - se nw\nns ns ns ns ns ns ns se nw -\nne nw ns ns ns ne nw ns - -\n- - ne nw ne sw - ns - -\nse ew ew ew ew nw - ns - -\nns se ew ew ew ew sw ns - -\nne nw - - - - ne nw - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/073.a.htm",
+      "info": ""
+    },
+    "74_11x11": {
+      "problem": "11 11\n- - - - - - - 2 - - - \n10 9 8 6 - - - - - - - \n- - - - - - 2 2 2 - - \n- - - - - - 2 2 2 - - \n- - - - - - 2 2 2 - - \n- - - - 5 - - - - - - \n- - - - - - - - - - - \n- - - - - 4 - - - - 6 \n- - - - - - - - - - - \n- - - - - - 3 - - - - \n- - - - - - - 5 - - -",
+      "solution": "11 11\nse sw se sw - - - se ew sw -\nns ns ns ns se sw - ns se nw -\nns ns ns ns ns ne ew nw ns se sw\nns ns ns ns ns - se ew nw ns ns\nns ns ns ns ns - ns se ew nw ns\nns ns ns ns ns se nw ns - - ns\nns ns ns ne nw ne ew nw - - ns\nns ns ns - se ew ew ew sw - ns\nns ns ne sw ns - - - ns se nw\nns ne ew nw ns se ew ew nw ne sw\nne ew ew ew nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/074.a.htm",
+      "info": ""
+    },
+    "75_10x10": {
+      "problem": "10 10\n- - - - - - - - - - \n1 - - - - - - - - - \n- - - 2 2 2 2 2 - - \n- - - 2 2 2 2 2 - - \n- - - 2 2 2 2 2 - - \n- - - 2 2 2 2 2 - 2 \n- - - 2 2 2 2 2 - - \n- 6 - - - - - - - - \n- - - 2 - - - - - - \n- - - - - - - - 1 -",
+      "solution": "10 10\nse ew ew ew ew ew sw - - -\nne sw se ew ew sw ns - - -\nse nw ne ew sw ns ne ew sw -\nns se ew sw ns ne ew sw ne sw\nns ns - ns ne ew sw ns - ns\nns ns - ne ew sw ns ne ew nw\nns ns se ew sw ns ne ew sw -\nns ns ne sw ns ne sw - ne sw\nns ns - ns ne ew nw se sw ns\nne nw - ne ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/075.a.htm",
+      "info": ""
+    },
+    "76_10x10": {
+      "problem": "10 10\n- 1 - 1 - 1 - - - - \n- - - - - - - - - 4 \n- - 4 - 4 - - 3 - - \n- - - - - - - - - 4 \n3 - - - - - - 4 - - \n- - 4 - - - - - - 4 \n3 - - - - - - - - - \n- - 1 - - 1 - 2 - - \n3 - - - - - - - - - \n- - - - 2 - 2 - 2 -",
+      "solution": "10 10\n- se sw se sw se sw se ew sw\nse nw ne nw ne nw ns ns - ns\nns se ew ew ew sw ns ns - ns\nns ne ew sw se nw ne nw - ns\nne ew ew nw ns se ew ew ew nw\nse ew ew ew nw ne ew ew ew sw\nns - se ew ew sw - - - ns\nns - ne sw se nw se ew sw ns\nne ew ew nw ns - ns se nw ns\n- - - - ne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/076.a.htm",
+      "info": ""
+    },
+    "77_10x10": {
+      "problem": "10 10\n- - - - - - - - - 8 \n- 1 1 - - - - - 4 - \n- - - 3 - - - - - - \n- 1 - - - - 3 - - - \n- - - - 1 - - 1 - - \n- 1 - - - 2 - 1 - - \n- - - - - - - - 2 - \n- - - - 2 - - 2 - - \n- - - - - - - - - - \n3 - - - - - 3 - - -",
+      "solution": "10 10\n- se ew ew ew ew ew ew ew sw\nse nw se sw se ew ew ew sw ns\nns se nw ns ne ew ew sw ns ns\nns ne sw ns se ew ew nw ns ns\nns - ns ne nw - se sw ns ns\nne sw ns se ew sw ns ne nw ns\nse nw ne nw - ns ne ew sw ns\nns - se ew sw ne ew sw ns ns\nns - ne sw ns - - ns ne nw\nne ew ew nw ne ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/077.a.htm",
+      "info": ""
+    },
+    "78_10x10": {
+      "problem": "10 10\n2 - - - - 2 - - - - \n- - - - - - - - - 2 \n- - 2 - - - - 2 - - \n- - - 2 - - - - 2 - \n2 - - - 2 - 2 - - 2 \n- 2 - - - - - 2 - - \n- - - - - - 2 - - - \n- - - 2 - - - - - - \n2 - - - 2 - - - 2 - \n- 2 - - - 2 - - - -",
+      "solution": "10 10\nse ew sw se ew sw se ew ew sw\nns - ns ne sw ns ns se sw ns\nne sw ne ew nw ne nw ns ne nw\nse nw se ew sw - - ne ew sw\nns - ns - ns se ew sw - ns\nne ew nw se nw ne sw ns se nw\n- se ew nw - - ns ne nw -\nse nw se ew sw - ne ew sw -\nns - ns - ns - se sw ns -\nne ew nw - ne ew nw ne nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/078.a.htm",
+      "info": ""
+    },
+    "79_10x10": {
+      "problem": "10 10\n- 3 - - - 3 - - - - \n- - - - - - 2 - - - \n- - - - - - - - - 2 \n- - - - - - - 3 - - \n- - 2 - - - - - - - \n- 4 - - - - 1 - - 5 \n6 - - - - - - - - - \n- - - 1 - - - - - - \n1 - - - - - - 3 - - \n- - - - - - - - 8 -",
+      "solution": "10 10\nse ew ew sw se ew ew sw - -\nns se ew nw ns se ew nw se sw\nns ns se ew nw ne ew ew nw ns\nns ns ns - se sw se ew ew nw\nns ns ne ew nw ns ne ew ew sw\nns ne ew ew ew nw se sw - ns\nne ew ew ew ew ew nw ns - ns\nse ew sw se sw - - ns - ns\nne sw ne nw ne ew ew nw - ns\n- ne ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/079.a.htm",
+      "info": ""
+    },
+    "80_10x10": {
+      "problem": "10 10\n- 1 - 1 - - - 2 - - \n- - - - 1 - - 1 - - \n- 2 - 1 - - - - - 2 \n- 1 - - - 2 - - - - \n1 - - - 1 - - 1 - - \n- - - 2 - - 1 - 1 - \n- 2 2 1 - - - 1 - - \n- - - - - 1 - - - - \n- - - - 1 - 1 - - 1 \n2 - - 1 - 1 - 1 - -",
+      "solution": "10 10\nse sw se sw - - se ew sw -\nns ne nw ne sw se nw se nw -\nne ew sw se nw ns - ne ew sw\n- se nw ne ew nw - - - ns\nse nw - - se sw se sw se nw\nne sw se ew nw ne nw ne nw -\n- ns ns se sw se sw se sw -\nse nw ne nw ne nw ne nw ne sw\nns - se sw se sw se sw se nw\nne ew nw ne nw ne nw ne nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/080.a.htm",
+      "info": ""
+    },
+    "81_8x8": {
+      "problem": "8 8\n- 7 - - - 7 - -\n- - 3 - - - - -\n- - - - - - 1 3\n- 1 2 1 - - 1 -\n- - - - - - 1 -\n- - - 2 - - - -\n3 - - - - - - -\n- - - - 3 - - 3",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nns se ew ew sw - - ns\nne nw se sw ns se sw ns\nse sw ns ne nw ns ne nw\nns ne nw se sw ns se sw\nns - - ns ns ne nw ns\nne ew ew nw ns - - ns\n- - - - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/081.a.htm",
+      "info": ""
+    },
+    "82_8x8": {
+      "problem": "8 8\n- - - 3 - - 3 -\n- - - - 2 - - -\n7 - - - - - - 7\n- - 2 - - 2 - -\n- - - - 4 - - -\n- - - - - - - -\n7 - - 1 - - - 7\n- - 2 - - - 4 -",
+      "solution": "8 8\nse ew ew sw se ew ew sw\nns - - ns ns - - ns\nns - - ns ne sw - ns\nns se ew nw - ns - ns\nns ne ew ew ew nw - ns\nns - se ew sw - - ns\nns - ns se nw - - ns\nne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/082.a.htm",
+      "info": ""
+    },
+    "83_10x10": {
+      "problem": "10 10\n- - - 7 - - - 7 - -\n6 - - - - - - - 1 -\n- 5 - - - 2 2 2 - -\n- - - - - 2 - - - -\n- - 5 3 - - - - 4 -\n- - - - 2 - - 3 - -\n- - - - - - - - - 6\n- 1 - - 1 - 4 - - -\n2 - 2 - - - - - - -\n- 9 - 9 - - 9 - - -",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ns ns - - se sw se sw ns\nns ns ns - - ns ns ns ne nw\nns ns ns se ew nw ne nw se sw\nns ns ns ns se sw se sw ns ns\nns ne nw ns ns ns ns ns ns ns\nne ew sw ne nw ns ns ns ns ns\nse sw ne sw se nw ns ne nw ns\nns ne ew nw ne ew nw - - ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/083.a.htm",
+      "info": ""
+    },
+    "84_10x10": {
+      "problem": "10 10\n- - - - - - - - - 2\n4 - - - - 5 - 5 - -\n- - 2 - 2 - - - - -\n- - - - 3 - - 5 - -\n- - - - - - - - 3 -\n- - 3 - - - - - - -\n- - - 1 - - - - - -\n4 - - - 4 - 1 - - -\n- 2 - - - 2 - 1 - 4\n- - - - - - 3 - 1 -",
+      "solution": "10 10\nse ew sw - se sw - se ew sw\nns - ns - ns ns - ns - ns\nns - ne ew nw ns - ns se nw\nns se ew ew sw ns - ns ns -\nne nw - - ns ns - ns ns -\nse ew ew sw ns ne ew nw ne sw\nns - - ne nw se ew sw - ns\nns se ew ew ew nw se nw - ns\nns ns - - se ew nw se sw ns\nne nw - - ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/084.a.htm",
+      "info": ""
+    },
+    "85_12x12": {
+      "problem": "12 12\n- - 3 - - 1 - - - - 1 -\n- - - 2 - - 5 5 - 5 - 4\n3 - 1 - 3 - - 4 - - - -\n- - - 2 - 1 - - - - - 4\n- 2 - - 1 - 2 - - 2 - -\n- - - 2 - - - - 2 - - -\n2 - - - - 4 - - - - 2 -\n- - - - 9 - - - 9 - - 2\n3 3 - - - - - - - 2 - -\n3 - - - 6 - - 6 - - 2 -\n3 - - - - - - - 3 - - 1\n- 6 - 6 - 6 - - - - 2 -",
+      "solution": "12 12\nse ew ew sw se sw - - - - se sw\nns - - ns ns ne ew ew ew ew nw ns\nns - se nw ns se ew ew ew sw - ns\nne sw ne ew nw ne sw - - ns - ns\n- ns - se sw - ns - - ne ew nw\nse nw - ns ne ew nw se ew sw - -\nns - - ne ew ew ew nw - ne ew sw\nne ew ew ew ew ew ew ew ew sw - ns\nse ew ew sw - - - - - ns se nw\nns - - ne ew ew ew ew ew nw ns -\nns - - - - - se ew ew sw ne sw\nne ew ew ew ew ew nw - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/085.a.htm",
+      "info": ""
+    },
+    "86_12x12": {
+      "problem": "12 12\n- - - - - - 2 2 - 3 3 -\n- 2 - - - 1 - 2 - - - 2\n4 - - 2 - 2 - - - - - -\n4 1 - - - 2 - 2 - 2 2 -\n- 1 2 - 4 - - 3 - - 2 -\n- 1 - - 4 - - - - - - -\n- 1 - - 4 - 4 - - - - -\n4 - 2 - - - - - 3 5 5 -\n- - - 3 3 - 4 - - - 5 6\n- - - - - - - 2 - - 5 6\n- 2 - - 2 2 1 - - 5 - -\n- 3 - - - - - 3 3 - - -",
+      "solution": "12 12\nse sw se sw - se ew sw se ew ew sw\nns ns ns ns - ne sw ns ns se sw ns\nns ne nw ne ew sw ns ne nw ns ne nw\nns se sw se sw ns ne ew sw ne ew sw\nne nw ns ns ns ne ew ew nw se ew nw\nse sw ne nw ns - se ew sw ne ew sw\nns ne sw - ns - ns - ns se sw ns\nns - ns - ne sw ns - ns ns ns ns\nns - ne ew ew nw ns se nw ns ns ns\nne ew sw se sw se nw ns - ns ns ns\nse ew nw ns ns ns se nw - ns ns ns\nne ew ew nw ne nw ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/086.a.htm",
+      "info": ""
+    },
+    "87_12x12": {
+      "problem": "12 12\n- - 3 - - - - - 2 - - -\n- - - - - - 2 - - - 2 -\n- - 3 - - - - - 5 - - 4\n- - - - 2 1 - - - - - -\n5 - - 3 - - 2 - - - 3 -\n- - - - - 2 - - 3 - - -\n- - - - - - - - - 1 - -\n- - - - - - - - - 2 - -\n- 4 3 2 - - - 2 - - - -\n- - - - - - 1 - 1 - - 3\n2 - - - - 3 - - - - - -\n- - 6 - 6 - - - - 4 - -",
+      "solution": "12 12\nse sw se ew ew sw - se ew sw - -\nns ns ns - - ne ew nw - ne ew sw\nns ns ns se sw se ew ew ew ew sw ns\nns ne nw ns ns ne sw - - - ns ns\nns - - ns ne sw ns - - - ns ns\nne sw - ne sw ns ne ew ew sw ne nw\n- ns se sw ns ne ew sw - ne sw -\n- ns ns ns ne sw - ne ew sw ns -\n- ns ns ne ew nw se ew sw ns ne sw\nse nw ne sw - - ne sw ne nw - ns\nns - - ne ew ew sw ns - - - ns\nne ew ew ew ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/087.a.htm",
+      "info": ""
+    },
+    "88_12x12": {
+      "problem": "12 12\n- 2 - - - - 2 - - - 2 -\n1 - - - 3 - - - - - - 1\n- - - 4 - - - - 1 - 2 -\n- 3 - - - - - 2 - 2 - -\n- - - 1 - - - - - - - -\n- - 3 - 2 3 - 2 - - - 3\n- 3 - - - - 3 - - - 1 -\n- - - - 3 - - 2 - - - -\n- - - - - - - - - - - -\n- - - - 5 - - - 3 - - -\n2 - 2 - - - - - - - 4 -\n- - - - - 7 - - 7 - - -",
+      "solution": "12 12\nse ew sw - - se ew sw - se ew sw\nne sw ne ew ew nw - ne ew nw se nw\n- ns se ew ew ew sw - se sw ns -\n- ns ns - - - ne ew nw ns ne sw\nse nw ne sw se sw se sw se nw - ns\nne ew ew nw ns ns ns ns ns se sw ns\n- se ew ew nw ns ns ne nw ns ne nw\n- ns se ew ew nw ne ew sw ne sw -\n- ns ns - - - - - ns - ns -\nse nw ne ew ew ew ew sw ns - ns -\nns se ew sw - - - ne nw - ns -\nne nw - ne ew ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/088.a.htm",
+      "info": ""
+    },
+    "89_14x14": {
+      "problem": "14 14\n- - 4 - - - - 7 7 7 7 - 7 -\n- - 3 - 3 - - 1 - - - - - 1\n- - - - - 2 2 - - - 3 - 2 -\n- 5 - 1 - - - - 1 - - 6 - -\n- 5 - 1 2 - - 3 2 2 - - - 2\n- - - - - - - - - - - 6 1 -\n2 - - 3 - - 3 - - - - 6 1 -\n- 1 - 2 - 3 3 3 - - - - - -\n- 2 - - - - - - - 4 7 - - 2\n- - - 5 - - - - - - 7 - - -\n- 2 - - - 2 3 - - - - - - 3\n3 - - 3 3 - - - 3 - - - 2 -\n- - - - - 2 - - - - - 3 3 3\n- 4 - 4 - - - - - 4 - - - -",
+      "solution": "14 14\n- se ew ew ew sw se ew ew ew ew ew ew sw\n- ns se ew ew nw ne sw - - - - se nw\n- ns ns - - se ew nw se ew ew sw ns -\n- ns ns se sw ns - se nw - - ns ne sw\n- ns ne nw ns ne sw ns se ew sw ns - ns\nse nw - - ne sw ns ns ns - ns ns se nw\nns se ew ew sw ns ns ne nw - ns ns ne sw\nne nw se ew nw ns ne ew ew sw ns ns - ns\nse ew nw - - ne sw - - ns ns ne ew nw\nne ew ew ew ew sw ns - - ns ns - se sw\nse ew sw - - ns ns - - ns ns - ns ns\nns - ne ew ew nw ne ew ew nw ne ew nw ns\nns - - - se ew sw - - - se ew ew nw\nne ew ew ew nw - ne ew ew ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/089.a.htm",
+      "info": ""
+    },
+    "90_14x14": {
+      "problem": "14 14\n- - 5 - 5 - - - - - - - 4 -\n3 - - - - 1 1 1 1 - - - - 1\n3 - - 4 - - - - - 2 2 - 2 -\n- - 2 - - - 1 1 3 - - 3 - -\n- 2 - - - - 1 1 3 - - - - -\n1 - - - 3 - - 2 - - 2 - - -\n- 2 - - - - 2 - - 3 - - 2 -\n- - - 2 - - - - - 3 3 - - 10\n6 - - 1 - - - - 2 - 3 - - -\n- 3 - - - 2 - - - 4 - 3 - -\n6 - 2 - - 1 1 - - - - - - 10\n- - - - 2 - - 2 - 2 1 - - -\n6 - - - - 3 - - 1 - - - - 10\n- 4 4 4 - - - - - - 6 6 6 -",
+      "solution": "14 14\nse ew ew ew ew sw se ew sw se ew ew ew sw\nns - - - - ne nw se nw ns - - se nw\nns - se ew ew ew sw ne sw ne ew sw ns -\nne sw ns - se sw ne sw ns - - ns ne sw\n- ns ne sw ns ns se nw ns - - ns - ns\nse nw - ns ns ns ne ew nw se ew nw - ns\nne ew sw ne nw ne ew sw - ns se ew sw ns\nse sw ne ew sw se sw ns - ns ns - ns ns\nns ns - se nw ns ns ne ew nw ns se nw ns\nns ns - ne ew nw ne ew ew ew nw ns - ns\nns ne ew sw - se sw - - se sw ns - ns\nns - - ne ew nw ne ew sw ns ne nw - ns\nns - - - se ew ew sw ne nw - - - ns\nne ew ew ew nw - - ne ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/090.a.htm",
+      "info": ""
+    },
+    "91_8x8": {
+      "problem": "8 8\n- - - - - - 5 -\n7 - 2 1 - - - -\n- - - - - - 1 3\n- 3 - - - - - -\n- - - 2 - - 1 -\n- - - - - - - 3\n- - - - 1 - - -\n7 - - 7 - - 7 -",
+      "solution": "8 8\nse sw se ew ew ew ew sw\nns ns ns se sw - - ns\nns ns ne nw ns se sw ns\nns ne ew ew nw ns ne nw\nns - - se ew nw se sw\nns - - ns se ew nw ns\nns - - ne nw - - ns\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/091.a.htm",
+      "info": ""
+    },
+    "92_8x8": {
+      "problem": "8 8\n- 2 - - - - - 2\n- - - 3 - - - -\n2 - - - - 4 - -\n- 2 - 2 - - - -\n- - - - 1 - - -\n2 - - - - 2 1 -\n2 - - 2 - - - -\n- - 3 - 2 - - -",
+      "solution": "8 8\nse ew sw - - se ew sw\nns - ne ew ew nw - ns\nne ew sw se ew ew ew nw\nse ew nw ns se ew ew sw\nne ew sw ne nw se sw ns\nse ew nw se sw ns ne nw\nns - - ns ns ne sw -\nne ew ew nw ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/092.a.htm",
+      "info": ""
+    },
+    "93_10x10": {
+      "problem": "10 10\n- 1 - - - 5 - 5 - -\n5 - 3 - - - 1 - - 3\n- - 2 - - 2 - 2 - -\n5 - - - 1 - - - 1 -\n- - - - - - - 7 - -\n- - - - - 6 - - - 5\n- 2 - - - - - - - -\n- - - 3 - - - 1 - 5\n3 - - - - - - - - -\n- - - - - 6 - - 2 -",
+      "solution": "10 10\nse sw - - se ew ew ew ew sw\nns ne ew ew nw se sw - - ns\nns - se ew sw ns ne ew sw ns\nns - ns - ne nw - - ne nw\nns - ne ew ew ew ew ew ew sw\nne ew ew ew ew ew sw - - ns\nse ew sw - - se nw se sw ns\nns - ne ew ew nw se nw ns ns\nns - - - - - ns se nw ns\nne ew ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/093.a.htm",
+      "info": ""
+    },
+    "94_10x10": {
+      "problem": "10 10\n- - - - - - - 6 - -\n- - 2 - - - - - - 1\n- - - - 6 - - - - -\n- - - 1 - - - 5 - -\n- - 2 - - - 1 - - -\n6 - - - 2 - - - 3 -\n- - - 4 - 3 - - - 3\n- - - - 2 - - - - -\n- - 3 - - - - - 2 -\n- 7 - 7 - - - - - -",
+      "solution": "10 10\nse sw se ew ew ew ew ew sw -\nns ns ns - - - - - ne sw\nns ne nw se ew ew ew ew ew nw\nns - se nw se ew ew ew ew sw\nns - ns - ns se sw - - ns\nns - ne ew nw ns ne ew ew nw\nne ew ew ew sw ns se ew ew sw\nse sw - - ns ne nw se sw ns\nns ne ew ew nw - - ns ns ns\nne ew ew ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/094.a.htm",
+      "info": ""
+    },
+    "95_12x12": {
+      "problem": "12 12\n2 2 - - - - - 4 - - 1 -\n- - - - - - - - - 2 - 3\n- - - 6 - 6 - 6 - - 1 -\n- 2 - - - - 3 3 - 2 1 -\n- - 3 - - - 3 - - 2 - -\n- - - 3 3 - - - 1 - - 2\n3 - - - - 2 - 2 - 2 - -\n- 5 5 - 5 - - 1 1 - 2 -\n2 - - - - - 2 - - - - -\n2 - - 2 - - - - 2 - - -\n- - 5 5 - - - 1 1 - - 3\n- - - - - - - 3 - - 2 -",
+      "solution": "12 12\nse ew sw - se ew ew ew sw - se sw\nns - ne ew nw - - - ne ew nw ns\nne sw se ew ew ew ew ew sw se sw ns\n- ns ns - - se ew ew nw ns ne nw\nse nw ns - - ne ew ew sw ne ew sw\nns - ne ew ew sw - - ne sw - ns\nns - - - - ns se ew sw ns se nw\nne ew ew ew ew nw ne sw ne nw ns -\nse ew sw - se ew sw ne ew sw ne sw\nns - ne ew nw - ns se ew nw - ns\nne ew ew ew ew sw ne nw se sw - ns\n- - - - - ne ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/095.a.htm",
+      "info": ""
+    },
+    "96_12x12": {
+      "problem": "12 12\n- 2 - - - - - 6 - 6 6 -\n- - 6 5 4 - - 1 - - - 11\n4 - - 5 4 - - - 2 - - -\n4 - - - 4 - 4 - 1 1 1 -\n- - - - - - 4 2 - 2 - 11\n- - 6 - 3 3 - - - - - 11\n- - - 8 - 8 - - 8 8 - -\n5 - 1 - - - - - 3 - - 11\n- 2 - 2 - 2 - - - - - -\n5 2 2 2 1 - - 1 - 3 4 11\n- - - 2 - - 2 - - - - 11\n- - 3 - - - 4 4 - - - -",
+      "solution": "12 12\nse ew sw se sw se ew ew ew ew ew sw\nns - ns ns ns ns se sw - - - ns\nns - ns ns ns ns ns ne ew sw - ns\nns - ns ns ns ns ns se sw ne sw ns\nne sw ns ns ne nw ns ns ne ew nw ns\n- ns ns ne ew ew nw ne ew ew sw ns\nse nw ne ew ew ew ew ew ew ew nw ns\nns se sw - - se sw se ew ew sw ns\nns ns ne ew sw ns ns ne ew sw ns ns\nns ne ew sw ne nw ne sw - ns ns ns\nns - - ns - se ew nw - ns ns ns\nne ew ew nw - ne ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/096.a.htm",
+      "info": ""
+    },
+    "97_12x12": {
+      "problem": "12 12\n- - 3 - - - 3 - - - 2 -\n- - - 1 - 6 - 1 - - 1 -\n4 - - - - - - - - - - 4\n- - - - - - - - 4 - - -\n- - - - 4 - - - - - - -\n- 2 2 - - 6 - - - 2 - -\n- - - - - - - - - - - -\n- - - 2 - - - - 5 - - 2\n- - - - - - - 4 - - 2 -\n4 - 3 - - - - - - - - 3\n- - - - 2 4 - - 2 - - -\n- 5 - - - - - 1 - - 2 -",
+      "solution": "12 12\nse ew ew sw - se ew ew sw se ew sw\nns - se nw - ns - se nw ne sw ns\nns - ne ew sw ns - ne ew ew nw ns\nns se sw - ns ns se ew ew ew sw ns\nne nw ns - ns ns ns - se sw ne nw\nse ew nw - ns ns ne sw ns ns se sw\nne ew ew sw ne nw - ns ns ne nw ns\nse ew sw ns - se sw ns ns se ew nw\nns - ns ne sw ns ns ns ns ne ew sw\nns - ns - ns ns ns ne nw - - ns\nns - ne ew nw ns ns se ew sw - ns\nne ew ew ew ew nw ne nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/097.a.htm",
+      "info": ""
+    },
+    "98_12x12": {
+      "problem": "12 12\n3 - - - 2 - - - - - 2 -\n- - - 1 - - - 3 - - - 3\n- - - - - - 2 - - - - -\n- - - - 3 - - - 4 - 4 -\n- - - - - - - 3 - 3 - -\n- 3 2 - - - - - 4 - - -\n- - 3 - - - - - - - - 4\n- - - - - - 1 - - - - -\n- - - - - - - 2 - - 2 -\n- 2 - 2 - - - - - - - -\n1 - - - - 4 - - - - - -\n- - - 4 - - - - - - - 2",
+      "solution": "12 12\nse ew ew sw se ew sw - - se ew sw\nns - se nw ns - ne ew ew nw - ns\nns - ne ew nw se ew sw - - - ns\nne sw se ew ew nw - ne ew ew ew nw\n- ns ns - se ew ew sw se ew ew sw\n- ns ne ew nw - - ns ns - - ns\nse nw se ew ew sw - ns ns - - ns\nns - ns - - ns se nw ns - - ns\nne sw ns - - ns ne ew nw se ew nw\n- ns ne ew sw ns - - - ne ew sw\nse nw - - ns ne ew ew ew sw - ns\nne ew ew ew nw - - - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/098.a.htm",
+      "info": ""
+    },
+    "99_14x14": {
+      "problem": "14 14\n- - - 3 - - - 2 - - - - 2 -\n11 - - - 3 2 1 1 - 3 3 - - 3\n- - - 3 3 - - - - - 1 - - -\n- - 1 - - - - - 1 1 - 4 - -\n- - 1 1 - - 6 - 1 - - 4 - -\n11 - - 1 - 4 - - 1 - - - - -\n11 - 2 - - - 6 - - - - - - -\n11 - - 3 - - - 5 - - 3 - - 4\n- - - - - 4 - - - 6 - - - 4\n- - - - - - - - - 6 - - - -\n- - 3 - - - - - - - 1 - - -\n- 1 - 5 5 - 5 - - - 1 - 3 -\n1 1 - - - - - - 2 2 - - - 1\n- - 8 - 8 8 - 8 - - - 4 4 -",
+      "solution": "14 14\nse ew ew sw se sw se ew sw - - se ew sw\nns - - ns ns ns ne sw ne ew ew nw - ns\nns - - ns ns ne sw ne ew sw se sw - ns\nns - se nw ne sw ns se sw ne nw ns se nw\nns - ne sw - ns ns ns ne sw - ns ns -\nns - se nw - ns ns ne sw ns - ns ne sw\nns - ns - - ns ns se nw ns se nw - ns\nns - ne ew ew nw ns ns - ns ns - - ns\nns - se ew ew ew nw ns - ns ns - - ns\nns - ns - - - - ns - ns ne sw se nw\nns - ns - - - - ns - ne sw ns ns -\nne sw ne ew ew ew ew nw se sw ne nw ns -\nse nw - - - - - - ns ns - - ne sw\nne ew ew ew ew ew ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/099.a.htm",
+      "info": ""
+    },
+    "100_14x14": {
+      "problem": "14 14\n- 5 - - 5 - - - 2 - - 1 - -\n2 - - - - - - 1 - - 2 - 2 -\n- - - 1 - 3 2 - 2 - - - - -\n- - 2 - 2 - - 1 - - 1 - - 2\n- - - 1 - 3 3 - - 1 - 4 - -\n2 - 1 1 - - - - - - - 4 - -\n- 1 - - - 1 1 1 - 1 - - - 1\n- - 4 - 4 - 1 1 1 - - - 2 -\n- 2 - - - - 3 - - - - - - -\n5 - - 2 - - - 4 - - - 2 - -\n- - - - - - - - 3 - - - - 4\n- - - - 3 - - 2 - - - - - -\n5 - - 2 - 2 1 - - - 2 - - 4\n- 2 - - 1 - - - 4 - - 2 2 -",
+      "solution": "14 14\nse ew ew ew ew sw - se ew sw - se sw -\nns - - - - ns se nw - ne ew nw ns -\nne sw se sw - ns ns - se ew sw - ne sw\n- ns ns ne ew nw ne sw ns - ne sw - ns\nse nw ne sw se ew ew nw ne sw - ns se nw\nns - se nw ns - - se ew nw - ns ns -\nne sw ne ew nw se sw ne sw se sw ns ne sw\n- ne ew ew ew nw ne sw ne nw ns ne ew nw\nse ew sw - se ew ew nw - - ne sw - -\nns - ne ew nw - se ew ew ew sw ns se sw\nns - se ew ew ew nw se ew ew nw ne nw ns\nns - ne ew ew sw - ns - - se sw - ns\nns - se ew sw ns se nw - - ns ns - ns\nne ew nw - ne nw ne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Geradeweg/100.a.htm",
+      "info": ""
+    }
+  }
+}

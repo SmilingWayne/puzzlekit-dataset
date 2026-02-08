@@ -1,0 +1,427 @@
+{
+  "count": 70,
+  "count_sol": 70,
+  "name": "RegionalYajilin",
+  "data": {
+    "01_8x8": {
+      "problem": "8 8\n1 - - - - - 1 -\n- - - - - - - -\n- 2 - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - 2 - - - - -\n- - - - - 0 - -\n- - - - - - - -\n1 1 2 2 2 2 6 7\n1 2 2 2 2 2 6 6\n2 3 3 2 2 2 2 2\n2 3 3 2 2 2 2 2\n2 2 2 2 2 2 2 2\n2 2 4 4 4 2 2 2\n2 2 2 2 2 5 5 5\n2 2 2 2 2 5 5 5",
+      "solution": "8 8\nx se ew ew ew ew ew sw\nse nw se ew ew sw x ns\nns x ne sw x ne sw ns\nne sw x ne sw x ns ns\nx ne ew sw ne sw ne nw\nse sw x ns x ne sw x\nns ne ew nw se sw ne sw\nne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/001.a.htm",
+      "info": ""
+    },
+    "02_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- 4 - - - - - - - -\n- - - - - - - 1 - -\n- - - - - - - - - -\n- - - 4 - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - 1 - 4 - - - -\n- 1 - - - - - - - -\n- - - - - - - - - -\n1 1 1 2 1 1 1 1 1 1\n1 2 2 2 2 2 1 1 1 1\n1 1 1 2 1 1 1 7 1 1\n1 1 1 1 1 4 1 1 1 1\n1 1 1 4 4 4 4 4 1 1\n1 1 1 1 1 4 1 1 1 1\n1 1 1 1 1 1 1 6 1 1\n1 1 1 5 1 6 6 6 6 6\n1 3 1 1 1 1 1 6 1 1\n1 1 1 1 1 1 1 1 1 1",
+      "solution": "10 10\nse ew sw x se ew ew ew ew sw\nns x ne ew nw x se ew sw ns\nns se sw x se ew nw x ne nw\nns ns ne ew nw x se ew sw x\nns ne sw x se ew nw x ne sw\nns se nw se nw x se ew sw ns\nns ns se nw se ew nw x ne nw\nns ne nw x ns x se ew sw x\nns x se sw ne ew nw x ne sw\nne ew nw ne ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/002.a.htm",
+      "info": ""
+    },
+    "03_7x13": {
+      "problem": "7 13\n0 - - 2 - - - - 3 - - - -\n- - - - - - 2 - - - 3 - -\n- 1 - - 2 - - - - - - - -\n- - - - - - - - - - - - -\n- - - - - - - - - - - - -\n- - - - - - - - - - - - -\n- - - - 1 - - - - - - - -\n1 4 3 6 8 8 8 15 17 18 18 18 20\n1 1 3 6 9 8 15 15 17 18 19 18 20\n1 5 3 6 10 10 10 15 17 18 19 18 20\n1 5 3 6 11 11 10 15 17 18 19 18 20\n1 1 3 7 12 12 12 15 17 18 19 18 20\n2 2 3 7 13 14 15 15 16 18 19 18 20\n3 3 3 7 14 14 14 16 16 18 18 18 20",
+      "solution": "7 13\nse ew sw x se ew ew sw x se ew sw x\nne sw ne sw ne sw x ne ew nw x ne sw\nse nw se nw x ne ew sw x se ew sw ns\nns x ns x se sw x ne ew nw x ns ns\nne sw ne ew nw ne ew sw x se ew nw ns\nse nw x se ew sw x ne ew nw x se nw\nne ew ew nw x ne ew ew ew ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/003.a.htm",
+      "info": ""
+    },
+    "04_10x10": {
+      "problem": "10 10\n0 - - 1 - - - - - -\n- - - 1 - 1 - - - -\n1 - 2 - - 2 1 - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - 2 - - 2 - -\n- - - - - - - - - -\n- - - - - - - - - -\n0 - - - - - - - - -\n1 - - - - - - - - -\n1 1 1 7 7 7 7 7 7 7\n1 1 1 8 8 10 10 10 10 10\n2 2 5 8 8 11 13 13 16 16\n2 2 5 8 8 11 13 13 16 16\n2 2 5 8 8 11 13 13 16 16\n2 2 6 6 9 12 12 14 16 16\n2 2 6 6 9 12 12 14 16 16\n2 2 6 6 9 12 12 14 16 16\n3 3 3 3 3 12 12 15 15 15\n4 4 4 4 4 4 4 15 15 15",
+      "solution": "10 10\nse sw se ew ew ew ew ew sw x\nns ne nw x se ew sw x ne sw\nne sw x se nw x ne ew sw ns\nx ne ew nw se ew sw x ns ns\nse sw x se nw x ne ew nw ns\nns ne ew nw x se sw x se nw\nne sw x se ew nw ne ew nw x\nse nw se nw x se sw x se sw\nne sw ne ew ew nw ne ew nw ns\nx ne ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/004.a.htm",
+      "info": ""
+    },
+    "05_6x6": {
+      "problem": "6 6\n- - - 2 - 0\n- - - - - -\n- - - - - -\n3 - - - - -\n- - - - - -\n- - - - - -\n1 1 1 3 3 4\n1 2 1 3 3 4\n1 2 1 1 3 4\n2 2 2 1 1 4\n1 1 1 1 1 4\n1 1 1 1 1 1",
+      "solution": "6 6\nse ew sw x se sw\nns x ns se nw ns\nne sw ne nw x ns\nx ns x se sw ns\nse nw se nw ns ns\nne ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/005.a.htm",
+      "info": ""
+    },
+    "06_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - - - - -\n- 3 - - - - 4 - - -\n- - - - - - - - - -\n- - 4 - - - - - - -\n- - - - - - - - - -\n- - - - - - - 2 - -\n- - - - - - - - - -\n- - - - - - - - - -\n0 - - - - - - - - -\n1 1 1 1 1 1 1 5 1 1\n1 1 3 1 1 1 1 5 1 1\n1 3 3 3 3 1 5 5 5 1\n1 1 1 1 1 1 5 1 1 1\n1 1 4 4 1 1 5 1 1 1\n1 1 4 4 1 1 1 1 1 1\n1 1 1 4 4 1 1 6 1 1\n1 1 1 4 4 1 1 6 1 1\n1 1 1 1 1 1 1 6 1 1\n2 2 2 1 1 1 1 1 1 1",
+      "solution": "10 10\nx se ew sw se ew sw x se sw\nse nw x ne nw se nw se nw ns\nns x se sw x ns x ns x ns\nne sw ns ne sw ne ew nw se nw\nx ne nw x ne sw x se nw x\nse sw x se ew nw se nw se sw\nns ns se nw x se nw x ns ns\nns ne nw x se nw se ew nw ns\nns x se sw ne ew nw x se nw\nne ew nw ne ew ew ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/006.a.htm",
+      "info": ""
+    },
+    "07_10x18": {
+      "problem": "10 18\n0 - - - - - 2 - - - - - - - - 0 - -\n- - - - - - - - - - - - - - - 2 - -\n2 - - 2 - - - 2 - - - - 2 - - - - -\n- - 2 - - - - - - - - - - - - - - -\n- - - - - - - - 1 - 2 - - - - - - -\n- - - 2 - - - - - - - - - - - - - -\n- - - - - - - - 2 - 1 - - - - - - -\n- - - - - - - - - - - - 2 - - 1 - -\n0 - - 2 - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - - -\n1 1 1 1 1 1 9 12 12 12 12 12 12 12 12 24 24 24\n1 1 1 1 1 1 9 12 12 12 12 12 12 12 12 25 27 27\n2 2 2 6 6 6 9 13 13 13 17 17 20 20 20 25 27 27\n3 3 5 6 6 6 9 14 14 14 17 17 21 21 21 25 27 27\n3 3 5 6 6 6 10 10 15 15 18 18 21 21 21 25 27 27\n3 3 5 7 7 7 10 10 15 15 18 18 22 22 22 22 27 27\n3 3 5 7 7 7 10 10 16 16 19 19 22 22 22 22 27 27\n3 3 5 7 7 7 10 10 16 16 19 19 23 23 23 26 27 27\n4 4 4 8 8 8 11 11 11 11 11 11 23 23 23 26 27 27\n4 4 4 8 8 8 11 11 11 11 11 11 23 23 23 26 27 27",
+      "solution": "10 18\nse ew sw se ew sw x se ew ew ew ew sw x se ew ew sw\nne sw ne nw se nw se nw se ew sw se nw se nw x se nw\nx ns x se nw se nw x ns x ns ns x ns x se nw x\nse nw se nw x ns x se nw se nw ns se nw se nw se sw\nns se nw x se nw se nw x ns x ne nw x ns x ns ns\nns ns x se nw x ne ew sw ne sw x se sw ns se nw ns\nns ne ew nw x se ew ew nw x ne ew nw ns ne nw x ns\nne sw x se sw ne ew sw x se sw x se nw x se sw ns\nse nw se nw ns x se nw se nw ne ew nw x se nw ns ns\nne ew nw x ne ew nw x ne ew ew ew ew ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/007.a.htm",
+      "info": ""
+    },
+    "08_10x10": {
+      "problem": "10 10\n3 - - 2 - - - - - -\n- - - 2 - - - - 3 -\n- - - - - - - - - -\n2 - - - - 2 - - - -\n- - - - - - - - - -\n1 - - - 3 0 - - - -\n- - - - - - - - - -\n1 - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n1 1 1 5 5 5 5 5 5 5\n1 1 1 6 6 6 6 6 12 12\n1 1 1 6 6 6 6 6 12 12\n2 2 2 7 7 9 9 9 12 12\n2 2 2 7 7 9 9 9 12 12\n3 3 3 3 8 10 10 10 12 12\n3 3 3 3 8 10 10 10 12 12\n4 4 4 4 8 10 10 10 13 13\n4 4 4 4 8 10 10 10 13 13\n4 4 4 4 8 11 11 11 13 13",
+      "solution": "10 10\nx se ew ew sw x se ew sw x\nse nw x se nw se nw x ne sw\nns x se nw x ne ew sw x ns\nne sw ne ew sw x se nw se nw\nx ns x se nw se nw x ns x\nse nw se nw x ne ew sw ne sw\nns x ns se ew sw se nw x ns\nne sw ne nw x ne nw se sw ns\nse nw x se ew sw se nw ns ns\nne ew ew nw x ne nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/008.a.htm",
+      "info": ""
+    },
+    "09_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- 2 - - 2 - - - - -\n- - - - - - - - - -\n- - - - - - 2 - - -\n- 2 - - 2 - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- 2 - - - - - 2 - -\n- - - - - - - - - -\n1 - - - - - - - - 0\n1 1 1 1 1 1 1 1 1 1\n1 3 3 1 6 6 1 1 1 1\n1 3 3 1 6 6 1 1 1 1\n1 1 1 1 1 1 8 8 1 1\n1 4 4 1 7 7 8 8 1 1\n1 4 4 1 7 7 1 1 1 1\n1 1 1 1 1 1 1 1 1 1\n1 5 5 1 1 1 1 9 9 1\n1 5 5 1 1 1 1 9 9 1\n2 1 1 1 1 1 1 1 1 10",
+      "solution": "10 10\nse ew sw se ew sw x se ew sw\nns x ne nw x ne sw ne sw ns\nne sw x se sw x ne sw ns ns\nse nw se nw ne sw x ne nw ns\nns x ne sw x ne sw x se nw\nne sw x ne sw x ne sw ne sw\nse nw se ew nw se ew nw se nw\nns x ne sw x ne sw x ne sw\nne sw x ne ew sw ne sw x ns\nx ne ew ew ew nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/009.a.htm",
+      "info": ""
+    },
+    "10_10x10": {
+      "problem": "10 10\n0 - - - 1 - - - - -\n2 - - - - - - 2 - -\n- - - 2 - 1 - - - -\n- - - - - - - - - -\n2 - - - - 3 - 1 2 -\n- - - - - - - - - -\n- - - - - - - - - -\n- - 2 - - - - - - -\n- - - - - - - 2 - -\n- - - - - - - - - -\n1 1 1 7 9 9 9 12 12 12\n2 2 2 7 9 9 9 13 13 13\n2 2 2 8 8 10 10 13 13 13\n2 2 2 8 8 10 10 13 13 13\n3 3 3 8 8 11 11 14 16 17\n3 3 3 8 8 11 11 14 16 17\n3 3 3 8 8 11 11 14 16 17\n4 4 5 5 5 11 11 14 16 17\n4 4 6 6 6 11 11 15 15 15\n4 4 6 6 6 11 11 15 15 15",
+      "solution": "10 10\nse ew ew sw x se ew ew ew sw\nne sw x ne sw ne sw x se nw\nx ns se ew nw x ne sw ns x\nse nw ns x se ew sw ns ne sw\nns x ne ew nw x ne nw x ns\nne ew sw x se ew sw x se nw\nx se nw se nw x ne sw ne sw\nse nw x ns x se ew nw x ns\nns se sw ne sw ne sw x se nw\nne nw ne ew nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/010.a.htm",
+      "info": ""
+    },
+    "11_10x10": {
+      "problem": "10 10\n- - - 1 - - 1 - - -\n- - 1 - - 1 - - 1 -\n- - - - - - - - - -\n- - - 1 - - 1 - - 1\n- - - - - - - - - -\n1 - - 1 - - - 1 - -\n- - - - - 1 - - - 1\n- - 1 - 1 - - 1 - -\n- - - - - - - - - -\n- - - - - 1 - - 1 -\n1 1 1 5 5 10 15 15 22 22\n1 1 3 6 6 11 16 16 23 22\n1 1 3 6 6 11 16 16 23 22\n1 1 1 7 7 1 17 17 1 25\n1 1 1 1 1 1 1 1 1 25\n2 2 1 8 1 1 1 18 18 26\n1 1 1 8 1 12 12 19 19 27\n1 1 4 1 9 13 13 20 19 27\n1 1 4 1 9 13 13 20 19 19\n1 1 1 1 1 14 14 21 24 24",
+      "solution": "10 10\nse ew sw x se sw x se ew sw\nns se nw se nw ne sw ns x ns\nns ns x ne sw x ne nw se nw\nns ne sw x ne sw x se nw x\nne sw ne ew sw ne sw ne ew sw\nx ne sw x ns se nw x se nw\nse sw ne sw ne nw x se nw x\nns ns x ns x se sw ne ew sw\nns ne ew nw se nw ns x se nw\nne ew ew ew nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/011.a.htm",
+      "info": ""
+    },
+    "12_10x10": {
+      "problem": "10 10\n3 - - - - 1 - 3 - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - 2 2 - - 2 - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n4 - - - - - - - - -\n- - - - - - - - - -\n1 1 1 6 6 9 9 12 12 12\n1 1 1 6 6 9 9 12 12 12\n1 1 1 7 7 10 10 12 12 12\n2 2 4 7 7 10 10 13 13 13\n2 2 5 8 8 8 11 13 13 13\n2 2 5 8 8 8 11 13 13 13\n2 2 5 8 8 8 11 13 13 13\n2 2 5 8 8 8 11 13 13 13\n3 3 3 3 3 3 3 13 13 13\n3 3 3 3 3 3 3 13 13 13",
+      "solution": "10 10\nx se ew ew sw x se ew sw x\nse nw x se nw se nw x ne sw\nns x se nw x ne ew sw x ns\nne sw ne ew ew ew ew nw se nw\nse nw x se ew sw x se nw x\nns se ew nw x ne ew nw se sw\nns ns x se ew sw x se nw ns\nns ne ew nw x ne ew nw x ns\nne sw x se ew sw x se sw ns\nx ne ew nw x ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/012.a.htm",
+      "info": ""
+    },
+    "13_10x10": {
+      "problem": "10 10\n2 - - - 2 - 1 - - -\n1 - - - - - - - - -\n- - - - - - - - - -\n- - - - 1 - - - - -\n- - - - - - 1 - - -\n2 - - - - - - - - -\n- - - - - - - - - -\n2 - - 3 - - - - - -\n0 - - - - - - - - -\n- - - - - - - - - -\n1 1 1 1 8 8 12 12 15 15\n2 2 2 2 8 8 12 12 15 15\n2 2 2 2 8 8 13 13 13 13\n3 3 3 3 9 9 13 13 13 13\n3 3 3 3 9 9 14 14 16 16\n4 4 4 4 9 9 14 14 16 16\n4 4 4 4 10 10 10 10 10 10\n5 5 5 7 7 7 7 7 7 7\n6 6 6 6 11 11 11 11 11 11\n6 6 6 6 11 11 11 11 11 11",
+      "solution": "10 10\nx se sw x se ew sw x se sw\nse nw ns se nw x ne ew nw ns\nns x ne nw x se ew sw x ns\nne sw x se sw ne sw ne sw ns\nse nw se nw ns x ns x ns ns\nns x ns x ns se nw se nw ns\nne sw ne sw ne nw se nw se nw\nx ns x ne sw x ns x ns x\nse nw se sw ne sw ne sw ne sw\nne ew nw ne ew nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/013.a.htm",
+      "info": ""
+    },
+    "14_10x10": {
+      "problem": "10 10\n- - - - - - 2 - - -\n2 - - - - - - - - -\n- - - - 2 - - - - -\n- - - - - - - - - -\n- - 2 - - - - - - -\n- - - - - - - - - -\n2 - - - - - - 2 - -\n- - - - - - - - - -\n- - - - 2 - - - - -\n- - - - - - - - - -\n1 1 1 1 1 1 7 7 1 1\n2 2 1 1 1 1 1 7 7 1\n1 2 2 1 5 5 1 1 1 1\n1 1 1 1 1 5 5 1 1 1\n1 1 4 4 1 1 1 1 1 1\n1 1 1 4 4 1 1 1 1 1\n3 3 1 1 1 1 1 8 8 1\n1 3 3 1 1 1 1 1 8 8\n1 1 1 1 6 6 1 1 1 1\n1 1 1 1 1 6 6 1 1 1",
+      "solution": "10 10\nse ew sw x se sw x se ew sw\nns x ne sw ns ne sw ns x ns\nne sw x ne nw x ne nw se nw\nx ne ew sw se sw x se nw x\nse sw x ne nw ne sw ns se sw\nns ne sw x se sw ns ne nw ns\nns x ne sw ns ne nw x se nw\nne sw x ne nw x se sw ns x\nse nw se sw x se nw ns ne sw\nne ew nw ne ew nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/014.a.htm",
+      "info": ""
+    },
+    "15_10x18": {
+      "problem": "10 18\n3 - - - - - - - - - - - 3 - - - - -\n- - - - - - - - - 3 - - - 3 - - - -\n- - - - - - 3 - - - - - - - - - - -\n- - 3 - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - - -\n- - - - 3 - - - - - - - - - - - - -\n- - - - - - 3 - - - - - 3 - - - - -\n- - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - - -\n1 2 2 2 2 2 2 5 5 5 5 7 8 8 8 8 8 8\n1 2 2 2 2 2 2 2 5 7 7 7 8 10 10 8 8 8\n1 2 2 3 3 2 5 5 5 5 7 5 8 8 10 10 8 8\n1 2 3 3 2 2 2 2 5 5 5 5 8 8 8 10 8 8\n1 2 3 2 2 2 4 5 5 5 5 5 5 5 8 8 8 8\n1 2 2 2 2 2 4 4 4 4 4 5 5 5 8 5 5 5\n1 2 2 2 4 4 4 6 6 6 2 2 5 5 5 5 5 5\n1 1 1 2 2 4 6 6 2 2 2 2 9 9 9 9 2 2\n2 2 2 2 2 4 2 2 2 2 2 2 2 2 9 2 2 2\n2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2",
+      "solution": "10 18\nx se ew ew ew ew sw x se ew sw x se ew sw x se sw\nse nw x se ew sw ne ew nw x ne ew nw x ne sw ns ns\nns x se nw x ns x se ew sw x se ew sw x ne nw ns\nns se nw x se nw se nw x ne sw ne sw ne sw x se nw\nns ns x se nw se nw se ew sw ne sw ne sw ne sw ns x\nns ne sw ne ew nw se nw se nw x ne sw ns x ns ne sw\nne sw ne sw x se nw x ns x se sw ne nw se nw se nw\nx ns x ne ew nw x se nw se nw ns x se nw x ne sw\nse nw se ew sw x se nw se nw x ne ew nw x se sw ns\nne ew nw x ne ew nw x ne ew ew ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/015.a.htm",
+      "info": ""
+    },
+    "16_8x8": {
+      "problem": "8 8\n- 5 - - 1 - 1 -\n- - - - - - - -\n- - - - - - - -\n- - - - - 4 - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n1 2 2 2 4 5 7 8\n1 2 3 3 4 5 7 8\n1 2 2 2 4 5 7 8\n1 1 1 2 4 6 7 6\n1 2 2 2 4 6 7 6\n1 1 1 1 1 6 6 6\n1 1 1 1 1 1 1 6\n1 1 1 1 1 1 1 6",
+      "solution": "8 8\nse ew sw x se ew ew sw\nns x ne sw ne sw x ns\nne sw x ns x ns se nw\nse nw se nw se nw ns x\nns x ns x ns x ne sw\nne sw ne sw ne sw x ns\nse nw x ne ew nw se nw\nne ew ew ew ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/016.a.htm",
+      "info": ""
+    },
+    "17_10x11": {
+      "problem": "10 11\n- - - - - - - - - - -\n0 - - - - - - - - - -\n2 - - - 1 - - - - - -\n- 3 - - - - - - - 2 -\n- - 6 - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - 2 - - - - - -\n- - - - - - - - - - -\n- - 1 - - - - - 1 - -\n1 2 5 5 5 5 5 5 5 5 5\n2 2 2 2 2 2 2 2 2 2 2\n3 2 4 4 8 8 8 8 8 8 8\n3 4 4 6 6 6 6 6 12 14 14\n3 4 6 6 9 9 9 6 6 14 14\n3 3 6 6 9 9 9 9 9 14 14\n3 3 6 6 6 6 6 6 9 14 14\n3 3 6 6 10 10 11 6 6 14 14\n3 3 6 6 10 10 11 6 6 14 14\n3 3 7 6 6 6 6 6 13 14 14",
+      "solution": "10 11\nse ew ew sw se ew sw x se ew sw\nne ew sw ne nw se nw se nw se nw\nx se nw x se nw se nw se nw x\nse nw x se nw x ns x ne ew sw\nns x se nw se sw ne sw x se nw\nne sw ns x ns ns x ne sw ns x\nx ns ne sw ns ne sw x ns ne sw\nse nw x ne nw x ne ew nw x ns\nns se ew sw x se sw se ew sw ns\nne nw x ne ew nw ne nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/017.a.htm",
+      "info": ""
+    },
+    "18_10x10": {
+      "problem": "10 10\n- - - - - 3 - - - -\n- 6 - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - 3 - -\n0 - - 2 - - - - - -\n- - - - - - - - - -\n1 - - - - - - - - -\n- - - - - - - - - -\n- - - - 2 - - - - -\n1 4 4 4 4 9 9 9 13 13\n1 5 5 5 5 9 9 9 13 13\n1 5 5 5 5 9 9 9 13 13\n1 5 5 5 5 9 9 9 13 13\n1 5 5 5 5 10 11 12 12 12\n2 2 2 6 6 6 11 12 12 12\n2 2 2 6 6 6 11 12 12 12\n3 3 3 6 6 6 11 12 12 12\n3 3 3 6 6 6 11 12 12 12\n3 3 3 7 8 8 8 8 8 8",
+      "solution": "10 10\nse ew sw se ew ew sw x se sw\nns x ne nw x se nw se nw ns\nne sw x se ew nw x ne sw ns\nse nw se nw x se sw x ns ns\nns x ns x se nw ne ew nw ns\nne sw ne sw ne ew sw x se nw\nse nw se nw x se nw se nw x\nns x ne ew ew nw x ne ew sw\nns se sw x se ew sw x se nw\nne nw ne ew nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/018.a.htm",
+      "info": ""
+    },
+    "19_10x10": {
+      "problem": "10 10\n3 - - - - 3 - - - -\n- - - 1 - - - - - -\n- 1 - - - - - 1 - -\n- - - - - 1 - - - -\n- - - - - - - - - -\n4 - 1 - - - - - - -\n- - - - - - 1 - - -\n- - - - - - - - - 1\n- - - 1 - - - - - -\n- - - - - - - - - -\n1 1 1 1 1 7 7 7 7 7\n1 1 1 5 1 7 7 7 7 7\n1 3 1 1 1 7 7 10 7 7\n1 1 1 1 1 8 7 7 7 7\n1 1 1 1 1 7 7 7 7 7\n2 2 4 2 2 2 2 2 2 2\n2 2 2 2 2 2 9 2 2 2\n2 2 2 2 2 2 2 2 2 11\n2 2 2 6 2 2 2 2 2 2\n2 2 2 2 2 2 2 2 2 2",
+      "solution": "10 10\nse sw se ew sw x se sw se sw\nns ne nw x ne sw ns ne nw ns\nns x se sw x ne nw x se nw\nne sw ns ne sw x se ew nw x\nx ne nw x ne sw ns x se sw\nse sw x se sw ns ne ew nw ns\nns ne sw ns ne nw x se ew nw\nns x ne nw x se sw ne sw x\nns se sw x se nw ns x ne sw\nne nw ne ew nw x ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/019.a.htm",
+      "info": ""
+    },
+    "20_10x10": {
+      "problem": "10 10\n1 - 0 - 1 - 1 - 1 -\n- - - - - - - - - -\n1 - 3 - - 3 - - 1 -\n- - - - - - - - - -\n1 - - - - - - - - -\n- - 2 - - 1 - - - -\n1 - - - - - - - - -\n- - - - - - - - - -\n- - 1 - 1 - - - - -\n- - - - - - - - - -\n1 1 6 6 10 10 14 14 16 16\n1 1 6 6 10 10 14 14 16 16\n2 2 7 7 7 12 12 12 17 17\n2 2 7 7 7 12 12 12 17 17\n3 3 7 7 7 12 12 12 18 18\n3 3 8 8 8 13 13 13 18 18\n4 4 8 8 8 13 13 13 19 19\n4 4 8 8 8 13 13 13 19 19\n5 5 9 9 11 11 15 15 20 20\n5 5 9 9 11 11 15 15 20 20",
+      "solution": "10 10\nx se ew ew sw x se ew sw x\nse nw se ew nw se nw x ne sw\nns x ne sw x ns x se ew nw\nne sw x ne sw ne sw ne sw x\nx ne sw x ns x ns x ne sw\nse ew nw se nw se nw se ew nw\nne sw x ns x ne sw ne sw x\nx ne sw ne ew ew nw x ne sw\nse ew nw x se ew sw se sw ns\nne ew ew ew nw x ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/020.a.htm",
+      "info": ""
+    },
+    "21_8x8": {
+      "problem": "8 8\n2 0 1 - - 1 - 1\n- - - - - - - -\n- - - - - 2 - 1\n- 2 - - - - - -\n- - - - - - 2 -\n- - - - - - - -\n- - 1 - - - - 1\n- - - - - - 0 -\n1 3 4 4 4 7 7 11\n1 3 3 4 4 7 7 11\n1 3 3 3 3 6 7 9\n1 2 2 3 6 6 9 9\n2 2 2 2 6 6 8 8\n2 2 2 6 6 6 8 8\n2 2 5 5 5 8 8 12\n2 2 5 5 5 5 10 12",
+      "solution": "8 8\nx se sw x se ew sw x\nse nw ns se nw x ne sw\nne sw ne nw se sw se nw\nx ns x se nw ns ns x\nse nw se nw x ns ne sw\nns x ns x se nw x ns\nns se nw se nw x se nw\nne nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/021.a.htm",
+      "info": ""
+    },
+    "22_8x8": {
+      "problem": "8 8\n1 - - 2 1 0 - 2\n- 1 - - - - - -\n1 - - - - 0 - -\n- - - - - - 0 -\n- 0 - 1 1 - - -\n- - - - - 1 - -\n- - 1 - - 2 - -\n- - - - - - - -\n1 1 1 6 8 11 11 15\n1 4 4 6 8 8 8 15\n2 4 4 6 8 9 9 15\n2 2 6 6 9 9 14 15\n2 3 3 7 10 9 14 14\n3 3 3 7 10 12 12 14\n3 3 5 5 5 13 13 14\n3 5 5 5 5 13 13 13",
+      "solution": "8 8\nx se sw x se ew sw x\nse nw ns se nw x ne sw\nns x ne nw se sw se nw\nne sw x se nw ns ns x\nx ns se nw x ns ne sw\nse nw ns x se nw x ns\nns se nw se nw x se nw\nne nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/022.a.htm",
+      "info": ""
+    },
+    "23_8x8": {
+      "problem": "8 8\n0 0 1 - 1 - 1 -\n- - - - - - - -\n1 - - 1 - 0 - -\n- - - - - - 1 -\n- - 1 - 1 - - 0\n0 1 - - 1 - - -\n- - - - - 2 - -\n1 - - - - - - -\n1 6 9 9 12 16 19 19\n1 6 9 12 12 16 20 20\n2 7 7 13 12 17 20 20\n2 7 7 13 12 17 21 21\n3 3 10 10 15 15 21 22\n4 8 10 10 14 15 15 22\n4 8 11 14 14 18 18 18\n5 5 11 14 14 18 18 18",
+      "solution": "8 8\nse sw x se ew ew sw x\nns ne sw ne sw x ne sw\nne sw ns x ne sw se nw\nx ns ne sw x ns ns x\nse nw x ne sw ns ne sw\nns x se sw ne nw x ns\nne sw ns ne sw x se nw\nx ne nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/023.a.htm",
+      "info": ""
+    },
+    "24_8x8": {
+      "problem": "8 8\n1 - - 3 - 1 1 -\n- - - - - - - -\n- - 1 1 - - - -\n- - - 1 - - - -\n- - 1 - - - 2 -\n- - - - - - - -\n1 - - - - - - 0\n1 - - - - - - -\n1 1 1 5 5 9 11 11\n1 5 5 5 5 9 9 9\n1 5 2 7 7 7 9 9\n2 2 2 8 8 7 9 9\n2 2 6 8 8 8 10 10\n2 6 6 8 8 10 10 10\n3 3 3 3 8 10 10 12\n4 4 3 3 8 10 10 12",
+      "solution": "8 8\nx se ew sw x se sw x\nse nw x ne sw ns ne sw\nns x se sw ne nw x ns\nne sw ns ne sw x se nw\nx ns ne sw ne sw ns x\nse nw x ns x ns ne sw\nne sw se nw se nw x ns\nx ne nw x ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/024.a.htm",
+      "info": ""
+    },
+    "25_8x8": {
+      "problem": "8 8\n- 2 - - - - 2 -\n- - - - - - - -\n- - - - 0 - - 1\n- - 1 - - - - -\n1 - - - 1 - - -\n- 1 - - - - - -\n- - - - - - - -\n- - 1 - 1 - - -\n1 3 3 3 12 12 16 16\n1 3 3 3 12 16 16 16\n1 4 4 10 13 17 19 22\n1 5 8 10 13 17 19 22\n2 5 8 11 14 14 20 23\n2 6 6 11 14 14 20 23\n2 7 7 7 14 18 18 24\n2 2 9 9 15 15 21 24",
+      "solution": "8 8\nse ew sw x se ew sw x\nns x ne ew nw x ne sw\nns se ew sw se sw se nw\nne nw x ne nw ns ns x\nx se ew sw x ns ne sw\nse nw x ne ew nw x ns\nns se ew sw se ew sw ns\nne nw x ne nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/025.a.htm",
+      "info": ""
+    },
+    "26_8x8": {
+      "problem": "8 8\n- - 2 - - - - 3\n- - - - - 1 - -\n1 - - - - - - -\n- - - - 1 - - -\n- - 2 - - - - -\n2 - - - - - - -\n- - - - - - 1 -\n- - - - - - - -\n1 1 4 4 4 9 9 11\n1 1 1 4 4 7 11 11\n2 1 1 4 7 7 11 11\n2 2 1 1 6 6 6 11\n2 2 5 6 6 6 6 11\n3 3 5 6 8 6 6 11\n3 3 5 5 8 8 10 11\n3 3 5 5 8 10 10 10",
+      "solution": "8 8\nse sw x se ew ew sw x\nns ne sw ne sw x ne sw\nne sw ns x ne sw x ns\nx ns ne sw x ns se nw\nse nw x ne sw ns ns x\nns x se sw ne nw ne sw\nne sw ns ne sw x se nw\nx ne nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/026.a.htm",
+      "info": ""
+    },
+    "27_10x10": {
+      "problem": "10 10\n2 - - 0 - 2 - - - -\n1 - - 2 - - 1 - - -\n- - - - - 0 - - - 1\n1 - - - - - 0 - 1 -\n- 0 - - 1 - - - - 1\n0 - - - - - - - - -\n- - - - - - 2 - - 0\n2 - - - - - - 1 - -\n1 0 - - - - 1 - - 1\n- - 1 - - - 0 - - -\n1 1 1 11 11 15 15 15 15 15\n2 1 1 7 11 15 16 15 15 15\n2 2 7 7 7 13 16 16 16 22\n3 7 7 7 13 13 17 17 18 22\n3 8 8 7 12 12 12 18 18 23\n4 8 8 12 12 12 18 18 18 23\n4 8 8 8 12 12 14 18 18 24\n5 5 5 8 14 14 14 21 21 24\n6 9 5 8 14 14 19 19 19 25\n6 9 10 10 10 10 20 20 19 25",
+      "solution": "10 10\nx se ew ew sw x se ew ew sw\nse nw x se nw se nw x se nw\nns x se nw x ns x se nw x\nne sw ne ew sw ne sw ne ew sw\nx ne sw x ne ew nw x se nw\nse sw ne sw x se ew sw ns x\nns ne sw ns se nw x ns ne sw\nns x ne nw ns x se nw x ns\nne sw x se nw se nw x se nw\nx ne ew nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/027.a.htm",
+      "info": ""
+    },
+    "28_10x10": {
+      "problem": "10 10\n1 3 0 - 2 - 0 1 - 1\n- - 1 - - - - 2 - -\n- - - - - - - - - 1\n- 1 - - - - - - - -\n- 3 - - - - - - - -\n- - - - - - - - - -\n- - - - - 1 - 2 - -\n- - - 0 - - 2 - - -\n- - - - - - - 1 - -\n- - - - - - - - - -\n1 2 6 6 8 8 10 14 14 17\n1 2 7 8 8 10 10 11 14 17\n2 2 7 8 8 11 11 11 14 13\n2 4 4 4 4 4 11 11 13 13\n2 5 5 5 4 4 11 11 13 13\n2 2 5 5 5 5 13 13 13 13\n2 5 5 5 5 12 12 15 15 13\n2 2 5 9 9 12 3 15 15 15\n3 2 5 3 9 12 3 16 15 15\n3 3 3 3 3 3 3 16 16 15",
+      "solution": "10 10\nx se ew ew sw x se ew sw x\nse nw x se nw se nw x ne sw\nns x se nw x ns se sw x ns\nne sw ne ew ew nw ns ne sw ns\nx ne ew sw x se nw x ne nw\nse sw x ne sw ns se ew sw x\nns ne sw x ns ne nw x ne sw\nns x ne ew nw x se sw x ns\nne sw x se ew sw ns ne sw ns\nx ne ew nw x ne nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/028.a.htm",
+      "info": ""
+    },
+    "29_10x10": {
+      "problem": "10 10\n1 0 - 0 - 1 - - 1 -\n- 1 - 1 - - 2 - 0 -\n2 - - 2 - - - - - -\n- - - - - - - - - -\n- - - - - - - 1 - 1\n1 - - 0 1 - - - - -\n- - - - - - 0 - 2 -\n- - 1 - - - - - - -\n2 - - 1 - 0 0 - 1 -\n- - - - - - - - - -\n1 5 5 8 8 15 15 15 23 23\n1 6 6 9 9 15 17 17 24 24\n2 2 6 10 9 9 10 17 17 21\n2 2 2 10 10 9 10 21 21 21\n2 2 2 2 10 10 10 22 21 26\n3 3 3 11 13 13 13 22 22 26\n3 3 3 11 13 13 18 18 19 19\n3 3 7 7 14 13 19 19 19 19\n4 4 4 12 14 16 20 19 25 19\n4 4 4 12 12 16 20 20 25 25",
+      "solution": "10 10\nx se ew ew sw x se ew sw x\nse nw x se nw se nw x ne sw\nns x se nw x ns se sw x ns\nne sw ns x se nw ns ne sw ns\nx ns ne ew nw x ns x ne nw\nse nw x se ew sw ne ew sw x\nne ew sw ne sw ne ew sw ne sw\nse ew nw x ns x se nw x ns\nne sw x se nw se nw x se nw\nx ne ew nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/029.a.htm",
+      "info": ""
+    },
+    "30_10x10": {
+      "problem": "10 10\n2 - - - 2 - - - - 0\n- - - - - - 0 0 1 -\n1 - - 0 0 1 - - - -\n0 - 1 - - - 1 - - -\n0 - - 0 - 1 0 0 1 -\n1 - - - - - - - - 0\n- 1 - - 0 - 1 0 1 -\n2 - 0 - - - - - - 0\n- - - 1 - 0 - 1 - -\n- - 0 - - 1 - - - -\n1 1 1 1 15 15 15 15 15 32\n1 1 1 1 1 15 21 25 29 32\n2 2 1 12 16 18 21 25 29 29\n3 3 8 12 16 18 22 22 29 29\n4 4 8 13 13 9 23 26 30 30\n5 5 9 9 9 9 23 26 26 33\n5 7 7 9 17 17 24 27 31 33\n6 6 10 10 10 17 24 27 31 34\n6 6 6 14 14 19 19 28 28 34\n6 6 11 11 14 20 20 28 28 28",
+      "solution": "10 10\nx se ew sw x se sw x se sw\nse nw x ne ew nw ns se nw ns\nns x se ew sw x ne nw x ns\nns se nw se nw se sw x se nw\nne nw x ne ew nw ns se nw x\nx se ew sw x se nw ns se sw\nse nw x ne sw ns x ne nw ns\nns x se sw ne nw se sw x ns\nne sw ns ns x se nw ns se nw\nx ne nw ne ew nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/030.a.htm",
+      "info": ""
+    },
+    "31_8x8": {
+      "problem": "8 8\n0 1 - - 0 - 2 -\n- 0 - - 2 - - -\n1 0 - 0 - - - -\n- 1 1 - 2 - - -\n- - - 1 - - - -\n- - - - - - 0 -\n- 1 2 - - - - -\n- - - - - - - -\n1 5 5 5 12 12 16 16\n1 6 6 5 13 13 16 16\n2 7 7 10 13 13 16 16\n2 3 8 10 14 13 13 16\n3 3 8 11 14 14 13 16\n3 3 8 11 14 14 15 15\n3 4 9 11 14 14 14 15\n4 4 9 9 9 15 15 15",
+      "solution": "8 8\nse ew sw x se ew sw x\nne sw ne ew nw x ne sw\nx ne ew sw x se sw ns\nse sw x ne sw ns ne nw\nns ne sw x ns ne sw x\nns x ne ew nw x ne sw\nne sw x se ew sw x ns\nx ne ew nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/031.a.htm",
+      "info": ""
+    },
+    "32_8x8": {
+      "problem": "8 8\n0 - - 0 1 - 0 -\n1 - - - - - 1 -\n1 - - - - - - -\n0 - 2 - - - 1 -\n0 - 1 - 0 2 - -\n1 - 0 - - - - -\n1 0 - 0 - - 0 1\n- 1 - - 0 - - -\n1 1 1 13 15 15 19 19\n2 2 2 13 15 15 20 20\n3 3 3 3 15 15 20 20\n4 4 10 10 10 10 21 21\n5 5 11 11 16 18 21 21\n6 6 12 12 16 18 18 21\n7 8 8 14 14 18 22 23\n7 9 9 9 17 17 22 23",
+      "solution": "8 8\nse ew ew sw x se ew sw\nne sw x ne sw ns x ns\nx ne ew sw ne nw se nw\nse sw x ne sw x ns x\nns ne sw x ne sw ne sw\nns x ne ew ew nw x ns\nne sw se ew sw x se nw\nx ne nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/032.a.htm",
+      "info": ""
+    },
+    "33_8x8": {
+      "problem": "8 8\n2 - - 1 - - 1 -\n- - 1 - - - - -\n- - 0 - 2 - - -\n1 0 - - - - - -\n- - - - 0 3 - -\n2 - 1 - - - - -\n- - - - - - - -\n- - - - - - - -\n1 1 1 8 8 8 12 12\n1 1 5 5 8 8 12 12\n1 1 6 6 9 9 12 12\n2 4 4 9 9 9 9 9\n2 2 4 4 10 11 11 11\n3 3 7 7 10 11 11 11\n3 3 3 7 10 11 11 7\n3 3 3 7 7 7 7 7",
+      "solution": "8 8\nx se ew ew sw x se sw\nse nw x se nw se nw ns\nns x se nw x ns x ns\nne sw ns x se nw se nw\nx ns ns se nw x ns x\nse nw ne nw se sw ne sw\nne sw x se nw ns x ns\nx ne ew nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/033.a.htm",
+      "info": ""
+    },
+    "34_8x8": {
+      "problem": "8 8\n1 - - 1 - 0 - 1\n0 - 1 - 0 0 - -\n0 - 1 - - - 3 -\n1 - 0 - - - - -\n- - - - 1 0 - -\n0 2 - 0 - - - 0\n- - - - 1 - 0 -\n1 - - - - - - -\n1 1 1 11 11 16 16 20\n2 2 8 8 13 17 20 20\n3 3 9 9 13 17 18 18\n4 4 10 9 13 18 18 18\n4 4 10 10 14 19 19 18\n5 7 7 12 14 19 19 22\n5 7 7 12 15 15 21 22\n6 6 7 12 15 15 22 22",
+      "solution": "8 8\nx se ew sw x se sw x\nse nw x ne sw ns ne sw\nne ew sw x ne nw x ns\nx se nw se sw x se nw\nse nw se nw ne sw ns x\nns x ne sw x ns ne sw\nne sw x ne sw ne sw ns\nx ne ew ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/034.a.htm",
+      "info": ""
+    },
+    "35_8x8": {
+      "problem": "8 8\n0 - 1 - - 2 - -\n- - - - - - - 1\n- - 1 - 1 - - -\n2 2 - - - - - -\n- - - - 0 1 - -\n- - - - - - - 0\n- - 0 - - - - -\n- - 1 - - - - -\n1 1 4 4 4 8 8 8\n1 1 4 8 8 8 8 13\n1 1 5 5 9 9 9 13\n2 3 3 9 9 9 9 13\n2 3 3 3 10 11 11 13\n2 3 3 10 10 10 11 12\n2 2 6 6 6 10 10 12\n2 2 7 7 7 10 12 12",
+      "solution": "8 8\nse sw x se ew ew sw x\nns ne sw ne sw x ne sw\nne sw ns x ne sw se nw\nx ns ne sw x ns ns x\nse nw x ne sw ns ne sw\nns x se sw ne nw x ns\nne sw ns ne sw se sw ns\nx ne nw x ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/035.a.htm",
+      "info": ""
+    },
+    "36_10x10": {
+      "problem": "10 10\n0 2 - 1 3 - 3 - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - 0 - - 1 - -\n1 - 1 - - - - - - -\n- - - - - 1 - - - 2\n2 0 - 1 - 1 2 - - -\n- - 1 - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n1 2 2 7 11 11 15 15 15 15\n1 2 2 7 11 11 11 15 15 15\n2 2 7 7 11 11 11 15 15 15\n2 2 7 7 9 11 11 12 12 12\n3 2 5 5 9 12 12 12 12 12\n3 5 5 9 9 13 13 12 12 17\n4 6 6 10 9 14 16 17 17 17\n4 4 8 10 10 14 16 16 17 17\n4 4 8 10 10 14 16 16 16 16\n4 4 4 4 10 14 16 16 16 16",
+      "solution": "10 10\nse sw x se sw x se ew sw x\nns ne sw ns ne ew nw x ne sw\nns x ne nw x se ew sw x ns\nne sw x se sw ns x ne sw ns\nx ne ew nw ns ne sw x ne nw\nse sw x se nw x ne ew sw x\nns ne sw ns se ew ew sw ne sw\nns x ne nw ns x se nw x ns\nne sw x se nw se nw x se nw\nx ne ew nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/036.a.htm",
+      "info": ""
+    },
+    "37_10x10": {
+      "problem": "10 10\n0 - - - 3 - - - 1 -\n- 3 - - 0 - - - - -\n- - - - 2 - - 1 - -\n- - - - - 0 - - - -\n- - - 2 - - 0 1 0 0\n- - 0 - - - - - - -\n2 - - - 2 - - - - 1\n- - - - - - - 2 - -\n- - 1 - - - 0 - - 0\n- - - - - 1 - 0 - -\n1 1 1 1 8 8 8 8 19 19\n1 2 2 1 9 9 8 8 19 19\n1 2 2 2 3 9 8 15 19 19\n2 2 3 3 3 11 11 15 15 15\n3 3 3 7 7 7 13 16 20 21\n3 3 5 7 7 7 13 16 20 21\n4 3 5 7 10 10 10 16 20 22\n4 4 5 5 10 10 10 17 17 22\n4 4 6 5 5 5 14 14 17 23\n4 4 6 6 6 12 12 18 18 23",
+      "solution": "10 10\nse ew sw se sw x se ew sw x\nns x ne nw ne ew nw x ne sw\nne sw x se ew sw x se ew nw\nx ne ew nw x ne sw ne sw x\nse sw x se sw x ns x ne sw\nns ns se nw ns se nw se ew nw\nns ne nw x ne nw x ne sw x\nns x se sw x se sw x ne sw\nne sw ns ne sw ns ne sw x ns\nx ne nw x ne nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/037.a.htm",
+      "info": ""
+    },
+    "38_10x10": {
+      "problem": "10 10\n0 - - 1 - 1 0 1 - 0\n0 - - - - - - - - -\n2 - 0 - - - 1 - - 1\n- 1 0 1 - - - 1 - -\n- - - - - 1 - - - 1\n- - 1 0 - - - 0 - -\n- 0 - - - 1 - - - -\n1 0 - 1 - 1 - 0 2 -\n- - - 0 1 - - - - -\n0 - - - - 0 - - - -\n1 1 1 13 13 17 23 26 26 31\n2 2 1 13 17 17 23 26 26 31\n3 3 9 9 17 17 24 26 26 29\n3 6 10 14 14 17 24 27 29 29\n3 6 10 14 14 19 19 27 29 32\n3 6 11 15 15 15 19 28 28 32\n3 7 11 15 15 20 20 28 28 32\n4 8 8 16 16 21 21 25 30 30\n4 4 8 12 18 18 25 25 25 30\n5 5 12 12 18 22 22 22 30 30",
+      "solution": "10 10\nse ew ew ew sw x se ew ew sw\nne ew sw x ne ew nw x se nw\nx se nw se ew sw x se nw x\nse nw se nw x ne sw ne ew sw\nns x ne ew sw x ns x se nw\nne sw x se nw se nw se nw x\nx ns se nw se nw x ne ew sw\nse nw ns x ns x se sw x ns\nns x ne sw ne sw ns ns se nw\nne ew ew nw x ne nw ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/038.a.htm",
+      "info": ""
+    },
+    "39_10x10": {
+      "problem": "10 10\n1 - - - 3 - - - - -\n- - - - - - - - - -\n1 - - 3 - - 1 - - -\n- - - - - - - - 1 -\n- - 3 - 1 - - - - -\n- - - - - - - 1 - -\n0 1 - - - - - - - -\n- - - 2 - 1 - 1 - -\n- - - - 1 - - - - -\n1 - - - 0 - - - - -\n1 1 1 1 9 9 9 9 9 9\n1 1 1 1 9 9 9 9 9 9\n2 2 1 7 7 7 14 14 14 14\n2 2 7 7 7 7 14 14 17 17\n2 2 3 7 10 10 10 14 17 17\n3 3 3 3 3 10 10 15 15 15\n4 6 3 3 3 3 10 15 15 15\n4 6 3 8 8 13 13 16 16 16\n4 6 8 8 11 11 13 16 16 16\n5 5 5 8 12 12 13 13 16 16",
+      "solution": "10 10\nse sw x se sw x se ew sw x\nns ns se nw ns se nw x ne sw\nns ne nw x ne nw se sw x ns\nns x se ew sw x ns ns se nw\nne sw ns x ne sw ns ne nw x\nx ns ne sw x ne nw x se sw\nse nw x ne ew sw x se nw ns\nns x se sw x ne ew nw x ns\nne sw ns ne sw x se ew sw ns\nx ne nw x ne ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/039.a.htm",
+      "info": ""
+    },
+    "40_10x10": {
+      "problem": "10 10\n2 - - - - 1 - 0 - 1\n- 2 - - - - - - - -\n0 - 2 - - - - - - -\n- 0 - - - 0 - 2 - -\n- - - - - 1 - - - 0\n3 - - - 1 - - - - -\n- - 1 - - 3 - - - -\n- - - - - - - - 0 0\n- - - 0 - 0 - 1 - -\n1 - - - 0 - 1 - - -\n1 1 1 1 1 10 10 18 18 19\n1 6 6 6 10 10 10 10 18 19\n2 6 7 7 10 10 10 19 19 19\n2 3 7 7 7 14 14 20 19 19\n3 3 7 7 7 15 14 20 20 23\n4 3 7 7 11 15 14 20 20 23\n4 4 8 8 11 12 12 12 12 12\n4 4 4 8 12 12 12 12 22 24\n4 4 4 9 9 16 16 21 22 24\n5 5 5 5 13 13 17 17 17 17",
+      "solution": "10 10\nx se ew sw x se ew ew ew sw\nse nw x ne ew nw x se ew nw\nns x se ew ew ew sw ne sw x\nns se nw x se ew nw x ne sw\nns ns x se nw x se sw x ns\nne nw se nw x se nw ns se nw\nx se nw x se nw x ns ns x\nse nw x se nw x se nw ne sw\nns x se nw se ew nw x se nw\nne ew nw x ne ew ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/040.a.htm",
+      "info": ""
+    },
+    "41_8x8": {
+      "problem": "8 8\n1 - - 1 - - - 0\n- - - - 4 - 1 -\n- - - - - 0 - 1\n2 - - - - - - -\n- - - - - - 0 -\n0 - - - 2 - - -\n- - - - 1 - - -\n1 - 0 - - - - -\n1 1 1 7 7 7 7 14\n1 1 1 1 2 7 11 14\n2 2 2 2 2 8 11 12\n3 2 2 8 8 8 12 12\n3 3 2 2 8 8 13 13\n4 3 3 3 9 9 9 13\n4 3 3 3 10 9 9 9\n5 5 6 6 10 10 9 9",
+      "solution": "8 8\nse ew ew sw x se ew sw\nne sw x ne ew nw x ns\nx ne ew sw x se ew nw\nse sw x ne sw ne sw x\nns ne sw x ne sw ne sw\nns x ne ew ew nw x ns\nne sw x se ew sw se nw\nx ne ew nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/041.a.htm",
+      "info": ""
+    },
+    "42_8x8": {
+      "problem": "8 8\n1 - - - 0 0 - -\n1 - - 2 - - 1 -\n- - - - - 0 - 1\n1 0 - 0 - - - -\n- - 0 1 0 - - -\n0 2 - - - - 1 -\n- - - 0 1 0 - -\n1 - - - - - 1 -\n1 1 1 1 13 16 16 16\n2 2 1 8 13 16 19 19\n2 2 8 8 8 17 17 20\n3 6 6 10 10 10 10 20\n3 6 9 11 14 14 20 20\n4 7 9 11 14 14 21 20\n4 7 7 12 15 18 21 21\n5 5 7 12 15 18 22 22",
+      "solution": "8 8\nse ew sw x se ew ew sw\nns x ne sw ne sw x ns\nne sw x ns x ns se nw\nx ns se nw se nw ns x\nse nw ns x ne sw ne sw\nns x ne ew ew nw x ns\nne sw x se ew sw se nw\nx ne ew nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/042.a.htm",
+      "info": ""
+    },
+    "43_8x8": {
+      "problem": "8 8\n1 3 - 2 - - - -\n- - - - - 2 - -\n- - - - - - - -\n- - - - - - - -\n0 - - - 2 - - -\n- 1 - 2 - - - -\n- - - - - 1 - -\n- - - - 0 - 0 -\n1 3 3 6 6 6 6 6\n1 3 3 3 3 9 6 6\n1 3 3 3 3 9 9 6\n1 1 1 3 3 9 9 9\n2 1 1 1 7 7 7 9\n2 4 1 5 7 7 7 7\n2 4 5 5 5 10 10 7\n2 5 5 5 8 8 11 11",
+      "solution": "8 8\nse ew sw x se ew sw x\nns x ne ew nw x ne sw\nne sw x se ew sw x ns\nx ne sw ns x ne sw ns\nse sw ns ne sw x ne nw\nns ne nw x ne ew sw x\nns x se ew sw x ne sw\nne ew nw x ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/043.a.htm",
+      "info": ""
+    },
+    "44_8x8": {
+      "problem": "8 8\n1 0 - - 2 - - 1\n- - 2 - - - - -\n0 - - - - - - -\n2 - - 0 - 1 - 1\n0 - - 1 0 - - -\n- - - - 2 - - 0\n- - 1 - - - - -\n- - - - - - 0 -\n1 5 5 5 10 10 10 15\n1 5 7 7 10 10 10 15\n2 2 7 7 7 7 10 15\n3 3 3 9 9 13 13 16\n4 3 3 6 11 11 13 16\n4 6 6 6 12 11 13 17\n4 4 8 6 12 12 12 17\n4 4 8 6 12 12 14 14",
+      "solution": "8 8\nx se ew sw x se sw x\nse nw x ne sw ns ne sw\nne ew sw x ne nw x ns\nx se nw se sw x se nw\nse nw x ns ne sw ns x\nns x se nw x ns ne sw\nns se nw se ew nw x ns\nne nw x ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/044.a.htm",
+      "info": ""
+    },
+    "45_8x8": {
+      "problem": "8 8\n1 0 - 1 - 0 - 0\n- - 0 - 1 - 1 -\n0 1 - - - - - 1\n- 0 - - - - 2 -\n1 - - - 0 - - -\n- 0 - 0 - - - 2\n- - 1 0 - - - -\n1 - - - - - - -\n1 5 5 11 11 18 18 21\n1 1 9 9 15 18 20 21\n2 6 6 12 15 18 20 22\n2 7 6 12 12 18 19 22\n3 7 7 12 16 19 19 19\n3 8 8 13 16 19 19 17\n3 8 10 14 14 17 17 17\n4 4 10 10 17 17 17 17",
+      "solution": "8 8\nx se sw x se ew ew sw\nse nw ne sw ne sw x ns\nns x se nw x ns se nw\nne sw ns x se nw ns x\nx ns ns se nw x ne sw\nse nw ne nw se sw x ns\nne sw x se nw ns se nw\nx ne ew nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/045.a.htm",
+      "info": ""
+    },
+    "46_10x10": {
+      "problem": "10 10\n0 - 0 - 1 - - 1 1 -\n- - 1 1 - - - - 0 -\n1 1 - - - - - - - -\n- - - - 2 - 1 - - 1\n- - 1 - - - 0 - - -\n1 - - - - - - - 0 1\n- - 2 - 0 - 3 - - -\n- - - - 1 - - - - -\n- - - 1 - - - 0 1 -\n0 - - - - - - - 0 -\n1 1 7 7 13 13 13 19 22 22\n1 1 8 11 11 11 11 19 20 22\n2 6 8 6 6 11 11 20 20 20\n2 6 6 6 12 12 17 17 17 26\n2 2 9 9 12 12 16 17 17 26\n3 2 2 12 12 16 16 17 23 27\n3 3 4 4 14 14 18 18 23 27\n3 3 4 4 15 15 18 18 23 23\n4 4 4 10 10 15 18 21 24 24\n5 5 10 10 10 15 18 21 25 25",
+      "solution": "10 10\nse ew ew ew sw x se ew sw x\nne sw x se nw se nw x ne sw\nx ne sw ne ew nw x se ew nw\nse ew nw x se ew sw ne sw x\nne sw x se nw x ns x ne sw\nx ne ew nw x se nw se ew nw\nse sw x se ew nw x ne sw x\nns ne ew nw x se sw x ne sw\nns x se ew sw ns ne sw x ns\nne ew nw x ne nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/046.a.htm",
+      "info": ""
+    },
+    "47_10x10": {
+      "problem": "10 10\n2 1 - 0 4 - - - - -\n- - - - - - - - - -\n- - - - - - 3 - - -\n- - - - - - - - - -\n2 - - 2 - - 1 - 1 -\n- - - - - - - - - -\n- - - - - 0 1 - - -\n3 - - - - - - - - -\n- - - - 0 - - 0 - 0\n- 0 - - 1 - 1 - 0 -\n1 4 4 7 8 8 8 8 8 8\n1 4 4 7 7 8 8 8 8 8\n1 1 1 7 7 8 12 12 12 12\n1 1 1 7 7 12 12 12 12 12\n2 2 2 6 6 12 13 13 16 12\n2 2 6 6 6 13 13 16 16 12\n2 2 6 6 6 9 14 16 16 16\n3 3 6 3 9 9 14 16 16 16\n3 3 3 3 10 10 14 17 17 19\n3 5 5 3 11 11 15 15 18 19",
+      "solution": "10 10\nx se ew sw x se ew ew sw x\nse nw x ne sw ne sw x ne sw\nns x se sw ns x ne sw x ns\nns se nw ns ne sw x ns se nw\nne nw x ns x ne sw ns ns x\nx se sw ne sw x ns ns ne sw\nse nw ns x ne sw ne nw x ns\nns x ne ew ew nw x se sw ns\nne sw x se ew sw se nw ns ns\nx ne ew nw x ne nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/047.a.htm",
+      "info": ""
+    },
+    "48_10x10": {
+      "problem": "10 10\n1 - 1 - - 1 - - - -\n0 - 1 - - 2 - - - -\n0 - - 3 0 - - - - -\n- - - - - - - 2 - 1\n- - - - - - - - - -\n2 - - - - - - - - -\n- - - 0 - 1 0 - - 2\n2 - 1 - 2 - - - - -\n- - - 0 - - - - - -\n- - - - - 0 - - - -\n1 1 7 7 7 14 14 14 14 14\n2 2 6 7 7 15 15 15 14 14\n3 6 6 8 12 15 15 15 14 14\n3 3 8 8 12 15 15 16 16 21\n3 3 8 8 8 8 15 16 16 21\n4 4 4 8 8 16 16 16 16 21\n4 4 4 10 10 17 19 19 16 20\n5 4 9 9 13 17 17 19 20 20\n5 5 5 11 13 13 13 13 20 20\n5 5 5 11 13 18 18 13 13 20",
+      "solution": "10 10\nx se sw x se ew sw x se sw\nse nw ns se nw x ne sw ns ns\nns x ne nw se sw x ne nw ns\nne ew sw x ns ne ew sw x ns\nse ew nw se nw x se nw se nw\nne sw x ns x se nw x ns x\nx ne sw ne sw ne ew sw ne sw\nse ew nw x ns x se nw x ns\nne sw x se nw se nw x se nw\nx ne ew nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/048.a.htm",
+      "info": ""
+    },
+    "49_10x10": {
+      "problem": "10 10\n2 2 - - - 1 - - - 1\n- - - - - - - - - -\n- - - - - 2 0 - 1 -\n- - - 0 - - 1 - - -\n- - 3 0 - - 0 - - -\n- - - - 0 - - 1 0 -\n- 1 - - 3 - - - - 1\n- - - - - - 0 - - -\n- - - - - - - - 1 -\n1 - - - - - - - - -\n1 5 5 5 5 9 9 9 9 22\n1 5 5 5 9 9 9 9 9 22\n1 1 5 5 5 11 13 13 19 19\n1 5 5 6 6 11 14 14 14 14\n1 5 2 7 7 11 15 15 14 14\n2 2 2 7 10 10 15 18 20 20\n2 3 2 2 8 12 12 18 18 21\n3 3 3 8 8 12 16 18 21 21\n3 3 3 8 8 8 16 18 17 21\n4 4 3 8 8 8 17 17 17 21",
+      "solution": "10 10\nx se ew sw x se ew ew sw x\nse nw x ne sw ne sw x ne sw\nns x se sw ns x ne sw x ns\nns se nw ns ne ew ew nw se nw\nne nw x ne sw x se ew nw x\nx se ew sw ns se nw x se sw\nse nw x ne nw ns x se nw ns\nns x se sw x ne ew nw x ns\nne sw ns ne sw x se ew sw ns\nx ne nw x ne ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/049.a.htm",
+      "info": ""
+    },
+    "50_10x10": {
+      "problem": "10 10\n3 - 1 - - - 1 - 0 1\n- - - - - 0 - 0 - -\n0 - 0 - - - - - 1 -\n- - 1 0 0 - 0 - - -\n1 0 - - 1 - - 1 - -\n- - - 2 - 1 - - - 1\n1 - - - 1 0 - 0 - -\n1 - - - - - 1 - 0 -\n- - 1 - 0 0 1 - 1 0\n- - - - - - - - - -\n1 1 7 7 7 7 21 21 28 32\n1 1 1 7 7 17 17 25 28 32\n2 1 8 8 7 17 17 25 29 32\n2 1 9 12 13 13 22 22 29 32\n3 6 9 12 14 14 22 26 26 26\n3 6 6 10 10 18 18 26 26 33\n4 4 10 10 15 19 18 27 27 33\n5 4 10 10 15 19 23 23 30 30\n5 5 11 11 16 20 24 24 31 34\n5 5 5 11 16 20 24 24 31 34",
+      "solution": "10 10\nx se ew sw se sw x se sw x\nse nw x ne nw ne ew nw ne sw\nns x se sw x se ew sw x ns\nns se nw ns se nw se nw se nw\nne nw x ne nw x ns x ne sw\nx se ew sw x se nw se ew nw\nse nw x ne ew nw x ne sw x\nns x se sw x se sw x ne sw\nne sw ns ne sw ns ne sw x ns\nx ne nw x ne nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/050.a.htm",
+      "info": ""
+    },
+    "51_8x8": {
+      "problem": "8 8\n0 - - 1 - 1 - -\n- 1 - - - 1 - -\n0 0 - 1 2 - 1 -\n- 1 - - - - - -\n1 - 0 - - - - -\n- - - - - - 2 -\n- - 2 - - - - -\n- - - - - - - -\n1 1 1 10 10 12 12 12\n1 5 5 10 10 13 13 13\n2 6 6 7 11 11 14 14\n2 4 7 7 11 11 14 14\n3 4 8 7 11 11 14 14\n3 4 8 8 11 11 15 15\n4 4 9 9 9 9 15 15\n4 4 9 9 9 9 15 15",
+      "solution": "8 8\nse ew sw x se ew sw x\nns x ne ew nw x ne sw\nns se ew sw x se ew nw\nne nw x ne sw ne sw x\nx se sw se nw x ne sw\nse nw ne nw se sw x ns\nne sw x se nw ns se nw\nx ne ew nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/051.a.htm",
+      "info": ""
+    },
+    "52_8x8": {
+      "problem": "8 8\n2 2 - 0 - - - 2\n- - - - - 1 - -\n- - - - - - - -\n- 0 - 3 - - - -\n2 0 - - - - 0 -\n- - - - - - 1 -\n- - - - 1 - 0 -\n- - - - - - - -\n1 3 3 7 7 7 7 13\n1 1 3 3 3 9 7 13\n1 1 1 3 3 9 9 13\n1 4 4 6 3 9 9 13\n2 5 5 6 6 9 10 10\n2 5 6 6 6 9 11 11\n2 5 6 6 8 8 12 12\n2 6 6 6 8 8 12 12",
+      "solution": "8 8\nx se ew sw se ew sw x\nse nw x ne nw x ne sw\nns x se sw x se ew nw\nne sw ns ne sw ne sw x\nx ns ns x ne sw ne sw\nse nw ne sw x ns x ns\nne sw x ne sw ne sw ns\nx ne ew ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/052.a.htm",
+      "info": ""
+    },
+    "53_8x8": {
+      "problem": "8 8\n0 - - 2 2 - 0 1\n- - - - - - - -\n1 - - - - - - -\n- - - - - - 1 -\n- - - 2 - - - -\n1 - - - - 1 - -\n1 - - - - - - -\n- - 1 - - - - -\n1 1 1 5 8 8 11 12\n1 1 1 5 8 8 11 12\n2 1 1 5 8 8 8 13\n2 2 5 5 5 8 9 13\n2 2 2 7 5 9 9 9\n3 3 2 7 7 10 10 9\n4 4 4 7 7 7 9 9\n4 4 6 6 6 7 7 9",
+      "solution": "8 8\nse ew sw x se ew sw x\nne sw ne ew nw x ne sw\nx ne ew sw x se ew nw\nse sw x ne sw ne sw x\nns ne sw x ne sw ne sw\nns x ne ew ew nw x ns\nne sw se ew sw x se nw\nx ne nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/053.a.htm",
+      "info": ""
+    },
+    "54_8x8": {
+      "problem": "8 8\n0 0 - 0 1 - 1 -\n- 1 0 - - 1 - -\n1 - - - - - 1 -\n- 0 1 - - - - -\n- - - 1 - - - -\n1 - - 2 - - - -\n- 0 - 1 - - 1 -\n0 - 1 - - - - -\n1 6 6 12 16 16 19 19\n1 7 9 12 12 18 18 18\n2 7 9 12 12 18 20 20\n2 3 10 10 10 10 10 20\n3 3 10 13 13 13 13 20\n4 4 4 14 14 14 14 14\n4 8 8 15 15 15 17 17\n5 5 11 11 17 17 17 17",
+      "solution": "8 8\nse ew ew sw x se sw x\nns x se nw se nw ne sw\nne sw ne ew nw x se nw\nx ns x se ew sw ns x\nse nw se nw x ns ne sw\nns x ns x se nw x ns\nns se nw se nw x se nw\nne nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/054.a.htm",
+      "info": ""
+    },
+    "55_8x8": {
+      "problem": "8 8\n0 - - 1 - 1 1 -\n0 1 0 - - - 1 -\n- - 1 0 - - - 0\n- - - - 0 - - -\n1 0 - 1 - 0 - -\n- 0 - - - 1 0 -\n0 - 2 - - - - 1\n- - - 1 - - - -\n1 1 1 11 11 16 20 20\n2 7 10 10 11 16 17 20\n2 7 3 12 12 17 17 23\n3 3 3 12 14 17 21 23\n4 8 8 13 14 18 18 24\n4 9 9 13 14 19 22 24\n5 5 6 14 14 19 22 25\n6 6 6 15 15 15 22 25",
+      "solution": "8 8\nse ew sw x se ew sw x\nns x ne ew nw x ne sw\nns se ew sw se sw x ns\nne nw x ne nw ns se nw\nx se sw x se nw ns x\nse nw ne ew nw x ne sw\nne sw x se ew sw se nw\nx ne ew nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/055.a.htm",
+      "info": ""
+    },
+    "56_10x10": {
+      "problem": "10 10\n1 0 - 1 - 1 - 1 - -\n- - - 0 - - - 0 - 2\n- 1 - - 1 - 0 - - -\n1 - - 2 - - - - - -\n- - - 2 0 - - - - 1\n1 0 - - - 2 - - - -\n- - 0 - - - - - - -\n0 - - 0 0 2 - - 0 0\n- - 2 - - - 1 - - -\n- - - - - - - - - -\n1 6 6 11 11 19 19 23 23 23\n1 6 6 12 11 19 19 24 24 25\n1 7 7 12 15 15 21 24 25 25\n2 2 2 13 13 13 21 25 25 25\n2 2 2 9 16 13 13 25 25 27\n3 8 9 9 16 20 20 20 20 27\n3 8 10 9 9 9 9 20 20 20\n4 8 10 14 17 18 18 20 26 28\n4 8 5 14 17 18 22 22 26 28\n5 5 5 5 18 18 22 22 26 26",
+      "solution": "10 10\nx se sw x se sw x se sw x\nse nw ne sw ns ne sw ns ne sw\nne sw x ne nw x ne nw x ns\nx ne sw x se ew sw x se nw\nse ew nw se nw x ne ew nw x\nne sw x ne ew sw x se ew sw\nx ne ew sw x ne ew nw x ns\nse ew ew nw se sw x se sw ns\nne sw x se nw ns se nw ns ns\nx ne ew nw x ne nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/056.a.htm",
+      "info": ""
+    },
+    "57_10x10": {
+      "problem": "10 10\n3 1 - 1 - - - 2 0 -\n- - - - - 2 - - - -\n- - - - - - - - - -\n- - - - - - 0 - 1 -\n- - 1 0 - - - 0 - -\n- - - 0 1 0 - - 1 -\n- 2 0 - - 1 1 - - -\n- - 1 0 - - 1 - - -\n- - - - 1 - 1 - 1 -\n- - - - - 0 - - - -\n1 4 4 7 7 7 7 17 23 23\n1 1 4 7 7 11 17 17 23 23\n1 1 4 4 11 11 17 17 17 23\n1 1 4 4 4 11 18 17 24 24\n1 1 2 8 8 11 18 22 22 24\n2 2 2 9 12 15 15 22 25 25\n2 3 5 9 12 13 19 19 25 25\n3 3 6 10 13 13 20 20 20 20\n3 3 6 10 14 13 21 21 26 26\n3 3 3 3 14 16 16 21 26 26",
+      "solution": "10 10\nx se sw x se ew sw x se sw\nse nw ne ew nw x ne sw ns ns\nns x se ew ew sw x ne nw ns\nne sw ns x se nw se sw x ns\nx ne nw se nw x ns ns se nw\nse sw x ns x se nw ns ns x\nns ne sw ns se nw x ns ne sw\nns x ne nw ns x se nw x ns\nne sw x se nw se nw x se nw\nx ne ew nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/057.a.htm",
+      "info": ""
+    },
+    "58_10x10": {
+      "problem": "10 10\n2 - - - - - 1 - 1 -\n0 2 - - 1 - - - 1 -\n- - 0 0 - - - - - -\n- - - - - 0 - - - 1\n1 - 1 - 0 1 0 - 0 -\n- - - - - - 1 1 - -\n- - 1 - - - - 1 - -\n- 1 - 0 2 - - - - 0\n1 - - - - - 1 - 1 -\n- - 0 - - - - - - -\n1 1 1 1 1 1 19 19 25 25\n2 5 5 1 13 13 19 19 23 25\n2 5 6 11 11 13 19 23 23 23\n2 6 6 11 11 17 17 23 23 28\n3 3 8 8 14 18 20 20 26 28\n3 3 8 8 14 18 15 24 24 29\n3 3 9 9 15 15 15 21 21 29\n3 7 9 12 16 16 21 21 21 30\n4 7 9 12 16 16 22 22 27 30\n4 4 10 10 16 16 16 16 27 27",
+      "solution": "10 10\nx se ew sw x se ew ew sw x\nse nw x ne sw ne sw x ne sw\nns x se sw ns x ne sw x ns\nns se nw ns ne ew ew nw se nw\nne nw x ne sw x se ew nw x\nx se ew sw ns se nw x se sw\nse nw x ne nw ns x se nw ns\nns x se sw x ne ew nw x ns\nne sw ns ns se ew sw x se nw\nx ne nw ne nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/058.a.htm",
+      "info": ""
+    },
+    "59_10x10": {
+      "problem": "10 10\n1 1 0 1 - 0 - 1 - 0\n- - - - - 3 - 0 - -\n1 - - - - - - - 0 -\n- - 0 - - - - 1 - 0\n- - 1 0 0 - 1 - - -\n1 - - - 0 - - - - 1\n- 0 - 0 - 2 - 0 - -\n- 0 - 1 - - - - 1 -\n- 1 - 0 0 - - - 0 -\n- - - - 1 - - - 1 -\n1 5 8 12 12 21 21 24 24 32\n1 5 8 8 8 16 21 25 24 32\n2 5 8 8 16 16 16 25 28 28\n2 2 9 9 16 16 16 26 26 33\n2 2 10 13 17 17 23 23 26 33\n3 3 10 13 18 18 18 26 26 34\n3 6 6 14 14 22 18 27 27 34\n3 7 7 15 15 22 22 22 29 29\n3 4 4 11 19 19 19 22 30 30\n4 4 11 11 20 20 19 19 31 31",
+      "solution": "10 10\nx se sw x se ew sw x se sw\nse nw ne ew nw x ne sw ns ns\nns x se ew ew sw x ne nw ns\nne sw ne sw x ne ew sw x ns\nx ns x ne ew sw x ns se nw\nse nw se sw se nw se nw ns x\nne sw ns ne nw x ne sw ne sw\nx ns ne sw x se ew nw x ns\nse nw x ne sw ne sw x se nw\nne ew ew ew nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/059.a.htm",
+      "info": ""
+    },
+    "60_10x10": {
+      "problem": "10 10\n2 - - 2 - - 3 2 - -\n- - - - - - - - - -\n- - 0 - 0 - - - - -\n- 2 - - - - 1 - - -\n- - - - - - - - 2 -\n- - - 0 - - - - - 0\n1 - - - - 2 - - - -\n- 2 0 - 1 - - - - -\n- - - - 1 - - - - -\n- - - - - - - - - -\n1 1 1 5 5 5 10 16 16 16\n1 1 5 5 5 10 10 10 16 16\n1 1 6 6 9 10 10 10 16 16\n1 2 6 6 9 10 14 16 16 16\n2 2 2 6 10 10 14 17 18 18\n2 2 2 8 8 8 15 17 18 19\n3 3 3 8 8 13 13 18 18 19\n3 4 7 7 11 11 13 13 18 19\n4 4 4 7 12 13 13 13 13 13\n4 4 4 7 12 12 13 13 13 13",
+      "solution": "10 10\nx se ew sw x se ew ew sw x\nse nw x ne sw ne sw x ne sw\nns x se sw ns x ne sw x ns\nns se nw ns ne sw x ns se nw\nne nw x ns x ne ew nw ns x\nx se ew nw se ew sw x ne sw\nse nw x se nw x ne sw x ns\nns x se nw x se ew nw se nw\nne sw ne ew sw ne sw x ne sw\nx ne ew ew nw x ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/060.a.htm",
+      "info": ""
+    },
+    "61_8x8": {
+      "problem": "8 8\n1 - - - - 3 - -\n3 - - - - - - -\n- - - - - - - 1\n- 0 - 0 - - - -\n- - - 1 - - - -\n- 2 0 - 1 - - 0\n- - - - - 0 - -\n1 - - - 1 - - -\n1 1 1 1 1 7 7 7\n2 2 1 1 1 7 7 7\n2 2 2 7 7 7 7 13\n2 3 3 8 8 13 13 13\n3 3 3 9 9 9 13 13\n3 4 6 6 11 11 11 15\n4 4 4 10 10 14 14 15\n5 5 5 5 12 12 14 15",
+      "solution": "8 8\nse ew sw x se ew sw x\nns x ne ew nw x ne sw\nne sw x se ew sw x ns\nx ns se nw se nw se nw\nse nw ns x ne sw ns x\nns x ne sw x ns ne sw\nne sw x ne sw ne sw ns\nx ne ew ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/061.a.htm",
+      "info": ""
+    },
+    "62_8x8": {
+      "problem": "8 8\n1 - - 0 3 - - -\n1 - - - - - - 0\n0 - - - - - - -\n1 - - - - 1 - -\n2 - - - - - - 1\n- - 1 - 1 - - -\n- 1 - - - - - -\n- - - - - 1 - -\n1 1 1 8 9 9 9 9\n2 2 2 8 9 9 9 13\n3 3 2 8 8 9 9 13\n4 4 2 2 2 11 13 13\n5 5 5 5 2 11 11 14\n5 5 7 7 10 11 11 14\n5 6 7 7 10 11 11 14\n6 6 6 6 10 12 12 14",
+      "solution": "8 8\nx se ew sw x se sw x\nse nw x ne sw ns ne sw\nne sw se sw ne nw x ns\nx ns ns ne sw x se nw\nse nw ns x ne sw ns x\nns x ne sw x ns ne sw\nne sw x ne sw ne sw ns\nx ne ew ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/062.a.htm",
+      "info": ""
+    },
+    "63_8x8": {
+      "problem": "8 8\n0 - - 1 - 2 - 0\n2 - - - - - - -\n- - - 2 1 - - -\n- - - - - - 1 -\n1 - - - - - - -\n- - - 2 - - - -\n- - - - - - 0 0\n0 - - - - - - -\n1 1 1 5 5 9 9 12\n2 1 1 1 5 9 9 12\n2 1 1 6 8 8 9 9\n2 2 1 6 6 8 10 10\n3 2 2 6 6 6 10 10\n3 3 2 7 7 6 10 10\n3 3 2 7 7 7 11 13\n4 4 4 7 7 7 11 13",
+      "solution": "8 8\nse ew sw x se ew ew sw\nne sw ne ew nw x se nw\nx ne sw x se ew nw x\nse ew nw se nw x se sw\nne sw x ns x se nw ns\nx ne sw ne ew nw x ns\nse ew nw x se ew sw ns\nne ew ew ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/063.a.htm",
+      "info": ""
+    },
+    "64_8x8": {
+      "problem": "8 8\n0 1 - - 1 - - 0\n- - - - - 1 - -\n- - - - 1 - - 0\n3 - - - - 0 - -\n- - - - - 2 1 -\n2 - - - - - - -\n- - - - - - - -\n0 - - - - - - -\n1 5 5 5 7 7 7 11\n1 5 5 5 5 8 11 11\n1 1 5 5 6 8 8 14\n2 2 2 6 6 9 9 14\n2 2 2 2 6 10 12 12\n3 2 2 3 6 10 10 13\n3 3 3 3 6 10 10 13\n4 4 3 3 6 10 13 13",
+      "solution": "8 8\nse ew ew ew sw x se sw\nns x se ew nw se nw ns\nne sw ne sw x ns x ns\nx ns x ne ew nw se nw\nse nw se ew sw x ns x\nns x ns x ne sw ne sw\nns se nw se ew nw x ns\nne nw x ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/064.a.htm",
+      "info": ""
+    },
+    "65_8x8": {
+      "problem": "8 8\n1 - - - 0 - 0 1\n- 1 - - - 1 - -\n1 1 - - 0 - 1 -\n- - - - - 0 - 1\n1 - 0 2 - - - -\n- 1 - - - - - 0\n- - - 1 0 1 - -\n- - - - - - - -\n1 1 1 1 11 11 16 19\n1 4 4 4 4 13 16 19\n2 5 5 4 8 13 17 17\n2 2 5 8 8 14 17 20\n3 2 7 9 9 14 14 20\n3 6 7 7 9 14 14 18\n3 6 7 10 12 15 15 18\n3 6 7 10 12 12 18 18",
+      "solution": "8 8\nse ew sw x se ew sw x\nns x ne ew nw x ne sw\nne sw x se ew sw x ns\nx ns se nw se nw se nw\nse nw ns x ne sw ns x\nns x ne sw x ns ne sw\nne sw se nw se nw x ns\nx ne nw x ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/065.a.htm",
+      "info": ""
+    },
+    "66_8x8": {
+      "problem": "8 8\n2 - - - 2 - - -\n- 0 - - - - - -\n- 1 - - 2 - 1 0\n- - - - - - - -\n1 - - 1 - - 0 1\n0 1 - - - - - -\n- - 0 1 0 1 0 -\n- - - - - - 0 -\n1 1 1 1 11 11 11 11\n1 5 5 1 11 11 11 11\n1 2 2 2 8 11 15 18\n2 2 2 8 8 8 15 18\n3 3 3 9 9 8 13 19\n4 6 3 9 9 13 13 19\n4 6 7 10 12 14 16 16\n4 4 7 10 12 14 17 17",
+      "solution": "8 8\nx se sw x se ew sw x\nse nw ne ew nw x ne sw\nns x se ew ew sw x ns\nne sw ne sw x ne sw ns\nx ne sw ne sw x ne nw\nse ew nw x ne ew sw x\nns x se ew sw x ne sw\nne ew nw x ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/066.a.htm",
+      "info": ""
+    },
+    "67_10x10": {
+      "problem": "10 10\n1 - - 1 - - 1 0 - 2\n- - 3 - - - - 1 - -\n1 - - 1 - - - - - -\n- - - - - - 0 - - -\n0 - - - 1 - - - 2 -\n- - - - - - - 1 - -\n- 2 1 - - 0 - - 1 -\n- - - - - - - 1 - -\n1 - - - - - - - - -\n- - - 1 - - - - - -\n1 1 1 8 8 8 9 16 16 19\n1 1 4 9 9 9 9 17 19 19\n2 2 4 10 9 9 9 17 19 19\n2 2 4 10 9 9 14 17 17 17\n3 3 4 10 12 12 14 17 20 20\n4 4 4 10 12 12 14 18 18 20\n4 5 7 7 7 13 13 18 21 20\n5 5 7 7 7 7 7 15 21 20\n6 5 5 5 7 7 15 15 15 20\n6 6 5 11 11 11 11 15 15 20",
+      "solution": "10 10\nx se ew sw x se sw se sw x\nse nw x ne ew nw ns ns ne sw\nns x se ew sw x ne nw x ns\nns se nw x ns se sw x se nw\nne nw x se nw ns ne ew nw x\nx se ew nw x ne sw x se sw\nse nw se ew ew sw ns se nw ns\nns x ne sw x ns ne nw x ns\nne sw x ne sw ne sw x se nw\nx ne ew ew nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/067.a.htm",
+      "info": ""
+    },
+    "68_10x10": {
+      "problem": "10 10\n2 - - 3 - 1 - 1 - 2\n1 - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - 2 - -\n- - - - - - - - - 2\n1 - 2 - - - - - - -\n- - - - - 1 - - - -\n1 1 - - - - - - - -\n- - - - 0 0 - - - -\n- - 1 - - - 1 - - -\n1 1 1 6 6 9 9 15 15 16\n2 1 1 6 6 9 9 15 15 16\n2 2 1 6 9 9 9 15 16 16\n2 2 2 6 6 9 9 11 11 16\n2 2 6 6 6 6 11 11 11 17\n3 2 7 6 6 11 11 11 11 17\n3 3 7 7 7 12 12 12 11 17\n4 5 5 7 7 12 12 12 11 17\n4 4 7 7 10 13 12 12 11 17\n4 4 8 8 10 13 14 14 17 17",
+      "solution": "10 10\nx se ew sw x se ew ew sw x\nse nw x ne sw ne sw x ne sw\nns x se sw ns x ne sw x ns\nns se nw ns ne ew ew nw se nw\nne nw x ne sw x se ew nw x\nx se ew sw ns se nw x se sw\nse nw x ne nw ns x se nw ns\nns x se sw x ne ew nw x ns\nne sw ns ne sw se ew sw se nw\nx ne nw x ne nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/068.a.htm",
+      "info": ""
+    },
+    "69_10x10": {
+      "problem": "10 10\n0 2 - 2 - - 1 1 - -\n- - - - - - - - - -\n- - - 1 - 1 - 1 - -\n- - - - - - - - 1 -\n- 2 - - - - - - - -\n- - - - - - - 3 - -\n2 - - - - - - - - -\n- - - - - - - 3 0 -\n1 - - 1 - - - - - -\n- - - - - - - 0 - -\n1 2 2 6 6 6 13 14 14 14\n1 2 2 6 6 6 13 13 14 14\n1 2 2 7 6 11 11 12 12 12\n2 2 2 7 6 6 12 12 16 16\n2 3 3 3 6 12 12 12 16 16\n3 3 3 3 6 12 12 8 16 16\n4 4 4 4 4 8 8 8 8 8\n4 4 4 8 8 8 8 10 17 17\n5 4 4 9 10 10 10 10 10 10\n5 5 4 9 9 10 10 15 15 15",
+      "solution": "10 10\nse sw x se sw x se ew sw x\nns ns se nw ns se nw x ne sw\nns ne nw x ne nw x se ew nw\nns x se ew sw se sw ne sw x\nne ew nw x ne nw ns x ne sw\nx se ew sw x se nw se ew nw\nse nw x ne ew nw x ne sw x\nns x se sw x se sw x ne sw\nne sw ns ne sw ns ne sw x ns\nx ne nw x ne nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/069.a.htm",
+      "info": ""
+    },
+    "70_10x10": {
+      "problem": "10 10\n0 - 1 - - 1 - 1 1 -\n- - - 0 - 0 - - - -\n1 1 - 1 - 2 - - - -\n- 0 1 0 - 0 - - 2 -\n- - - - - - - - - -\n0 - 1 - 1 - - 1 - -\n0 - 0 - 0 - - - - 0\n1 - 1 1 - - - - - -\n1 - - - 1 0 - 1 - -\n- - - - - 0 - - 1 -\n1 1 10 10 10 21 21 27 31 31\n1 1 1 14 14 22 22 27 31 31\n2 7 7 15 15 23 23 23 23 31\n2 8 11 16 16 24 23 23 28 28\n2 8 11 16 16 24 24 28 28 28\n3 3 12 12 18 18 24 29 29 28\n4 4 13 13 19 19 24 29 29 33\n5 5 9 17 17 17 17 29 29 33\n6 6 9 9 20 25 25 30 29 33\n6 9 9 9 20 26 26 30 32 32",
+      "solution": "10 10\nse sw x se sw x se ew sw x\nns ne sw ns ne ew nw x ne sw\nns x ne nw x se ew sw x ns\nne sw x se sw ns x ne sw ns\nx ne ew nw ns ne sw x ne nw\nse sw x se nw x ne ew sw x\nns ne sw ns se ew ew sw ne sw\nns x ne nw ns x se nw x ns\nne sw x se nw se nw x se nw\nx ne ew nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/070.a.htm",
+      "info": ""
+    }
+  }
+}

@@ -1,0 +1,1747 @@
+{
+  "count": 290,
+  "count_sol": 290,
+  "name": "Eulero",
+  "data": {
+    "01_4x4": {
+      "problem": "4 4\n00 00 00 00\n00 20 01 00\n02 00 00 00\n03 40 00 14",
+      "solution": "4 4\n31 13 24 42\n44 22 11 33\n12 34 43 21\n23 41 32 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/001.a.htm",
+      "info": ""
+    },
+    "02_4x4": {
+      "problem": "4 4\n00 00 00 10\n00 00 20 00\n01 00 00 00\n00 02 00 33",
+      "solution": "4 4\n43 21 32 14\n12 34 23 41\n31 13 44 22\n24 42 11 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/002.a.htm",
+      "info": ""
+    },
+    "03_4x4": {
+      "problem": "4 4\n00 00 00 00\n00 40 20 00\n32 00 00 00\n00 00 04 03",
+      "solution": "4 4\n24 33 11 42\n13 44 22 31\n32 21 43 14\n41 12 34 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/003.a.htm",
+      "info": ""
+    },
+    "04_4x4": {
+      "problem": "4 4\n00 00 00 10\n24 30 02 00\n00 03 00 00\n01 00 00 00",
+      "solution": "4 4\n33 22 41 14\n24 31 12 43\n42 13 34 21\n11 44 23 32",
+      "source": "https://www.janko.at/Raetsel/Eulero/004.a.htm",
+      "info": ""
+    },
+    "05_4x4": {
+      "problem": "4 4\n00 30 00 04\n00 10 00 00\n20 03 01 00\n00 00 00 00",
+      "solution": "4 4\n12 31 23 44\n33 14 42 21\n24 43 11 32\n41 22 34 13",
+      "source": "https://www.janko.at/Raetsel/Eulero/005.a.htm",
+      "info": ""
+    },
+    "06_5x5": {
+      "problem": "5 5\n00 01 00 00 10\n00 00 05 00 01\n53 20 04 00 00\n00 00 40 10 00\n00 00 00 02 00",
+      "solution": "5 5\n45 51 32 24 13\n34 12 55 43 21\n53 25 14 31 42\n22 33 41 15 54\n11 44 23 52 35",
+      "source": "https://www.janko.at/Raetsel/Eulero/006.a.htm",
+      "info": ""
+    },
+    "07_5x5": {
+      "problem": "5 5\n00 01 00 00 40\n01 00 40 00 00\n00 00 00 30 05\n14 02 00 40 20\n03 00 00 00 00",
+      "solution": "5 5\n25 31 12 53 44\n51 24 43 15 32\n42 13 21 34 55\n14 52 35 41 23\n33 45 54 22 11",
+      "source": "https://www.janko.at/Raetsel/Eulero/007.a.htm",
+      "info": ""
+    },
+    "08_5x5": {
+      "problem": "5 5\n00 05 00 00 20\n30 00 05 00 00\n03 04 50 10 00\n02 00 40 00 00\n00 00 00 20 02",
+      "solution": "5 5\n54 45 13 32 21\n31 12 25 44 53\n43 24 52 11 35\n22 33 41 55 14\n15 51 34 23 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/008.a.htm",
+      "info": ""
+    },
+    "09_5x5": {
+      "problem": "5 5\n04 00 00 00 00\n00 00 10 30 20\n00 03 02 00 40\n30 00 00 01 00\n00 05 00 03 04",
+      "solution": "5 5\n44 31 53 22 15\n51 42 14 35 23\n25 13 32 54 41\n33 24 45 11 52\n12 55 21 43 34",
+      "source": "https://www.janko.at/Raetsel/Eulero/009.a.htm",
+      "info": ""
+    },
+    "10_5x5": {
+      "problem": "5 5\n00 00 04 50 05\n00 50 00 01 00\n22 00 00 00 03\n00 10 00 04 00\n10 00 30 00 00",
+      "solution": "5 5\n41 33 14 52 25\n34 55 23 11 42\n22 44 51 35 13\n53 12 45 24 31\n15 21 32 43 54",
+      "source": "https://www.janko.at/Raetsel/Eulero/010.a.htm",
+      "info": ""
+    },
+    "11_5x5": {
+      "problem": "5 5\n50 00 00 00 30\n10 00 00 04 00\n04 00 01 22 00\n00 40 00 00 50\n05 10 03 00 00",
+      "solution": "5 5\n52 21 14 43 35\n11 33 25 54 42\n34 55 41 22 13\n23 44 32 15 51\n45 12 53 31 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/011.a.htm",
+      "info": ""
+    },
+    "12_5x5": {
+      "problem": "5 5\n00 04 00 00 00\n00 02 00 01 04\n50 00 20 10 00\n03 00 40 20 00\n00 00 00 03 50",
+      "solution": "5 5\n32 44 11 55 23\n45 22 53 31 14\n54 33 25 12 41\n13 51 42 24 35\n21 15 34 43 52",
+      "source": "https://www.janko.at/Raetsel/Eulero/012.a.htm",
+      "info": ""
+    },
+    "13_5x5": {
+      "problem": "5 5\n00 05 21 10 00\n05 04 00 40 00\n30 00 00 00 02\n00 00 00 20 03\n00 00 04 00 00",
+      "solution": "5 5\n53 35 21 12 44\n25 14 32 43 51\n34 41 13 55 22\n11 52 45 24 33\n42 23 54 31 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/013.a.htm",
+      "info": ""
+    },
+    "14_5x5": {
+      "problem": "5 5\n10 00 04 00 40\n00 02 00 00 00\n00 00 03 04 02\n00 30 40 50 00\n05 00 00 03 00",
+      "solution": "5 5\n12 21 54 35 43\n53 42 25 11 34\n31 55 13 44 22\n24 33 41 52 15\n45 14 32 23 51",
+      "source": "https://www.janko.at/Raetsel/Eulero/014.a.htm",
+      "info": ""
+    },
+    "15_5x5": {
+      "problem": "5 5\n00 05 00 20 40\n00 00 01 00 04\n03 00 00 00 00\n00 02 10 50 00\n00 40 00 00 05",
+      "solution": "5 5\n51 15 32 24 43\n35 53 21 42 14\n23 34 45 11 52\n44 22 13 55 31\n12 41 54 33 25",
+      "source": "https://www.janko.at/Raetsel/Eulero/015.a.htm",
+      "info": ""
+    },
+    "16_4x4": {
+      "problem": "4 4\n03 00 00 00\n00 00 00 40\n11 00 04 30\n00 04 00 00",
+      "solution": "4 4\n33 41 22 14\n24 12 31 43\n11 23 44 32\n42 34 13 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/016.a.htm",
+      "info": ""
+    },
+    "17_4x4": {
+      "problem": "4 4\n00 03 00 40\n00 00 32 20\n00 00 00 00\n20 04 00 00",
+      "solution": "4 4\n31 23 14 42\n13 41 32 24\n44 12 21 33\n22 34 43 11",
+      "source": "https://www.janko.at/Raetsel/Eulero/017.a.htm",
+      "info": ""
+    },
+    "18_4x4": {
+      "problem": "4 4\n00 00 00 00\n02 00 00 30\n00 00 14 40\n03 40 00 00",
+      "solution": "4 4\n24 33 41 12\n42 11 23 34\n31 22 14 43\n13 44 32 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/018.a.htm",
+      "info": ""
+    },
+    "19_4x4": {
+      "problem": "4 4\n00 00 00 02\n00 00 40 00\n20 10 01 00\n00 03 00 00",
+      "solution": "4 4\n41 34 13 22\n14 21 42 33\n23 12 31 44\n32 43 24 11",
+      "source": "https://www.janko.at/Raetsel/Eulero/019.a.htm",
+      "info": ""
+    },
+    "20_4x4": {
+      "problem": "4 4\n10 00 03 21\n00 04 10 00\n00 00 00 00\n40 00 00 00",
+      "solution": "4 4\n14 42 33 21\n32 24 11 43\n23 31 44 12\n41 13 22 34",
+      "source": "https://www.janko.at/Raetsel/Eulero/020.a.htm",
+      "info": ""
+    },
+    "21_5x5": {
+      "problem": "5 5\n02 00 15 00 00\n00 02 00 30 50\n10 40 00 03 00\n00 00 04 00 00\n03 00 00 00 00",
+      "solution": "5 5\n52 23 15 41 34\n24 12 43 35 51\n11 44 32 53 25\n45 31 54 22 13\n33 55 21 14 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/021.a.htm",
+      "info": ""
+    },
+    "22_5x5": {
+      "problem": "5 5\n00 02 00 40 10\n00 00 04 00 01\n50 10 00 30 40\n03 00 02 00 00\n10 05 00 00 00",
+      "solution": "5 5\n24 52 35 41 13\n32 23 44 15 51\n55 14 21 33 42\n43 31 12 54 25\n11 45 53 22 34",
+      "source": "https://www.janko.at/Raetsel/Eulero/022.a.htm",
+      "info": ""
+    },
+    "23_5x5": {
+      "problem": "5 5\n00 00 03 00 00\n24 00 00 10 00\n01 00 00 00 10\n00 05 00 04 00\n30 02 50 00 00",
+      "solution": "5 5\n15 44 23 51 32\n24 31 42 13 55\n41 53 35 22 14\n52 25 11 34 43\n33 12 54 45 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/023.a.htm",
+      "info": ""
+    },
+    "24_5x5": {
+      "problem": "5 5\n00 00 10 00 00\n00 30 00 00 05\n03 00 00 20 02\n00 00 00 03 00\n00 00 01 10 50",
+      "solution": "5 5\n22 43 14 55 31\n51 32 23 44 15\n13 54 35 21 42\n45 11 52 33 24\n34 25 41 12 53",
+      "source": "https://www.janko.at/Raetsel/Eulero/024.a.htm",
+      "info": ""
+    },
+    "25_5x5": {
+      "problem": "5 5\n00 05 00 01 10\n03 00 01 00 00\n00 01 00 00 25\n00 10 40 00 00\n00 00 00 04 50",
+      "solution": "5 5\n34 55 23 41 12\n53 22 11 35 44\n42 31 54 13 25\n21 14 45 52 33\n15 43 32 24 51",
+      "source": "https://www.janko.at/Raetsel/Eulero/025.a.htm",
+      "info": ""
+    },
+    "26_5x5": {
+      "problem": "5 5\n00 01 00 00 00\n10 00 00 00 04\n00 00 00 20 00\n00 50 01 33 40\n00 00 00 00 02",
+      "solution": "5 5\n34 21 55 42 13\n15 43 32 51 24\n53 12 44 25 31\n22 54 11 33 45\n41 35 23 14 52",
+      "source": "https://www.janko.at/Raetsel/Eulero/026.a.htm",
+      "info": ""
+    },
+    "27_5x5": {
+      "problem": "5 5\n00 20 00 00 30\n10 00 40 00 00\n00 01 04 10 02\n20 04 00 00 00\n40 00 00 00 05",
+      "solution": "5 5\n53 25 11 42 34\n12 33 45 24 51\n35 41 54 13 22\n21 14 32 55 43\n44 52 23 31 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/027.a.htm",
+      "info": ""
+    },
+    "28_5x5": {
+      "problem": "5 5\n05 00 00 10 40\n00 00 00 00 03\n01 00 04 00 00\n00 50 02 03 10\n00 20 00 50 00",
+      "solution": "5 5\n55 32 23 14 41\n12 44 35 21 53\n31 13 54 45 22\n24 51 42 33 15\n43 25 11 52 34",
+      "source": "https://www.janko.at/Raetsel/Eulero/028.a.htm",
+      "info": ""
+    },
+    "29_5x5": {
+      "problem": "5 5\n02 00 05 01 00\n50 00 00 20 00\n00 00 01 00 40\n05 00 10 00 20\n10 04 00 00 00",
+      "solution": "5 5\n22 13 35 41 54\n53 31 42 24 15\n34 25 51 12 43\n45 52 14 33 21\n11 44 23 55 32",
+      "source": "https://www.janko.at/Raetsel/Eulero/029.a.htm",
+      "info": ""
+    },
+    "30_5x5": {
+      "problem": "5 5\n00 05 00 00 00\n30 00 03 00 00\n00 20 02 10 50\n00 00 00 04 10\n00 00 00 01 05",
+      "solution": "5 5\n22 55 11 43 34\n35 14 23 52 41\n44 21 32 15 53\n51 33 45 24 12\n13 42 54 31 25",
+      "source": "https://www.janko.at/Raetsel/Eulero/030.a.htm",
+      "info": ""
+    },
+    "31_4x4": {
+      "problem": "4 4\n00 04 02 30\n01 00 00 00\n00 03 00 10\n20 00 00 00",
+      "solution": "4 4\n13 24 42 31\n41 32 14 23\n34 43 21 12\n22 11 33 44",
+      "source": "https://www.janko.at/Raetsel/Eulero/031.a.htm",
+      "info": ""
+    },
+    "32_4x4": {
+      "problem": "4 4\n00 00 01 42\n00 20 30 00\n00 00 00 00\n04 00 00 00",
+      "solution": "4 4\n13 34 21 42\n41 22 33 14\n32 11 44 23\n24 43 12 31",
+      "source": "https://www.janko.at/Raetsel/Eulero/032.a.htm",
+      "info": ""
+    },
+    "33_4x4": {
+      "problem": "4 4\n00 00 00 12\n00 20 30 00\n00 04 00 00\n00 01 03 00",
+      "solution": "4 4\n44 33 21 12\n11 22 34 43\n23 14 42 31\n32 41 13 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/033.a.htm",
+      "info": ""
+    },
+    "34_4x4": {
+      "problem": "4 4\n00 02 00 04\n00 00 30 00\n00 10 00 00\n01 00 20 00",
+      "solution": "4 4\n33 42 11 24\n14 21 32 43\n22 13 44 31\n41 34 23 12",
+      "source": "https://www.janko.at/Raetsel/Eulero/034.a.htm",
+      "info": ""
+    },
+    "35_4x4": {
+      "problem": "4 4\n00 40 03 00\n02 00 00 00\n10 00 00 30\n00 00 01 00",
+      "solution": "4 4\n31 44 23 12\n22 13 34 41\n14 21 42 33\n43 32 11 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/035.a.htm",
+      "info": ""
+    },
+    "36_4x4": {
+      "problem": "4 4\n02 00 20 00\n00 00 00 00\n34 00 00 00\n10 00 00 01",
+      "solution": "4 4\n42 31 23 14\n21 12 44 33\n34 43 11 22\n13 24 32 41",
+      "source": "https://www.janko.at/Raetsel/Eulero/036.a.htm",
+      "info": ""
+    },
+    "37_5x5": {
+      "problem": "5 5\n44 02 00 00 00\n00 10 00 00 02\n10 00 05 00 00\n00 00 00 00 10\n00 00 50 03 20",
+      "solution": "5 5\n44 22 11 35 53\n55 14 43 21 32\n12 33 25 54 41\n23 51 34 42 15\n31 45 52 13 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/037.a.htm",
+      "info": ""
+    },
+    "38_5x5": {
+      "problem": "5 5\n00 40 02 00 00\n02 00 15 00 00\n00 00 01 04 02\n30 00 00 03 00\n00 50 00 00 01",
+      "solution": "5 5\n13 41 22 35 54\n52 34 15 21 43\n45 23 51 14 32\n31 12 44 53 25\n24 55 33 42 11",
+      "source": "https://www.janko.at/Raetsel/Eulero/038.a.htm",
+      "info": ""
+    },
+    "39_5x5": {
+      "problem": "5 5\n04 00 00 00 50\n00 02 20 00 00\n30 00 10 40 00\n00 20 00 04 00\n01 00 05 00 03",
+      "solution": "5 5\n24 45 33 11 52\n53 12 21 35 44\n32 51 14 43 25\n15 23 42 54 31\n41 34 55 22 13",
+      "source": "https://www.janko.at/Raetsel/Eulero/039.a.htm",
+      "info": ""
+    },
+    "40_5x5": {
+      "problem": "5 5\n20 00 00 40 32\n30 00 00 20 00\n01 53 00 00 00\n00 00 05 00 00\n10 00 20 00 00",
+      "solution": "5 5\n23 15 51 44 32\n35 42 13 21 54\n41 53 34 12 25\n52 24 45 33 11\n14 31 22 55 43",
+      "source": "https://www.janko.at/Raetsel/Eulero/040.a.htm",
+      "info": ""
+    },
+    "41_4x4": {
+      "problem": "4 4\n40 00 03 02\n10 40 00 04\n00 01 00 00\n30 00 00 00",
+      "solution": "4 4\n41 14 33 22\n13 42 21 34\n24 31 12 43\n32 23 44 11",
+      "source": "https://www.janko.at/Raetsel/Eulero/041.a.htm",
+      "info": ""
+    },
+    "42_4x4": {
+      "problem": "4 4\n00 00 02 00\n00 03 01 40\n02 00 00 20\n00 10 00 00",
+      "solution": "4 4\n43 34 22 11\n14 23 31 42\n32 41 13 24\n21 12 44 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/042.a.htm",
+      "info": ""
+    },
+    "43_4x4": {
+      "problem": "4 4\n00 00 00 01\n00 42 00 14\n00 30 00 00\n01 00 00 00",
+      "solution": "4 4\n22 13 34 41\n33 42 21 14\n44 31 12 23\n11 24 43 32",
+      "source": "https://www.janko.at/Raetsel/Eulero/043.a.htm",
+      "info": ""
+    },
+    "44_4x4": {
+      "problem": "4 4\n00 42 10 00\n04 03 00 00\n00 00 04 00\n00 00 20 00",
+      "solution": "4 4\n31 42 13 24\n14 23 32 41\n22 11 44 33\n43 34 21 12",
+      "source": "https://www.janko.at/Raetsel/Eulero/044.a.htm",
+      "info": ""
+    },
+    "45_4x4": {
+      "problem": "4 4\n02 00 00 04\n00 00 00 30\n10 40 00 00\n00 20 00 01",
+      "solution": "4 4\n22 31 43 14\n44 13 21 32\n11 42 34 23\n33 24 12 41",
+      "source": "https://www.janko.at/Raetsel/Eulero/045.a.htm",
+      "info": ""
+    },
+    "46_4x4": {
+      "problem": "4 4\n00 00 00 03\n02 20 00 30\n00 00 10 00\n01 00 00 00",
+      "solution": "4 4\n34 41 22 13\n12 23 44 31\n43 32 11 24\n21 14 33 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/046.a.htm",
+      "info": ""
+    },
+    "47_5x5": {
+      "problem": "5 5\n00 00 00 30 00\n00 50 02 00 40\n00 00 04 00 01\n40 10 00 20 00\n13 00 00 00 02",
+      "solution": "5 5\n52 44 21 33 15\n24 55 32 11 43\n35 23 14 42 51\n41 12 53 25 34\n13 31 45 54 22",
+      "source": "https://www.janko.at/Raetsel/Eulero/047.a.htm",
+      "info": ""
+    },
+    "48_5x5": {
+      "problem": "5 5\n02 00 00 00 00\n00 00 10 30 00\n01 05 03 00 40\n10 02 00 00 00\n00 40 00 20 05",
+      "solution": "5 5\n32 11 44 55 23\n45 24 12 33 51\n21 35 53 14 42\n13 52 25 41 34\n54 43 31 22 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/048.a.htm",
+      "info": ""
+    },
+    "49_5x5": {
+      "problem": "5 5\n00 00 00 03 00\n50 01 00 30 00\n02 00 40 00 00\n00 00 02 00 00\n00 00 20 04 30",
+      "solution": "5 5\n44 55 31 23 12\n53 21 14 32 45\n22 34 43 15 51\n35 13 52 41 24\n11 42 25 54 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/049.a.htm",
+      "info": ""
+    },
+    "50_5x5": {
+      "problem": "5 5\n00 03 10 00 00\n00 05 00 03 10\n20 00 00 50 00\n03 02 00 01 00\n00 00 40 00 50",
+      "solution": "5 5\n55 43 14 32 21\n44 35 51 23 12\n22 11 33 54 45\n13 52 25 41 34\n31 24 42 15 53",
+      "source": "https://www.janko.at/Raetsel/Eulero/050.a.htm",
+      "info": ""
+    },
+    "51_4x4": {
+      "problem": "4 4\n00 00 40 00\n00 11 00 00\n02 00 20 00\n00 04 00 02",
+      "solution": "4 4\n33 22 41 14\n44 11 32 23\n12 43 24 31\n21 34 13 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/051.a.htm",
+      "info": ""
+    },
+    "52_4x4": {
+      "problem": "4 4\n01 30 00 00\n00 00 00 10\n00 20 04 03\n00 00 30 00",
+      "solution": "4 4\n41 32 13 24\n34 43 22 11\n12 21 44 33\n23 14 31 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/052.a.htm",
+      "info": ""
+    },
+    "53_4x4": {
+      "problem": "4 4\n03 00 00 00\n00 00 00 00\n00 01 04 40\n20 30 00 00",
+      "solution": "4 4\n13 44 31 22\n41 12 23 34\n32 21 14 43\n24 33 42 11",
+      "source": "https://www.janko.at/Raetsel/Eulero/053.a.htm",
+      "info": ""
+    },
+    "54_4x4": {
+      "problem": "4 4\n00 00 00 04\n02 00 41 10\n00 00 00 00\n00 20 00 00",
+      "solution": "4 4\n11 43 32 24\n22 34 41 13\n44 12 23 31\n33 21 14 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/054.a.htm",
+      "info": ""
+    },
+    "55_4x4": {
+      "problem": "4 4\n00 00 04 00\n10 00 00 00\n00 01 00 00\n40 20 13 00",
+      "solution": "4 4\n21 43 34 12\n14 32 41 23\n33 11 22 44\n42 24 13 31",
+      "source": "https://www.janko.at/Raetsel/Eulero/055.a.htm",
+      "info": ""
+    },
+    "56_4x4": {
+      "problem": "4 4\n10 00 00 02\n00 30 00 20\n00 00 00 04\n00 00 01 00",
+      "solution": "4 4\n11 23 44 32\n42 34 13 21\n33 41 22 14\n24 12 31 43",
+      "source": "https://www.janko.at/Raetsel/Eulero/056.a.htm",
+      "info": ""
+    },
+    "57_5x5": {
+      "problem": "5 5\n00 00 02 00 20\n00 00 20 00 02\n00 10 00 00 00\n05 02 03 30 00\n03 00 00 40 04",
+      "solution": "5 5\n44 51 32 13 25\n31 43 24 55 12\n52 14 45 21 33\n15 22 53 34 41\n23 35 11 42 54",
+      "source": "https://www.janko.at/Raetsel/Eulero/057.a.htm",
+      "info": ""
+    },
+    "58_5x5": {
+      "problem": "5 5\n00 00 10 04 40\n00 00 00 50 00\n40 00 30 00 00\n00 01 00 03 00\n05 40 04 00 00",
+      "solution": "5 5\n21 53 12 34 45\n13 24 41 55 32\n44 15 33 22 51\n52 31 25 43 14\n35 42 54 11 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/058.a.htm",
+      "info": ""
+    },
+    "59_5x5": {
+      "problem": "5 5\n00 20 40 00 02\n00 04 00 00 01\n01 00 30 05 00\n00 10 00 00 00\n05 00 00 40 00",
+      "solution": "5 5\n14 25 41 53 32\n43 34 55 22 11\n21 42 33 15 54\n52 13 24 31 45\n35 51 12 44 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/059.a.htm",
+      "info": ""
+    },
+    "60_5x5": {
+      "problem": "5 5\n00 10 00 40 00\n00 00 04 05 00\n00 00 20 00 00\n10 02 00 00 03\n50 00 10 00 02",
+      "solution": "5 5\n21 14 52 43 35\n42 23 34 55 11\n33 51 25 12 44\n15 32 41 24 53\n54 45 13 31 22",
+      "source": "https://www.janko.at/Raetsel/Eulero/060.a.htm",
+      "info": ""
+    },
+    "61_4x4": {
+      "problem": "4 4\n10 00 00 04\n00 00 33 00\n00 00 00 01\n00 20 00 00",
+      "solution": "4 4\n12 43 21 34\n44 11 33 22\n23 32 14 41\n31 24 42 13",
+      "source": "https://www.janko.at/Raetsel/Eulero/061.a.htm",
+      "info": ""
+    },
+    "62_4x4": {
+      "problem": "4 4\n04 01 00 00\n00 00 00 41\n00 03 20 00\n10 00 40 00",
+      "solution": "4 4\n44 31 13 22\n23 12 34 41\n32 43 21 14\n11 24 42 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/062.a.htm",
+      "info": ""
+    },
+    "63_4x4": {
+      "problem": "4 4\n00 13 00 00\n00 01 00 04\n20 40 00 00\n00 00 00 30",
+      "solution": "4 4\n34 13 21 42\n12 31 43 24\n23 44 32 11\n41 22 14 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/063.a.htm",
+      "info": ""
+    },
+    "64_4x4": {
+      "problem": "4 4\n00 00 30 00\n00 00 02 00\n00 00 00 03\n00 40 00 14",
+      "solution": "4 4\n24 13 31 42\n43 34 12 21\n11 22 44 33\n32 41 23 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/064.a.htm",
+      "info": ""
+    },
+    "65_4x4": {
+      "problem": "4 4\n10 03 00 00\n00 00 04 02\n40 04 30 00\n30 00 00 00",
+      "solution": "4 4\n11 33 22 44\n23 41 14 32\n42 24 31 13\n34 12 43 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/065.a.htm",
+      "info": ""
+    },
+    "66_4x4": {
+      "problem": "4 4\n01 00 10 00\n00 00 43 00\n00 02 00 00\n00 00 00 20",
+      "solution": "4 4\n31 23 14 42\n22 34 43 11\n44 12 21 33\n13 41 32 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/066.a.htm",
+      "info": ""
+    },
+    "67_5x5": {
+      "problem": "5 5\n30 10 00 00 00\n02 00 00 00 03\n00 00 03 25 00\n00 20 00 00 02\n00 40 00 03 01",
+      "solution": "5 5\n33 11 24 42 55\n22 35 51 14 43\n41 52 13 25 34\n54 23 45 31 12\n15 44 32 53 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/067.a.htm",
+      "info": ""
+    },
+    "68_5x5": {
+      "problem": "5 5\n05 10 00 00 00\n00 50 00 05 00\n20 00 00 00 00\n40 00 03 01 00\n00 00 00 23 02",
+      "solution": "5 5\n35 11 22 54 43\n13 52 34 45 21\n24 33 41 12 55\n42 25 53 31 14\n51 44 15 23 32",
+      "source": "https://www.janko.at/Raetsel/Eulero/068.a.htm",
+      "info": ""
+    },
+    "69_5x5": {
+      "problem": "5 5\n00 00 00 00 22\n40 00 30 00 00\n00 00 00 04 00\n00 10 02 00 05\n00 04 00 01 00",
+      "solution": "5 5\n51 33 14 45 22\n43 25 31 12 54\n15 52 23 34 41\n24 11 42 53 35\n32 44 55 21 13",
+      "source": "https://www.janko.at/Raetsel/Eulero/069.a.htm",
+      "info": ""
+    },
+    "70_5x5": {
+      "problem": "5 5\n01 10 04 00 00\n00 00 50 40 02\n00 01 00 20 05\n00 04 00 00 00\n00 00 00 30 00",
+      "solution": "5 5\n21 12 34 55 43\n14 35 53 41 22\n33 51 42 24 15\n52 44 25 13 31\n45 23 11 32 54",
+      "source": "https://www.janko.at/Raetsel/Eulero/070.a.htm",
+      "info": ""
+    },
+    "71_4x4": {
+      "problem": "4 4\n00 00 00 00\n00 10 00 20\n00 00 43 00\n04 00 00 01",
+      "solution": "4 4\n13 44 21 32\n42 11 34 23\n31 22 43 14\n24 33 12 41",
+      "source": "https://www.janko.at/Raetsel/Eulero/071.a.htm",
+      "info": ""
+    },
+    "72_4x4": {
+      "problem": "4 4\n00 00 00 04\n00 03 04 00\n00 30 20 00\n40 02 00 00",
+      "solution": "4 4\n33 11 42 24\n21 43 14 32\n12 34 23 41\n44 22 31 13",
+      "source": "https://www.janko.at/Raetsel/Eulero/072.a.htm",
+      "info": ""
+    },
+    "73_4x4": {
+      "problem": "4 4\n00 00 00 30\n00 00 00 00\n00 04 02 40\n03 00 10 00",
+      "solution": "4 4\n22 13 41 34\n44 31 23 12\n11 24 32 43\n33 42 14 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/073.a.htm",
+      "info": ""
+    },
+    "74_4x4": {
+      "problem": "4 4\n04 00 00 00\n33 00 00 00\n00 00 04 40\n00 10 00 01",
+      "solution": "4 4\n44 32 21 13\n33 41 12 24\n11 23 34 42\n22 14 43 31",
+      "source": "https://www.janko.at/Raetsel/Eulero/074.a.htm",
+      "info": ""
+    },
+    "75_4x4": {
+      "problem": "4 4\n40 04 00 01\n00 00 00 02\n00 00 30 00\n00 20 00 04",
+      "solution": "4 4\n43 14 22 31\n24 33 41 12\n11 42 34 23\n32 21 13 44",
+      "source": "https://www.janko.at/Raetsel/Eulero/075.a.htm",
+      "info": ""
+    },
+    "76_4x4": {
+      "problem": "4 4\n00 00 03 30\n00 00 00 00\n00 40 04 00\n00 00 00 21",
+      "solution": "4 4\n11 22 43 34\n23 14 31 42\n32 41 24 13\n44 33 12 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/076.a.htm",
+      "info": ""
+    },
+    "77_5x5": {
+      "problem": "5 5\n00 00 00 00 33\n40 00 00 05 00\n00 20 01 00 02\n14 00 05 02 00\n00 50 00 00 00",
+      "solution": "5 5\n51 15 22 44 33\n42 31 13 25 54\n35 24 41 53 12\n14 43 55 32 21\n23 52 34 11 45",
+      "source": "https://www.janko.at/Raetsel/Eulero/077.a.htm",
+      "info": ""
+    },
+    "78_5x5": {
+      "problem": "5 5\n01 30 50 00 03\n00 00 02 40 00\n10 20 00 00 00\n30 03 00 00 00\n00 00 00 50 05",
+      "solution": "5 5\n41 35 54 12 23\n55 14 22 43 31\n13 21 45 34 52\n32 53 11 25 44\n24 42 33 51 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/078.a.htm",
+      "info": ""
+    },
+    "79_5x5": {
+      "problem": "5 5\n00 00 40 10 00\n04 00 00 05 00\n02 04 00 00 30\n00 03 00 02 00\n00 30 00 00 20",
+      "solution": "5 5\n33 25 41 14 52\n54 11 22 35 43\n12 44 55 23 31\n21 53 34 42 15\n45 32 13 51 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/079.a.htm",
+      "info": ""
+    },
+    "80_5x5": {
+      "problem": "5 5\n00 10 30 00 01\n02 00 00 03 00\n00 00 00 40 20\n20 30 00 00 02\n00 00 03 00 05",
+      "solution": "5 5\n43 15 32 24 51\n52 41 25 13 34\n35 54 11 42 23\n21 33 44 55 12\n14 22 53 31 45",
+      "source": "https://www.janko.at/Raetsel/Eulero/080.a.htm",
+      "info": ""
+    },
+    "81_5x5": {
+      "problem": "5 5\n40 00 01 50 00\n00 10 00 00 00\n05 00 00 22 00\n00 04 00 00 00\n00 00 04 40 01",
+      "solution": "5 5\n44 35 21 53 12\n51 13 42 34 25\n15 41 33 22 54\n32 24 55 11 43\n23 52 14 45 31",
+      "source": "https://www.janko.at/Raetsel/Eulero/081.a.htm",
+      "info": ""
+    },
+    "82_5x5": {
+      "problem": "5 5\n00 00 20 52 40\n01 00 00 20 00\n20 10 00 00 00\n00 00 00 00 31\n00 00 03 00 05",
+      "solution": "5 5\n15 33 21 52 44\n51 45 34 23 12\n24 11 42 35 53\n43 22 55 14 31\n32 54 13 41 25",
+      "source": "https://www.janko.at/Raetsel/Eulero/082.a.htm",
+      "info": ""
+    },
+    "83_5x5": {
+      "problem": "5 5\n03 00 10 40 00\n00 00 20 00 30\n04 00 02 00 00\n05 00 00 00 50\n00 03 00 10 00",
+      "solution": "5 5\n33 55 11 44 22\n42 14 25 53 31\n24 41 52 35 13\n15 32 43 21 54\n51 23 34 12 45",
+      "source": "https://www.janko.at/Raetsel/Eulero/083.a.htm",
+      "info": ""
+    },
+    "84_5x5": {
+      "problem": "5 5\n00 20 30 40 00\n02 00 00 00 03\n00 50 04 03 02\n50 00 00 00 00\n00 00 00 11 00",
+      "solution": "5 5\n15 24 33 42 51\n22 31 45 54 13\n41 55 14 23 32\n53 12 21 35 44\n34 43 52 11 25",
+      "source": "https://www.janko.at/Raetsel/Eulero/084.a.htm",
+      "info": ""
+    },
+    "85_5x5": {
+      "problem": "5 5\n03 20 00 00 00\n00 00 05 04 01\n00 00 01 05 00\n30 00 02 40 00\n00 00 00 00 52",
+      "solution": "5 5\n53 21 44 32 15\n22 13 35 54 41\n14 42 51 25 33\n31 55 12 43 24\n45 34 23 11 52",
+      "source": "https://www.janko.at/Raetsel/Eulero/085.a.htm",
+      "info": ""
+    },
+    "86_5x5": {
+      "problem": "5 5\n20 00 00 04 50\n00 00 00 00 04\n01 40 10 00 00\n00 00 54 00 00\n00 02 00 00 05",
+      "solution": "5 5\n25 31 43 14 52\n13 55 32 41 24\n51 44 15 22 33\n42 23 54 35 11\n34 12 21 53 45",
+      "source": "https://www.janko.at/Raetsel/Eulero/086.a.htm",
+      "info": ""
+    },
+    "87_5x5": {
+      "problem": "5 5\n00 40 00 35 00\n00 10 30 00 00\n00 24 02 00 00\n30 00 01 00 00\n20 00 00 00 03",
+      "solution": "5 5\n54 41 23 35 12\n42 13 34 51 25\n15 24 52 43 31\n33 55 11 22 44\n21 32 45 14 53",
+      "source": "https://www.janko.at/Raetsel/Eulero/087.a.htm",
+      "info": ""
+    },
+    "88_5x5": {
+      "problem": "5 5\n00 10 04 00 00\n00 02 00 00 00\n20 03 00 00 31\n00 00 00 43 04\n00 00 02 00 00",
+      "solution": "5 5\n33 11 54 25 42\n41 22 13 34 55\n24 53 45 12 31\n52 35 21 43 14\n15 44 32 51 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/088.a.htm",
+      "info": ""
+    },
+    "89_5x5": {
+      "problem": "5 5\n04 00 01 00 20\n05 10 00 00 00\n00 00 04 01 00\n00 00 20 03 50\n00 50 00 00 30",
+      "solution": "5 5\n14 35 41 52 23\n55 11 33 24 42\n43 22 54 31 15\n32 44 25 13 51\n21 53 12 45 34",
+      "source": "https://www.janko.at/Raetsel/Eulero/089.a.htm",
+      "info": ""
+    },
+    "90_5x5": {
+      "problem": "5 5\n00 03 30 00 00\n02 00 20 00 00\n00 00 00 00 10\n13 00 00 00 00\n00 00 05 50 04",
+      "solution": "5 5\n44 23 32 11 55\n52 14 21 45 33\n25 51 43 34 12\n13 35 54 22 41\n31 42 15 53 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/090.a.htm",
+      "info": ""
+    },
+    "91_4x4": {
+      "problem": "4 4\n20 10 00 00\n01 00 40 00\n04 00 02 00\n00 00 00 20",
+      "solution": "4 4\n23 12 31 44\n11 24 43 32\n34 41 22 13\n42 33 14 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/091.a.htm",
+      "info": ""
+    },
+    "92_4x4": {
+      "problem": "4 4\n30 00 00 00\n00 00 04 03\n00 04 40 00\n11 00 00 00",
+      "solution": "4 4\n34 43 12 21\n42 31 24 13\n23 14 41 32\n11 22 33 44",
+      "source": "https://www.janko.at/Raetsel/Eulero/092.a.htm",
+      "info": ""
+    },
+    "93_4x4": {
+      "problem": "4 4\n01 00 00 00\n10 40 00 00\n00 00 00 00\n23 01 04 10",
+      "solution": "4 4\n41 13 22 34\n14 42 33 21\n32 24 11 43\n23 31 44 12",
+      "source": "https://www.janko.at/Raetsel/Eulero/093.a.htm",
+      "info": ""
+    },
+    "94_4x4": {
+      "problem": "4 4\n01 00 00 00\n00 00 03 20\n10 04 00 31\n00 00 00 00",
+      "solution": "4 4\n21 32 14 43\n42 11 33 24\n13 44 22 31\n34 23 41 12",
+      "source": "https://www.janko.at/Raetsel/Eulero/094.a.htm",
+      "info": ""
+    },
+    "95_4x4": {
+      "problem": "4 4\n04 00 00 00\n30 00 00 00\n03 20 00 00\n00 40 02 00",
+      "solution": "4 4\n14 31 23 42\n32 13 41 24\n43 22 34 11\n21 44 12 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/095.a.htm",
+      "info": ""
+    },
+    "96_5x5": {
+      "problem": "5 5\n02 04 00 00 50\n03 00 50 20 10\n40 00 00 01 00\n00 00 05 00 04\n00 30 20 00 00",
+      "solution": "5 5\n12 24 41 35 53\n33 45 54 22 11\n44 13 32 51 25\n21 52 15 43 34\n55 31 23 14 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/096.a.htm",
+      "info": ""
+    },
+    "97_5x5": {
+      "problem": "5 5\n00 52 00 00 00\n50 00 00 00 00\n00 00 40 30 01\n00 00 00 00 03\n00 10 01 04 00",
+      "solution": "5 5\n41 52 34 23 15\n53 31 12 45 24\n14 25 43 32 51\n22 44 55 11 33\n35 13 21 54 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/097.a.htm",
+      "info": ""
+    },
+    "98_5x5": {
+      "problem": "5 5\n00 12 30 00 00\n20 00 00 00 00\n00 00 10 03 00\n00 00 04 00 01\n40 00 00 20 00",
+      "solution": "5 5\n55 12 31 44 23\n22 54 43 11 35\n34 21 15 53 42\n13 45 24 32 51\n41 33 52 25 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/098.a.htm",
+      "info": ""
+    },
+    "99_5x5": {
+      "problem": "5 5\n00 00 00 20 02\n00 40 00 03 00\n03 00 10 00 00\n10 30 02 00 00\n00 01 00 05 00",
+      "solution": "5 5\n31 53 45 24 12\n54 42 21 13 35\n43 25 14 32 51\n15 34 52 41 23\n22 11 33 55 44",
+      "source": "https://www.janko.at/Raetsel/Eulero/099.a.htm",
+      "info": ""
+    },
+    "100_5x5": {
+      "problem": "5 5\n02 10 00 50 00\n00 00 34 00 00\n00 40 20 00 01\n00 03 00 01 10\n00 00 03 00 40",
+      "solution": "5 5\n32 15 41 54 23\n11 22 34 43 55\n53 44 25 12 31\n45 33 52 21 14\n24 51 13 35 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/100.a.htm",
+      "info": ""
+    },
+    "101_4x4": {
+      "problem": "4 4\n00 40 00 00\n00 00 03 00\n00 00 00 02\n20 00 00 34",
+      "solution": "4 4\n32 44 11 23\n14 22 33 41\n43 31 24 12\n21 13 42 34",
+      "source": "https://www.janko.at/Raetsel/Eulero/101.a.htm",
+      "info": ""
+    },
+    "102_4x4": {
+      "problem": "4 4\n00 00 30 00\n00 04 00 00\n00 32 00 00\n03 40 00 20",
+      "solution": "4 4\n11 23 34 42\n22 14 43 31\n44 32 21 13\n33 41 12 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/102.a.htm",
+      "info": ""
+    },
+    "103_4x4": {
+      "problem": "4 4\n20 00 04 00\n00 20 00 40\n01 00 12 00\n00 30 00 00",
+      "solution": "4 4\n23 11 44 32\n14 22 33 41\n31 43 12 24\n42 34 21 13",
+      "source": "https://www.janko.at/Raetsel/Eulero/103.a.htm",
+      "info": ""
+    },
+    "104_4x4": {
+      "problem": "4 4\n00 20 00 40\n00 32 00 00\n02 01 00 00\n00 04 10 00",
+      "solution": "4 4\n14 23 31 42\n41 32 24 13\n22 11 43 34\n33 44 12 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/104.a.htm",
+      "info": ""
+    },
+    "105_4x4": {
+      "problem": "4 4\n00 00 00 20\n00 30 00 00\n03 00 00 42\n00 00 04 00",
+      "solution": "4 4\n34 43 12 21\n41 32 23 14\n13 24 31 42\n22 11 44 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/105.a.htm",
+      "info": ""
+    },
+    "106_5x5": {
+      "problem": "5 5\n00 11 00 00 03\n30 00 00 00 00\n05 00 00 03 00\n00 04 50 05 30\n00 40 00 00 00",
+      "solution": "5 5\n44 11 35 52 23\n33 55 14 21 42\n25 32 41 13 54\n12 24 53 45 31\n51 43 22 34 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/106.a.htm",
+      "info": ""
+    },
+    "107_5x5": {
+      "problem": "5 5\n00 50 00 05 00\n00 40 00 00 20\n20 00 00 00 00\n31 02 04 00 00\n00 00 05 00 01",
+      "solution": "5 5\n43 54 21 35 12\n14 45 32 51 23\n25 11 53 42 34\n31 22 44 13 55\n52 33 15 24 41",
+      "source": "https://www.janko.at/Raetsel/Eulero/107.a.htm",
+      "info": ""
+    },
+    "108_5x5": {
+      "problem": "5 5\n00 00 10 01 03\n00 00 00 04 00\n30 00 00 00 20\n02 00 20 00 00\n50 02 00 00 00",
+      "solution": "5 5\n25 34 12 41 53\n11 43 55 24 32\n33 15 44 52 21\n42 51 23 35 14\n54 22 31 13 45",
+      "source": "https://www.janko.at/Raetsel/Eulero/108.a.htm",
+      "info": ""
+    },
+    "109_5x5": {
+      "problem": "5 5\n00 00 00 40 50\n04 00 00 02 10\n00 05 02 00 00\n03 00 40 05 00\n00 20 30 00 00",
+      "solution": "5 5\n32 14 25 43 51\n44 31 53 22 15\n21 45 12 54 33\n13 52 41 35 24\n55 23 34 11 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/109.a.htm",
+      "info": ""
+    },
+    "110_5x5": {
+      "problem": "5 5\n00 00 00 50 10\n10 05 00 00 00\n00 04 00 01 30\n40 00 04 00 00\n00 03 00 04 20",
+      "solution": "5 5\n34 21 42 55 13\n11 35 53 22 44\n23 54 15 41 32\n45 12 24 33 51\n52 43 31 14 25",
+      "source": "https://www.janko.at/Raetsel/Eulero/110.a.htm",
+      "info": ""
+    },
+    "111_4x4": {
+      "problem": "4 4\n00 00 10 20\n02 40 00 00\n00 00 43 01\n00 00 00 00",
+      "solution": "4 4\n41 33 12 24\n32 44 21 13\n14 22 43 31\n23 11 34 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/111.a.htm",
+      "info": ""
+    },
+    "112_4x4": {
+      "problem": "4 4\n20 30 00 00\n00 10 00 03\n01 00 00 32\n00 00 02 00",
+      "solution": "4 4\n22 34 13 41\n44 12 31 23\n11 43 24 32\n33 21 42 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/112.a.htm",
+      "info": ""
+    },
+    "113_4x4": {
+      "problem": "4 4\n03 00 00 00\n30 20 00 03\n00 04 00 01\n00 00 00 10",
+      "solution": "4 4\n13 41 32 24\n34 22 11 43\n42 14 23 31\n21 33 44 12",
+      "source": "https://www.janko.at/Raetsel/Eulero/113.a.htm",
+      "info": ""
+    },
+    "114_4x4": {
+      "problem": "4 4\n02 00 00 00\n00 10 03 34\n00 00 10 00\n00 00 00 40",
+      "solution": "4 4\n42 31 24 13\n21 12 43 34\n33 44 11 22\n14 23 32 41",
+      "source": "https://www.janko.at/Raetsel/Eulero/114.a.htm",
+      "info": ""
+    },
+    "115_4x4": {
+      "problem": "4 4\n44 00 00 00\n00 00 00 00\n00 02 03 00\n00 20 00 10",
+      "solution": "4 4\n44 13 32 21\n22 31 14 43\n11 42 23 34\n33 24 41 12",
+      "source": "https://www.janko.at/Raetsel/Eulero/115.a.htm",
+      "info": ""
+    },
+    "116_5x5": {
+      "problem": "5 5\n50 00 00 00 00\n00 00 32 00 53\n00 00 00 40 05\n30 00 04 00 40\n00 40 20 00 00",
+      "solution": "5 5\n54 12 43 35 21\n45 24 32 11 53\n22 33 51 44 15\n31 55 14 23 42\n13 41 25 52 34",
+      "source": "https://www.janko.at/Raetsel/Eulero/116.a.htm",
+      "info": ""
+    },
+    "117_5x5": {
+      "problem": "5 5\n00 00 00 30 02\n00 01 10 00 40\n00 00 20 00 00\n00 03 02 05 00\n40 30 00 00 03",
+      "solution": "5 5\n15 24 41 33 52\n34 51 13 22 45\n53 12 25 44 31\n21 43 32 55 14\n42 35 54 11 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/117.a.htm",
+      "info": ""
+    },
+    "118_5x5": {
+      "problem": "5 5\n00 50 03 30 00\n00 00 40 00 05\n00 43 00 00 00\n04 00 00 00 00\n02 10 00 04 00",
+      "solution": "5 5\n45 51 13 32 24\n23 34 42 11 55\n31 43 54 25 12\n14 22 35 53 41\n52 15 21 44 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/118.a.htm",
+      "info": ""
+    },
+    "119_5x5": {
+      "problem": "5 5\n00 04 00 00 10\n00 50 00 04 00\n00 00 00 00 31\n03 00 02 00 50\n04 00 40 00 00",
+      "solution": "5 5\n21 44 55 32 13\n15 51 33 24 42\n52 23 14 45 31\n43 35 22 11 54\n34 12 41 53 25",
+      "source": "https://www.janko.at/Raetsel/Eulero/119.a.htm",
+      "info": ""
+    },
+    "120_5x5": {
+      "problem": "5 5\n00 10 00 02 00\n00 03 00 55 00\n10 50 00 00 00\n01 00 40 00 30\n04 00 10 00 00",
+      "solution": "5 5\n33 11 54 42 25\n22 43 31 55 14\n15 52 23 34 41\n51 24 45 13 32\n44 35 12 21 53",
+      "source": "https://www.janko.at/Raetsel/Eulero/120.a.htm",
+      "info": ""
+    },
+    "121_4x4": {
+      "problem": "4 4\n00 00 00 30\n00 11 00 00\n00 03 02 00\n30 40 00 03",
+      "solution": "4 4\n14 22 43 31\n23 11 34 42\n41 33 12 24\n32 44 21 13",
+      "source": "https://www.janko.at/Raetsel/Eulero/121.a.htm",
+      "info": ""
+    },
+    "122_4x4": {
+      "problem": "4 4\n02 00 00 00\n01 00 03 30\n00 03 00 40\n00 00 10 00",
+      "solution": "4 4\n42 31 24 13\n21 12 43 34\n14 23 32 41\n33 44 11 22",
+      "source": "https://www.janko.at/Raetsel/Eulero/122.a.htm",
+      "info": ""
+    },
+    "123_4x4": {
+      "problem": "4 4\n00 10 02 00\n01 04 00 00\n00 00 30 00\n20 00 00 10",
+      "solution": "4 4\n44 11 22 33\n31 24 13 42\n12 43 34 21\n23 32 41 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/123.a.htm",
+      "info": ""
+    },
+    "124_4x4": {
+      "problem": "4 4\n01 03 00 00\n00 00 01 30\n02 00 20 00\n00 00 00 10",
+      "solution": "4 4\n31 13 44 22\n24 42 11 33\n12 34 23 41\n43 21 32 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/124.a.htm",
+      "info": ""
+    },
+    "125_4x4": {
+      "problem": "4 4\n00 00 00 10\n00 30 00 01\n01 00 40 30\n03 04 00 00",
+      "solution": "4 4\n32 41 24 13\n44 33 12 21\n11 22 43 34\n23 14 31 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/125.a.htm",
+      "info": ""
+    },
+    "126_5x5": {
+      "problem": "5 5\n00 20 00 40 00\n30 00 04 00 00\n00 00 00 00 40\n00 03 00 01 12\n10 05 00 00 00",
+      "solution": "5 5\n55 22 11 43 34\n32 41 54 15 23\n21 14 33 52 45\n44 53 25 31 12\n13 35 42 24 51",
+      "source": "https://www.janko.at/Raetsel/Eulero/126.a.htm",
+      "info": ""
+    },
+    "127_5x5": {
+      "problem": "5 5\n00 30 00 50 00\n00 05 00 02 00\n00 50 00 00 04\n10 00 40 00 00\n40 00 01 00 00",
+      "solution": "5 5\n22 31 15 54 43\n53 45 34 12 21\n35 52 23 41 14\n11 24 42 33 55\n44 13 51 25 32",
+      "source": "https://www.janko.at/Raetsel/Eulero/127.a.htm",
+      "info": ""
+    },
+    "128_5x5": {
+      "problem": "5 5\n02 20 05 00 04\n00 00 00 50 00\n03 00 01 02 00\n00 10 00 00 00\n50 00 00 00 30",
+      "solution": "5 5\n32 23 55 41 14\n44 35 12 53 21\n13 54 31 22 45\n25 11 43 34 52\n51 42 24 15 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/128.a.htm",
+      "info": ""
+    },
+    "129_5x5": {
+      "problem": "5 5\n00 00 00 50 31\n00 00 10 00 00\n00 40 00 30 00\n04 50 03 00 02\n00 03 20 00 00",
+      "solution": "5 5\n12 24 45 53 31\n51 32 14 25 43\n23 41 52 34 15\n44 55 33 11 22\n35 13 21 42 54",
+      "source": "https://www.janko.at/Raetsel/Eulero/129.a.htm",
+      "info": ""
+    },
+    "130_5x5": {
+      "problem": "5 5\n03 00 00 00 02\n00 40 02 30 00\n40 10 30 02 00\n00 00 00 04 01\n30 00 50 00 00",
+      "solution": "5 5\n13 34 21 55 42\n51 45 12 33 24\n44 11 35 22 53\n25 52 43 14 31\n32 23 54 41 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/130.a.htm",
+      "info": ""
+    },
+    "131_5x5": {
+      "problem": "5 5\n00 00 04 00 00\n00 30 00 10 00\n01 00 00 44 00\n02 00 20 00 00\n00 00 10 25 50",
+      "solution": "5 5\n15 22 54 33 41\n53 31 45 12 24\n21 55 32 44 13\n42 14 23 51 35\n34 43 11 25 52",
+      "source": "https://www.janko.at/Raetsel/Eulero/131.a.htm",
+      "info": ""
+    },
+    "132_5x5": {
+      "problem": "5 5\n00 00 31 00 00\n00 00 04 00 10\n20 10 00 01 00\n00 00 03 20 00\n00 02 00 00 40",
+      "solution": "5 5\n42 53 31 15 24\n55 21 44 33 12\n23 14 52 41 35\n34 45 13 22 51\n11 32 25 54 43",
+      "source": "https://www.janko.at/Raetsel/Eulero/132.a.htm",
+      "info": ""
+    },
+    "133_5x5": {
+      "problem": "5 5\n00 02 00 04 00\n02 00 00 20 00\n00 00 50 00 30\n40 03 05 00 10\n00 00 00 00 40",
+      "solution": "5 5\n55 42 13 34 21\n12 31 44 25 53\n24 15 51 43 32\n41 23 35 52 14\n33 54 22 11 45",
+      "source": "https://www.janko.at/Raetsel/Eulero/133.a.htm",
+      "info": ""
+    },
+    "134_5x5": {
+      "problem": "5 5\n00 00 00 20 00\n02 30 01 00 00\n00 00 30 02 00\n00 00 03 00 10\n05 54 00 00 00",
+      "solution": "5 5\n51 15 44 23 32\n42 33 21 14 55\n13 41 35 52 24\n34 22 53 45 11\n25 54 12 31 43",
+      "source": "https://www.janko.at/Raetsel/Eulero/134.a.htm",
+      "info": ""
+    },
+    "135_5x5": {
+      "problem": "5 5\n00 30 00 00 03\n00 00 30 00 04\n02 00 00 11 00\n00 40 05 50 00\n04 00 00 00 00",
+      "solution": "5 5\n21 34 52 45 13\n55 12 31 23 44\n42 53 24 11 35\n33 41 15 54 22\n14 25 43 32 51",
+      "source": "https://www.janko.at/Raetsel/Eulero/135.a.htm",
+      "info": ""
+    },
+    "136_5x5": {
+      "problem": "5 5\n30 00 00 01 00\n00 30 00 00 40\n00 21 05 00 00\n04 00 03 00 00\n00 00 00 20 12",
+      "solution": "5 5\n35 52 14 41 23\n11 33 22 54 45\n42 21 55 13 34\n24 15 43 32 51\n53 44 31 25 12",
+      "source": "https://www.janko.at/Raetsel/Eulero/136.a.htm",
+      "info": ""
+    },
+    "137_5x5": {
+      "problem": "5 5\n00 50 00 01 00\n00 00 00 30 20\n00 00 00 03 10\n50 04 00 02 00\n00 05 00 00 00",
+      "solution": "5 5\n34 52 13 21 45\n11 43 54 35 22\n42 31 25 53 14\n55 24 41 12 33\n23 15 32 44 51",
+      "source": "https://www.janko.at/Raetsel/Eulero/137.a.htm",
+      "info": ""
+    },
+    "138_5x5": {
+      "problem": "5 5\n00 00 03 00 50\n00 00 40 00 00\n05 00 00 01 00\n00 04 00 00 03\n02 00 00 20 30",
+      "solution": "5 5\n44 22 33 15 51\n13 31 42 54 25\n35 53 24 41 12\n21 14 55 32 43\n52 45 11 23 34",
+      "source": "https://www.janko.at/Raetsel/Eulero/138.a.htm",
+      "info": ""
+    },
+    "139_5x5": {
+      "problem": "5 5\n00 00 00 00 53\n00 04 03 00 00\n40 00 00 00 00\n30 00 20 00 02\n02 01 00 40 00",
+      "solution": "5 5\n24 32 45 11 53\n55 44 13 22 31\n41 23 52 35 14\n33 15 21 54 42\n12 51 34 43 25",
+      "source": "https://www.janko.at/Raetsel/Eulero/139.a.htm",
+      "info": ""
+    },
+    "140_5x5": {
+      "problem": "5 5\n02 00 00 01 00\n00 20 05 30 00\n04 00 03 00 00\n20 30 00 00 10\n00 00 10 40 00",
+      "solution": "5 5\n52 43 24 11 35\n13 21 55 34 42\n44 15 33 22 51\n25 32 41 53 14\n31 54 12 45 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/140.a.htm",
+      "info": ""
+    },
+    "141_5x5": {
+      "problem": "5 5\n00 04 00 50 03\n20 00 00 30 00\n00 20 01 00 00\n00 00 00 00 52\n00 01 10 00 00",
+      "solution": "5 5\n41 14 22 55 33\n25 42 53 34 11\n54 23 31 12 45\n13 35 44 21 52\n32 51 15 43 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/141.a.htm",
+      "info": ""
+    },
+    "142_5x5": {
+      "problem": "5 5\n00 50 00 00 00\n00 00 00 00 10\n00 02 04 00 50\n00 00 05 03 00\n03 30 00 20 02",
+      "solution": "5 5\n44 55 23 12 31\n21 43 32 54 15\n35 22 14 41 53\n52 11 45 33 24\n13 34 51 25 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/142.a.htm",
+      "info": ""
+    },
+    "143_5x5": {
+      "problem": "5 5\n00 00 00 01 50\n05 00 00 10 00\n00 00 50 00 04\n01 00 40 50 00\n04 01 23 00 00",
+      "solution": "5 5\n43 34 15 21 52\n25 53 32 14 41\n12 45 51 33 24\n31 22 44 55 13\n54 11 23 42 35",
+      "source": "https://www.janko.at/Raetsel/Eulero/143.a.htm",
+      "info": ""
+    },
+    "144_5x5": {
+      "problem": "5 5\n00 30 00 50 00\n03 00 00 00 10\n00 00 00 05 22\n00 00 01 20 05\n00 10 00 00 30",
+      "solution": "5 5\n12 35 24 51 43\n53 21 45 32 14\n41 54 33 15 22\n34 42 11 23 55\n25 13 52 44 31",
+      "source": "https://www.janko.at/Raetsel/Eulero/144.a.htm",
+      "info": ""
+    },
+    "145_5x5": {
+      "problem": "5 5\n00 00 30 40 00\n04 10 00 00 50\n50 20 00 02 00\n00 00 01 00 10\n00 04 00 03 00",
+      "solution": "5 5\n15 52 33 41 24\n34 11 42 25 53\n51 23 14 32 45\n43 35 21 54 12\n22 44 55 13 31",
+      "source": "https://www.janko.at/Raetsel/Eulero/145.a.htm",
+      "info": ""
+    },
+    "146_5x5": {
+      "problem": "5 5\n50 00 00 00 00\n02 00 00 00 00\n00 30 20 00 00\n00 00 10 20 03\n44 01 00 00 02",
+      "solution": "5 5\n53 45 32 11 24\n22 13 41 54 35\n15 34 23 42 51\n31 52 14 25 43\n44 21 55 33 12",
+      "source": "https://www.janko.at/Raetsel/Eulero/146.a.htm",
+      "info": ""
+    },
+    "147_5x5": {
+      "problem": "5 5\n00 10 23 00 00\n00 02 01 40 00\n50 00 00 00 05\n03 00 00 00 50\n00 00 00 00 00",
+      "solution": "5 5\n31 14 23 55 42\n15 22 51 44 33\n52 41 34 13 25\n43 35 12 21 54\n24 53 45 32 11",
+      "source": "https://www.janko.at/Raetsel/Eulero/147.a.htm",
+      "info": ""
+    },
+    "148_5x5": {
+      "problem": "5 5\n30 04 00 00 00\n00 10 00 00 42\n00 30 00 00 05\n00 00 04 00 30\n20 00 00 01 00",
+      "solution": "5 5\n32 24 43 15 51\n55 13 21 34 42\n44 31 12 53 25\n11 45 54 22 33\n23 52 35 41 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/148.a.htm",
+      "info": ""
+    },
+    "149_5x5": {
+      "problem": "5 5\n00 50 20 00 00\n50 04 03 00 00\n10 00 00 20 00\n00 02 04 00 05\n00 03 00 40 04",
+      "solution": "5 5\n44 51 25 12 33\n55 14 43 31 22\n13 35 52 24 41\n21 42 34 53 15\n32 23 11 45 54",
+      "source": "https://www.janko.at/Raetsel/Eulero/149.a.htm",
+      "info": ""
+    },
+    "150_5x5": {
+      "problem": "5 5\n04 00 01 00 20\n05 10 00 00 00\n40 00 00 01 00\n00 00 20 03 00\n00 50 00 00 30",
+      "solution": "5 5\n14 35 41 52 23\n55 11 33 24 42\n43 22 54 31 15\n32 44 25 13 51\n21 53 12 45 34",
+      "source": "https://www.janko.at/Raetsel/Eulero/150.a.htm",
+      "info": ""
+    },
+    "151_5x5": {
+      "problem": "5 5\n00 40 00 00 00\n02 00 20 00 30\n00 00 00 04 53\n00 20 00 05 00\n20 00 03 00 00",
+      "solution": "5 5\n13 45 54 31 22\n52 14 21 43 35\n41 32 15 24 53\n34 23 42 55 11\n25 51 33 12 44",
+      "source": "https://www.janko.at/Raetsel/Eulero/151.a.htm",
+      "info": ""
+    },
+    "152_5x5": {
+      "problem": "5 5\n00 30 50 00 00\n05 40 00 02 00\n30 00 00 50 00\n02 00 00 00 01\n00 02 04 00 20",
+      "solution": "5 5\n44 35 52 21 13\n15 41 23 32 54\n33 24 11 55 42\n22 53 45 14 31\n51 12 34 43 25",
+      "source": "https://www.janko.at/Raetsel/Eulero/152.a.htm",
+      "info": ""
+    },
+    "153_5x5": {
+      "problem": "5 5\n04 00 00 00 00\n00 10 00 40 50\n00 00 04 01 00\n20 00 01 00 05\n03 30 00 00 00",
+      "solution": "5 5\n14 21 43 55 32\n31 13 25 42 54\n45 52 34 11 23\n22 44 51 33 15\n53 35 12 24 41",
+      "source": "https://www.janko.at/Raetsel/Eulero/153.a.htm",
+      "info": ""
+    },
+    "154_5x5": {
+      "problem": "5 5\n54 00 30 00 00\n00 00 40 03 05\n00 50 05 00 40\n00 00 00 02 00\n10 30 00 00 00",
+      "solution": "5 5\n54 43 32 25 11\n31 22 44 13 55\n23 51 15 34 42\n45 14 21 52 33\n12 35 53 41 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/154.a.htm",
+      "info": ""
+    },
+    "155_5x5": {
+      "problem": "5 5\n00 04 40 00 00\n00 00 00 50 00\n00 30 10 00 00\n05 00 00 04 00\n00 01 03 00 45",
+      "solution": "5 5\n33 54 42 15 21\n12 43 25 51 34\n41 35 14 23 52\n55 22 31 44 13\n24 11 53 32 45",
+      "source": "https://www.janko.at/Raetsel/Eulero/155.a.htm",
+      "info": ""
+    },
+    "156_5x5": {
+      "problem": "5 5\n03 30 00 00 00\n00 50 00 30 00\n00 00 00 00 20\n05 02 00 00 00\n00 00 54 02 40",
+      "solution": "5 5\n13 34 25 41 52\n22 51 43 35 14\n44 15 32 53 21\n55 42 11 24 33\n31 23 54 12 45",
+      "source": "https://www.janko.at/Raetsel/Eulero/156.a.htm",
+      "info": ""
+    },
+    "157_5x5": {
+      "problem": "5 5\n13 00 50 00 00\n20 01 00 02 00\n04 00 00 20 00\n00 00 00 00 01\n00 00 42 00 00",
+      "solution": "5 5\n13 22 51 34 45\n25 41 33 12 54\n44 53 15 21 32\n52 35 24 43 11\n31 14 42 55 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/157.a.htm",
+      "info": ""
+    },
+    "158_5x5": {
+      "problem": "5 5\n00 00 10 04 00\n05 00 00 30 00\n03 05 00 00 20\n10 00 50 00 00\n00 01 00 05 40",
+      "solution": "5 5\n41 33 15 24 52\n25 54 42 31 13\n53 45 34 12 21\n14 22 51 43 35\n32 11 23 55 44",
+      "source": "https://www.janko.at/Raetsel/Eulero/158.a.htm",
+      "info": ""
+    },
+    "159_5x5": {
+      "problem": "5 5\n02 00 00 00 05\n05 00 20 00 00\n00 50 00 00 03\n00 30 00 44 50\n00 00 50 00 01",
+      "solution": "5 5\n42 24 31 53 15\n55 43 22 11 34\n14 51 45 32 23\n21 35 13 44 52\n33 12 54 25 41",
+      "source": "https://www.janko.at/Raetsel/Eulero/159.a.htm",
+      "info": ""
+    },
+    "160_5x5": {
+      "problem": "5 5\n30 00 00 01 00\n00 00 23 00 00\n50 03 00 00 05\n00 50 00 00 40\n00 00 00 04 01",
+      "solution": "5 5\n32 24 45 11 53\n41 12 23 55 34\n54 43 31 22 15\n25 51 14 33 42\n13 35 52 44 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/160.a.htm",
+      "info": ""
+    },
+    "161_5x5": {
+      "problem": "5 5\n00 00 00 30 20\n00 03 00 00 00\n04 00 30 00 00\n02 01 00 03 00\n00 30 00 10 41",
+      "solution": "5 5\n45 54 11 32 23\n31 13 44 25 52\n24 42 33 51 15\n12 21 55 43 34\n53 35 22 14 41",
+      "source": "https://www.janko.at/Raetsel/Eulero/161.a.htm",
+      "info": ""
+    },
+    "162_5x5": {
+      "problem": "5 5\n00 05 20 00 00\n01 00 03 00 00\n00 20 00 00 40\n00 40 00 04 02\n10 00 50 00 00",
+      "solution": "5 5\n44 55 22 31 13\n51 12 43 25 34\n32 24 11 53 45\n23 41 35 14 52\n15 33 54 42 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/162.a.htm",
+      "info": ""
+    },
+    "163_5x5": {
+      "problem": "5 5\n00 01 04 00 00\n00 50 00 00 04\n30 10 00 00 02\n03 00 00 20 00\n00 04 03 00 00",
+      "solution": "5 5\n42 21 54 15 33\n25 52 31 43 14\n34 13 45 51 22\n53 35 12 24 41\n11 44 23 32 55",
+      "source": "https://www.janko.at/Raetsel/Eulero/163.a.htm",
+      "info": ""
+    },
+    "164_5x5": {
+      "problem": "5 5\n05 00 00 01 00\n30 00 00 00 14\n00 02 40 00 00\n00 10 20 00 00\n40 50 02 00 00",
+      "solution": "5 5\n15 23 34 51 42\n31 45 53 22 14\n24 32 41 13 55\n52 11 25 44 33\n43 54 12 35 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/164.a.htm",
+      "info": ""
+    },
+    "165_5x5": {
+      "problem": "5 5\n00 00 02 04 50\n00 04 00 05 30\n00 02 03 00 00\n40 00 00 10 00\n30 05 00 00 00",
+      "solution": "5 5\n13 41 22 34 55\n52 24 11 45 33\n25 32 43 51 14\n44 53 35 12 21\n31 15 54 23 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/165.a.htm",
+      "info": ""
+    },
+    "166_5x5": {
+      "problem": "5 5\n00 01 50 00 00\n00 50 04 40 00\n00 14 00 00 00\n02 00 00 00 00\n40 00 00 20 05",
+      "solution": "5 5\n23 41 52 15 34\n35 53 24 42 11\n51 14 45 33 22\n12 25 31 54 43\n44 32 13 21 55",
+      "source": "https://www.janko.at/Raetsel/Eulero/166.a.htm",
+      "info": ""
+    },
+    "167_5x5": {
+      "problem": "5 5\n20 02 00 00 03\n00 00 00 00 04\n00 50 03 01 00\n02 00 00 00 30\n10 03 50 00 00",
+      "solution": "5 5\n21 42 15 34 53\n43 11 32 55 24\n35 54 23 41 12\n52 25 44 13 31\n14 33 51 22 45",
+      "source": "https://www.janko.at/Raetsel/Eulero/167.a.htm",
+      "info": ""
+    },
+    "168_5x5": {
+      "problem": "5 5\n00 05 04 00 01\n40 00 00 02 00\n03 00 00 00 00\n00 20 00 40 50\n00 04 30 00 00",
+      "solution": "5 5\n22 55 44 33 11\n45 31 53 12 24\n13 42 21 54 35\n34 23 15 41 52\n51 14 32 25 43",
+      "source": "https://www.janko.at/Raetsel/Eulero/168.a.htm",
+      "info": ""
+    },
+    "169_5x5": {
+      "problem": "5 5\n00 00 03 00 05\n00 25 50 00 00\n00 10 00 04 00\n02 00 00 00 50\n43 00 00 00 00",
+      "solution": "5 5\n34 42 23 51 15\n11 25 52 33 44\n55 13 41 24 32\n22 31 14 45 53\n43 54 35 12 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/169.a.htm",
+      "info": ""
+    },
+    "170_5x5": {
+      "problem": "5 5\n00 01 50 00 00\n00 30 00 40 00\n00 00 05 00 00\n01 20 00 00 00\n02 00 00 03 50",
+      "solution": "5 5\n14 41 53 25 32\n55 34 21 42 13\n43 52 35 11 24\n31 23 12 54 45\n22 15 44 33 51",
+      "source": "https://www.janko.at/Raetsel/Eulero/170.a.htm",
+      "info": ""
+    },
+    "171_5x5": {
+      "problem": "5 5\n00 00 05 50 00\n40 00 00 00 01\n00 44 00 00 03\n20 00 30 00 00\n00 10 00 00 02",
+      "solution": "5 5\n12 21 45 53 34\n43 35 22 14 51\n55 44 11 32 23\n24 52 33 41 15\n31 13 54 25 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/171.a.htm",
+      "info": ""
+    },
+    "172_5x5": {
+      "problem": "5 5\n10 04 20 40 00\n00 00 00 30 20\n00 00 50 00 02\n30 03 00 10 00\n05 00 00 00 00",
+      "solution": "5 5\n13 54 22 45 31\n51 42 15 33 24\n44 35 53 21 12\n32 23 41 14 55\n25 11 34 52 43",
+      "source": "https://www.janko.at/Raetsel/Eulero/172.a.htm",
+      "info": ""
+    },
+    "173_5x5": {
+      "problem": "5 5\n30 00 00 00 01\n03 00 50 00 00\n20 00 00 03 02\n00 05 00 04 20\n00 00 10 00 00",
+      "solution": "5 5\n34 53 22 15 41\n43 32 55 21 14\n25 11 44 33 52\n12 45 31 54 23\n51 24 13 42 35",
+      "source": "https://www.janko.at/Raetsel/Eulero/173.a.htm",
+      "info": ""
+    },
+    "174_5x5": {
+      "problem": "5 5\n00 00 03 01 00\n30 10 00 00 00\n00 00 00 20 00\n55 04 00 00 00\n00 30 00 00 05",
+      "solution": "5 5\n42 25 53 11 34\n31 13 24 45 52\n14 51 35 22 43\n55 44 12 33 21\n23 32 41 54 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/174.a.htm",
+      "info": ""
+    },
+    "175_5x5": {
+      "problem": "5 5\n00 00 01 00 00\n02 00 00 00 01\n50 00 00 30 04\n03 00 20 00 10\n00 10 00 00 00",
+      "solution": "5 5\n14 45 31 22 53\n42 34 55 13 21\n51 23 12 35 44\n33 52 24 41 15\n25 11 43 54 32",
+      "source": "https://www.janko.at/Raetsel/Eulero/175.a.htm",
+      "info": ""
+    },
+    "176_5x5": {
+      "problem": "5 5\n20 00 00 40 00\n03 00 30 00 40\n00 00 03 04 00\n10 01 00 00 02\n00 04 00 00 00",
+      "solution": "5 5\n21 13 54 42 35\n53 22 31 15 44\n32 55 43 24 11\n14 41 25 33 52\n45 34 12 51 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/176.a.htm",
+      "info": ""
+    },
+    "177_5x5": {
+      "problem": "5 5\n50 00 00 00 05\n00 00 50 00 40\n03 00 00 02 00\n00 50 00 04 00\n00 23 00 30 00",
+      "solution": "5 5\n51 32 24 43 15\n34 11 53 25 42\n13 44 35 52 21\n22 55 41 14 33\n45 23 12 31 54",
+      "source": "https://www.janko.at/Raetsel/Eulero/177.a.htm",
+      "info": ""
+    },
+    "178_5x5": {
+      "problem": "5 5\n00 30 00 05 00\n04 00 00 40 20\n03 00 20 00 00\n00 00 00 02 04\n00 50 00 00 03",
+      "solution": "5 5\n41 34 53 25 12\n54 15 32 43 21\n13 42 24 31 55\n35 23 11 52 44\n22 51 45 14 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/178.a.htm",
+      "info": ""
+    },
+    "179_5x5": {
+      "problem": "5 5\n40 10 03 00 05\n00 00 00 10 04\n00 40 05 00 00\n01 00 00 00 00\n50 00 00 20 00",
+      "solution": "5 5\n42 14 23 31 55\n25 51 32 13 44\n34 43 15 52 21\n11 22 54 45 33\n53 35 41 24 12",
+      "source": "https://www.janko.at/Raetsel/Eulero/179.a.htm",
+      "info": ""
+    },
+    "180_5x5": {
+      "problem": "5 5\n40 30 00 00 01\n00 00 20 00 00\n10 00 00 02 00\n00 03 10 00 05\n00 00 03 00 20",
+      "solution": "5 5\n44 32 55 23 11\n52 41 24 15 33\n13 25 31 42 54\n21 53 12 34 45\n35 14 43 51 22",
+      "source": "https://www.janko.at/Raetsel/Eulero/180.a.htm",
+      "info": ""
+    },
+    "181_5x5": {
+      "problem": "5 5\n00 00 11 00 00\n50 00 40 00 00\n00 02 00 05 20\n03 00 50 00 00\n00 01 00 50 00",
+      "solution": "5 5\n35 43 11 22 54\n51 25 42 34 13\n44 52 33 15 21\n23 14 55 41 32\n12 31 24 53 45",
+      "source": "https://www.janko.at/Raetsel/Eulero/181.a.htm",
+      "info": ""
+    },
+    "182_5x5": {
+      "problem": "5 5\n00 00 00 00 01\n00 00 10 00 03\n30 02 00 03 00\n00 00 30 05 10\n00 04 20 40 00",
+      "solution": "5 5\n15 33 42 54 21\n24 45 11 32 53\n31 22 55 13 44\n43 51 34 25 12\n52 14 23 41 35",
+      "source": "https://www.janko.at/Raetsel/Eulero/182.a.htm",
+      "info": ""
+    },
+    "183_5x5": {
+      "problem": "5 5\n05 00 00 00 01\n00 00 20 03 00\n00 04 00 00 10\n00 50 10 02 00\n11 40 00 00 00",
+      "solution": "5 5\n25 33 52 14 41\n32 15 21 43 54\n53 24 45 31 12\n44 51 13 22 35\n11 42 34 55 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/183.a.htm",
+      "info": ""
+    },
+    "184_5x5": {
+      "problem": "5 5\n00 00 00 05 02\n02 00 40 00 04\n00 05 50 10 00\n04 20 00 03 00\n00 00 20 00 00",
+      "solution": "5 5\n53 41 34 25 12\n32 13 45 51 24\n21 35 52 14 43\n44 22 11 33 55\n15 54 23 42 31",
+      "source": "https://www.janko.at/Raetsel/Eulero/184.a.htm",
+      "info": ""
+    },
+    "185_5x5": {
+      "problem": "5 5\n00 00 00 00 10\n02 10 04 00 05\n00 50 20 03 00\n00 00 00 30 00\n00 00 00 00 50",
+      "solution": "5 5\n41 35 53 24 12\n22 13 34 51 45\n14 52 25 43 31\n55 44 11 32 23\n33 21 42 15 54",
+      "source": "https://www.janko.at/Raetsel/Eulero/185.a.htm",
+      "info": ""
+    },
+    "186_5x5": {
+      "problem": "5 5\n00 20 03 50 00\n00 31 00 00 03\n00 00 50 00 40\n00 00 20 05 00\n03 00 00 00 04",
+      "solution": "5 5\n34 25 43 52 11\n55 31 12 44 23\n22 14 51 33 45\n41 53 24 15 32\n13 42 35 21 54",
+      "source": "https://www.janko.at/Raetsel/Eulero/186.a.htm",
+      "info": ""
+    },
+    "187_5x5": {
+      "problem": "5 5\n40 00 00 13 00\n02 03 00 05 00\n01 00 00 50 30\n00 05 00 00 00\n00 00 30 00 20",
+      "solution": "5 5\n45 31 24 13 52\n12 23 51 35 44\n21 42 15 54 33\n34 55 43 22 11\n53 14 32 41 25",
+      "source": "https://www.janko.at/Raetsel/Eulero/187.a.htm",
+      "info": ""
+    },
+    "188_5x5": {
+      "problem": "5 5\n00 00 05 12 04\n00 00 00 35 00\n40 00 10 20 00\n00 00 00 00 40\n00 01 00 00 00",
+      "solution": "5 5\n31 23 45 12 54\n24 42 51 35 13\n43 55 14 21 32\n15 34 22 53 41\n52 11 33 44 25",
+      "source": "https://www.janko.at/Raetsel/Eulero/188.a.htm",
+      "info": ""
+    },
+    "189_5x5": {
+      "problem": "5 5\n00 00 02 00 11\n02 00 00 00 00\n01 00 00 10 00\n00 20 30 00 40\n00 05 04 00 00",
+      "solution": "5 5\n35 44 52 23 11\n42 51 13 34 25\n21 33 45 12 54\n14 22 31 55 43\n53 15 24 41 32",
+      "source": "https://www.janko.at/Raetsel/Eulero/189.a.htm",
+      "info": ""
+    },
+    "190_5x5": {
+      "problem": "5 5\n00 01 00 03 20\n50 00 00 00 40\n02 00 00 05 00\n00 10 20 00 04\n03 00 00 04 00",
+      "solution": "5 5\n15 51 44 33 22\n54 35 12 21 43\n32 24 53 45 11\n41 13 25 52 34\n23 42 31 14 55",
+      "source": "https://www.janko.at/Raetsel/Eulero/190.a.htm",
+      "info": ""
+    },
+    "191_5x5": {
+      "problem": "5 5\n00 00 02 00 50\n30 00 03 00 10\n00 01 00 00 00\n00 30 00 00 00\n04 00 10 00 40",
+      "solution": "5 5\n23 14 32 41 55\n31 45 53 24 12\n42 51 25 13 34\n15 33 44 52 21\n54 22 11 35 43",
+      "source": "https://www.janko.at/Raetsel/Eulero/191.a.htm",
+      "info": ""
+    },
+    "192_4x4": {
+      "problem": "4 4\n00 00 00 00\n02 00 00 00\n13 00 00 41\n30 10 02 00",
+      "solution": "4 4\n44 21 33 12\n22 43 11 34\n13 32 24 41\n31 14 42 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/192.a.htm",
+      "info": ""
+    },
+    "193_4x4": {
+      "problem": "4 4\n01 34 00 00\n04 00 03 00\n02 00 40 00\n00 40 10 00",
+      "solution": "4 4\n11 34 22 43\n44 21 33 12\n32 13 41 24\n23 42 14 31",
+      "source": "https://www.janko.at/Raetsel/Eulero/193.a.htm",
+      "info": ""
+    },
+    "194_4x4": {
+      "problem": "4 4\n00 04 00 00\n00 00 01 00\n30 00 00 00\n00 02 40 20",
+      "solution": "4 4\n41 24 12 33\n22 43 31 14\n34 11 23 42\n13 32 44 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/194.a.htm",
+      "info": ""
+    },
+    "195_5x5": {
+      "problem": "5 5\n41 50 00 10 00\n00 33 54 05 00\n50 15 01 04 02\n00 00 40 00 50\n05 00 12 01 20",
+      "solution": "5 5\n41 52 25 13 34\n22 33 54 45 11\n53 15 31 24 42\n14 21 43 32 55\n35 44 12 51 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/195.a.htm",
+      "info": ""
+    },
+    "196_5x5": {
+      "problem": "5 5\n00 04 03 00 41\n04 00 22 05 50\n02 50 11 40 24\n01 00 00 30 10\n03 00 00 20 05",
+      "solution": "5 5\n25 14 33 52 41\n44 31 22 15 53\n32 55 11 43 24\n51 23 45 34 12\n13 42 54 21 35",
+      "source": "https://www.janko.at/Raetsel/Eulero/196.a.htm",
+      "info": ""
+    },
+    "197_5x5": {
+      "problem": "5 5\n00 05 02 00 00\n00 00 00 00 00\n00 10 04 20 00\n00 03 10 30 00\n02 00 20 50 00",
+      "solution": "5 5\n11 25 52 44 33\n35 54 41 13 22\n53 12 34 21 45\n24 43 15 32 51\n42 31 23 55 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/197.a.htm",
+      "info": ""
+    },
+    "198_5x5": {
+      "problem": "5 5\n00 20 05 00 03\n00 50 00 00 14\n00 00 20 00 00\n00 40 04 05 01\n05 00 00 00 00",
+      "solution": "5 5\n41 24 15 52 33\n23 55 42 31 14\n54 32 21 13 45\n12 43 34 25 51\n35 11 53 44 22",
+      "source": "https://www.janko.at/Raetsel/Eulero/198.a.htm",
+      "info": ""
+    },
+    "199_5x5": {
+      "problem": "5 5\n00 00 00 03 00\n40 01 02 00 00\n00 20 00 10 05\n30 00 05 00 00\n00 04 00 00 00",
+      "solution": "5 5\n22 45 14 33 51\n43 11 32 55 24\n54 23 41 12 35\n31 52 25 44 13\n15 34 53 21 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/199.a.htm",
+      "info": ""
+    },
+    "200_5x5": {
+      "problem": "5 5\n20 00 30 00 00\n00 10 00 00 00\n00 00 02 03 10\n00 00 00 00 55\n00 05 04 00 00",
+      "solution": "5 5\n24 52 33 15 41\n51 13 25 44 32\n35 21 42 53 14\n43 34 11 22 55\n12 45 54 31 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/200.a.htm",
+      "info": ""
+    },
+    "201_4x4": {
+      "problem": "4 4\n01 00 00 00\n44 00 01 00\n00 24 00 10\n02 00 00 00",
+      "solution": "4 4\n21 32 14 43\n44 13 31 22\n33 24 42 11\n12 41 23 34",
+      "source": "https://www.janko.at/Raetsel/Eulero/201.a.htm",
+      "info": ""
+    },
+    "202_4x4": {
+      "problem": "4 4\n02 10 33 00\n20 02 00 00\n03 00 00 04\n00 00 00 02",
+      "solution": "4 4\n42 14 33 21\n24 32 11 43\n13 41 22 34\n31 23 44 12",
+      "source": "https://www.janko.at/Raetsel/Eulero/202.a.htm",
+      "info": ""
+    },
+    "203_4x4": {
+      "problem": "4 4\n10 00 00 40\n00 00 00 02\n00 00 41 30\n00 33 00 00",
+      "solution": "4 4\n14 21 32 43\n31 44 13 22\n23 12 41 34\n42 33 24 11",
+      "source": "https://www.janko.at/Raetsel/Eulero/203.a.htm",
+      "info": ""
+    },
+    "204_5x5": {
+      "problem": "5 5\n42 50 00 00 25\n00 02 00 01 34\n00 00 00 05 13\n10 00 50 02 40\n24 30 11 03 00",
+      "solution": "5 5\n42 51 33 14 25\n53 12 45 21 34\n31 44 22 55 13\n15 23 54 32 41\n24 35 11 43 52",
+      "source": "https://www.janko.at/Raetsel/Eulero/204.a.htm",
+      "info": ""
+    },
+    "205_5x5": {
+      "problem": "5 5\n44 05 03 00 20\n10 00 42 00 00\n25 00 14 03 00\n03 00 21 10 40\n00 40 50 24 00",
+      "solution": "5 5\n44 15 33 51 22\n11 23 42 35 54\n25 52 14 43 31\n53 34 21 12 45\n32 41 55 24 13",
+      "source": "https://www.janko.at/Raetsel/Eulero/205.a.htm",
+      "info": ""
+    },
+    "206_5x5": {
+      "problem": "5 5\n02 00 40 50 01\n00 22 00 04 00\n20 30 02 01 04\n50 43 01 20 02\n10 50 20 00 03",
+      "solution": "5 5\n32 14 45 53 21\n41 22 13 34 55\n23 35 52 11 44\n54 43 31 25 12\n15 51 24 42 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/206.a.htm",
+      "info": ""
+    },
+    "207_5x5": {
+      "problem": "5 5\n01 20 00 00 50\n52 00 20 00 00\n00 10 40 50 00\n00 53 00 00 00\n00 00 05 00 20",
+      "solution": "5 5\n31 25 13 42 54\n52 34 21 15 43\n23 12 44 51 35\n45 53 32 24 11\n14 41 55 33 22",
+      "source": "https://www.janko.at/Raetsel/Eulero/207.a.htm",
+      "info": ""
+    },
+    "208_5x5": {
+      "problem": "5 5\n00 00 00 00 40\n40 00 05 10 03\n10 00 00 00 04\n00 50 00 00 02\n01 00 00 30 00",
+      "solution": "5 5\n24 12 33 55 41\n42 31 25 14 53\n13 45 52 21 34\n35 54 11 43 22\n51 23 44 32 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/208.a.htm",
+      "info": ""
+    },
+    "209_5x5": {
+      "problem": "5 5\n01 00 00 00 00\n00 30 00 00 00\n03 00 00 11 05\n04 00 00 50 40\n00 20 03 00 00",
+      "solution": "5 5\n41 53 22 35 14\n12 34 45 23 51\n33 42 54 11 25\n24 15 31 52 43\n55 21 13 44 32",
+      "source": "https://www.janko.at/Raetsel/Eulero/209.a.htm",
+      "info": ""
+    },
+    "210_5x5": {
+      "problem": "5 5\n00 03 00 00 00\n10 01 05 00 23\n03 00 00 52 00\n05 00 00 00 00\n00 00 00 21 40",
+      "solution": "5 5\n31 53 22 45 14\n12 41 55 34 23\n43 24 11 52 35\n25 32 44 13 51\n54 15 33 21 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/210.a.htm",
+      "info": ""
+    },
+    "211_4x4": {
+      "problem": "4 4\n00 00 40 00\n20 02 00 01\n03 10 00 00\n00 40 00 00",
+      "solution": "4 4\n31 23 42 14\n24 32 13 41\n43 11 34 22\n12 44 21 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/211.a.htm",
+      "info": ""
+    },
+    "212_4x4": {
+      "problem": "4 4\n00 02 31 00\n02 00 00 00\n00 04 40 00\n30 00 20 00",
+      "solution": "4 4\n23 12 31 44\n42 33 14 21\n11 24 43 32\n34 41 22 13",
+      "source": "https://www.janko.at/Raetsel/Eulero/212.a.htm",
+      "info": ""
+    },
+    "213_4x4": {
+      "problem": "4 4\n40 00 01 00\n00 00 04 00\n02 30 40 00\n20 40 00 00",
+      "solution": "4 4\n44 22 11 33\n31 13 24 42\n12 34 43 21\n23 41 32 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/213.a.htm",
+      "info": ""
+    },
+    "214_5x5": {
+      "problem": "5 5\n00 00 13 40 00\n00 30 00 00 14\n00 15 41 00 23\n03 20 00 10 42\n10 03 30 00 51",
+      "solution": "5 5\n21 52 13 44 35\n45 31 22 53 14\n54 15 41 32 23\n33 24 55 11 42\n12 43 34 25 51",
+      "source": "https://www.janko.at/Raetsel/Eulero/214.a.htm",
+      "info": ""
+    },
+    "215_5x5": {
+      "problem": "5 5\n50 30 00 20 00\n00 54 03 30 01\n03 15 00 00 02\n04 02 05 01 03\n10 40 00 53 05",
+      "solution": "5 5\n51 33 42 25 14\n45 54 13 32 21\n23 15 31 44 52\n34 22 55 11 43\n12 41 24 53 35",
+      "source": "https://www.janko.at/Raetsel/Eulero/215.a.htm",
+      "info": ""
+    },
+    "216_5x5": {
+      "problem": "5 5\n35 13 41 04 20\n00 00 30 42 11\n00 20 02 00 04\n50 00 00 00 05\n00 40 05 30 03",
+      "solution": "5 5\n35 13 41 54 22\n24 55 33 42 11\n43 21 52 15 34\n51 32 14 23 45\n12 44 25 31 53",
+      "source": "https://www.janko.at/Raetsel/Eulero/216.a.htm",
+      "info": ""
+    },
+    "217_5x5": {
+      "problem": "5 5\n30 50 05 10 00\n40 03 00 05 00\n25 00 00 01 00\n50 00 00 00 00\n00 05 04 00 00",
+      "solution": "5 5\n32 51 45 13 24\n44 23 12 55 31\n25 14 33 41 52\n53 42 21 34 15\n11 35 54 22 43",
+      "source": "https://www.janko.at/Raetsel/Eulero/217.a.htm",
+      "info": ""
+    },
+    "218_5x5": {
+      "problem": "5 5\n00 04 10 00 00\n00 00 00 00 00\n01 00 42 00 10\n00 00 50 00 01\n00 40 00 02 23",
+      "solution": "5 5\n43 34 11 25 52\n32 13 24 51 45\n21 55 42 33 14\n15 22 53 44 31\n54 41 35 12 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/218.a.htm",
+      "info": ""
+    },
+    "219_5x5": {
+      "problem": "5 5\n00 02 00 04 05\n00 03 42 20 00\n00 00 34 05 03\n00 00 00 00 00\n00 05 00 50 01",
+      "solution": "5 5\n53 32 11 44 25\n35 13 42 21 54\n22 51 34 15 43\n41 24 55 33 12\n14 45 23 52 31",
+      "source": "https://www.janko.at/Raetsel/Eulero/219.a.htm",
+      "info": ""
+    },
+    "220_5x5": {
+      "problem": "5 5\n00 52 20 00 40\n00 00 00 20 00\n00 00 00 00 05\n02 04 00 30 03\n20 30 00 05 00",
+      "solution": "5 5\n35 52 23 14 41\n13 45 51 22 34\n54 11 32 43 25\n42 24 15 31 53\n21 33 44 55 12",
+      "source": "https://www.janko.at/Raetsel/Eulero/220.a.htm",
+      "info": ""
+    },
+    "221_4x4": {
+      "problem": "4 4\n00 40 02 00\n31 00 43 00\n02 00 00 00\n20 00 00 00",
+      "solution": "4 4\n14 41 22 33\n31 24 43 12\n42 13 34 21\n23 32 11 44",
+      "source": "https://www.janko.at/Raetsel/Eulero/221.a.htm",
+      "info": ""
+    },
+    "222_4x4": {
+      "problem": "4 4\n03 02 00 00\n00 00 30 00\n04 10 03 40\n00 30 00 00",
+      "solution": "4 4\n43 22 14 31\n21 44 32 13\n34 11 23 42\n12 33 41 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/222.a.htm",
+      "info": ""
+    },
+    "223_4x4": {
+      "problem": "4 4\n20 01 00 00\n00 00 30 00\n00 00 40 23\n10 00 00 02",
+      "solution": "4 4\n22 41 13 34\n43 24 32 11\n31 12 44 23\n14 33 21 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/223.a.htm",
+      "info": ""
+    },
+    "224_5x5": {
+      "problem": "5 5\n40 30 52 10 04\n20 55 14 43 30\n00 00 00 00 02\n00 02 40 20 03\n00 00 20 02 10",
+      "solution": "5 5\n45 33 52 11 24\n22 55 14 43 31\n13 21 35 54 42\n34 12 41 25 53\n51 44 23 32 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/224.a.htm",
+      "info": ""
+    },
+    "225_5x5": {
+      "problem": "5 5\n02 03 20 04 00\n43 15 04 00 20\n00 20 41 12 53\n00 01 00 00 00\n20 02 10 50 00",
+      "solution": "5 5\n52 33 25 44 11\n43 15 54 31 22\n35 24 41 12 53\n14 51 32 23 45\n21 42 13 55 34",
+      "source": "https://www.janko.at/Raetsel/Eulero/225.a.htm",
+      "info": ""
+    },
+    "226_5x5": {
+      "problem": "5 5\n10 40 00 20 33\n01 02 43 00 00\n00 03 21 04 00\n20 50 12 30 00\n02 20 04 03 00",
+      "solution": "5 5\n14 41 55 22 33\n51 32 43 15 24\n35 13 21 44 52\n23 54 12 31 45\n42 25 34 53 11",
+      "source": "https://www.janko.at/Raetsel/Eulero/226.a.htm",
+      "info": ""
+    },
+    "227_5x5": {
+      "problem": "5 5\n02 50 00 05 00\n20 03 00 00 00\n03 05 01 00 40\n00 00 05 03 10\n00 00 00 40 00",
+      "solution": "5 5\n42 51 24 15 33\n21 43 12 34 55\n13 25 31 52 44\n54 32 45 23 11\n35 14 53 41 22",
+      "source": "https://www.janko.at/Raetsel/Eulero/227.a.htm",
+      "info": ""
+    },
+    "228_5x5": {
+      "problem": "5 5\n10 00 40 00 20\n00 00 00 40 00\n04 00 10 00 40\n40 00 25 52 01\n20 00 00 00 00",
+      "solution": "5 5\n11 55 42 33 24\n35 23 51 44 12\n54 32 13 21 45\n43 14 25 52 31\n22 41 34 15 53",
+      "source": "https://www.janko.at/Raetsel/Eulero/228.a.htm",
+      "info": ""
+    },
+    "229_5x5": {
+      "problem": "5 5\n00 02 10 00 31\n40 00 04 00 00\n10 00 01 53 40\n00 00 00 00 00\n00 00 00 00 10",
+      "solution": "5 5\n55 22 13 44 31\n41 15 54 32 23\n12 34 21 53 45\n24 43 35 11 52\n33 51 42 25 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/229.a.htm",
+      "info": ""
+    },
+    "230_5x5": {
+      "problem": "5 5\n30 50 00 00 03\n00 02 00 00 00\n13 00 02 00 20\n00 00 00 00 05\n04 00 50 00 00",
+      "solution": "5 5\n35 51 14 22 43\n41 12 25 33 54\n13 34 42 55 21\n52 23 31 44 15\n24 45 53 11 32",
+      "source": "https://www.janko.at/Raetsel/Eulero/230.a.htm",
+      "info": ""
+    },
+    "231_4x4": {
+      "problem": "4 4\n03 00 00 41\n00 21 00 02\n30 00 00 00\n20 00 10 00",
+      "solution": "4 4\n13 32 24 41\n44 21 33 12\n31 14 42 23\n22 43 11 34",
+      "source": "https://www.janko.at/Raetsel/Eulero/231.a.htm",
+      "info": ""
+    },
+    "232_4x4": {
+      "problem": "4 4\n00 00 10 00\n02 10 00 00\n10 40 00 30\n03 00 00 04",
+      "solution": "4 4\n24 31 12 43\n42 13 34 21\n11 44 23 32\n33 22 41 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/232.a.htm",
+      "info": ""
+    },
+    "233_4x4": {
+      "problem": "4 4\n00 00 30 01\n00 00 00 00\n00 03 00 10\n00 40 00 02",
+      "solution": "4 4\n44 12 33 21\n22 34 11 43\n31 23 42 14\n13 41 24 32",
+      "source": "https://www.janko.at/Raetsel/Eulero/233.a.htm",
+      "info": ""
+    },
+    "234_4x4": {
+      "problem": "4 4\n00 34 00 00\n00 00 00 10\n00 00 00 21\n03 00 00 00",
+      "solution": "4 4\n22 34 11 43\n31 23 42 14\n44 12 33 21\n13 41 24 32",
+      "source": "https://www.janko.at/Raetsel/Eulero/234.a.htm",
+      "info": ""
+    },
+    "235_5x5": {
+      "problem": "5 5\n05 00 03 04 00\n01 04 40 20 50\n00 00 00 50 04\n42 03 54 05 01\n00 00 01 43 15",
+      "solution": "5 5\n55 41 23 14 32\n11 34 45 22 53\n33 25 12 51 44\n42 13 54 35 21\n24 52 31 43 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/235.a.htm",
+      "info": ""
+    },
+    "236_5x5": {
+      "problem": "5 5\n11 42 04 20 05\n00 00 02 00 00\n00 20 31 00 12\n05 01 13 32 04\n50 30 00 00 00",
+      "solution": "5 5\n11 42 54 23 35\n34 15 22 41 53\n43 24 31 55 12\n25 51 13 32 44\n52 33 45 14 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/236.a.htm",
+      "info": ""
+    },
+    "237_5x5": {
+      "problem": "5 5\n10 05 03 50 00\n50 20 00 00 00\n00 00 04 00 52\n00 00 00 00 05\n40 00 00 30 00",
+      "solution": "5 5\n12 35 23 51 44\n54 22 11 45 33\n25 41 34 13 52\n31 53 42 24 15\n43 14 55 32 21",
+      "source": "https://www.janko.at/Raetsel/Eulero/237.a.htm",
+      "info": ""
+    },
+    "238_5x5": {
+      "problem": "5 5\n02 00 00 00 00\n05 00 04 40 00\n04 50 00 22 00\n20 00 40 00 00\n03 30 00 00 00",
+      "solution": "5 5\n52 44 25 13 31\n35 23 54 41 12\n14 51 33 22 45\n21 15 42 34 53\n43 32 11 55 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/238.a.htm",
+      "info": ""
+    },
+    "239_5x5": {
+      "problem": "5 5\n00 00 00 42 00\n00 30 00 00 03\n00 00 05 00 00\n00 01 40 20 00\n00 00 00 03 50",
+      "solution": "5 5\n25 13 54 42 31\n41 34 12 55 23\n53 22 35 11 44\n32 51 43 24 15\n14 45 21 33 52",
+      "source": "https://www.janko.at/Raetsel/Eulero/239.a.htm",
+      "info": ""
+    },
+    "240_5x5": {
+      "problem": "5 5\n50 15 00 00 00\n00 00 00 00 00\n00 00 02 20 01\n03 00 00 00 40\n00 00 50 00 20",
+      "solution": "5 5\n52 15 21 43 34\n31 22 44 55 13\n45 33 12 24 51\n23 54 35 11 42\n14 41 53 32 25",
+      "source": "https://www.janko.at/Raetsel/Eulero/240.a.htm",
+      "info": ""
+    },
+    "241_4x4": {
+      "problem": "4 4\n00 00 01 40\n40 00 00 12\n00 00 00 00\n00 40 04 31",
+      "solution": "4 4\n13 32 21 44\n41 24 33 12\n34 11 42 23\n22 43 14 31",
+      "source": "https://www.janko.at/Raetsel/Eulero/241.a.htm",
+      "info": ""
+    },
+    "242_4x4": {
+      "problem": "4 4\n03 00 00 00\n12 40 20 00\n40 00 00 20\n00 00 01 03",
+      "solution": "4 4\n33 21 42 14\n12 44 23 31\n41 13 34 22\n24 32 11 43",
+      "source": "https://www.janko.at/Raetsel/Eulero/242.a.htm",
+      "info": ""
+    },
+    "243_4x4": {
+      "problem": "4 4\n00 00 00 03\n20 30 00 00\n01 00 00 00\n00 02 40 00",
+      "solution": "4 4\n12 44 21 33\n23 31 14 42\n41 13 32 24\n34 22 43 11",
+      "source": "https://www.janko.at/Raetsel/Eulero/243.a.htm",
+      "info": ""
+    },
+    "244_4x4": {
+      "problem": "4 4\n10 40 00 00\n03 00 02 20\n00 00 00 00\n00 00 00 04",
+      "solution": "4 4\n11 42 24 33\n43 14 32 21\n34 23 41 12\n22 31 13 44",
+      "source": "https://www.janko.at/Raetsel/Eulero/244.a.htm",
+      "info": ""
+    },
+    "245_5x5": {
+      "problem": "5 5\n00 05 31 00 03\n15 01 00 00 00\n20 30 00 02 40\n00 40 02 05 11\n33 00 55 01 04",
+      "solution": "5 5\n42 25 31 14 53\n15 51 44 23 32\n21 34 13 52 45\n54 43 22 35 11\n33 12 55 41 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/245.a.htm",
+      "info": ""
+    },
+    "246_5x5": {
+      "problem": "5 5\n20 02 30 00 44\n00 40 02 51 30\n40 05 50 30 12\n50 00 10 00 00\n32 00 00 20 50",
+      "solution": "5 5\n23 52 31 15 44\n14 43 22 51 35\n41 25 54 33 12\n55 34 13 42 21\n32 11 45 24 53",
+      "source": "https://www.janko.at/Raetsel/Eulero/246.a.htm",
+      "info": ""
+    },
+    "247_5x5": {
+      "problem": "5 5\n00 00 00 00 10\n00 30 00 01 00\n00 05 01 10 00\n10 40 20 00 04\n01 12 00 00 00",
+      "solution": "5 5\n24 53 35 42 11\n52 34 13 21 45\n43 25 51 14 32\n15 41 22 33 54\n31 12 44 55 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/247.a.htm",
+      "info": ""
+    },
+    "248_5x5": {
+      "problem": "5 5\n50 05 02 00 00\n05 02 10 20 00\n00 30 00 10 05\n04 00 00 00 03\n00 00 00 00 00",
+      "solution": "5 5\n51 15 22 43 34\n35 52 13 24 41\n42 33 54 11 25\n14 21 45 32 53\n23 44 31 55 12",
+      "source": "https://www.janko.at/Raetsel/Eulero/248.a.htm",
+      "info": ""
+    },
+    "249_5x5": {
+      "problem": "5 5\n00 05 10 04 20\n50 03 20 00 00\n00 01 00 43 00\n00 00 50 00 00\n00 00 00 00 00",
+      "solution": "5 5\n41 35 12 54 23\n55 13 21 32 44\n22 51 34 43 15\n14 42 53 25 31\n33 24 45 11 52",
+      "source": "https://www.janko.at/Raetsel/Eulero/249.a.htm",
+      "info": ""
+    },
+    "250_5x5": {
+      "problem": "5 5\n00 00 00 00 00\n00 00 03 02 00\n02 30 40 10 20\n00 00 05 04 11\n00 00 00 01 00",
+      "solution": "5 5\n14 53 21 45 32\n41 15 33 22 54\n52 31 44 13 25\n23 42 55 34 11\n35 24 12 51 43",
+      "source": "https://www.janko.at/Raetsel/Eulero/250.a.htm",
+      "info": ""
+    },
+    "251_4x4": {
+      "problem": "4 4\n00 00 00 20\n00 00 03 00\n02 00 30 00\n01 03 10 00",
+      "solution": "4 4\n33 11 44 22\n14 32 23 41\n42 24 31 13\n21 43 12 34",
+      "source": "https://www.janko.at/Raetsel/Eulero/251.a.htm",
+      "info": ""
+    },
+    "252_4x4": {
+      "problem": "4 4\n00 00 00 30\n02 00 04 00\n03 30 10 40\n00 10 00 00",
+      "solution": "4 4\n14 43 22 31\n32 21 44 13\n23 34 11 42\n41 12 33 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/252.a.htm",
+      "info": ""
+    },
+    "253_4x4": {
+      "problem": "4 4\n20 00 00 01\n04 00 02 00\n10 00 00 00\n00 00 31 00",
+      "solution": "4 4\n22 33 14 41\n34 21 42 13\n11 44 23 32\n43 12 31 24",
+      "source": "https://www.janko.at/Raetsel/Eulero/253.a.htm",
+      "info": ""
+    },
+    "254_4x4": {
+      "problem": "4 4\n00 04 00 00\n03 10 00 01\n00 00 00 00\n20 00 30 00",
+      "solution": "4 4\n11 34 42 23\n33 12 24 41\n44 21 13 32\n22 43 31 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/254.a.htm",
+      "info": ""
+    },
+    "255_5x5": {
+      "problem": "5 5\n05 53 00 04 02\n20 10 02 03 00\n50 00 43 01 00\n00 40 14 55 03\n13 00 00 02 00",
+      "solution": "5 5\n45 53 31 24 12\n21 15 52 33 44\n54 22 43 11 35\n32 41 14 55 23\n13 34 25 42 51",
+      "source": "https://www.janko.at/Raetsel/Eulero/255.a.htm",
+      "info": ""
+    },
+    "256_5x5": {
+      "problem": "5 5\n11 50 00 24 00\n20 33 40 50 00\n03 40 00 01 20\n04 10 03 00 50\n00 21 00 03 05",
+      "solution": "5 5\n11 55 32 24 43\n25 33 41 52 14\n53 44 15 31 22\n34 12 23 45 51\n42 21 54 13 35",
+      "source": "https://www.janko.at/Raetsel/Eulero/256.a.htm",
+      "info": ""
+    },
+    "257_5x5": {
+      "problem": "5 5\n20 00 00 00 03\n00 10 02 51 45\n00 00 00 00 10\n00 40 00 00 00\n03 00 00 00 02",
+      "solution": "5 5\n21 54 15 42 33\n34 13 22 51 45\n55 32 44 23 11\n12 41 53 35 24\n43 25 31 14 52",
+      "source": "https://www.janko.at/Raetsel/Eulero/257.a.htm",
+      "info": ""
+    },
+    "258_5x5": {
+      "problem": "5 5\n10 03 05 00 02\n00 00 00 00 00\n30 04 00 00 00\n45 00 30 20 00\n20 30 00 00 00",
+      "solution": "5 5\n14 23 55 31 42\n53 41 22 15 34\n32 54 11 43 25\n45 12 33 24 51\n21 35 44 52 13",
+      "source": "https://www.janko.at/Raetsel/Eulero/258.a.htm",
+      "info": ""
+    },
+    "259_5x5": {
+      "problem": "5 5\n02 01 00 00 03\n00 00 00 00 50\n00 00 00 00 00\n00 00 50 20 00\n03 40 05 00 30",
+      "solution": "5 5\n42 51 24 35 13\n11 25 32 43 54\n55 33 41 14 22\n34 12 53 21 45\n23 44 15 52 31",
+      "source": "https://www.janko.at/Raetsel/Eulero/259.a.htm",
+      "info": ""
+    },
+    "260_5x5": {
+      "problem": "5 5\n00 00 00 00 05\n30 00 00 00 00\n03 00 00 00 40\n00 30 40 01 10\n00 00 50 12 00",
+      "solution": "5 5\n42 11 34 53 25\n31 23 15 44 52\n13 54 22 35 41\n55 32 43 21 14\n24 45 51 12 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/260.a.htm",
+      "info": ""
+    },
+    "261_5x5": {
+      "problem": "5 5\n00 02 00 00 30\n04 00 00 00 05\n10 00 00 05 00\n00 40 53 00 00\n30 00 00 10 00",
+      "solution": "5 5\n41 52 15 24 33\n54 11 32 43 25\n13 34 21 55 42\n22 45 53 31 14\n35 23 44 12 51",
+      "source": "https://www.janko.at/Raetsel/Eulero/261.a.htm",
+      "info": ""
+    },
+    "262_5x5": {
+      "problem": "5 5\n10 03 01 00 00\n30 00 00 10 50\n00 00 03 00 04\n00 00 05 00 30\n00 40 00 20 00",
+      "solution": "5 5\n14 33 51 45 22\n35 24 42 11 53\n21 55 13 32 44\n43 12 25 54 31\n52 41 34 23 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/262.a.htm",
+      "info": ""
+    },
+    "263_5x5": {
+      "problem": "5 5\n00 00 40 10 00\n00 00 03 00 50\n04 00 00 00 03\n30 00 10 04 00\n00 00 00 02 01",
+      "solution": "5 5\n55 21 44 13 32\n22 15 33 41 54\n14 42 51 35 23\n31 53 12 24 45\n43 34 25 52 11",
+      "source": "https://www.janko.at/Raetsel/Eulero/263.a.htm",
+      "info": ""
+    },
+    "264_5x5": {
+      "problem": "5 5\n00 00 00 04 10\n40 00 02 00 00\n04 00 00 40 00\n35 03 00 00 00\n00 20 10 00 00",
+      "solution": "5 5\n22 45 31 54 13\n43 11 52 25 34\n14 32 23 41 55\n35 53 44 12 21\n51 24 15 33 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/264.a.htm",
+      "info": ""
+    },
+    "265_5x5": {
+      "problem": "5 5\n00 04 00 00 33\n04 00 05 02 00\n50 20 00 05 00\n00 00 40 00 00\n00 00 00 20 00",
+      "solution": "5 5\n15 44 22 51 33\n24 13 55 32 41\n53 21 34 45 12\n31 52 43 14 25\n42 35 11 23 54",
+      "source": "https://www.janko.at/Raetsel/Eulero/265.a.htm",
+      "info": ""
+    },
+    "266_5x5": {
+      "problem": "5 5\n02 00 00 00 03\n30 00 00 00 00\n00 50 01 00 00\n00 00 00 43 30\n00 14 00 00 00",
+      "solution": "5 5\n52 35 44 21 13\n33 41 12 54 25\n24 53 31 15 42\n11 22 55 43 34\n45 14 23 32 51",
+      "source": "https://www.janko.at/Raetsel/Eulero/266.a.htm",
+      "info": ""
+    },
+    "267_5x5": {
+      "problem": "5 5\n00 00 03 00 00\n00 30 00 01 02\n00 50 00 04 00\n24 00 00 50 00\n00 00 40 00 10",
+      "solution": "5 5\n42 11 33 25 54\n13 34 55 41 22\n35 52 21 14 43\n24 45 12 53 31\n51 23 44 32 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/267.a.htm",
+      "info": ""
+    },
+    "268_5x5": {
+      "problem": "5 5\n31 00 00 00 00\n00 50 00 00 03\n00 40 10 20 00\n02 00 01 10 00\n00 04 00 00 00",
+      "solution": "5 5\n31 12 25 53 44\n15 51 34 42 23\n54 45 13 21 32\n22 33 41 14 55\n43 24 52 35 11",
+      "source": "https://www.janko.at/Raetsel/Eulero/268.a.htm",
+      "info": ""
+    },
+    "269_5x5": {
+      "problem": "5 5\n34 00 00 00 03\n05 00 00 00 20\n00 03 00 40 00\n40 00 50 10 00\n00 00 02 00 01",
+      "solution": "5 5\n34 45 11 22 53\n15 52 43 31 24\n51 33 25 44 12\n42 21 54 13 35\n23 14 32 55 41",
+      "source": "https://www.janko.at/Raetsel/Eulero/269.a.htm",
+      "info": ""
+    },
+    "270_5x5": {
+      "problem": "5 5\n05 00 04 00 01\n04 00 00 00 50\n20 40 10 00 02\n00 05 00 00 00\n00 04 01 00 00",
+      "solution": "5 5\n35 52 24 13 41\n44 11 33 22 55\n21 43 15 54 32\n53 25 42 31 14\n12 34 51 45 23",
+      "source": "https://www.janko.at/Raetsel/Eulero/270.a.htm",
+      "info": ""
+    },
+    "271_5x5": {
+      "problem": "5 5\n30 00 00 00 10\n03 00 01 00 05\n05 50 02 00 00\n00 04 00 20 00\n02 00 00 05 00",
+      "solution": "5 5\n34 25 43 52 11\n13 32 21 44 55\n45 53 12 31 24\n51 14 35 23 42\n22 41 54 15 33",
+      "source": "https://www.janko.at/Raetsel/Eulero/271.a.htm",
+      "info": ""
+    },
+    "272_5x5": {
+      "problem": "5 5\n04 05 00 00 01\n00 00 00 02 00\n20 00 00 40 30\n40 00 00 00 20\n00 00 50 00 05",
+      "solution": "5 5\n14 25 42 33 51\n55 31 24 12 43\n23 52 11 45 34\n41 13 35 54 22\n32 44 53 21 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/272.a.htm",
+      "info": ""
+    },
+    "273_5x5": {
+      "problem": "5 5\n00 02 00 00 05\n10 00 00 40 00\n00 00 20 00 00\n01 00 50 00 00\n03 50 01 05 00",
+      "solution": "5 5\n34 12 43 51 25\n15 21 32 44 53\n52 45 24 13 31\n41 33 55 22 14\n23 54 11 35 42",
+      "source": "https://www.janko.at/Raetsel/Eulero/273.a.htm",
+      "info": ""
+    },
+    "274_5x5": {
+      "problem": "5 5\n00 01 24 00 00\n10 00 00 50 00\n02 00 00 00 40\n00 03 00 40 00\n00 00 00 00 02",
+      "solution": "5 5\n45 31 24 12 53\n13 42 35 54 21\n22 55 11 33 44\n34 23 52 41 15\n51 14 43 25 32",
+      "source": "https://www.janko.at/Raetsel/Eulero/274.a.htm",
+      "info": ""
+    },
+    "275_5x5": {
+      "problem": "5 5\n20 00 00 00 03\n50 10 00 00 30\n00 40 04 00 00\n00 00 40 01 05\n00 00 50 30 00",
+      "solution": "5 5\n24 31 15 52 43\n55 13 21 44 32\n12 45 34 23 51\n33 54 42 11 25\n41 22 53 35 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/275.a.htm",
+      "info": ""
+    },
+    "276_5x5": {
+      "problem": "5 5\n02 00 03 01 00\n40 50 30 00 00\n00 00 00 55 00\n00 40 00 00 10\n00 00 20 00 01",
+      "solution": "5 5\n52 35 13 21 44\n45 53 31 14 22\n11 24 42 55 33\n23 41 54 32 15\n34 12 25 43 51",
+      "source": "https://www.janko.at/Raetsel/Eulero/276.a.htm",
+      "info": ""
+    },
+    "277_5x5": {
+      "problem": "5 5\n04 05 00 00 00\n50 00 30 00 00\n00 10 00 00 20\n03 00 00 30 00\n00 03 00 01 40",
+      "solution": "5 5\n14 55 23 42 31\n51 44 32 25 13\n35 12 41 53 24\n43 21 15 34 52\n22 33 54 11 45",
+      "source": "https://www.janko.at/Raetsel/Eulero/277.a.htm",
+      "info": ""
+    },
+    "278_5x5": {
+      "problem": "5 5\n02 00 00 00 00\n00 00 05 00 30\n00 00 00 01 00\n04 00 20 30 40\n00 40 50 00 05",
+      "solution": "5 5\n42 25 34 13 51\n23 11 45 54 32\n55 33 12 41 24\n14 52 21 35 43\n31 44 53 22 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/278.a.htm",
+      "info": ""
+    },
+    "279_5x5": {
+      "problem": "5 5\n50 00 01 00 00\n02 00 00 40 20\n00 01 00 30 04\n00 00 03 00 00\n03 00 00 00 00",
+      "solution": "5 5\n54 35 41 22 13\n12 53 34 45 21\n25 11 52 33 44\n31 42 23 14 55\n43 24 15 51 32",
+      "source": "https://www.janko.at/Raetsel/Eulero/279.a.htm",
+      "info": ""
+    },
+    "280_5x5": {
+      "problem": "5 5\n50 10 03 00 01\n30 00 10 00 00\n02 00 01 00 00\n23 00 00 05 00\n00 00 00 00 50",
+      "solution": "5 5\n55 12 33 24 41\n34 43 15 51 22\n42 54 21 13 35\n23 31 52 45 14\n11 25 44 32 53",
+      "source": "https://www.janko.at/Raetsel/Eulero/280.a.htm",
+      "info": ""
+    },
+    "281_5x5": {
+      "problem": "5 5\n23 00 00 00 00\n00 42 00 01 30\n00 54 00 00 00\n00 00 01 20 00\n40 00 00 00 00",
+      "solution": "5 5\n23 31 15 44 52\n55 42 24 11 33\n12 54 43 35 21\n34 13 51 22 45\n41 25 32 53 14",
+      "source": "https://www.janko.at/Raetsel/Eulero/281.a.htm",
+      "info": ""
+    },
+    "282_5x5": {
+      "problem": "5 5\n01 00 00 03 00\n30 00 50 00 00\n00 10 02 04 00\n00 51 00 00 00\n00 00 20 00 05",
+      "solution": "5 5\n41 35 14 23 52\n34 22 55 11 43\n25 13 42 54 31\n12 51 33 45 24\n53 44 21 32 15",
+      "source": "https://www.janko.at/Raetsel/Eulero/282.a.htm",
+      "info": ""
+    },
+    "283_5x5": {
+      "problem": "5 5\n30 00 00 00 04\n00 00 00 00 00\n01 00 00 00 05\n05 50 10 00 02\n00 40 50 10 00",
+      "solution": "5 5\n32 25 41 53 14\n54 12 35 21 43\n11 33 24 42 55\n45 51 13 34 22\n23 44 52 15 31",
+      "source": "https://www.janko.at/Raetsel/Eulero/283.a.htm",
+      "info": ""
+    },
+    "284_5x5": {
+      "problem": "5 5\n10 00 00 03 00\n00 10 00 00 00\n00 30 20 00 50\n00 02 01 00 00\n04 00 00 05 00",
+      "solution": "5 5\n11 25 42 53 34\n32 14 55 21 43\n45 33 24 12 51\n23 52 31 44 15\n54 41 13 35 22",
+      "source": "https://www.janko.at/Raetsel/Eulero/284.a.htm",
+      "info": ""
+    },
+    "285_5x5": {
+      "problem": "5 5\n00 00 20 00 04\n00 00 00 00 30\n02 03 00 50 00\n00 05 03 00 00\n00 50 00 03 45",
+      "solution": "5 5\n53 41 25 32 14\n15 22 51 44 33\n42 13 34 55 21\n24 35 43 11 52\n31 54 12 23 45",
+      "source": "https://www.janko.at/Raetsel/Eulero/285.a.htm",
+      "info": ""
+    },
+    "286_5x5": {
+      "problem": "5 5\n20 00 00 00 00\n05 00 03 02 00\n00 10 30 40 00\n00 40 04 00 00\n10 00 00 00 50",
+      "solution": "5 5\n22 54 15 31 43\n45 21 53 12 34\n51 13 32 44 25\n33 42 24 55 11\n14 35 41 23 52",
+      "source": "https://www.janko.at/Raetsel/Eulero/286.a.htm",
+      "info": ""
+    },
+    "287_5x5": {
+      "problem": "5 5\n10 50 00 00 00\n40 00 10 00 00\n00 00 00 40 00\n00 00 03 00 04\n00 22 00 00 35",
+      "solution": "5 5\n15 53 24 31 42\n43 34 12 25 51\n32 11 55 44 23\n21 45 33 52 14\n54 22 41 13 35",
+      "source": "https://www.janko.at/Raetsel/Eulero/287.a.htm",
+      "info": ""
+    },
+    "288_5x5": {
+      "problem": "5 5\n00 00 00 00 30\n03 00 00 02 10\n10 00 50 00 00\n00 20 00 50 00\n00 05 00 01 03",
+      "solution": "5 5\n54 12 41 23 35\n43 51 25 32 14\n15 33 52 44 21\n31 24 13 55 42\n22 45 34 11 53",
+      "source": "https://www.janko.at/Raetsel/Eulero/288.a.htm",
+      "info": ""
+    },
+    "289_5x5": {
+      "problem": "5 5\n00 30 05 00 00\n00 00 00 00 40\n50 00 00 02 20\n00 05 03 00 00\n00 03 01 00 00",
+      "solution": "5 5\n21 32 45 53 14\n33 54 22 15 41\n55 11 34 42 23\n44 25 13 31 52\n12 43 51 24 35",
+      "source": "https://www.janko.at/Raetsel/Eulero/289.a.htm",
+      "info": ""
+    },
+    "290_5x5": {
+      "problem": "5 5\n20 50 00 00 00\n00 20 00 50 00\n00 00 31 00 00\n00 00 00 20 00\n10 03 05 00 04",
+      "solution": "5 5\n24 51 42 13 35\n33 22 14 55 41\n52 15 31 44 23\n45 34 53 21 12\n11 43 25 32 54",
+      "source": "https://www.janko.at/Raetsel/Eulero/290.a.htm",
+      "info": ""
+    }
+  }
+}

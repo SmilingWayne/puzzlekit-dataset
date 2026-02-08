@@ -44,11 +44,6 @@ async def batch_scrape(puzzle_types: List[str], output_dir: str = "output"):
   
   
 if __name__ == '__main__':  
-    # 要爬取的谜题类型列表  
-    puzzle_types = [  
-        'mejilink',  
-        'slitherlink',  
-        'nurikabe',   
-    ]  
-      
+    puzzle_types = "voxas vslither wafusuma wagiri walllogic waterwalk wblink wittgen yajikazu yajilin yajilin-regions yajisoko yajitatami yinyang yosenabe".split(" ")
+    
     asyncio.run(batch_scrape(puzzle_types))  

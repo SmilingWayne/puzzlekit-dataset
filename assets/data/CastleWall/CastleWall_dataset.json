@@ -1,0 +1,667 @@
+{
+  "count": 110,
+  "count_sol": 110,
+  "name": "CastleWall",
+  "data": {
+    "01_10x10": {
+      "problem": "10 10\n- - 1wx - - - - - - -\n- - - - - - 4so - 2wx -\n- - - - 2so - - - - -\n- 2sx - - - - - 4wo - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - 1wx - - - - - 0no -\n- - - - - 1eo - - - -\n- 0eo - 3no - - - - - -\n- - - - - - - 3nx - -",
+      "solution": "10 10\nse sw - se ew ew ew sw - -\nns ne ew nw - - - ns - -\nne ew sw - - - - ne ew sw\n- - ne ew ew ew sw - - ns\n- se ew ew sw se nw - - ns\n- ne ew sw ns ns - - - ns\nse sw - ns ne nw se sw - ns\nns ne ew nw - - ns ne sw ns\nns - - - - - ns - ns ns\nne ew ew ew ew ew nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/001.a.htm",
+      "info": ""
+    },
+    "02_10x10": {
+      "problem": "10 10\n- - - - - 3sx - - - -\n- - - o - - - 3so - -\n- x - - - - - - - -\n- - - - 2eo - - - o -\n1nx - - - - - 1wo - - -\n- - - 1so - - - - - 2nx\n- x - - - 1sx - - - -\n- - - - - - - - o -\n- - 3nx - - - x - - -\n- - - - 2ex - - - - -",
+      "solution": "10 10\nse ew ew ew sw - se ew sw -\nne ew sw - ns - ns - ns -\n- - ne sw ne sw ne sw ne sw\n- se ew nw - ne ew nw - ns\n- ns - - se sw - - se nw\n- ne sw - ns ne sw - ns -\n- - ns - ns - ns - ne sw\n- - ne sw ne sw ne sw - ns\n- - - ne ew nw - ns - ns\n- - - - - - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/002.a.htm",
+      "info": ""
+    },
+    "03_10x10": {
+      "problem": "10 10\n8ex - - - - - - - - -\n6ex - - - - 0no - - - -\n6ex - - - - - - - - -\n5ex - - - 1no - - - - -\n4ex - - - - 1no - - - -\n4ex - - - - 1no - - - -\n5ex - 1no - - - - - - -\n5ex - - - - - 3no - - -\n6ex - - - - - - - - -\n7ex - - - - - - - - -",
+      "solution": "10 10\n- se ew ew ew ew ew ew ew sw\n- ne ew ew sw - se ew ew nw\n- se ew ew nw se nw se ew sw\n- ne ew sw - ne ew nw se nw\n- se sw ne sw - se sw ne sw\n- ns ne ew nw - ns ne ew nw\n- ns - se ew sw ne ew ew sw\n- ne ew nw se nw - se ew nw\n- se ew ew nw se sw ne ew sw\n- ne ew ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/003.a.htm",
+      "info": ""
+    },
+    "04_10x10": {
+      "problem": "10 10\n3sx 2sx - - - - - - - 3wx\n- - - - - - - - - 1wx\n- - - - 0so - 1eo - - -\n- - 4eo - - - - 2so - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - 3eo - - - - 3no - -\n- - - 0wo - 0no - - - -\n5ex - - - - - - - - -\n2ex - - - - - - - 1nx 3nx",
+      "solution": "10 10\n- - - - se ew ew sw - -\n- - - se nw - - ns - -\nse ew ew nw - - - ne sw -\nns - - se ew ew sw - ne sw\nne ew ew nw - - ns se ew nw\nse ew ew sw - - ns ne ew sw\nne sw - ne ew ew nw - - ns\n- ns - - - - se ew ew nw\n- ne ew ew ew sw ne sw - -\n- - - - - ne ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/004.a.htm",
+      "info": ""
+    },
+    "05_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - 2eo - - -\n5sx - 1nx - - - - - - -\n- - - - - 1so - 1nx - -\n- 2so - 1no - - - - - -\n- - - - - - 1sx - 2no -\n- - 1sx - 1no - - - - -\n- - - - - - - 1sx - 5nx\n- - - 2wo - - - - - -\n- - - - - - - - - -",
+      "solution": "10 10\n- - se ew ew ew ew sw - -\n- - ne ew ew sw - ne ew sw\n- - - se ew nw se ew sw ns\nse ew ew nw - - ns - ns ns\nns - - - se ew nw se nw ns\nns se ew sw ne sw - ns - ns\nns ns - ns - ne sw ne ew nw\nne nw se nw se ew nw - - -\nse ew nw - ne ew ew sw - -\nne ew ew ew ew ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/005.a.htm",
+      "info": ""
+    },
+    "06_10x10": {
+      "problem": "10 10\n- - - - 2ex - - - - -\n- - 2eo - - - 2eo - - -\n- - - - - - - - 4so -\n- 2nx - - - 2wo - - - -\n- - - 2nx - - - - - 2nx\n2sx - - - - - 2so - - -\n- - - - 2nx - - - 2sx -\n- 4no - - - - - - - -\n- - - 4no - - - 4wo - -\n- - - - - 4nx - - - -",
+      "solution": "10 10\n- se ew sw - se ew sw - -\n- ns - ns - ns - ne ew sw\n- ne sw ne ew nw - - - ns\n- - ne ew sw - - - se nw\n- se sw - ns - - - ns -\n- ns ne sw ne sw - se nw -\nse nw - ns - ns se nw - -\nns - - ne ew nw ne ew sw -\nne ew sw - se ew sw - ns -\n- - ne ew nw - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/006.a.htm",
+      "info": ""
+    },
+    "07_10x10": {
+      "problem": "10 10\n6ex - - - - - - - - -\n- - - - - 1eo - - 4so -\n- - 2so - - - - - - -\n- - - 4eo - - - - - -\n- - - - - - - - 1no -\n- 1eo - - - - - - - -\n- - - - - - 2wo - - -\n- - - - - - - 3no - -\n- 2no - - 2no - - - - -\n- - - - - - - - - 5wx",
+      "solution": "10 10\n- se ew sw se ew sw se ew sw\nse nw - ne nw - ne nw - ns\nns - - - - - - - se nw\nns - - - se ew ew sw ne sw\nns - - se nw se sw ns - ns\nns - - ns - ns ne nw - ns\nns se ew nw - ns - - se nw\nns ne sw se ew nw - - ns -\nns - ns ns - se ew sw ns -\nne ew nw ne ew nw - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/007.a.htm",
+      "info": ""
+    },
+    "08_10x18": {
+      "problem": "10 18\n- - - - - - - - - - 3ex - - - - - - -\n- 3sx - 5eo - - - - 3sx - - - - - - 3so - -\n- - - - - - - - - - - - 1ex - - - 8wo -\n- 7eo - - - - - - - 2ex - - - - 6wo - - -\n- - - - - - - 2eo - - - - - - - - - -\n- - - - - - - - - - 0so - - - - - - -\n- - - 2nx - - - - 1nx - - - - - - - 6w -\n- 2no - - - 7eo - - - - - - - - - - - -\n- - 4no - - - - - - 2no - - - - 5wx - 2no -\n- - - - - - - 6ex - - - - - - - - - -",
+      "solution": "10 18\n- - se ew sw - - - - - - - - - se ew ew sw\n- - ns - ne ew ew sw - se ew sw - - ns - - ns\nse ew nw se ew ew ew nw - ne sw ns - se nw - - ns\nns - se nw se ew ew ew sw - ns ne sw ns - - se nw\nns se nw se nw - - - ne ew nw - ns ns - - ns -\nns ns - ne sw - se ew ew sw - - ns ne ew sw ne sw\nns ne sw - ns - ns - - ne ew sw ne ew ew nw - ns\nns - ne ew nw - ne sw se ew ew nw se ew ew sw - ns\nne sw - se ew ew ew nw ns - - - ns - - ns - ns\n- ne ew nw - - - - ne ew ew ew nw - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/008.a.htm",
+      "info": ""
+    },
+    "09_10x18": {
+      "problem": "10 18\n- - - 0sx - - - 1wx - - - - - - - - - 5sx\n- - - - - - - - - - 1eo - - - 5wo - - -\n- 6eo - - - 2wx - - - - - - - - - - - -\n- - - - - - - - - - - - 8wx - - - 0so -\n- - - 2eo - - - 0no - - - - - - - - - -\n- - - - - - - - - - 6wo - - - 8wx - - -\n- 2nx - - - 0nx - - - - - - - - - - - -\n- - - - - - - - - - - - 6wo - - - 7wx -\n- - - 6eo - - - 3wx - - - - - - - - - -\n6nx - - - - - - - - - 6wx - - - 1nx - - -",
+      "solution": "10 18\nse sw - - - - - - se ew ew ew ew ew ew ew sw -\nns ne ew ew sw - se ew nw - - - - - - - ne sw\nns - se ew nw - ne ew sw - - se ew sw - - - ns\nns - ne ew ew ew ew ew nw se ew nw - ne ew sw - ns\nns se sw - - - - - - ne ew sw - - - ns - ns\nne nw ns - se ew ew ew ew sw - ne ew sw - ns - ns\n- - ns - ns - se ew ew nw - - - ne sw ne ew nw\nse ew nw - ns - ne ew sw se ew sw - - ne sw - -\nne sw - - ne ew sw - ns ns - ne ew ew ew nw - -\n- ne ew ew ew ew nw - ne nw - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/009.a.htm",
+      "info": ""
+    },
+    "10_10x18": {
+      "problem": "10 18\n- - - - - - x x - - - - - - - - 8wx x\n- - - - - - 1sx 2sx - - - - - - - - 6wx 5sx\n- - 1nx 1nx - - - - - - - - x 3ex - - - -\n- - 4sx 3sx - - - - - - - - x x - - - -\n- - - - - - - - 3wx x - - - - - - - -\n- - - - - - - - 4wx 4ex - - - - - - - -\n- - - - 2nx 1wx - - - - - - - - 4wx 2nx - -\n- - - - 6ex 1sx - - - - - - - - x x - -\nx x - - - - - - - - x 2nx - - - - - -\nx x - - - - - - - - 3wx x - - - - - -",
+      "solution": "10 18\nse ew sw se ew sw - - - se ew ew ew sw - - - -\nns se nw ne sw ns - - se nw se ew ew nw - - - -\nns ns - - ns ne ew ew nw - ne sw - - se ew ew sw\nns ns - - ne sw - se ew ew sw ns - - ns se sw ns\nns ns se ew ew nw - ns - - ns ne ew ew nw ns ns ns\nns ns ns se ew ew ew nw - - ns - se ew ew nw ne nw\nns ne nw ns - - - - se ew nw - ne sw - - - -\nne ew sw ns - - se ew nw se ew ew sw ns - - se sw\n- - ns ne ew sw ne ew ew nw - - ns ne ew ew nw ns\n- - ne ew ew nw - - - - - - ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/010.a.htm",
+      "info": ""
+    },
+    "11_10x18": {
+      "problem": "10 18\n- - - - - - - - - - - - - - - 2wx - -\n- - - - - - - 2wo - - - - - - - 2sx - -\n- - - - - o - 2eo - - 2eo 2so 2so - - 2sx - -\n- 2so 2so 2eo - - - 2eo - - - - - - - - - -\n- - - - - - - - - - - x - - x - - -\n- - - x - - o - - - - - - - - - - -\n- - - - - - - - - - 2ex - - - 2so 2so 2so -\n- - 2nx - - 2nx 2wx 2nx - - 2nx - x - - - - -\n- - 2nx - - - - - - - 2ex - - - - - - -\n- - 2nx - - - - - - - - - - - - - - -",
+      "solution": "10 18\n- - - - - - se ew sw - - - - - - - - -\n- - - - se ew nw - ne ew ew ew ew ew sw - - -\nse ew ew ew nw - - - - - - - - se nw - se sw\nns - - - - - - - - - se ew sw ns - - ns ns\nne sw se ew ew sw - se sw - ns - ns ns - - ns ns\nse nw ns - - ns - ns ns se nw se nw ne ew ew nw ns\nns se nw - - ne ew nw ns ns - ne ew sw - - - ns\nne nw - se sw - - - ns ns - - - ns se sw se nw\n- - - ns ne ew ew ew nw ns - se ew nw ns ns ns -\n- - - ne ew ew ew ew ew nw - ne ew ew nw ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/011.a.htm",
+      "info": ""
+    },
+    "12_10x18": {
+      "problem": "10 18\n3sx - - - - - - - - - - - - - - - - 2sx\n- - 5so - - 4sx - - - - 5so - - 5sx - - - -\n- - - - - - - - 3sx - - - - - - - 3sx -\n- - - - - - 4so - - - - - - - 2so - - -\n- 1sx - - - - - - - 1so - - - - - - - -\n- - - - - - - - 1no - - - - - - - 1nx -\n- - - 2nx - - - - - - - 4nx - - - - - -\n- 3no - - - - - - - 3no - - - - - - - -\n- - - - 6no - - 5nx - - - - 5nx - - 3no - -\n3nx - - - - - - - - - - - - - - - - 2nx",
+      "solution": "10 18\n- se ew ew sw - se sw - se ew sw - - se sw - -\n- ns - - ns - ns ns - ns - ne sw - ns ns - -\n- ne sw - ne ew nw ns - ns se sw ns se nw ns - -\n- - ns se sw - - ns se nw ns ns ns ns - ne sw -\n- - ns ns ns se sw ne nw - ns ns ne nw se ew nw -\nse sw ne nw ns ns ns - - - ns ne sw se nw - - -\nns ne sw - ns ns ns se sw - ns - ns ne sw - se sw\nns - ne ew nw ns ne nw ns - ne sw ne sw ne ew nw ns\nne ew sw - - ne sw - ne sw - ns - ns - - se nw\n- - ne ew ew ew nw - - ne ew nw - ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/012.a.htm",
+      "info": ""
+    },
+    "13_10x18": {
+      "problem": "10 18\n- - - - x 3sx - - - - - - 2sx x - - - -\n- 3so - - - - - - - - - - - - - - 7wo -\n- - - - - - - - 2sx 2wx - - - - - - - -\n- - - 2sx - - - - - - - - - - 7wx - - -\n6ex - - - - - o - - - - 2eo - - - - - x\n5ex - - - - - o - - - - 1eo - - - - - x\n- - - 2nx - - - - - - - - - - 1nx - - -\n- - - - - - - - 4wx 3nx - - - - - - - -\n- 5eo - - - - - - - - - - - - - - 3no -\n- - - - 4nx x - - - - - - 2wx 1nx - - - -",
+      "solution": "10 18\nse ew ew sw - - - - - se ew sw - - - se ew sw\nns - - ne ew sw - - - ne sw ne ew ew ew nw - ns\nns - se ew sw ns - - - - ne ew ew ew ew sw - ns\nne sw ns - ns ne ew sw se sw se ew ew sw - ns se nw\n- ns ne sw ne sw - ne nw ne nw - se nw se nw ns -\n- ns se nw se nw - se sw se sw - ns - ne sw ns -\nse nw ns - ns - - ns ne nw ns se nw - - ns ne sw\nns - ne sw ne ew ew nw - - ns ne ew ew ew nw - ns\nns - se nw - - - - - - ne ew ew ew sw - - ns\nne ew nw - - - - - - - - - - - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/013.a.htm",
+      "info": ""
+    },
+    "14_10x18": {
+      "problem": "10 18\n6ex - - - - - - 2wx - - - - - - - - - 0sx\n- - - - - - - - - - - 2ex - - - - - 5wx\n- - - - - - - - - - - 0ex - - - - - -\n- - 2nx 0nx 1wx 1ex - - 0no - - 1sx - - - - - -\n- - - - - - - - - - - 1ex - - 5wo - - -\n- - - o - - 2eo - - - - - - - - - - -\n- - - - - - 0eo - - 1wo - - 2so 0so 1no 1no - -\n- - - - - - 1no - - - - - - - - - - -\n1ex - - - - - 1eo - - - - - - - - - - -\n3nx - - - - - - - - - 1ex - - - - - - 3wx",
+      "solution": "10 18\n- - se ew sw - - - - se sw - se ew sw se sw -\n- - ns - ne ew ew sw - ns ns - ne sw ne nw ns -\n- - ne ew ew ew sw ne ew nw ns - - ns - - ns -\nse sw - - - - ne sw - - ns - - ns - - ns -\nns ns se ew sw se ew nw - - ns - se nw - - ns -\nns ne nw - ne nw - - - - ne ew nw - - - ns -\nne sw - - - - - - - - - - - - - - ns -\n- ne ew ew ew sw - se ew ew sw - se ew ew ew nw -\n- - - - - ns - ns - - ne sw ns - - - - -\n- - - - - ne ew nw - - - ne nw - - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/014.a.htm",
+      "info": ""
+    },
+    "15_14x24": {
+      "problem": "14 24\n5sx - - - - - - - - - - - - - - - - - - - - - - 10wx\n- - - - 2wo - - - - - 2wo - - 3sx - - - - - x - - - -\n- 2so - - - - - 3wo - - - - - - - - o - - - - - 8wx -\n- - - 1nx - - - - - 4wx - - - - 4eo - - - - - 4so - - -\n- - - - - 2no - - - - - 3nx 1nx - - - - - x - - - - -\n- - 2so - - - - 3wx - - - - - - - - 5wo - - - - 2nx - -\n- - - - 2nx - - - - - 6wo - - 7wo - - - - - 2no - - - -\n- - - - x - - - - - 5eo - - 4eo - - - - - 6wo - - - -\n- - 1so - - - - 1sx - - - - - - - - 0sx - - - - 8wx - -\n- - - - - 5eo - - - - - 0sx 2sx - - - - - 4no - - - - -\n- - - x - - - - - 1sx - - - - 4nx - - - - - x - - -\n- 9ex - - - - - 1wo - - - - - - - - 5wx - - - - - 6no -\n- - - - 0wo - - - - - 4no - - 3wx - - - - - o - - - -\n11ex - - - - - - - - - - - - - - - - - - - - - - 9nx",
+      "solution": "14 24\n- se sw se ew sw se ew ew ew ew sw - - - - - - - - se ew sw -\nse nw ne nw - ns ns - - - - ns - - se ew ew ew sw - ns se nw -\nns - se ew sw ne nw - se ew sw ns se ew nw - - - ns se nw ns - -\nne ew nw - ns - se ew nw - ne nw ne sw - - se ew nw ns - ne ew sw\nse ew ew ew nw - ns - - se sw - - ns se sw ne sw - ne ew ew sw ns\nns - - se ew ew nw - - ns ne sw se nw ns ns - ne ew ew sw - ns ns\nne ew sw ns - se ew ew ew nw - ne nw - ns ne sw se sw - ne ew nw ns\n- se nw ns - ns se ew sw - - se sw - ne sw ne nw ns - se ew sw ns\n- ns - ne ew nw ns - ne sw se nw ne ew ew nw - se nw - ns - ns ns\nse nw se ew sw - ne sw - ne nw - - - - se ew nw - se nw - ns ns\nne ew nw - ns se sw ne sw - se ew ew sw - ne ew ew ew nw - se nw ns\n- - - se nw ns ns - ne ew nw - se nw se sw - se ew ew ew nw - ns\n- - - ns - ns ne ew ew sw - - ns - ns ne ew nw - - se ew ew nw\n- - - ne ew nw - - - ne ew ew nw - ne ew ew ew ew ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/015.a.htm",
+      "info": ""
+    },
+    "16_14x24": {
+      "problem": "14 24\n6ex - - - - - - - x - - - - - - - - 5sx - - - - - -\n- - - x - x - - - - o - - 4so - 5so - - - - - - - -\n- - - - - - - x - - - - - - - - - - - x - - - -\n- o - - - 3sx - - - - - 3ex - - - 5wo - - - - - - - -\n- - - - - - - - 3wo - - - - - - - - 5wo - - - 5sx - -\n- 2so - 3so - - - 2wo - - - 2sx - x - - - - - - - - - -\n- - - - - - - - - 3sx - - - - - - - 3so - o - - - 4sx\n5nx - - - 2no - o - - - - - - - 3no - - - - - - - - -\n- - - - - - - - - - 3nx - 2nx - - - 0ex - - - 1no - o -\n- - 4nx - - - 4eo - - - - - - - - 1ex - - - - - - - -\n- - - - - - - - 3wo - - - 1sx - - - - - 2ex - - - o -\n- - - - 2nx - - - - - - - - - - - 4no - - - - - - -\n- - - - - - - - 4no - o - - x - - - - 3nx - x - - -\n- - - - - - x - - - - - - - - x - - - - - - - 7wx",
+      "solution": "14 24\n- - - - - - - - - se ew sw se ew ew ew sw - - - - - - -\nse ew sw - - - - - - ns - ne nw - - - ne sw - - - - - -\nns - ne ew sw - - - se nw se ew sw - - - - ns - - - - - -\nns - se ew nw - - se nw - ns - ne ew sw - - ne sw - - - - -\nns - ne ew sw - se nw - se nw - - - ns se sw - ne ew sw - - -\nns - - - ne ew nw - se nw - - - - ns ns ns - - - ne sw - -\nne sw se sw - - - se nw - se ew ew ew nw ns ns - - - - ns - -\n- ns ns ns - - - ns se sw ne ew ew sw - ns ne ew sw - - ne ew sw\n- ne nw ne ew sw - ns ns ns - - - ns se nw - - ns - - - - ns\n- - - se ew nw - ne nw ne ew sw - ns ns - - - ne sw - - - ns\n- - - ne ew sw se sw - se ew nw - ns ne ew ew sw - ne ew sw - ns\n- - - - - ns ns ns - ne ew sw - ne ew sw - ns - - - ns se nw\n- - - - - ne nw ns - - - ne sw - - ne sw ns - - - ns ns -\n- - - - - - - ne ew ew ew ew nw - - - ne nw - - - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/016.a.htm",
+      "info": ""
+    },
+    "17_14x24": {
+      "problem": "14 24\n7sx - - - - - - - - - - - - - - - - - - - - - - -\n- - - 3eo - - x - - 3sx x - - x - - x x - - - 3wo - -\n- - 7eo - - - 2sx - - - - - - 3sx - - - - - - 5wo - - -\n- 12eo - - - - - - - - - - - - - - - - - 2no - - - -\n- - - - 1sx - - - - - - 1so o - - - - x - - - - o -\n- 5eo - - - - x 1nx - - - - - - - - - x - 2ex - - - -\n- - 3so - - - - - - 4eo - - - - 3wo - - - - - 3sx - - -\n- - - 2no - - - - - 2no - - - - 4wo - - - - - - 2nx - -\n- - - - o - x - - - - - - - - - 1nx x - - - - 2nx -\n- x - - - - x - - - - 3no o - - - - - - 3wo - - - -\n- - - - 3no - - - - - - - - - - - - - - - - - o -\n- - - 8eo - - - - - - 4nx - - - - - - 1nx - - - 7wo - -\n- - 4eo - - - x x - - x - - x 4nx - - x - - 3wo - - -\n- - - - - - - - - - - - - - - - - - - - - - - x",
+      "solution": "14 24\n- se ew ew ew sw - - - - - se sw - - - - - - se ew ew sw -\nse nw - - se nw - - - - - ns ns - se sw - - - ns - - ne sw\nns - - - ns - - se sw - - ns ns - ns ne ew ew ew nw - se ew nw\nns - se ew nw - se nw ne sw se nw ne ew nw se ew ew sw - - ne ew sw\nns - ne sw - - ne ew sw ns ns - - - se nw - - ne ew sw - - ns\nns - - ns - - - - ns ne nw - - - ne ew sw - - - ne sw se nw\nns - - ne sw - se ew nw - - - - - - - ne ew ew sw - ne nw -\nns se sw - ne sw ne ew sw - - - - - - se ew ew sw ne sw - - -\nne nw ns - - ns - se nw se sw - - se sw ns - - ns - ns - - -\n- - ns - - ns - ns se nw ns - - ns ne nw - se nw - ne ew ew sw\n- se nw - - ne ew nw ns - ne sw - ns - - - ne ew ew sw - - ns\n- ns - - - se ew ew nw - - ne ew nw - - - - se ew nw - se nw\n- ns - se ew nw - - - - - - - - - - - - ne sw - se nw -\n- ne ew nw - - - - - - - - - - - - - - - ne ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/017.a.htm",
+      "info": ""
+    },
+    "18_20x36": {
+      "problem": "20 36\nx - - - - - - x - - - - - - - - - - - - - - 8ex - - - - - - 3ex - - - - - -\n- - - - - - - - - - - - - 0wx x - - - - - - - 6ex - - - o - - - - 2eo - - - -\n- - - 7so 1wo - - - - - - 3wo - - - 1nx 6ex - - - - - - - - - o - - - - - - 1no - -\n- - - - - 5so 7so - - - - 8so - - - - - 9sx 8ex - - - - - - o - - - - - - - - - x\n- - 1wx - - - - 8so 1no - - - 1wo - - - - - - x x - - - - o - 2ex 1nx - - - - - - -\n- - 1wx - - - - - - 3no 8so - 9eo - - - - - - - - 3nx 5ex - 1so - - - - 2nx 3ex - - - - -\n- - - 5sx - - - - - - - - - 11eo - - - - - - - - - - 6eo - - - - - - 3nx 2ex - - -\n- - - 13ex - - - - - - - - - 2no - - - - - - - - - 4eo - - - - - - - - - x 2nx -\nx - - - 11ex - - - - - - - - - 6eo - - - - - 4ex x - o - - - - - - 2eo - - - - -\n- - - - 3sx - - - - - - - - - 3no - - - 0nx 4nx - - - - - - 2nx - - - 2eo - - - - -\n- - - - - 3wx - - - 0so - - - - - - 8wx 5sx - - - x - - - - - - - - - 3eo - - - -\n- - - - - x - - - - - - 6no - 4wx x - - - - - 7ex - - - - - - - - - o - - - 4nx\n- 2so 2so - - - - - - - - - 2so - - - - - - - - - 4ex - - - - - - - - - 2no - - -\n- - - 2so 2so - - - - - - 12eo - - - - - - - - - - 5ex - - - - - - - - - o - - -\n- - - - - 2so 2so - - - - 3so - 6no 3eo - - - - - - - - 5nx - 1ex 5nx - - - - - - 6no - -\n- - - - - - - 2so 2so - 7eo - - - - o 4no - - - - - - 2ex - - - x x - - - - o - -\n13ex - - - - - - - - - 9eo - - - - - - 2so o - - - - - 3ex - - - - 9nx x - - - - -\n- - 0wo - - - - - - 10eo - - - - - - - - - 8no 2no - - - 3ex - - - - - - x x - - -\n- - - - 2wo - - - - 4wo - - - 11ex - - - - - - - 6no 7eo - - - - - - - - - - - - -\n- - - - - - 2wx - - - - - - x - - - - - - - - - - - - - - x - - - - - - 9nx",
+      "solution": "20 36\n- se ew ew ew ew sw - - se ew ew sw - - se ew ew ew ew ew sw - se ew ew ew ew sw - se ew ew sw - -\n- ns - - - - ns - - ns - - ns - - ne ew ew ew sw - ns - ne ew sw - se nw se nw - - ne ew sw\nse nw - - - - ne ew sw ns - - ns se sw - - - - ns - ne sw - se nw - ne ew nw se sw - - se nw\nns se ew sw - - - - ne nw - - ne nw ns - - - - ne ew sw ne ew nw - se ew ew sw ns ns - se nw -\nne nw - ns - - - - - - - - - se nw - se sw - - - ne ew sw - - ns - - ne nw ns - ne sw -\nse sw - ne ew sw se sw - - - - - ne ew ew nw ns - se sw - - ns - - ne ew sw - - ne ew sw ne sw\nns ne sw - se nw ns ns - se sw se sw - se ew sw ns - ns ne ew ew nw - se ew ew nw se sw - - ne ew nw\nne sw ns - ne ew nw ne ew nw ns ns ns - ne sw ne nw - ne ew ew sw - - ne ew ew sw ns ne sw - - - -\n- ns ne sw - se ew sw se ew nw ns ne sw - ne ew sw - - - - ns - - se ew sw ns ns - ns se sw se sw\n- ne sw ns - ne sw ne nw - se nw se nw - se ew nw - - - - ne sw se nw - ns ns ns - ne nw ne nw ns\nse ew nw ne sw - ne ew sw - ns se nw se ew nw - - se sw - - se nw ne ew sw ns ne nw - - se ew ew nw\nns - - se nw - se sw ne ew nw ns - ns - - se sw ns ns - - ne ew ew sw ns ne ew ew sw - ne sw - -\nns - - ne ew sw ns ns - - se nw - ns - - ns ne nw ne ew sw - se ew nw ns - - se nw - - ns se sw\nne ew sw - - ne nw ns - - ns - - ne ew ew nw se ew ew ew nw - ne ew ew nw - - ns se sw - ne nw ns\n- - ne ew sw - - ne ew ew nw - - - - - - ns se sw - se sw - - - - - - ns ns ne sw - - ns\n- - se sw ne ew sw - - - - se ew ew sw - - ne nw ns se nw ns - - se sw - - ne nw - ns - - ns\n- se nw ne sw se nw se sw - - ne ew sw ne ew sw - - ne nw se nw - - ns ne ew sw - - - ne sw - ns\n- ns - - ne nw se nw ns - se sw se nw se ew nw se sw - - ne ew sw - ns - - ne ew sw - - ns se nw\n- ne ew sw - se nw se nw - ns ns ns - ne ew sw ns ne ew sw - - ne ew nw - se ew sw ne ew ew nw ns -\n- - - ne ew nw - ne ew ew nw ne nw - - - ne nw - - ne ew ew ew ew ew ew nw - ne ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/018.a.htm",
+      "info": ""
+    },
+    "19_20x36": {
+      "problem": "20 36\n9ex - - - - - - - 9sx - - - - - - - 8sx - - - - - - - 3ex - - - - - - - - - 9sx x\n- - - 7so - - - - - - - 3wx - - - - - - - 7wx - - - - - - - - - 7so - - - - - -\n- - - - - - 3wx - - - - - - - 4wo - - - - - - - 2ex - - 4so - - - - - - 7so - - -\n- 1no - - - - - - - 3sx - - - - - - - 5so - - - - - - - - - x - - - - - - - 11wx\n- - - - 2no - - - - - - - 1no - - - - - - - 5wx - - - - - - - - - 5so - - - - -\n- - - - - - - 3sx - - - - - - - 3nx - - - - - - 3eo - - 3ex - - - - - - - 7sx - -\n- - 4nx - - - - - - - 3no - - - - - - - 5wx - - - - - - - - - 3eo - - - - - - -\n- - - - - 3wo - - - - - - - 5wx - - - - - - - - - 2sx - - - - - - - 2ex - - - -\n4sx - - - - - - - 3wo - - - - - - - 5wo - - - - - - - - - 3eo - - - - - - - 5so -\n- - - 5so - - - - - - - 6wx - - - - - - - - - 1sx - - - - - - - 4sx - - - - - -\n- - - - - - 2so - - - - - - - 3nx - - - - - - - - - 6no - - - - - - - 4so - - -\n- 3nx - - - - - - - 8ex - - - - - - - - - 6eo - - - - - - - o - - - - - - - 3nx\n- - - - 7no - - - - - - - x - - - - - - - - - 5wo - - - - - - - 7wx - - - - -\n- - - - - - - 2wx - - - - - - - - - 7ex - - - - - - - 2ex - - - - - - - 6no - -\n- - 5no - - - - - - - 5wx - - 4no - - - - - - 4no - - - - - - - 8nx - - - - - - -\n- - - - - 4no - - - - - - - - - 2sx - - - - - - - 6ex - - - - - - - 3eo - - - -\n10ex - - - - - - - 7ex - - - - - - - - - 4no - - - - - - - 1ex - - - - - - - 2so -\n- - - 11ex - - - - - - 9no - - 2wx - - - - - - - 5nx - - - - - - - 3eo - - - - - -\n- - - - - - 3wx - - - - - - - - - 7wo - - - - - - - 10wx - - - - - - - 14wx - - -\n8nx 12ex - - - - - - - - - 11ex - - - - - - - 6ex - - - - - - - 7nx - - - - - - - 5nx",
+      "solution": "20 36\n- - se ew sw - - - - - - - se ew ew sw - - - - se sw - - - - - - se ew sw - se sw - -\n- se nw - ne sw - se sw - - - ne sw - ne ew ew sw - ns ns - - se ew ew sw ns - ns se nw ne sw -\nse nw se ew sw ns - ns ns - se sw - ns - se sw - ne ew nw ns - - ns - se nw ns se nw ns - - ns -\nns - ns se nw ne ew nw ns - ns ne ew nw - ns ns - - se ew nw - se nw - ns - ns ne ew nw se sw ns -\nns - ns ns - - se ew nw - ns - - - se nw ns se ew nw - se ew nw se ew nw - ns - - - ns ne nw -\nns se nw ne sw - ns - se ew nw - - - ns - ns ns - se ew nw - - ns - - se nw se sw se nw - - -\nne nw - - ns - ns - ns - - se ew ew nw se nw ns - ns - - se ew nw - - ns - ns ne nw se ew sw -\n- se ew ew nw - ns se nw - se nw - - se nw - ne ew nw - - ns - se ew ew nw se nw - - ne sw ne sw\n- ne sw - se ew nw ns - - ns - se ew nw - - - - se ew ew nw - ns - - - ns - se ew ew nw - ns\nse ew nw - ns se ew nw se ew nw - ns se ew sw - - - ns - - se ew nw se ew sw ns - ns - - se sw ns\nne ew ew sw ns ns - - ns - se ew nw ns - ns se ew sw ne sw - ns - - ns se nw ne ew nw - - ns ne nw\n- - - ns ne nw - - ns - ns se ew nw - ns ns - ns - ne ew nw - se nw ns - - se ew ew sw ns - -\nse sw - ns - - se ew nw - ns ns - - - ns ns - ne ew sw - - - ns - ns se ew nw - - ns ne sw -\nns ne ew nw - - ns - - - ne nw se ew ew nw ns - se ew nw se ew ew nw - ns ns - se sw se nw - ns -\nne sw - se sw - ne ew ew sw - se nw - se ew nw - ne sw - ne sw - se ew nw ns - ns ne nw se ew nw -\n- ns - ns ns - - se ew nw se nw se ew nw - - se ew nw se ew nw - ns se ew nw se nw - - ne ew ew sw\n- ns se nw ns se ew nw - se nw se nw - - se ew nw - - ns - se ew nw ns - - ns - - - se sw - ns\nse nw ns - ns ns - - se nw - ns - - - ns - se ew ew nw - ns se ew nw se ew nw - se ew nw ns se nw\nne ew nw - ne nw - - ne sw se nw - se ew nw - ne sw - se ew nw ns - - ne ew ew sw ne sw - ns ns -\n- - - - - - - - - ne nw - - ne ew ew ew ew nw - ne ew ew nw - - - - - ne ew nw - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/019.a.htm",
+      "info": ""
+    },
+    "20_50x50": {
+      "problem": "50 50\n- - x - - - - - - - x - - - - - - - - x - - - 8wx - - 4ex - - - x - - - - - - - - x - - - - - - - x - -\n- - - - - - 4wo - - - - - - - - o - o - - - - - - - - - - - - - - x - 4eo - - - - - - - - x - - - - - -\nx - - - - - - - - - - - - 8wx - - - - - - - - 1nx - - - - 12wo - - - - - - - - 7eo - - - - - - - - - - - - x\n- - - 0wx - - - - - - - 0no - - - - - - 2wx - - - - - - - - - - - - 6wx - - - - - - 9wo - - - - - - - 2nx - - -\n- - - - - - - - - 3wo - - - - 5wx - - - - - - 6wo - - - - - - 3nx - - - - - - 7ex - - - - 5eo - - - - - - - - -\n- - - - - - - 4nx - - - - - - - - - 7wo - - - - - - - - - - - - - - 2no - - - - - - - - - o - - - - - - -\n- 2nx - - - - - - - - - 5wx - - - - - - - - - - - - 5no 5no - - - - - - - - - - - - 1no - - - - - - - - - 9wo -\n- - - - - 1nx - - - - - - - - - - - - - - 11wo - - - - - - - - 5ex - - - - - - - - - - - - - - x - - - - -\n- - - - - - - - 4nx - - - - - - - 7wx - - - - - - x - - 10eo - - - - - - 6no - - - - - - - o - - - - - - - -\n- - - - x - - - - - - - - 4nx - - - - - - - - - - - - - - - - - - - - - - 8ex - - - - - - - - 5no - - - -\nx - - - - - - - - - - - - - - - - - - - - - 7nx - - - - 8wx - - - - - - - - - - - - - - - - - - - - - x\n- - - 1nx - - 5nx - - - - 2nx - - - - - - - 1wx - - - - - - - - - - 6wo - - - - - - - 3eo - - - - o - - x - - -\n- - - - - - - - - - - - - - - - 4wx - - - - - - 7wo - - 6eo - - - - - - 8no - - - - - - - - - - - - - - - -\n- - x - - - - - - 6no - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 5ex - - - - - - 11nx - -\n- - - - x - - - - - - - - - 8wx - - - - - - - - - 10eo 11no - - - - - - - - - 9no - - - - - - - - - 6no - - - -\n- 6no - - - - - - - - - - - - - - - - - - - 8nx - - - - - - 3nx - - - - - - - - - - - - - - - - - - - 6no -\n- - - - - - - - 4wx - - - 13sx - - - o - 4nx - - - - - - - - - - - - 0no - 7eo - - - 9no - - - 5eo - - - - - - - -\n- x - - - 14sx - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 3no - - - x -\n- - - 3nx - - - - - - - - - - - - 3nx - x - - - - 6nx - - 9wo - - - - 10ex - 8so - - - - - - - - - - - - 14sx - - -\nx - - - - - - - - - - 5nx - - - - - - - - - - - - - - - - - - - - - - - - - - 5ex - - - - - - - - - - x\n- - - - - - - 14nx - - - - - - - - - - - - 7nx - - - 13ex 15nx - - - 12ex - - - - - - - - - - - - 4no - - - - - - -\n- - - - 9nx - - - - - - - - - - 5no - - - - - - 6wo - - - - 7no - - - - - - 3eo - - - - - - - - - - 10no - - - -\n- - 10no - - - - - - - 6nx - - - - - - - - - - 8so - - - - - - 8no - - - - - - - - - - 8nx - - - - - - - 15nx - -\n9nx - - - - - - - 11no - - - 2wo - - - - - 13ex - - - - 9nx - - 12ex - - - - 9ex - - - - - 5ex - - - 8no - - - - - - - 13nx\n- - - - - - 14nx - - - - - - - 7no - - - - - 9wx - - - - - - - - 4nx - - - - - 5sx - - - - - - - 1ex - - - - - -\n- - - - - - 4wx - - - - - - - 10wo - - - - - 14ex - - - - - - - - 9sx - - - - - 8ex - - - - - - - 13sx - - - - - -\n10sx - - - - - - - 4so - - - 11no - - - - - o - - - - 13sx - - 14ex - - - - 2nx - - - - - 8sx - - - 6ex - - - - - - - 9sx\n- - 8sx - - - - - - - 8so - - - - - - - - - - o - - - - - - 12so - - - - - - - - - - 6eo - - - - - - - 8so - -\n- - - - 13nx - - - - - - - - - - 7wo - - - - - - 10wo - - - - 9eo - - - - - - 3nx - - - - - - - - - - 6sx - - - -\n- - - - - - - 4sx - - - - - - - - - - - - 11so - - - 7wx 5ex - - - 3ex - - - - - - - - - - - - 12so - - - - - - -\nx - - - - - - - - - - 6so - - - - - - - - - - - - - - - - - - - - - - - - - - 4ex - - - - - - - - - - x\n- - - 5nx - - - - - - - - - - - - 14nx - 5wx - - - - 11so - - 11so - - - - 9wx - 9ex - - - - - - - - - - - - 8so - - -\n- 14eo - - - 5so - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 11sx - - - o -\n- - - - - - - - 6wo - - - 6so - - - 8wo - 10sx - - - - - - - - - - - - 9sx - 4so - - - 8so - - - 2so - - - - - - - -\n- 1sx - - - - - - - - - - - - - - - - - - - 3so - - - - - - 10sx - - - - - - - - - - - - - - - - - - - 5sx -\n- - - - x - - - - - - - - - 7wo - - - - - - - - - 6sx 7sx - - - - - - - - - 2eo - - - - - - - - - 3sx - - - -\n- - 2so - - - - - - 4wo - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 2so - - - - - - x - -\n- - - - - - - - - - - - - - - - 0wo - - - - - - 3wo - - 8eo - - - - - - 7ex - - - - - - - - - - - - - - - -\n- - - 1so - - 3wo - - - - 3so - - - - - - - 7sx - - - - - - - - - - 0sx - - - - - - - 1eo - - - - 7so - - 4so - - -\nx - - - - - - - - - - - - - - - - - - - - - 15wx - - - - 12eo - - - - - - - - - - - - - - - - - - - - - x\n- - - - 3so - - - - - - - - 4sx - - - - - - - - - - - - - - - - - - - - - - 7eo - - - - - - - - 1sx - - - -\n- - - - - - - - 3sx - - - - - - - 10wo - - - - - - 5so - - 5so - - - - - - 2so - - - - - - - 5eo - - - - - - - -\n- - - - - 20eo - - - - - - - - - - - - - - 11eo - - - - - - - - 3sx - - - - - - - - - - - - - - 4so - - - - -\n- x - - - - - - - - - 17eo - - - - - - - - - - - - 0so 15eo - - - - - - - - - - - - 5eo - - - - - - - - - 1sx -\n- - - - - - - 6wo - - - - - - - - - 2so - - - - - - - - - - - - - - 2so - - - - - - - - - x - - - - - - -\n- - - - - - - - - 4wo - - - - o - - - - - - 11wo - - - - - - 11ex - - - - - - 2so - - - - 4eo - - - - - - - - -\n- - - 2wo - - - - - - - 7wo - - - - - - o - - - - - - - - - - - - o - - - - - - 7ex - - - - - - - 1sx - - -\nx - - - - - - - - - - - - x - - - - - - - - 5wx - - - - o - - - - - - - - x - - - - - - - - - - - - x\n- - - - - - 4wx - - - - - - - - 4wo - x - - - - - - - - - - - - - - 8wo - x - - - - - - - - o - - - - - -\n- - x - - - - - - - x - - - - - - - - x - - - 5wx - - 7ex - - - x - - - - - - - - x - - - - - - - x - -",
+      "solution": "50 50\n- - - - - se ew sw - - - - - - se ew ew ew sw - se ew sw - se sw - se sw - - - - se ew sw - - - - - - - - - se sw - - -\n- se ew ew ew nw - ns se sw - - - - ns - - - ns - ns se nw - ns ns se nw ns - - - - ns - ne ew sw - - - - - - se nw ns se sw -\n- ne ew ew ew ew sw ns ns ne ew ew sw - ne ew sw se nw se nw ns - - ns ns ns - ns - - - se nw - - - ne ew sw se ew ew ew nw se nw ns ns -\n- - - - se ew nw ns ns - - - ns - - - ns ns - ne sw ne sw - ns ns ns se nw se sw - ns se ew ew sw - - ne nw se ew ew ew nw - ns ne sw\n- se ew sw ns - se nw ns - se sw ne sw - - ns ne sw - ns - ns - ns ns ns ns - ns ne ew nw ns - - ne ew sw - - ne ew ew ew ew sw ns - ns\n- ne sw ne nw - ns - ne ew nw ne sw ns se ew nw - ne sw ne sw ns se nw ne nw ns - ne sw - - ns se sw - se nw se ew sw - se ew sw ns ns - ns\n- - ns - se ew nw se ew ew sw - ns ns ns - - - - ne ew nw ns ns - - - ns - - ns - - ns ns ns - ns - ns - ne ew nw - ns ns ns - ns\nse ew nw - ns - - ne ew sw ne ew nw ns ne ew ew ew ew sw - - ns ne ew sw - ns - - ns - - ne nw ns - ne ew nw se ew sw - - ns ns ns - ns\nns - se ew nw - se sw - ns se ew ew nw se sw - se ew nw - - ns - - ns - ne ew sw ne ew sw - - ns - se ew ew nw - ne ew ew nw ns ns - ns\nne sw ns - - - ns ne sw ns ne sw - - ns ne ew nw se ew sw se nw - - ns se ew ew nw - - ne sw - ns - ne ew ew ew ew ew ew sw - ns ns se nw\n- ns ns - se sw ne sw ns ns se nw se ew nw se ew ew nw - ns ns - - - ns ns - - se ew ew sw ns - ns - se ew sw se sw se ew nw se nw ns ns -\nse nw ns - ns ns - ns ns ns ns - ns - - ns - - - - ns ns se ew sw ns ne ew ew nw - - ne nw - ns - ns - ne nw ns ns - se nw - ns ne sw\nns se nw se nw ne sw ns ne nw ns - ns - - ns - se ew ew nw ns ns - ns ns - - - - - - - - - ns - ns se ew ew nw ne ew nw - - ne sw ns\nns ns - ne ew sw ns ns - - ne ew nw se ew nw - ns - - - ns ne sw ne nw - - - - - - - - - ne sw ns ne sw - se ew ew ew ew sw - ns ns\nns ne ew sw - ns ns ne ew ew ew ew ew nw - se ew nw - se ew nw - ns - - se ew ew ew ew ew ew sw - - ns ns - ns - ne ew sw - - ns se nw ns\nns - - ne ew nw ne sw - se ew sw - se ew nw - se ew nw - - - ns se sw ns - - - se ew ew nw - - ne nw se nw se ew sw ne ew sw ne nw - ns\nne ew sw - se ew sw ns - ns - ns - ns - - - ns - - - - - ns ns ns ne ew sw - ns - - - - - - - ne ew nw - ne ew ew nw - se ew nw\n- - ne ew nw - ns ns se nw - ns se nw se ew ew nw - - - - - ne nw ns - - ns - ne ew sw - - - - - - - se sw - - - se ew nw - -\n- se sw - se ew nw ns ns se ew nw ns se nw - - - - se ew ew sw - - ns - - ns - - - ns - se ew ew ew ew ew nw ne ew ew sw ns - se sw -\n- ns ns - ns - se nw ns ns - - ns ne ew ew sw - - ne ew sw ne sw - ne ew sw ns - - - ne ew nw - - - - se ew ew ew ew nw ns - ns ns -\nse nw ns - ne sw ns - ns ne ew ew nw - - - ns - - - - ns - ns - - se nw ns - se ew ew ew ew ew ew ew sw ns se sw - - - ne ew nw ne sw\nns - ne sw - ns ns se nw se ew ew sw - - - ns - - - se nw - ns se ew nw - ne ew nw se ew sw - - - - ns ne nw ns - - - - se ew sw ns\nne sw - ns se nw ns ns - ns - se nw - - - ns - - - ns - se nw ns se ew sw - - se nw se nw - - se ew nw - se nw - - - - ns - ne nw\n- ns se nw ns se nw ns - ns - ns - - - - ns - - - ne sw ns - ns ns - ne ew ew nw - ne ew ew ew nw - se ew nw - se ew ew sw ns - - -\nse nw ne ew nw ns - ne ew nw - ne ew sw - - ns se ew sw - ns ne ew nw ne ew ew sw - - se ew sw - - se ew nw - - - ns - se nw ns - - -\nne ew ew ew sw ns - se ew ew ew ew ew nw - - ns ns - ns - ns se ew sw se ew ew nw - - ne sw ns - - ne ew ew ew ew ew nw - ne ew nw - - -\n- - - - ns ne sw ns - - - - - - - - ns ns - ne ew nw ns - ns ns - se ew ew sw - ns ne ew ew sw - se ew sw - se ew ew ew ew ew sw -\nse sw - - ne sw ns ns - - - - - - - - ns ne ew ew sw - ne sw ns ne ew nw - - ne ew nw se ew sw ne ew nw - ne ew nw se ew ew sw - ne sw\nns ne sw - - ns ns ne ew ew sw se ew ew sw - ns se ew ew nw - - ns ne ew sw - se ew ew ew ew nw - ns se ew ew sw - - - ns - - ns se sw ns\nne sw ns - - ns ns - - - ns ne sw se nw - ns ne ew sw - se ew nw - - ne ew nw - - - - - - ns ns - - ns - - - ne sw se nw ns ne nw\n- ns ns - - ns ne sw - - ns - ns ns - se nw - - ne sw ns se ew sw se ew sw - - - - - - - ne nw - - ne ew sw se ew nw ns - ns - -\nse nw ns - se nw - ns - - ne sw ns ne ew nw - - - - ns ne nw - ns ns - ne ew ew sw - - - se ew ew ew ew ew ew nw ns - - ns - ne ew sw\nns - ne ew nw - - ne ew ew sw ns ne sw - se ew sw - - ns - - se nw ne sw - se sw ns - se ew nw - - - - - - - ns - - ne sw - - ns\nne ew sw se ew ew ew sw - - ns ns - ne ew nw - ns - - ns - - ns - - ns se nw ns ns - ns - - - - - - - - - ns se sw - ns se ew nw\n- - ns ns - - - ne ew ew nw ne ew sw - - - ne sw - ns - - ns - - ns ns - ns ns se nw se sw - se sw - - - - ns ns ns - ns ns - -\nse ew nw ns - - - - se ew ew ew ew nw - - - - ns - ns - - ns - - ns ne sw ns ns ns - ns ns - ns ns - - - - ns ns ns - ne nw se sw\nns - - ne sw se ew ew nw - - - - - - - - - ns se nw - - ne sw se nw - ns ns ns ns se nw ns - ns ns - - - se nw ns ne ew sw - ns ns\nns - - - ns ns - - - - - - - - - - - - ns ne ew ew sw - ns ns - - ns ne nw ns ns - ne ew nw ns - - se nw se nw se sw ne ew nw ns\nne ew sw - ne nw - - - - - - - - - - - - ns - - - ne sw ns ne sw - ns - - ne nw - - - se nw - - ns - ns - ns ns - - se nw\n- - ne sw - se ew ew ew ew sw se ew ew ew ew ew ew nw se ew sw - ns ns - ns - ns se ew ew ew ew ew ew nw se ew ew nw - ne sw ns ne sw - ns -\nse ew ew nw - ns - - - se nw ne sw - - se ew ew sw ns se nw se nw ns se nw - ns ne ew sw - - - - - ne ew ew ew ew sw ns ns - ne ew nw -\nne ew ew ew sw ne sw - - ne ew ew nw se ew nw - - ns ns ne ew nw - ns ns - - ns - - ns - - - - se sw - - - - ns ns ne ew ew ew ew sw\n- - - - ns - ne ew sw se ew ew sw ns se ew ew ew nw ns - - se sw ne nw se ew nw - - ne ew ew ew ew nw ns - - - - ns ns - - - se ew nw\n- - - - ne ew sw - ns ns - - ns ns ns - se ew sw ns - - ns ns - - ne ew sw se ew ew ew ew ew ew ew nw - se ew ew nw ns se ew sw ns - -\nse ew ew ew ew ew nw - ne nw se ew nw ns ne ew nw - ns ne sw - ns ns - se sw se nw ne ew sw - - - - - - - ne ew sw - ns ns - ns ne sw -\nns - - - se ew ew ew sw - ne ew ew nw - se ew sw ne ew nw - ns ns - ns ns ns - se ew nw se ew sw - se ew ew sw - ne ew nw ns - ne sw ne sw\nne ew sw - ne ew ew sw ne ew sw - se ew sw ne sw ns - se sw se nw ns - ns ns ne sw ns - - ns - ns se nw - - ne ew ew ew sw ne sw - ne ew nw\n- se nw - - se ew nw - - ne sw ns - ns - ns ne sw ns ns ns - ne ew nw ns - ns ne ew sw ne sw ne nw - se ew ew ew ew ew nw - ne sw - - -\n- ne ew ew ew nw - - - - - ns ns - ns - ns - ne nw ns ne sw - - - ne ew nw - - ns - ns - se ew nw se ew ew ew sw - se ew nw - - -\n- - - - - - - - - - - ne nw - ne ew nw - - - ne ew nw - - - - - - - - ne ew nw - ne ew ew nw - - - ne ew nw - - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/020.a.htm",
+      "info": ""
+    },
+    "21_8x8": {
+      "problem": "8 8\n- - - - - - - 5wx\n- - - - - - 3wx -\n- - - 1wo - - - -\n- - 1wo - - - - -\n- - - - - 1wx - -\n- - - - 2wx - - -\n- 0ex - - - - - -\n3ex - - - - - - -",
+      "solution": "8 8\nse ew ew ew ew sw - -\nne ew sw - se nw - -\n- se nw - ne ew ew sw\nse nw - - se ew sw ns\nns - - se nw - ns ns\nne ew sw ns - se nw ns\n- - ns ns - ns - ns\n- - ne nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/021.a.htm",
+      "info": ""
+    },
+    "22_9x9": {
+      "problem": "9 9\n- - - - - - - - -\n- 2eo - - - 1eo 2so - -\n- - 3eo - - - - - -\n- - - - - - - 4wo -\n- - - - 2eo - - - -\n- 5eo - - - - - - -\n- - - - - - 2wo - -\n- - 3no 1wo - - - 1wo -\n- - - - - - - - -",
+      "solution": "9 9\nse ew sw - se ew ew ew sw\nns - ne sw ns - - se nw\nne sw - ns ne ew sw ne sw\n- ne sw ne ew ew nw - ns\nse ew nw - - - se ew nw\nns - se ew ew sw ne ew sw\nns - ne ew sw ns - - ns\nne sw - - ns ns - - ns\n- ne ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/022.a.htm",
+      "info": ""
+    },
+    "23_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - - - 6wx -\n- - - 1no 0wo - - - - -\n- - - - - - 1wx - - -\n- x x - - - - - 1no -\n- 1sx - - - - - o o -\n- - - 1eo - - - - - -\n- - - - - 0ex 1sx - - -\n- 6eo - - - - - - - -\n- - - - - - - - - -",
+      "solution": "10 10\nse ew ew sw - - - - - -\nne ew sw ne ew ew ew sw - -\n- - ns - - se ew nw se sw\n- - ne sw - ns - se nw ns\n- - - ns - ne ew nw - ns\n- - se nw se ew sw - - ns\n- se nw - ns - ne sw - ns\nse nw se ew nw - - ns - ns\nns - ne ew ew ew sw ne ew nw\nne ew ew ew ew ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/023.a.htm",
+      "info": ""
+    },
+    "24_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - - - - -\n- - 1sx - x - - x - -\n- - - - - - - - - -\n- - x - 0sx - - 2wx - -\n- - x - - x - 1wx - -\n- - - - - - - - - -\n- - o - - x - 1wx - -\n- - - - - - - - - -\n- - - - - - - - - -",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se ew ew ew sw se ew sw ns\nns ns - - - ns ns - ns ns\nns ns - - - ns ns - ns ns\nne nw - - - ne nw - ns ns\nse sw - - - - - - ns ns\nns ne ew sw - - - - ns ns\nne sw - ns - - - - ns ns\n- ne sw ne ew ew ew ew nw ns\n- - ne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/024.a.htm",
+      "info": ""
+    },
+    "25_10x10": {
+      "problem": "10 10\n4ex - - - - - - - - 5sx\n- - - - - - - - - -\n- - - - 2wx 2ex - - - -\n- - - - 2wx 2ex - - - -\n- - 1nx 3nx x x 2nx 2nx - -\n- - 0sx 2sx x x 1sx 1sx - -\n- - - - 2wx 1ex - - - -\n- - - - 0sx 0sx - - - -\n- - - - - - - - - -\n5nx - - - - - - - - 5nx",
+      "solution": "10 10\n- se ew sw - se ew sw - -\n- ne sw ns - ne sw ns - -\nse ew nw ns - - ns ne ew sw\nns se ew nw - - ne ew sw ns\nns ns - - - - - - ns ns\nns ns - - - - - - ns ns\nns ne ew sw - - - se nw ns\nne sw - ns - - se nw se nw\n- ns - ne ew ew nw - ns -\n- ne ew ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/025.a.htm",
+      "info": ""
+    },
+    "26_10x10": {
+      "problem": "10 10\n4ex - - - - - - - - 5sx\n- - - - - - - - - -\n- - - - 2wo 2eo - - - -\n- - - - 2wo 2eo - - - -\n- - 1no 3no o o 2no 2no - -\n- - 0so 2so o o 1so 1so - -\n- - - - 2wo 1eo - - - -\n- - - - 0so 0so - - - -\n- - - - - - - - - -\n5nx - - - - - - - - 5nx",
+      "solution": "10 10\n- - - se ew ew ew sw - -\n- - - ns - - se nw - -\nse ew sw ns - - ns se ew sw\nne sw ne nw - - ne nw se nw\nse nw - - - - - - ne sw\nns - - - - - - - - ns\nns se ew sw - - - se sw ns\nns ns - ns - - se nw ns ns\nne nw - ne ew ew nw - ne nw\n- - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/026.a.htm",
+      "info": ""
+    },
+    "27_11x11": {
+      "problem": "11 11\n- - - - - - - - - - -\n- - - - 0wo - 2eo - - - -\n- - 1eo - - - - - 1wx - -\n- - - - - - - - - - -\n- - 2ex - - x - - 2wo - -\n- - - - - - - - - - -\n- - 3eo - - o - - 3wx - -\n- - - - - - - - - - -\n- - 4ex - - - - - 4wo - -\n- - - - 3nx - 3eo - - - -\n- - - - - - - - - - -",
+      "solution": "11 11\nse ew ew ew ew ew ew ew ew sw -\nns - - - - - - se ew nw -\nns - - - se sw - ns - - -\nns se ew sw ns ne sw ne ew sw -\nne nw - ne nw - ns - - ne sw\n- se ew sw se ew nw se ew sw ns\nse nw - ne nw - se nw - ne nw\nns se ew sw - - ns se ew sw -\nne nw - ne ew sw ne nw - ne sw\n- - - - - ns - se ew ew nw\n- - - - - ne ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/027.a.htm",
+      "info": ""
+    },
+    "28_10x10": {
+      "problem": "10 10\nx - - - 5sx x - - - x\n- - - - - - - - - -\n- - x - - - - 1wx - -\n- - - x - - x - - -\nx - - - - - - - - 6wx\n4ex - - - - - - - - x\n- - - x - - x - - -\n- - 2ex - - - - x - -\n- - - - - - - - - -\nx - - - x 4nx - - - x",
+      "solution": "10 10\n- - - - - - - - - -\n- - - - se ew sw - - -\n- - - - ns se nw - - -\n- - - - ns ns - - - -\n- se ew ew nw ne ew ew sw -\n- ns se ew sw se ew sw ns -\n- ne nw - ns ns - ne nw -\n- - - se nw ne sw - - -\n- - - ne ew ew nw - - -\n- - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/028.a.htm",
+      "info": ""
+    },
+    "29_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - 2sx - - - -\n- - 1ex - - - - - - -\n- - - - - - - - 2so -\n- 2so - 1sx - - - - - -\n- - - - - - 1no - 1nx -\n- 5ex - - - - - - - -\n- - - - - - - 1so - -\n- - - - 3no - - - - -\n- - - - - - - - - -",
+      "solution": "10 10\nse ew ew ew sw - se ew sw -\nns se ew sw ns - ne sw ne sw\nns ns - ns ne sw - ns - ns\nns ne sw ne sw ne ew nw - ns\nns - ns - ne sw - se ew nw\nne ew nw se ew nw - ns - -\n- - - ne ew ew sw ne ew sw\n- se ew ew ew ew nw - se nw\n- ns - - - - se sw ns -\n- ne ew ew ew ew nw ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/029.a.htm",
+      "info": ""
+    },
+    "30_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- 3so - - - - 2ex - - -\n- - - 2wx - - - - - -\n- - - - - 2eo - - - -\n- - 4ex - - - - - - -\n- - - - - - - 3wo - -\n- - - - 3ex - - - - -\n- - - - - - 1wo - - -\n- - - 2no - - - - 4wx -\n- - - - - - - - - -",
+      "solution": "10 10\nse ew ew ew ew sw - - - -\nns - se ew sw ns - se ew sw\nne ew nw - ns ne ew nw se nw\nse sw - - ns - se ew nw -\nns ns - se nw - ne ew ew sw\nns ns - ne ew ew sw - - ns\nns ne ew sw - se nw se ew nw\nns - - ne sw ns - ns - -\nne ew sw - ne nw se nw - -\n- - ne ew ew ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/030.a.htm",
+      "info": ""
+    },
+    "31_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- x 2sx - x 2sx - o o -\n- x - - - - - - 1wo -\n- - - - - - - - - -\n- 4eo - - - - - - x -\n- o - - - - - - 2wx -\n- - - - - - - - - -\n- 4ex - - - - - - o -\n- x x - 2no o - 3no o -\n- - - - - - - - - -",
+      "solution": "10 10\n- - - - - - se ew ew sw\n- - - - - - ns - - ns\n- - - - - se nw - - ns\nse ew sw - - ne sw se ew nw\nns - ne ew ew ew nw ns - -\nns - - - se sw se nw - -\nne ew sw - ns ne nw se ew sw\n- - ne sw ne ew ew nw - ns\n- - - ns - - - - - ns\n- - - ne ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/031.a.htm",
+      "info": ""
+    },
+    "32_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - - - - -\n- - 2sx - 3so - - x - -\n- - - - - - - - - -\n- - - - x - - 1wo - -\n- - 2eo - - 3nx - - - -\n- - - - - - - - - -\n- - x - - o - 2nx - -\n- - - - - - - - - -\n- - - - - - - - - -",
+      "solution": "10 10\nse ew ew ew ew sw - se ew sw\nns se ew sw - ns - ne sw ns\nns ns - ns - ns - - ns ns\nns ne sw ne ew nw se ew nw ns\nns - ne sw - - ns - - ns\nns - - ne sw - ne sw - ns\nns se ew sw ne ew sw ne sw ns\nns ns - ne sw - ns - ns ns\nns ne sw - ns - ne ew nw ns\nne ew nw - ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/032.a.htm",
+      "info": ""
+    },
+    "33_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- 1sx - o - 1eo - - 1sx -\n- 1ex - - - - - - - -\n- - - - - - 1wx 1nx - -\n- - 1wx - - - - - - -\n- - - - - - - 1eo - -\n- - 1so 1eo - - - - - -\n- - - - - - - - 1wo -\n- 1eo - - x - x - 1no -\n- - - - - - - - - -",
+      "solution": "10 10\n- - se ew ew ew ew sw - -\n- - ns - - - se nw - -\n- - ns - - se nw - - -\n- - ne sw - ns - - - -\nse sw - ns - ne ew ew sw -\nns ne ew nw se ew sw - ne sw\nns - - - ns - ne sw - ns\nns - - se nw - - ns - ns\nns - se nw - - - ns - ns\nne ew nw - - - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/033.a.htm",
+      "info": ""
+    },
+    "34_10x10": {
+      "problem": "10 10\n- - 2ex 1sx - - - - - 4sx\n- - - - - - - - - 4wx\n- - - - 5sx - - - - -\n- - - - - - - - - -\n- - 3so - - - - - - -\n- - - - - - - 3wx - -\n- - - - - - - - - -\n- - - - - 3wo - - - -\n3ex - - - - - - - - -\n3nx - - - - - 6nx 3nx - -",
+      "solution": "10 10\n- - - - - - se ew sw -\nse ew ew sw - - ns se nw -\nne sw se nw - - ns ns - -\n- ns ne ew sw - ns ne ew sw\nse nw - - ns - ne ew sw ns\nne ew sw - ns se sw - ns ns\nse ew nw - ne nw ns se nw ns\nne sw se ew sw - ne nw se nw\n- ns ns - ns se ew ew nw -\n- ne nw - ne nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/034.a.htm",
+      "info": ""
+    },
+    "35_11x11": {
+      "problem": "11 11\n- - 1ex - - - - - - - 1wx\n- - - - - 1wx - - 1ex - -\n- - - - - - - - - - -\n- 1so - - - - - - - - -\n- - - 1sx - - - - 1wo 1no -\n- - - - - 1ex - - - - -\n- 1no 1no - - - - x - - -\n- - - - - - - - - 1wx -\n- - - - - - - - - - -\n- - 1ex - - x - - - - -\n1ex - - - - - - - 1nx - -",
+      "solution": "11 11\n- - - - - - se sw - - -\n- - - se sw - ns ns - se sw\nse ew ew nw ne ew nw ne ew nw ns\nns - se ew ew ew ew sw - - ns\nns se nw - - - - ns - - ns\nns ne ew ew sw - - ne sw - ns\nns - - - ne ew sw - ne ew nw\nns - - - - - ne sw - - -\nne ew ew sw se ew sw ns - - -\n- - - ne nw - ns ns - - -\n- - - - - - ne nw - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/035.a.htm",
+      "info": ""
+    },
+    "36_11x11": {
+      "problem": "11 11\n- - - 1ex - - - 2wx - - -\n- - - - - - - - - - -\n- - - - - 1wo - - - - -\n2sx - - 2so - - - 1wx - - 2sx\n- - - - - - - - - - -\n- - 2nx - - 1ex - - 1wo - -\n- - - - - - - - - - -\n1nx - - 1wx - - - 2wx - - 3nx\n- - - - - 2no - - - - -\n- - - - - - - - - - -\n- - - 1ex - - - 1wx - - -",
+      "solution": "11 11\nse ew sw - - - - - se sw -\nne sw ns se ew ew ew ew nw ne sw\n- ns ne nw - - se ew sw se nw\n- ns - - - se nw - ns ns -\n- ne ew sw se nw se ew nw ne sw\n- - - ns ns - ne sw - - ns\n- - - ne nw se sw ne sw se nw\n- se sw - se nw ns - ns ns -\nse nw ne ew nw - ne ew nw ns -\nns se ew ew ew ew ew ew sw ns -\nne nw - - - - - - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/036.a.htm",
+      "info": ""
+    },
+    "37_12x12": {
+      "problem": "12 12\nx x 3sx 5sx 9sx x 2sx x x 8sx 2sx x\nx - - - - - - - - - - -\nx - - - - - - - - - - -\n1ex - - - - - - - - - - -\n6ex - - - - - - - - - - -\n2ex - - - - - - - - - - -\n0ex - - - - - - - - - - -\nx - - - - - - - - - - -\n9ex - - - - - - - - - - -\nx - - - - - - - - - - -\n1ex - - - - - - - - - - -\n5ex - - - - - - - - - - -",
+      "solution": "12 12\n- - - - - - - - - - - -\n- - - se sw - - - - se ew sw\n- se sw ns ns - - - - ns se nw\n- ns ne nw ns - - - - ns ns -\n- ne ew sw ns se ew ew sw ns ne sw\n- se sw ns ns ne sw - ns ns - ns\n- ns ns ns ns - ns - ns ns - ns\n- ns ne nw ne ew nw - ne nw - ns\n- ne ew ew sw se ew ew ew ew ew nw\n- - - - ns ne ew sw se sw - -\n- - - - ns - - ne nw ns - -\n- - - - ne ew ew ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/037.a.htm",
+      "info": ""
+    },
+    "38_13x13": {
+      "problem": "13 13\n- - - - - - - - - - - - -\n- 1so - - - - - - - 3so 6so - -\n- - 4eo - - - - - - - - - -\n- - - - - - - 5wx 7sx - - - -\n- - - - - - - - - - - - -\n7ex - - - - - - - - - - - -\n- - - - - 2nx - - - - - - -\n- - 3so 5no - - - - - - - - -\n- - - 7eo - - - - - - - - -\n- - - - - - - - - - - - -\n- - - - - 3wo - - - - - - -\n- - - - - - 0wo - - - - 6no -\n- - - - - - - - - - - - -",
+      "solution": "13 13\nse ew ew sw - se ew ew ew ew ew sw -\nns - - ns - ns se ew sw - - ns -\nns - - ne ew nw ns - ne ew sw ns -\nne ew ew sw se ew nw - - - ns ns -\n- - - ns ne ew ew sw se sw ne nw -\n- se sw ns se ew ew nw ns ne ew ew sw\nse nw ne nw ns - - - ns se sw se nw\nns - - - ns - - - ns ns ne nw -\nne ew sw - ne ew ew ew nw ne ew ew sw\nse ew nw - - - - - se ew sw se nw\nne ew sw se sw - - - ns - ns ne sw\n- - ns ns ns - - - ns - ns - ns\n- - ne nw ne ew ew ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/038.a.htm",
+      "info": ""
+    },
+    "39_10x15": {
+      "problem": "10 15\n9ex - - - - - - - - - - - - - 6sx\n- - - - - - - - - - - - - - -\n- - - o 0no o - - - x 2wx x - - -\n- - - 0no o 1wo - - - 1sx x 0ex - - -\n- - - - 2wo - - - - - 1ex - - - -\n- - 1so 1so o o 3no - 1nx x x 1sx 0wx - -\n- - - - o - - - - - x - - - -\n- - - - o - - - - - x - - - -\n- - - 4eo - o - - - x - 3wx - - -\n5nx - - - - - - - - - - - - - 5wx",
+      "solution": "10 15\n- se sw - - se ew ew ew ew ew ew ew sw -\nse nw ne ew ew nw se sw se ew ew ew sw ns -\nns se sw - - - ns ne nw - - - ns ne sw\nne nw ns - - - ns - - - - - ns - ns\nse ew nw - - - ne sw - - - - ne sw ns\nns - - - - - - ns - - - - - ns ns\nns se ew sw - - - ne ew sw - se ew nw ns\nne nw se nw - - - - se nw - ne sw - ns\n- se nw - - - se ew nw - - - ne ew nw\n- ne ew ew ew ew nw - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/039.a.htm",
+      "info": ""
+    },
+    "40_17x17": {
+      "problem": "17 17\n- - 4ex - - - - - - - - - 5sx - - - -\n- - - - - - - - - 2so - - - - - - -\n- - - - - - 8sx - - - - - - - - - 4wx\n- - - 5eo - - - - - - - - - 6wo - - -\n3ex - - - - - - - - - 3sx - - - - - -\n- - - - - - - 7so - - - - - - - - -\n- - - - 7ex - - - - - - - - - 7wx - -\n- 3no - - - - - - - - - 2wo - - - - -\n- - - - - - - - 3wx - - - - - - - -\n- - - - - 7no - - - - - - - - - 7no -\n- - 7nx - - - - - - - - - 5nx - - - -\n- - - - - - - - - 3wo - - - - - - -\n- - - - - - 4wx - - - - - - - - - 4nx\n- - - 2no - - - - - - - - - 6no - - -\n7nx - - - - - - - - - 6wx - - - - - -\n- - - - - - - 5eo - - - - - - - - -\n- - - - 4ex - - - - - - - - - 9nx - -",
+      "solution": "17 17\n- - - - se sw - - se ew sw - - - se sw -\n- - se ew nw ns - - ns - ns - se sw ns ns -\n- - ns - - ns - se nw - ne ew nw ne nw ns -\n- se nw - - ns se nw se ew ew ew sw - - ns -\n- ns se ew sw ns ns - ns - - - ns se sw ns -\n- ns ns - ne nw ns - ne sw - - ne nw ne nw -\nse nw ns - - se nw se sw ne ew ew ew sw - se sw\nns - ns - - ns - ns ne ew sw - se nw - ns ns\nns - ns se ew nw se nw - - ns - ns - se nw ns\nns se nw ne sw - ns se ew ew nw se nw se nw - ns\nns ns - se nw - ns ns - - - ns - ns se ew nw\nns ns - ne ew ew nw ns - - - ns - ns ns - -\nns ne ew ew ew sw - ns - - - ne ew nw ns - -\nne sw - - - ne sw ns - se ew sw - - ns - -\n- ne ew ew ew sw ne nw se nw - ns - - ns - -\n- - - - - ne sw - ne ew sw ne ew ew nw - -\n- - - - - - ne ew ew ew nw - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/040.a.htm",
+      "info": ""
+    },
+    "41_10x10": {
+      "problem": "10 10\n4ex - - - - 2sx - - - -\n- - 1wo - - - - - - -\n- 3so - - - - 3wo - - -\n- - - - x - - 2no - -\n3ex - - - 1sx x - - - 3nx\n- - 0so - - - 3wx - - -\n- - - - 3wo - - - - -\n3ex - - - - 0so - - 3no -\n- - 2no - - - - 4no - -\n- - - - - 2ex - - - 6nx",
+      "solution": "10 10\n- se ew sw - - se sw se sw\nse nw - ne ew ew nw ns ns ns\nns - se ew ew sw - ne nw ns\nne sw ns - - ne sw - se nw\n- ns ne sw - - ne ew nw -\nse nw - ne ew sw - se ew sw\nne ew ew sw - ne sw ns - ns\n- se ew nw - - ne nw - ns\nse nw - - se ew sw - se nw\nne ew ew ew nw - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/041.a.htm",
+      "info": ""
+    },
+    "42_10x10": {
+      "problem": "10 10\n3sx - - - - - 0ex - - 4wx\n- - - 1wo - - - - - -\n- - - - 5so - - 1wo - 3sx\n2sx - - - - - - - - -\n- - - 0ex - - 0ex - - x\n- - - - - - - - - x\nx - x - - 0wo - - - -\n3ex - - - - - - - 5no -\n- - 1wo - - - 3nx - - -\n- - - - - - - 5wx - -",
+      "solution": "10 10\n- se ew ew ew sw - - - -\nse nw - - - ns se ew sw -\nne sw - - - ns ns - ns -\n- ns se ew sw ns ne sw ns -\nse nw ns - ns ns - ns ns -\nne ew nw - ns ne ew nw ns -\n- - - - ns - se sw ne sw\n- se ew sw ns se nw ns - ns\nse nw - ne nw ns - ne sw ns\nne ew ew ew ew nw - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/042.a.htm",
+      "info": ""
+    },
+    "43_10x10": {
+      "problem": "10 10\n- - - 1wx - 1ex - - - 5sx\n- - - - - - - - - -\n- 1no - - 1wo o - 1no - -\n- - - - - - - - 7wo -\n- - 3ex - 2sx - - - - -\n- 5ex - - - - - - - 5wx\n3nx - - - - 1so - 2wx - -\n- - 1wo - - - - - - -\n- - - - - - 2no - - -\n- 5ex - - - - - - - 5wx",
+      "solution": "10 10\nse sw - - - - - se sw -\nns ne sw se ew ew ew nw ne sw\nns - ne nw - - - - - ns\nne ew ew ew ew ew ew sw - ns\n- - - - - se ew nw se nw\n- - se ew ew nw se ew nw -\n- se nw se sw - ns - se sw\nse nw - ns ne sw ne ew nw ns\nne ew sw ns se nw - - se nw\n- - ne nw ne ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/043.a.htm",
+      "info": ""
+    },
+    "44_10x10": {
+      "problem": "10 10\n5sx - - - 2ex - - 1ex - -\n- - 1wo - - - - - - -\n- 2eo - - - 2wo - - 2wo -\n- - - 1sx - - - - - -\n- - x - - - 0ex - - 3sx\n- 1sx 2sx 2ex - - - - - -\n2sx - - - - 3no - - 3wo -\n- - - - - o - - - -\n- 4eo - - - - - 3wo - -\n- - - 2nx - 2ex - - - 4wx",
+      "solution": "10 10\n- se ew sw - se sw - se sw\nse nw - ne ew nw ns se nw ns\nns - se ew sw - ns ns - ns\nns se nw - ns se nw ns se nw\nne nw - - ns ns - ns ns -\n- - - - ns ne sw ns ne sw\n- se ew ew nw - ns ns - ns\nse nw se sw - - ne nw - ns\nns - ns ne ew ew sw - se nw\nne ew nw - - - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/044.a.htm",
+      "info": ""
+    },
+    "45_12x12": {
+      "problem": "12 12\n7ex - - - 5sx - - - - - - 8sx\n- - 0wo - - - - - o - - -\nx - - 2so - 3sx - - o - 1wo -\n- 6ex - - - - - - - - - -\n4ex - 3sx - - - - - 0nx - - 2nx\n- - - 2wx - - - - - - - -\n- 3eo - - - - - - - 3wo - -\n- - - - - - - - - - 2no -\n- o - 3nx - - - 3no - - - -\n- o - - - 1eo - - - - 3wo -\n- - 4no - 2eo - - - - - - -\n6ex - - - - - 5nx - - 4nx - -",
+      "solution": "12 12\n- se ew sw - se ew ew ew ew sw -\n- ns - ne sw ne sw - - - ne sw\n- ne sw - ns - ns - - - - ns\n- - ne sw ne ew nw se ew sw se nw\n- - - ne ew ew sw ns - ne nw -\nse ew sw - se sw ns ns se ew ew sw\nns - ne sw ns ne nw ne nw - - ns\nns - se nw ne sw - - se sw - ns\nns - ns - se nw - - ns ns - ns\nns - ne ew nw - se sw ns ns - ns\nne sw - - - se nw ns ns ne sw ns\n- ne ew ew ew nw - ne nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/045.a.htm",
+      "info": ""
+    },
+    "46_12x12": {
+      "problem": "12 12\n7sx - 4ex - 4ex - - - - - - 4wx\n- - - - - - 2eo - - 6wo - -\n- - 2so - - - - 3so - - 4wo -\n- - - - - - - - - - - -\n2nx - 2eo - - - - - - - - -\n- - - - - 2so - 2wx - - - 4sx\n- - - 2ex - - - - x - - -\n- o - - - - 3no - x - 1wo -\n- - - - - - - - 2wx - - -\n- 0so - - - - 3nx - - - - -\n- - - - - - - - o 6no - -\n4ex - 2nx - 6nx - - - - - - 7nx",
+      "solution": "12 12\n- - - - - se ew sw se ew sw -\nse ew ew ew ew nw - ne nw - ne sw\nns - - se ew ew sw - se sw - ns\nne sw - ns se sw ne ew nw ns - ns\n- ns - ns ns ne sw - - ns se nw\nse nw se nw ns - ns - - ns ns -\nns - ns - ns - ne sw - ns ne sw\nns - ne sw ns - - ns - ns - ns\nns - - ns ns se ew nw - ne sw ns\nns - - ne nw ns - se ew ew nw ns\nne ew ew ew ew nw se nw - - se nw\n- - - - - - ne ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/046.a.htm",
+      "info": ""
+    },
+    "47_12x12": {
+      "problem": "12 12\n7sx - - 1sx - 2ex - - - 3sx - -\n- - - - - - - 2so - - - 4wx\n- - - - - - - - 3so - - 3wx\n- - - o - - 2nx - - - - -\n- 1no - - - 2ex - - - 1no - 0nx\n- - - 1wx - - - - - - - -\n- - - - - - - - - - - -\n- - 2no - - - - - - - 6wo -\n6nx - - - - 2ex - - - - - -\n- - - 1wo - - - 1sx - o o -\n- - - - - 2no - - - - - -\n5ex - - 4ex - - - - 1ex - - 5nx",
+      "solution": "12 12\n- se sw - - - se ew sw - - -\nse nw ne ew sw - ns - ne sw - -\nns - - - ne sw ne sw - ne sw -\nns - - - se nw - ne sw - ns -\nns - se ew nw - se ew nw - ns -\nns se nw - se ew nw - - - ne sw\nns ne ew ew nw se ew ew ew sw - ns\nne sw - se ew nw se ew ew nw - ns\n- ns - ne sw - ne ew sw - - ns\nse nw - - ne ew sw - ns - - ns\nne sw se ew sw - ne sw ne sw se nw\n- ne nw - ne ew ew nw - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/047.a.htm",
+      "info": ""
+    },
+    "48_12x12": {
+      "problem": "12 12\n- - - - 3wx - - - - - - 6sx\n- - 1wo - - - - 1eo - - - -\n- - - - - 1no - - - 2wo - -\n- - 4eo - - - - 1sx - - - -\n- - o - - - - - - - - -\n2sx - - - - - o o - - - 3wx\n- - - o - - - - - 1ex - -\n- 2eo - o - - - 0nx - - - -\n- - - - - 3nx - - - - o -\n- - 0wx - - - - 1eo - - o -\n3nx - - - 4no - - - - 2no - -\n- - - - - - 3nx - - - - 7wx",
+      "solution": "12 12\nse ew ew sw - se ew ew ew ew sw -\nne sw - ns se nw - - - - ne sw\n- ns - ns ns - se ew sw - - ns\n- ns - ns ne sw ns - ne ew ew nw\n- ns - ne ew nw ne ew ew ew sw -\n- ne sw - - - - - se ew nw -\nse ew nw - - se ew ew nw - se sw\nns - - - se nw - - - se nw ns\nne ew ew sw ns - se ew sw ns - ns\n- - - ns ne ew nw - ne nw - ns\n- se ew nw - se ew sw - - se nw\n- ne ew ew ew nw - ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/048.a.htm",
+      "info": ""
+    },
+    "49_14x14": {
+      "problem": "14 14\n- - x x - - x 3sx - 1wx - - - 7sx\n- - - - - - - - - - - 7wo - -\n- 7eo - - - 0no - - - - - - 1no -\n- - - 3so - - - - - - 1nx - - -\n- 3sx - - - - - - - - - - - -\n- - 4ex - - 0no - - 2eo - x - - -\nx - - - - - - - - - - - 3sx -\n- - - - - 2ex - - - - - - - 4wx\n- - - 2so - - - - o - - - - -\n- 5eo - - - - - o - - - - 2so -\n- - - - - 1no - - - - 5wo 4no - -\n- - - - - - - 1sx - - - - - -\n6ex - - - - - - - - - - - - -\n- - - - 7nx - - - 2nx - - 5wx - -",
+      "solution": "14 14\nse sw - - - - - - - - se ew sw -\nns ne sw - se ew ew ew ew ew nw - ne sw\nns - ne ew nw - se ew ew ew ew sw - ns\nne ew sw - se ew nw se sw - - ns se nw\n- - ne sw ne ew sw ns ne sw - ns ne sw\n- - - ne sw - ne nw - ns - ne ew nw\n- - - - ne ew sw - - ns - - - -\n- - se ew sw - ns - - ns se ew sw -\nse ew nw - ne sw ns - - ns ne sw ne sw\nns - se ew sw ne nw - - ne ew nw - ns\nne sw ne sw ns - se ew ew sw - - se nw\n- ns se nw ns - ns - se nw - - ne sw\n- ns ne sw ne sw ne sw ne sw se ew sw ns\n- ne ew nw - ne ew nw - ne nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/049.a.htm",
+      "info": ""
+    },
+    "50_14x14": {
+      "problem": "14 14\n- - 3sx - - - 8sx - x - - 0ex - 3wx\n- - - - 6eo - - - - - - - - -\n- - - - - - - - - 1wo - 0no - -\n- - - - - - - 3so - - - - 5wo -\n- - - - - 2nx - - - - - - - -\n2sx - - - 1nx - - 3so - - - - - -\n- - 0no - - - 1eo - - - 1no - - -\n- 2no - - - - - - 2nx - - - - -\n- - - - - - - x - - - 5wo - -\n3ex - 2so - - - - x - - - - 2no -\n- - - - - 4no - - - - 3wx - - -\n- - - 4nx - - - - 3no - - - 1so -\n- - - - - 4no - - - 3no - 5no - -\nx x x - - - - 3wx - - - - - 6nx",
+      "solution": "14 14\nse sw - se ew sw - - - - - - - -\nns ne ew nw - ns se ew ew ew ew ew sw -\nns - - - - ne nw - - - - - ne sw\nns - - - se ew sw - se ew ew sw - ns\nne ew ew ew nw - ns - ne ew sw ne ew nw\n- se ew sw - se nw - se sw ne sw - -\nse nw - ne ew nw - se nw ns - ns - -\nns - se ew sw se ew nw - ne sw ne sw -\nne sw ne sw ns ne sw - se ew nw - ne sw\n- ns - ns ns - ns - ne ew ew sw - ns\n- ns se nw ns - ns se ew sw - ns - ns\n- ns ns - ns - ns ns - ne ew nw - ns\n- ne nw se nw - ns ne sw - - - se nw\n- - - ne ew ew nw - ne ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/050.a.htm",
+      "info": ""
+    },
+    "51_10x10": {
+      "problem": "10 10\n4sx - - 1sx - - - - - 4wx\n- - - - - o 3so o - -\n- - 2so - - - - - 1no -\n1nx - - - 2sx - - - - -\n- - - - - - 3so - - -\n- - 0no - 1wo - - - - -\n2nx - - - - 1so - - - -\n- - - 1wx - - - - 2no -\n- 3no - - - - - 1eo - -\n- - - - - 2nx - - - 4nx",
+      "solution": "10 10\n- - - - se ew ew ew sw -\nse ew ew ew nw - - - ne sw\nne sw - se ew ew ew sw - ns\n- ne ew nw - se ew nw se nw\nse ew ew ew ew nw - se nw -\nne sw - - - - se nw - -\n- ns se ew sw - ns se ew sw\nse nw ns - ne sw ne nw - ns\nns - ne ew sw ne sw - se nw\nne ew ew ew nw - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/051.a.htm",
+      "info": ""
+    },
+    "52_10x10": {
+      "problem": "10 10\n5ex - - - - 4sx - - - 6sx\n- - - - - - - 2wo - -\n4sx - - - 0eo - - - - -\n- - - - - - - o - -\n- 2eo - - - - - - - -\n- - - - 1wo - - 0nx - -\n- - 4nx - - - 1sx - - -\n- - - - 1no - - - 2no -\n- - 4eo - - 4no - - - -\n4nx - - - - - - - 2nx -",
+      "solution": "10 10\n- se ew ew sw - se ew sw -\n- ns se sw ne sw ns - ne sw\n- ns ns ns - ns ns - - ns\nse nw ns ns - ne nw - - ns\nns - ns ns - - se ew sw ns\nns se nw ns - se nw - ne nw\nne nw - ns - ns - se ew sw\nse ew ew nw - ne ew nw - ns\nne sw - se sw - se ew ew nw\n- ne ew nw ne ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/052.a.htm",
+      "info": ""
+    },
+    "53_10x10": {
+      "problem": "10 10\n- - - - - - x - 2sx -\nx - 3eo - x - - - - -\n- - - - x - - - 0no -\n- 4eo - - - - 2eo - - -\n- - 1no - - - - - - -\n2sx - - - 3so - 1ex - - -\n- - - - - - - - 5wo -\n- 1so o - - 0wo - 0wo - -\n- - - - - - - - - 5nx\n4nx - - 1ex - - x 3nx x -",
+      "solution": "10 10\n- se ew sw - - - - - -\n- ns - ns - se sw se ew sw\nse nw se nw - ns ne nw - ns\nns - ne sw se nw - se ew nw\nne sw - ne nw se ew nw se sw\n- ne sw - - ns - se nw ns\nse ew nw se sw ne ew nw - ns\nns - - ns ns - - - se nw\nne sw se nw ns se ew ew nw -\n- ne nw - ne nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/053.a.htm",
+      "info": ""
+    },
+    "54_12x12": {
+      "problem": "12 12\n- - 1wx - - - x - x - 3wx -\n- - - - 2wo - - - - 5sx - -\n- 1no - - - - - 4wo - - - -\n- - - 2ex - - - - - - - -\n2ex - - - x 4sx - - - - 1no -\n- - 2so - - - 2nx - 3wx - - -\n- 2so - - 2so - - - - - 4so -\n- - - - - - - 2eo - - - -\n- - - 3nx - - - - - - - -\n- 2eo - - - - x - 2wo - - 6nx\n- - 4no - - - x - - - - -\n4ex - - - - 2wx - - - - - 6nx",
+      "solution": "12 12\nse sw - se ew sw - - - - - -\nns ne ew nw - ne ew ew sw - se sw\nns - se ew ew ew sw - ne ew nw ns\nne sw ns - - - ns se ew sw - ns\n- ns ne sw - - ne nw - ns - ns\nse nw - ne ew sw - - - ns - ns\nns - se sw - ns se ew sw ns - ns\nns se nw ne sw ns ns - ne nw se nw\nns ne sw - ns ns ne sw - - ns -\nns - ne sw ne nw - ns - - ns -\nne sw - ns - - - ns se sw ns -\n- ne ew nw - - - ne nw ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/054.a.htm",
+      "info": ""
+    },
+    "55_12x12": {
+      "problem": "12 12\n4sx - - - 2wx - - - - - - 7wx\n- - 2so - - - - o o - - -\n- - - - - - 4so - - - 4wo -\n- - - 2ex - - - - 3wx - - -\n- - - - 2nx - - 1ex - - 1no -\n2sx - o - - - - - - 2so - -\n- - o - o - - - - - - 4nx\n- - - - o - o - 1nx - - -\n4ex - - - o - - - - - 3no -\n- - o o - - - - - 1eo - -\n- - - o - 1wx - - - - - 3wx\n4ex - - - - - - - 0ex - - -",
+      "solution": "12 12\n- se ew sw - se ew ew ew ew sw -\nse nw - ns se nw - - - - ne sw\nne sw se nw ns - - se ew sw - ns\nse nw ns - ne sw se nw - ns - ns\nne sw ne sw - ne nw - se nw - ns\n- ns - ne ew ew ew ew nw - se nw\nse nw - - - - - se ew sw ns -\nne ew ew sw - - - ns - ns ne sw\n- se ew nw - se sw ns se nw - ns\nse nw - - se nw ns ns ns - se nw\nne sw - - ns - ns ns ne ew nw -\n- ne ew ew nw - ne nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/055.a.htm",
+      "info": ""
+    },
+    "56_12x12": {
+      "problem": "12 12\n5sx - - - - 6sx - 2wx - - - 4wx\n- - 3so - - - - - - 5wo - -\n- 1no - - - - - 1eo - - o -\n- - - - - 5sx - - - - 3wo -\n2nx - - - - - - x - - 2wo -\n- - - - 2so - - - - - - -\n- - - 2eo - - - - - 3no - 3wx\n2sx - 3eo - - - - 1ex - - - -\n- - o - - - - - - - - -\n- - - - 1sx - - - 1wo o - 5nx\n- - - - - - 5no - - - - -\n6ex - - 5ex - - - - 4nx - - -",
+      "solution": "12 12\n- se ew sw - - - - se ew sw -\nse nw - ne ew sw se ew nw - ne sw\nns - se sw se nw ns - se sw - ns\nne sw ns ns ns - ne ew nw ns - ns\n- ne nw ns ne sw - - - ns - ns\nse ew ew nw - ns se ew ew nw se nw\nne sw - - - ns ne ew sw - ns -\n- ns - se sw ne sw - ns - ne sw\nse nw - ns ne sw ns se nw - se nw\nns - - ns - ns ne nw - - ns -\nne sw se nw se nw - se ew sw ne sw\n- ne nw - ne ew ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/056.a.htm",
+      "info": ""
+    },
+    "57_12x12": {
+      "problem": "12 12\n- - - 2wx - - - - - - - 5sx\n- - - - - 3wo - - - 5wo - -\n3ex - - 3so - - - 0nx - - - -\n- - 1no - - - 1nx - 2sx - - 4sx\n- - - - - - - 0nx - - - -\n2nx - 3so - - 1no - - - - 2wo -\n- - - - - - - - 2so - - -\n- 4no - 2sx - - 1wx - - - 3nx -\n- - - - - 2nx - - - - - -\n0sx - 6eo - - - - - - - 6wo -\n- - - - 4eo - - - - 5no - -\n4nx - - - - - 3wx - - - - 5wx",
+      "solution": "12 12\nse ew sw - se ew ew ew ew ew sw -\nne sw ne ew nw - se ew sw - ne sw\n- ns - - - se nw - ne sw se nw\nse nw - se ew nw - - - ns ns -\nne sw - ne ew ew sw - - ns ne sw\n- ns - - - - ns se ew nw - ns\nse nw se ew sw se nw ns - se ew nw\nns - ns - ne nw - ns se nw - -\nne sw ne sw - - - ne nw se ew sw\n- ns - ne ew ew ew ew ew nw - ns\n- ns se sw - se ew ew sw - se nw\n- ne nw ne ew nw - - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/057.a.htm",
+      "info": ""
+    },
+    "58_14x14": {
+      "problem": "14 14\n8sx - - - - 2wx - 2wx - - 3sx - - -\n- - - - - - 3sx - - - - - 1so -\n- 4so - - 4so - - - 1no - - - - -\n- - 4eo - - - - 1no - - - - x x\n5ex - - - - 4sx - - - - 0nx - - -\n- - - 1wx - - - - 2no - - - 6wo -\n- 2so - - - - - - - - 3so - - -\n- - 4no - 5ex - - - - - - - - -\n- - o - - - 2so - - o - x x -\n- - o - - - - - - - - - - 4nx\n- - - - 3nx - - - 2wx - 2wo - - -\n4ex - 0wo - - - 1wo - - - - 1eo - -\n- - - - - - - 3no - x - - - 5nx\n- - - - - 3wx - - - x - 0ex - -",
+      "solution": "14 14\n- se sw se sw - - - se sw - se ew sw\nse nw ns ns ne sw - se nw ne ew nw - ns\nns - ne nw - ne ew nw - se ew ew ew nw\nne sw - se ew ew sw - se nw - - - -\n- ns se nw - - ne sw ne sw - se ew sw\nse nw ns - se ew ew nw - ne ew nw - ns\nns - ne sw ne ew ew ew ew sw - se ew nw\nns - - ns - se ew ew ew nw se nw - -\nns - - ns se nw - - - - ns - - -\nns - - ns ne sw se ew ew sw ne sw - -\nne sw - ns - ns ne sw - ns - ne ew sw\n- ns - ne sw ns - ne sw ne sw - se nw\nse nw se sw ns ne sw - ns - ne ew nw -\nne ew nw ne nw - ne ew nw - - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/058.a.htm",
+      "info": ""
+    },
+    "59_14x14": {
+      "problem": "14 14\n7ex - - - - - 4sx - - - - 6wx - -\n- - - - 2eo - - - - - - - - -\n- - 0no - - - x - 1eo - - - 1no -\n1nx - - 3eo - - x - - - 2wx - - -\n- - - - 1no - - - - 2nx - - - -\n5sx - - - - - 2ex - - - - 4so - -\n- - - 2sx - - - - o 2so o - - 3wx\n- 3so - - - o - - - - - - - x\n- - - - - o - - - - 1ex - - -\n- - - - - o - - 1ex - - - 4wo -\n2sx - - - - - - 1sx - - - 6wo o -\n- - 1wo - 2eo - 1wx - - 2wo - - - -\n- - - - - - - - 5no - - - - -\n- - 5ex - - 2wx - - - - 5wx - - 7nx",
+      "solution": "14 14\n- se ew ew ew sw - se sw se sw - se sw\nse nw - - - ns - ns ne nw ns se nw ns\nne sw - - se nw - ns - se nw ns - ns\n- ns - - ne sw - ns se nw - ns se nw\n- ne ew sw - ns - ns ns - se nw ns -\n- se sw ne sw ns - ns ne ew nw - ns -\nse nw ns - ns ne ew nw - - - - ns -\nns - ne sw ns - se ew sw se ew sw ns -\nns se sw ne nw - ns - ne nw - ns ne sw\nne nw ne ew sw - ns - - - se nw - ns\n- se ew ew nw se nw - se ew nw - - ns\nse nw - - - ns - se nw - se sw - ns\nns se ew sw se nw se nw - se nw ns se nw\nne nw - ne nw - ne ew ew nw - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/059.a.htm",
+      "info": ""
+    },
+    "60_14x14": {
+      "problem": "14 14\n5ex - - - - 2wx - 4sx - - 2ex - - -\n- - o - - - - - - - - - - -\n- - o - - o 1eo - - 1no - - - 5sx\n8ex - - - - - - - 4so - - - - -\n- - 2ex - - - 4sx - - - 3wx - 4so -\n- - - - - 0nx - - - 2nx - - - -\n- - - o - - - 3wo - - - o - 5wx\nx - - - o - - - - - - 2so - -\n6ex - 0wo - - - - 1sx - - - - - -\n4ex - - - 2nx - - - - - - - - 4nx\n- - - - - 1nx - - 2eo - - - - -\n- 1so - - - - - 4no - - - - 6wo -\n- - o o 4eo - - - - - - 1eo - -\n5nx - - - - - - x - - - - - 6wx",
+      "solution": "14 14\n- se ew sw - - - - se sw - se ew sw\nse nw - ne ew ew ew sw ns ne sw ns se nw\nne sw - - - - - ne nw - ns ns ns -\n- ne ew ew ew ew ew sw - se nw ns ne sw\nse sw - se sw - - ns se nw - ns - ns\nns ne ew nw ns - se nw ns - se nw se nw\nne sw - - ne ew nw - ne ew nw - ns -\n- ns - - - - se ew sw - - - ne sw\n- ns - se ew sw ns - ne ew sw se ew nw\n- ns - ns - ne nw se ew sw ns ne sw -\nse nw se nw - - se nw - ns ne sw ne sw\nns - ne ew ew ew nw - se nw se nw - ns\nne sw - - - se ew ew nw - ns - se nw\n- ne ew ew ew nw - - - - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/060.a.htm",
+      "info": ""
+    },
+    "61_10x10": {
+      "problem": "10 10\n3ex - - 4sx - - - 3sx 3sx x\n- - - - - - - - - -\n- - 1no - 3sx - 1no - - -\n- - - - - - - - - -\n- - 3eo - - 2wo - - - -\n3nx - - - 2so - - - - 2nx\n- - - - - - - 1so - -\n- - o 0so - 0wx - - 2no -\n- - - - - - 3wx - - -\n5nx - - - - 3nx - - - -",
+      "solution": "10 10\n- se sw - se ew sw - - -\nse nw ne sw ne sw ne sw - -\nns - - ns - ns - ne ew sw\nns - - ns se nw se ew sw ns\nne sw - ne nw - ne sw ne nw\n- ne ew sw - se sw ne sw -\nse ew ew nw se nw ns - ne sw\nns - - - ns - ne sw - ns\nne sw se ew nw - - ne sw ns\n- ne nw - - - - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/061.a.htm",
+      "info": ""
+    },
+    "62_10x10": {
+      "problem": "10 10\n3sx - - - 3sx 3sx - - - 2wx\n- - - - - - - 3wo - -\n- 2ex - 3so - - - - - -\n2ex - - - - - 2sx - 3so -\n- - - - 2eo - - - - -\n- - - - - - - - - 4wx\n3ex - - - 1wx - - - - -\n- - 1wo - - - - o - -\n- 3eo - - - - - - - -\n- - - 2wx - - - - - 6wx",
+      "solution": "10 10\n- - - - - - se ew sw -\n- - se ew sw se nw - ne sw\n- - ns - ns ne ew sw - ns\n- - ne sw ne sw - ns - ns\nse ew sw ns - ne sw ns se nw\nne sw ns ne ew sw ne nw ns -\n- ns ne sw - ne sw - ne sw\nse nw - ne ew ew nw - - ns\nns - se ew sw - - - se nw\nne ew nw - ne ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/062.a.htm",
+      "info": ""
+    },
+    "63_10x10": {
+      "problem": "10 10\n5ex - - 1wx - - - - - 6sx\n- - - - - - 3wo - - -\n- 3so - o o - - - 1no -\n- - - - - - 2sx - - -\n- - 0wx - - - - - - 2nx\n- - - - x - - 2no - -\n- 2eo - - - 1wx - - 2wo -\n- - - - 2ex - - - - -\nx - - - - - - - - -\n4ex - - - 1nx - - 1ex - -",
+      "solution": "10 10\n- se sw - se ew ew ew sw -\nse nw ne ew nw - - - ne sw\nns - - - - se ew sw - ns\nns se ew ew ew nw - ns se nw\nns ns - - - se ew nw ns -\nns ne sw - - ne sw - ne sw\nns - ne sw - - ne sw - ns\nne ew sw ns - se ew nw - ns\n- se nw ns - ns se ew sw ns\n- ne ew nw - ne nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/063.a.htm",
+      "info": ""
+    },
+    "64_12x12": {
+      "problem": "12 12\n5ex - - - 2wx - - - - 5wx - -\n- - 3eo - - - - 1eo - - x x\n- 5eo - - - - - - 3wo - - -\n- - - - - - 2wx - - - 0no -\n6ex - - - - - - - - - - -\n- - - - - - 2wo - - - - 3sx\n- 3no - - - 3no - - 1sx - - -\n- - - - 1so - - 2sx - - 2so -\n- 1so - - - - 2sx - - - - -\n- - - - - 2wx - - o o - 1sx\n- - 6no - - - - - - - - -\n5ex - - - 5nx - - - 2ex - - -",
+      "solution": "12 12\n- se ew sw - se ew ew sw - - -\nse nw - ne sw ne sw - ne sw - -\nns - se sw ne sw ne sw - ne ew sw\nne sw ns ne sw ns - ne ew sw - ns\n- ns ne sw ns ne ew ew ew nw se nw\nse nw se nw ns - - se ew sw ns -\nns - ns se nw - se nw - ns ne sw\nns - ns ns - se nw - se nw - ns\nns - ns ne ew nw - se nw - se nw\nns - ne ew sw - se nw - - ns -\nne sw - se nw - ns se ew sw ne sw\n- ne ew nw - - ne nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/064.a.htm",
+      "info": ""
+    },
+    "65_12x12": {
+      "problem": "12 12\n8sx - - - 2wx - - - 3sx - 4wx -\n- - 6eo - - - 3so - - - - -\n- - - - - - - 1no - - 6wo -\n- - - - - 1wx - - - - - -\n- - - 3ex - - - - - - 4wo -\n- - 4ex - - 1no - - - - 1so -\n- - - - - - - - 5wo - - -\n- - - - - x - - - - - 2sx\n- o - - 1sx - - - 1sx - - -\n- 5eo - - - - 2wo - - - - -\n- - 3no o - - - 2eo - - - -\n7ex - - - - 3wx - - - - - -",
+      "solution": "12 12\n- se ew sw - se ew sw - - - -\nse nw - ne ew nw - ne ew ew ew sw\nne sw se ew ew ew sw - se sw - ns\nse nw ns - - - ne sw ns ns - ns\nns se nw - se ew sw ne nw ns - ns\nns ns - se nw - ne ew ew nw - ns\nns ne sw ne ew ew ew sw - se ew nw\nns - ne sw - - - ne ew nw - -\nns - - ns - se ew sw - se ew sw\nns - - ne ew nw - ne ew nw se nw\nne sw - - se ew sw - se sw ne sw\n- ne ew ew nw - ne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/065.a.htm",
+      "info": ""
+    },
+    "66_12x12": {
+      "problem": "12 12\n6ex - - - - 2wx - - - - - 7sx\n- - - - - - - 3wo 2so - - -\n- - - 1no - - - - - 0eo - -\n- - 1no - 3eo - - - - - 1no -\n- - 6eo - - - - - 0nx - - -\n- - - - - - - 1sx - - - 6wx\n- - - - - 3eo - - - 3wo - -\n2sx - - 3eo - - - - - - - -\n- - o - - - x - - - 1so -\n- - o - 0wo - - - - - - -\n- - - - - - - - - 5wo - -\n7nx - - 1wx - - - - - - - 6wx",
+      "solution": "12 12\n- se sw se sw - se ew ew ew sw -\nse nw ne nw ne sw ns - - - ne sw\nns - - - - ns ns - - - - ns\nns - - - - ne nw se ew sw - ns\nns - - se ew ew ew nw - ne ew nw\nns se sw ne ew ew sw - se ew sw -\nne nw ns - - - ne ew nw - ne sw\n- se nw - se ew ew sw - - - ns\nse nw - - ne sw - ne ew sw - ns\nns - - - - ns - - se nw - ns\nne sw se ew sw ns se ew nw - se nw\n- ne nw - ne nw ne ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/066.a.htm",
+      "info": ""
+    },
+    "67_12x12": {
+      "problem": "12 12\n- 7ex - - - - - - - 1ex - -\n- - - o - 2so - - - - - -\n4sx - 3so - - - - - - 0no - -\n- - - - x - - - - - - 5sx\n4sx - - - 2ex - - - 1sx - - -\n- 2nx - - - - - - - - 4wo -\n- - - - 2so - 2eo - 2nx - - -\n- 2no - 4eo - - - - - 3wx - -\n- - - - - 2ex - - - - - -\n- 2no - 0wx - - - 0eo - - o -\n- - - - - - 4no - - - - -\n4nx - - - 2wx - - - 4wx - - 5wx",
+      "solution": "12 12\n- - se ew ew ew ew ew sw - se sw\n- se nw - - - - - ne ew nw ns\n- ns - se ew ew sw se sw - se nw\n- ne ew nw - se nw ns ne sw ns -\n- - - - - ne sw ns - ns ne sw\n- - se ew ew ew nw ns - ns - ns\nse ew nw - - - - ns - ne ew nw\nns - - - se ew sw ne sw - se sw\nns - se ew nw - ns - ne ew nw ns\nns - ns - se ew nw - - - - ns\nne sw ne sw ne sw - se ew sw se nw\n- ne ew nw - ne ew nw - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/067.a.htm",
+      "info": ""
+    },
+    "68_14x14": {
+      "problem": "14 14\n9ex - - - - - - - - 7wx - - - 6sx\n- - - 3eo - - - - - - - - - -\n- - - - - 3so o - - - 3so o - -\n1nx - - - - - - - - - - - - 5sx\n- - - - - 0nx - 2eo - - 1ex - - -\n- 3no - - - - - - - 5sx - - 5wo -\n- - - - - - - - - - - 6wo - -\n- - - 3nx - - - - 3wx - - - - -\n- - - - - - 3wo - 1sx - - - - -\n4nx - - 3no - - - - - - 2eo - - -\n- - - - - 3wx - - - - - 2so - -\n- - 5no - - - - 3wo - - - - - -\n- - - - 2wo - - - - - 5wo - 5nx x\n- - - - - - 5nx - 4nx - - - 6wx -",
+      "solution": "14 14\n- se ew ew ew ew ew ew sw - se ew sw -\nse nw - - - - - se nw se nw - ne sw\nne sw se sw - - - ns se nw - - se nw\n- ns ns ns se ew sw ne nw se ew sw ns -\nse nw ns ne nw - ns - se nw - ns ne sw\nns - ne sw se ew nw se nw - se nw - ns\nns se ew nw ne ew ew nw - se nw - - ns\nne nw - - - se ew sw - ns se ew sw ns\n- - se ew ew nw - ns - ns ne sw ne nw\n- - ns - se ew sw ns - ns - ne ew sw\nse ew nw se nw - ns ne sw ne sw - se nw\nne sw - ne ew sw ns - ne ew nw se nw -\nse nw se sw - ns ne ew ew sw - ns - -\nne ew nw ne ew nw - - - ne ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/068.a.htm",
+      "info": ""
+    },
+    "69_14x14": {
+      "problem": "14 14\n- - 2ex - - - 3wx - - - 0ex - - 8sx\n- - - - - - - - - - - - - -\n- - - - - - - o 6so - 0no - - -\n- 1no - - 4eo - 1no - - - - 1no - -\n- - - - - - - - - 2sx - - - 4wx\n- 3eo - 0wx - o - 3so - - - 1sx - -\n- - - - - - o - - - - - - -\n- o - 4no - - - - - - - - 3no -\n- - - - - 3wx - 2nx - - o o - -\n2sx - - - - - - - - 2wo - - - 5nx\n- - - 1sx - - 1wo - - - - 0sx - -\n- 3no - - - - - - - - - - - -\n- - 1wo - - - - 4no - 3wo - - - -\n10nx - - - 5nx - - - - - - 7wx - -",
+      "solution": "14 14\nse sw - se ew sw - - - - - - - -\nns ne sw ns se nw se ew ew ew ew sw se sw\nns - ns ns ne ew nw - - - - ne nw ns\nns - ns ns - - - se ew ew sw - se nw\nns - ns ne sw - - ne sw - ne ew nw -\nns - ns - ns - - - ne ew sw - se sw\nns - ne ew nw - - se sw se nw se nw ns\nns - - - se ew ew nw ns ne ew nw - ns\nne sw se ew nw - - - ns - - - se nw\n- ns ns - - se ew sw ns - se ew nw -\nse nw ns - - ns - ns ns se nw - se sw\nns - ne ew sw ne sw ne nw ne ew ew nw ns\nne sw - se nw se nw - - - se ew sw ns\n- ne ew nw - ne ew ew ew ew nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/069.a.htm",
+      "info": ""
+    },
+    "70_14x14": {
+      "problem": "14 14\n7ex - - - - - 3wx - - - - 1ex - -\n- - - - - - - - - 6so - - - -\n- 1no - 4ex - - - o - - - - - -\n- - - - 2ex - - - - - 4wx - - 4wx\n- - 2so - - 2wx - - - 5sx - - - -\n- - - - - - - - - - - - 3no -\n- - 1wo - 3nx - 1wo - o - 1ex - - -\n- - - - - - - - 4wo - - - - -\n- - - - - - - 2no - - - - - 6wx\n- - 1sx - - - 1no - - 2wx - 4no - -\n- - - 1sx - - o - - - - - 5no -\n- 4eo - - - 6no - - - - 4nx - - -\n- - 1wo - - - - - 5wo - - - - 7nx\n8nx - - - 4ex - 2wx - - - - - - -",
+      "solution": "14 14\n- se ew sw se sw - se ew ew sw - se sw\nse nw se nw ns ne ew nw - - ne ew nw ns\nns - ns - ne sw - - - se ew sw se nw\nne sw ne sw - ne sw - se nw - ns ns -\nse nw - ne sw - ne sw ns - se nw ne sw\nne sw - se nw se ew nw ne sw ne sw - ns\nse nw - ns - ns - - - ns - ne sw ns\nne ew sw ne ew nw - - - ne ew sw ne nw\nse sw ne sw se sw - - se ew sw ne sw -\nns ns - ne nw ns - se nw - ns - ne sw\nns ne sw - se nw - ns se sw ne sw - ns\nns - ne ew nw - - ne nw ns - ns se nw\nne sw - se ew ew ew sw - ns se nw ns -\n- ne ew nw - - - ne ew nw ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/070.a.htm",
+      "info": ""
+    },
+    "71_10x10": {
+      "problem": "10 10\n- 2sx - - - - - - - -\n- - - - 2eo - - - - -\n- - - 1no - - 1ex - - -\n- 2eo - - - 1ex - - 2no -\n- - 0no - 1nx - - 2wo - -\n2sx - - - - - 2wo - - 4nx\n- - - - - - o - - -\n- 2eo - - o - - - - 2wx\n- - - 2eo - - - 4no - -\n5nx - - - - 4nx - - - -",
+      "solution": "10 10\n- - - se ew ew ew sw se sw\nse ew ew nw - se ew nw ns ns\nns - - - se nw - se nw ns\nns - - se nw - se nw - ns\nne sw - ns - se nw - se nw\n- ne sw ne sw ns - se nw -\nse ew nw - ne nw - ns - -\nns - - - - se sw ne sw -\nne sw - - se nw ns - ne sw\n- ne ew ew nw - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/071.a.htm",
+      "info": ""
+    },
+    "72_10x10": {
+      "problem": "10 10\n- - - - 3sx - - - 5sx -\n- - 4so - - - 2wo - - -\n4sx - - - - - - 1no - -\n- - - - - 1ex - - - 2sx\n- 5eo - - - - - - - -\n- - 1eo - 2no - - 2wo - 2wx\n4ex - - 1so - - - - - -\n- - - - - 1sx - - 4no -\n- 3eo - - 1wx - - 3no - -\n- - - 3nx - - - - - 2nx",
+      "solution": "10 10\nse ew ew sw - se ew sw - -\nne sw - ne sw ns - ne sw -\n- ns se sw ns ne sw - ns -\nse nw ns ne nw - ns se nw -\nns - ne ew ew ew nw ne sw -\nne sw - - - se sw - ns -\n- ne sw - se nw ne sw ne sw\nse ew nw se nw - se nw - ns\nns - se nw - se nw - se nw\nne ew nw - - ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/072.a.htm",
+      "info": ""
+    },
+    "73_10x10": {
+      "problem": "10 10\n- - - - 3ex - - - - 6wx\n- - 3eo - - - 3wo - - -\n- - - - 0no - - - 1no -\n- 3eo - - - - 0nx - - -\n- - - - - 1sx - - 3wo -\n2ex - - - - - - 1so - -\n- - - - - 1sx - - - 4nx\n- 1so - - - - - - - -\n- - 3no - - - - 3wx - -\n3ex - - - 2nx - - - - x",
+      "solution": "10 10\nse ew ew sw - se ew ew sw -\nne sw - ne ew nw - - ne sw\nse nw - - - se ew sw - ns\nns - se ew ew nw - ns - ns\nne sw ns se sw - se nw - ns\n- ns ne nw ns - ns - se nw\nse nw se ew nw - ne sw ns -\nns - ne ew ew ew sw ne nw -\nne sw - se ew sw ns - - -\n- ne ew nw - ne nw - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/073.a.htm",
+      "info": ""
+    },
+    "74_12x12": {
+      "problem": "12 12\n- - - 2wx - - - 0ex - - 4wx -\n- - - - - 3so - - - 1ex - -\n- - 4eo - - - 3wo - - - - -\n- - - - 1nx - - 2so - - 4wo -\n- - - - - 1nx - - - - - -\n- - - 1no - - 3wx - - 1so - -\n- 3sx - - 3eo - - 2ex - - - -\n- - - - - 1so - - 1sx - - -\n3nx - - 0wx - - - 1ex - - 1so -\n- - - - - - - - - 3no - -\n4ex - - o 4no o o - - - - 7nx\n- 5ex - - - - - - x - x -",
+      "solution": "12 12\nse ew sw - se ew sw - - - - -\nne sw ne ew nw - ne sw - - se sw\nse nw - se ew sw - ne sw se nw ns\nne ew ew nw - ne sw - ns ns - ns\nse ew ew ew sw - ne sw ne nw se nw\nne ew sw - ne sw - ne sw - ne sw\n- - ne sw - ne sw - ne ew sw ns\n- se sw ne sw - ns - - se nw ns\n- ns ns - ns se nw - se nw - ns\n- ns ne ew nw ne ew ew nw - se nw\n- ne sw - - - - se ew ew nw -\n- - ne ew ew ew ew nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/074.a.htm",
+      "info": ""
+    },
+    "75_12x12": {
+      "problem": "12 12\nx 3sx 4sx - - x x - - - - 6sx\nx - - - - - - - 2eo - - -\n- - - - 0no - - 3wo - - 4wo -\n- 3eo - - - - - - - - - -\n- - - - - 3wx - - 1nx - 0no -\n- - o 3so - - - 1ex - - - -\n- - - - 3wo - - - - 4no - -\nx x - - - - 2nx x - - - -\n- - - - - - x - - - 4wx -\n- - - - 1so - - - 3wo - - 5nx\n- - - - - - - - - 5wo - -\n- - - - - x 3nx 3nx - - - -",
+      "solution": "12 12\n- - - - - - - se ew sw - -\n- se ew ew ew ew ew nw - ne ew sw\nse nw se sw - se sw - se sw - ns\nns - ns ne ew nw ns se nw ns - ns\nne sw ne ew sw - ne nw - ns - ns\nse nw - - ne sw - - se nw - ns\nne ew ew sw - ns - - ns - se nw\n- - - ne sw ns - - ns se nw -\nse ew sw se nw ns - se nw ns - -\nne sw ne nw - ns se nw - ne sw -\nse nw se sw se nw ne ew sw - ne sw\nne ew nw ne nw - - - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/075.a.htm",
+      "info": ""
+    },
+    "76_12x12": {
+      "problem": "12 12\n4ex - - x - x - - 1sx - - -\n- - - - - - - - - - 4wo -\n- - 3eo - - - - o - - - -\n3ex - - - 1eo - - - - - - -\n- - 1nx - - o 3so - - - - 4wx\n- - - - - - - - 1sx - - -\n- - 1wo - - 2sx - - - - 2so -\n3nx - - - - - - - - 2no - -\n- - - 1wx - - 0eo - - - - 2wx\n- 5no - - 2nx - - 1eo - 2wo - -\n- - 1wo - - - - - - - 4no -\n7ex - - - - - - - 2ex - - -",
+      "solution": "12 12\n- se sw - - - se sw - se ew sw\nse nw ne sw - - ns ne ew nw - ns\nne sw - ne ew sw ns - - - se nw\n- ne ew sw - ne nw - - - ns -\nse sw - ns - - - se ew ew nw -\nns ne ew nw se ew sw ns - se ew sw\nne sw - se nw - ns ns se nw - ns\n- ns se nw se ew nw ne nw - se nw\nse nw ns - ne sw - - - - ns -\nns - ne sw - ne sw - - - ne sw\nne sw - ne sw se nw se ew sw - ns\n- ne ew ew nw ne ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/076.a.htm",
+      "info": ""
+    },
+    "77_12x12": {
+      "problem": "12 12\n4sx - - - - - - 2ex - - - 7wx\n- - - o - 3so - - - 4so - -\n- - - - - - - - - - 1no -\n- - x 4ex - - - - - - - -\n- x - - - 2wx - 0eo - - - 2wx\n- - - 4eo - - - - - 1nx - -\nx - - - - o - - - - - -\n- - - 1wx - - - - - - 1so -\n- 1so - - 2sx - 1eo - 0sx - - -\n- - 3no - - - - - - - - -\n- - - 3eo - x - - - - - -\n- - - - - x - - 4nx - - 4wx",
+      "solution": "12 12\n- se ew ew ew ew sw - se ew sw -\nse nw - - - - ne ew nw - ne sw\nne ew ew ew sw se ew sw se sw - ns\n- - - - ne nw se nw ns ne ew nw\n- - se ew sw - ns - ns - - -\n- se nw - ne ew nw se nw - se sw\n- ns se ew sw - - ne ew ew nw ns\nse nw ns - ne sw - se ew sw - ns\nns - ne sw - ns - ns - ns se nw\nne sw - ne sw ne sw ns - ns ne sw\nse nw - - ns - ne nw - ne ew nw\nne ew ew ew nw - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/077.a.htm",
+      "info": ""
+    },
+    "78_14x14": {
+      "problem": "14 14\n7ex - - - - - - - - x x - - -\n- - - - 0wo - - x - - - - 2wo -\n4sx - 4so 2so - - - - 5sx - - 5so - -\n- - - - - - 1eo - - 1ex - - - 6sx\n- 3no - - 5ex - - - - - - - - -\n- - o - - 2nx - - - 3wo - - 4wo -\n2sx - o - - - 2sx - - - - - - -\n- - o - - - - - 3wo - 1sx - - -\n- 4eo - o - - - 4no - - - - 3no -\n- - - - - 3wx - - - 4wx - - - -\n0sx - - 5ex - - 1sx - - - - - - 2sx\n- - - - - - - - - - - 1eo - -\n- - - - 1wo - - 3ex - - - - 5wo -\n5ex - - - - - 5nx - 2ex - 3wx - - -",
+      "solution": "14 14\n- se ew ew ew ew sw - - - - se ew sw\n- ns - - - - ns - - se ew nw - ns\n- ns - - se sw ne sw - ne sw - se nw\nse nw se ew nw ns - ns - - ne sw ns -\nns - ne sw - ne sw ns se ew ew nw ne sw\nne sw - ne sw - ne nw ns - se sw - ns\n- ns - - ne sw - se nw se nw ns se nw\nse nw - - - ne ew nw - ns - ns ne sw\nns - - - se ew sw - se nw se nw - ns\nne sw se ew nw - ne sw ns - ne ew ew nw\n- ns ns - se sw - ns ne ew ew ew sw -\n- ns ne ew nw ne sw ne sw - - - ne sw\n- ns se sw - se nw - ne ew ew sw - ns\n- ne nw ne ew nw - - - - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/078.a.htm",
+      "info": ""
+    },
+    "79_14x14": {
+      "problem": "14 14\n4ex - - - - 4sx - - 1ex - x x - -\n- - - - - - - 3ex - - - - - -\n- 1no - - - 0wo - - - 1eo - - 2wo -\n- - - - - - - - - - - 1no - -\n- 6sx x - 4eo - 4ex - - - - - - x\n5ex - - - - - - - - - - - x -\n- - - 0wx - 2no - - - o - 2nx - -\nx - - - - - 2wo - 2no o - - - -\nx - - - 3nx - - 1so - - - - - -\n- - 1so - - 1sx - - - - - - 4wo -\n- - - 1wo - - - - - - 5nx - o -\n- - 1so - - - 0so - 1eo - - - - -\n- - - - - - - - - - - 1eo - -\n5ex - - 7nx - - 4nx - - 3nx - - - 9nx",
+      "solution": "14 14\n- se ew ew sw - - - - - - - se sw\nse nw se sw ne ew sw - se ew sw se nw ns\nns - ns ns - - ns se nw - ne nw - ns\nne ew nw ns - se nw ne ew ew sw - se nw\n- - - ns - ns - se ew ew nw se nw -\n- se sw ne sw ne sw ne sw - se nw - -\n- ns ns - ns - ne ew nw - ns - se sw\n- ns ne sw ne sw - - - - ne ew nw ns\n- ns - ns - ne sw - - - se sw - ns\n- ns - ne sw - ne ew sw se nw ns - ns\nse nw - - ne ew ew ew nw ns - ns - ns\nns - - se sw - - - - ns se nw - ns\nne sw se nw ns se ew sw se nw ns - se nw\n- ne nw - ne nw - ne nw - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/079.a.htm",
+      "info": ""
+    },
+    "80_14x14": {
+      "problem": "14 14\n7ex - - 1wx - - - 6sx - - - - - 7sx\n- - - - - 3wo - - - - - 5wo - -\n- 7eo - - - - - - 1no - - - 7wo -\n- - - x x - 1wx - - - 0ex - - -\n- - - - - - - - 3wx - - - - -\nx - - - - - 2wo - - - - - - 3nx\nx - 3eo - - - - 2wo - - - 2so - -\n- - - - - - - - - - - - - -\n- 5no - - - - - - - - - - x -\n- - - x 4nx - 3ex - - - 1sx - - -\n- - - - - 0sx - - 2so - - - 1so -\n7ex - 7no - - - - - - - - 6wo - -\n- - - - o o - 2wo - 5nx - - - -\n- 8nx - - - - - - - - 1nx - - -",
+      "solution": "14 14\n- se sw - se ew sw - se ew ew ew sw -\nse nw ne ew nw - ne ew nw - - - ne sw\nns - se ew ew ew ew sw - se ew sw - ns\nne sw ns - - - - ne ew nw - ns - ns\n- ns ns - se ew ew sw - se ew nw se nw\n- ns ne sw ne sw - ne sw ns - - ns -\n- ns - ne sw ne sw - ns ns - - ne sw\nse nw se sw ns - ne sw ns ne ew ew ew nw\nns - ns ne nw - - ns ns - - - - -\nne sw ns - - - - ns ne sw - se ew sw\n- ns ne sw - - - ns - ne ew nw - ns\n- ns - ne ew ew ew nw se ew sw - se nw\n- ne ew sw - - - - ns - ne sw ne sw\n- - - ne ew ew ew ew nw - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/080.a.htm",
+      "info": ""
+    },
+    "81_8x8": {
+      "problem": "8 8\n- - - - 2sx - - -\n- - - - - - 3so -\n- 1no - 2eo - - - -\n- - 1wo - - 2so - 3sx\n3nx - - - - - - -\n- - - - - - 1so -\n- 2no - - x - - -\n- - - 4nx - 1ex - -",
+      "solution": "8 8\nse sw se sw - se ew sw\nns ne nw ne sw ns - ns\nns - - - ne nw se nw\nne sw - se sw - ns -\n- ne sw ns ne sw ne sw\nse ew nw ns - ns - ns\nns - se nw - ne sw ns\nne ew nw - - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/081.a.htm",
+      "info": ""
+    },
+    "82_8x8": {
+      "problem": "8 8\n- - - - - 3sx - -\n- - - 3so - - - -\n- - 1no - - - 2wo -\n- - - - 1sx - - -\n2nx - - - - - - 1wx\n- - - - - o - -\n- - 3no - - 1wo - -\n5ex - - - - - - 4nx",
+      "solution": "8 8\nse sw se ew sw - se sw\nns ne nw - ns se nw ns\nne sw - se nw ns - ns\n- ne sw ns - ns se nw\n- - ns ns se nw ns -\nse ew nw ne nw - ne sw\nne sw - - - - se nw\n- ne ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/082.a.htm",
+      "info": ""
+    },
+    "83_10x10": {
+      "problem": "10 10\n5sx - - - - - - 1ex - -\n- - 1wo - - 2eo - - - -\n- - - 0no - - - 1eo - -\n- - 0no - - 1wx - - - 2wx\n- - - - 1nx - - - - -\n- 1eo - 1ex - - - 2so o -\n- - - - - - - - - -\n2ex - 2no - - - - - - -\n2ex - - 1wo - - 2nx - 4no -\n- 3nx - - - - x - - -",
+      "solution": "10 10\n- se ew ew ew ew sw - se sw\nse nw - - - - ne ew nw ns\nns - - - se ew sw - se nw\nns - - se nw - ne sw ns -\nns - se nw - se ew nw ne sw\nns - ns - se nw - - - ns\nne sw ne sw ne ew ew ew sw ns\n- ns - ne sw - - se nw ns\n- ne sw - ne sw - ns - ns\n- - ne ew ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/083.a.htm",
+      "info": ""
+    },
+    "84_10x10": {
+      "problem": "10 10\n2sx - - - 5sx - - 4sx - 3wx\n- - 4eo - - - - - - -\n- 1no - - - - 1eo - - 3sx\n- - - - 1ex - - - 1nx -\n2nx - 0wo - - - - - - 3wx\n- - - 1so - - - 1eo - -\n- 3nx - - - 0sx - - - -\n3ex - - - - - 1sx - - -\n- - - 3no - - - - 3no -\n- 4nx - - - x - - - -",
+      "solution": "10 10\n- se ew sw - se sw - - -\nse nw - ne ew nw ne ew sw -\nns - se ew ew sw - se nw -\nne sw ne sw - ne sw ns - -\n- ns - ne sw se nw ne sw -\n- ne sw - ns ne sw - ne sw\n- - ne sw ns - ne sw se nw\n- se ew nw ns - - ns ne sw\n- ne sw - ns - se nw - ns\n- - ne ew nw - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/084.a.htm",
+      "info": ""
+    },
+    "85_12x12": {
+      "problem": "12 12\n- 4sx - x x - x x - - - 2wx\n5sx - - - - - - - - 6wo - -\n- - 0no - - - - 3wo - - - -\n- 3eo - - 2sx - - - - - o -\n- - - - - - - - 0ex - 5wo -\n3sx - - - - - 1sx - - - - -\n- - - - 4eo - - - - - - 2sx\n- 1so - - - 2so - - - - - -\n- - - 1sx - - - - 3nx - 4wo -\n7ex - - - - - - - - - - -\n- - 4no - - - - 1eo - - - 6nx\n- - - - 2nx - - - - - 7wx -",
+      "solution": "12 12\n- - - - - - - - se ew sw -\n- se ew ew ew sw se ew nw - ne sw\nse nw - se ew nw ns - se sw - ns\nns - se nw - se nw se nw ns - ns\nne sw ne ew sw ne ew nw - ns - ns\n- ns se sw ne sw - se ew nw se nw\nse nw ns ns - ne ew nw se ew nw -\nns - ns ne sw - se ew nw se ew sw\nne ew nw - ne sw ne sw - ns - ns\n- se ew ew ew nw - ne ew nw se nw\nse nw - se ew sw - - - se nw -\nne ew ew nw - ne ew ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/085.a.htm",
+      "info": ""
+    },
+    "86_12x12": {
+      "problem": "12 12\n7sx - - - - - - - - - - 8wx\n- - - - - - 2so - - o - -\n- - o o - - - 1so 3so - - -\n- - - - - 3wx - - - - - 1nx\n- - - 0sx - - - - - - - -\n- 4eo - - - 1no - - - - 3no -\n- - o o 1eo - - - 2wx - - -\n4ex - - - - - 4wx - - - - -\n- - - - - - - - - - - -\n- 1eo - 0wo - 0wo - 0wo - - 1so -\n- - - - - - - - - 7wo - -\n3ex - - 1nx x - - 1wx - - - 7nx",
+      "solution": "12 12\n- se sw se ew ew ew ew ew ew sw -\nse nw ne nw se sw - - - - ne sw\nns - - - ns ne sw - - - se nw\nns se ew ew nw - ne ew ew sw ns -\nns ne sw - se ew ew sw se nw ne sw\nns - ne ew nw - se nw ne sw - ns\nne sw - - - se nw - - ns - ns\n- ne ew ew ew nw - - - ns - ns\nse ew ew ew ew ew ew ew sw ns - ns\nns - - - - - - - ne nw - ns\nne sw se ew ew ew ew ew sw - se nw\n- ne nw - - - - - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/086.a.htm",
+      "info": ""
+    },
+    "87_12x12": {
+      "problem": "12 12\n8sx - 2sx - - - - 2ex - - - 5wx\n- - - - 3wo - - - - - - -\n- - - 2so - - 2sx - - 3so - -\n- 3so - - - 1nx - - - - - -\n- - - - - - - 2no - - - -\n- 4eo - - - - o - - x - 3nx\n- - - - - 3wo - - - - - -\n- - - - - - - - - - 2no -\n- - 1ex - 1ex - - - 1wx - - -\n6ex - - - - - 2eo - - - - -\n- - 1wo - - 2wo - - 4no - - 4wx\n- - - - - - - - - - 4nx -",
+      "solution": "12 12\n- - - se ew ew sw - se ew sw -\nse ew ew nw - se nw se nw - ne sw\nns - - - se nw - ns - - - ns\nns - se sw ns - se nw se ew sw ns\nns - ns ne nw se nw - ns - ne nw\nns - ne ew ew nw - se nw - - -\nns se ew ew sw - - ns se ew ew sw\nns ns - - ne sw - ns ne sw - ns\nne nw - - - ns - ns - ns se nw\n- se ew ew ew nw - ne ew nw ns -\nse nw - se sw - se sw - se nw -\nne ew ew nw ne ew nw ne ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/087.a.htm",
+      "info": ""
+    },
+    "88_12x12": {
+      "problem": "12 12\n- - - x - - - - - - - 5sx\n4ex - - - - - - 3wo - - - -\n- - - - 3so - - - - 4wo - -\n- 3eo - - - 3so - 4sx - - - -\n- - - 2ex - - - - - - - 3sx\n2nx - - - - - - - 1ex - - -\n- - 2so - - - - - - - - -\n- 1so - - - - 3nx - - - - 4wx\n- - - - 1wx - - - - o - -\n- 2no o - - - - 1eo - - 4no -\n- - - - - o o - - - - -\n6nx - - 4ex - - - - 3nx - - 5wx",
+      "solution": "12 12\n- - - - se ew ew ew ew ew sw -\n- se ew ew nw - - - - - ne sw\nse nw se sw - - se ew sw - - ns\nns - ns ne sw - ns - ne sw se nw\nne ew nw - ne sw ne sw - ns ns -\n- se ew ew ew nw se nw - ns ne sw\nse nw - se sw se nw se sw ne ew nw\nns - se nw ne nw - ns ne ew sw -\nns - ne sw - se ew nw - - ne sw\nns - - ne ew nw - - se sw - ns\nne sw se ew sw - - se nw ns se nw\n- ne nw - ne ew ew nw - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/088.a.htm",
+      "info": ""
+    },
+    "89_14x14": {
+      "problem": "14 14\n- 4ex - - 5sx - - - - - 5sx - - -\n- - - - - - 5wo - - - - - - -\n- 4eo - - - 1no - - - 1eo - - 5so -\n- - - 4ex - - - 2ex - - - 3wo - -\n- - - - - - - - - - - - - -\n- 3so - - - - 2eo - - x - - - 4wx\n- - 3no - - - - 4so - x - 3wo - -\nx - - - 4ex - - - - - - - - 6wx\nx - - - - - 2eo - - - 4no - - -\n- - - 1so - - - - - 5wo - - 5nx 3nx\n- - 1wo - - 4ex - - - o - - - -\n- 1eo - - - x 0ex - o - o - - -\n- - o o - x x - o - - o - -\n7nx - - - - x - - - - - - - 8wx",
+      "solution": "14 14\n- - - - - se ew sw se sw - - se sw\nse ew ew ew ew nw - ns ns ne sw se nw ns\nns - se ew sw - se nw ns - ne nw - ns\nns - ns - ne ew nw - ns se sw - se nw\nns - ns se ew ew ew sw ne nw ne sw ns -\nns - ne nw se sw - ne sw - se nw ns -\nne sw - se nw ne sw - ns - ns - ns -\n- ne ew nw - se nw se nw se nw se nw -\n- - se ew ew nw - ne ew nw - ns - -\n- se nw - se ew ew ew sw - se nw - -\nse nw - se nw - - se nw - ne ew ew sw\nns - - ne sw - - ns - - - - - ns\nne sw - - ns - - ns - - - - se nw\n- ne ew ew nw - - ne ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/089.a.htm",
+      "info": ""
+    },
+    "90_14x14": {
+      "problem": "14 14\n- - 3ex - 5sx - - - 2wx x 2sx - - -\n- - - - - 2sx - - - - - - 7wo -\n- 5so - - - - - - o - - 2wo - -\n- - - - 1no - - - - - - - - 2nx\n- 5eo - - - 1no - - - - 2sx - - -\n- - - 5ex - - - 3sx - - - - 2no -\n0sx - - - - 2ex - - - 1eo - 3no - -\n- - - 1wo - - 4nx - - - - - - 4sx\n- - 0wo - - x - - - 3ex - - - -\n- - - - - x - 1so - - - o o -\nx - - - 1wx - - - - - - - o -\n- - 0wo - - - 4eo - - - - - - -\n- - - 7eo - - - - - - - 1eo - -\n- 4ex - - - - - 4nx - 2wx - - - 4wx",
+      "solution": "14 14\nse sw - - - - se sw - - - se ew sw\nns ne ew ew sw - ns ne ew ew ew nw - ns\nns - se sw ne sw ns - - - - - se nw\nns - ns ns - ne nw - - se ew sw ns -\nns - ns ne sw - se ew ew nw - ns ne sw\nne ew nw - ne ew nw - se ew ew nw - ns\n- - se ew sw - - se nw - - - se nw\n- se nw - ns - - ns se ew ew ew nw -\n- ns - se nw - se nw ns - se ew ew sw\n- ns se nw - - ns - ns se nw - - ns\n- ns ne sw - se nw se nw ne ew sw - ns\n- ns - ne ew nw - ne ew ew ew nw - ns\n- ne sw - se ew ew ew ew ew sw - se nw\n- - ne ew nw - - - - - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/090.a.htm",
+      "info": ""
+    },
+    "91_8x8": {
+      "problem": "8 8\n3sx - - - - - - 5wx\n- - - 3so - - - -\n- 1no - - - - 2so -\n- - 1so - 1nx - - -\n1sx - - - - - - 2wx\n- - - 2no - - - -\n- - 1no - - - 2wo -\n4ex - - - 3nx - - -",
+      "solution": "8 8\n- se ew ew ew ew sw -\nse nw - - se sw ne sw\nns - - se nw ns - ns\nne sw - ns - ns se nw\n- ne sw ne sw ns ns -\nse ew nw - ns ns ne sw\nne sw - se nw ns - ns\n- ne ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/091.a.htm",
+      "info": ""
+    },
+    "92_8x8": {
+      "problem": "8 8\nx - - - 3sx - - -\n- - - - - - 5wo -\n- - - - - 2so - -\n- - - - - - - 3wx\n- - - 1sx - - - 2wx\n- 1so - - - 1so - -\n- - 2eo - - - 3wo -\n4nx - - - 2ex - - -",
+      "solution": "8 8\n- - - - - se ew sw\nse ew ew ew ew nw - ns\nne ew sw se sw - se nw\nse sw ne nw ns se nw -\nns ne sw - ns ne sw -\nns - ne ew nw - ne sw\nne sw - se ew sw - ns\n- ne ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/092.a.htm",
+      "info": ""
+    },
+    "93_10x10": {
+      "problem": "10 10\n4sx - - - - - - 5wx - -\n- - 3eo - - 2wo - - - -\n- - - - - - 3wo - - -\n1nx - - - 1nx - - o - 2nx\n- - - - - 1wx - o - -\n- - - - - - - - o -\n- 2no - - 2ex - - - - -\n- - 2eo - - - - 1no - -\n- - - - - - 1eo - - -\n- - - 3nx - - - - - 6wx",
+      "solution": "10 10\n- se ew ew ew ew sw - se sw\nse nw - se sw - ne ew nw ns\nne ew sw ns ne sw - - se nw\n- - ne nw - ne sw - ns -\n- se sw - - - ns - ne sw\nse nw ns - - - ne sw - ns\nns - ne sw - se ew nw - ns\nne sw - ne ew nw - - - ns\nse nw se ew sw - - - se nw\nne ew nw - ne ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/093.a.htm",
+      "info": ""
+    },
+    "94_10x10": {
+      "problem": "10 10\n5ex - - - - - 4sx - - -\n- - 2eo - - - - - 4so -\n- - - - - - - 4wo - -\n- 3eo - 0wx - - - - - 2nx\n- - - - - 2no - - - -\n2nx - - - - - - 0ex - -\n- - - - - 1wx - - - -\n- 1so - 2no - - - 2wo - -\n- - - - 2wo - - - - -\n- - 2ex - - - - x - -",
+      "solution": "10 10\n- se ew sw se sw - se ew sw\n- ns - ne nw ns se nw - ns\nse nw se ew ew nw ns - se nw\nns - ns - se ew nw se nw -\nne sw ns se nw - se nw se sw\n- ns ne nw se ew nw - ns ns\nse nw - - ns - se ew nw ns\nns - - - ne ew nw - se nw\nns se ew sw - se ew ew nw -\nne nw - ne ew nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/094.a.htm",
+      "info": ""
+    },
+    "95_12x12": {
+      "problem": "12 12\n5sx - - - - - - 6sx - - - 7wx\n- - 2so - 4so o - - - - - -\n- 1no - - - - 2eo - - - 4wo -\n- - - - - - - - 4wo - - -\n- 1nx - - - - 1nx - - 1eo - -\n3ex - - - - 1nx - - - - 4so -\n- - 1wo - - - - - - - - -\n- 2so - - - 1so - - 2wx - - -\n- - - - - - - - - - - x\n1ex - - 4no - - - 1eo - - - -\n- - o - - - - - 1eo - - x\n- - - - - - 5wx - - - x x",
+      "solution": "12 12\n- se ew ew ew ew sw - se ew sw -\nse nw - - - - ne sw ne sw ne sw\nns - se sw se sw - ne ew nw - ns\nne ew nw ns ns ne ew sw - - se nw\n- - - ne nw - - ns - - ne sw\n- se ew sw - - - ns se sw - ns\nse nw - ns se ew sw ne nw ns se nw\nns - se nw ns - ne sw - ns ns -\nne sw ne ew nw - - ne sw ns ns -\n- ns - - - - - - ne nw ns -\nse nw - - - se ew sw - se nw -\nne ew ew ew ew nw - ne ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/095.a.htm",
+      "info": ""
+    },
+    "96_12x12": {
+      "problem": "12 12\n- - 5ex - - - - - - - - 6wx\n- - - - - 1wx - - 1eo - - -\n- 1eo - - - - - - - 0eo - -\n- - - 0wo - 3ex - - - - - -\n- 2so - - - - - - 1ex - - 3wx\n- - - - - - o - - - - -\n3ex - - - - - 2wo - - 1no - -\n- - - - 0sx - 2eo - - - 3wo -\n- 1so - 3nx - - - - 0ex - o -\n- - - - - - - - - - - -\n- - - o - 1wo - 4no - 3nx - -\n- - - - - - - - - - 8wx 7nx",
+      "solution": "12 12\nse sw - se sw - se ew ew ew sw -\nns ne sw ns ns - ns - - - ne sw\nns - ne nw ns - ns - - - - ns\nns - - - ns - ns se ew sw se nw\nns - - - ne ew nw ns - ne nw -\nne ew ew sw se sw - ns se ew ew sw\n- se sw ne nw ns - ne nw - - ns\nse nw ns - - ns - se ew sw - ns\nns - ns - - ns se nw - ns - ns\nne sw ne ew ew nw ne ew sw ne sw ns\nse nw - - - - - - ns - ne nw\nne ew ew ew ew ew ew ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/096.a.htm",
+      "info": ""
+    },
+    "97_12x12": {
+      "problem": "12 12\n4sx - - - - 2sx - - - - - 7wx\n- - o o - - - - - - - -\n- 6so - - - - - 0no - - 4so -\n- - - - x 3ex - - - - - -\n2ex - 1no - - x - - 2sx - - -\n- - - - - - - - - - - 3wx\n- - - - - - - - - 2no - -\n2sx - 1eo - 1sx - - - 2no - - -\n- - - - - - - - - - - 4wx\n- 1so - - - - - - - - - -\n- - - - 1eo - 9no - - 1wo - -\n9ex - - - - - - - - - - 3nx",
+      "solution": "12 12\n- se ew ew sw - se ew ew ew sw -\nse nw - - ne sw ns - - - ne sw\nns - se ew ew nw ns - se sw - ns\nne sw ne sw - - ns se nw ne ew nw\n- ns - ne sw - ns ns - se sw -\n- ns se ew nw - ns ns se nw ns -\n- ns ne sw - - ns ne nw - ns -\n- ns - ns - - ns - - se nw -\nse nw se nw se sw ns - se nw - -\nns - ne ew nw ne nw - ne ew ew sw\nne sw - - - - - - - - se nw\n- ne ew ew ew ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/097.a.htm",
+      "info": ""
+    },
+    "98_12x12": {
+      "problem": "12 12\n- - - - 5sx - - 3wx - - - -\n- - 3so - - - - - - 3wo - x\nx - - - - o o - - - - 6sx\n- - - 2sx - - - - 1sx - - -\n3sx - - - - - 2wx - - - - -\n- - 1eo - 1eo - - - - - - -\n- 5eo - - - - - - - - - -\n- - - 2sx - - - 2wx x - - -\n- - 3nx - - - x - - - - 4nx\n4ex - - - 2eo - - - - 4no - -\n- - 4eo - - - - - 2no - - -\n- - - - - 8nx - - - - - -",
+      "solution": "12 12\n- se ew sw - se sw - se ew sw -\n- ns - ns se nw ne ew nw - ns -\n- ns se nw ns - - se ew sw ns -\n- ns ns - ns se ew nw - ns ne sw\n- ns ne ew nw ns - se ew nw - ns\nse nw - - - ns se nw - - - ns\nns - se ew sw ns ne ew ew sw - ns\nne ew nw - ns ns - - - ns se nw\n- - - se nw ns - - se nw ns -\n- se ew nw - ns - se nw - ne sw\nse nw - se ew nw se nw - se sw ns\nne ew ew nw - - ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/098.a.htm",
+      "info": ""
+    },
+    "99_14x14": {
+      "problem": "14 14\n5sx - - 2sx - - - 4ex - - - - - 7wx\n- - - - - 7so - - - 6so - 1eo - -\n- - 1no - - - 2wo - 3so - - - 0so -\n- - - - 1nx - - - - - 1sx - - -\n- 4eo - 1nx - - 3ex - - - - - - 4wx\n- - - - - - - - 2sx - - - - -\n4nx - - 1no - - 1no - - - - - - 3sx\n- 5ex - - - - - - - - 1no - - -\n- - - 3ex - - - - 1so - - - 0so -\n- - - - - - - 2wo - - 1nx - - -\nx - 4eo - - - - - - - - - - 4wx\nx - - - o - - - - 5no - - - -\n- - 5eo - - - - o o - - - - -\n- - - - - 4wx - - - - 7wx - - 7wx",
+      "solution": "14 14\n- se sw - se ew sw - se ew ew ew sw -\nse nw ne ew nw - ne ew nw - - - ne sw\nns - - se ew sw - - - se ew sw - ns\nns - se nw - ne ew sw se nw - ne ew nw\nns - ns - se sw - ne nw se ew sw - -\nne sw ne ew nw ne ew sw - ns se nw - -\n- ne sw - se sw - ne sw ns ne sw - -\n- - ne ew nw ns - - ne nw - ne ew sw\n- se sw - se nw - - - se ew sw - ns\n- ns ne sw ns se sw - se nw - ne ew nw\n- ns - ne nw ns ns - ne ew ew sw - -\n- ns - - - ns ns - - - - ne ew sw\nse nw - - se nw ns - - se ew ew ew nw\nne ew ew ew nw - ne ew ew nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/099.a.htm",
+      "info": ""
+    },
+    "100_14x14": {
+      "problem": "14 14\n5sx - - - - 3wx - - - - 0sx - - 7wx\n- - - o - - - - 5so - - - - -\n- - - - 1no - - - - - o o - -\n- - 0nx - - - - 1nx - - - - 4so -\n8ex - - - - - - - 3ex - - - - -\n- - - - - - - - - - - 4wo - 4sx\nx - x x - o 3no - - - - - - -\n- - - - - - o - - 2so - 2no - -\n- - - - - - - - - - - - - 10wx\n- - x x - 3ex - 1wo - - 0nx - - -\n- - - - - - - - - - - - - -\n- 3no - 1so - - - o o - - - o -\n- - 4eo - - - 3eo - - - 4wo o - -\n7ex - - - 5ex - - - 5nx - - - - 7nx",
+      "solution": "14 14\n- se ew ew sw - se ew ew sw - se sw -\nse nw - - ne sw ne sw - ne ew nw ne sw\nne ew ew sw - ne sw ne sw - - - - ns\n- - - ne ew sw ns - ne ew ew sw - ns\n- se ew ew ew nw ne sw - se ew nw se nw\n- ne ew ew sw - - ns se nw - - ns -\n- - - - ns - - ns ns - - - ne sw\nse ew ew ew nw - - ns ns - - - se nw\nne ew ew ew ew ew sw ne nw se ew ew nw -\nse sw - - - - ns - se nw - se ew sw\nns ne ew ew ew ew nw - ne ew ew nw - ns\nns - - - se sw - - - - - - - ns\nne sw - se nw ns - se ew sw - - se nw\n- ne ew nw - ne ew nw - ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/100.a.htm",
+      "info": ""
+    },
+    "101_8x8": {
+      "problem": "8 8\n4sx - - - - - - 5wx\n- - 3so - - 2wo - -\n- - - - - - - -\n- - - - - - - 1nx\n- - - 1wx - 1no - -\n- 3eo - - - - - -\n- - - - 4no - - 2wx\n4ex - - - - - 2nx -",
+      "solution": "8 8\n- se ew ew ew ew sw -\nse nw - se sw - ne sw\nne ew sw ns ns se ew nw\nse sw ne nw ns ne sw -\nns ne sw - ns - ne sw\nns - ns se nw se ew nw\nne sw ne nw - ns - -\n- ne ew ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/101.a.htm",
+      "info": ""
+    },
+    "102_8x8": {
+      "problem": "8 8\n4sx - - - - 1ex - -\n- - o 3so - - - -\n- 1no - - - - - -\n- - - - - - - 3wx\n2ex - - - - 2so - -\n- - - 1wx - - 1so -\n- 2eo - - - - - -\n- - - - - - - 4wx",
+      "solution": "8 8\n- se ew ew sw - se sw\nse nw - - ne ew nw ns\nns - se sw se ew ew nw\nne sw ns ns ne ew sw -\n- ns ns ne sw - ne sw\nse nw ns - ne sw - ns\nns - ne sw - ns se nw\nne ew ew nw - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/102.a.htm",
+      "info": ""
+    },
+    "103_10x10": {
+      "problem": "10 10\n1sx - 0wx - - - - 2wx - -\n- - - - - - - - - -\nx - - - 2so - 2sx - 1no -\n- - - - - - - - - -\n- - - 0nx - - - 0wo - 3nx\n4ex - - - - - - - - -\n- 4nx x - - - 3nx - - -\n- - - - - - - - - 1sx\n- - 1wo - o - o - - -\n8ex - - - - - - - - -",
+      "solution": "10 10\n- - - - se ew sw - se sw\n- se ew ew nw se nw se nw ns\n- ns - - - ns - ns - ns\n- ns se ew sw ns se nw se nw\n- ns ns - ns ns ns - ns -\n- ne nw se nw ns ne sw ne sw\n- - - ns - ns - ns se nw\nse ew ew nw - ne ew nw ns -\nne sw - - - - - - ne sw\n- ne ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/103.a.htm",
+      "info": ""
+    },
+    "104_10x10": {
+      "problem": "10 10\n6ex - - - - - - - 5sx -\n- - 1eo - o 2so 4so - - -\n- o - - - - - - - -\n- - - - - x - - - 2wx\n- - - 1nx - - - 0wo - -\n- o - - 1sx - - - - 3wx\n- - 3no - - - - 1ex - -\n4ex - - 2no - - - - - -\n- - - - - - - - 4wo -\n- - - - 3wx - - - - -",
+      "solution": "10 10\n- se ew ew ew ew ew sw - -\nse nw - - - - - ne sw -\nns - se sw se ew ew sw ns -\nns - ns ne nw - se nw ns -\nns - ns - - - ns - ns -\nns - ne sw - - ne ew nw -\nne sw - ne ew ew sw - se sw\n- ne sw - se sw ne ew nw ns\nse ew nw se nw ns se sw - ns\nne ew ew nw - ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/104.a.htm",
+      "info": ""
+    },
+    "105_12x12": {
+      "problem": "12 12\n7ex - - - - 3wx - - - - - 4sx\n- - o o - - - - o o - -\n- - o - 2so - 1ex - - - 1no -\n4sx - - - - - - - - - - -\n- - - 2ex - - 2wo - - - - -\n- 2so - - 2ex - - - 2nx - - 3wx\n- - 2no - - - - - - - 4wx -\n3nx - - 1so - - - 1wo - - - 3wx\n- - o - - 4nx - - - 4wo - -\n- o - - - - - - - - 5wo -\n- - - - - - 5wo - x - - -\n5nx - x - x - - - - x - 2wx",
+      "solution": "12 12\n- se ew ew sw - se ew ew ew sw -\nse nw - - ne sw ne sw - - ne sw\nne sw - - - ns - ns se sw - ns\n- ns se ew sw ne ew nw ns ns se nw\nse nw ns - ne sw - se nw ns ns -\nns - ne sw - ne sw ns - ne nw -\nne sw - ne ew sw ns ne sw - - -\n- ns - - se nw ns - ne ew sw -\nse nw - se nw - ne ew sw - ne sw\nns - - ne ew ew ew sw ne sw - ns\nne ew ew ew ew sw - ns - ne ew nw\n- - - - - ne ew nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/105.a.htm",
+      "info": ""
+    },
+    "106_12x12": {
+      "problem": "12 12\n3sx - - - - - - - - - - 9wx\n- - - - - - 2eo - - 4so - -\n- - - 2eo - - - - - - - -\n- - 2so - - - - - 2sx - - 4wx\n- - - - 0nx - - 2ex - - - -\n- - 2sx - - - - - - - - -\n- x - - o - - - - - 3no -\nx - - - - - - 2wx - - - -\n- 3ex - - o - 4nx - - - - 4nx\n3nx - - 3no - - - - o o - -\n- - 0wo - - 3ex - - - - - -\n4ex - - - 2wx - - - 3nx - - 5nx",
+      "solution": "12 12\n- se ew ew ew ew ew ew ew ew sw -\nse nw - - - - - se sw - ne sw\nne sw - - - - - ns ne sw se nw\nse nw - se ew sw se nw - ns ns -\nns se ew nw - ns ns - se nw ne sw\nne nw - se ew nw ns se nw - - ns\n- - se nw - - ns ne sw - - ns\n- - ne sw - se nw - ne sw se nw\n- - se nw - ns - se ew nw ns -\n- se nw - se nw se nw - - ne sw\n- ns - se nw - ns se ew sw se nw\n- ne ew nw - - ne nw - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/106.a.htm",
+      "info": ""
+    },
+    "107_12x12": {
+      "problem": "12 12\n- - - - x - - - 2sx - - x\n3ex - 4so - - - - - - - - -\n- - - - - - - 1eo - - - -\n- 3so - - x 1nx - - 1eo - - 0nx\n- - - - - - 0ex - o - 3wx -\n- - - - o - - - - - - 2sx\n2sx - - - - - - - - 1eo - -\n- 6ex - - - - - 2ex - - - -\n- - - - - - 0sx - - - - 7wx\n- 1so - - 0so - - - - 1eo - -\n- - 5eo - - - 4no - - - - -\n4nx - - - 2wx - - - 1ex - - 5wx",
+      "solution": "12 12\n- se ew sw - - se sw - se sw -\n- ns - ne ew sw ns ne sw ns ns -\nse nw se ew ew nw ns - ne nw ns -\nns - ns - - - ne sw - se nw -\nne sw ns se ew sw - ns - ns - -\n- ns ne nw - ne ew nw - ne sw -\n- ne sw - - - se ew sw - ne sw\n- - ne ew ew ew nw - ne sw se nw\nse ew ew ew ew sw - se ew nw ns -\nns - - - - ne ew nw - - ne sw\nne sw - se ew sw - se ew sw se nw\n- ne ew nw - ne ew nw - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/107.a.htm",
+      "info": ""
+    },
+    "108_12x12": {
+      "problem": "12 12\n- - - - - 3sx - 5sx - - - -\n- - - 2wo - - - - - 1eo - -\n- 0no - - - - 2so - - - - 5sx\n- - - 4ex - - - - 1nx - - -\n- x - - - - 2sx - - - 2so -\n- 2sx x - o - - - - - - -\n2ex - - - - - - - - - 2so -\n- - - - - - - 2so - - - -\n- 1so - - - - - - - 1sx - -\n- - - - x - 2wo - - - 3nx -\nx - - - x - - - 3no - - 5wx\n- - - 4nx - - x - - - - -",
+      "solution": "12 12\n- - se ew sw - - - se ew ew sw\nse ew nw - ne ew ew ew nw - se nw\nns - se ew sw - - se ew sw ns -\nne ew nw - ne ew ew nw - ns ne sw\n- - - se ew sw - se sw ns - ns\n- - - ns - ne sw ns ne nw - ns\n- se sw ns - - ne nw - - - ns\nse nw ne nw se ew sw - se ew sw ns\nns - se ew nw se nw se nw - ne nw\nne sw ne sw - ns - ne ew sw - -\n- ne ew nw - ne ew sw - ne sw -\n- - - - - - - ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/108.a.htm",
+      "info": ""
+    },
+    "109_14x14": {
+      "problem": "14 14\n- x x - 4ex - - - x x - - - 4wx\n- - - - - - 2eo - - - - 0eo - -\n- 4eo - - - 2eo - - - 0no - - - 4sx\n- - - 3ex - - - 5sx - - - - - -\n2nx - - - 2ex - - - 1ex - 1wx - - -\n- - - - - - 0wo - - - - - 2so -\nx - - - 1wx - - - 2so - - - - -\nx x x - - - 2nx - - - x - x -\n- - - - 3so - - - - - x - - 5wx\n- 3no - - - - - - 3no - - - - x\n- - - 5ex - o - - - - - - - -\n- 1so - - - - - - - 2nx - - 4wo -\n- - 6no - - - - - x - - 3wo - -\n6nx - - - 4ex - - - x - - - - 6wx",
+      "solution": "14 14\n- - - - - se ew sw - - se ew sw -\nse ew ew ew ew nw - ns se ew nw - ns -\nns - se ew sw - se nw ns - se sw ns -\nne sw ns - ne sw ns - ne ew nw ns ns -\n- ns ns - - ns ne sw - - - ns ne sw\n- ns ns - - ns - ne ew ew ew nw - ns\n- ne nw - - ne ew sw - se ew ew ew nw\n- - - se ew sw - ns se nw - - - -\nse ew ew nw - ne sw ns ne sw - - - -\nns - se ew sw - ns ns - ne ew ew sw -\nns - ns - ns - ne nw se ew ew sw ne sw\nns - ne sw ns - se ew nw - se nw - ns\nne sw - ns ne sw ns - - se nw - se nw\n- ne ew nw - ne nw - - ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/109.a.htm",
+      "info": ""
+    },
+    "110_14x14": {
+      "problem": "14 14\n- - - 4ex - - - 5sx - x x - - -\n- 6eo - - - 2wo - - - - - - 4so -\n- - 2so - - - 4eo - - - - - - -\n6ex - - - 5ex - - - - - 5so - - -\n- - - - - 1nx - x x - - - - -\n- 1no - - x - - - - - - o - 3nx\n- - - - x - - 2eo - - - 3wo - -\nx - o - 5ex - - - - 3nx - - - -\n3ex - - - - - 2so - 2nx - - - - x\n- - o - - - - - - - 1eo - - -\n- - - - 3ex - - - 1sx - - - - x\n- 5no - - - - 2wo - - - - - - -\n- - - 8no - - - 3eo - - - 5wo - -\n7ex - - - - 4ex - - - 5nx - - - 5nx",
+      "solution": "14 14\nse ew sw - se ew sw - - - - se ew sw\nns - ne ew nw - ne ew ew sw se nw - ns\nne sw - se ew sw - se sw ne nw se ew nw\n- ne sw ns - ne ew nw ne sw - ne ew sw\nse ew nw ns - - - - - ne sw - se nw\nns - se nw - - se ew ew sw ns - ns -\nne sw ne sw - - ns - se nw ns - ne sw\n- ns - ns - se nw se nw - ne ew ew nw\n- ns - ns se nw - ns - se ew sw - -\n- ns - ns ne ew sw ns - ns - ne sw -\nse nw - ns - se nw ns - ne sw se nw -\nns - - ne ew nw - ne ew ew nw ne ew sw\nne sw - - se ew sw - se ew sw - se nw\n- ne ew ew nw - ne ew nw - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Castle-Wall/110.a.htm",
+      "info": ""
+    }
+  }
+}

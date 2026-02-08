@@ -1,0 +1,787 @@
+{
+  "count": 130,
+  "count_sol": 130,
+  "name": "Shugaku",
+  "data": {
+    "01_6x6": {
+      "problem": "6 6\n- - - - - -\n1 - - - - 2\n- - 2 - - -\n0 - - - - -\n5 - - - 3 -\n- - - - - 2",
+      "solution": "6 6\n# o x x o #\n- o # x x -\no # - x o #\n- x x x x o\n- x o # - #\nx x x o # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/001.a.htm",
+      "info": ""
+    },
+    "02_6x6": {
+      "problem": "6 6\n- - - - - 0\n- 4 - - - -\n- - - - - -\n- - - - 0 1\n- - - - - -\n- 2 0 - - 1",
+      "solution": "6 6\no # o x x -\n# - # o x o\nx # o x x #\nx x x x - -\no # o x x x\n# - - o # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/002.a.htm",
+      "info": ""
+    },
+    "03_7x7": {
+      "problem": "7 7\n- 2 - - - - -\n- - - 5 5 - -\n- - - - - - -\n- - 4 - - - -\n- - - - - - 2\n- 5 5 - - - -\n- - - - - 1 5",
+      "solution": "7 7\nx - # o x x o\nx # o - - x #\nx o # o x x o\nx # - # o x #\nx o # x x x -\nx - - x o o #\nx x x x # - -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/003.a.htm",
+      "info": ""
+    },
+    "04_8x8": {
+      "problem": "8 8\n1 - - - 5 - - -\n1 - - - 2 - 5 -\n1 - - - - - - -\n5 - 5 - - - - 5\n5 - - - - - - 5\n- - - - - 1 - 5\n- 5 - 3 - - - 5\n- - - 2 - - - 5",
+      "solution": "8 8\n- # o x - o x x\n- # o x - # - x\n- # o x # o x x\n- x - x x x x -\n- x x x o # x -\nx x o # o - x -\nx - # - # o x -\nx o # - # o x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/004.a.htm",
+      "info": ""
+    },
+    "05_8x8": {
+      "problem": "8 8\n- - 3 - - - - 2\n- 3 - - - - - -\n- - - - - - - -\n- - - 0 - - - -\n- - - - - - - -\n- 5 - - - - 4 -\n- - - 3 - 2 - -\n5 5 - - - - - -",
+      "solution": "8 8\no # - # o o # -\nx - # o x x o #\nx # o o # x x x\nx # o - x x o x\nx x x x x o # o\nx - o # x # - #\nx o # - x - # o\n- - o # x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/005.a.htm",
+      "info": ""
+    },
+    "06_10x10": {
+      "problem": "10 10\n2 - - - - - - - - -\n- - 2 - - 2 - - - -\n- - - - - - - 2 - -\n- - - - - 2 - - - -\n2 - - - - - - - - -\n- 2 - - - - - - - -\n- - 2 - - 2 - - 2 -\n2 - - 2 - - - - - -\n- - - - - - - - - -\n2 - - - - - 2 - - -",
+      "solution": "10 10\n- # o x x x x x x x\n# o - # o - # o o x\no x # o o # o - # x\n# x x x # - x # o x\n- # o x x x x x x x\no - # o x # o o # x\n# x - # o - # o - x\n- x x - # o x o # x\n# o x x x x x x x x\n- # o x o # - # o x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/006.a.htm",
+      "info": ""
+    },
+    "07_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- 2 1 - - - - 2 - -\n- - - - - - - - - 1\n- - - - 1 - - 5 - 5\n- 1 - - - - - - - -\n- - - - - - - - 5 -\n2 - 2 - - 2 - - - -\n2 - - - - - - - - -\n- - 1 - - - - 2 3 -\n- - - - - - - - - -",
+      "solution": "10 10\no # o x x x o # o o\n# - - # o x # - x #\nx x x x x x x x x -\nx # o x - # o - x -\no - x x x o x x x x\n# o x o x # o x - x\n- # - # x - # o o x\n- # o x x x o # # o\n# o - # o x # - - #\nx x x x x x x x # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/007.a.htm",
+      "info": ""
+    },
+    "08_10x10": {
+      "problem": "10 10\n- - 3 - - 5 - - - -\n- - - 5 - - - - - 3\n- - - - - 5 - - - -\n- - - - - - - - - 5\n3 - - 3 - 3 - - - -\n- - - - - - - - - -\n5 - - 5 - 5 - 5 - -\n- - 5 - - - - - - -\n- - - - - - - - - 3\n5 - 5 - - 3 - - - -",
+      "solution": "10 10\no # - # o - x x o #\nx o # - x x x o # -\nx x x x x - x x o #\n# o o # o # o x x -\n- # o - # - # o x o\n# o x # o x x x x #\n- x x - x - x - x o\no x - x x x x x o #\n# x x x o # o x # -\n- x - o # - # x o #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/008.a.htm",
+      "info": ""
+    },
+    "09_10x10": {
+      "problem": "10 10\n- - - 2 - - - - - -\n- - - - - 1 - - - -\n- - 5 - - - - 1 - -\n- - - - 5 - - - - 3\n- 4 - - - - 1 - - -\n- - - 5 - - - - 2 -\n5 - - - - 1 - - - -\n- - 1 - - - - 0 - -\n- - - - 1 - - - - -\n- - - - - - 1 - - -",
+      "solution": "10 10\nx o # - # o x x x x\nx x x x x - x # o o\nx o - x o # x - o #\no # o x - x x x # -\n# - # x x x - o o #\no # x - x o # # - x\n- x x x x - x o # x\nx x - o o # x - x x\nx o # # - x x x x o\nx x x x x x - # o #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/009.a.htm",
+      "info": ""
+    },
+    "10_10x10": {
+      "problem": "10 10\n- - 3 - - - 5 - 5 5\n- - - 5 - - - - - -\n- - - - - 1 - - - -\n- - 5 - - - - - 4 -\n1 - - - - - 5 5 - -\n- - 5 5 - - - - - 5\n- 1 - - - - - 1 - -\n- - - - 5 - - - - -\n- - - - - - 3 - - -\n1 2 - 5 - - - 3 - -",
+      "solution": "10 10\no # - # o x - x - -\nx o # - x x x x x x\nx x x x x - x o # o\n# o - x o # o # - #\n- x x x x x - - # o\nx x - - o x x x x -\nx - # o # x o - x x\no o x x - x # # o x\n# # o x x x - # o x\n- - # - x o # - # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/010.a.htm",
+      "info": ""
+    },
+    "11_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - 5 - - - - - 1 -\n0 - - 3 - - - - - -\n- - - - 1 5 - - 3 -\n- - - - - - - 1 - -\n- - 1 - - - - - - -\n- 5 - - 5 2 - - - -\n- - - - - - 2 - - 5\n- 4 - - - - - 5 - -\n- - - - - - - - - -",
+      "solution": "10 10\nx x x x x x x x x x\no # - # o x # o - x\n- o # - x x x o # o\no x o # - - x x - #\n# x x x x x x - # o\nx x - x o # x x x o\nx - # o - - # o x #\no # o x x x - x x -\n# - # o x o # - x o\no # x x x x x x x #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/011.a.htm",
+      "info": ""
+    },
+    "12_10x10": {
+      "problem": "10 10\n- - - - - - 3 - - 5\n- - - - - - - - - -\n- 4 - - - - - - - -\n3 - - - - - - 5 - -\n- - - 5 - - - - - -\n- - - - - - - - - -\n- - - - - 3 2 2 - -\n2 - - - - - - - - -\n2 - - - 5 - - 3 - -\n- - - - - - - - - 5",
+      "solution": "10 10\nx x x x o # - # o -\no # o x x o # o x x\n# - # o x # x x x o\n- # o x x x x - x #\n# o x - x o o o x x\no x x x x # # # o x\n# o x o # - - - # x\n- # x x o # # o x x\n- # o x - o # - # o\n# o x x x x x # o -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/012.a.htm",
+      "info": ""
+    },
+    "13_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - 5 - 4 - - - - -\n5 - - - - 5 - - 3 -\n- - 2 - - - - - - -\n- - - - 5 - - 5 - -\n- 5 - - - 5 - - - -\n- - 1 - - - - - 5 -\n- - - - 5 - 5 - - 5\n- 5 - 5 - - - 1 - -\n- - - - - 5 - - - -",
+      "solution": "10 10\no x x o # o x x x x\n# x - # - # o o # x\n- x x o # - o # - x\nx x - # o o x o # x\nx o # x - # x - x x\nx - x x x - x x x o\nx x - o x x x o - #\nx o # # - x - # x -\nx - x - x x x - x o\nx x x x x - x x x #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/013.a.htm",
+      "info": ""
+    },
+    "14_10x10": {
+      "problem": "10 10\n- - - - 3 - - - - -\n- - - 4 - - 5 - - -\n- - - - - - - 5 - -\n- 5 - - - - - - 2 -\n2 - - - 5 - - - - -\n- - - - - 5 - - - 0\n- 1 - - - - - - 1 -\n- - 3 - - - - - - -\n- - - 2 - - 3 - - -\n- - - - - 2 - - - -",
+      "solution": "10 10\nx x o # - # o x x x\nx o # - # o - x o x\nx x x # o x x - # x\nx - x x x x o # - x\n- # o x - x x x x x\n# o o x x - x o x -\nx - # o x x x # - x\nx x - # x o x x x x\nx o # - x # - # o x\nx x x x x - # o x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/014.a.htm",
+      "info": ""
+    },
+    "15_10x10": {
+      "problem": "10 10\n- - 3 - - - - - - -\n- - - - 1 - - 5 - -\n- 2 - - - - - - - 2\n- - - 2 - - 0 - - -\n- - - - - - - - 5 -\n- 5 - - - - - - - -\n- - - 5 - - 1 - - -\n3 - - - - - - - 5 -\n- - 5 - - 4 - - - -\n- - - - - - - 1 - -",
+      "solution": "10 10\no # - # o x x x x o\nx x # o - # o - x #\nx - # o x x x x x -\nx # o - # o - x o #\nx x x # o # o x - x\no - x x x x x x x x\n# o x - x o - # o x\n- # x x o # o x - x\n# o - x # - # x x x\nx x x x x # o - # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/015.a.htm",
+      "info": ""
+    },
+    "16_10x10": {
+      "problem": "10 10\n- - - - - 2 - - - -\n- 3 - - - - - 1 5 -\n- - 2 - - - - - - -\n- - - 3 - - - - - -\n- - - - 5 5 - - 5 -\n- 1 - - 1 5 - - - -\n- - - - - - 2 - - -\n- - - - - - - 2 - -\n- 5 5 - - - - - 2 -\n- - - - 2 - - - - -",
+      "solution": "10 10\no # o x x - # o x x\n# - # o x # o - - x\nx x - x x x x # o x\nx o # - # o x x x x\nx x o # - - o x - x\nx - o # - - # x x x\nx # o x o # - x o x\nx x x x x x x - # x\nx - - o # x o # - x\nx x o # - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/016.a.htm",
+      "info": ""
+    },
+    "17_10x10": {
+      "problem": "10 10\n- - - - - - 2 - - -\n- - 2 - 5 - - - - 5\n1 - - - - - - 0 - -\n- - 1 - - - - - - -\n- - - - 0 - - - - -\n- 5 - - 0 - 1 - - 0\n- - 0 - - - - 2 - -\n- - - - - 1 - - 1 -\n- - - 1 - - - - - 5\n0 - - - 1 - - 1 - -",
+      "solution": "10 10\no o # o o # - x x x\n# x - # - x # o x -\n- x x x x x x - x o\nx x - x o # x x x #\nx o # x - x x o x x\nx - x x - x - # x -\nx o - x x # o - x x\nx # o # x - o # - x\nx x x - x x x x x -\n- x # o - # o - # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/017.a.htm",
+      "info": ""
+    },
+    "18_12x12": {
+      "problem": "12 12\n2 - - 1 - - - - - - - -\n- - - - - - - 2 - - - -\n- 0 - - - - - - - - - -\n- - - 2 - 3 - - 1 - - -\n1 - 1 - 1 5 - - - - - -\n- - - - - - - - 5 0 - 5\n- - 0 1 - - - - - - - -\n1 - - - - - 0 2 - - - -\n- - - 1 - - 2 - 3 - - -\n- - - - - - - - - - 1 -\n- - 3 - 2 - - - - - - -\n- - - - - - - - 3 - - 0",
+      "solution": "12 12\n- # o - # o x x x x x o\n# o x x x x x - # o x #\no - o x o # o # o x x x\n# x # - # - # o - # o x\n- x - x - - x x x x x x\no x x x x x x o - - x -\n# x - - x # o # o x x x\n- x o # x o - - # o o x\nx x o - o # - x - # # x\nx o # o # o # x # o - x\nx # - # - x x x # o x x\nx x x x x x o # - # o -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/018.a.htm",
+      "info": ""
+    },
+    "19_12x12": {
+      "problem": "12 12\n- - - - - - - - - - - -\n- 3 - - - 5 - - - - 1 -\n- - - 1 - - - - 2 - - -\n- - 1 - - - - - - - - -\n- - - - 4 - - - - - - 1\n- 2 - - - 5 - - - 2 - -\n- - - - - - - - 2 - - -\n- - - - - - - - - 5 - -\n- - 5 - - - 3 - - - - -\n- - - - - 2 - 5 - - - -\n- 1 - - - - - - - - 4 -\n- - - - 2 - - - - - - -",
+      "solution": "12 12\no # o x x x x x x x x o\n# - # o x - x o # x - #\nx o # - o x x x - x x o\nx x - o # o x o # o x #\no x x # - # x x o # x -\n# - x o # - x o # - x x\no # x x x x x # - x x o\no x x o x o # o x - x #\n# x - # o # - # x x x x\nx x x o # - x - x o # o\nx - x x x x x x o # - #\no # o # - # o x x x # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/019.a.htm",
+      "info": ""
+    },
+    "20_15x15": {
+      "problem": "15 15\n1 5 - 5 - 5 5 - - - 1 5 5 5 1\n- - - 2 - 5 5 - 5 5 1 - - - -\n- - - - - - - - - - - - - - 5\n- - 5 0 - - - - 5 - - 5 5 5 5\n2 - 5 - - - 4 - - - - 1 - - -\n- 5 5 - - - - - - - - - - - 1\n- - - - - 1 - 5 - 1 - - - - 2\n1 - 5 - - 3 - - - - - - - - -\n- - 5 - - - - - 5 - 5 - 5 5 1\n- 5 - - 5 - - 5 - 1 - - - - 1\n- 3 - - 5 - - - - - - - - 3 5\n2 - - - - - - 1 - 5 - - - - 2\n1 - - - - 3 - - - 5 5 - 5 - -\n5 5 5 - 5 - - - - - - - - - -\n5 1 - - 5 0 0 5 - 2 - - 1 1 -",
+      "solution": "15 15\n- - o - o - - x o # - - - - -\n# o # - # - - x - - - # o o #\no x x x x x x x x x x x x x -\n# o - - x o # o - x o - - - -\n- # - x x # - # o x # - x o #\no - - x o # # o x x x x x o -\n# x x x o - o - x - # o x # -\n- x - x # - # x x o x x x o #\nx x - x o # x x - # - x - - -\no - o x - x x - x - x x o # -\n# - # x - o o # x x x o # - -\n- # o x o # o - x - x x o # -\n- # o x # - # x x - - x - o #\n- - - x - x x x o # o x x x o\n- - # o - - - - # - o # - - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/020.a.htm",
+      "info": ""
+    },
+    "21_10x10": {
+      "problem": "10 10\n- - - - 2 - - - - -\n3 - - - - - 5 - - -\n- - - - - - - - - -\n- - 3 - - 2 - - 1 -\n- - - 5 - - - - - -\n- - - - - - 2 - - -\n- 3 - - - - - - 1 -\n- - - 1 - 5 - - - -\n- - - - - - - - 5 -\n- 1 - - 0 - - - - -",
+      "solution": "10 10\n# o x x - # o x x x\n- # o x # o - x o x\n# o x x x x x x # x\no # - # o - # o - x\nx o # - o # # o x x\nx # o x x x - # o x\nx - # o o x x x - x\nx # o - # - x o # x\nx x x x x x x x - x\nx - # o - o # x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/021.a.htm",
+      "info": ""
+    },
+    "22_10x10": {
+      "problem": "10 10\n- - - - 2 - - - - -\n3 - - - - - 5 - - -\n- - - - - - - - - -\n- - 3 - - 2 - - 1 -\n- - - 5 - - - - - -\n- - - - - - 2 - - -\n- 3 - - - - - - 1 -\n- - - 1 - 5 - - - -\n- - - - - - - - 5 -\n- 1 - - 0 - - - - -",
+      "solution": "10 10\n# o x x - # o x x x\n- # o x # o - x o x\n# o x x x x x x # x\no # - # o - # o - x\nx o # - o # # o x x\nx # o x x x - # o x\nx - # o o x x x - x\nx # o - # - x o # x\nx x x x x x x x - x\nx - # o - o # x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/022.a.htm",
+      "info": ""
+    },
+    "23_10x10": {
+      "problem": "10 10\n- - - - - - - 1 - -\n- 4 - - - 3 - - - -\n- - - - - - - - - 1\n- - - - - - - - - -\n5 - 1 - - - - 3 - -\n- - - - 5 - - - - 5\n2 - - - - - - 2 - -\n- - 2 - - - - - - -\n- - - - - - - - - -\n- - - - - 1 - - - 1",
+      "solution": "10 10\no # o x x # o - # o\n# - # o x - # o x x\nx # o x x # o x x -\nx x # o x x x x o #\n- x - x x o # - # o\nx x x x - x o # x -\n- # o x x x x - x x\n# o - # o x o # x o\no x # o x x x x x #\n# x x x x - # o x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/023.a.htm",
+      "info": ""
+    },
+    "24_10x10": {
+      "problem": "10 10\n1 1 - - - - - - - 2\n- - 5 - - - - 2 - -\n- - - - - 5 - - - 5\n2 - - - - - - - - -\n- - - - - - 5 - 2 -\n- - - 3 - - - - - -\n- - - - - 2 - - - 5\n- 5 - - - - - 1 - -\n- - - 2 - - - - - -\n- - - - 5 - - - - 5",
+      "solution": "10 10\n- - # o x x x o # -\n# o - x x o # - o #\nx x x x o - o # x -\n- # o x # x x x x o\n# o x x x x - x - #\nx o # - # o o x # o\nx x x # o - # x x -\nx - x x x # o - x o\nx o # - x x o # x #\nx x o # - x x x x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/024.a.htm",
+      "info": ""
+    },
+    "25_13x17": {
+      "problem": "13 17\n- - - - - - 2 - - - - - 2 - - - -\n- 1 - - 4 - - - - - - - 2 - - - -\n- - - - - - - - - - - - 3 - - - -\n- - - - - 3 - - - - - - - - - 2 -\n- - - - - - - - - - - - - - - - -\n- - - - - - 3 - - 2 - - - - 5 - -\n- 2 - - - - 0 - - - - 5 - - - - -\n- - - - - - - - - - 5 - - - 5 - -\n3 - 5 - - - - - - - - 2 - - - - -\n- - - - - 2 - - - - - - - - 0 1 -\n- - - - - - - - 3 - 5 - - - - - -\n- - - - 1 - - - - - - - - - - - -\n- 2 5 - 2 - - 1 - - - 1 - 1 - - 5",
+      "solution": "13 17\nx x x o # o - # o x o # - # o x o\nx - o # - # # o x x o # - # o x #\nx # o o # x x x x o o # - # o x x\nx x x o # - # o x # x o # o # - x\nx o x x o # # o x x x x x x o # x\nx # o x o # - # o - # o o x - x x\no - # x # o - o # # o - # x x x o\n# o x x x x x x x x - # o x - x #\n- # - o x # o x o x x - # o x x x\n# o x # x - # o # o x x # o - - x\nx x x x x o o # - # - x x x o # x\no # o o - # x x x x x x o x x x x\n# - - # - # o - # o x - # - o # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/025.a.htm",
+      "info": ""
+    },
+    "26_13x17": {
+      "problem": "13 17\n- - - - 2 - - 2 - - - - - - - - 2\n3 - - - - - - - - - 3 - - - - - -\n- - 1 - - - - - - - - - - - - - -\n- - - - - - - - - 5 - - 3 - - 5 -\n1 - - - 3 - - - - - - - - 1 - - -\n- - 5 - - - - 2 - - - - - - 2 - -\n- 5 - - - 2 - - - - 3 - - - - - -\n- - - - - - - - - - - - - - 5 - -\n- - - - - - - - - - 3 - - - - - -\n- 4 - - 5 5 - - - - - - 4 - - - -\n- - 3 - - - - - 0 - - - - - - - -\n- - - - 5 - - - - - - - - - - 2 -\n- - - - 1 - - - - 1 - 0 - - - - -",
+      "solution": "13 17\n# o x x - # o - # o # o x x o # -\n- # o x # o x # o x - # o x x o #\n# o - x x x x x x x # o # o x x x\nx x # o # o x o x - o # - x x - x\n- x x x - # o # x x x o # - x o x\n# o - x # o o - # o x x x x - # x\nx - x x x - # x o # - # o x # o x\nx x x o x # o x x x # o o x - x x\no # o # x x x x o # - o # x x x o\n# - # o - - o x x o # # - # o x #\no # - x x x # x - o # x # o x x o\nx o # x - x x x x x x x x x x - #\nx x x x - # o o # - x - o # x # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/026.a.htm",
+      "info": ""
+    },
+    "27_13x17": {
+      "problem": "13 17\n- - - - 2 - - - - - 5 - - - - - -\n3 - - - - - 2 - - - - - - - - - -\n- - - - - - - 2 - - - - - 5 1 - -\n- - - - - 2 - - - - - - 4 - - - -\n- 5 - - - - - 1 - - - - - 5 - - -\n- 2 - 5 - - - - - - - - - - - - -\n2 1 - - - - - 5 5 - - - 2 - 4 - -\n- - - 5 - - 3 5 - - - - - - - - -\n- - - - - 3 - - - - - - - 2 - - -\n- 5 5 - - 3 - - - - - - - - - - -\n- - - - 5 - - 1 - - - 5 3 - 5 - -\n- - - - 1 - - - 5 - 5 - - - - 4 -\n- - - - - - - - - - - - - - - - -",
+      "solution": "13 17\n# o x x - # o x x x - x x x x x o\n- # o x # o - # o x x x o o # x #\n# o x x x o # - o # x o # - - x o\nx x x o x - # o x x x # - # o x #\no - o # x # o - # o x o # - o x x\n# - # - x x x x x x x x x o # o x\n- - # o x o # - - x o # - # - # x\n# o x - o # - - x x x x o # # o x\nx x x o # - # o x o x o # - x x x\nx - - o # - # o x # x o # o x o x\nx x x x - # o - x x x - - # - # o\no x o # - x o # - x - o # o # - #\n# x x x x x x x x x x x x x x # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/027.a.htm",
+      "info": ""
+    },
+    "28_13x17": {
+      "problem": "13 17\n- - - - - 2 - - - - - - - 3 - - -\n- - - 2 - - - - - 3 - 5 - - - - -\n- - - - 5 - - - - - - - - 2 - - -\n- - 5 - - - - - 5 - - - - - 2 - -\n- - - - - 5 - 4 - - 3 - - - - - -\n2 - 5 - - - - - 5 - - 5 - - - 5 -\n- - - - - - - - - - - - - - - - -\n2 - - 2 - - - 3 - - - - - - - - 5\n- - - - - - - - - - - 4 - - - - -\n- 5 - - - - - - - - - - - - 5 - -\n3 - - 1 5 - - - - - 4 - - - - - -\n- - - - - - - - - - - - - - - - -\n- - - - - 0 - - - - - - 1 - - 1 1",
+      "solution": "13 17\nx x x o # - x x o # o o # - # o x\nx o # - o # x o # - # - x # o x x\nx x o # - x x o x x x x x - # o x\no x - x x x o # - x # o x x - x x\n# x x x o - # - # o - # o x # o x\n- x - x # x o # - o # - x x x - x\n# o x x x x x # o x x x x o x x x\n- # o - # o x - # o x # o # o x -\no x x # o x x # o o # - # o # x o\n# - x x x x o x x o # # o x - x #\n- # o - - x # x o # - # o x x x o\n# o o # x x x x x o # x x x o # #\nx x x x x - o # x x x x - # o - -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/028.a.htm",
+      "info": ""
+    },
+    "29_13x17": {
+      "problem": "13 17\n5 - - - - 1 - - - - - - - - 2 - -\n5 - - - - 2 - - - - 1 - - - - - -\n5 - - - - - - - - - - - - - - - -\n- - 5 - - - - - - - - - 3 - - - -\n- - - 3 3 - - - - - - - - - - 2 1\n- - - - - - 3 - - - - - - - - - -\n- - - - - - - 5 - 5 - 2 2 2 - - -\n- - - - 3 - - - - - 2 - - 5 - - -\n- - 5 - - 5 - - - - - - - - - - 5\n- - - 2 - - - - - - - - - 5 - - -\n- - - - 5 - - - - - - 1 - - - - -\n- - - - - - - 4 - 5 - 5 - - 1 - 1\n- - 1 - - - - - - 1 - - - - - - -",
+      "solution": "13 17\n- o x o # - o x x x x x o # - # o\n- # x o # - # x o # - x x x x x x\n- x x o o x x x x x x o # o x o o\nx x - # # o o x o x o # - # x # #\nx o # - - # # o # x x o o x x - -\nx x o # # o - # x x o # # # o # o\no x x x x o # - x - # - - - # o x\n# x o # - # o x x x - o # - x x x\nx x - o # - x x o x # o x x x o -\nx o # - x x x o # x x x x - x # o\nx x o # - x o # o x o - # o x x #\no x x x x x # - # - # - o # - x -\n# x - # o x x # o - # o x x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/029.a.htm",
+      "info": ""
+    },
+    "30_13x17": {
+      "problem": "13 17\n- 5 5 - - - - - - 5 - - - - - - -\n- 2 - - - - - 5 - - - 5 - - - 5 -\n- 5 - - 3 1 - 5 - - 1 - - - - - -\n- - - - - - - - - - - - - 2 - - -\n2 - - - - - 3 - - 1 - - - - - - -\n- - 1 - - - - - - - - - - - - - -\n- - - 5 - - - 2 - - - - - 3 - - -\n- - - - - - - - - - - - - - - - -\n- - - - - - - - - 3 - - - - - - -\n- 2 - 5 - 5 - - - - - - - - 3 - -\n- - - - 3 - - - - - - - - - - - -\n- - 5 - - - - - 2 - - - - - - 5 -\n- 3 - - 5 - - - 2 - - - - 3 - 1 -",
+      "solution": "13 17\no - - x x x x x x - x x x x x x x\n# - # o # o o - x x x - x o x - x\nx - o # - - # - x o - # o # o x x\nx x x x # o # o x # x x x - # x o\n- # o x x x - # o - x o x x x x #\n# o - # o x # o o x x # o # o x x\nx x x - x x x - # o x x # - # o x\nx o x x x o x # o # o x x x o x x\nx # o x o # x o # - # o x o # o x\nx - # - # - x x x x x # x # - # x\nx o o # - # o x # o x x x o x x x\no # - x x x x x - # o x o # o - x\n# - # o - x o # - # o x # - # - x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/030.a.htm",
+      "info": ""
+    },
+    "31_10x10": {
+      "problem": "10 10\n- - - 2 - - - - - -\n0 0 - - - - 3 - - -\n- - - - - - - - - -\n- - - 3 - - - - - -\n- - - - 1 - - - 3 -\n- - - - - - - - - -\n- - - 1 - - 5 - - -\n- - - - - - - - - 0\n- 2 1 - 5 - - 5 - -\n- - 2 - - - - 5 0 -",
+      "solution": "10 10\nx x x - # o # o x x\n- - x # o x - # o x\nx x x # o x # o x x\nx o # - x x x x x o\nx o o # - x o # - #\nx # x x x x x x # o\nx x x - # o - x # o\nx # o o x x x x x -\nx - - # - x o - x x\no # - # o x # - - x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/031.a.htm",
+      "info": ""
+    },
+    "32_10x10": {
+      "problem": "10 10\n1 1 - - - - - - - -\n- - 5 - - 2 - - - 5\n- 5 - - - - - - - -\n- - - - - - - - - -\n- - 5 - 3 - 5 5 - -\n- - - - - - - - - -\n- - 5 - - - 3 - - -\n- - - - 2 - - - - -\n- - 2 - 5 - - - - -\n5 - 2 - - - - - 1 -",
+      "solution": "10 10\n- - # o x x x x x x\n# o - x x - # o x -\nx - x x o # o x x x\nx x x o # o x x o x\no x - # - # - - # x\n# x x x o o # x x x\nx x - x # o - # o x\nx o # o - # # o x x\nx o - # - x x x x o\n- # - # o x # o - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/032.a.htm",
+      "info": ""
+    },
+    "33_10x10": {
+      "problem": "10 10\n2 - - - - - - - - -\n- - - 3 - - - - 2 -\n- - - - - - - - - -\n- - - - - 4 - - 1 -\n- 3 - - - - - - - -\n- - - - - - - - - -\n- - - - - - 0 - - -\n- 3 - - - - - - - 0\n- - - 1 - - - - - -\n- - - - - - 1 1 - -",
+      "solution": "10 10\n- # o # o x x o # o\n# o x - # o x x - #\nx x x # o # o x x x\nx # o o # - # o - x\nx - # o x # o o # x\nx # o x x x x x x x\nx # o x # o - x # o\nx - # o o x x x x -\nx # o - # x # o x x\nx x x x x x - - # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/033.a.htm",
+      "info": ""
+    },
+    "34_10x10": {
+      "problem": "10 10\n- - - - 1 - - - - 0\n- - - - - - - - - -\n- 2 - - - - 1 - - -\n- - - - 3 - - - - -\n3 - 5 - - - - 5 2 -\n- - - - - 5 - - - -\n- - - - - - - 5 - -\n- - - - - - - - - -\n- 4 - - - - 5 5 - -\n- - - - - 2 - - - -",
+      "solution": "10 10\nx x x x - # o # o -\nx # o x x x x x x x\no - # o # o - # o x\n# o x x - # o o # x\n- # - x # o x - - x\n# o x x x - x o # x\nx x x o x x x - x x\no # o # x o x x x o\n# - # o x # - - x #\no # x x x - # o x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/034.a.htm",
+      "info": ""
+    },
+    "35_13x17": {
+      "problem": "13 17\n2 - - - - - 2 - - 5 - 5 - - - - -\n- - 2 - - - - - - 1 - - 2 - - - -\n- - - - - - - - - - 2 - - - - - 5\n- - - - - - 3 - - - - - 5 - - - -\n2 - - - - - - 1 - - - - - 2 - - -\n- - - - - - - - - - - 3 - - - - -\n- - - - 2 - - - - - - - - - - 1 -\n- 3 1 - 2 - - 3 - - - - - - - - 5\n- - - - - - - - - - - - - - - - -\n- - - 1 - - - - - - - - 3 - - - -\n- - - - - - - - - - - - - - - - -\n- 5 - - - - - 3 - - - - - 5 - - -\n- - 3 - - - - 2 - - - 2 - 2 - 1 -",
+      "solution": "13 17\n- # o x x x - # o - o - # o x x o\n# o - # o x # o x - # x - # o x #\nx o # x x x # o x x - x x x x x -\nx x x x o # - # o x # o - # o x x\n- # o x x x x - x x x # o - # o x\n# o x x # o x x x o x - # o x x x\no # o o - # o # o # x # o x x - x\n# - - # - # o - # o x x x x o # -\nx # o x x x x # o x x o # x x x x\nx o # - x o x x x x o # - # o x o\nx x x x x # o # o x x o x x x x #\nx - # o x x # - # o x # o - o x x\no # - # o o # - # o x - # - # - x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/035.a.htm",
+      "info": ""
+    },
+    "36_13x17": {
+      "problem": "13 17\n- 1 - - - - - - - - - - - - - - -\n- - - - 2 - - - - - - - 5 - - 4 -\n- - - - - - - - - 2 - - - 2 - - -\n- 4 - - - 2 - - - - - - 5 - - - -\n- - 5 - - - - - - - - - 3 - - - -\n1 - - 3 - - - - 5 - - - - - - - -\n- - - - - - - - - - - - - 3 1 - -\n5 - - - 2 - - - - - - - - - - - -\n- - - - - - - 5 - - - - 2 - - - -\n- 5 - - - - 2 - - 1 - - - - - - 2\n- 5 - - - - - - - - - - - - - - -\n- - - 5 - - - - - 2 - - - 1 - - -\n- 3 - - - 2 - - - - 3 - - - - - 0",
+      "solution": "13 17\nx - # o # o x x x x x x x x o # o\nx x x x - # o x o # o x - o # - #\no # o x x x x x x - # o # - o # x\n# - # o x - # o x x x o - # o x x\no # - # o # o x x o x # - # o x o\n- x x - # o x x - # x o # # o x #\n# o x # o o x o x x x o # - - x x\n- x x x - # o # x o x o o # # o x\nx x o x # o # - x # x # - x x x x\nx - # x o # - x x - x o # x o # -\nx - x x x x x x # o x x x x x o #\no # o - x # o x x - # o x - x x x\n# - # o x - # o o # - # o # o x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/036.a.htm",
+      "info": ""
+    },
+    "37_13x17": {
+      "problem": "13 17\n- 1 - - 2 - - 5 - - - - - 5 - - -\n- - - - - 5 - - 3 - - - - - - - -\n0 - - - 4 - - - - - 2 - - - - - 2\n- - - - - - - - - - - - - - - - -\n- - - - - - 5 - - - - 1 - - - 5 -\n- - - - - - - - - - - - - - - - -\n- 3 - - - - 2 - 3 - - - - 5 - - -\n- - - 1 - - - - - - - - - - 4 - -\n- - - - - 2 - 5 - - - - 5 - - - -\n5 - - - - - - - 3 - - - - - - - -\n- - 2 - - - - - 2 - - - - - - 3 -\n2 - - - - - - - 2 - - - - - - - -\n1 - - - - - - - 2 - - - - - - 3 -",
+      "solution": "13 17\nx - # o - # o - # o x x x - x x o\nx x x o # - x x - # o o x x x o #\n- x o # - # o x # o - # x o x # -\nx x x o # x x x x x # o o # x x x\nx o x x x x - x o x x - # x x - x\nx # o o x o # o # o x x x x o x x\nx - # # x o - # - # x o x - # o x\nx # o - x # o x x x x # o # - # x\nx x o x x - # - # o x x - o # o x\n- x # o x x o # - # o x x x o # x\n# o - # o x o # - # o x o x # - x\n- # o x # x o # - # o x # x o # o\n- # o x x x o # - # o x x o # - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/037.a.htm",
+      "info": ""
+    },
+    "38_13x17": {
+      "problem": "13 17\n5 - - - - - 5 - - - - - 2 - - - -\n2 - - - - - - 3 - - - - - - - - -\n- - - 4 - - - - - - - - - - - - -\n- - - - - - - - - - 3 - - - - - 1\n- - 2 - - - - - - - 3 - - - - - -\n5 - 2 - - - - - - - - - 5 - - 5 -\n- - - - - - - - 5 2 5 - - - - - -\n- 2 - - - - - - - - - - - - - 2 5\n- - - - - 2 - - - - - - - - - - -\n- - - - - - - - - - - - - - - - 1\n- - - - 2 - - - - 2 - - - - - - -\n- - 3 - - - - - - - - - - 3 - - -\n- - 2 - - - - - 3 - 5 - - - - - 2",
+      "solution": "13 17\n- o x x x x - # o x x x - # o x x\n- # o # o x x - # o o x # o o x o\n# o # - # o x # o o # x x x # x #\nx o # # o x x x x # - # o x x x -\nx x - # o x o x o # - # o x o x x\n- x - # o x # x o # # o - x # - x\nx x # o x x x x - - - x x x o # o\nx - # o x # o x x # o x o x # - -\nx # o x x - # o x x x x # x x o #\nx x x x # o x x x # o x x o x x -\nx o # o - # o x o - # o x # o x o\nx # - # o x x x # o x x x - # x #\no # - # o x o # - # - x o # o # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/038.a.htm",
+      "info": ""
+    },
+    "39_13x17": {
+      "problem": "13 17\n- - 0 - - 2 - - - 2 - - - - - - 1\n0 - - - - - 5 - - - - - - 0 - - -\n- - 3 - - - - - - - - - - - - - -\n1 - - 5 - - - - - - - - - - - - -\n- - - - 2 - - - - 2 - - - - - - -\n- - - - - - - - - 5 2 - - 2 - 2 -\n- - - - - 2 - - 2 - - - - - - - -\n- - - - - - - - - - - 2 - - - 5 -\n- 2 - - - - - - - - - - - - - - -\n- - - - 2 - 3 - - 3 - - - 2 - - -\n2 - - - - - - 5 - - 5 - - - - - -\n- - - 3 - - - - - - - 3 - - 5 - -\n- 0 - - 2 - - 0 - - - - - - - - -",
+      "solution": "13 17\nx x - o # - # o x - # o x x x x -\n- x x x x x - o x # o x x - x o #\no # - # o x x # x x x x # o x x x\n- o # - # o x x x # o x x o x o x\n# o x o - # o x o - # o x # o # x\nx x x # x x x x # - - # o - # - x\nx o x x x - # o - # o # o x x x x\nx # o x o # o x x x x - # o x - x\no - # x # o x x o # x x x x x x x\n# o x x - # - # o - # o x - # o x\n- # x # o o # - o # - # o # o x x\nx x x - # o x x x o # - # o - x o\nx - o # - x x - x x x x x x x x #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/039.a.htm",
+      "info": ""
+    },
+    "40_13x17": {
+      "problem": "13 17\n- - - - - - - - - - - - 2 - - - 2\n- 4 - - 2 - - - - - 2 - - - - - -\n- - - - - - - - - - - - - - - - 2\n- - - 1 - - - - - - - - - - - - 1\n- 3 - - 5 - - - 2 - - - - - - - 2\n- - - - 5 - - - - - - - - - 2 - -\n- 5 - - - 3 - 3 - 5 - - - - - 2 -\n- - - - - - - - - - - - - 1 - - -\n2 - - - - - - - 3 5 - - - - - - -\n- - - - - 1 - 3 - - - - 2 - - - -\n- - - - - - - - - - - - - - - - -\n3 - - - - - - - - - - - 2 - - 1 -\n- - - - 2 - - - 5 - - - - - 5 - -",
+      "solution": "13 17\no # o x x x x x x x o # - x o # -\n# - # o - # o x o # - o # x x o #\nx # o o # x x x x x # o o x o # -\nx # o - # o x o # x x x # x o # -\nx - # o - o x o - # o x x x o # -\nx # o x - # o # o x x x o # - o #\nx - x x x - # - # - x o x o # - x\nx x x o x # o o # o x # x - o # x\n- # o # x x x # - - x x x # o o x\n# o x o # - x - # o x o - # o # x\n# o x x x x x # o x x # # o x x x\n- # o x # o x x x x o # - x x - x\n# o x x - # o x - x x x x x - # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/040.a.htm",
+      "info": ""
+    },
+    "41_10x10": {
+      "problem": "10 10\n- 5 - - - 1 - - 1 5\n- 2 - 5 - 5 - 5 - -\n- 5 5 - - - - - 5 -\n- - - - - - 2 - - -\n- 5 - - 2 - - 5 - -\n- - - 3 - - - - - 2\n- - 5 - - 2 - - - -\n- 5 1 - - - - 5 5 -\n- - - - - - - - 5 -\n- - - - - - 2 - 2 -",
+      "solution": "10 10\no - o x x - # o - -\n# - # - x - x - # o\nx - - x x x x x - x\nx x x x o # - x x x\nx - o # - o # - o #\nx o # - # o x o # -\nx x - o # - x x x x\nx - - x o # x - - x\nx o # x x x x o - o\nx x x x o # - # - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/041.a.htm",
+      "info": ""
+    },
+    "42_10x10": {
+      "problem": "10 10\n5 - - - - - - - 2 5\n- - - - - - - 5 - -\n1 - - 2 - - - 5 5 -\n- - - - - - - - - -\n- 5 - - 5 - - 5 - 5\n- - 2 - - 4 - - - -\n5 - - - 4 - - 5 - 5\n2 - - - - - - - - -\n- - - - - - - - 3 -\n1 5 - - 1 - - - - 2",
+      "solution": "10 10\n- x x x x x o # - -\n# o x # o x x - # o\n- x x - # o x - - x\nx x o x x x x x x x\nx - # x - # o - x -\no # - o # - # o x x\n- o o # - # o - x -\n- # x o # x x x x o\n# o x x x x o # - #\n- - o # - x x o # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/042.a.htm",
+      "info": ""
+    },
+    "43_10x10": {
+      "problem": "10 10\n- - 2 - - - - - - -\n5 - 1 - - - - - 1 -\n5 - - - - - - - - -\n- - - 5 - - - - - -\n1 - - - - 1 1 - 1 -\n- - 1 - 5 - - - 5 -\n- - - 5 - - 5 - 5 1\n2 5 - - 1 - - - - -\n- - 5 - 5 5 1 - 5 -\n5 - - - 1 - - - 1 -",
+      "solution": "10 10\no # - # o x x x x x\n- x - # o x o # - x\n- x x x x x x x o x\n# o x - o o # x # x\n- x x o # - - x - o\no x - # - x x x - #\n# x x - # o - x - -\n- - x x - o # x x x\n# o - x - - - x - o\n- x x x - # o x - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/043.a.htm",
+      "info": ""
+    },
+    "44_10x10": {
+      "problem": "10 10\n- - - 5 - - - 2 - -\n- 5 - 2 - 5 - - - -\n- 5 5 5 5 - - - - -\n- - - - - - - - - -\n- - - 3 - 3 - 2 5 -\n- - - - 5 - - - - -\n- - - - 5 - 3 - - -\n- - 5 - - 3 - - - -\n2 - - - - 1 5 - - 1\n- - - - - - - - - -",
+      "solution": "10 10\nx x o - o x x - # o\nx - # - # - x # o x\nx - - - - o x x x x\nx x x x o # o # o x\nx o # - # - # - - x\nx x o # - o x x x x\no x x x - # - # o x\n# x - o # - # o x x\n- x x o # - - x x -\n# o x x x x x x o #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/044.a.htm",
+      "info": ""
+    },
+    "45_10x10": {
+      "problem": "10 10\n5 2 - - 2 - - - - -\n5 - - - - - 2 - - -\n5 5 - - - - - - - -\n2 - - 1 - - - - - -\n- - - - - - 5 - - 3\n- 1 - - - - - - - -\n- - - 2 - - 1 - - -\n- - - - - - - - - -\n- - - - - - - 1 - -\n- 3 - 3 - - - - - -",
+      "solution": "10 10\n- - # o - # o x x x\n- # o x # o - # o x\n- - x x x o # x x x\n- # o - x x x x o #\n# o o # o x - o # -\nx - # # o x x x o #\nx x x - # o - x x x\nx o x x x x # o o x\no # o # o x x - # x\n# - # - # o x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/045.a.htm",
+      "info": ""
+    },
+    "46_10x10": {
+      "problem": "10 10\n5 - - - - - - - 1 -\n- - - - - - - - - -\n- - - 4 - 1 - - - 1\n- - - - - 5 2 - 1 5\n- 3 - - - 5 - - - -\n- - - - - - - 2 - -\n- - - - - - - - 3 -\n2 - - - - - - - - -\n- - 1 - 5 - 1 - - -\n- - - - - - - - - -",
+      "solution": "10 10\n- x x x x x o # - o\nx x o # o x x x x #\nx o # - # - x o x -\nx # o # o - - # - -\nx - # o x - # o o x\nx # o x x x x - # x\nx x x x o x o # - x\n- # o o # x x o # x\n# o - # - x - # o x\nx x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/046.a.htm",
+      "info": ""
+    },
+    "47_10x10": {
+      "problem": "10 10\n- 1 - - 5 - - 0 - -\n- 0 5 - - - - - - -\n- - - - - - - - - -\n- 2 - 5 - - 3 - - -\n- - - - 1 - - - - -\n- - - - - - 0 - - -\n- 5 2 - 0 - - - - -\n- - - - 0 - 2 - 2 -\n- - - - - - - - 2 -\n- 1 - - 1 - - - - -",
+      "solution": "10 10\nx - # o - # o - x o\nx - - x x x x x x #\nx x o x o o # o x x\nx - # - # # - # o x\nx # o x - x x x x x\nx o # x x x - x o x\nx - - x - x x o # x\nx x # o - x - # - o\no x x x x x # o - #\n# - o # - x x x # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/047.a.htm",
+      "info": ""
+    },
+    "48_13x13": {
+      "problem": "13 13\n- - 2 - - - - - - - - - -\n- 5 5 - - - 5 - - - - - -\n- - - - - - - - - 3 5 - -\n1 5 - - 2 - - - - - - - -\n- - 3 - - - - - - - - - -\n- 5 - - 2 - - - 1 2 - - -\n- - - - - - - - - - - - -\n- - - - - - - - - - - - -\n- - - - - - - 4 - - 4 - -\n- 1 - - - - - - - - - - -\n- - - 1 - - - - 5 5 - - 5\n- - - - - 2 - 5 - - - - -\n- 2 - - - 2 - 2 - 2 - - 1",
+      "solution": "13 13\no # - # o x x x x x x x o\nx - - x x x - x o # o x #\nx x x x # o x x # - - x o\n- - # o - # o x o # o x #\n# o - # o x x x # # o x x\nx - # o - # o x - - # o x\nx x x o # x x x x x o x x\nx o x x x x o # o o # o x\nx # x o x o # - # # - # x\nx - x # x x x # o o # x x\nx o x - o # x x - - x x -\no # x o # - o - o x x o #\n# - x o # - # - # - # o -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/048.a.htm",
+      "info": ""
+    },
+    "49_13x13": {
+      "problem": "13 13\n- - - - 2 - - 1 1 - - - -\n- 1 - 2 - - - - - 1 - - -\n- - - - - - - - - - 2 - -\n- - - - 0 - 2 - - - - - -\n5 2 - - 5 - - 2 - - - - -\n- - - - - - - - 2 - - - -\n- 0 - - - 5 - - - - 2 - -\n1 - - 2 - 1 - 3 5 - - - -\n- - - - - - - - - - - - -\n- - 0 0 0 0 - - - 3 - - -\n- - - - - - - 5 - - 5 - -\n- 1 - - - - - 0 5 - 1 - -\n- - - 0 0 0 - - - - - - -",
+      "solution": "13 13\no # o # - o # - - x x x x\nx - x - # o x o # - x o x\nx x x x x x x x x x - # x\no # o x - x - # o x # o x\n- - # x - o # - x x x x x\nx x x x x x x o - # o o x\nx - o # x - o # # o - # x\n- o # - x - # - - x # o x\n# o x x x x x # o x x x x\n# o - - - - x o # - # o x\nx x x x x o # - o # - o x\nx - # o x x x - - x - # x\nx x x - - - x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/049.a.htm",
+      "info": ""
+    },
+    "50_15x17": {
+      "problem": "15 17\n5 2 - - 5 - 1 - - - - - - - - - -\n- - - - 2 - - - - - 2 - - - 1 - -\n- - - - - - 5 - - - 1 - - - - - -\n- 5 - - - 1 - - - - - - - - 1 - -\n- - - - - - - - - - - 5 - 2 - - -\n- - 3 - - - - - 2 - - 1 - 5 - - -\n- 3 - - - - - 5 - - 5 - - - 2 - -\n- 1 - - - - - 1 - 1 - - - - - 2 -\n- - 5 - - - 5 - - 5 - - - - - 1 -\n- - - 5 - 2 - - 1 - - - - - 2 - -\n- - - 2 - 2 - - - - - - - - - - -\n- - 4 - - - - - - 3 - - - - 1 - -\n- - - - - 2 - - - - - - - 5 - - -\n1 - - - - - - - - - - - - - - 5 -\n- - - 1 - - - - - 2 - - - 3 - - -",
+      "solution": "15 17\n- - # o - o - # o o # x x x x x o\nx # o x - # x x o # - x o # - x #\nx x x x # o - x o # - x x o x x o\nx - x o # - x x x x x x o # - x #\nx o x x x x x o # x o - # - x x x\no # - # o x o # - x # - x - x o x\n# - # o x x o - x x - x x x - # x\no - # o x o # - x - # o x o # - x\n# x - x x # - x x - x x x o # - x\nx x o - x - # o - # o x o # - x x\nx o # - x - # o o # o x x x x x o\nx # - # o # o x x - # x o # - x #\nx x # o x - # o x # o x x - x x x\n- x x x x x x x x x x x o # o - x\n# o x - # o x o # - # o # - # o x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/050.a.htm",
+      "info": ""
+    },
+    "51_10x10": {
+      "problem": "10 10\n5 - - - - - - - - -\n- - - - - - - 5 - -\n- - - - - 4 - 3 - -\n- - 3 - 3 - - - - -\n- - - - - - - - - -\n- - - - 4 - 3 - - -\n- - 1 - - - - - - -\n- 2 - - 1 - 3 - - -\n- - - - 0 - - - - -\n- - - - - - - - - 5",
+      "solution": "10 10\n- x x x x o x x x x\nx x o x o # o - o x\nx o # x # - # - # x\nx # - x - # o # o x\nx o # o # o x x x x\nx o o # - # - # o x\nx # - x # o # o x x\nx - x x - x - # o x\nx # o x - x # o x x\nx x x x x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/051.a.htm",
+      "info": ""
+    },
+    "52_10x10": {
+      "problem": "10 10\n0 - 1 - - - 2 - - 5\n0 - 2 - - - - - - -\n- - - - - - - - 1 -\n- 0 - 2 - 5 - - - -\n- 0 - - - - - - 1 -\n- - - - - - 0 - - -\n- 2 - - - 2 - - 5 -\n- - - - 5 - - 0 - -\n- - - - - - - - - -\n- - 2 - - 5 - - 1 -",
+      "solution": "10 10\n- x - # o x - # o -\n- x - # o x # o x x\nx x # o o x x x - x\nx - x - # - x o # x\nx - x # o x x x - x\nx x x x o x - x x x\nx - # o # - x x - x\nx # o x - # o - x x\nx x x x x x x x x o\no # - # o - # o - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/052.a.htm",
+      "info": ""
+    },
+    "53_10x10": {
+      "problem": "10 10\n1 - - - 5 - - - - -\n- 1 - - - - 5 - - 1\n- - 2 - - - 5 5 - -\n- - - - - - - - 1 -\n- 5 - - 3 - - - - 1\n- - - - - 3 - - - -\n- - - 5 - - 4 - - -\n- 2 - - - - - 4 - -\n- - - - - - - - - -\n- 0 - - - 1 - - - -",
+      "solution": "10 10\n- # o x - x x x o #\nx - x x x x - x x -\nx x - # o x - - x o\nx o # o # x x x - #\nx - o # - x o x x -\nx x x o # - # o x x\nx # o - o # - # o x\nx - # o x o # - # x\nx x x x x x x # o x\nx - x o # - x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/053.a.htm",
+      "info": ""
+    },
+    "54_10x10": {
+      "problem": "10 10\n- - - - - - - 5 - 5\n1 - - 0 - 5 - 2 - -\n- 0 - - - 0 - - - -\n- - - 1 - - - 1 - 0\n0 - - - 0 - - - - -\n- - - - - - 0 0 1 -\n- - 0 - 0 - - - - 5\n- 1 - 1 - - - - - -\n- - - - - - 0 0 0 -\n- 0 - - - - - - - -",
+      "solution": "10 10\n# o x x x x o - o -\n- x x - x - # - # x\nx - o x x - o x x x\nx x # - x x # - x -\n- x # o - x x x x x\nx x x x x x - - - x\no x - x - x x o # -\n# - x - o # x x x x\nx x x # o x - - - x\nx - x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/054.a.htm",
+      "info": ""
+    },
+    "55_10x10": {
+      "problem": "10 10\n1 - - 1 - - - - - -\n5 5 - 2 - - 1 - - -\n- - - - - - - - - -\n- - - 4 - - - 5 - -\n- - - - - 5 - - - 3\n5 5 - - - - - - - -\n- - - - - - - - - -\n- - - - 0 1 - - - -\n- - - - 5 - - 4 - -\n- 3 - - - - 5 - - -",
+      "solution": "10 10\n- # o - # o x x x x\n- - x - # o - # o x\nx x x # o x x x x x\nx o # - # o x - o #\nx x x # o - x o # -\n- - x x x x x x o #\nx x x # o # o x x x\nx o x x - - o # o x\no # o x - o # - # x\n# - # x x x - # o x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/055.a.htm",
+      "info": ""
+    },
+    "56_10x10": {
+      "problem": "10 10\n- - - - 1 - - - - -\n3 - - - 2 - - - 5 -\n- - - - - - - - - -\n5 - - 5 5 - - 2 - -\n- - 2 - - 2 5 - - -\n- - - - - - 5 - - -\n- - - - - 5 - - - -\n- - - 2 - - - - - 3\n- - 5 - - - - - - -\n5 - - - 2 - 1 - - 2",
+      "solution": "10 10\n# o x x - # o x x x\n- # o x - # o x - x\n# o x x # o x x o x\n- x x - - # o - # x\nx x - # o - - # o x\nx o # x o # - x x x\nx x x x x - x x o #\nx o # - x x x o # -\nx x - # o o x x o #\n- x o # - # - o # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/056.a.htm",
+      "info": ""
+    },
+    "57_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n5 1 - 5 - - - - 5 -\n- - - - - - 3 - - -\n1 - - 3 - - - - - -\n- - - - 3 - - - - 5\n- - - - 3 - - 2 - -\n- - 5 2 - - - - 1 -\n- 1 - - 3 - - - - -\n- - - - - - - - - -\n- - 0 - - - - 1 - 1",
+      "solution": "10 10\no # x x x x x x x x\n- - x - x o # o - x\n# o x # o # - # o x\n- x x - # o x x x x\no x o # - # o # o -\n# x o # - # o - # o\nx x - - # o x x - x\nx - # o - # o x x x\nx x x x # o x x o x\n# o - x x x x - # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/057.a.htm",
+      "info": ""
+    },
+    "58_13x13": {
+      "problem": "13 13\n- - - - - - 2 - - - - - -\n1 - - - - - - - - - - - -\n- - - - 4 - 2 - 2 - - 2 -\n1 - - - - 4 - - - - - - -\n- - - - - - - - - - - - -\n1 - 1 - - - - - - 4 - - -\n1 - - - - 2 - - - - - - -\n- - - - - - - - - - - 5 -\n- - 5 - - - - - - - - - -\n1 - - - 4 - - - - - - - -\n- - - - - - - - 4 - - - -\n- 5 - - - - - - - - - 3 -\n- 0 - - - - 3 - - - - - -",
+      "solution": "13 13\n# o x x o # - # o x x x x\n- x x o # o x x x x o # x\nx x o # - # - x - # o - x\n- x x o # - # o # o o # x\n# o x x o # x x x # o x x\n- o - x x x x o # - # o x\n- # # o x - # o o # o x x\no x x x x # o x x x # - x\n# x - o # o x x o x x x x\n- x o # - # x o # o x o x\nx x x o # x x # - # x # o\nx - x x x x # o # o x - #\nx - o # o # - # o x x # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/058.a.htm",
+      "info": ""
+    },
+    "59_13x13": {
+      "problem": "13 13\n- - - - - - - - - - - 5 5\n- 4 - - - - - - - - - - -\n- - - - - 1 - - 4 - - - -\n- - - - - - - - - - - - 3\n- - - 4 - - - - - - - - -\n- - - - 5 5 - 2 - 5 - 5 5\n- 2 5 - - - - - - - - - -\n- - - - - - 4 - - - 4 - -\n- 1 - - - - - - - - - - -\n- - - 2 - - - - - - 1 - -\n- - - - - - - - - - 1 - -\n- 2 - - - 5 3 - 2 - - 5 -\n- - - - - - - - - - - - -",
+      "solution": "13 13\no # o x x x x x x x x - -\n# - # o x # o o # o x x o\nx # o o x - o # - # x o #\nx x o # x x x o # o x # -\nx o # - # o o # x x x o #\nx # o # - - # - x - o - -\nx - - x x o # o x o # o x\nx # o x o # - # x # - # x\nx - o x x o # x x x # o x\nx o # - x x x x o x - o x\nx # o # x o # o # x - # x\nx - # o x - - # - x x - x\nx x x x x x # o o # x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/059.a.htm",
+      "info": ""
+    },
+    "60_30x45": {
+      "problem": "30 45\n- - - - - - - - - - - - - - - - - - 1 - 5 - - 2 - - - - - - - - - - - - - - - 2 - - - - 2\n- 4 - - - - 4 - - - - 1 - - - - 2 - - - 2 - - - - - - 3 - - - - 5 - - - - - - - 5 - 5 - -\n- - - - - - - 2 - 3 - - - 5 - 3 - - - - - - - - - - - 3 - - 2 - 2 - 3 - - - - - - - - - 5\n- 3 - - - 2 - - - - - - - - - - - - - - - 1 - - - 5 - - - - - 2 - - - - - 2 - - - - - - 2\n- - - 5 - - - 5 - - - - - - - - 2 - - - - - - - - - - 1 - - - - - 2 - - - - - 2 - - - - -\n- - - - - - - - 5 - - - 3 - - - - - - - - 5 - 5 - - - - 2 - 5 - - - 5 5 - - - - - - 2 - -\n- - - - - - - - - - - - - - - - - - - 2 - 5 - - - 2 - - - - - - - - - - - - - - - - - - 5\n- - - - 4 - - 3 - - 2 - 5 - - - - 3 - - 5 - - - - - - 5 - - 3 - - - - - - - 4 - - - - - -\n- 2 5 - - - - 3 - - - - - - - - - - - - - - - - 4 - 3 5 5 - 5 - - - - - - - - - - - - 2 -\n- - - 5 - - - - - 1 - 5 - - 2 - - - - - - - - - - - - - - - - - - - 3 - - 4 - - - - - 1 -\n- - - - - - - - - - - - - - - - - - - - 3 - - - - - - 5 - - - 2 - - - - - - - - - - - - -\n- 5 2 - 2 - 3 - 3 - - - - 1 - - - - - - - - - - - - - - - - - - - - - 2 - - - 5 - - - - 3\n- - - - - - 5 - - - - 4 - - - 3 - - - - - - 2 5 5 0 - - - - - - - - - - - - - - - - 5 - -\n- - - - - - 2 - - 5 - - - - - - - - - 0 - - - - 1 - - - 2 - - - 3 - - - - - - - - - - 1 -\n- 2 5 - - 3 - - - - - - - - - 5 5 - - - - - - - - - - - - - - - - - - - - 3 3 - - - - - -\n- - - - - - 2 - - 3 - - - 3 - 5 1 - - - - - 2 - - - - - - - 2 - - - - - - - - - - - - - -\n- - - - 1 - - 1 - - - - - - - - - - - - 5 - - - - - - - - - - - - - 4 - - - - - - 2 - - 3\n- - - 3 - - - - - - - 5 - - - 5 - - - - 5 - 3 - 4 - 2 - 5 - - - 5 - - - - - 5 - - - - - -\n- - - - - - - - - - 5 - - - - - - - - - 5 - - - - - - - - - - - - - - - - - 5 - - - - - -\n- - - - - 1 - - - - - - 2 - - - - 3 - - - - - - - - - 5 - 2 - - - 3 - - - 3 5 1 - - - 2 -\n- - - - 1 - 5 5 - - - - - 5 - - - 2 - - - 5 - - 2 - - - - - - - - - - 5 5 - - - - - - - -\n- - - - - - - 5 3 - - 1 - 5 - - - 3 - - - - - - - 1 - 3 - - - - - - - - - - 1 - 2 - - 2 -\n- - - - - 1 - - - - - 3 - 2 5 5 - - - - - - - 5 - - - - - 2 - - 5 - - - - - - - - - - - -\n- - - 1 - - 1 - - - - - - - - - - - 2 - - 2 - 5 - 1 - - - - - - - - - 3 - 2 - 5 - - - - 5\n- 5 - - - - - - 5 - - - - - - - - - - - - - - - - 2 - - - - - - - - - - - - - - - - 4 - -\n2 - - - - - 5 - - - - - - 5 - - - - - - 4 - - - - - - - - - - - - - 5 - - 4 - - - - - 3 -\n- - - - 3 - 3 - - 4 - - - 2 - - 3 - - - - - - - - - - - - 4 - - - - 5 - - - - - - - - - -\n- - - - - 3 - - - - - - - - - - - - - - - - 2 - 2 - - - - - - - - 3 - - - 2 1 - - - - 5 -\n- 4 - - - - - - - - - - - - - - - 1 - - - 3 - - 5 5 2 - - - 2 - - - - - - 0 1 - - - - 3 -\n- - - - - 1 - - - - - 2 - - 3 - - 2 - - - - - 1 - - - - - - - - - - - - - - - - - - - - -",
+      "solution": "30 45\no # o x x o # o x x x x x x x o o # - o - o # - x x o # o x x x x x x x x o # - x x o # -\n# - # o x # - # o # o - # o x # - x x # - x o # x o # - # o # o - x # o x x o # - x - o #\nx # o x x o # - x - # o x - x - # o x o # x x x x o # - # o - # - x - # o x x x x x x x -\nx - # o x - # o x # o x x x x # o o x x x - # o x - o # x x x - # o # o x - # o o x o # -\nx # o - x # o - x x x x # o x x - # x o x x x x x x x - x o x x x - # o x # o - # x x o #\nx x x x x x x o - x o x - # o x # o x # o - x - o # x x - # - x o # - - x x o # x x - # o\nx o x o # o o # o x # o # o x x x x x - # - x o # - o o # o # x x x x x x o # o x o # x -\nx # o # - # # - # x - # - x x o # - # o - x x o # o # - o # - # o x o x o # - # x x x x o\nx - - o # o # - # o o x x x # o o # x x x x o # - # - - - x - x x x # x o # # o x o # - #\nx # o - x x o # o - # - x o - # o x x o # x x o # x # o x x x x o # - o # - # o x o # - o\nx o # x x o # o x x x x x # x x x x o # - o x x x x x - x o # - x x # o o # x x x x x x #\nx - - x - # - # - # o # o - x # o x x o # # # o # o x x x x o # x o # - x x x - x o o # -\nx o # x # o - o # o # - # o x - # o x x o # - - - - x o # x x x x o o # x o o x x # - o #\nx # o x o # - x x - x # o o x # o x x - o # o # - x o # - x o # - # x x x # # o x o # - x\nx - - x x - # o x x x x x # o - - o x x x x x x x x x x x o # o # x x o # - - # x x x x x\nx # o x o # - o # - # o x - # - - # x o o # - x o x o x o # - x x x # o o # # o o # x o #\nx x x x - x x - o # x x x # o x x x x # - o # o # o # x x x x x o # - # o x x x x - o # -\nx o # - # o x # o x x - x x x - x o x x - x - # - # - x - o x o - o # x x x - o x # o o #\nx x o # x x x x x x - o # o x x x # o x - x # o # o x x o # x # o # x x o # - # x x x x x\no x x x x - # o o x x x - # x o # - # x x x x o # o x - # - x o # - x o # - - - x o # - x\n# x o # - x - - # o o x x - x o # - # o x - x # - x x # o x x x o # x - - # o o # o o # x\no x x x x x o - - # # - o - x o # - # o x o x x x - x - # o o x x x x x x x - # - o # - x\n# x o # x - # o # o # - # - - - o # # o x # o - x # o # o - # x - x o # o x x x x x o x x\no x x - x x - x x x x # o # o x x x - # o - # - x - o x o # x x x o # - # - x - x o # o -\n# - x x o x x x - o x x x x x x o x x o # o x x x - # x x x x o x x x x o # o x x # - # o\n- # o x # o - o o # o x o - o o # o x # - # o x o # o x o # o # x o - x # - # o x o # - #\nx x x x - # - # # - # x # - # # - # x o # o x x # o x x # - # o x # - x o # o x x x x x x\no # o o # - # o x # o x x x o x x x x x x # - x - # # o o # # o x - # o # - - # o x o - o\n# - # o x x x x x x x x o o # o o - # o x - # o - - - # o x - # o # o # o - - # o x # - #\no # x x x - # o x o # - # # - # # - # o x # o - # o x x x x x x x x x x x x x x x x x # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/060.a.htm",
+      "info": ""
+    },
+    "61_10x10": {
+      "problem": "10 10\n5 5 2 - - 5 - - - -\n- - - - 5 - - - - -\n- 2 - - 5 - - - 3 -\n- - - - - - - - - 5\n- - - 1 - - - - - -\n- - - - - 2 - - 2 -\n- - 5 - - - 5 - - -\n- 1 5 - - - - - - -\n- - - - - - - 1 - -\n5 - 3 - - 2 - - - -",
+      "solution": "10 10\n- - - # o - x x x x\no o # x - x x o # o\n# - x x - x o # - #\nx # o x x x x x o -\nx x x - # o o x # o\nx o x x x - # x - #\nx # - x o # - x x x\nx - - x x x x x o x\nx o # o x # o - # x\n- # - # o - # o x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/061.a.htm",
+      "info": ""
+    },
+    "62_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - - - 2 - 1 - 2 -\n- - - - - - - 2 - -\n- 5 - - 1 - 2 - - -\n- - - - - - - - - -\n- 1 - - 5 - 4 - - -\n- - - 2 - - - - - -\n- - 3 - - - - - - 1\n- 2 - - - - - - - -\n- - - - - - 2 - - 5",
+      "solution": "10 10\no x x x x x x o # o\n# x o # - x - # - x\nx x x o # x x - x x\nx - x x - x - # o x\nx # o x x o # o x x\nx - o x - # - # o x\nx o # - # o # o x x\nx # - x x x x x x -\nx - # o x o # x o #\nx x x x x x - # o -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/062.a.htm",
+      "info": ""
+    },
+    "63_12x12": {
+      "problem": "12 12\n- - - - - 5 - - - - - -\n- 5 - 5 3 - - - - - - -\n- 5 - - - 5 - - 2 1 - -\n1 1 - - 3 - - 5 - - - -\n5 - - - - - 1 - - - - 5\n- 5 5 - - - - - - - - -\n- - - - - - - - 5 - - 1\n- - - - - - - 4 - - - -\n- - - - 2 5 - - - - - -\n- 3 - - - - - - - 5 5 1\n3 - - 5 - 5 - - - 0 0 0\n- - - - - 5 - 2 - - - -",
+      "solution": "12 12\nx x x o # - x x x x x x\no - x - - # o x # o o x\n# - x o # - x x - - # x\n- - x x - # o - # o x x\n- # o x # o - # o x x -\nx - - x x x x x x x o #\nx x x x o x o # - x x -\nx o x o # o # - # o x o\no # x # - - o # x x x #\n# - x x x x x o x - - -\n- # o - x - o # x - - -\n# o x x x - # - x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/063.a.htm",
+      "info": ""
+    },
+    "64_12x12": {
+      "problem": "12 12\n2 - - - - - - - - - - -\n- - - - 5 - 5 - - - 5 -\n- - - - - - - - 4 - - -\n- - - - 2 - - - - - - -\n- - - - - - - - - - - -\n- - - 2 - 3 - - 2 - - -\n- - - - - 2 3 - 2 - - -\n- - - - - - - - - 5 - -\n0 - - 5 - - - - - 3 - -\n- - - - 4 - - - - - - -\n- - - - - 3 - - - - - -\n1 - - 2 - - - - - - - 1",
+      "solution": "12 12\n- # o x x x x x x x x x\n# o x x - x - o # o - x\no x x o # x x # - # o x\n# x o # - o x x # o o x\nx x x x o # o x # o # x\nx o # - # - # o - # o x\nx x x o # - - # - # o x\no # x x o # # o o - o x\n- x x - # o x x # - # x\no x o # - # o x x # o x\n# x x o # - # o x x x x\n- o # - # o x x x o # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/064.a.htm",
+      "info": ""
+    },
+    "65_12x12": {
+      "problem": "12 12\n- - 2 - - 5 - - - - - -\n- 5 - 5 - 5 - 5 - - 5 -\n- - - - - - 2 - 5 - 2 -\n- 2 - - - - - - 2 - - -\n- - 2 - - - - - - - - -\n- - - - 5 - - - - - - -\n- 5 2 - - 3 - 5 - 2 5 -\n- - - - - - - - - - - -\n5 - - - 2 - - - - 3 - -\n- - - - - - - - 3 - - -\n- - - - - - - - - - - -\n- - 3 - - 0 - - - - 5 -",
+      "solution": "12 12\no # - # o - o x x x x x\nx - x - x - # - x o - x\nx x x x x x - o - # - x\nx - # o x o # # - o # x\no # - x x o x x # o x x\nx x x x - # o x x # o x\nx - - # o - # - x - - x\nx x # o o # x x x # o x\n- x o # - x x o # - x x\nx x x x # o x x - # o x\nx o # x x x x o # x x x\no # - # o - x x x x - x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/065.a.htm",
+      "info": ""
+    },
+    "66_12x12": {
+      "problem": "12 12\n- - - 2 - - - - 1 - - -\n- 1 5 1 5 - - 5 1 - 5 1\n- - - - - 5 - - - - - -\n- 5 - - - - - - 5 - 5 -\n- - - - - 1 - - - - 5 1\n- 5 - - 2 5 - - - - 1 -\n- 1 5 - - - - - - - 1 -\n- - - - 5 5 - - 5 - - -\n- - - - - 1 3 - - - 5 -\n2 - - - - - - 2 1 - - -\n5 - - - - - 5 - - - 1 -\n1 - 5 - 1 - - - 5 - 2 -",
+      "solution": "12 12\nx o # - # o o # - x o #\nx - - - - x x - - x - -\nx # o # o - x o # x x o\nx - x x x x x x - x - #\nx x x o # - o x x x - -\no - x x - - # x o # - o\n# - - x # o o x x x - #\no x x x - - # o - x x x\n# o x o # - - # # o - x\n- # x x x o # - - o # x\n- o x o x x - x x o - o\n- # - # - x x x - # - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/066.a.htm",
+      "info": ""
+    },
+    "67_15x15": {
+      "problem": "15 15\n- - - - - - - - - - - - - - 2\n- 3 - - - - 4 - - - - - - - -\n- 1 - - - - - 2 - 3 - - - - -\n- - - - - - - 0 - - - - - - -\n5 - - - - 0 - - - 2 - - 3 - -\n1 - - 2 - - - 1 - - - - - - -\n- - - - - 5 - - - 1 - - - - 5\n- 5 - - 0 - - - - - - - - - -\n- - 5 - - - - - - 2 - 5 - - -\n- - - - - 4 - 1 - - - - 4 - -\n- - - 3 - - - - 2 - 5 - - - -\n- - 5 - - 5 - - - 5 - - - - -\n- - - - - - - - - - - - - 5 1\n- - - - - - - - - - 4 - - - -\n5 - - 3 - - - 2 - 2 - - - - 5",
+      "solution": "15 15\no # o x x o # o x x x x o # -\n# - # o x # - # o # o x x o #\nx - # o x o # - x - # o x x x\nx x x x x x x - x # o o # o x\n- o x # o - x x x - # o - # x\n- # x - x x x - x x x o # x x\nx x x # o - x # o - x x x x -\nx - x x - o x x o # o x o x x\nx o - x o # o x x - # - # o x\nx # o # # - # - x o o # - # x\nx o # - o # x x - # - x # o x\nx x - # o - x o # - o x x x x\no x x x x x x x x o # o x - -\n# x o # o x o # x # - # x o #\n- o # - # o # - x - # o x x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/067.a.htm",
+      "info": ""
+    },
+    "68_12x25": {
+      "problem": "12 25\n- - - - - - - - - - - - - 5 5 - - - - - - - - - -\n- 1 - - - - 5 - 3 - - 5 - - - - - - - 3 - - - - 1\n5 - - - 2 - - 3 - - 2 - - - - 2 - 1 - - - - - - -\n- - - - - - 5 - 5 - 5 - 5 - - - - - - - 1 - - - -\n- - - - - - - - - - - - - - 1 - - - - - - - - - 2\n1 - - - 3 - 1 - - - - - 3 - - - - - - 3 - 3 - - -\n- - - - - - - - 2 - 1 - - - - - 0 - 3 - - - - - 3\n- - - - - - - 4 - - - - - - 0 - - - - - - - - - -\n- - 4 - - 0 - - - - - - - - - - 3 - 3 - - - - - 3\n- - - - - - - 3 - - - - 5 - 1 - - 2 - - - - - - -\n- - - - - - - - - - - - - - - - - - - - - - - - -\n- - 2 - - 0 - - - - 2 - - 5 5 - - 2 - - 2 - - 1 -",
+      "solution": "12 25\no x x x x x x o # o x x x - - x x x x x x x x o #\n# - x o # o - # - o # - x x x x o o # - # o x o -\n- o x # - o # - # o - # o x o - # - o # # o x # o\no # x x x x - x - x - x - x # # o x x x - o x x #\n# x x o # x x x x x x x x x - o # x o x o # o x -\n- x o # - x - # o x o # - # o x x x # - # - # o #\nx x o o # x o # - x - o # x x x - x - # o x o # -\nx o # o x o # - # o # o x x - x x o # o x x x o #\nx # - # x - o # o x x x x o o # - # - # o x o # -\nx o # x x x x - # x o x - # - o # - x x x x x o #\nx x x x # o x # o x # x x x x x x x x o # o x x o\no # - # o - x x x x - # o - - o # - # o - # x - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/068.a.htm",
+      "info": ""
+    },
+    "69_12x25": {
+      "problem": "12 25\n2 - - - - - - - 5 - - 2 - - - 2 - - - - - 5 - 1 5\n- - 5 - 0 - 3 - - - - - - 5 - - 1 - - 5 - - - - -\n1 - - - - - - - 5 - - 1 - - 5 - - 2 - 5 - 5 - - -\n- - 1 - 1 - - - - - 1 - - - - 1 - - - - - - - 3 -\n- - - - - 0 - 1 - - - 1 5 - - - - - - 2 - - - - -\n3 - - - 5 - - - - - - 5 - - - 5 - - - - - 1 - 0 -\n- - - - - - - 1 - 3 - - - - - - - - - - - - - - -\n1 - - - - - 1 - - - - - 0 1 - 3 - - - 3 - - 1 - -\n- - 0 - 0 - - - - - - - - - - - - - - - - - - 2 -\n2 - - - - - 5 - - - - - - 1 - - 2 - - - - - - - -\n- - - - - 1 - - - - - 5 - - 1 - - 1 - - - 2 - - -\n1 - - 0 - - - - - 1 - - - - - - - - - - - - - - -",
+      "solution": "12 25\n- # o x x x # o - o # - x o # - x x x x x - x - -\n# o - x - x - # o x o # x - o # - x o - x x x # o\n- x x o x x # o - x x - x x - x x - # - x - o # o\no x - # - x x x x x - o # x x - x # o x x o # - #\n# x x x x - x - x o # - - x o # x o # - x x x x x\n- # o x - x o # x # o - x x x - x x o # x - x - x\n# o x x x x x - x - # o o # x # o x x # o # o o x\n- x x # o x - x x # o x - - x - # o x - # o - # x\nx x - o - x # o x x x x x x x # o o x # o x x - x\n- # o # x x - x x o x o # - o # - # x x x x o # x\n# o x x x - # o x # x - # o - # o - x o # - # o x\n- x x - x x x x x - x x x x x x x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/069.a.htm",
+      "info": ""
+    },
+    "70_17x25": {
+      "problem": "17 25\n- - - - - - - - - - - - - - - - - - - - - - - - -\n- 1 - - - 2 - - - 1 5 5 - 3 5 1 - - - 1 - - - 1 1\n- 2 - - - 1 - - - - - - - - - - - - - 2 - - - 5 -\n5 2 - - - 5 - - - - - - - - - - - - - 2 - - - 2 -\n- - - - - - - - - 3 5 1 - 0 5 3 - - - - - - - - -\n- 2 5 - - 5 - - - - - 1 - - - - - - - 2 - - - 5 -\n- 5 - - - 2 - - - - - - - - - - - - - 1 - - - 5 -\n- 2 - - - 3 - - - - 0 - 1 - - - - - - 1 - - - 3 -\n- - - 5 - - 5 5 - - - - - - - - - 1 - - - 5 - - -\n- 2 - - - 2 - - - - - - 5 - 5 - - - - 5 - - - 5 -\n- 1 - - - 1 - - - - - - - - - - - - - 1 - - - 2 -\n- 1 - - - 0 - - - - - - - 5 - - - - - 3 - - - 1 -\n- - - - - - - - - 1 2 2 - 5 2 1 - - - - - - - - -\n- 1 - - - 1 - - - - - - - - - - - - - 2 - - - 1 -\n- 2 - - - 2 - - - - - - - - - - - - - 5 - - - 1 -\n5 1 - - - 2 - - - 5 2 3 - 5 5 1 - - - 5 - - - 3 -\n- - - - - - - - - - - - - - - - - - - - - - - - -",
+      "solution": "17 25\nx x x x x # o x x x x x o # o x x x x x x x x o #\no - # o x - # o x - - - # - - - x o # - x o # - -\n# - # o x - # o x # o o o # o # x o # - # o o - o\n- - # o x - x x x # o # x x o # x x x - # o # - #\no # o x x x x o # - - - x - - - # o x # o x x x x\n# - - x o - x x x # o - x x o # x x x - # o x - x\nx - o x # - # o x # o # o x x x x o # - x x x - o\nx - # o # - # o x x - x - # o x o o # - x o # - #\nx # o - o # - - x # o x x x x x # - x x x - x # o\nx - # o x - # o x x x x - x - x x x x - x x x - o\nx - # o x - # o x o o o x x o o x o # - o o # - #\nx - # o x - o # x # # # o - # # x o # - # o # - x\nx x x x x x x x x - - - # - - - x x o # x x x x x\no - # o o - # o x o # o x x # o x o # - x o # - x\n# - # o # - # o x o # # o x x x x x x - x o # - o\n- - x o # - # o x - - - # - - - # o x - x o # - #\no # x x x x x x x o # # o x x x x x x x x x x # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/070.a.htm",
+      "info": ""
+    },
+    "71_15x15": {
+      "problem": "15 15\n1 5 - 5 - 5 5 - - - 1 5 5 5 1\n- - - 2 - 5 5 - 5 5 1 - - - -\n- - - - - - - - - - - - - - 5\n- - 5 0 - - - - 5 - - 5 5 5 5\n2 - 5 - - - 4 - - - - 1 - - -\n- 5 5 - - - - - - - - - - - 1\n- - - - - 1 - 5 - 1 - - - - 2\n1 - 5 - - 3 - - - - - - - - -\n- - 5 - - - - - 5 - 5 - 5 5 1\n- 5 - - 5 - - 5 - 1 - - - - 1\n- 3 - - 5 - - - - - - - - 3 5\n2 - - - - - - 1 - 5 - - - - 2\n1 - - - - 3 - - - 5 5 - 5 - -\n5 5 5 - 5 - - - - - - - - - -\n5 1 - - 5 0 0 5 - 2 - - 1 1 -",
+      "solution": "15 15\n- - o - o - - x o # - - - - -\n# o # - # - - x - - - # o o #\no x x x x x x x x x x x x x -\n# o - - x o # o - x o - - - -\n- # - x x # - # o x # - x o #\no - - x o # # o x x x x x o -\n# x x x o - o - x - # o x # -\n- x - x # - # x x o x x x o #\nx x - x o # x x - # - x - - -\no - o x - x x - x - x x o # -\n# - # x - o o # x x x o # - -\n- # o x o # o - x - x x o # -\n- # o x # - # x x - - x - o #\n- - - x - x x x o # o x x x o\n- - # o - - - - # - o # - - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/071.a.htm",
+      "info": ""
+    },
+    "72_10x10": {
+      "problem": "10 10\n- - - 2 - - - - 1 -\n1 - - - - - - 5 - -\n- 5 - - - - 5 - - -\n- - 5 - 5 - - - 5 -\n- - - - - - 1 - 5 -\n- 5 - 5 - - - - - -\n- 5 - - - 5 - 4 - -\n- - - 1 - - - - 5 -\n- - 5 - - - - - - 2\n- 3 - - - - 5 - - -",
+      "solution": "10 10\n# o x - # o o # - o\n- x x # o x x - x #\no - x x x x - x x x\n# x - x - x x x - x\nx x x x o # - o - x\nx - x - x x o # o x\nx - x x x - # - # o\nx o x - x x o # - #\no # - # o x x x x -\n# - # o x x - x o #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/072.a.htm",
+      "info": ""
+    },
+    "73_12x12": {
+      "problem": "12 12\n1 - - - 1 - - - - 2 - -\n1 - - - - 2 - - 5 5 2 -\n1 5 - - - - - - 5 - - -\n- - 2 5 - 5 - - - - 2 -\n- 1 - - - - - 5 1 - - -\n- - - - - 5 - - - - - -\n1 1 - - - 5 - - 5 - 5 1\n- - 5 - - - 5 - - - - 5\n- 5 - - - - - - - - - -\n- - - 1 - 5 - 5 2 - 1 -\n- 5 - - 5 5 - 5 - - 1 -\n- - 1 - - 1 - - - 5 1 -",
+      "solution": "12 12\n- # o x - # o o # - # o\n- # o x x - x x - - - x\n- - # o x # o x - o # x\n# o - - x - x x o # - x\nx - # o x x x - - x x x\nx x x x x - x o # x o #\n- - # o x - x x - x - -\n# o - x x x - x x x x -\nx - x x o x x o # o x x\nx x x - # - x - - # - x\nx - x x - - x - o # - o\no # - o # - x x x - - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/073.a.htm",
+      "info": ""
+    },
+    "74_13x13": {
+      "problem": "13 13\n- - - 1 - - - - - - - - -\n- 5 - - - - - - 2 - - - -\n- - - - - - - - - - - - 5\n2 - - 5 - - - - - 3 - - -\n- - - - - 4 - - 3 - - 3 -\n- - - - - - - - - - - - -\n- - 2 - - - 4 - - - - - -\n- - - - - - - - - - - 1 -\n- - - - 5 - - - 5 - - - -\n- - - 3 5 - 5 - - - - - -\n- - - - - - 2 - - 4 - - -\n- - 3 - - - - - - - - 1 -\n- - - - 5 - - - - - - - -",
+      "solution": "13 13\nx x x - x x x x x x x x o\no - x # o x o # - # o x #\n# o x x x x x x o # o x -\n- # x - o # o o # - o # o\nx x x o # - # # - # o - #\nx o x x o # # o x x o # x\nx # - x o # - # o x o # x\nx o # x x x # o x x x - x\nx x o # - x x x - o x x x\nx o # - - x - o o # o o x\nx o o # x x - # # - # # x\nx # - # o x # o x # o - x\nx x # o - x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/074.a.htm",
+      "info": ""
+    },
+    "75_12x12": {
+      "problem": "12 12\n5 - - 5 - - 5 - - 5 - 5\n2 - - 0 - - 1 - - 3 - 5\n- - - - - - - - - - - -\n- - - 5 - - - - - - - 5\n2 - - 1 - 2 - - 5 - - 2\n1 - - - - 3 - - 5 - - -\n- - - 0 - - 5 - - - - 5\n5 - - 5 - - 1 - 5 - - 5\n1 - - - - - - - 2 - - -\n- - - - - - - - - - - -\n5 - 1 - - 5 - - 0 - - 5\n1 - 2 - - 5 - - 0 - - 5",
+      "solution": "12 12\n- o x - x o - x o - o -\n- # x - x # - x # - # -\n# o x x x x x x o # x x\n# o x - o # o x x x x -\n- # o - # - o x - o # -\n- x x o # - # x - x o #\n# o x - o # - x x x x -\n- o x - x x - o - o x -\n- # x x x o # # - # x o\nx x x o x x x x x x x #\n- o - # x - o x - x o -\n- # - # o - # x - x # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/075.a.htm",
+      "info": ""
+    },
+    "76_15x15": {
+      "problem": "15 15\n- - 2 - - - - - - - 0 - 2 - -\n- - - - - - - - - - - - - - -\n- - - - - 5 - 1 - 5 - - - - -\n- - 2 - 5 - 1 - 2 - - - - 5 -\n- - - - - - - - - - - - - - -\n- - - - - - - - - - - - 3 - -\n- - 1 - - - 4 - - 3 - - - - -\n- - - - 5 - - - - - - 0 - - -\n- - - - - - - - - 1 - - - - -\n- 2 - - - 2 - - 2 - - - 5 - -\n- - - - 1 - - - 5 - - - 1 - -\n5 - - 2 - - - - - - - - - 3 -\n- - 1 - - 5 - - - - - 3 - - -\n- - - - - - 4 - - 5 1 - - - 1\n1 - 2 - - 5 - - - - - - 5 - -",
+      "solution": "15 15\no # - # o x x x # o - o - # o\nx x x x x x o x x x x # # o x\nx o # o x - # - x - x x x x x\nx # - o - x - x - # o x o - x\nx x x # x x x x # o x x # o x\nx o x x x o # o o # o x - # x\nx # - x o # - # # - # o # o x\nx o x x - o # o x x x - o # x\nx # o x x # o o x - x x x x x\nx - # o x - # # - # o x - o x\nx x o # - x x x - x x x - # o\n- x # - x x o x x x o # o - #\nx x - x x - # o x o # - # # o\nx o x x o # - # x - - x x x -\n- # - # o - # o x x x x - o #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/076.a.htm",
+      "info": ""
+    },
+    "77_15x15": {
+      "problem": "15 15\n- - - - 3 - - 5 - 5 - - - - -\n- - - 3 - - - - - 5 - - - - 2\n- 0 - - 3 - - - - - - - - - -\n- - - - - 4 - - - - - - 5 - -\n- - - - - - - - - - 4 - - - 1\n3 - - - - 2 3 - - - - - - - -\n- - - - - - - - - - - - - - -\n- - - - - - - - - - - - 0 5 -\n- - - - 2 - 5 - 5 - 3 - - - -\n- - 5 - - - - - - - - 3 - - 5\n- 4 - - - 3 - - - 2 - - 3 - -\n- - 5 - - - - - - - - - - - -\n- - - - - - 1 - - - - - - 5 -\n- 5 5 - - - 1 - 5 - 5 - - - -\n- - 2 - - - - - - - 5 - 3 - 5",
+      "solution": "15 15\nx x o # - # o - o - o x x o #\nx o # - # o x x # - # x o # -\nx - x x - # o x x x x x x x o\nx x x o # - # o x o # o - x #\n# o x x o # # o x # - # o x -\n- # o x x - - # o o # x x x x\n# o x x o # # o x x x x o # x\nx x x o # o x x x o # o - - x\nx o x x - # - x - # - # o x x\no # - x x # o x x # o - # o -\n# - # o x - # o x - o # - # o\no # - x x # o x x # o x x x x\nx x x x o # - o x x x x o - x\nx - - x x x - # - x - o # o x\no # - # o x x x x x - # - # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/077.a.htm",
+      "info": ""
+    },
+    "78_15x15": {
+      "problem": "15 15\n1 - - 1 - - - 5 2 - - 1 - - -\n- - - - - 5 - - - - 5 - - - -\n- - 1 - - - 2 - - - - - - - -\n- - 5 - 5 - - - 3 - - - 2 5 -\n5 - - - - - - - 1 - - 5 - - -\n- - - - - - 1 - - 5 - - 2 - -\n- 5 - 2 - 5 - - - - 1 - - - -\n2 - - - 2 5 - - - - - - - - -\n- 5 - - - - - 5 2 - - - - - 1\n- - - 0 - - - - - - - - - - -\n2 5 - - 1 1 - - - - - - 1 - -\n- - - 5 - - - - - 1 - - 2 - -\n- - - - - - - - 5 - - - - - -\n- 5 - - - 5 - - - - - - - 0 0\n- - - 2 - 1 - - - 2 - 2 - - -",
+      "solution": "15 15\n- o # - x x o - - # o - # o x\n# o x x x - # o # x - x x x x\no # - x o # - o # x x x # o x\nx x - x - x o # - # o x - - x\n- x x x x x x x - # o - # o x\no x o x o x - x x - x x - x x\n# - # - # - # o x x - x # o x\n- # o x - - x x x o # x x x x\no - x x # o x - - # o x o # -\n# x x - o # x o # x x x x x x\n- - x x - - x x x x o # - o x\n# o x - # o x o # - o # - # x\nx x x x x x x x - x x o x x x\nx - o # x - o x x x o # x - -\nx o # - x - # o # - # - x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/078.a.htm",
+      "info": ""
+    },
+    "79_15x25": {
+      "problem": "15 25\n- - - - - - - - - - - - - - - - - - - - - - - - 5\n- - - - - - - - - 5 - 1 - - - - - - - - - - - - -\n- - 2 1 - 5 1 - - 2 5 2 - - - 0 2 - - - 5 2 - - -\n- 5 5 5 5 5 5 1 - - 5 - - - 5 5 5 1 - 1 5 5 5 - -\n- 2 5 5 5 5 5 5 - - - - - - 5 5 5 5 5 5 5 5 1 - -\n- - 5 5 5 5 2 - - - 5 - 5 - 5 5 5 5 5 5 5 5 5 - -\n- - - 5 5 1 - - - - 5 5 5 - - 0 5 5 5 5 5 5 - - -\n- - - - 1 - - - - - - 1 - - - - 1 5 5 5 5 - - - -\n2 - 5 - - - - - - - - - - - - - - 5 5 5 - - 5 - 2\n5 5 5 - - - - - 1 1 - 5 5 - - - - - 1 - - - 5 5 5\n- 5 - - - - - - 5 5 - 1 1 - - - - - - - - - - 5 -\n- - - 1 - 5 - - 5 5 5 5 5 - 1 - - 5 - - - - - - -\n- - 5 5 5 5 2 - - 2 1 5 - - 2 1 1 5 - 5 2 - 5 5 -\n- - - 2 5 5 - - - - - - - - - 5 5 - - 1 5 5 5 5 -\n- - - - 2 - - - - - - - - - - - - - - - 5 5 1 - -",
+      "solution": "15 25\nx x x x x x x x x x x x x x x x x x x x x x x x -\nx o # o o # o o o - x - # o x o # o x o x # o x x\nx # - - # - - # # - - - # o x - - # x # - - # o x\no - - - - - - - o # - # o x - - - - x - - - - o x\n# - - - - - - - x x x x x x - - - - - - - - - # x\no # - - - - - # o x - x - x - - - - - - - - - x x\no x x - - - # o x x - - - x x - - - - - - - x x o\n# o x x - x x x x o x - # o x x - - - - - x x o #\n- # - x # o x o # # x x x x x o # - - - x x - # -\n- - - x x x x x - - o - - o x x x x - # o x - - -\no - x x o x o x - - # - - # x o o x x x x x x - x\n# x x - # - # x - - - - - o - # # - x o # o x x x\nx x - - - - - o # - - - x # - - - - x - - # - - x\nx o # - - - # o o # # o x o # - - x x - - - - - x\nx x o # - # o x x x x x x x x x x x o # - - - # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/079.a.htm",
+      "info": ""
+    },
+    "80_10x10": {
+      "problem": "10 10\n- - - 2 - - - - - 1\n- - - 1 5 - - 1 2 5\n- - 5 5 - - - - - -\n- - - - - 5 - 5 5 -\n- 2 - - - - - - - -\n2 1 - - 5 5 - 5 - 5\n- - - - - 2 - 5 - 5\n- - - - - 5 5 - - -\n- 5 5 5 - - - - 5 -\n- - 2 - - 5 5 - - 2",
+      "solution": "10 10\nx o # - # o x o # -\nx o # - - x x - - -\nx x - - x x o # # o\no x x x x - x - - x\n# - # o x x x x x x\n- - # o - - o - x -\n# o x o # - # - x -\nx x x x x - - x x o\nx - - - x x x x - #\no # - # o - - o # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/080.a.htm",
+      "info": ""
+    },
+    "81_15x15": {
+      "problem": "15 15\n5 - - 1 - - - - - - - 5 - - -\n- - - - - - - - - - - - - 2 -\n- - - - - - 3 - - - - - - - -\n- 1 - - - - - - - 2 - - - - 5\n- 5 - 1 - - - 4 - - - 3 - - -\n- - - - - 3 - - - - - - - 3 -\n- 5 - - - - - - - - - - - - -\n- - - - - - - - - - 5 - - - -\n- - 4 - - - - - 3 - - - 5 - -\n- 5 - - - - - 4 - - - - - - -\n- - - - - - - - - - - 1 - 3 -\n- - - 4 - - - - - - 2 5 - - -\n- 3 - - - - 3 - - - - - - - 1\n- - - - 1 - - - - - - - - - -\n0 - - - - - - - - - 3 - - 5 5",
+      "solution": "15 15\n- o # - x x x x x x x - o # o\nx x x x x o # o x o x x x - #\nx # o x o # - # x # o o x x x\nx - o x x o o # o - # # o o -\nx - # - o # # - # o o - # # o\nx x x x # - x # o x # # o - #\nx - o x o # x x x x x x o # x\nx o # x x x x o # o - x x x x\nx # - # o x o # - x x x - o x\nx - # o x x # - # o o x x # o\nx o o # o x o # o o # - x - #\no # # - # o # o x # - - x # o\n# - x # o o - # x x x x x x -\no # x x - # # o x o # o x o #\n- o # x x x x x x # - # o - -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/081.a.htm",
+      "info": ""
+    },
+    "82_10x10": {
+      "problem": "10 10\n- - - 5 - - - - - 5\n- 5 3 - - - 5 5 - -\n- - - 5 5 - - - 2 5\n- - 1 - - - - - - -\n5 - - - 1 - - - 5 -\n- - 2 - - - - - 5 2\n5 5 5 5 - - 1 - - -\n- - - - 1 - - - - -\n- 5 5 - - - 5 5 5 -\n- 2 - - - - - 2 - -",
+      "solution": "10 10\nx o # - x x x x x -\nx - - # o x - - # o\nx o # - - x o # - -\nx x - x x x x x x o\n- x x x - # o x - #\no # - # o o # x - -\n- - - - # o - x o #\nx x x x - x x x x x\no - - x x x - - - x\n# - # o x o # - # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/082.a.htm",
+      "info": ""
+    },
+    "83_10x10": {
+      "problem": "10 10\n- - - - 1 - - 1 - -\n2 - - - 1 5 - 5 5 -\n5 5 - - - - - - - -\n- - - 5 - - - - - -\n- - - 2 3 - - 1 - -\n- 5 - - - - - 5 0 -\n- 5 5 - - - - - - -\n- - - - - - - - - -\n- - - 2 - - - 5 - -\n- - - 1 2 - - 1 2 -",
+      "solution": "10 10\n# o x x - # o - # o\n- # o x - - x - - x\n- - x x # o x x x x\nx x x - # o x # o x\nx o # - - # o - x x\nx - o # # o o - - x\nx - - x x x # x x x\nx x x x o x x x o x\nx o # - # o o - # o\nx o # - - # # - - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/083.a.htm",
+      "info": ""
+    },
+    "84_15x20": {
+      "problem": "15 20\n5 - - - - - - - 0 - - - - - - - - 2 - -\n- - - 5 - - - - - - 1 - - - 3 - - - - -\n- 2 - 1 - - - - - - - - - - - 1 - 5 - -\n- - - - 3 - - 3 - - 0 - - - - - - - - -\n5 - - - - - - - 1 - - - - - - 1 - 1 - 1\n- - - - - 3 - - - - - - - - 2 - - - - -\n- - 1 - - - 1 - 2 - 5 5 - 3 - - - - - -\n1 - - - - - - - - - - - - - - 5 - 0 - -\n- - 5 - 5 - 1 - - - 3 - - - - - - - - -\n- - - - - - - - - - - 1 - 3 - - - - 2 -\n- - 3 - - - 2 - - - - - - - - - - - - -\n5 - - - - 3 - - - 3 - - - - 2 - 1 - - -\n- - - - 1 - - - - - - 2 5 - 2 - - 3 - -\n- - 1 - - - - - - - - - - - - - - - - -\n- 2 - - - - - 2 - - - - - - - - - - - -",
+      "solution": "15 20\n- o x x x x # o - o # x x o # o # - # o\no # x - o x x x x x - x o # - x x x x x\n# - x - # o o # o x x x x o # - x - x o\nx x x x - # # - # o - o x x x x o x x #\n- x o o # # o x - x x # x o x - # - x -\no x # o # - x x x o x x x # - x x x x x\n# x - x o # - x - # - - x - # o x o # x\n- x x x x o x x # o # o x # o - x - o x\nx x - x - # - x o # - x x # o x x o # x\nx o # x x x x x x o # - x - # o x # - x\no # - x o # - x o # o o o # # o x o x x\n- o # x x - # o # - x # o # - o - # o x\nx x x x - # o x o # x - - x - # x - # x\no x - x x x x x x x x # o x # o x # o x\n# - # o x o # - # o x x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/084.a.htm",
+      "info": ""
+    },
+    "85_15x15": {
+      "problem": "15 15\n- - 2 - - - - 1 - - 1 - - - -\n- 5 - 5 - - - - - - - - - - 2\n- - - - - - 3 - - - - - - - -\n- 2 - - - 3 - - - - - 1 - - -\n- - 5 - - - - - - - - - 5 - -\n- - - 2 - - - 3 - - - - - 4 -\n- 5 3 - - - - - 3 - - - 5 - -\n- - - - - - - - - - - 5 - - -\n- - 5 - - - 4 - - - - - - 5 -\n- 1 - - - - - - - - - - - - -\n- - - - - - - - - 2 - 5 - - -\n- - - 2 - - 1 - - - - - 3 - -\n- - - - - - - - - - - - - - -\n3 - - - - - - 2 - - - 2 - - -\n- - - - 2 - - - - - - - - - -",
+      "solution": "15 15\no # - # o o # - o # - x x o #\nx - x - x o x x x x x x o # -\nx x x x x # - # o x o x x x x\nx - # o x - # o x x # - x o x\no # - x x # o # o x x x - # o\nx o # - x x x - # o x o # - #\nx - - # o x o # - x x x - # o\nx o # x x x # o # o x - x x x\nx x - x o # - # o x x x x - x\nx - x x x x # o x x o x o x x\nx # o # o x x x x - # - # o x\nx x x - # o - # o # o o - # x\n# o x x x x x x x x x # # o x\n- # o x # o x - # o x - # o x\n# o x x - # o # o x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/085.a.htm",
+      "info": ""
+    },
+    "86_15x20": {
+      "problem": "15 20\n1 - - - - - - - 5 - - 1 - - - - - - - -\n- 1 - - 0 - 3 - - - - - - - - - - - - -\n- - 2 - - - - - - - - - 3 - - - 2 - - 2\n0 - - - - - - - 1 - - - - 2 - - - - - -\n- - - - 2 - - - - - - - - - - - - - - -\n2 - - - - - - - - - - 2 - 0 - 2 - - 2 -\n- - - - - - - 2 - - - - - - 2 - - - - -\n- - - - 2 - - - - - - 2 - - - - - - - -\n- 1 - - - - - 3 - 1 - - - - - 1 - - - 2\n- - - - - - - - - - - - - - - - - - - -\n0 - 5 - - - - - 5 - - - - - 2 - - - 3 -\n- - - - - - 5 - - - - 3 - - - - - - - -\n1 - 5 - 3 - 5 - - - 2 - - - - - - - 0 -\n- - - - - - - - - 2 - - 0 - 3 - - - - -\n1 - - 0 - - 1 - 2 - - - - - - - - 2 - 0",
+      "solution": "15 20\n- # o x x x # o - o # - x x x x x x x o\nx - x x - x - # o x x x x o x o # x o #\nx x - # o x # o x x o # - # o # - x # -\n- x # o x x x x - x x o # - x o x x x x\nx x x x - # o x # o x x x x x # x o # o\n- # o x # o x x x o # - x - x - x x - #\n# o x x x x x - # o o # x x - # o x x o\no # o # - x o # o o # - x o # # o x o #\nx - x o # x x - # - x x x x o - x x # -\nx x x x x x o # x x x o x o # x x o # o\n- x - x o x x x - x o # x # - x o # - #\nx x x o # o - x x x # - x x o x x x x x\n- x - # - # - x o x - # o x # o x o - x\n# o x x x x x x # - x x - x - # o # x x\n- x x - o # - x - # o x x x # o # - x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/086.a.htm",
+      "info": ""
+    },
+    "87_10x10": {
+      "problem": "10 10\n1 5 - - 5 - - - - -\n- - - 2 - - 2 - - -\n- - - 5 2 - 5 5 - -\n1 0 - - - - - - - 5\n1 - - - 5 - - - - -\n- - 1 - - - 2 - - -\n5 - - 2 - - - - - -\n- - - - 5 - - 5 - -\n- 5 - - - - 5 - - -\n- 2 - 5 - - 2 - 5 1",
+      "solution": "10 10\n- - o # - o # x x x\n# o x - # o - # o x\n# o x - - x - - x x\n- - x o # x x x x -\n- x x x - x # o x x\n# o - x x x - # o x\n- o # - # o x x x x\nx x x x - x x - x o\no - o x x x - o x #\n# - # - o # - # - -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/087.a.htm",
+      "info": ""
+    },
+    "88_15x25": {
+      "problem": "15 25\n- - - - - - - - - - - - - - - - - - - - - - - - 5\n- - - - - - - - - 5 - 1 - - - - - - - - - - - - -\n- - 2 1 - 5 1 - - 2 5 2 - - - 0 2 - - - 5 2 - - -\n- 5 5 5 5 5 5 1 - - 5 - - - 5 5 5 1 - 1 5 5 5 - -\n- 2 5 5 5 5 5 5 - - - - - - 5 5 5 5 5 5 5 5 1 - -\n- - 5 5 5 5 2 - - - 5 - 5 - 5 5 5 5 5 5 5 5 5 - -\n- - - 5 5 1 - - - - 5 5 5 - - 0 5 5 5 5 5 5 - - -\n- - - - 1 - - - - - - 1 - - - - 1 5 5 5 5 - - - -\n2 - 5 - - - - - - - - - - - - - - 5 5 5 - - 5 - 2\n5 5 5 - - - - - 1 1 - 5 5 - - - - - 1 - - - 5 5 5\n- 5 - - - - - - 5 5 - 1 1 - - - - - - - - - - 5 -\n- - - 1 - 5 - - 5 5 5 5 5 - 1 - - 5 - - - - - - -\n- - 5 5 5 5 2 - - 2 1 5 - - 2 1 1 5 - 5 2 - 5 5 -\n- - - 2 5 5 - - - - - - - - - 5 5 - - 1 5 5 5 5 -\n- - - - 2 - - - - - - - - - - - - - - - 5 5 1 - -",
+      "solution": "15 25\nx x x x x x x x x x x x x x x x x x x x x x x x -\nx o # o o # o o o - x - # o x o # o x o x # o x x\nx # - - # - - # # - - - # o x - - # x # - - # o x\no - - - - - - - o # - # o x - - - - x - - - - o x\n# - - - - - - - x x x x x x - - - - - - - - - # x\no # - - - - - # o x - x - x - - - - - - - - - x x\no x x - - - # o x x - - - x x - - - - - - - x x o\n# o x x - x x x x o x - # o x x - - - - - x x o #\n- # - x # o x o # # x x x x x o # - - - x x - # -\n- - - x x x x x - - o - - o x x x x - # o x - - -\no - x x o x o x - - # - - # x o o x x x x x x - x\n# x x - # - # x - - - - - o - # # - x o # o x x x\nx x - - - - - o # - - - x # - - - - x - - # - - x\nx o # - - - # o o # # o x o # - - x x - - - - - x\nx x o # - # o x x x x x x x x x x x o # - - - # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/088.a.htm",
+      "info": ""
+    },
+    "89_15x15": {
+      "problem": "15 15\n- - - 5 - - 1 - - 1 - - 1 - 5\n- - - - - 5 5 - 5 5 - 5 5 - 1\n- - 5 - 1 - - - - - - - - - -\n- 1 5 - - 5 2 - - - 5 5 - 5 -\n- 2 - - - - - 5 5 - - 5 - 5 1\n5 5 5 - - - 5 - - - - - 3 - -\n- - - - 1 - - - 5 - - 2 5 5 -\n- 5 - - - - - - - 1 2 - - - -\n1 5 1 2 - - - - - - - - - - 1\n- - 2 - - - - - - - - - 5 5 5\n- 5 5 - - - 5 - 5 - 5 - - - -\n- - - - 5 - - 4 - - - - 5 5 -\n- - - - - - 4 - - 2 - 2 - - -\n- 1 5 - - - - 2 - - - - - - -\n- 2 - - - - - - - 5 1 - 2 - -",
+      "solution": "15 15\nx x x - o # - o # - o # - o -\nx o x x x - - x - - x - - # -\nx # - x - # o x x x x x x x o\no - - x x - - # o x - - o - #\n# - # o x o # - - x x - # - -\n- - - x x x - x x x o # - # o\no x x x - x x x - o # - - - x\n# - # o # o x o # - - x x x x\n- - - - # o x x x o # x o # -\no # - # o x x o x x x x - - -\nx - - x x x - # - x - x x x x\nx x x x - o # - # o o x - - x\nx # o x o # - # o - # - # o x\no - - x x o # - x # o o x x x\n# - # o x x x x x - - # - # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/089.a.htm",
+      "info": ""
+    },
+    "90_15x15": {
+      "problem": "15 15\n- - 2 - - 2 - - - - 1 - - 1 -\n5 - - - - - - - - - - - - - -\n- - 1 - - - - 5 - 1 - - - - -\n- - - 2 - 1 - - - - - 3 - - 5\n- - - - - - 3 - 1 - - - - - -\n5 - - - - - - - 5 2 - 2 - - -\n- - - 5 - - - - - - - - 3 - -\n- 2 - - - - - - - 1 - - - - -\n- - 3 - - - - 5 - - 1 - - - -\n- - - 2 - 3 - - - - - - - - 2\n- 5 - - - - 3 - - - - - - - -\n- - - - - - - 3 - 1 - - - - -\n- - - 2 - - - - - - 2 5 - - -\n- 0 - - - - - - - - - 1 - 3 -\n- - - 1 - 2 - - - - - - - - -",
+      "solution": "15 15\no # - # o - # o o # - o # - o\n- x x x o # x x x # o o x x #\nx x - x x x x - x - o # o x x\nx o # - x - x o x x # - # x -\nx x o # o # - # - x o x x x x\n- x x x x o # o - - # - x o x\nx x o - x x x # o # o # - # x\nx - # o x o x x x - x x # o x\no # - # o # o - x x - x x x x\nx x x - # - # o x o # x o # -\nx - x x x x - # x x x x x o #\nx x o # x o # - x - # o x x x\nx o # - x x o # x x - - o # o\nx - x x o x x x x o # - x - #\nx x x - # - # o x x x x x # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/090.a.htm",
+      "info": ""
+    },
+    "91_11x21": {
+      "problem": "11 21\n5 2 - - - - - - - 2 5 - 5 - 5 - - - - 1 1\n5 - - - - - - - - - 3 - 2 - - - - - 2 - -\n- - - - - - 2 - - - - - - - - - - - - - -\n1 - - 1 - 5 - - - - - 5 0 - 5 2 - - - 5 -\n- - - - - - - - - 5 - - 5 - - - - - - - -\n- - - - 5 - - - - - - - - - - - - - 3 - -\n- - 3 - - - 5 1 - 2 - - 5 - 5 5 - - 5 - -\n- 5 5 3 - - - - - - 5 - - - - - - - 3 - -\n1 5 5 - - - 1 - - - - - - - - - - - - 5 -\n5 5 1 - - - - 0 1 1 - - - - - 3 - 0 1 5 -\n5 5 1 - - - - 2 - - - - 2 - - - 1 - - - -",
+      "solution": "11 21\n- - # o x x x o # - - o - o - x x o # - -\n- # o x x o x x o # - # - # x x o # - o #\n# o x x o # - x x o # x x x x # o x x x x\n- x x - # - # o x x x - - x - - x x o - x\nx x o x x x x x x - x x - x o # x o # o x\nx o # o - x o # x # o x x x x x x # - # x\no # - # o x - - x - # o - x - - x o - o x\n# - - - # x # o x o - x x x x o x # - # x\n- - - # o x - x x # x x o x o # x o # - x\n- - - # o x o - - - x o # x # - x - - - x\n- - - # o x # - # o x # - x o # - x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/091.a.htm",
+      "info": ""
+    },
+    "92_11x11": {
+      "problem": "11 11\n2 - - - 1 - - - - - -\n- - 5 - - - - - - - 3\n- - - - - - - - - - -\n- - 5 5 - 4 - - - - -\n1 - - - 4 - - - - 5 -\n- - - - - - 5 - - - 3\n- 5 - - - 5 - - - - -\n- 3 - - - 3 - 5 - - 5\n2 - - - - - 3 - - - -\n1 - - - - - 1 3 - - -\n1 - - - - - 2 - - - -",
+      "solution": "11 11\n- # o x - # o x x o #\n# o - x x x x x o # -\no x x x o # o x x o #\n# x - - # - # o x x o\n- x o # - # o x x - #\nx x x x # o - x o # -\no - o x o - o x x o #\n# - # x # - # - x x -\n- # o x o # - # o x x\n- # o x o # - - # o x\n- # o x o # - # o x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/092.a.htm",
+      "info": ""
+    },
+    "93_20x36": {
+      "problem": "20 36\n5 - - - - - - - - 2 - - - - - - - - 2 - - 1 - - - 2 - - - - - 2 - - - 1\n- - - 4 - - - - - - 2 - - - 1 - - 5 - 5 - - 5 - - - - - - - - - - - 5 -\n- - - - 4 - - - - - - - - - - 1 - 2 - - - 5 - - 0 - - - 5 - - - 0 - - -\n2 - - - - 4 - - - 2 - - - 2 5 5 - - - 2 - - - - - - 1 - - - 1 - - - - 0\n- - - 5 - - - - - - - - - - - 2 - - 3 - - - 5 - 3 - - 3 - - - - - 2 - 5\n- - - - - - - - - - - - 1 - - - 5 - - - - - - - - - 5 - - - - - - - - -\n2 - - 5 - - 3 - 5 - 0 - - - - - - - - - 5 - 5 - - - - - - - - - - - - -\n- - - 5 - - - - - - - - - - - - - - 1 - - - - - - 1 - - - - - 3 - - - 3\n- 5 - - - 5 1 - - - - - - - - - - - - - - - - - - - - 2 - - - - - 5 - -\n- 3 - - - - - 3 - 5 - 5 - - 3 - - - - - 4 - 5 - - - - - 2 - - 5 - - - 5\n- - - - - - - - 2 - 0 - - 2 - - - - - - - - 2 - - - - - - - - - 5 - - -\n- 5 3 - - - 0 - - - - - - - - - - - 5 - - - - 2 - 3 - - 2 - - 3 - - - 2\n- - - 2 - - - 5 - 3 - 2 - - - - - - - - - - - - - - - - - - - - - - 1 -\n- - - - - 5 - - - - - - 3 - - 3 - - - - - - 0 1 - - - 5 - - - - - 5 1 -\n- - - 3 - - - 1 - - 1 - - - 1 5 - - - 3 - - 5 - - - - - 3 - - 3 - 5 - -\n- - - - - - - - - - - - - - - - - - - - - - - 5 - - 1 - - - - - - - - 5\n- 5 - 2 - - - 0 - - - - - - - - - - - 2 - 1 - - - - - 5 - - - - - - - 1\n- - - - - - - - - - - - - - - 2 - - - - - - - - 1 - - - - - - - - - - -\n- 5 - 3 - - - 2 - 2 - 3 - - 5 - - - 2 - - - - 5 - - - - - - 5 2 - - - -\n2 - - - - - - - - - - - - 2 - - - - - 5 - 1 - - - 5 - 2 - 2 - - - 5 2 -",
+      "solution": "20 36\n- x o # o x x o # - x x x x x x o # - # o - # o x - # o x o # - x o # -\no x # - # o x x o # - x o # - x o - o - x x - x x # o x x x o # x x - x\n# x o # - # o x x o # x x # o - # - # x x - x x - x x x - x x x - x x x\n- x x o # - # o x - # o x - - - o o # - x x x o x x - # o x - x x x o -\n# o x - o # o x x # o x x # o - # x - # o x - # - # o - # o # o x - # -\n# o x x x o # o x x x x - x o # - x # o x x x x # o - # o x x x x # o o\n- # o - x # - # - x - o # x x x x x x x - x - x x x x x x x o # x x x #\nx x x - x x x x x x o # x x o x o # - x x x x o # - o # x o # - x o # -\no - x x x - - x o x x x x o # x x x x o # o x x x x x - x x o # x - o #\n# - # o x o # - # - x - x # - x o x o # - # - o x o o # - x x - x x x -\no # # o x x o # - o - x x - # o # x x x # o - # x # o o # o o # - x o #\nx - - # o x - x x # o x o x x x x x - x x o # - x - # # - o # - x o # -\nx o # - x x x - x - # - # o o # o x x o x x x x o # x x x x o # x x - o\nx x x x x - x x x # o o - # # - # o x # o x - - x x x - # o o # x - - #\nx o # - # o x - # o - # # o - - o x x - # x - # o x o # - o # - x - x x\nx x x # o x x x x x x x x # o o # x o # o x x - x x - o # x o # x x x -\nx - x - o # x - x o x o x x o # x x x - # - x x x o # - x x x x x o # -\no x x # o x x x o # x # o o # - x o x x x x o # - x x x x o o # x x x x\n# - x - # o x - # - x - # # - x x # - x o x x - x x o x o # - - x o # o\n- # o # o x x # o x x # o - # o x o # - # - x x x - # - # - o # x - - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/093.a.htm",
+      "info": ""
+    },
+    "94_10x10": {
+      "problem": "10 10\n- - - 2 - - - - - 1\n- 5 5 5 5 - - - 5 5\n- - - 5 - - 5 - - -\n- - - 5 - 5 5 5 5 -\n2 5 - - - - 5 - - -\n- - - 1 - - 5 - 5 -\n5 - - - - - - - 1 -\n- - 5 - - 3 5 - - -\n- - - - 5 - - 5 - -\n- 3 - - 5 5 - - - 1",
+      "solution": "10 10\nx o # - # o x o # -\nx - - - - x x x - -\nx x x - x x - x x x\n# o x - x - - - - x\n- - x x x x - x x x\n# o x - # o - x - o\n- x x x o # o x - #\nx x - x # - - x x o\no # o x - # o - x #\n# - # o - - x x x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/094.a.htm",
+      "info": ""
+    },
+    "95_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- 3 - 3 - - - 1 - -\n- - - - - - - - - 1\n- - - - - - 0 - - -\n- 3 - - 1 - - - - -\n- - - - - - - 3 - -\n- - - - - - 5 - - -\n- - - - - - - - - -\n3 - - - 3 - - 3 - -\n- - - - - - - - - -",
+      "solution": "10 10\no # o x x x x # o o\nx - # - # o x - x #\nx # o # o x x x x -\nx # o o # x - o x x\nx - # o - x o # o x\nx # o x x x # - # x\nx x x x o x - o x x\n# o x o # o o # o x\n- # o # - # # - # x\n# o x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/095.a.htm",
+      "info": ""
+    },
+    "96_15x15": {
+      "problem": "15 15\n- - - - 1 1 - - - - - - - 0 5\n- - 2 - - 2 - - - 5 - - 5 - 5\n- - - - - - 2 - - 1 - - - - -\n- - - - - - - 2 - - - - - - -\n- 2 - - - 1 - - 2 - - 5 - - -\n- - 2 - - - - - - 1 - - 1 - -\n- - - 3 - - - - - - 2 - - - 1\n- 5 - - 5 - - - - - - - - - -\n- - - - - - - - 2 - 2 - - - -\n- 5 - - - - - 2 - - - 2 - - -\n- - - - - - 2 - - - - 1 1 - -\n- - - 2 - 1 - - - - - - - 5 -\n- - 3 - - - - - - - - - - - -\n- 5 - - - 2 - - 2 - - 1 - 2 -\n2 - - - - - - - - - - - - - 1",
+      "solution": "15 15\nx o o # - - # o x x x x x - -\nx # - x x - # o x - o x - x -\nx o # x o # - x x - # x x x o\nx # o x x # o - # o x x o x #\nx - # o x - o # - x x - # x o\nx x - x x x x # o - # o - x #\nx o # - # o x x x x - # o x -\nx - o # - x x o # x x x x x x\nx x x x x x o # - x - # o x o\nx - x o x o # - x o # - x x #\nx x o # x x - x x o # - - x x\nx o # - x - # o x x x o # - x\no # - x x x x x x o x x o x x\n# - # o x - # o - # x - # - x\n- # o x x # o o # x x x o # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/096.a.htm",
+      "info": ""
+    },
+    "97_14x14": {
+      "problem": "14 14\n- - - - - - - 1 - - 1 - - -\n- 5 - 4 - - - - - - - - 5 -\n- - 5 - - 1 - - 5 1 - - - 2\n- - - - - - 5 - - - - - 5 -\n- 5 5 - 2 - - - - 5 - - 2 -\n2 - - - - - - - - - - - - -\n- 5 - - - 5 5 3 - - - 5 - -\n- 0 - 5 - - - - 5 5 - - - -\n- - 2 - - - - - - - - - 4 -\n- 5 - - - - 0 - - - - - - 5\n- - - - - - - - 2 - - - - -\n- - - 5 - - - 5 - - - - 0 -\n- 5 2 - - - - - - - - - - 1\n2 - - - - - 1 - 1 - 2 - - -",
+      "solution": "14 14\nx x o # o x x - o # - x x o\nx - # - # o x # o x x x - #\nx x - # o - x x - - x o # -\no x x x o # - x o # x o - o\n# - - x - # o x x - x # - #\n- # o x # o o # x x x x x x\nx - x x x - - - # o x - o x\nx - x - x x o # - - x o # o\nx x - # o x x x x x x # - #\nx - # o x x - o # o x o # -\nx x x x x # o # - x x x x x\no o # - x x o - x x o x - x\n# - - # o x # x x o # x x -\n- # o x x x - x - # - x o #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/097.a.htm",
+      "info": ""
+    },
+    "98_14x14": {
+      "problem": "14 14\n- - 5 - - - - - - - - 1 - 5\n2 - - - - - - 4 - - - - - -\n- - 5 - - 5 - - 3 - - - - -\n- - - - - - - - - - - - 3 -\n- - - - - 2 - - - - - - 5 -\n- - - - - - - - 5 - 3 - - -\n- 1 - - - 4 - - - - - - 5 -\n- 2 - - - - - - 1 - - - 1 -\n- - - 2 - 3 - - - - - - - -\n- 2 - - - - - - 5 - - - - -\n- 5 - - - - - - - - - - - -\n- - - - 2 - - - 2 - - 1 - -\n- - - - - 3 - - - - - - - 2\n1 - 3 - - - - - - - - 5 - -",
+      "solution": "14 14\n# o - x x x x # o o # - x -\n- x x x o o # - # o x x x x\n# o - x # - o # - x x o # o\nx x x x x x x o # x o # - #\nx o x o # - x x x x # o - x\nx # x x o # o x - x - # o x\nx - o o # - # o x x # o - x\nx - # # o # o x - x x x - x\nx # o - # - x x # o x o # x\nx - # o x # o x - x x x x x\nx - x x x x x x x x o # x o\nx x o x - # o x - # o - x #\nx o # o # - # o # o x x x -\n- # - # o x x x x x x - o #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/098.a.htm",
+      "info": ""
+    },
+    "99_10x10": {
+      "problem": "10 10\n2 - - - - - 5 1 - -\n- - - - 5 2 - - 5 -\n3 - - - - - 5 - - -\n- - - - 5 - 5 - - -\n2 5 - 5 5 1 5 - 5 1\n- - - - - 1 - - - -\n- - - - - - - 5 - -\n- 5 - - - - - 1 - 2\n2 5 - - - - - 1 - -\n- - - 1 - - - - - 2",
+      "solution": "10 10\n- # o x o # - - # o\n# o x x - - # o - x\n- # o x x o - x x x\n# o x x - # - x o #\n- - x - - - - x - -\n# o x o # - x x x o\no x x x x x x - x #\n# - x o x o # - x -\n- - x # x o # - o #\n# o x - x x x o # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/099.a.htm",
+      "info": ""
+    },
+    "100_14x17": {
+      "problem": "14 17\n- - 2 - - - 2 - - 5 5 - - 1 - - -\n- 5 1 5 - - - - - 1 - - - - - 1 -\n- - - - - 3 - - - - - - - - - - -\n- - - - - - - - 2 - 5 - - - - - -\n- - 5 - - - - - - - - - - 3 - - 1\n- - - - - - - - 3 - 4 - - - 5 - -\n2 5 - 1 - - - - - - - - - - - - -\n- - - - - 1 - - - - - - - - 1 1 1\n- - - - - - - - 4 - - - - - - - -\n- 3 5 - - - - - - 4 - 5 - - - - 2\n- - - - 2 - - - - - - - - - 2 - -\n- - - - - - - 3 - - - - - 3 - - -\n- - - 5 - - - - - - - - - - - - -\n- - 3 - - - - - 1 - 0 - - - - 1 -",
+      "solution": "14 17\no # - # o o - # o - - o # - x x o\nx - - - x # # o x - # o x x x - #\nx o # x x - # o x x x x x o x x o\nx x x x o # o # - x - x o # o x #\no x - x x x x o # o # o # - # x -\n# x x # o x o # - # - # o x - x o\n- - x - o x x x o o # x x x x x #\n# o x x # - x o # o x x o # - - -\no # o x o x x # - # o x x x x # o\n# - - x # o x o # - # - x o o # -\nx # o x - # o # o # x x x # - o #\nx x x x x o # - # o x o # - # o x\nx o # - x x x x x x x x x x x x x\no # - # o x o # - x - o # o # - x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/100.a.htm",
+      "info": ""
+    },
+    "101_13x13": {
+      "problem": "13 13\n- - - - - - - - - 1 - - -\n- 2 5 - 5 - 2 5 - 1 5 5 -\n- 1 5 - 5 5 5 - - - - - -\n- - - - - - - - 5 2 - - 1\n- 5 - - - - - - - - - - -\n- - - - - 3 - - - - - - 5\n- - - 1 - - 2 - - 5 - - 5\n1 5 - - - - 2 - - - - - -\n1 - - - 5 - - - - - 2 - 1\n- - - - - - 2 - - - - - -\n- - - - - - - - - - - - 2\n- - 4 - - 3 - - 5 - 1 - -\n- - - 5 - - - - - - - - 2",
+      "solution": "13 13\no # o x x o # o x - # o x\n# - - x - # - - x - - - x\nx - - x - - - x x # o x x\nx # o x x x x x - - x x -\nx - x x o # o x o # x o #\nx x x # o - # x x x x x -\n# o x - o # - o x - o x -\n- - x x x x - # x o # x x\n- # o x - o # o x # - x -\nx x x x x o - # x x x o #\nx o # o x # o x x o x x -\nx # - # o - # x - # - o #\nx o # - o # x x x x o # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/101.a.htm",
+      "info": ""
+    },
+    "102_15x15": {
+      "problem": "15 15\n- 1 - - - - - - - - - - - - 1\n- - 2 5 - 3 - - - - - - - - -\n0 - - - - - - - - - 2 0 - - -\n- - - - - - - - 5 - - - - 5 -\n1 - - - 5 - - - 2 - 2 - - - -\n- - - - - - 5 1 - - - 3 - - -\n- - - - - - - - - - - - 2 - -\n- - - 2 - - 1 - - - - - - - 5\n2 - - - 2 - - - - 3 - - 3 - -\n- - - - - 3 - - 2 - - - - - 5\n- - - - 1 - - 3 - - - - - - -\n- - - - - 1 - - - 5 - - - - -\n- - 3 - - - - - - - - - - - -\n1 - - - - - - - - 1 - 3 - 2 -\n- - - - 1 - - - 2 - - - - - -",
+      "solution": "15 15\nx - # o x # o x x x x x x x -\nx x - - x - # o x o # o x o #\n- x # o x # o x x # - - x x x\nx x x x x x x x - o x x x - x\n- # o x - x o # - # - # o x x\nx x x x x x - - x x x - # o x\no x o # o x x x x o o # - x x\n# x # - o # - x o # o o x x -\n- x x x - # o x # - # # - # o\n# o x o # - # o - x x o # x -\nx x x x - o # - # o x x x x x\nx o # x x - x # o - x o x o x\no # - x o # x x x x x # o # x\n- o # x x x x o x - x - # - x\n# o x x - # o # - # o # o x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/102.a.htm",
+      "info": ""
+    },
+    "103_10x10": {
+      "problem": "10 10\n- - - - - - - - 5 5\n- 5 5 - - - - - - 5\n- - - - 1 3 - - - -\n- - 2 - 1 - - 5 5 -\n- - 5 - - - - - - -\n- - - - - - - 5 - -\n- 3 3 - - 1 - 1 - -\n- - - - 5 2 - - - -\n5 - - - - - - 5 5 -\n5 1 - - - - - - - -",
+      "solution": "10 10\nx x x x x x x x - -\nx - - o # # o x x -\nx o # o - - # o x x\nx # - x - # o - - x\nx o - x x x x x x x\no # # o x # o - o x\n# - - # o - o - # x\no # # o - - # x x x\n- x x x x # o - - x\n- - # o x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/103.a.htm",
+      "info": ""
+    },
+    "104_15x15": {
+      "problem": "15 15\n- - - - - - - 2 - - - - - - -\n- - - - - - - 2 - - - - - - -\n- - - - - - - 1 - - - - - - -\n1 1 1 1 5 1 - 1 - - - 2 1 1 2\n- - - - - - - - - - - - - - -\n0 0 0 - - - - - - - - - - - -\n- - - 5 - 5 1 2 5 - 5 1 - 5 2\n1 5 - - - - - - - - - - - - -\n- - - 5 - - - - - - 5 0 - - -\n- - - 1 - - - 1 - - - - - 1 2\n1 5 - 1 - - - - - 5 0 - - - -\n- - - 5 - - - 5 - - - - - - -\n- - - - - - - 2 - - - - - - -\n- - - - - - - 2 - - - - - - -\n1 1 1 1 - - - 2 - - - 1 1 1 1",
+      "solution": "15 15\nx x x x x o # - # o x x x x x\no o o o x o # - # o x o o o o\n# # # # x x x - # o x # # # #\n- - - - - - x - x x x - - - -\nx x x x o # x # o x o # x o #\n- - - x x x x # o x o # x o #\nx x x - x - - - - x - - x - -\n- - x x x o # # o x x x x o #\n# o x - x x x # o x - - x o #\n# o x - # o x - x x x o # - -\n- - x - # o x x x - - o # o #\nx x x - x x x - x x x x x x x\no o o o x o # - # o x o o o o\n# # # # x o # - # o x # # # #\n- - - - x o # - # o x - - - -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/104.a.htm",
+      "info": ""
+    },
+    "105_10x10": {
+      "problem": "10 10\n1 - - - - - - - 5 5\n- - - 2 - - - - - 1\n- - - - 5 5 - - - 2\n2 - 2 - - - - 1 - -\n1 - - 5 - 1 - - 2 -\n- - - - - - - - - -\n- - - 5 1 - - 1 - -\n- 5 - - - - - - - 1\n- 5 - - - - 5 - - -\n2 - - 1 - - 0 - - 1",
+      "solution": "10 10\n- # o # o x x x - -\no x x - # o x o # -\n# o x x - - x o # -\n- # - x x x x - o #\n- o # - x - o # - x\n# o x x x # o o # x\nx x x - - o # - x x\no - x o # x x x x -\n# - x x x x - x o #\n- # o - # o - x x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/105.a.htm",
+      "info": ""
+    },
+    "106_15x15": {
+      "problem": "15 15\n- - - - 5 - - - - - - - - - 5\n- - - 4 - - - - - - - - 3 - -\n- - - - - - - - 4 - - - - - -\n- - - - 2 - 2 - - - - - - - -\n3 - - - - - - - 5 - - - 1 - -\n- - - - - - - - - - - - - - 3\n5 - - - 1 - - - - - - - 5 - -\n- - - - - - - - - 2 - - - - -\n- 1 - 4 - - 4 - - - - - - - -\n- - - - - - - - - - - - - - 3\n3 - - - - - - 2 - - - 3 - - -\n- - - - - - - - 5 - - - - - -\n- - - - - - - - - - - - - - -\n- - - 2 - 3 - - - - - - - - -\n- 3 - - - - - - - - 3 - - 3 -",
+      "solution": "15 15\nx x o # - x x x x x x o # o -\nx o # - # o x o # o x x - # x\nx x x # o o x # - # o x # o x\n# o x x - # - o # x x x x x x\n- # o x # o # o - x o # - o #\n# o x x x x x x x x x x o # -\n- x x o - # o x o # o x - o #\nx x o # o o # o # - x x x x o\no - # - # # - # o x x o x o #\n# o o # x x # o o x o # x # -\n- # x x x o # - # x # - x o #\n# o x o x x x x - x o # x x x\nx x x # o # o x x x o x x o x\no # o - # - # o x o # o o # o\n# - # o x x x x x # - # # - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/106.a.htm",
+      "info": ""
+    },
+    "107_25x40": {
+      "problem": "25 40\n- - - - - - - 2 - - - - 1 - - - 5 5 1 - - - 1 - - - 1 - - - - - - 1 - - - - - -\n- 5 1 - - - 5 - - - 5 - 5 - 5 - 3 - - - - - - 2 - - 2 5 - 5 - - - 3 - - - - 3 5\n2 - - - - - - - - - - - - - - - - - 2 - 5 - - - - 2 - - - - - - - - - - - - - 1\n- 5 - - - - 4 - - - 5 - 1 - 5 - - - - - - - - - - - - 1 - - - - - - - - - - - -\n- 0 - - - 5 - - 1 - - - - - - 3 - - - - - 2 - - - - - - - 2 1 - - - - - 5 - - -\n- - - 2 - - 1 - - - - - - - - - - - 5 - - - 5 0 - 2 - 2 2 - - 5 - - - - - 2 - 2\n- - - - - - - - - - 2 - - - - - 0 2 - - 5 - - - - - - - - - - - - 1 1 - - - - -\n2 - - 1 - - - 1 5 - - - - - - - 5 - - - - - - - - - - - 3 - 5 - - - 5 - - - - -\n- - - - - - - - 5 - - - - 5 - 2 5 1 - - - - 0 - - - 4 - - - - - - - - - - - - 2\n- - - 5 - - 1 - - 2 - 2 - - - 5 - - - - - - - 1 - - - - - - - - - - - - 3 - - -\n- 4 - - - 2 - - - - - - - - - 1 - - - - 3 - - - - - - 2 - - 0 - 0 - 0 5 - - 0 -\n- - - - - - - - - - - - - - - - - 5 - - - - 3 - - 5 - - - - - - - - - - 1 - - 1\n- - - 5 5 - - - - - 2 5 - - - - - - 1 - - - - 5 1 - - - - - 2 - 0 - - - - - - -\n- 5 - - - - 5 - - - - - - - 2 - - - - - - - 5 - - - - - 3 - - - - - 2 - 1 - - 5\n2 - - - - - 2 - 1 - 3 - - - - 1 - - - 5 - - - - - - - 5 - - - - - - - 3 - - - -\n- - - - - - - - - - - - - - - 1 - - - - - - 5 - - - - - 2 - - - - - - - 2 - - 2\n- - - 5 - - 1 - 3 - 5 5 2 - - - 2 - 2 - 3 - - - 0 - - - - - - - - - - - - - - -\n- - - 5 - - 2 - - - 5 2 - - 0 - - - - - - - - 5 - - 3 3 - 5 - 5 - - - - - - 0 -\n- 2 - 1 - 5 - - - - 1 - - - - - 5 - 3 - - - - - - - - - - - - - - 3 - - - 5 5 1\n- - - - - - - - - - - - - - - - 0 - - - 5 - 5 - - - - - - - 1 - - - 1 - - 1 - -\n1 - 2 - - - - 2 - - - - - 1 - - - - - - - - 5 - 1 - - - - - - - - - - - - 5 - -\n- 1 - 2 - - - - - - - - - - 3 - - - - - 1 - - - 5 5 3 - - - - - - 2 - 1 - 1 - -\n- - - - - - - - - - 2 1 - - - - - - - - - - - 2 5 - - 5 - 5 - - 1 - - - - - 2 -\n0 2 - - - - 1 - - - - - - - 5 - 2 - - - - - - - - - - - - - - - - - 3 - 0 - - -\n- - - - - - 2 - - - 5 - 1 - - - - 1 - 3 - - - 3 - 1 - - 5 - 3 - - - - - - - - -",
+      "solution": "25 40\no x x x x x x - # o o # - x x o - - - # o x - # o o - # o x x o # - o x x x # o\n# - - # o x - # o x - x - x - # - # o o x x x - x # - - x - x o # - # x o # - -\n- # o x x x # o x x x x x x x o # x - # - x o # x - # o x x x x o # x x x o # -\nx - x x o # - # o x - x - x - # o x # o x x x x x x x - x # o x x x x o x x x o\nx - x # o - # o - x x o # o # - x x x x x - # o o # o # o - - # o x o # - x o #\nx x x - # o - x # o x x x x o # o # - x o # - - x - # - - # o - x x # o # - # -\n# o x x x x x x x x - # o x x o - - x x - x # o x x x o # o x x x - - x x x x o\n- # o - # o x - - x # o x x o # - # o x x x x x x o # o - # - x o # - x o x o #\nx x x x x o o # - x x x x - # - - - x x o x - x o # - # # o x x x x x x # x # -\no # o - x # - o # - x - # o o - # o x o # x x - x o # x x x x # o x o # - x x x\n# - # o x - x x o # x # o x # - x x x # - o o # x x x - # o - x - x - - # o - x\no # x x x # o x x x x x x x x x x - x o # # - # o - x # o o x x x x x x - x x -\no x x - - x x x o # - - x o # o x o - # o o # - - x x o # # - x - o # x x x o #\n# - x x x x - x x x # o x x - # x # x x x x - o # x o # - o # x x x - x - x x -\n- # o x o # - x - x - # o x o - x x x - o x x x x x x - # o x x o o # - # o o #\nx x x x x o # o # o # o x x # - x o x x # o - x o # x o - # o x # x o # - o # -\nx o x - x o - o - # - - - # o x - # - x - # x x - o # # o x x x x x x x x x x x\nx # o - x # - # # o - - # o - x # o # o # o x - o # - - # - x - o # o x # o - x\nx - # - x - x x x x - # o x x x - x - # o x x x x o # # o x x o # - # x o - - -\nx o x x x x x # o x x x x x o x - x # o - x - o x x x x x x - x x x - x # - o #\n- # - # o o # - x x o o x - # o x x x x x x - # - o # o x o # x o x o x x - o x\nx - x - # o x x x o # # x x - # o x o # - x o # - - - # x x x x # - # - x - # x\nx x x x x x x o x # - - x o # o # x x o x x x - - o # - x - o x - o # x x x - x\n- - # o x o - # x x x o x x - # - x o # o x o # o x x x x o # x o # - x - o # x\no # x x x # - # o x - # - x x x x - # - # o # - # - o # - # - # o o # x x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/107.a.htm",
+      "info": ""
+    },
+    "108_25x40": {
+      "problem": "25 40\n1 1 - - 1 5 - - 5 - - - - - - - - - - - - 2 - - - - 2 - - - - - - - - 2 1 - - -\n- - 5 - - - - - - - 2 - 5 3 - - - 5 - 5 5 - - - - - 2 - - - - - - - - - - - 1 -\n5 - - - - - 3 - 0 - 5 - - - - - - 2 - - - - - - - - - 5 - - - 3 - - 1 - - - 5 -\n- - - - 2 - - - - - - - - - 3 5 - - 1 - - - - 5 - - - - - - - - 5 - - - - - - -\n- - - - - 2 - - - 5 - 2 - - - - - - - 2 - 4 - - - - - 2 - - - - - 3 - 2 - 2 - 5\n- - - - - - 2 - - - - - - - - - - - - - - - - - - - - - - - - 3 - - 1 - - - - -\n3 - 1 - 3 - - - - - - - - 5 - - 1 - - - - - - - - - - 5 1 - 3 - - - - - 0 - - 1\n- - - - - - - - - - 2 - - - - - 3 - - - 2 - - - - 5 - - - - - - 1 - 2 - - - - -\n- - - - - 3 - - 1 - - 1 - - - - - - - - - - - - 3 - - - 5 1 5 - - - - - - - - -\n5 2 - - 5 - - - - - - - - - 5 - 4 - - - - - - - - - - - - - - - - - - - - - - 2\n- - - - - - 2 - 0 - - 2 - 4 - - - - - - - 2 - - - - - - - 4 - - - - 2 - - 2 - -\n- - 1 - - - - - - - - - - - 5 - - 5 - 3 - - 0 - - - - - - - - - - - - - - - - 0\n0 - - - - - - - 0 - 3 - - - - - - - - 5 - - - - - 2 5 - - - - - - - - - - 5 - -\n- - - - - - - - - 2 - - - - - 4 - - - - - - - - - - - - 5 - - - - - - - - - - -\n- - - 3 - - 2 - - - - - - - - - - - - - - 2 - - - - - - - - - 2 - 1 0 - 3 - - -\n- - - - - - - - - - - - - 2 - - - - 2 - 1 - - - - - 4 - - - - 3 - 5 - - - 5 - 1\n- - - - - - - 2 - - - - - - - - - 0 - - - - 2 - 2 - - - - - - - - - - - - - - -\n- 2 - 5 - - - - - - - - - 3 - - - - - - - - - - - - - - - - - - 5 - 0 - - - 5 -\n- - - - - - - - - 1 - - - - 2 3 - 2 - 2 0 0 0 0 - 5 - - 5 - - - - 2 - 1 - 5 - -\n- - - 3 - - 4 - - - - - - - - - - - - - - - - - - - - - - 2 - - - - - - - - - -\n- - - - - - - - - - - - - - - - - 1 - - - - - - - - 4 - - - - 3 - - - 0 - - - -\n- - - 3 - - - - 2 - - - - - - - - - 2 - 1 0 0 - - - - - - - - 1 - - - - - 1 - 3\n- - - - - 2 - - - - - - - - 4 - - - - - - - - - 5 - - - - 5 - - - - - - 2 - - -\n- 4 - 1 - - - - 2 - - - - - - - - - - - - - - - - - - 2 - 1 - - - - - - - - 1 -\n5 - - - - - - - - 5 - - 2 - - - - 1 - 5 - 3 - - - 2 - - 2 - - 0 - - - - - - - -",
+      "solution": "25 40\n- - # o - - o x - o # x o # o x x x x o # - x x o # - # o x x x x o # - - # o o\n# o - x # o # x o # - x - - # x o - x - - # o x o # - x x x o # x o # # o x - #\n- x x x o # - x - x - x o # # o # - x x x x x x x o # - x o # - x o - x x x - x\nx x o # - o # x x x x x o # - - o # - x o # o - x x x x x x o # - # o x o x x x\no x x o # - # o x - x - # o # o x x x - # - # o x o # - o x x o # - # - # - x -\n# o x x # o - # o x x # o x x x x o x # o # o x x x o # # o # - # o - x o # x x\n- # - x - # o x x x # o x - x o - # x x # o x x o x x - - x - # o x x x - x x -\n# o x x # o o x o # - x x x x # - # o x - # o x # - x x x x # o - x - # o x o #\no # x o # - # x - # o - x o x o # o x x x x x x - # o x - - - o # x # o x x o #\n- - x x - # o x x x o # o # - # - # o o o # o x # o x x o # o x x x x x x o # -\nx # o x o # - x - x o - # - # o # o o # # - x x x o x o # - # x o # - o # - # o\nx x - x x o # x x x # o o # - x x - # - # o - x o # x x o # x x x o # x x x x -\n- x # o x x x x - x - # x x o # x x x - x x x x # - - x x x x o x x x x o - x x\nx x x x x o # x x - # o x o # - # o x x x # o x x x o x - x o # x # o x # o x o\nx o # - # o - x o # x x x x x # o o # o x - # o o o # o x x # - o - - x - # x #\nx o o # x o # x x x x o # - x x x x - # - o # o # # - # x o # - # - x o # - x -\nx # o x x o # - # o x x o # o o x - x x x x - # - x # o x x x # o x x x x x x x\nx - # - x x x x x x x # o - # # o x x # o x x x x x x x x o x x - x - x o x - x\nx x o # x o # o x - x x o # - - # - x - - - - - x - o x - # x o # - x - # - x x\nx o # - x # - # o # o x x x o # o # x # o x x x x o # o # - o # o # x o # x x o\nx x o # o o # x x x x x o x x x x - x o x x o # x # - # o o # - # o x - x x o #\nx o # - # o o x - # o x # o # o x x - # - - - x x o # x x x x - x x x x x - # -\no # o x x - # x # o x x o # - # x o # x x x x x - o x x o - x # o x o # - o o #\n# - # - x # o x - # o x x x # o x x x x o # o x o # x - # - x x x x x o # # - x\n- # o x x x x x x - o # - # o o # - x - # - # o # - o # - x x - o # x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/108.a.htm",
+      "info": ""
+    },
+    "109_12x12": {
+      "problem": "12 12\n- - - - - - - - - 1 - -\n- 2 5 - 5 2 - 5 - - - 1\n- 5 - - - 2 - - - 0 - -\n- - - 5 - - - - - - - -\n- 2 - - - 5 - - - 2 5 -\n- - - - - - - - - - - -\n- 1 - - - - - 5 - - - -\n- - - - - - - - - - 2 -\n- 2 - - - 3 1 - - - - -\n- - - - - - - - - 5 1 -\n2 - 2 - 5 - - 1 - 5 2 -\n5 - - - - - - - - - - -",
+      "solution": "12 12\no # o x o # o x x - # o\n# - - x - - # - x x x -\nx - x x x - # o x - o #\nx # o - x # o x x x x x\nx - # o x - x o # - - x\nx x x x x x x x x # o x\nx - x o x o x - x x x x\nx # o # o # x x o # - x\no - # o # - - x x o # x\n# o x x o # # o x - - o\n- # - x - o # - x - - #\n- o # x x x x x x x # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/109.a.htm",
+      "info": ""
+    },
+    "110_15x20": {
+      "problem": "15 20\n- - 5 - - - - - - - - - - - - - - - - -\n- - 3 - - - - 5 - - - 1 - - 2 - - - 2 5\n- - - - - 3 - - - - - - - - - - - - - -\n- - 2 - - - - 5 - 5 5 5 3 - - - 5 - - -\n- - - - - - - - - - - - - - - - - - - 0\n- 5 - - 5 3 - 5 5 5 5 - 5 5 - 4 - - - -\n- - - - - - - - - - - - - - - - - - - -\n5 - 4 - 2 5 5 5 5 - 5 5 1 5 5 5 - 3 1 5\n- - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - 1 - 2 - - 5 - - - -\n- 1 - - - - - 3 - - 1 - 5 - - - - 3 - 0\n- - - - - - - - - - 5 - 5 - - 5 - - - -\n3 - 5 - - - - 5 - - - - - - - 5 - - - -\n- - 1 - - - - 3 - - - - 2 - - - - 5 - -\n- - - - - 1 - - - - - - - - - 2 - - - 1",
+      "solution": "15 20\nx o - o x x x x x x x x x x x x x x # o\nx # - # x # o - x o # - o # - # o x - -\nx o # o x - # o x x x o # o x x x x # o\nx # - x x # o - x - - - - # x o - x # o\nx x x x o # o x x x x x # o o # o x x -\nx - o x - - # - - - - x - - # - # o x x\nx o # o o # x x x x x x x x o # o # # o\n- # - # - - - - - x - - - - - - # - - -\nx o # o # x x x x x x o # o x x x # o x\nx x x x x x o # o # - o - # x - o # x x\no - # o x o # - # o - # - x x o # - x -\n# o x x x x x x x x - x - x o - o # x x\n- # - o x o o - o x x x x x # - x x x o\n# o - # x # # - # x o # - x x x x - x #\nx x x x x - o # x x x o # o # - # o x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/110.a.htm",
+      "info": ""
+    },
+    "111_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n5 - 5 - 3 - 3 - - -\n- - - - - - - - - -\n1 - 5 - 5 - 1 - 5 -\n- - - - - - - - - -\n- - 0 - 0 - 5 - 0 -\n2 - - - - - - - - -\n- - 0 - 5 - 3 - 1 -\n- - - - - - - - 1 -\n5 - - - 1 - 5 - - -",
+      "solution": "10 10\nx x x o # o x x x x\n- x - x - # - # o x\nx x x x # o # o x x\n- x - x - x - x - x\n# o x x x x x x x x\n# o - x - x - x - x\n- x x x x o # o x x\n# o - x - x - # - x\nx x x x x x # o - x\n- x o # - x - o # x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/111.a.htm",
+      "info": ""
+    },
+    "112_13x13": {
+      "problem": "13 13\n1 5 - - 2 - - - - 2 - - -\n- - - 2 5 2 - - - - - 5 -\n5 - - - - - - - - - - - 1\n- - - 5 - - - - 5 5 5 - -\n2 5 - - - - - - - 2 - - -\n- - - 5 - - - - - 5 - - -\n- - - - - - - 5 - - - - 5\n- - 5 - 2 - 5 - - - 1 - -\n- - 2 1 - - - 1 - - - 5 1\n- 5 - - - - - - - 5 - - -\n- - - - - - 2 - - - 2 5 -\n- 3 - - 5 1 5 - - - - 1 2\n2 - - - - 2 - - - - - - -",
+      "solution": "13 13\n- - o # - # o o # - x x o\n# o x - - - x x o # x - #\n- x x # o # o x x x x x -\n# o x - x x x x - - - x x\n- - x x x o x o # - # o x\n# o x - o # x x x - o x x\nx x x o # x x - x x # x -\nx o - # - x - # o x - o #\nx # - - x x o - x x x - -\nx - # o x o # x x - x x o\no # o x x # - x o # - - #\n# - x x - - - x x o # - -\n- # o o # - # o x x x o #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/112.a.htm",
+      "info": ""
+    },
+    "113_15x15": {
+      "problem": "15 15\n2 - - - - - - - - - - - - - 2\n- - - 5 - - - 5 - - - 3 - - -\n- - - - - - 1 5 5 - - - - - -\n- 5 - - 5 - - - - - 3 - - 5 -\n- - - 1 - - - 2 - - - 5 - - -\n- - - - - 2 - - - 2 - - - - -\n- - 5 - - - - - - - - - 4 - -\n- 4 - - - - 5 - 5 - - - - 2 -\n- - 3 - - - - - - - - - 3 - -\n- - - - - 1 - - - 1 - - - - -\n- - - 5 - - - 1 - - - 2 - - -\n- 4 - - 5 - - - - - 5 - - 5 -\n- - - - - - 2 5 5 - - - - - -\n- - - 5 - - - 2 - - - 5 - - -\n2 - - - - - - - - - - - - - 2",
+      "solution": "15 15\n- # o x x x x x x x o # o # -\n# o x - x o # - x o # - x o #\nx x x x x x - - - o o # x x x\nx - o # - x x x x # - # o - x\nx x x - o o # - o o # - o x x\nx o x x # - o # # - x o # o x\no # - x x # o x o # x # - # x\n# - # o x x - x - x x o # - x\no # - # o x x x x x o # - x x\nx x x x x - # o x - # o # o x\no # o - x x o - x x x - # o x\n# - # o - x # # o x - # o - x\no # x x x x - - - x x x x x x\n# o x - x o # - # o x - x o #\n- # o x x x x x x x x x o # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/113.a.htm",
+      "info": ""
+    },
+    "114_10x10": {
+      "problem": "10 10\n- - - - 5 - - - - -\n- 5 - - - - 5 - 0 -\n- 2 - 1 3 - - - 0 -\n- - - 5 - - 3 - - -\n- 2 5 - 5 - - - 5 -\n- - - - 2 - - - - -\n- - - - - - - 5 5 -\n- - - - - - - - - -\n- 2 2 - - 5 - 5 - 3\n5 5 - - - - - - - -",
+      "solution": "10 10\nx x x x - x x x x x\nx - o o # o - x - x\nx - # - - # # o - x\nx # o - # o - # o x\nx - - o - x # o - x\nx # o # - x x x x x\nx x x x # o x - - o\no # o x x x x x o #\n# - - # o - x - # -\n- - # o x x x x o #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/114.a.htm",
+      "info": ""
+    },
+    "115_10x10": {
+      "problem": "10 10\n- - - - - - - - - 5\n- - 5 - 5 - - - - -\n- - 2 - 1 - 3 - - -\n- - - - - - - - - -\n- - 5 - 1 - 2 - 5 -\n- - 5 - - - - - - -\n- - - - 1 - 3 - 5 -\n- - 2 - - - - - - -\n- - - - 3 - 1 - - -\n1 - - - - - - - 1 -",
+      "solution": "10 10\nx x x x x x x x x -\nx o - x - o # o x x\nx # - x - # - # o x\nx o # x x o x x x x\nx o - x - # - x - x\nx # - x x o # o x x\nx o # o - x - # - x\nx # - o # x # o x x\nx x o # - x - x x o\n- # o o # x x x - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/115.a.htm",
+      "info": ""
+    },
+    "116_15x27": {
+      "problem": "15 27\n5 - - - 2 - - - - - - - - 2 2 - - 1 - - - - - - - - -\n- - - 5 - 1 - 3 - - - 0 - - - - - - - - - 3 - - - 3 -\n- - - 0 - - - - - 5 - - - - - - - - - 1 - - - - - - 2\n- - 2 - - - - - 2 - - - - - - - 3 - - - - - - - - 2 -\n- 3 - - 1 - - - - - 0 - - - 5 - - - - - - - 5 - - - -\n- - - - 5 0 - - - - - 2 - 5 - - 0 1 - - - - - - - - 0\n- - - - - - - - - 1 - - 5 5 - - - - - - 3 - - 3 - 2 5\n- - - - 5 - 1 - - - - - - 3 - - - - - - - - - - - - -\n- - 4 - - - - - - - - - - - - - - - 1 - - - - - - - 5\n- - - - - - - - 3 - - 5 - - - - - 1 - - - 1 - 5 - - 1\n1 - 3 - - 1 - 3 - - - - - 3 - - - - - - - - - 1 - - -\n- - - - - - - - 2 - - - - - - - - - - - 4 - - - - - -\n1 - - - 3 - - - - - - - 0 - - 1 - - 2 - - - - - - - -\n- - 0 - - - - - - - - - - 1 - - - - - - - - - - - 1 2\n- 1 - - - - - 5 - 3 - - - - - - - - 3 - - 5 - 2 - - -",
+      "solution": "15 27\n- x o # - # o # o x x o # - - # o - # o o # x x x x o\nx x x - x - x - # o x - o # # o x x x o # - x o # - #\nx o x - x x x # o - x o # x x o # o x - o # x x o # -\nx # - o # x o # - x x x x x o # - # x # o x x o # - x\nx - # o - x x o # x - x o x - x x x x x x x - x x x x\nx # o x - - x x x x x - # - x x - - x o # x x x o x -\nx x x x x x x o x - o # - - o x o # o # - o # - # - -\nx o # o - x - # x # o o # - # x x x x x # o o # x # o\nx # - # o x x o x x x x x # o x o # - x x x x x x o -\nx x # o x x o # - # o - x # o x x - x o # - o - x # -\n- x - # o - # - # o x x x - # o x x x o # o # - x x x\n# o # o # o x x - # o x o # x x x o o # - # x x x o o\n- x x x - # o x x x x x - o # - x # - o # x x o x # #\no x - x # o x x o # o x x - # o x o # o x x o # x - -\n# - x x x x x - # - # o x x x x x # - # o - # - x o #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/116.a.htm",
+      "info": ""
+    },
+    "117_15x15": {
+      "problem": "15 15\n- - - - 1 5 - - - 5 1 - - - -\n- 1 5 - - - - 5 - - - - 5 1 -\n- 1 5 - 5 5 - 1 - 1 5 - 5 5 -\n- - - - 5 1 - - - 5 5 - - - -\n- 1 1 - - - - 1 - - - - 5 5 -\n- 1 5 - 5 1 - 1 - 5 1 - 1 5 -\n- - - - 1 5 - 5 - 5 5 - - - -\n- 5 5 - - - - - - - - - 5 5 -\n- - - - 1 5 - 5 - 5 1 - - - -\n- 5 5 - 5 5 - 5 - 5 5 - 5 5 -\n- 5 5 - - - - 5 - - - - 1 1 -\n- - - - 5 5 - - - 5 5 - - - -\n- 1 5 - 5 5 - 2 - 1 1 - 1 1 -\n- 1 1 - - - - 5 - - - - 5 1 -\n- - - - 5 5 - - - 5 1 - - - -",
+      "solution": "15 15\no # o # - - x x x - - # o # o\nx - - x x x x - x # o x - - x\nx - - x - - x - x - - x - - x\nx # o o - - x # o - - x x x x\nx - - # o # x - o o # x - - x\nx - - x - - x - # - - x - - x\nx # o x - - x - x - - x # o x\nx - - x # o x x x x x x - - x\nx x x x - - x - x - - # o x x\nx - - x - - x - x - - o - - x\nx - - x x x x - x x x # - - x\nx # o x - - o # o - - o o # x\nx - - x - - x - # - - # - - x\nx - - x x x x - x x x x - - x\no # # o - - x x x - - # o # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/117.a.htm",
+      "info": ""
+    },
+    "118_20x38": {
+      "problem": "20 38\n- - - - - 5 - - - - - - 2 - - - - - 2 - - - - - 2 5 - - - - - - - 2 - - - 1\n3 - - 5 - 0 - 2 - 5 - - - 3 - - - - - - 0 - 5 - - - - - - - - - - - - - 5 -\n- - - - - - - 2 - - - - - - 5 - - - - - - - - - - - - - 4 - 5 - - - 0 - - -\n- - - 5 - - - - 2 - 2 - - - - - 4 - - - 1 - - 5 1 - - 5 - - - - 3 - 0 0 - 0\n- 5 - - - - - - - - - - - 5 - - - - - - - - - - - 5 - - - - - - - - - - - -\n0 - - - - - - - - 0 - - - - - - - - - - 0 - - - - - - 1 - - 3 5 - - - - - 5\n- - - 1 - - - 2 - - - - 5 - - - 4 - - 2 - - 2 - 5 5 - - - - - - - 5 5 - - -\n1 2 - - - - - - - - - - - - - 5 - - - - - - - - - 2 - - 0 - - - - - - - - 3\n- - 5 - - - 3 - - - 3 2 - - - 0 - - - - - 3 - - - - - - - - 5 - - - 3 - - -\n1 - - - - - - - - - - 5 2 - - - - 5 - 2 - - 5 - - - - - 3 - - - 5 - - - - -\n5 2 - - - - - - - - - - - - - 2 - 0 - - 1 - - - 5 - - - - - - - - - 5 0 - -\n- - - - - - 2 - 2 - - 2 - - - - - - - - - - 0 - - - - - - - 2 - - - - - - 2\n- - - 5 - - - - - - 0 - - - - - 3 - - - 4 - 5 - 5 2 5 - 5 - - - 5 - - - - -\n- - - - - - - - 2 - - - - - 1 - - - - - - - 5 - 5 - - - - - - - - - - 1 5 5\n5 - - 2 - - - - - - 5 - - - - - - - - - - - - - - - - - - 3 - - 5 - - - - 5\n- - - - 5 - 5 - - - - - - - 5 5 - 3 2 - - - - - - 3 - - - - - - - - - - - 2\n2 - - - - - - 3 - - - - - - - - - - - - - - - - - - - - - - - - - 4 - - - -\n- - - - 5 - - - - - - 3 1 - - 1 - 5 5 - - - - - - - - 3 - - 3 - - - - - - -\n- - - - - 2 5 - 0 - 2 - - 5 - - - - - - 5 - - - - 5 - - - - - - - - - 5 5 -\n2 - - - - - - 1 - - 0 - - - - - - 1 - - - 2 - 2 - - - 0 - 5 1 - - 2 - - 2 -",
+      "solution": "20 38\n# o x x x - o # o x x x - # o x x x - # o x o # - - x x x x x o # - x o # -\n- # o - x - x - # - x o # - # o o x # o - x - o # x x o # o x x o # x x - x\n# o x x x x x - # o x x x x - o # x x x x x x x x x o # - # - x # o - x x x\nx x x - o x o # - x - # o x x # - # o x - # o - - x x - # o o # - o - - x -\nx - x o # x x x x x # o x - x o # x x x x x o o # - x x x o # o # # x x x x\n- x x # x x o # x - x x x x x o # o o x - x # o x x x - o # - - x x x o x -\no # o - x o # - x x x o - x o # - # # - x x - # - - x # o x # o x - - # o #\n- - # x x o # o x o # # o x x - # o o # x # o o # - x x - x x x x o # o # -\n# o - x o # - # o # - - # o x - x x o # o - # o x # o x x x - x o # - x o #\n- x x x x x x x x o # - - # x x x - # - o # - x x x o # - # o x - o # x x o\n- - # o x o x o x x o # o o # - o - x x - x x x - x x o # x x x x x - - x #\no # x x x # - # - x x - # x o # # x x o # o - x o # x x x x - # o x x x x -\no x x - x x x o # x - x x x o # - x o # - # - x - - - x - o # o - x o # o #\n# x o # o x o # - x x x o # - o # x x x # o - x - # o x o # o x x x x - - -\n- x x - # x x o x x - x x x x x o # o x x x x x o # o x # - # x - o x x o -\n# o x x - x - # o x x o o x - - # - - # o o x o # - # x x x o x o # o x # -\n- # o x x o # - # x o # # x o # o # # o x # x x x x o # o o # x # - # x o #\no x x x - # o x x x # - - x x - x - - x x x x o x o # - # # - x o # x x x x\n# o x o # - - x - x - # o - x x x x x x - x o # x - x x x o # x o # x - - o\n- # x x x o # - x x - x x x x o # - x o # - # - x x x - x - - o # - o # - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/118.a.htm",
+      "info": ""
+    },
+    "119_10x10": {
+      "problem": "10 10\n- - - - - - - - - -\n- - 0 5 1 - - - 1 -\n- - 1 5 5 - - - 1 -\n- - - - - - 0 - 0 -\n- - - - - 5 5 - 5 -\n- 2 - 2 3 - - - - -\n- 1 - 5 - - - - - -\n- 1 - - - 5 1 0 - -\n- 1 - - - 5 5 0 - -\n- - - - - - - - - -",
+      "solution": "10 10\nx x x x x x x x # o\nx o - - - # o x - o\nx # - - - x x x - #\nx x x o o x - x - x\no # o # # - - x - x\no - # - - # o x x x\n# - o - # o # o x o\nx - # x x - - - x #\nx - # o x - - - x o\nx x x x x x x x x #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/119.a.htm",
+      "info": ""
+    },
+    "120_13x13": {
+      "problem": "13 13\n- - - - - - - - - 1 - - 5\n- 3 - 5 - - - - - - - - -\n- - - - - 0 - - - - - 2 -\n- - - - - 5 - 2 - - - - -\n- - - - - - - - - - 0 - 2\n1 - - - - 2 - 0 - - - - -\n- - 3 - - - - - - - - 2 -\n- - - - 0 - - - - 3 - - -\n- 1 - - - - 1 - 5 - - 5 -\n- - - 1 - - - - - - - - -\n- - - - - 5 - 0 - - 0 - -\n- - - 2 - - - - - - - - -\n- - - - - - - 1 - - 1 - 1",
+      "solution": "13 13\no # o x x x x x x - # o -\nx - # - x o # o x x x # o\nx # o o x - o # x o # - o\nx x x # x - # - x x x x #\n# o x x x x x o # x - x -\n- o # o # - x - x x o o #\no # - x o # x x o # # - x\nx o # x - x x o # - o # x\nx - x x x x - x - # o - x\nx # o - x o # x x x x x x\nx x o # x - x - x o - x o\nx o # - x x x x x # x x #\nx x x x x o # - o # - x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/120.a.htm",
+      "info": ""
+    },
+    "121_13x13": {
+      "problem": "13 13\n- - - - - - - - - 1 - - 5\n- 3 - 5 - - - - - - - - -\n- - - - - 0 - - - - - 2 -\n- - - - - 5 - 2 - - - - -\n- - - - - - - - - - 0 - 2\n1 - - - - 2 - 0 - - - - -\n- - 3 - - - - - - - - 2 -\n- - - - 0 - - - - 3 - - -\n- 1 - - - - 1 - 5 - - 5 -\n- - - 1 - - - - - - - - -\n- - - - - 5 - 0 - - 0 - -\n- - - 2 - - - - - - - - -\n- - - - - - - 1 - - 1 - 1",
+      "solution": "13 13\no # o x x x x x x - # o -\nx - # - x o # o x x x # o\nx # o o x - o # x o # - o\nx x x # x - # - x x x x #\n# o x x x x x o # x - x -\n- o # o # - x - x x o o #\no # - x o # x x o # # - x\nx o # x - x x o # - o # x\nx - x x x x - x - # o - x\nx # o - x o # x x x x x x\nx x o # x - x - x o - x o\nx o # - x x x x x # x x #\nx x x x x o # - o # - x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/121.a.htm",
+      "info": ""
+    },
+    "122_10x10": {
+      "problem": "10 10\n- - - 2 - - - 1 5 -\n- 5 - - - 1 - 5 - -\n- - - 2 - - - - - 0\n5 - - - - 2 - - - -\n- - 2 - - - - 5 - -\n- - - - 5 - - - - 2\n5 - 5 - - - 5 - - -\n- - - - 5 - - - 5 -\n- - - - - - 5 - - -\n- 3 - - - 2 1 - - -",
+      "solution": "10 10\nx o # - o o # - - x\nx - o # # - x - x x\nx x x - x x x x x -\n- x o # x - # o x o\no x - # o # o - x #\n# x # o - x x x x -\n- x - x x x - x o #\nx x x x - o x x - x\no # o x o # - x x x\n# - # o # - - # o x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/122.a.htm",
+      "info": ""
+    },
+    "123_13x13": {
+      "problem": "13 13\n5 - 5 - - - - - - - 5 - 5\n1 - 5 - 3 5 - 1 2 - 2 - 5\n5 - - - - - - - - - - - 5\n- - 1 5 - 0 - 1 - 1 0 - -\n5 - - - - 1 - 1 - - - - 5\n1 - - 5 - 5 - 5 - 5 - - 5\n- - - 5 - - - - - 5 - - -\n5 - - 5 - 5 - 5 - 1 - - 5\n5 - - - - 1 - 5 - - - - 5\n- - 5 5 - 5 - 5 - 5 5 - -\n1 - - - - - - - - - - - 5\n5 - 5 - 1 1 - 2 5 - 5 - 5\n1 - 5 - - - - - - - 1 - 5",
+      "solution": "13 13\n- o - o # o x o # o - o -\n- # - # - - x - - # - # -\n- x x x # o x # o x x x -\nx x - - o - x - o - - x x\n- x # o # - x - # # o x -\n- x x - x - x - x - x x -\n# o x - x x x x x - o x x\n- o x - x - o - x - # x -\n- # x x x - # - x x x x -\n# o - - x - x - x - - x x\n- x x x x x x # o x x x -\n- o - x - - x - - x - o -\n- # - o # # o # o x - # -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/123.a.htm",
+      "info": ""
+    },
+    "124_10x10": {
+      "problem": "10 10\n5 - - - 2 - - - - -\n- - - - - - - - 0 -\n- - - 3 - 5 - - 5 -\n- - - 5 5 - - - - -\n- - - 0 5 - 5 3 - -\n1 - - - - - - - - -\n2 - 5 - 0 - - - 5 -\n- - 5 - - - - - - -\n5 - 5 - - 4 - 5 1 -\n5 - - - - - 3 - - -",
+      "solution": "10 10\n- x o # - # o x x x\nx x o # o x x x - x\nx o # - # - x o - x\nx x x - - x x # o x\n# o x - - x - - # x\n- o x x x x x # o x\n- # - x - o x x - x\n# o - x o # o o # x\n- x - x # - # - - x\n- x x x o # - # o x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/124.a.htm",
+      "info": ""
+    },
+    "125_12x24": {
+      "problem": "12 24\n- - - - - - - - 1 - - - 5 - - - - - - - 3 - - -\n- 2 - 1 2 - - - 2 - 2 - - - 5 - - 1 - - - - - -\n- - - - - - - - - - - - - - - 5 - 2 - - - 2 5 -\n- 0 - - - - 5 - - - - 1 - 5 - - - - - - - - - -\n1 - - - - - 3 - 2 - 2 - 1 - 1 - - - - 5 - 1 - -\n- - 2 - 2 - - - - - - - 2 - - - - 5 - 5 - - - -\n5 - - - - - - - - - - - - - - - - - - - 2 2 1 -\n- - - - - - 3 - - - 1 - - 5 - - - 2 - - - - - -\n- - - - - - - - - 1 - 2 - - - - - - - - - - - -\n1 - 3 - 1 - - - - - - - - - 1 - - - - - - - - -\n1 - - - 5 2 1 - - - - - 5 - - - - - - 1 2 2 1 -\n- - - - - - - - - - 2 - 5 - - - - - - - - - - -",
+      "solution": "12 24\no # o o # x o # - o # o - x x x o # o # - # o x\nx - # - - x o # - # - x x x - x o - x o # # o x\nx x x o # x x x x x x x o x x - # - x o # - - x\nx - x x x x - o x o x - # - x x o # x x x x x x\n- o # o o # - # - # - o - o - x x x x - x - o x\n# o - # - o # x x o # # - # # o x - x - o # # x\n- x x x # o # o x x x x x x x x x x o # - - - x\nx x o x o # - # o x - # o - x o # - x o # # o x\nx o # x x x x x x - x - # o x x o # x x x o o x\n- # - x - # o x o # x x x x - x x x x o # # # x\n- o # x - - - x x x x o - x # o x o # - - - - x\n# o x x o # # o o # - # - x x x x x x o # # o x",
+      "source": "https://www.janko.at/Raetsel/Shugaku/125.a.htm",
+      "info": ""
+    },
+    "126_12x25": {
+      "problem": "12 25\n- - - - 5 - - - 2 - - - - 0 - - 0 - - - - - - - -\n- 1 - 3 - - - 2 - - - 1 - 0 - - - - - - - - 3 - 1\n- - - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - 1 - 5 2 - - - - - - -\n- - - - - 3 - - 5 - - 1 - 1 - - - - - - 1 - - 3 -\n- - - - - - - - - - - 1 - - - 1 - - - - - - - - -\n5 - 1 - - - - - 0 - - - - - - - 3 - - - - 0 - - -\n- - - - - - - 2 - - 0 - - - - - - - - - - - - 1 -\n- 1 - - 2 - 5 - - 1 - - - - 5 - - 1 - - - - - - -\n0 - - - - - - - - - - - - 1 - - 3 - - 2 - 2 - 1 -\n- - 1 - 5 - 3 - 0 - - - 2 - - 5 - - - - - - - - 2\n1 - - - - - - - - - - - 2 - - - - - - - - 2 - - -",
+      "solution": "12 25\no # o # - x x x - # o # o - x x - o # x x o # o #\nx - x - # o x - # o x - x - o x x x x x o # - x -\nx x x # o o x # o x x x x x # x o # o x x o # x x\nx o x x o # x x x x # o o x - x - - # o x x x x o\nx # o x # - # o - x o - # - x x x x x # - o # - #\nx x # x x x x x x x # - o x x - x o x x x x x # o\n- x - x o x o x - x x x # x o # - # x # o - x x o\nx x o x # o # - x x - x x x x x # o x o # o x - #\nx - # x - # - # o - x x o x - o # - x # o x x x o\n- x x x x o # o o # x o # - o # - x x - # - x - #\no # - x - # - x - x x # - o x - # o x x o # x x -\n- # o x x o # x x x o # - # x x x x x o # - x o #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/126.a.htm",
+      "info": ""
+    },
+    "127_11x11": {
+      "problem": "11 11\n- - - - 1 1 - - - - -\n- - - 5 0 - 5 0 - - 1\n1 - - - - - 1 - - 0 -\n1 - - - 5 - - - - 1 -\n1 - - 1 5 - - - - - -\n- - 0 - - 1 - 1 - - -\n1 - - - - 5 0 - - 1 -\n- - - 5 - - - - - - -\n1 - - - 0 - - - 5 - -\n- - 0 1 - - - 1 - - -\n- 1 - - - 1 - 5 0 - 1",
+      "solution": "11 11\no x o # - - # o x o #\n# x x - - x - - x x -\n- o x x x x - x x - o\n- # o # - x # o x - #\n- # o - - x x x x x x\nx x - o # - x - # o x\n- x x x x - - o # - x\n# o x - x x x x x x x\n- x x x - x o # - x o\no x - - x x o - x x #\n# - o # x - # - - x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/127.a.htm",
+      "info": ""
+    },
+    "128_15x15": {
+      "problem": "15 15\n- - - - - - - - - - - - - - -\n- 5 - 5 - - 5 5 5 - - 2 - 5 -\n- 5 5 1 - - - 2 - - - 1 1 5 -\n- 5 - 1 - - 2 1 5 - - 1 - 5 -\n- - - - - - - - - - - - - - -\n- - 5 - 5 - - - - - - - 1 - -\n- 5 - - - - 5 - 5 - - 2 - - -\n5 - 5 - 5 - 5 5 5 - 5 - 5 - 1\n- - - 1 - - 5 - 5 - - - - 5 -\n- - 5 - - - - - - - 5 - 5 - -\n- - - - - - - - - - - - - - -\n- 5 - 5 - - 3 5 1 - - 5 - 5 -\n- 5 5 5 - - - 5 - - - 5 5 5 -\n- 2 - 1 - - 5 5 5 - - 1 - 2 -\n- - - - - - - - - - - - - - -",
+      "solution": "15 15\nx x x x x x x x x x o # o x x\nx - x - o x - - - x o - # - x\nx - - - # o # - # o # - - - x\nx - x - # o - - - o # - x - x\nx x x x x o # # o x x x x x x\no x - x - x x x x x o # - x o\n# - x x x x - x - o # - x x #\n- x - x - x - - - x - x - x -\no x x - x x - x - x x x x - o\n# x - # o x x x x x - x - x #\nx x x x x x # o # o x x x x x\nx - x - o # - - - x x - x - x\no - - - o o # - x x o - - - o\n# - x - # x - - - x # - x - #\no # x x x x x x x x x x x # o",
+      "source": "https://www.janko.at/Raetsel/Shugaku/128.a.htm",
+      "info": ""
+    },
+    "129_25x40": {
+      "problem": "25 40\n- - - - - - - - - 2 - - - - - - - - - - - - - - - - - - - - - - 2 - - - - - - -\n- - 1 1 1 1 - - - 5 - - - - - - 2 - - - 2 - - 1 - - - - - 3 - 2 - - - - - 2 2 -\n5 - - - - - 5 - - 2 - - 3 1 - - - - - - - - 5 - - - - - - - - - - - - - - - - -\n- - - 1 1 - - - - 5 - - - - - - 1 - 5 5 - - - 1 - 5 5 - 1 - - - 1 5 - - - 2 2 -\n- 5 - - - - - - - - - - - 1 - - - - 5 2 - - - - - - - - - - - - 5 - - 5 - - - -\n- - - 2 2 - - 0 - - - 4 - - - - 2 - - - - - - - - 2 - 3 - - - - - - 5 - - - - -\n- - - 5 5 - - - - - - - - - - - - - - - - 2 - 1 - - - - - - - 2 - - - 2 - - 5 -\n- - - - - - - 3 - - - - - 2 - 2 - 3 - - - - 5 1 1 - - - - 1 - - - - - - - - - -\n- - 1 3 - 5 5 - - - - - - - - - - 5 5 - - - 1 - - 2 - 5 - - - - - 1 - 0 0 - - -\n- - - - - - - - - - - - - - - - - - - - - - - - - 5 - - - 5 - - - - - - - - - -\n- - - - - 5 5 - 5 - - - - 1 - 5 - - - - - - - - - - 4 - - - 3 - - - - - - - - -\n- - 1 5 - - - - - - - - - - - - - 3 - - - 2 - 3 - - - - - - - - - - - 4 - - - 1\n1 - - - - - - 3 - - - - - - - - - - - - - - 5 - - - - - - 3 - - 2 - - - - - - -\n- - - - - - 3 5 3 - - - 3 - - - - - - - - - - - - - 2 - - - - - - 5 - - - - - -\n- - - - - - - 3 - - - 3 5 3 - - 3 - - - 3 - - - - - - - 5 5 - - - - - 5 - - - -\n- - 2 - - - - - - - - - 3 - - - - - - - - - - - - - - - - - - - - - - - 3 - 2 -\n- 1 5 - - - 4 - - - - - - - - - - - - - - - - 3 - - - 5 - - - - 2 - - 3 - - - -\n2 5 - - 0 - - 2 - - - - - 1 5 - - - - - - - - - - - - 2 - - - - 5 0 - - 3 - - 5\n- - - - - - - - - - - 5 - - - - 5 3 - - - - - - - - - - 3 - - - - - - - - - - -\n5 - - - - - 2 2 - - - - 5 - - - - - - - - - - - 2 - - - - - 5 - 5 - - - - - 5 1\n- - 5 - - 5 - - - - - 2 - - - - - - - 5 - 2 - - - - - 2 - 5 - - - - - - - 2 - -\n- - - 5 - - - - - - - - - - 3 - - 3 - - - - - - - - 2 - - - - - - 2 - - - - - -\n- 5 2 - - - - - 5 - 3 - 5 - - - - 5 5 - - - - - - - - - - - 5 - - - - 1 - - - 0\n- - - - 5 - - - - - 1 2 - - - - - - - - 2 - - 4 - - - - - - - - 3 - 1 - - - - -\n2 - 5 - - - 1 - - - - - - 2 - - - - 1 - - - 5 - - - - 3 - - - - - - - 1 - 1 - 5",
+      "solution": "25 40\no x o # # o x o # - # o x x x x # o x x x x x x x x x x o # o # - x x x x x x o\n# x - - - - x x o - o o # o o x - # o x - # o - # o x o # - x - # o x o # - - #\n- x # o o # - x # - # # - - # x x x x x # o - x x x x x o # x x # o x x o # # o\nx x x - - x x x x - x x # o o x - x - - o o # - x - - x - # o x - - x o # - - x\nx - o # # o # o x x x # o - # o # x - - # x x x o # o x x x x x - x x - x o # x\nx o # - - # o - x o # - # o o # - o o # x x o x x - # - # o o x x x - x x x x x\nx x x - - x x x x x x # o x x x o # o x x - # - x o o # o # # - x o # - # o - x\nx o o # o o # - # o x o # - x - # - # x o # - - - # o x x - o # x # o x x x x x\nx # - - # - - # o x x x o # x # o - - x # o - # o - # - x x x x x - x - - x o x\nx x o # x x x x x x o x x x x x x x x x x x x x x - # o x - # o x x x x x x # o\no x x x x - - o - x # o # - x - o # o x o x o x o # - # o o - # o x o # o x x #\n# x - - x x o # o x x x o x x o # - # x # - # - # o # o x # # o x x # - # o x -\n- x # o x o # - # o x o # o x x o x x x x x - # o x x x x - # o - # o # o x x x\no x o x x # - - - # o # - # o x # o x o # x x x o # - x o # x o # - x x x x o x\n# x # o x o # - # o # - - - # x - # o # - # o x x o # x - - x x x x x - x o # x\no x - # x o # # o x o # - # o x # o x x x x o # x x x x x x x o # x o # - # - x\n# - - x o # - # o x x o # # o x x x x o x o # - # o x - o x o # - x x - # o x x\n- - o x - o # - o # x x x - - x o # o # x x x x o x x - # x x x - - o # - x x -\n# o # x x x # o o x x - x x x x - - # x x o x o # x o # - # o x x x x o # o o #\n- x x x o # - - # x o # - x o x o # x x o # x # - x x x x x - x - o x x x # - -\nx x - x x - o # x x o - # o # o o # o - # - x x x o # - x - x x x # x o x - # o\nx o # - x x x x x o # o x x - # # - # o x x x o x x - # o x x o # - x # x x x x\no - - # o x o x - # - # - x # o x - - x x o o # o x x o x x - o # x x - x o x -\n# o x x - x # x o # - - o x x x x x x x - # # - # x o # o x o # - x - x x # x x\n- # - x x x - x x x o # # - # o o # - x # o - # o x # - # x x o # o # - x - x -",
+      "source": "https://www.janko.at/Raetsel/Shugaku/129.a.htm",
+      "info": ""
+    },
+    "130_25x40": {
+      "problem": "25 40\n1 - - - - - - 2 - - - - 2 - - - - 3 - - - - - - - - - - - - - - - - 2 - - - 1 -\n- - - - 5 - 5 - - - - - - - - - 3 - - - - - - - - - - - - - - 3 - - - - - 2 - -\n- 5 - - - - - - - - 5 - - - - - - - - - - - - - 4 - - - 3 - - - - - 5 0 - - - -\n1 5 - - 2 - - - 5 - - - - - - - - - - 2 - 2 - - - - - - - - - - - - - - - - - -\n- 1 - - 3 - - - - - 5 - - 2 - - - 1 - - - - - - - - 3 - - 0 - 3 - - - 2 - - - -\n- - 5 - - - - - 1 - - - - - - - - - - - - - - - 3 - - - - - - - - - - - 2 - - -\n1 - - - - - - - - - 3 - - - - 1 - - - 1 - - - - - - - - - - - - - - - - - - 5 2\n5 - 5 - - - - 2 - - - 4 - - 3 - - - - - - 5 - - - - - - 2 - 2 - - - - - 2 - - -\n- - 5 - 3 - 3 - - - 3 - - 2 - - - 1 - - - - - - - - - - - - - - - 3 - 5 - - - -\n- - - 3 - - - 5 - - - - - - - - 5 - - 2 - - - 3 - - - - - 2 - - - - - - - - 3 -\n- 5 5 - 5 - - 5 - 0 - - - 1 1 - - - - - - - - - - - - - - - - - - - - 1 - - - -\n- - - - - - - - - - - - - - - - - - - 2 - - - - - 4 - - - 5 - - 5 - - - - - - -\n- - - - 5 - - - - - - - - - - - - - - - - 4 - - - - 3 - - - - 2 - - - - 0 5 5 -\n- - - - 5 - - 3 - - - 4 - - 5 - - 0 - 5 - - - - 5 - - - - - - - - - - - - - - -\n- 2 - 2 - - - - - - - - - - - - - - - - - - - - - - - - - - - - 5 - 2 - - - 2 -\n- - 5 - 5 - 1 - 3 - - 5 - 5 3 - - - - - - - - 3 - - - 5 - - 3 - - - - - - - - -\n- - - - - 2 - - - - - - - - - - - - - - 2 - - - - - - - - - - - 5 - - - - - 2 -\n- - 3 - - - 5 - - - - - - - 2 - - - - - - - 3 - - - - 3 - - - - - - - - - - - -\n- - - - - - - - - - 2 - - - - - - - - - - - - - 2 - - - - - - - 5 - 2 - 2 - 5 -\n- - - - - - - - - - - 3 - - 5 - 4 - - - - 4 - - - - - - - - - - - - - - - 3 - -\n1 - 5 - - 2 - - - - 5 - - - - - - - 1 - - - - 3 - - 0 - - - - - 2 - - - - - - -\n- - - - - - 2 - 5 - - 1 - - 5 - - - - - 2 - - - - - - - 1 - - - - - - 2 - - - -\n- 0 - - - - - 5 - - - - - - - - - 2 - - - - 1 - - - - - - - - 5 - - - - - - 3 -\n- - - 1 - - - - - - - 2 - - 5 - - - - 2 - - - - - - 1 - - - - - - 5 - - - - - -\n- 2 - - - 2 - 0 - 2 - - - - - - - - - - - 2 - - - - - 5 - 2 - - - 2 - - 1 - 1 -",
+      "solution": "25 40\n- # o x x x x - # o o # - x x o # - # o x x x x x x x x x x o # o # - x o # - x\no x x x - x - # o x x o # x o # - # o x x o x o # o x o # o # - x o # x x - x x\n# - x o # x x x x x - x x x x x x x x x o # o # - # o # - x o # x x - - x # o x\n- - o o - # o x - x x x o # o x o o # - # - x o # o # o # x x # o x x x x x x x\no - # # - # o x # o - x x - # x # - x x x x x o # x - # o - x - # o x - # o x o\n# x - x # o x x - o # o x x o x x x x # o x o # - x # o x x x # o x o # - x x #\n- x x x x x o x x x - # o o # - x o x - x x x o # x x x x o x x x x x x x x - -\n- x - o x o # - x o # - # # - x x # x o x - x x x x o # - # - x o # o # - x o #\nx x - # - # - # o x - # o - # o x - x # x x o # o x x x x o # o # - x - # o # o\nx o # - # o o - x x # o x x x x - x x - x o # - # o x o # - # o o # x x o # - x\nx - - x - x # - x - x x x - - x x x o # x x x x o # x x x x x x x x x - x o # x\nx x x x x x x x x x x o o # # o x o # - o # o x # - # o x - o # - x o # x x x x\nx o x o - x o # o x o # o x x x x x x o # - # x o # - x x o # - x x o x - - - x\nx # o # - x # - # o # - # x - # o - x - x # o o - o # o x x o x x o # x x x x x\nx - # - x x x x # o o # x x # o # o x x x x o # o # x x x o # x - # - x o # - x\nx x - x - x - x - # o - x - - # o x x o # x # - # x x - x # - x x x x x x o # x\nx o # x x - # o # o x x x o # o x x o # - o # o x x o # o o # x - x o x o # - x\no # - x o # - x x x x o x x - # o x x x o # - # # o # - # o o x x o # x x o x x\no o # x x x x x # o - # o x x o # o o x o # o o - # o x x x # x - # - x - # - x\n# x x x o # o x x o # - # x - # - # # o # - # # x x x x o x x x x x x o # - x x\n- x - x x - # o x x - o # x x x # o - o o # x - # o - x # x o # - x o # o # o x\nx x x o x x - # - x x - x x - x x x x # - x x # o # o x - x x o # o # - x o # o\nx - x # x o x - x x o # o x x o # - o o # x - # o x x x x o x - x x x x x # - #\no x x - o # x x x # o - # x - x o # # - o x x x x x - x o # x x x - o o x x x o\n# - # o # - x - x - # o x x x x x x o # # - # o x o # - # - x o # - # # - x - #",
+      "source": "https://www.janko.at/Raetsel/Shugaku/130.a.htm",
+      "info": ""
+    }
+  }
+}

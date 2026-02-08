@@ -1,0 +1,19 @@
+{
+  "count": 2,
+  "count_sol": 2,
+  "name": "MidLoop",
+  "data": {
+    "test1_4x4": {
+      "problem": "4 4\n- - 1 -\n- 1 - 2\n3 - - -\n- - - -",
+      "solution": "4 4\n- es ew sw\n- ns - ns\nes nw - ns\nen ew ew nw",
+      "source": "https://pzplus.tck.mn/rules.html?midloop",
+      "info": ""
+    },
+    "test2_10x10": {
+      "problem": "10 10\n- - - - - - 3 - - -\n- - 1 - - 1 - - - 1\n1 - 1 - - - - - 1 -\n- 5 2 - - 1 1 - - -\n- - - - - - - - 1 -\n- - - 1 - - - - - -\n1 - - 1 - - - 3 - -\n- - - 1 - - - - - -\n- 1 - - - - - - - -\n- - - - - - - - 1 -",
+      "solution": "10 10\nes ew ew sw - - es sw es sw\nns es ew nw es ew nw en nw ns\nns en ew sw ns es sw es ew nw\nns es sw en nw ns ns en sw -\nen nw en ew ew nw en sw ns -\nes ew ew ew ew ew sw ns en sw\nns es ew ew ew sw ns en sw ns\nen nw es ew sw ns en ew nw ns\nes ew nw - en nw es sw - ns\nen ew ew ew ew ew nw en ew nw",
+      "source": "https://puzz.link/p?midloop/10/10/sfzgbffr7fjfwd3fg3fzifzfzjbfgfzgfzlfzzjf",
+      "info": ""
+    }
+  }
+}

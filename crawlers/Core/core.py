@@ -88,38 +88,41 @@ class BasePuzzleCrawler(ABC):
             return ""
 
     def _save_data(self, puzzles: List[PuzzleItem]):
-        """Saves the collected data to JSON files."""
+        """Saves the collected data to a single merged JSON file (new format)."""
         if not puzzles:
             self.logger.warning("No puzzles to save.")
             return
 
         # Prepare directory
-        problems_dir = self.output_path / "problems"
-        solutions_dir = self.output_path / "solutions"
-        problems_dir.mkdir(parents=True, exist_ok=True)
-        solutions_dir.mkdir(parents=True, exist_ok=True)
+        self.output_path.mkdir(parents=True, exist_ok=True)
 
         # Convert dataclasses to dicts
         puzzles_data = {p.id: asdict(p) for p in puzzles}
         
-        # Separate problems and solutions if needed, or save strictly as requested
-        # Here matching your original format structure loosely
-        problem_export = {
+        # Build merged data structure
+        merged_data = {}
+        for pid, data in puzzles_data.items():
+            merged_data[pid] = {
+                "problem": data.get('problem', ''),
+                "solution": data.get('solution', ''),
+                "source": (data.get('source_url') or '').strip(),
+                "info": ""  # Reserved for future extension
+            }
+        
+        # Build final output structure
+        output = {
             "count": len(puzzles),
-            "puzzles": {pid: {"id": pid, "problem": d['problem'], "source": d['source_url']} for pid, d in puzzles_data.items()}
-        }
-        solution_export = {
-            "count": len(puzzles),
-            "solutions": {pid: {"id": pid, "solution": d['solution'], "source": d['source_url']} for pid, d in puzzles_data.items()}
+            "count_sol": len(puzzles),
+            "name": self.config.puzzle_name,
+            "data": merged_data
         }
 
-        with open(problems_dir / f"{self.config.puzzle_name}_puzzles.json", 'w', encoding='utf-8') as f:
-            json.dump(problem_export, f, indent=2, ensure_ascii=False)
+        # Save to single merged file
+        output_file = self.output_path / f"{self.config.puzzle_name}_dataset.json"
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(output, f, indent=2, ensure_ascii=False)
             
-        with open(solutions_dir / f"{self.config.puzzle_name}_solutions.json", 'w', encoding='utf-8') as f:
-            json.dump(solution_export, f, indent=2, ensure_ascii=False)
-            
-        self.logger.info(f"Saved {len(puzzles)} puzzles to {self.output_path}")
+        self.logger.info(f"Saved {len(puzzles)} puzzles to {output_file}")
 
     def run(self):
         """Main execution flow."""

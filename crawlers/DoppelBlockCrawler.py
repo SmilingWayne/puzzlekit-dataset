@@ -34,8 +34,8 @@ class DoppelBlockCrawler(BasePuzzleCrawler):
         # [clabels] -> [rlabels] -> [areas]
         patterns_order1 = {
             'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
-            'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[areas\])",
-            'areas': r"(?<=\[areas\]\n)(.*?)(?=\[solution\])",
+            'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[solution\])",
+            # 'areas': r"(?<=\[areas\]\n)(.*?)(?=\[solution\])",
             'sol': r"(?<=\[solution\]\n)(.*?)(?=\[moves\])" if metadata.get('type') == "class_sv" 
                    else r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
         }
@@ -43,8 +43,8 @@ class DoppelBlockCrawler(BasePuzzleCrawler):
         # [rlabels] -> [clabels] -> [areas]
         patterns_order2 = {
             'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[clabels\])",
-            'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[areas\])",
-            'areas': r"(?<=\[areas\]\n)(.*?)(?=\[solution\])",
+            'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[solution\])",
+            # 'areas': r"(?<=\[areas\]\n)(.*?)(?=\[solution\])",
             'sol': r"(?<=\[solution\]\n)(.*?)(?=\[moves\])" if metadata.get('type') == "class_sv" 
                    else r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
         }
@@ -55,11 +55,11 @@ class DoppelBlockCrawler(BasePuzzleCrawler):
         try:
             cols_match = re.search(patterns_order1['cols'], html_content, re.DOTALL)
             rows_match = re.search(patterns_order1['rows'], html_content, re.DOTALL)
-            areas_match = re.search(patterns_order1['areas'], html_content, re.DOTALL)
+            # areas_match = re.search(patterns_order1['areas'], html_content, re.DOTALL)
             sol_match = re.search(patterns_order1['sol'], html_content, re.DOTALL)
             
             # check
-            if not all([cols_match, rows_match, areas_match, sol_match]):
+            if not all([cols_match, rows_match, sol_match]):
                 raise AttributeError("first order matching failed, try second order")
                 
         except AttributeError:
@@ -67,10 +67,10 @@ class DoppelBlockCrawler(BasePuzzleCrawler):
             try:
                 rows_match = re.search(patterns_order2['rows'], html_content, re.DOTALL)
                 cols_match = re.search(patterns_order2['cols'], html_content, re.DOTALL)
-                areas_match = re.search(patterns_order2['areas'], html_content, re.DOTALL)
+                # areas_match = re.search(patterns_order2['areas'], html_content, re.DOTALL)
                 sol_match = re.search(patterns_order2['sol'], html_content, re.DOTALL)
                 
-                if not all([cols_match, rows_match, areas_match, sol_match]):
+                if not all([cols_match, rows_match, sol_match]):
                     self.logger.warning(f"both orders cannot match complete data: {text}")
                     return None
                     
@@ -85,7 +85,7 @@ class DoppelBlockCrawler(BasePuzzleCrawler):
         try:
             cols_raw = cols_match.group().strip() if cols_match else ""
             rows_raw = rows_match.group().strip() if rows_match else ""
-            areas_raw = areas_match.group().strip() if areas_match else ""
+            # areas_raw = areas_match.group().strip() if areas_match else ""
             solution_raw = sol_match.group().strip().lower() if sol_match else ""
             
             if not solution_raw:
@@ -101,9 +101,18 @@ class DoppelBlockCrawler(BasePuzzleCrawler):
             num_rows = len(solution_lines)
             num_cols = len(solution_lines[0].split()) if solution_lines else 0
             
-            header = f"{num_rows} {num_cols}"
-            problem_str = f"{header}\n{cols_raw}\n{rows_raw}\n{areas_raw}".strip()
+            rows_list = solution_raw.strip().split("\n")
+            sol_mat = [row.strip().split(" ") for row in rows_list]
+            curmax = 0
+            for i in range(num_rows):
+                if sol_mat[i][0].isdigit():
+                    curmax = max(curmax, int(sol_mat[i][0]))
+            
+            header = f"{num_rows} {num_cols} {curmax}"
+            problem_str = f"{header}\n{cols_raw}\n{rows_raw}".strip()
             solution_str = f"{header}\n{solution_raw}".strip()
+            
+            
             
             puzzle_id = f"{text}_{num_rows}x{num_cols}"
 
