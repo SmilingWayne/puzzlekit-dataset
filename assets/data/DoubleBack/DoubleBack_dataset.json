@@ -1,6 +1,6 @@
 {
-  "count": 100,
-  "count_sol": 100,
+  "count": 98,
+  "count_sol": 98,
   "name": "DoubleBack",
   "data": {
     "01_8x8": {
@@ -10,7 +10,7 @@
       "info": ""
     },
     "02_9x9": {
-      "problem": "9 9\n1 1 1 7 7 7 10 10 10\n1 1 2 8 8 8 10 11 11\n2 2 2 9 9 9 10 11 11\n3 3 4 12 12 12 16 16 16\n3 3 4 12  # 12 16 16 16\n4 4 4 12 12 12 15 15 16\n5 6 6 13 13 13 17 17 17\n5 6 6 13 14 13 17 17 18\n5 6 6 14 14 13 18 18 18",
+      "problem": "9 9\n1 1 1 7 7 7 10 10 10\n1 1 2 8 8 8 10 11 11\n2 2 2 9 9 9 10 11 11\n3 3 4 12 12 12 16 16 16\n3 3 4 12 # 12 16 16 16\n4 4 4 12 12 12 15 15 16\n5 6 6 13 13 13 17 17 17\n5 6 6 13 14 13 17 17 18\n5 6 6 14 14 13 18 18 18",
       "solution": "9 9\nse sw se sw se sw se ew sw\nns ns ns ne nw ns ne sw ns\nns ne nw se sw ne ew nw ns\nne ew sw ns ne sw se sw ns\nse sw ns ns - ne nw ns ns\nns ne nw ne ew ew sw ne nw\nne ew sw se ew sw ne ew sw\nse ew nw ns se nw se sw ns\nne ew ew nw ne ew nw ne nw",
       "source": "https://www.janko.at/Raetsel/Double-Back/002.a.htm",
       "info": ""
@@ -85,18 +85,6 @@
       "problem": "10 10\n1 1 9 9 10 10 10 13 13 14\n1 1 8 8 8 11 12 12 13 14\n1 1 7 7 8 11 11 12 13 14\n1 1 7 8 8 18 11 17 15 15\n2 2 7 7 7 18 17 17 15 16\n3 4 6 6 6 19 19 19 23 16\n3 4 6 6 20 19 19 19 23 16\n4 4 4 6 20 19 19 23 23 23\n5 5 4 5 20 19 22 23 23 23\n5 5 5 5 21 21 22 22 22 23",
       "solution": "10 10\nse ew sw se sw se sw se ew sw\nne sw ne nw ns ns ne nw se nw\nse nw se sw ns ns se sw ne sw\nns se nw ne nw ne nw ne sw ns\nns ne ew ew ew ew ew ew nw ns\nne sw se ew ew ew ew sw se nw\nse nw ne ew sw se ew nw ne sw\nne ew sw se nw ne sw se ew nw\nse ew nw ne sw se nw ne ew sw\nne ew ew ew nw ne ew ew ew nw",
       "source": "https://www.janko.at/Raetsel/Double-Back/014.a.htm",
-      "info": ""
-    },
-    "15_10x10": {
-      "problem": "10 10\n1 1 10 11 11 12 12 13 13 13\n1 1 10 7 7 7 6 9 9 9\n2 2 6 7 7 7 6 6 6 9\n2 2 6 7 7 7 6 9 6 9\n2 2 6 6 6 6 6 9 9 9\n2 2 4 4 4 4 4 4 5 5\n2 4 4 2 4 5 5 4 5 5\n2 2 2 2 8 8 5 4 5 5\n3 3 3 3 3 3 5 5 5 5\n3 3 3 3 3 3 5 5 5 5",
-      "solution": "10 10\nse ew ew sw se sw se sw se sw\nns se sw ns ns ne nw ne nw ns\nns ns ns ns ne sw se ew sw ns\nns ns ns ne ew nw ns se nw ns\nns ns ne ew ew ew nw ne ew nw\nns ns se ew ew ew ew sw se sw\nns ne nw se sw se sw ns ns ns\nne ew ew nw ns ns ne nw ns ns\nse ew ew ew nw ne ew ew nw ns\nne ew ew ew ew ew ew ew ew nw",
-      "source": "https://www.janko.at/Raetsel/Double-Back/015.a.htm",
-      "info": ""
-    },
-    "16_10x10": {
-      "problem": "10 10\n1 1 1 1 13 13 13 13 15 15\n2 2 1 3 3 3 13 14 14 15\n2 3 3 3 12 3 14 14 16 15\n2 2 3 11 12 12 11 17 16 16\n4 4 3 11 11 11 11 17 17 16\n4 6 6 10 10 11 9 9 16 16\n4 4 6 10 10 9 9 8 18 18\n5 4 6 6 9 9 8 8 8 18\n5 6 6 7 8 8 8 19 18 18\n5 5 7 7 7 7 19 19 19 19",
-      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ne nw se ew sw se ew ew nw\nns se sw ne sw ns ne sw se sw\nne nw ns se nw ne sw ne nw ns\nse ew nw ne ew sw ne ew sw ns\nns se sw se ew nw se sw ne nw\nns ns ns ns se ew nw ns se sw\nne nw ns ns ne ew sw ne nw ns\nse ew nw ne ew ew nw se sw ns\nne ew ew ew ew ew ew nw ne nw",
-      "source": "https://www.janko.at/Raetsel/Double-Back/016.a.htm",
       "info": ""
     },
     "17_10x18": {

@@ -1,6 +1,6 @@
 {
-  "count": 250,
-  "count_sol": 250,
+  "count": 220,
+  "count_sol": 220,
   "name": "Fobidoshi",
   "data": {
     "01_6x6": {
@@ -357,12 +357,6 @@
       "source": "https://www.janko.at/Raetsel/Fobidoshi/059.a.htm",
       "info": ""
     },
-    "60_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/060.a.htm",
-      "info": ""
-    },
     "61_6x6": {
       "problem": "6 6\no o - o o o\n- - o o o -\no - - o o -\n- - o - - o\n- - - - o o\no - - - - -",
       "solution": "6 6\no o - o o o\no - o o o -\no o - o o o\n- o o - - o\no o o - o o\no - o o o -",
@@ -627,12 +621,6 @@
       "source": "https://www.janko.at/Raetsel/Fobidoshi/104.a.htm",
       "info": ""
     },
-    "105_10x10": {
-      "problem": "10 10\n- o o o - - x - o o\nx o o - - - - - - x\n- - - o - o - - - o\no - - x - o - - o -\n- - o o o - o o - o\no - - o - - - - o o\n- o - - - - x o o o\no o - o - - o - o -\nx o - - o - o - - x\n- - o x - o o o - -",
-      "solution": "10 10\n- o o o - - - o o o\n- o o o - o o o - -\no o - o o o - o o o\no - - - o o o - o -\n- - o o o - o o - o\no - o o - o o - o o\no o o - o o - o o o\no o - o o - o o o -\n- o o - o o o - - -\n- - o - - o o o - -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/105.a.htm",
-      "info": ""
-    },
     "106_10x10": {
       "problem": "10 10\no - o - - - - - x o\no - x - o x o o - -\n- - - o - - - o - -\n- - - - o - o o - -\no x o - - o o - - -\n- o - o - - - o x o\no o - - o o - o o -\n- - - - - - o o o -\no o o - x o - x - o\no x - o - - - - - o",
       "solution": "10 10\no o o - o o o - - o\no o - o o - o o - o\n- o o o - - - o o o\n- - o o o - o o o -\no - o - - o o - o o\no o - o o o - o - o\no o o - o o - o o o\n- - o o o - o o o -\no o o - - o o - o o\no - - o o o - - - o",
@@ -831,12 +819,6 @@
       "source": "https://www.janko.at/Raetsel/Fobidoshi/138.a.htm",
       "info": ""
     },
-    "139_12x12": {
-      "problem": "12 12\no - - o - o - - - o - o\n- - o - o - o - - o - -\no - - - - o - - o - - o\no o - - - - - o - - o -\no - - - - o - - o - - o\n- - - - - - - - o - o -\no - - - - o - - - - - -\n- - - o - o - o - - - -\n- o - - o - - - o - - o\n- - o - o o - o - - o o\no - - - o o - o o o - -\n- - o - - - - - - - - o",
-      "solution": "12 12\no o - o o o - - - o o o\n- o o - o o o - o o - o\no - o o - o o - o - o o\no o - o o - o o - o o -\no o o - o o - o o o - o\n- - o o o - o o o - o o\no o - o - o o - o o o -\n- o o o - o o o - o o o\no o o - o - - - o o - o\no - o - o o - o o - o o\no o - o o o - o o o - -\n- o o o - o o o - o o o",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/139.a.htm",
-      "info": ""
-    },
     "140_12x12": {
       "problem": "12 12\n- o o o - o - o - o - o\n- o o - - - o o - - - -\n- - - - o - - - - - o o\n- - - - - o - - - - - -\n- - o o - o - o - - o o\no o - - - - - o - o o o\n- - o o o - o - o - o o\no - - o - o - - - o - -\no o o - o - o o o - - o\no o o - - - - - - o - -\n- o - - - o - - o - o o\n- - - o - o - - - - - -",
       "solution": "12 12\n- o o o - o - o o o - o\no o o - - o o o - o o o\no - o o o - o o o - o o\no o - - o o o - o o - -\n- o o o - o - o - o o o\no o o - - o o o - o o o\n- - o o o - o o o - o o\no - - o o o - - o o - -\no o o - o - o o o - - o\no o o - - o o o - o o o\n- o o o - o - o o - o o\n- - - o o o - - o o o -",
@@ -897,12 +879,6 @@
       "source": "https://www.janko.at/Raetsel/Fobidoshi/149.a.htm",
       "info": ""
     },
-    "150_12x12": {
-      "problem": "12 12\no - - o - o - - - o - o\n- - o - o - o - - o - -\no - - - - o - - o - - o\no o - - - - - o - - o -\no - - - - o - - o - - o\n- - - - - - - - o - o -\no - - - - o - - - - - -\n- - - o - o - o - - - -\n- o - - o - - - o - - o\n- - o - o o - o - - o o\no - - - o o - o o o - -\n- - o - - - - - - - - o",
-      "solution": "12 12\no o - o o o - - - o o o\n- o o - o o o - o o - o\no - o o - o o - o - o o\no o - o o - o o - o o -\no o o - o o - o o o - o\n- - o o o - o o o - o o\no o - o - o o - o o o -\n- o o o - o o o - o o o\no o o - o - - - o o - o\no - o - o o - o o - o o\no o - o o o - o o o - -\n- o o o - o o o - o o o",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/150.a.htm",
-      "info": ""
-    },
     "151_6x6": {
       "problem": "6 6\no o - o - o\n- - - - - o\no - - - - -\n- - - - - o\no - - - - -\no - o - o o",
       "solution": "6 6\no o - o o o\no o o - o o\no - o o o -\n- o o o - o\no o - o o o\no o o - o o",
@@ -949,18 +925,6 @@
       "problem": "10 10\no - o - - - o - o o\n- - - - - - - o - o\n- - o o - - - - o -\n- o - - o o - - - o\n- - - - - - - o - -\no o - - o - - - - -\n- o o - o - o - - -\no - - - - - - o o -\n- o - - - - - - - -\n- - - o - o o - o -",
       "solution": "10 10\no - o o - o o - o o\no o - o o o - o o o\n- o o o - - o o o -\no o o - o o o - - o\no - o o - o o o - o\no o - o o o - - o o\n- o o - o - o o o -\no - - o o o - o o o\no o - o - o o o - o\n- o o o - o o - o o",
       "source": "https://www.janko.at/Raetsel/Fobidoshi/158.a.htm",
-      "info": ""
-    },
-    "159_12x12": {
-      "problem": "12 12\no - - o - o - - - o - o\n- - o - o - o - - o - -\no - - - - o - - o - - o\no o - - - - - o - - o -\no - - - - o - - o - - o\n- - - - - - - - o - o -\no - - - - o - - - - - -\n- - - o - o - o - - - -\n- o - - o - - - o - - o\n- - o - o o - o - - o o\no - - - o o - o o o - -\n- - o - - - - - - - - o",
-      "solution": "12 12\no o - o o o - - - o o o\n- o o - o o o - o o - o\no - o o - o o - o - o o\no o - o o - o o - o o -\no o o - o o - o o o - o\n- - o o o - o o o - o o\no o - o - o o - o o o -\n- o o o - o o o - o o o\no o o - o - - - o o - o\no - o - o o - o o - o o\no o - o o o - o o o - -\n- o o o - o o o - o o o",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/159.a.htm",
-      "info": ""
-    },
-    "160_12x12": {
-      "problem": "12 12\no - o - o - o - o o - o\n- - - o - o - - - - o -\n- - - - - o - o - - - -\n- - - - o - - o o o - o\no o - o - - o - - - o -\n- o - - - - - o - - - o\no - - o o - o - - - - -\n- - - o o - o o - o - o\n- - - - - o o o - - - o\n- - o - - - - - - - - o\n- - - - - - o - - o - -\no o - o o - o - - - - -",
-      "solution": "12 12\no o o - o o o - o o - o\n- o - o o o - o o - o o\no o o - - o o o - o o -\no - o o o - - o o o - o\no o - o - o o - - o o o\n- o o - o o - o o - o o\no - o o o - o - o o o -\no o - o o - o o - o - o\n- o o o - o o o - o o o\no o o - o o - o o - o o\no - o o o - o - o o o -\no o - o o - o o o - - -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/160.a.htm",
       "info": ""
     },
     "161_8x8": {
@@ -1011,18 +975,6 @@
       "source": "https://www.janko.at/Raetsel/Fobidoshi/168.a.htm",
       "info": ""
     },
-    "169_12x12": {
-      "problem": "12 12\nx o - o x - - o x - o o\no - o - o o - o - - - -\n- o o - o - - o - o - -\no - - - - - - - o o o x\n- - o x o - - - x - - -\nx - o o - o o - - - o -\no - - - o - o o - - o x\no - o x - o - - x o - -\nx - - - - - - o - o - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no o - x o - o x o - o x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/169.a.htm",
-      "info": ""
-    },
-    "170_12x12": {
-      "problem": "12 12\nx o - o x - - o x - o o\no - o - o o - o - - - -\n- o o - o - - o - o - -\no - - - - - - - o o o x\n- - o x o - - - x - - -\nx - o o - o o - - - o -\no - - - o - o o - - o x\no - o x - o - - x o - -\nx - - - - - - o - o - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no o - x o - o x o - o x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/170.a.htm",
-      "info": ""
-    },
     "171_8x8": {
       "problem": "8 8\no - x - o x o o\n- - - - - o - o\no o o - - - o -\no x o o - - - o\no o - o - - x -\n- o o o - - - -\n- - o - - - - -\no - x o - x - o",
       "solution": "8 8\no o - o o - o o\n- o o o - o o o\no o o - o o o -\no - o o o - - o\no o - o o o - o\n- o o o - o o o\no o o - o o o -\no - - o o - o o",
@@ -1069,18 +1021,6 @@
       "problem": "10 10\n- o o x o - - x - -\n- - - - - - - - - -\no - - - - - o - - o\no o - o - x - - - -\n- x - - - - - - - o\no - - - - - - o x -\n- - - - x - o - o o\no - - - - - - - - o\no o - - - o - - - -\no o x o - o x o o -",
       "solution": "10 10\n- o o - o o o - - -\no o o - o - o o o -\no - o o o - o - o o\no o - o - - - o o o\n- - - - - o o o - o\no o - o o o - o - -\n- o o o - o o - o o\no - o o o - o o - o\no o o - o o - o o o\no o - o o o - o o -",
       "source": "https://www.janko.at/Raetsel/Fobidoshi/178.a.htm",
-      "info": ""
-    },
-    "179_12x12": {
-      "problem": "12 12\nx o - o x - - o x - o o\no - o - o o - o - - - -\n- o o - o - - o - o - -\no - - - - - - - o o o x\n- - o x o - - - x - - -\nx - o o - o o - - - o -\no - - - o - o o - - o x\no - o x - o - - x o - -\nx - - - - - - o - o - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no o - x o - o x o - o x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/179.a.htm",
-      "info": ""
-    },
-    "180_12x12": {
-      "problem": "12 12\nx o - o x - - o x - o o\no - o - o o - o - - - -\n- o o - o - - o - o - -\no - - - - - - - o o o x\n- - o x o - - - x - - -\nx - o o - o o - - - o -\no - - - o - o o - - o x\no - o x - o - - x o - -\nx - - - - - - o - o - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no o - x o - o x o - o x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/180.a.htm",
       "info": ""
     },
     "181_8x8": {
@@ -1131,18 +1071,6 @@
       "source": "https://www.janko.at/Raetsel/Fobidoshi/188.a.htm",
       "info": ""
     },
-    "189_12x12": {
-      "problem": "12 12\nx o - o x - - o x - o o\no - o - o o - o - - - -\n- o o - o - - o - o - -\no - - - - - - - o o o x\n- - o x o - - - x - - -\nx - o o - o o - - - o -\no - - - o - o o - - o x\no - o x - o - - x o - -\nx - - - - - - o - o - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no o - x o - o x o - o x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/189.a.htm",
-      "info": ""
-    },
-    "190_12x12": {
-      "problem": "12 12\nx o - o x - - o x - o o\no - o - o o - o - - - -\n- o o - o - - o - o - -\no - - - - - - - o o o x\n- - o x o - - - x - - -\nx - o o - o o - - - o -\no - - - o - o o - - o x\no - o x - o - - x o - -\nx - - - - - - o - o - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no o - x o - o x o - o x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/190.a.htm",
-      "info": ""
-    },
     "191_6x6": {
       "problem": "6 6\no o - o - -\n- - - o - -\no - - - - x\nx - - - - -\n- o - o - -\no - o - o o",
       "solution": "6 6\no o - o - -\no - o o o -\no o o - o -\n- - - o o o\n- o o o - o\no o o - o o",
@@ -1167,12 +1095,6 @@
       "source": "https://www.janko.at/Raetsel/Fobidoshi/194.a.htm",
       "info": ""
     },
-    "195_10x10": {
-      "problem": "10 10\no - - - - x - - o x\no - - - o - - - - -\no o x - - - o - o -\n- - - - - o - - - o\no - - - - - - - - x\nx - o - o o o - - o\no - - o o - o o - -\no - - o o o - x o o\n- - o - - - o o - o\nx o o o x o - o o o",
-      "solution": "10 10\no - o o o - o o o -\no o o - o o o - - -\no o - o o - o o o -\n- - o o - o - o o o\no o o - - o o o - -\n- o o - o o o - o o\no o - o o - o o o -\no - - o o o - - o o\no o o - - o o o - o\n- o o o - o - o o o",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/195.a.htm",
-      "info": ""
-    },
     "196_10x10": {
       "problem": "10 10\no - o - o - o - o o\no - x o - o x o - -\n- o - - - o - - o o\nx - o - x - - - o -\n- - o - - - - x - o\no - x o - - - o o o\n- - - - - x - - - x\no o - - - - - - - -\no o o x - - o x - -\no o - o o o - o - o",
       "solution": "10 10\no o o - o o o - o o\no o - o o o - o - o\n- o o o - o - o o o\n- - o - - - o o o -\n- o o o - o o - - o\no o - o o o - o o o\n- - o o o - o o o -\no o o - o o o - o o\no o o - - o o - - o\no o - o o o - o o o",
@@ -1183,24 +1105,6 @@
       "problem": "10 10\n- o - - - - o o - o\no - - - - - x o - -\n- o - x o o - - o -\no - - - o - - - o -\n- - o - - - o - o x\nx o - - - o - o - -\n- - - - - - - o - o\no o - - - - x o o -\no o o x - - - - - o\no o - o - o - o - -",
       "solution": "10 10\n- o o o - o o o - o\no o - o o o - o - o\no o o - o o o - o o\no - o - o - o o o -\n- o o o - - o - o -\n- o - o o o - o - -\n- - o o - o o o - o\no o o - o o - o o o\no o o - o - - - o o\no o - o o o - o o -",
       "source": "https://www.janko.at/Raetsel/Fobidoshi/197.a.htm",
-      "info": ""
-    },
-    "198_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/198.a.htm",
-      "info": ""
-    },
-    "199_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/199.a.htm",
-      "info": ""
-    },
-    "200_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/200.a.htm",
       "info": ""
     },
     "201_6x6": {
@@ -1245,24 +1149,6 @@
       "source": "https://www.janko.at/Raetsel/Fobidoshi/207.a.htm",
       "info": ""
     },
-    "208_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/208.a.htm",
-      "info": ""
-    },
-    "209_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/209.a.htm",
-      "info": ""
-    },
-    "210_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/210.a.htm",
-      "info": ""
-    },
     "211_6x6": {
       "problem": "6 6\n- - - - - -\n- - x - - x\n- - o - - -\n- - - - - o\nx - o x o -\no - o - - o",
       "solution": "6 6\n- o o o - -\no o - o - -\no - o o o -\no o - - o o\n- o o - o o\no o o - - o",
@@ -1297,30 +1183,6 @@
       "problem": "10 10\no - o - o o o - x o\n- - x - - o - - - o\no - - - - - o - - -\nx - - - x o - x - -\no - - - - - - o - -\n- - - - - o - - o -\no o x - - x - o o x\no - - - - - - o - -\no - - - - - o x - -\n- x o - o o - o - o",
       "solution": "10 10\no o o - o o o - - o\no - - - o o o - o o\no o - o o - o o o -\n- o o o - o - - o o\no o o - - o o o - o\n- - o o - o o - o o\no o - o - - o o o -\no - o o o - - o o o\no o o - o o o - - o\n- - o - o o - o o o",
       "source": "https://www.janko.at/Raetsel/Fobidoshi/216.a.htm",
-      "info": ""
-    },
-    "217_10x10": {
-      "problem": "10 10\no - o x - - - - o o\no - o - o - - - - -\nx - - - - o - - o -\no - o - x - - - o -\n- o - - o - - x - o\no - x - - o - o o -\n- o o - - x - o - -\n- - - - - o - - o x\n- - - - o - - - - o\no o - o - o x o - o",
-      "solution": "10 10\no o o - o o o - o o\no - o o o - o o - o\n- - - o o o - o o o\no - o o - - o o o -\no o o - o o o - - o\no - - o o o - o o o\n- o o o - - o o o -\no o o - o o o - o -\no - o o o - o o - o\no o - o o o - o o o",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/217.a.htm",
-      "info": ""
-    },
-    "218_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/218.a.htm",
-      "info": ""
-    },
-    "219_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/219.a.htm",
-      "info": ""
-    },
-    "220_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/220.a.htm",
       "info": ""
     },
     "221_8x8": {
@@ -1363,12 +1225,6 @@
       "problem": "10 10\no - - o o - - o x -\nx - o - - - - o - o\no - - o o o - - - -\n- - - o o x o - o o\n- - o - - o - o - x\nx o - - o - - - - o\n- - - - x o - o - -\n- - o - o - o - - -\no - - - o o - o - x\n- x o o o - - o - o",
       "solution": "10 10\no o - o o o - o - -\n- o o - - o o o - o\no o - o o o - o o o\no - o o o - o - o o\no o o - - o o o - -\n- o - o o o - o o o\no o - o - o o o - o\no - o o o - o - o o\no o o - o o - o o -\n- - o o o - - o o o",
       "source": "https://www.janko.at/Raetsel/Fobidoshi/227.a.htm",
-      "info": ""
-    },
-    "228_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/228.a.htm",
       "info": ""
     },
     "229_10x10": {
@@ -1425,24 +1281,6 @@
       "source": "https://www.janko.at/Raetsel/Fobidoshi/237.a.htm",
       "info": ""
     },
-    "238_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/238.a.htm",
-      "info": ""
-    },
-    "239_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/239.a.htm",
-      "info": ""
-    },
-    "240_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/240.a.htm",
-      "info": ""
-    },
     "241_8x8": {
       "problem": "8 8\no o o - - o - x\n- o - x o - - -\no - - - - o - o\n- - - - o o x o\no x - - o - o o\n- - - - o o o -\no - - - x - - -\nx - o - o - - o",
       "solution": "8 8\no o o - o o o -\no o o - o - o -\no - o o - o o o\n- - - o o o - o\no - o o o - o o\no o o - o o o -\no o - - - o o o\n- o o - o o - o",
@@ -1483,24 +1321,6 @@
       "problem": "10 10\no o - - x - o x o o\n- - - - o - - - - o\no x o - - - o - - x\n- - o o - o o o - o\no o - x o o - o o -\n- - o - - - x - o o\no - o - o o - o o -\nx - - - - - o - x o\n- - o - o - - - o o\no - x o - x - - o o",
       "solution": "10 10\no o - - - o o - o o\no o o - o o - - o o\no - o o o - o o o -\n- o o o - o o o - o\no o - - o o - o o o\no - o o o - - - o o\no o o - o o - o o -\n- o - - - o o o - o\no o o - o o - o o o\no - - o o - - - o o",
       "source": "https://www.janko.at/Raetsel/Fobidoshi/247.a.htm",
-      "info": ""
-    },
-    "248_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/248.a.htm",
-      "info": ""
-    },
-    "249_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/249.a.htm",
-      "info": ""
-    },
-    "250_12x12": {
-      "problem": "12 12\nx o - o x - - - x - o o\no - o - o o - - - - - -\n- o o - o - - o - o - -\no - - - - - - - o - o x\n- - o x o - - - x - - -\nx - o - - - - - - - o -\no - - - - - o o - - - x\no - o x - - - - x - - -\nx - - - - - - o - - - o\n- - o - - o o o - - - o\no - o o - o o o - - - o\no - - x o - o x o - - x",
-      "solution": "12 12\n- o o o - o o o - - o o\no - o - o o - o o o - o\no o o - o - o o - o o o\no o - - - o o - o o o -\n- o o - o o - - - - - -\n- - o o - o o - o o o -\no - - o o - o o o - o -\no o o - o o o - - o o -\n- o - o o - - o o o - o\n- o o o - o o o - o o o\no - o o - o o o - - o o\no o o - o o o - o o o -",
-      "source": "https://www.janko.at/Raetsel/Fobidoshi/250.a.htm",
       "info": ""
     }
   }
