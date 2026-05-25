@@ -1,6 +1,6 @@
 {
-  "count": 80,
-  "count_sol": 80,
+  "count": 79,
+  "count_sol": 79,
   "name": "Juosan",
   "data": {
     "01_10x10": {
@@ -343,12 +343,6 @@
       "problem": "10 10\n4 - - - - - - - 4 1\n5 - 2 - - - - - - -\n- - 4 - - - - - - 4\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - 2 -\n3 - - 1 - 3 - 2 - -\n1 - 3 - - - - - 2 -\n- - - - - - 3 - - 2\n3 - - - 3 - - - - -\n1 1 1 1 14 14 14 14 22 26\n2 2 8 8 8 8 18 18 22 26\n2 2 9 9 9 9 18 18 22 27\n2 2 10 10 10 10 10 10 22 27\n3 3 10 10 10 10 10 10 23 27\n3 3 10 10 10 10 10 10 24 27\n4 4 4 12 12 16 16 20 24 28\n5 5 11 11 11 16 16 20 25 25\n6 6 6 6 6 17 19 19 19 29\n7 7 7 13 15 15 15 21 21 29",
       "solution": "10 10\nh h h h v v h h v v\nv h v v h h h v v h\nv v h h h h v h v v\nv v h h v v h h v v\nv h v v h h v v h v\nh v v h v v h h v v\nh h h v h h h v v h\nv h h h h h v v h h\nh v v h v v h h h v\nh h h v h h h h v v",
       "source": "https://www.janko.at/Raetsel/Juosan/057.a.htm",
-      "info": ""
-    },
-    "58_10x10": {
-      "problem": "10 10\n3 3 - 3 3 - - - 1 -\n- - - - 3 2 - 2 2 2\n- - - - - - - - - -\n3 - - - - 3 - - - -\n4 - 2 - - - - 2 - -\n- - - - - - 3 - - 2\n2 2 - 2 - 2 - 3 - -\n- - - - - - 2 - - 1\n4 - - 1 - - - 2 - -\n- - 1 - 2 - 2 - 1 -\n1 6 6 13 17 17 17 17 34 34\n1 6 6 13 18 22 22 29 35 37\n1 7 7 13 18 22 22 29 35 37\n2 2 2 2 18 23 23 30 30 38\n3 3 10 10 19 23 23 31 31 38\n3 3 10 10 20 20 26 26 26 39\n4 8 8 14 14 24 24 32 32 39\n4 9 9 15 15 25 27 32 32 40\n5 5 11 16 16 25 27 33 33 40\n5 5 12 12 21 21 28 28 36 36",
-      "solution": "10 10\nv h v v h v h h v h\nv h h v v h v v h v\nv v h v v h v v h v\nh h v h v v h v v h\nv v h v h v v h h v\nv v h v v h h h h h\nh v v h h h h v v h\nh h v v h v v h v v\nv v h h v h v h h h\nv v h v h h v v h v",
-      "source": "https://www.janko.at/Raetsel/Juosan/058.a.htm",
       "info": ""
     },
     "59_10x10": {
