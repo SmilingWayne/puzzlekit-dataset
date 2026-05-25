@@ -209,7 +209,7 @@
     },
     "35_11x11": {
       "problem": "11 11 5 4 3 2 1\n1 5 0 7 0 9 0 4 1 4 4\n0 6 2 6 3 2 2 2 4 6 2\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - s - - - - -\n- - - - - - - - - - -\n- n - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - - - - - - - - \n- o - n - n - o - w e \n- - - m - m - - - - - \nw e - m - m - o - n - \n- - - s - m - - - m - \n- - - - - s - - - s - \n- - - o - - - o - - - \n- n - - - n - - - - - \n- m - n - m - - - - n \n- s - s - m - w e - m \n- - - - - s - - - - s",
+      "solution": "11 11 5 4 3 2 1\n- - - - - - - - - - -\n- o - n - n - o - w e\n- - - m - m - - - - -\nw e - m - m - o - n -\n- - - s - m - - - m -\n- - - - - s - - - s -\n- - - o - - - o - - -\n- n - - - n - - - - -\n- m - n - m - - - - n\n- s - s - m - w e - m\n- - - - - s - - - - s",
       "source": "https://www.janko.at/Raetsel/Battleships/035.a.htm",
       "info": ""
     },
@@ -245,121 +245,121 @@
     },
     "71_6x6": {
       "problem": "6 6 3 2 1 0 0\n1 2 1 3 0 3\n2 0 2 1 1 4\n- - w - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
-      "solution": "6 6 3 2 1 0 0\n- - w e - - \n- - - - - - \n- o - o - - \n- - - - - n \n- - - - - m \nw e - o - s",
+      "solution": "6 6 3 2 1 0 0\n- - w e - -\n- - - - - -\n- o - o - -\n- - - - - n\n- - - - - m\nw e - o - s",
       "source": "https://www.janko.at/Raetsel/Battleships/071.a.htm",
       "info": ""
     },
     "72_6x6": {
       "problem": "6 6 3 2 1 0 0\n4 0 0 3 0 3\n2 1 1 2 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - m - -\nx - - - - -\n- - - - - -",
-      "solution": "6 6 3 2 1 0 0\nn - - - - o \ns - - - - - \n- - - n - - \no - - m - - \n- - - s - n \no - - - - s",
+      "solution": "6 6 3 2 1 0 0\nn - - - - o\ns - - - - -\n- - - n - -\no - - m - -\n- - - s - n\no - - - - s",
       "source": "https://www.janko.at/Raetsel/Battleships/072.a.htm",
       "info": ""
     },
     "73_8x8": {
       "problem": "8 8 4 3 2 1 0\n2 4 0 5 0 6 0 3\n2 3 2 3 0 3 3 4\n- - - - - - - -\n- - - x - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - x",
-      "solution": "8 8 4 3 2 1 0\n- - - o - n - - \n- n - - - m - o \n- m - - - m - - \n- s - o - s - - \n- - - - - - - - \no - - n - - - n \n- - - m - n - s \nw e - s - s - -",
+      "solution": "8 8 4 3 2 1 0\n- - - o - n - -\n- n - - - m - o\n- m - - - m - -\n- s - o - s - -\n- - - - - - - -\no - - n - - - n\n- - - m - n - s\nw e - s - s - -",
       "source": "https://www.janko.at/Raetsel/Battleships/073.a.htm",
       "info": ""
     },
     "74_8x8": {
       "problem": "8 8 4 3 2 1 0\n4 1 3 1 4 0 7 0\n3 2 5 0 3 2 4 1\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- e - - - - - -\n- - - - - - - -",
-      "solution": "8 8 4 3 2 1 0\n- - o - o - n - \nn - - - - - m - \ns - w m e - s - \n- - - - - - - - \no - o - - - n - \n- - - - n - m - \nw e - - s - m - \n- - - - - - s -",
+      "solution": "8 8 4 3 2 1 0\n- - o - o - n -\nn - - - - - m -\ns - w m e - s -\n- - - - - - - -\no - o - - - n -\n- - - - n - m -\nw e - - s - m -\n- - - - - - s -",
       "source": "https://www.janko.at/Raetsel/Battleships/074.a.htm",
       "info": ""
     },
     "75_8x8": {
       "problem": "8 8 4 3 2 1 0\n4 2 0 2 0 5 2 5\n5 0 3 2 3 3 0 4\n- x - - - - - -\n- - - - - - - -\nx - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - x - -\n- - - - - - - -\n- - - - - - - -",
-      "solution": "8 8 4 3 2 1 0\no - - o - w m e \n- - - - - - - - \n- o - - - n - n \n- - - - - m - m \nn - - - - s - m \ns - - o - - - s \n- - - - - - - - \nw e - - - w e -",
+      "solution": "8 8 4 3 2 1 0\no - - o - w m e\n- - - - - - - -\n- o - - - n - n\n- - - - - m - m\nn - - - - s - m\ns - - o - - - s\n- - - - - - - -\nw e - - - w e -",
       "source": "https://www.janko.at/Raetsel/Battleships/075.a.htm",
       "info": ""
     },
     "76_8x8": {
       "problem": "8 8 4 3 2 1 0\n4 1 4 0 5 0 6 0\n5 1 3 3 2 1 3 2\n- - - - - - - -\n- - - - - - - -\n- - x - - - - -\n- - - - - - - -\n- - - - n - - -\n- - - - - - - -\n- - x - - - - -\n- - - - - - - -",
-      "solution": "8 8 4 3 2 1 0\nw m e - o - n - \n- - - - - - m - \nn - - - o - m - \ns - n - - - s - \n- - s - n - - - \n- - - - m - - - \no - - - s - n - \n- - o - - - s -",
+      "solution": "8 8 4 3 2 1 0\nw m e - o - n -\n- - - - - - m -\nn - - - o - m -\ns - n - - - s -\n- - s - n - - -\n- - - - m - - -\no - - - s - n -\n- - o - - - s -",
       "source": "https://www.janko.at/Raetsel/Battleships/076.a.htm",
       "info": ""
     },
     "77_10x10": {
       "problem": "10 10 4 3 2 1 0\n2 5 1 1 2 4 0 1 2 2\n2 1 2 1 2 0 2 4 3 3\n- - - w - - - - - -\n- - - - - - - - - -\n- - - - x - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\no - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - w e - - - - - \n- n - - - - - - - - \n- m - - - o - - - - \n- m - - - - - - - - \n- s - - o - - - - - \n- - - - - - - - - - \nw e - - - - - - - - \n- - - - - n - w m e \no - o - - m - - - - \n- - - - - s - - w e",
+      "solution": "10 10 4 3 2 1 0\n- - - w e - - - - -\n- n - - - - - - - -\n- m - - - o - - - -\n- m - - - - - - - -\n- s - - o - - - - -\n- - - - - - - - - -\nw e - - - - - - - -\n- - - - - n - w m e\no - o - - m - - - -\n- - - - - s - - w e",
       "source": "https://www.janko.at/Raetsel/Battleships/077.a.htm",
       "info": ""
     },
     "78_10x10": {
       "problem": "10 10 4 3 2 1 0\n1 5 3 3 4 1 1 0 1 1\n0 3 1 3 0 3 1 4 1 4\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- m - - - - - - - -\n- - - - - - - - o -\n- - - - - - - - - -\n- - - - - - - - - -\n- x - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - - \n- n - w e - - - - - \n- m - - - - - - - - \n- s - w e - - - - - \n- - - - - - - - - - \nw m e - - - - - - - \n- - - - - - - - o - \n- w e - o - o - - - \n- - - - - - - - - o \n- - w m m e - - - -",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - -\n- n - w e - - - - -\n- m - - - - - - - -\n- s - w e - - - - -\n- - - - - - - - - -\nw m e - - - - - - -\n- - - - - - - - o -\n- w e - o - o - - -\n- - - - - - - - - o\n- - w m m e - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/078.a.htm",
       "info": ""
     },
     "79_10x10": {
       "problem": "10 10 4 3 2 1 0\n6 0 0 0 1 2 1 5 1 4\n2 5 1 1 2 0 2 2 1 4\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - n\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\nx - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\nn - - - - - - - - o \ns - - - w m m e - - \n- - - - - - - - - n \n- - - - - - - - - s \no - - - - - - o - - \n- - - - - - - - - - \nn - - - - - - n - - \nm - - - - - - s - - \ns - - - - - - - - - \n- - - - - o - w m e",
+      "solution": "10 10 4 3 2 1 0\nn - - - - - - - - o\ns - - - w m m e - -\n- - - - - - - - - n\n- - - - - - - - - s\no - - - - - - o - -\n- - - - - - - - - -\nn - - - - - - n - -\nm - - - - - - s - -\ns - - - - - - - - -\n- - - - - o - w m e",
       "source": "https://www.janko.at/Raetsel/Battleships/079.a.htm",
       "info": ""
     },
     "80_10x10": {
       "problem": "10 10 4 3 2 1 0\n3 2 4 2 1 2 1 0 2 3\n1 3 1 5 3 0 1 0 6 0\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - o -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - o - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - o \n- w m e - - - - - - \n- - - - - - - - o - \nn - n - w m e - - - \ns - s - - - - - - o \n- - - - - - - - - - \n- - - - - o - - - - \n- - - - - - - - - - \nw m m e - - - - w e \n- - - - - - - - - -",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - o\n- w m e - - - - - -\n- - - - - - - - o -\nn - n - w m e - - -\ns - s - - - - - - o\n- - - - - - - - - -\n- - - - - o - - - -\n- - - - - - - - - -\nw m m e - - - - w e\n- - - - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/080.a.htm",
       "info": ""
     },
     "81_6x6": {
       "problem": "6 6 3 2 1 0 0\n1 2 3 2 0 2\n0 3 0 3 0 4\n- - - - - -\n- x - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
-      "solution": "6 6 3 2 1 0 0\n- - - - - - \no - w e - - \n- - - - - - \n- w e - - o \n- - - - - - \n- w m e - o",
+      "solution": "6 6 3 2 1 0 0\n- - - - - -\no - w e - -\n- - - - - -\n- w e - - o\n- - - - - -\n- w m e - o",
       "source": "https://www.janko.at/Raetsel/Battleships/081.a.htm",
       "info": ""
     },
     "82_6x6": {
-      "problem": "6 6 3 2 1 0 0\n1 3 1 1 4 0\n2 1 0 3 0 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
-      "solution": "6 6 3 2 1 0 0\n- o - - n - \n- - - - s - \n- - - - - - \n- o - w e - \n- - - - - - \nw m e - o -",
+      "problem": "6 6 3 2 1 0 0\n1 3 1 1 4 0\n2 1 0 3 0 4",
+      "solution": "6 6 3 2 1 0 0\n- o - - n -\n- - - - s -\n- - - - - -\n- o - w e -\n- - - - - -\nw m e - o -",
       "source": "https://www.janko.at/Raetsel/Battleships/082.a.htm",
       "info": ""
     },
     "83_8x8": {
       "problem": "8 8 4 3 2 1 0\n0 6 0 5 0 5 0 4\n1 3 4 2 3 2 2 3\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - o - - - -\n- o - - - - - -\n- - - - - - - -\n- - - - - - - -",
-      "solution": "8 8 4 3 2 1 0\n- n - - - - - - \n- m - n - n - - \n- m - s - s - n \n- s - - - - - m \n- - - o - n - s \n- o - - - m - - \n- - - n - s - - \n- o - s - - - o",
+      "solution": "8 8 4 3 2 1 0\n- n - - - - - -\n- m - n - n - -\n- m - s - s - n\n- s - - - - - m\n- - - o - n - s\n- o - - - m - -\n- - - n - s - -\n- o - s - - - o",
       "source": "https://www.janko.at/Raetsel/Battleships/083.a.htm",
       "info": ""
     },
     "84_8x8": {
       "problem": "8 8 4 3 2 1 0\n2 4 1 3 1 2 3 4\n0 5 1 5 0 4 0 5\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - x - - - -\n- - - - - - - -\n- x - - - - - -\n- - - - - - - -\n- - - - - - - -",
-      "solution": "8 8 4 3 2 1 0\n- - - - - - - - \n- n - o - w m e \n- m - - - - - - \n- s - - w m m e \n- - - - - - - - \no - w e - - - o \n- - - - - - - - \nw e - o - - w e",
+      "solution": "8 8 4 3 2 1 0\n- - - - - - - -\n- n - o - w m e\n- m - - - - - -\n- s - - w m m e\n- - - - - - - -\no - w e - - - o\n- - - - - - - -\nw e - o - - w e",
       "source": "https://www.janko.at/Raetsel/Battleships/084.a.htm",
       "info": ""
     },
     "85_8x8": {
       "problem": "8 8 4 3 2 1 0\n2 6 0 5 1 3 0 3\n5 0 3 2 2 3 1 4\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - x - - - -\n- - - - - o - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -",
-      "solution": "8 8 4 3 2 1 0\nw e - w m e - - \n- - - - - - - - \n- n - o - - - n \n- m - - - - - s \n- m - - - o - - \n- s - n - - - o \n- - - m - - - - \nw e - s - o - -",
+      "solution": "8 8 4 3 2 1 0\nw e - w m e - -\n- - - - - - - -\n- n - o - - - n\n- m - - - - - s\n- m - - - o - -\n- s - n - - - o\n- - - m - - - -\nw e - s - o - -",
       "source": "https://www.janko.at/Raetsel/Battleships/085.a.htm",
       "info": ""
     },
     "86_8x8": {
       "problem": "8 8 4 3 2 1 0\n5 0 4 0 3 2 5 1\n3 3 1 0 2 5 1 5\n- - - - - - - -\n- - x - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\nx - - - - - - -\n- - - - - - - -\n- - - - - - - -",
-      "solution": "8 8 4 3 2 1 0\nn - o - - - n - \ns - - - o - m - \n- - - - - - s - \n- - - - - - - - \no - n - - - - - \n- - s - w m m e \nn - - - - - - - \ns - o - w m e -",
+      "solution": "8 8 4 3 2 1 0\nn - o - - - n -\ns - - - o - m -\n- - - - - - s -\n- - - - - - - -\no - n - - - - -\n- - s - w m m e\nn - - - - - - -\ns - o - w m e -",
       "source": "https://www.janko.at/Raetsel/Battleships/086.a.htm",
       "info": ""
     },
     "87_10x10": {
       "problem": "10 10 4 3 2 1 0\n2 2 2 1 0 6 2 0 3 2\n2 0 4 1 2 3 0 2 3 3\n- - - - - x - - o -\n- - - - - - - - - -\nx - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - - - - o - o - \n- - - - - - - - - - \n- w m e - n - - - - \n- - - - - m - - - - \no - - - - m - - - - \n- - - - - s - - w e \n- - - - - - - - - - \n- - - - - w e - - - \nw m e - - - - - - - \n- - - - - o - - w e",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - o - o -\n- - - - - - - - - -\n- w m e - n - - - -\n- - - - - m - - - -\no - - - - m - - - -\n- - - - - s - - w e\n- - - - - - - - - -\n- - - - - w e - - -\nw m e - - - - - - -\n- - - - - o - - w e",
       "source": "https://www.janko.at/Raetsel/Battleships/087.a.htm",
       "info": ""
     },
     "88_10x10": {
       "problem": "10 10 4 3 2 1 0\n4 1 0 2 3 1 5 2 2 0\n2 2 4 2 1 2 0 2 2 3\n- - - - - - - - - -\nx - - n - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\no - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - - - - n - o - \n- - - n - - m - - - \nn - - s - - m - o - \nm - - - - - s - - - \ns - - - - - - - - - \n- - - - - w e - - - \n- - - - - - - - - - \n- o - - n - - - - - \n- - - - m - - n - - \no - - - s - - s - -",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - n - o -\n- - - n - - m - - -\nn - - s - - m - o -\nm - - - - - s - - -\ns - - - - - - - - -\n- - - - - w e - - -\n- - - - - - - - - -\n- o - - n - - - - -\n- - - - m - - n - -\no - - - s - - s - -",
       "source": "https://www.janko.at/Raetsel/Battleships/088.a.htm",
       "info": ""
     },
     "89_10x10": {
       "problem": "10 10 4 3 2 1 0\n1 1 3 1 6 0 3 2 2 1\n7 0 3 1 1 1 2 2 0 3\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - m -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - s - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- w m m e - w m e - \n- - - - - - - - - - \n- - - - - - - w m e \n- - - - n - - - - - \n- - - - s - - - - - \n- - - - - - n - - - \n- - - - n - s - - - \n- - o - s - - - - - \n- - - - - - - - - - \no - o - o - - - - -",
+      "solution": "10 10 4 3 2 1 0\n- w m m e - w m e -\n- - - - - - - - - -\n- - - - - - - w m e\n- - - - n - - - - -\n- - - - s - - - - -\n- - - - - - n - - -\n- - - - n - s - - -\n- - o - s - - - - -\n- - - - - - - - - -\no - o - o - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/089.a.htm",
       "info": ""
     },
     "90_10x10": {
       "problem": "10 10 4 3 2 1 0\n1 0 0 2 0 3 3 2 1 8\n1 4 1 1 4 0 3 1 1 4\n- - - - - - - - - -\n- - - - - x - - - -\n- - - - - - - - - -\n- - - - - o - - - -\n- - - x - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - n \n- - - o - - w e - m \n- - - - - - - - - s \n- - - - - o - - - - \no - - - - - - w m e \n- - - - - - - - - - \n- - - - - w e - - n \n- - - - - - - - - m \n- - - - - - - - - m \n- - - o - w e - - s",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - n\n- - - o - - w e - m\n- - - - - - - - - s\n- - - - - o - - - -\no - - - - - - w m e\n- - - - - - - - - -\n- - - - - w e - - n\n- - - - - - - - - m\n- - - - - - - - - m\n- - - o - w e - - s",
       "source": "https://www.janko.at/Raetsel/Battleships/090.a.htm",
       "info": ""
     },
@@ -425,115 +425,115 @@
     },
     "101_11x11": {
       "problem": "11 11 5 4 3 2 1\n2 4 4 2 5 1 6 3 2 5 1\n5 0 4 3 4 3 2 4 4 1 5\n- - - x - - - w - - -\n- - - - - - - - - - -\n- - - - - x - - - - -\n- x - - - - - - - - -\n- - - - - w - - - - -\n- x - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - n - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - e - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- w e - o - - w e - - \n- - - - - - - - - - - \n- - - - - - w m e - o \no - w e - - - - - - - \n- - - - - w m e - n - \no - o - - - - - - m - \n- - - - n - - - - m - \n- n - - m - n - - m - \n- s - - s - m - - s - \n- - - - - - m - - - - \n- w m m e - s - - - -",
+      "solution": "11 11 5 4 3 2 1\n- w e - o - - w e - -\n- - - - - - - - - - -\n- - - - - - w m e - o\no - w e - - - - - - -\n- - - - - w m e - n -\no - o - - - - - - m -\n- - - - n - - - - m -\n- n - - m - n - - m -\n- s - - s - m - - s -\n- - - - - - m - - - -\n- w m m e - s - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/101.a.htm",
       "info": ""
     },
     "102_11x11": {
       "problem": "11 11 5 4 3 2 1\n6 0 4 2 5 2 3 5 1 4 3\n6 3 2 6 1 2 2 3 2 5 3\n- - - - - - - n - x -\n- - - - - - - - - - -\n- - - - - - - - - m -\n- - w - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - m - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - s - - -",
-      "solution": "11 11 5 4 3 2 1\nn - w m m e - n - - - \nm - - - - - - s - n - \nm - - - - - - - - m - \nm - w e - o - o - s - \ns - - - - - - - - - - \n- - - - - - n - - o - \n- - - - n - m - - - - \n- - - - m - s - o - - \n- - - - m - - - - - n \no - n - s - - n - - m \n- - s - - - - s - - s",
+      "solution": "11 11 5 4 3 2 1\nn - w m m e - n - - -\nm - - - - - - s - n -\nm - - - - - - - - m -\nm - w e - o - o - s -\ns - - - - - - - - - -\n- - - - - - n - - o -\n- - - - n - m - - - -\n- - - - m - s - o - -\n- - - - m - - - - - n\no - n - s - - n - - m\n- - s - - - - s - - s",
       "source": "https://www.janko.at/Raetsel/Battleships/102.a.htm",
       "info": ""
     },
     "103_11x11": {
       "problem": "11 11 5 4 3 2 1\n2 4 2 4 2 4 3 6 2 0 6\n7 0 5 0 3 2 3 1 8 1 5\n- - - - - - x - - - -\n- - - - - - - - - - -\n- x - - - - - e - - -\n- - - - - - - - - - -\n- - e - - - - - - - -\n- - - - - - - x - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - w - - - - n\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nw m m m e - - w e - - \n- - - - - - - - - - - \n- - - - w m m e - - o \n- - - - - - - - - - - \n- w e - - - - o - - - \n- - - - - o - - - - n \n- - - n - - - o - - s \n- - - m - - - - - - - \nw e - s - w m m e - n \n- - - - - - - - - - m \n- o - - - w m e - - s",
+      "solution": "11 11 5 4 3 2 1\nw m m m e - - w e - -\n- - - - - - - - - - -\n- - - - w m m e - - o\n- - - - - - - - - - -\n- w e - - - - o - - -\n- - - - - o - - - - n\n- - - n - - - o - - s\n- - - m - - - - - - -\nw e - s - w m m e - n\n- - - - - - - - - - m\n- o - - - w m e - - s",
       "source": "https://www.janko.at/Raetsel/Battleships/103.a.htm",
       "info": ""
     },
     "104_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 3 4 3 4 1 3 4 3 3 3\n2 5 2 3 1 8 0 8 0 6 0\n- - - - - - - - - x -\n- - - - - - - - - - -\n- - - - - - - - e - -\n- e - - x - - - - - x\n- - - - - - - - - - -\n- - - - w - - - - s -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - x - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - - - o - - - n \no - w m e - - - - - s \n- - - - - - - w e - - \nw e - o - - - - - - - \n- - - - - - - - - n - \nw m e - w m m e - s - \n- - - - - - - - - - - \nw m m m e - w m e - - \n- - - - - - - - - - - \n- - o - o - - w m m e \n- - - - - - - - - - -",
+      "solution": "11 11 5 4 3 2 1\n- - - - - - o - - - n\no - w m e - - - - - s\n- - - - - - - w e - -\nw e - o - - - - - - -\n- - - - - - - - - n -\nw m e - w m m e - s -\n- - - - - - - - - - -\nw m m m e - w m e - -\n- - - - - - - - - - -\n- - o - o - - w m m e\n- - - - - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/104.a.htm",
       "info": ""
     },
     "105_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 4 3 3 4 4 2 3 2 3 3\n2 5 3 0 8 0 7 1 2 4 3\n- - - - - - - x - x -\n- - - - - - - - - - -\n- - - - - - w - - - -\n- - - - - - - - - - -\n- - - - - - - - - x -\n- - - - - - - - - - -\n- - - - - n - - e x -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\nw - - x - - - - - s -",
-      "solution": "11 11 5 4 3 2 1\n- - - - n - - - - - n \nw m e - m - - - - - s \n- - - - s - w e - - - \n- - - - - - - - - - - \nw m m m e - o - o - o \n- - - - - - - - - - - \nw m m e - n - w e - - \n- - - - - m - - - - - \n- - - - - m - - - n - \n- - - o - s - o - m - \nw e - - - - - - - s -",
+      "solution": "11 11 5 4 3 2 1\n- - - - n - - - - - n\nw m e - m - - - - - s\n- - - - s - w e - - -\n- - - - - - - - - - -\nw m m m e - o - o - o\n- - - - - - - - - - -\nw m m e - n - w e - -\n- - - - - m - - - - -\n- - - - - m - - - n -\n- - - o - s - o - m -\nw e - - - - - - - s -",
       "source": "https://www.janko.at/Raetsel/Battleships/105.a.htm",
       "info": ""
     },
     "106_11x11": {
       "problem": "11 11 5 4 3 2 1\n7 1 3 4 2 4 2 2 5 3 2\n8 1 0 7 1 1 6 2 5 1 3\n- - - - e - - - - - -\n- - - - - - - - s - -\n- - - - - - - - - - -\n- - - x - - - w - - -\nm - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - w - - -\n- - - m - - - - - - -\n- - - - - s - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nw m m m e - o - n - o \n- - - - - - - - s - - \n- - - - - - - - - - - \nn - o - o - - w m m e \nm - - - - - - - - - - \nm - - - - - - - - - - \ns - - n - n - w m e - \n- - - m - m - - - - - \nn - - s - s - - w e - \ns - - - - - - - - - - \n- - o - - w e - - - -",
+      "solution": "11 11 5 4 3 2 1\nw m m m e - o - n - o\n- - - - - - - - s - -\n- - - - - - - - - - -\nn - o - o - - w m m e\nm - - - - - - - - - -\nm - - - - - - - - - -\ns - - n - n - w m e -\n- - - m - m - - - - -\nn - - s - s - - w e -\ns - - - - - - - - - -\n- - o - - w e - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/106.a.htm",
       "info": ""
     },
     "107_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 2 2 5 2 3 6 2 3 4 2\n7 0 6 1 3 2 2 5 0 9 0\n- - x - x - - - - e -\n- - - - - - - - - - -\n- - - x - - - - - - -\n- - - - - - - - - - -\n- - - - - - - e - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- w - - - - - - - - -\n- - - - - - - - - - -\n- - - e - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\no - - o - w m m m e - \n- - - - - - - - - - - \n- - - - w m e - w m e \no - - - - - - - - - - \n- - - n - - w e - - - \no - - s - - - - - - - \n- - - - - - n - - o - \n- w m m e - s - - - - \n- - - - - - - - - - - \nw m m e - w e - w m e \n- - - - - - - - - - -",
+      "solution": "11 11 5 4 3 2 1\no - - o - w m m m e -\n- - - - - - - - - - -\n- - - - w m e - w m e\no - - - - - - - - - -\n- - - n - - w e - - -\no - - s - - - - - - -\n- - - - - - n - - o -\n- w m m e - s - - - -\n- - - - - - - - - - -\nw m m e - w e - w m e\n- - - - - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/107.a.htm",
       "info": ""
     },
     "108_11x11": {
       "problem": "11 11 5 4 3 2 1\n3 3 3 3 3 2 2 7 1 6 2\n7 1 1 7 0 7 1 2 6 2 1\n- x - - - - - x - n -\n- - - - - - - - - - -\n- - - - - - - - - - -\nw - - - x - - - - - -\n- - - - - - - - - - -\n- - - - - - - - e - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- w - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\no - w m m m e - - n - \n- - - - - - - - - s - \n- - - - - - - n - - - \nw e - o - o - s - w e \n- - - - - - - - - - - \nw m e - - - w m e - o \n- - - - o - - - - - - \n- - - - - - - n - n - \n- w m m e - - m - m - \n- - - - - - - m - s - \n- - - - - - - s - - -",
+      "solution": "11 11 5 4 3 2 1\no - w m m m e - - n -\n- - - - - - - - - s -\n- - - - - - - n - - -\nw e - o - o - s - w e\n- - - - - - - - - - -\nw m e - - - w m e - o\n- - - - o - - - - - -\n- - - - - - - n - n -\n- w m m e - - m - m -\n- - - - - - - m - s -\n- - - - - - - s - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/108.a.htm",
       "info": ""
     },
     "109_11x11": {
       "problem": "11 11 5 4 3 2 1\n5 1 4 0 3 3 4 2 4 2 7\n1 6 1 4 3 4 3 3 6 2 2\nn - - - - - - - - - -\n- - - - - - - - - - e\n- - - - - s - - - - -\n- - - - - - - - e - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - s - - - -\n- - - - - - - - - - e",
-      "solution": "11 11 5 4 3 2 1\nn - - - - - - - - - - \ns - - - - n - w m m e \n- - - - - s - - - - - \no - - - - - - w e - n \n- - n - - o - - - - m \no - m - - - - - o - m \n- - s - - - n - - - m \n- - - - n - m - - - s \nw m e - m - m - o - - \n- - - - s - s - - - - \n- - - - - - - - - w e",
+      "solution": "11 11 5 4 3 2 1\nn - - - - - - - - - -\ns - - - - n - w m m e\n- - - - - s - - - - -\no - - - - - - w e - n\n- - n - - o - - - - m\no - m - - - - - o - m\n- - s - - - n - - - m\n- - - - n - m - - - s\nw m e - m - m - o - -\n- - - - s - s - - - -\n- - - - - - - - - w e",
       "source": "https://www.janko.at/Raetsel/Battleships/109.a.htm",
       "info": ""
     },
     "110_11x11": {
       "problem": "11 11 5 4 3 2 1\n2 1 1 7 1 6 3 3 6 0 5\n4 1 5 0 8 1 1 4 3 3 5\n- - - - - - - - - - -\n- - - - - - - - - - x\n- - - x - x - - - - -\n- - - - - - - - - - -\n- - - - - - - x - - -\ns - - - - - - - - - -\n- - - - - - - - - - -\n- - - n - n - - m - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - e - -",
-      "solution": "11 11 5 4 3 2 1\n- - - n - w m e - - - \n- - - s - - - - - - - \n- o - - - - w m e - o \n- - - - - - - - - - - \nn - w m m m e - o - o \ns - - - - - - - - - - \n- - - - - - - - n - - \n- - - n - n - - m - o \n- - - m - m - - s - - \n- - - m - m - - - - n \n- - - s - s - w e - s",
+      "solution": "11 11 5 4 3 2 1\n- - - n - w m e - - -\n- - - s - - - - - - -\n- o - - - - w m e - o\n- - - - - - - - - - -\nn - w m m m e - o - o\ns - - - - - - - - - -\n- - - - - - - - n - -\n- - - n - n - - m - o\n- - - m - m - - s - -\n- - - m - m - - - - n\n- - - s - s - w e - s",
       "source": "https://www.janko.at/Raetsel/Battleships/110.a.htm",
       "info": ""
     },
     "111_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 2 4 2 7 1 1 7 0 2 5\n3 5 2 4 2 5 0 7 1 5 1\n- - n - - - - x - - -\nx - - - - - - - - - -\n- - - - - - - x - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - m - - - -\n- - - - - - - - - - m\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\no - n - n - - - - - - \n- - m - m - - o - w e \n- - m - m - - - - - - \nn - s - s - - n - - - \nm - - - - - - m - - - \ns - - - o - - s - w e \n- - - - - - - - - - - \n- o - w m m m e - - n \n- - - - - - - - - - m \n- o - w e - - n - - s \n- - - - - - - s - - -",
+      "solution": "11 11 5 4 3 2 1\no - n - n - - - - - -\n- - m - m - - o - w e\n- - m - m - - - - - -\nn - s - s - - n - - -\nm - - - - - - m - - -\ns - - - o - - s - w e\n- - - - - - - - - - -\n- o - w m m m e - - n\n- - - - - - - - - - m\n- o - w e - - n - - s\n- - - - - - - s - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/111.a.htm",
       "info": ""
     },
     "112_11x11": {
       "problem": "11 11 5 4 3 2 1\n2 4 0 5 1 5 3 1 9 1 4\n5 0 4 1 5 3 2 4 2 6 3\n- - - - - - m - - - -\n- - - - - - - - - - -\n- - - - - x - - - - -\n- - - - - - - - - - -\nx - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - m - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - - w m m m e - \n- - - - - - - - - - - \no - - o - - o - n - - \n- - - - - - - - m - - \n- n - n - w e - m - - \n- m - s - - - - s - - \n- s - - - - - - - - o \n- - - w m e - - n - - \n- - - - - - - - m - n \nw e - o - n - - m - m \n- - - - - s - - s - s",
+      "solution": "11 11 5 4 3 2 1\n- - - - - w m m m e -\n- - - - - - - - - - -\no - - o - - o - n - -\n- - - - - - - - m - -\n- n - n - w e - m - -\n- m - s - - - - s - -\n- s - - - - - - - - o\n- - - w m e - - n - -\n- - - - - - - - m - n\nw e - o - n - - m - m\n- - - - - s - - s - s",
       "source": "https://www.janko.at/Raetsel/Battleships/112.a.htm",
       "info": ""
     },
     "113_11x11": {
       "problem": "11 11 5 4 3 2 1\n5 0 4 3 5 3 4 0 4 1 6\n2 4 6 2 1 1 8 1 4 1 5\n- - - - - - - - - - -\n- - x - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\nn - - - - - - - - - -\n- - - - - - - - - - -\n- - - - x - - - - - -\n- - - - - - - - - - -\nx - - - - - - - x - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - o - - - - - - - n \n- - - - n - n - n - m \no - o - m - s - s - m \n- - - - s - - - - - s \nn - - - - - - - - - - \nm - - - - - - - - - - \nm - w e - w e - w m e \ns - - - - - - - - - - \n- - - w m e - - - - o \n- - - - - - - - o - - \n- - w m m m e - - - -",
+      "solution": "11 11 5 4 3 2 1\n- - o - - - - - - - n\n- - - - n - n - n - m\no - o - m - s - s - m\n- - - - s - - - - - s\nn - - - - - - - - - -\nm - - - - - - - - - -\nm - w e - w e - w m e\ns - - - - - - - - - -\n- - - w m e - - - - o\n- - - - - - - - o - -\n- - w m m m e - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/113.a.htm",
       "info": ""
     },
     "114_11x11": {
       "problem": "11 11 5 4 3 2 1\n3 4 2 2 5 3 5 2 2 2 5\n7 1 4 3 3 0 8 1 1 6 1\n- x - - - - - - - n -\n- - - - - - - - - - -\nw - - - - - - - - - x\n- - - - - - - - - - -\n- - - - - - - - - - s\n- - - - - - - - - - -\n- x - - m - - - - - n\n- - - - - - - - - - -\n- - - - - - - - - - -\n- m - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\no - w m m e - o - n - \n- - - - - - - - - s - \nw e - - n - n - - - - \n- - - - m - m - - - n \n- - - - s - s - - - s \n- - - - - - - - - - - \no - w m m m e - o - n \n- - - - - - - - - - s \n- n - - - - - - - - - \n- m - - - w m m e - o \n- s - - - - - - - - -",
+      "solution": "11 11 5 4 3 2 1\no - w m m e - o - n -\n- - - - - - - - - s -\nw e - - n - n - - - -\n- - - - m - m - - - n\n- - - - s - s - - - s\n- - - - - - - - - - -\no - w m m m e - o - n\n- - - - - - - - - - s\n- n - - - - - - - - -\n- m - - - w m m e - o\n- s - - - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/114.a.htm",
       "info": ""
     },
     "115_11x11": {
       "problem": "11 11 5 4 3 2 1\n5 1 6 0 9 0 5 1 5 2 1\n4 3 1 7 0 3 3 4 5 3 2\n- m - - - - - - - - -\n- - - - - - - - x - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - x - - - x - - - -\n- - - - - - - - - - -\n- - - - x - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nw m e - n - - - - - - \n- - - - m - o - - o - \n- - - - m - - - - - - \no - o - s - w e - w e \n- - - - - - - - - - - \no - - - n - - - n - - \n- - - - s - n - m - - \nn - n - - - m - m - - \ns - m - n - s - m - - \n- - m - m - - - s - - \n- - s - s - - - - - -",
+      "solution": "11 11 5 4 3 2 1\nw m e - n - - - - - -\n- - - - m - o - - o -\n- - - - m - - - - - -\no - o - s - w e - w e\n- - - - - - - - - - -\no - - - n - - - n - -\n- - - - s - n - m - -\nn - n - - - m - m - -\ns - m - n - s - m - -\n- - m - m - - - s - -\n- - s - s - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/115.a.htm",
       "info": ""
     },
     "116_11x11": {
       "problem": "11 11 5 4 3 2 1\n0 6 0 4 4 4 4 4 1 2 6\n3 2 5 0 4 3 3 5 3 3 4\n- - - - - - - e - - -\n- - - - - - - - - - -\n- - - - s - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - s -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - n - w e - - - \n- - - - m - - - - - n \n- - - - s - w m e - s \n- - - - - - - - - - - \n- o - o - n - - - n - \n- - - - - m - o - s - \n- n - n - m - - - - - \n- m - m - s - o - - n \n- m - s - - - - - - m \n- m - - - - n - - - m \n- s - - o - s - - - s",
+      "solution": "11 11 5 4 3 2 1\n- - - - n - w e - - -\n- - - - m - - - - - n\n- - - - s - w m e - s\n- - - - - - - - - - -\n- o - o - n - - - n -\n- - - - - m - o - s -\n- n - n - m - - - - -\n- m - m - s - o - - n\n- m - s - - - - - - m\n- m - - - - n - - - m\n- s - - o - s - - - s",
       "source": "https://www.janko.at/Raetsel/Battleships/116.a.htm",
       "info": ""
     },
     "117_11x11": {
       "problem": "11 11 5 4 3 2 1\n3 6 2 1 5 0 7 0 6 1 4\n2 3 5 3 3 5 2 3 2 2 5\n- - - - n - - - - - -\n- - - - - - x - - - -\nw - - - - - - - - - -\n- - - - - - - - - - m\n- - - - - - - - - - -\n- e - x - - - - - - -\n- - - - - - - - - - -\n- - - - - - x - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - m - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- o - - n - - - - - - \n- - - - s - - - o - n \nw m e - - - n - - - m \n- - - - - - m - n - m \n- - - - - - m - m - s \nw e - - n - m - s - - \n- - - - m - s - - - - \n- n - - s - - - o - - \n- s - - - - o - - - - \n- - - - - - - - w e - \nw m m e - - o - - - -",
+      "solution": "11 11 5 4 3 2 1\n- o - - n - - - - - -\n- - - - s - - - o - n\nw m e - - - n - - - m\n- - - - - - m - n - m\n- - - - - - m - m - s\nw e - - n - m - s - -\n- - - - m - s - - - -\n- n - - s - - - o - -\n- s - - - - o - - - -\n- - - - - - - - w e -\nw m m e - - o - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/117.a.htm",
       "info": ""
     },
     "118_11x11": {
       "problem": "11 11 5 4 3 2 1\n6 1 1 6 3 0 8 0 6 1 3\n3 3 3 1 6 1 4 3 5 3 3\n- - - - - - x - x - -\n- - - m - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - w - - - - - - -\n- - - - - - - - - - -\n- - - x - - - - - - -\n- - - - - - - - - - -\n- w - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nn - - n - - - - - - o \nm - - m - - n - - - - \ns - - s - - m - - - - \n- - - - - - m - - - - \nn - - w e - s - w e - \nm - - - - - - - - - - \ns - - - o - n - n - - \n- - - - - - s - m - o \n- w m m e - - - m - - \n- - - - - - n - m - o \n- - - o - - s - s - -",
+      "solution": "11 11 5 4 3 2 1\nn - - n - - - - - - o\nm - - m - - n - - - -\ns - - s - - m - - - -\n- - - - - - m - - - -\nn - - w e - s - w e -\nm - - - - - - - - - -\ns - - - o - n - n - -\n- - - - - - s - m - o\n- w m m e - - - m - -\n- - - - - - n - m - o\n- - - o - - s - s - -",
       "source": "https://www.janko.at/Raetsel/Battleships/118.a.htm",
       "info": ""
     },
     "119_11x11": {
       "problem": "11 11 5 4 3 2 1\n7 1 7 1 3 3 2 4 1 6 0\n5 2 1 4 4 4 2 6 0 2 5\n- m - - - - - - - - -\n- - - - - - x - w - -\n- - n - - - - - - - -\n- - - - - x - - - - -\n- - x - - - - - - - -\n- - - - - x - - - - -\n- - - - - - - - - - -\nx - - - - - - - - - -\n- - - - - - - - - - -\n- - x - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nw m m m e - - - - - - \n- - - - - - - - w e - \n- - n - - - - - - - - \nn - s - - - - o - n - \nm - - - w e - - - m - \nm - n - - - - o - s - \ns - m - - - - - - - - \n- - s - w m m e - o - \n- - - - - - - - - - - \nn - - - - - - - - o - \ns - o - - w m e - - -",
+      "solution": "11 11 5 4 3 2 1\nw m m m e - - - - - -\n- - - - - - - - w e -\n- - n - - - - - - - -\nn - s - - - - o - n -\nm - - - w e - - - m -\nm - n - - - - o - s -\ns - m - - - - - - - -\n- - s - w m m e - o -\n- - - - - - - - - - -\nn - - - - - - - - o -\ns - o - - w m e - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/119.a.htm",
       "info": ""
     },
@@ -545,481 +545,481 @@
     },
     "121_11x11": {
       "problem": "11 11 5 4 3 2 1\n1 6 1 8 0 5 2 3 3 3 3\n3 6 1 1 5 3 1 6 2 3 4\nx - - n - - - - - - -\n- - - - - x - x - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- x - - - - - - - - -\n- - - s - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - e - -\n- - - - - - - - - - -\n- - - - - - - - - - -\nw - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- n - n - - n - - - - \n- m - s - - s - w m e \n- s - - - - - - - - - \n- - - n - - - - - - - \n- - - m - - - w m m e \n- o - s - n - - - - - \n- - - - - m - - - - - \n- o - n - m - w e - o \n- - - s - m - - - - - \n- - - - - s - o - o - \nw m m e - - - - - - -",
+      "solution": "11 11 5 4 3 2 1\n- n - n - - n - - - -\n- m - s - - s - w m e\n- s - - - - - - - - -\n- - - n - - - - - - -\n- - - m - - - w m m e\n- o - s - n - - - - -\n- - - - - m - - - - -\n- o - n - m - w e - o\n- - - s - m - - - - -\n- - - - - s - o - o -\nw m m e - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/121.a.htm",
       "info": ""
     },
     "122_11x11": {
       "problem": "11 11 5 4 3 2 1\n2 3 4 3 3 3 2 4 3 1 7\n1 6 1 4 4 3 2 1 7 0 6\n- - - - - - - - - - x\nw - - - x - - - - - -\n- - - - - - - - - - -\n- w - - - - - x - - -\n- - - - w - - - - - m\nx - x - - - - - - - -\n- - - - - - e - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - - - - n - - - \nw m m e - - - s - - n \n- - - - - - - - - - m \n- w e - - - - - o - m \n- - - - w m e - - - m \n- o - - - - - - o - s \n- - - - - w e - - - - \n- - - - - - - - - - n \no - w m m e - o - - s \n- - - - - - - - - - - \n- - w m e - - w m e -",
+      "solution": "11 11 5 4 3 2 1\n- - - - - - - n - - -\nw m m e - - - s - - n\n- - - - - - - - - - m\n- w e - - - - - o - m\n- - - - w m e - - - m\n- o - - - - - - o - s\n- - - - - w e - - - -\n- - - - - - - - - - n\no - w m m e - o - - s\n- - - - - - - - - - -\n- - w m e - - w m e -",
       "source": "https://www.janko.at/Raetsel/Battleships/122.a.htm",
       "info": ""
     },
     "123_11x11": {
       "problem": "11 11 5 4 3 2 1\n3 5 1 3 1 8 1 4 2 3 4\n6 1 4 2 1 2 6 1 5 1 6\n- x - - - w - - - - n\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\nn - - - - - - - - - -\n- - - e - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - x -\n- - - - - - - - - - -\n- - - - - - - w - - -",
-      "solution": "11 11 5 4 3 2 1\no - - - - w m m e - n \n- - - - - - - - - - m \n- n - o - n - - - - s \n- s - - - m - - - - - \n- - - - - m - - - - - \nn - - - - m - - - - - \ns - w e - s - o - n - \n- - - - - - - - - s - \n- n - w m e - o - - - \n- m - - - - - - - - - \n- s - - - o - w m m e",
+      "solution": "11 11 5 4 3 2 1\no - - - - w m m e - n\n- - - - - - - - - - m\n- n - o - n - - - - s\n- s - - - m - - - - -\n- - - - - m - - - - -\nn - - - - m - - - - -\ns - w e - s - o - n -\n- - - - - - - - - s -\n- n - w m e - o - - -\n- m - - - - - - - - -\n- s - - - o - w m m e",
       "source": "https://www.janko.at/Raetsel/Battleships/123.a.htm",
       "info": ""
     },
     "124_11x11": {
       "problem": "11 11 5 4 3 2 1\n5 0 1 7 2 3 5 3 3 1 5\n3 3 2 5 0 7 1 8 1 4 1\n- - - x - w - - - - -\no - - - - - - - - - x\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - e - - - - - -\n- - - - - - - - - - -\n- - - - - w - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - - w e - - - o \no - - n - - - - o - - \n- - - m - - - - - - n \n- - - s - - w m e - s \n- - - - - - - - - - - \nn - - w m m m e - - o \nm - - - - - - - - - - \nm - w m e - w m m e - \ns - - - - - - - - - - \n- - - n - w e - - - o \n- - - s - - - - - - -",
+      "solution": "11 11 5 4 3 2 1\n- - - - - w e - - - o\no - - n - - - - o - -\n- - - m - - - - - - n\n- - - s - - w m e - s\n- - - - - - - - - - -\nn - - w m m m e - - o\nm - - - - - - - - - -\nm - w m e - w m m e -\ns - - - - - - - - - -\n- - - n - w e - - - o\n- - - s - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/124.a.htm",
       "info": ""
     },
     "125_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 3 3 7 0 0 7 0 7 0 4\n4 4 3 3 3 3 3 1 5 2 4\nx - - - - - - - x - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - x - x - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - e - - - - - - -\n- - - - - - - - - - -\nx - - - - - - - x - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- o - n - - n - - - n \n- - - m - - m - o - s \nn - - m - - s - - - - \nm - - m - - - - - - o \nm - - s - - - - n - - \ns - - - - - o - m - - \n- - w e - - - - m - - \n- - - - - - - - s - - \n- w m e - - n - - - o \n- - - - - - m - n - - \n- w e - - - s - s - -",
+      "solution": "11 11 5 4 3 2 1\n- o - n - - n - - - n\n- - - m - - m - o - s\nn - - m - - s - - - -\nm - - m - - - - - - o\nm - - s - - - - n - -\ns - - - - - o - m - -\n- - w e - - - - m - -\n- - - - - - - - s - -\n- w m e - - n - - - o\n- - - - - - m - n - -\n- w e - - - s - s - -",
       "source": "https://www.janko.at/Raetsel/Battleships/125.a.htm",
       "info": ""
     },
     "126_11x11": {
       "problem": "11 11 5 4 3 2 1\n3 5 1 5 0 6 1 5 2 6 1\n2 3 5 1 8 1 1 5 2 5 2\n- - - - - n - x - - -\nn - - - - - - - - x -\n- - - - - - - - m - -\n- - - - - - - - - - -\nw - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - x - - - e\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - - n - - - o - \nn - o - - m - - - - - \ns - - - - s - w m e - \n- - - n - - - - - - - \nw e - m - w m m m e - \n- - - m - - - - - - - \n- - - s - - - - - - - \n- n - - - o - n - w e \n- m - - - - - m - - - \n- m - o - o - s - n - \n- s - - - - - - - s -",
+      "solution": "11 11 5 4 3 2 1\n- - - - - n - - - o -\nn - o - - m - - - - -\ns - - - - s - w m e -\n- - - n - - - - - - -\nw e - m - w m m m e -\n- - - m - - - - - - -\n- - - s - - - - - - -\n- n - - - o - n - w e\n- m - - - - - m - - -\n- m - o - o - s - n -\n- s - - - - - - - s -",
       "source": "https://www.janko.at/Raetsel/Battleships/126.a.htm",
       "info": ""
     },
     "127_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 2 1 2 6 2 4 2 6 2 4\n3 6 3 5 1 6 0 1 6 1 3\n- - - - - - - - - - n\n- - - - - - - - e - -\n- - - - - - - - - - -\nx - - - - - - e - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - w - - - - - - -\n- - - - - - - - - - -\n- - - - - - x - - - -",
-      "solution": "11 11 5 4 3 2 1\nn - - - n - - - - - n \nm - - - m - w m e - s \ns - o - m - - - - - - \n- - - - m - w e - w e \n- - - - s - - - - - - \nw e - - - - o - w m e \n- - - - - - - - - - - \n- - - - - - - - n - - \n- o - w m m e - m - - \n- - - - - - - - m - - \n- - - o - o - - s - -",
+      "solution": "11 11 5 4 3 2 1\nn - - - n - - - - - n\nm - - - m - w m e - s\ns - o - m - - - - - -\n- - - - m - w e - w e\n- - - - s - - - - - -\nw e - - - - o - w m e\n- - - - - - - - - - -\n- - - - - - - - n - -\n- o - w m m e - m - -\n- - - - - - - - m - -\n- - - o - o - - s - -",
       "source": "https://www.janko.at/Raetsel/Battleships/127.a.htm",
       "info": ""
     },
     "128_11x11": {
       "problem": "11 11 5 4 3 2 1\n1 3 5 4 4 2 3 5 2 2 4\n4 4 1 6 1 6 1 5 0 6 1\n- - m - - - - - - - -\n- - - - - - - x - - -\n- - x - - - - - - - -\n- - - - - - - - - w -\n- - - - - - - n - - -\n- - - e - - - - - - -\n- - - - - - - - - - -\n- - x - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- w m m e - - - - - - \n- - - - - - n - w m e \n- - - - - - s - - - - \no - w m e - - - - w e \n- - - - - - - n - - - \n- w m e - o - m - - o \n- - - - - - - m - - - \n- o - w e - - s - - o \n- - - - - - - - - - - \n- - n - w m m m e - - \n- - s - - - - - - - -",
+      "solution": "11 11 5 4 3 2 1\n- w m m e - - - - - -\n- - - - - - n - w m e\n- - - - - - s - - - -\no - w m e - - - - w e\n- - - - - - - n - - -\n- w m e - o - m - - o\n- - - - - - - m - - -\n- o - w e - - s - - o\n- - - - - - - - - - -\n- - n - w m m m e - -\n- - s - - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/128.a.htm",
       "info": ""
     },
     "129_11x11": {
       "problem": "11 11 5 4 3 2 1\n5 2 1 7 1 5 1 4 2 3 4\n1 4 2 2 4 5 3 3 3 0 8\n- - - - - - - - - - -\n- - w - x - - - - - -\nx - - - - - - - - - -\n- - - - - - - - - - m\n- - - - - - - x - - -\n- - - - - m - - - - -\n- - - s - - - - - - -\n- - - - - - - - - - -\n- - - - - - - x - - -\n- - - - - - - - - - -\nw - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - - - - - - o - \n- - w e - o - n - - - \n- - - - - - - s - - n \n- - - n - - - - - - m \nn - - m - n - - - - m \nm - - m - m - - o - s \ns - - s - s - - - - - \n- - - - - - - w m e - \nw e - o - - - - - - - \n- - - - - - - - - - - \nw e - w m m m e - o -",
+      "solution": "11 11 5 4 3 2 1\n- - - - - - - - - o -\n- - w e - o - n - - -\n- - - - - - - s - - n\n- - - n - - - - - - m\nn - - m - n - - - - m\nm - - m - m - - o - s\ns - - s - s - - - - -\n- - - - - - - w m e -\nw e - o - - - - - - -\n- - - - - - - - - - -\nw e - w m m m e - o -",
       "source": "https://www.janko.at/Raetsel/Battleships/129.a.htm",
       "info": ""
     },
     "130_11x11": {
       "problem": "11 11 5 4 3 2 1\n3 5 4 1 5 0 7 1 3 4 2\n1 4 1 5 4 1 7 1 5 1 5\n- - - - n - - - - - -\n- - e - - - n - - - -\n- - - - - - - - - - -\nx - - - - - - - - - e\n- - - x - - - - - - -\n- - - - - - - - - - -\n- - - - - - n - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - e -",
-      "solution": "11 11 5 4 3 2 1\n- - - - n - - - - - - \n- w e - s - n - - - - \n- - - - - - m - - - - \n- - - - o - m - w m e \nw m e - - - s - - - - \n- - - - - - - - - n - \nw m m m e - n - - s - \n- - - - - - s - - - - \nw m e - - - - - o - o \n- - - - o - - - - - - \n- o - - - - w m m e -",
+      "solution": "11 11 5 4 3 2 1\n- - - - n - - - - - -\n- w e - s - n - - - -\n- - - - - - m - - - -\n- - - - o - m - w m e\nw m e - - - s - - - -\n- - - - - - - - - n -\nw m m m e - n - - s -\n- - - - - - s - - - -\nw m e - - - - - o - o\n- - - - o - - - - - -\n- o - - - - w m m e -",
       "source": "https://www.janko.at/Raetsel/Battleships/130.a.htm",
       "info": ""
     },
     "131_11x11": {
       "problem": "11 11 5 4 3 2 1\n3 4 4 2 3 2 2 2 6 2 5\n1 6 0 7 1 4 1 7 2 5 1\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\nw - - - x - - - x - -\n- - - - - - - - - - -\n- - - - - - - - - - e\n- - n - - - - - - - -\n- - - - - - e - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - - - - - n - - \nw m m m e - - - s - - \n- - - - - - - - - - - \nw m m e - - - o - w e \n- - - - - o - - - - - \n- - - - - - - w m m e \n- - n - - - - - - - - \no - s - w m e - n - n \n- - - - - - - - m - m \n- n - - o - o - s - s \n- s - - - - - - - - -",
+      "solution": "11 11 5 4 3 2 1\n- - - - - - - - n - -\nw m m m e - - - s - -\n- - - - - - - - - - -\nw m m e - - - o - w e\n- - - - - o - - - - -\n- - - - - - - w m m e\n- - n - - - - - - - -\no - s - w m e - n - n\n- - - - - - - - m - m\n- n - - o - o - s - s\n- s - - - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/131.a.htm",
       "info": ""
     },
     "132_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 0 2 3 5 2 1 8 2 1 7\n4 4 2 3 3 3 6 1 5 3 1\n- - - - x - - - e - x\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - s\n- - - - - - - - - - -\n- - - - - - - - m - -\n- - - - - - - - - - -\n- - w - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - n - n - w e - - \no - - s - s - - - - n \n- - - - - - - n - - m \n- - - - n - - m - - m \n- - - - m - - s - - s \no - o - m - - - - - - \n- - - - s - w m m m e \no - - - - - - - - - - \n- - w m e - - n - - n \no - - - - - - m - - s \n- - - - - - - s - - -",
+      "solution": "11 11 5 4 3 2 1\n- - - n - n - w e - -\no - - s - s - - - - n\n- - - - - - - n - - m\n- - - - n - - m - - m\n- - - - m - - s - - s\no - o - m - - - - - -\n- - - - s - w m m m e\no - - - - - - - - - -\n- - w m e - - n - - n\no - - - - - - m - - s\n- - - - - - - s - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/132.a.htm",
       "info": ""
     },
     "133_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 3 4 4 4 2 3 4 1 6 0\n2 1 6 1 5 1 6 2 4 1 6\n- - - x - - - - - - -\nx - - - - - - - - - -\n- - - - x - - - - - -\n- - - - - - - - - s -\n- - x - - - m - - - -\n- - - - - - - - - - -\nx - - x - - - - - - -\n- - - - - - - - x - -\n- m - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\no - - - o - - - - - - \n- - - - - - - - - n - \nw m m e - - - o - m - \n- - - - - - - - - s - \n- - - w m m m e - - - \n- - - - - - - - - n - \n- w e - w e - n - m - \n- - - - - - - s - s - \nw m m e - - - - - - - \n- - - - - - n - - - - \no - w m e - s - o - -",
+      "solution": "11 11 5 4 3 2 1\no - - - o - - - - - -\n- - - - - - - - - n -\nw m m e - - - o - m -\n- - - - - - - - - s -\n- - - w m m m e - - -\n- - - - - - - - - n -\n- w e - w e - n - m -\n- - - - - - - s - s -\nw m m e - - - - - - -\n- - - - - - n - - - -\no - w m e - s - o - -",
       "source": "https://www.janko.at/Raetsel/Battleships/133.a.htm",
       "info": ""
     },
     "134_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 0 9 0 4 3 4 3 1 7 0\n1 6 2 2 6 0 3 2 5 4 4\n- - x - - - - - - - -\n- - - - - - - n - - -\n- - - - - - - - - x -\n- - - - - - - - - - -\n- - - - x - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - m - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - - - - - - n - \no - n - w e - n - s - \n- - m - - - - s - - - \n- - m - - n - - - - - \no - s - - s - w m e - \n- - - - - - - - - - - \n- - n - - - n - - o - \n- - m - - - m - - - - \no - m - n - m - - n - \n- - m - m - s - - m - \no - s - s - - - - s -",
+      "solution": "11 11 5 4 3 2 1\n- - - - - - - - - n -\no - n - w e - n - s -\n- - m - - - - s - - -\n- - m - - n - - - - -\no - s - - s - w m e -\n- - - - - - - - - - -\n- - n - - - n - - o -\n- - m - - - m - - - -\no - m - n - m - - n -\n- - m - m - s - - m -\no - s - s - - - - s -",
       "source": "https://www.janko.at/Raetsel/Battleships/134.a.htm",
       "info": ""
     },
     "135_11x11": {
       "problem": "11 11 5 4 3 2 1\n1 7 1 0 5 1 5 0 7 0 8\n1 4 3 2 4 4 2 4 5 3 3\n- n - - - - - - - - -\n- - - - x - - - x - -\n- - - - - - - - - - -\n- - - - - - - - x - -\n- - - - - - - - - - x\n- - - - - - - - - - -\n- x - - - - n - - - -\n- - - - s - - - - - -\n- m - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- n - - - - - - - - - \n- m - - - w e - - - n \n- s - - - - - - o - m \n- - - - n - - - - - s \n- n - - m - o - n - - \n- s - - m - - - s - o \n- - - - m - n - - - - \n- - - - s - s - n - n \nw m e - - - - - m - m \n- - - - - - o - m - m \n- o - - - - - - s - s",
+      "solution": "11 11 5 4 3 2 1\n- n - - - - - - - - -\n- m - - - w e - - - n\n- s - - - - - - o - m\n- - - - n - - - - - s\n- n - - m - o - n - -\n- s - - m - - - s - o\n- - - - m - n - - - -\n- - - - s - s - n - n\nw m e - - - - - m - m\n- - - - - - o - m - m\n- o - - - - - - s - s",
       "source": "https://www.janko.at/Raetsel/Battleships/135.a.htm",
       "info": ""
     },
     "136_11x11": {
       "problem": "11 11 5 4 3 2 1\n7 0 3 3 2 3 1 4 4 2 6\n3 4 2 4 4 3 5 1 3 5 1\nn - - x - - - - - x -\n- - - - - - - - - - -\n- - - - - - - m - - -\n- - n - - - - - - - n\n- - - - x - - - - - -\n- - - - - - - - - - -\n- - - n - - - x - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nn - - - o - - n - - - \nm - - - - - - m - w e \nm - - - - - - m - - - \nm - n - - - - s - - n \ns - s - - n - - - - m \n- - - - - m - - n - m \no - - n - s - - s - s \n- - - s - - - - - - - \n- - - - - - - - w m e \no - w m e - o - - - - \n- - - - - - - - o - -",
+      "solution": "11 11 5 4 3 2 1\nn - - - o - - n - - -\nm - - - - - - m - w e\nm - - - - - - m - - -\nm - n - - - - s - - n\ns - s - - n - - - - m\n- - - - - m - - n - m\no - - n - s - - s - s\n- - - s - - - - - - -\n- - - - - - - - w m e\no - w m e - o - - - -\n- - - - - - - - o - -",
       "source": "https://www.janko.at/Raetsel/Battleships/136.a.htm",
       "info": ""
     },
     "137_11x11": {
       "problem": "11 11 5 4 3 2 1\n1 4 2 3 2 2 7 0 9 0 5\n1 6 3 5 1 2 3 3 3 2 6\n- - - - - - - - - - -\nw - - - - - - - - - x\n- - - - - - - - - - -\n- x - x - - - - - - -\n- - - - - - - - - - -\n- n - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - e - n - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - - - - - n - - \nw m m e - - n - m - - \n- - - - - - m - m - n \n- - o - o - s - m - s \n- - - - - - - - s - - \n- n - - - - n - - - - \n- m - - - - s - o - - \n- s - o - - - - - - o \n- - - - - w e - n - - \n- - - - - - - - m - n \n- - - w m m e - s - s",
+      "solution": "11 11 5 4 3 2 1\n- - - - - - - - n - -\nw m m e - - n - m - -\n- - - - - - m - m - n\n- - o - o - s - m - s\n- - - - - - - - s - -\n- n - - - - n - - - -\n- m - - - - s - o - -\n- s - o - - - - - - o\n- - - - - w e - n - -\n- - - - - - - - m - n\n- - - w m m e - s - s",
       "source": "https://www.janko.at/Raetsel/Battleships/137.a.htm",
       "info": ""
     },
     "138_11x11": {
       "problem": "11 11 5 4 3 2 1\n1 2 5 3 1 7 1 3 5 0 7\n8 1 3 3 1 5 2 1 5 4 2\nw - - x - - e - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - x - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - e - -\n- - - m - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nw m e - w m e - o - n \n- - - - - - - - - - m \n- - - - - o - - n - m \n- - n - - - - - s - s \n- - m - - - - - - - - \n- - m - - n - w e - o \n- - s - - m - - - - - \n- - - - - m - - - - - \n- - - n - m - w e - n \n- o - m - s - - - - s \n- - - s - - - o - - -",
+      "solution": "11 11 5 4 3 2 1\nw m e - w m e - o - n\n- - - - - - - - - - m\n- - - - - o - - n - m\n- - n - - - - - s - s\n- - m - - - - - - - -\n- - m - - n - w e - o\n- - s - - m - - - - -\n- - - - - m - - - - -\n- - - n - m - w e - n\n- o - m - s - - - - s\n- - - s - - - o - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/138.a.htm",
       "info": ""
     },
     "139_11x11": {
       "problem": "11 11 5 4 3 2 1\n2 1 8 0 5 1 3 6 3 4 2\n2 5 1 4 4 3 5 0 5 1 5\n- - - - - - - - n - x\n- - - - - w - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - n - - - - - -\n- - - - - - - - - s -\nw - - - - - - - - - -\n- - - - - - - - - - -\n- - x - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - n - - - - - n - - \n- - m - - w e - s - o \n- - m - - - - - - - - \no - m - - - - n - n - \n- - s - n - - m - m - \n- - - - m - - m - s - \nw m e - s - - s - - - \n- - - - - - - - - - - \n- - - - o - w m m e - \n- - n - - - - - - - - \n- - s - o - w e - - o",
+      "solution": "11 11 5 4 3 2 1\n- - n - - - - - n - -\n- - m - - w e - s - o\n- - m - - - - - - - -\no - m - - - - n - n -\n- - s - n - - m - m -\n- - - - m - - m - s -\nw m e - s - - s - - -\n- - - - - - - - - - -\n- - - - o - w m m e -\n- - n - - - - - - - -\n- - s - o - w e - - o",
       "source": "https://www.janko.at/Raetsel/Battleships/139.a.htm",
       "info": ""
     },
     "140_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 3 2 4 4 4 0 4 3 3 4\n6 1 3 3 1 5 0 9 0 1 6\nx - x - - e - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - m\n- - - - w - - - - - -\n- - - - - - - - - - -\n- - - w - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - s - - -",
-      "solution": "11 11 5 4 3 2 1\n- o - w m e - w e - - \n- - - - - - - - - - n \no - - - - - - - o - m \n- - - - w e - - - - s \nn - - - - - - - - - - \ns - - w m e - - - o - \n- - - - - - - - - - - \n- w m m m e - w m m e \n- - - - - - - - - - - \n- - - - - - - n - - - \nw m m e - - - s - o -",
+      "solution": "11 11 5 4 3 2 1\n- o - w m e - w e - -\n- - - - - - - - - - n\no - - - - - - - o - m\n- - - - w e - - - - s\nn - - - - - - - - - -\ns - - w m e - - - o -\n- - - - - - - - - - -\n- w m m m e - w m m e\n- - - - - - - - - - -\n- - - - - - - n - - -\nw m m e - - - s - o -",
       "source": "https://www.janko.at/Raetsel/Battleships/140.a.htm",
       "info": ""
     },
     "141_11x11": {
       "problem": "11 11 5 4 3 2 1\n1 6 0 8 0 4 1 6 1 0 8\n4 3 3 4 3 4 2 3 3 5 1\n- - - - - - w - x - x\n- - - - - - - - - - -\n- - - - - - - - - - x\n- - - s - - - x - - -\n- s - - - - - - - - -\n- - - - - - - - - - -\n- - - x - - - - - - s\nw - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- n - n - - w e - - - \n- m - m - - - - - - o \n- m - m - - - o - - - \n- m - s - o - - - - n \n- s - - - - - n - - m \n- - - o - o - m - - m \n- - - - - - - s - - s \nw e - n - - - - - - - \n- - - m - n - - - - n \n- - - s - s - w e - m \n- - - - - - - - - - s",
+      "solution": "11 11 5 4 3 2 1\n- n - n - - w e - - -\n- m - m - - - - - - o\n- m - m - - - o - - -\n- m - s - o - - - - n\n- s - - - - - n - - m\n- - - o - o - m - - m\n- - - - - - - s - - s\nw e - n - - - - - - -\n- - - m - n - - - - n\n- - - s - s - w e - m\n- - - - - - - - - - s",
       "source": "https://www.janko.at/Raetsel/Battleships/141.a.htm",
       "info": ""
     },
     "142_11x11": {
       "problem": "11 11 5 4 3 2 1\n3 0 7 1 3 5 2 3 4 1 6\n2 4 6 3 2 2 7 2 3 1 3\n- - - - - x - - n - -\n- - - - - - - - - - -\n- - - - w - - - - - -\n- - - - - - - - - - s\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - e - - - n - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - n - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - n - - - - - n - - \no - m - - - - - m - n \n- - m - w m e - m - m \n- - m - - - - - s - s \n- - s - - n - - - - - \nn - - - - m - - - - - \ns - w e - m - n - w e \n- - - - - s - m - - - \n- - o - - - - s - - o \n- - - - n - - - - - - \n- - - - s - o - - - o",
+      "solution": "11 11 5 4 3 2 1\n- - n - - - - - n - -\no - m - - - - - m - n\n- - m - w m e - m - m\n- - m - - - - - s - s\n- - s - - n - - - - -\nn - - - - m - - - - -\ns - w e - m - n - w e\n- - - - - s - m - - -\n- - o - - - - s - - o\n- - - - n - - - - - -\n- - - - s - o - - - o",
       "source": "https://www.janko.at/Raetsel/Battleships/142.a.htm",
       "info": ""
     },
     "143_11x11": {
       "problem": "11 11 5 4 3 2 1\n0 8 1 6 1 6 2 2 4 3 2\n3 5 2 4 1 2 5 3 4 0 6\n- - - x - - - - x - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - s - - x - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- n - - - - - - x - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - w - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- n - - - n - - - n - \n- m - o - m - o - s - \n- m - - - m - - - - - \n- m - - - s - - - w e \n- s - - - - - - - - - \n- - - n - - - - o - - \n- n - m - w e - - - o \n- m - m - - - - n - - \n- s - s - o - - s - - \n- - - - - - - - - - - \n- - w m e - w m e - -",
+      "solution": "11 11 5 4 3 2 1\n- n - - - n - - - n -\n- m - o - m - o - s -\n- m - - - m - - - - -\n- m - - - s - - - w e\n- s - - - - - - - - -\n- - - n - - - - o - -\n- n - m - w e - - - o\n- m - m - - - - n - -\n- s - s - o - - s - -\n- - - - - - - - - - -\n- - w m e - w m e - -",
       "source": "https://www.janko.at/Raetsel/Battleships/143.a.htm",
       "info": ""
     },
     "144_11x11": {
       "problem": "11 11 5 4 3 2 1\n6 1 8 1 3 4 2 1 5 3 1\n5 1 4 3 2 0 6 2 4 1 7\n- - - - x - - - - - -\nm - - - - - - - - - -\n- - - - w - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - e\nx - - - - - - - - - -\n- - - - - - - - n - -\n- - - - - - - - - - -\n- - - e - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nn - o - - o - - w e - \nm - - - - - - - - - - \nm - n - w e - - - - - \ns - m - - - - - - o - \n- - s - - o - - - - - \n- - - - - - - - - - - \n- - n - - - w m m m e \n- - m - n - - - - - - \no - s - s - - - n - - \n- - - - - - - - m - - \nw m m e - w e - s - -",
+      "solution": "11 11 5 4 3 2 1\nn - o - - o - - w e -\nm - - - - - - - - - -\nm - n - w e - - - - -\ns - m - - - - - - o -\n- - s - - o - - - - -\n- - - - - - - - - - -\n- - n - - - w m m m e\n- - m - n - - - - - -\no - s - s - - - n - -\n- - - - - - - - m - -\nw m m e - w e - s - -",
       "source": "https://www.janko.at/Raetsel/Battleships/144.a.htm",
       "info": ""
     },
     "145_11x11": {
       "problem": "11 11 5 4 3 2 1\n1 5 3 2 2 5 2 6 3 0 6\n3 3 3 4 1 7 0 1 6 2 5\n- - - - - - - - - - n\n- - - - - - - x - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - w - - - - -\n- - - - - - - - - - -\n- - - - n - - - - - -\nx - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - - n - o - - n \n- n - - - m - - - - s \n- m - - - m - n - - - \n- m - o - s - s - - - \n- m - - - - - - - - - \n- s - o - w m m e - o \n- - - - - - - - - - - \n- - - - n - - - - - - \n- - n - s - w m e - n \n- - m - - - - - - - m \no - s - - - - w e - s",
+      "solution": "11 11 5 4 3 2 1\n- - - - - n - o - - n\n- n - - - m - - - - s\n- m - - - m - n - - -\n- m - o - s - s - - -\n- m - - - - - - - - -\n- s - o - w m m e - o\n- - - - - - - - - - -\n- - - - n - - - - - -\n- - n - s - w m e - n\n- - m - - - - - - - m\no - s - - - - w e - s",
       "source": "https://www.janko.at/Raetsel/Battleships/145.a.htm",
       "info": ""
     },
     "146_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 5 1 5 0 8 0 4 2 0 6\n5 2 6 1 2 2 2 5 4 3 3\n- - - - - - - - - - x\n- m - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - s\n- - - - - x - - - - -\n- s - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - n\n- - - s - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- n - o - n - w e - - \n- m - - - m - - - - - \n- s - o - s - w e - n \n- - - - - - - - - - s \n- n - - - - - o - - - \n- s - - - n - - - - - \n- - - n - m - - - - - \nn - - m - m - o - - n \nm - - s - m - - - - m \nm - - - - s - - - - m \ns - o - - - - - - - s",
+      "solution": "11 11 5 4 3 2 1\n- n - o - n - w e - -\n- m - - - m - - - - -\n- s - o - s - w e - n\n- - - - - - - - - - s\n- n - - - - - o - - -\n- s - - - n - - - - -\n- - - n - m - - - - -\nn - - m - m - o - - n\nm - - s - m - - - - m\nm - - - - s - - - - m\ns - o - - - - - - - s",
       "source": "https://www.janko.at/Raetsel/Battleships/146.a.htm",
       "info": ""
     },
     "147_11x11": {
       "problem": "11 11 5 4 3 2 1\n8 0 3 1 7 2 4 1 4 2 3\n5 2 1 6 3 2 3 3 1 6 3\n- - w - - - x - - - -\n- - - - - - - - x - -\n- - - - - - - - - - -\n- - - - - - - e - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\nx - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\nx - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nn - w m m e - - - - - \nm - - - - - - - - o - \nm - - - - - - - - - - \nm - - - w m m e - - n \ns - o - - - - - - - s \n- - - - n - - - n - - \n- - - - m - o - m - - \nn - - - s - - - s - - \ns - - - - - - - - - - \n- - o - n - n - w m e \no - - - s - s - - - -",
+      "solution": "11 11 5 4 3 2 1\nn - w m m e - - - - -\nm - - - - - - - - o -\nm - - - - - - - - - -\nm - - - w m m e - - n\ns - o - - - - - - - s\n- - - - n - - - n - -\n- - - - m - o - m - -\nn - - - s - - - s - -\ns - - - - - - - - - -\n- - o - n - n - w m e\no - - - s - s - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/147.a.htm",
       "info": ""
     },
     "148_11x11": {
       "problem": "11 11 5 4 3 2 1\n1 5 2 3 5 3 3 5 1 2 5\n6 0 4 3 3 3 3 4 0 9 0\n- w - - x - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- x - - - - - - - - -\n- - - - x - - - - - -\n- - - - - - - s - - -\n- - - - - - - - - - e\n- - - w - - - - - - -\n- - - - - - - - - - -\n- - - m - - - m - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- w m e - w e - - o - \n- - - - - - - - - - - \n- o - - n - - n - - n \n- - - - s - - m - - m \n- o - - - - - m - - s \n- - - - w e - s - - - \n- o - - - - - - - w e \n- - - w m m e - - - - \n- - - - - - - - - - - \nw m m m e - w m e - o \n- - - - - - - - - - -",
+      "solution": "11 11 5 4 3 2 1\n- w m e - w e - - o -\n- - - - - - - - - - -\n- o - - n - - n - - n\n- - - - s - - m - - m\n- o - - - - - m - - s\n- - - - w e - s - - -\n- o - - - - - - - w e\n- - - w m m e - - - -\n- - - - - - - - - - -\nw m m m e - w m e - o\n- - - - - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/148.a.htm",
       "info": ""
     },
     "149_11x11": {
       "problem": "11 11 5 4 3 2 1\n5 0 6 1 2 3 4 0 7 0 7\n6 3 4 3 1 4 4 4 1 3 2\nx - - - - - - - - - -\n- - - - - - - - x - -\n- - - - - x - - - - x\n- - - - - - - - - - -\n- - - - - - - - m - -\n- - - - - - x - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - w - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - n - w m e - o - n \nn - m - - - - - - - s \ns - m - - - n - n - - \n- - s - - - s - m - - \n- - - - - - - - m - - \nn - - - - o - - m - n \nm - n - - - - - s - m \ns - s - - - o - - - m \n- - - - - - - - - - s \n- - - w m e - - - - - \n- - - - - - - - o - o",
+      "solution": "11 11 5 4 3 2 1\n- - n - w m e - o - n\nn - m - - - - - - - s\ns - m - - - n - n - -\n- - s - - - s - m - -\n- - - - - - - - m - -\nn - - - - o - - m - n\nm - n - - - - - s - m\ns - s - - - o - - - m\n- - - - - - - - - - s\n- - - w m e - - - - -\n- - - - - - - - o - o",
       "source": "https://www.janko.at/Raetsel/Battleships/149.a.htm",
       "info": ""
     },
     "150_11x11": {
       "problem": "11 11 5 4 3 2 1\n6 0 2 7 2 3 0 8 0 2 5\n5 2 4 1 5 3 2 2 5 2 4\n- - - - - - - x - - -\n- - - - - - - - - n -\n- - - - - - - - - - -\n- - - m - - - - - - -\n- - - - - - - - - - -\nx - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\ns - - - - - - - - - s\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\no - w m m e - - - - - \n- - - - - - - n - n - \no - - n - - - s - s - \n- - - m - - - - - - - \no - - m - o - n - - n \n- - - s - - - m - - m \n- - - - - - - m - - s \nn - - - - - - m - - - \nm - w e - - - s - - n \ns - - - - - - - - - s \n- - - w m e - o - - -",
+      "solution": "11 11 5 4 3 2 1\no - w m m e - - - - -\n- - - - - - - n - n -\no - - n - - - s - s -\n- - - m - - - - - - -\no - - m - o - n - - n\n- - - s - - - m - - m\n- - - - - - - m - - s\nn - - - - - - m - - -\nm - w e - - - s - - n\ns - - - - - - - - - s\n- - - w m e - o - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/150.a.htm",
       "info": ""
     },
     "151_8x8": {
-      "problem": "8 8 4 3 2 1 0\n4 3 2 3 1 3 0 4\n3 1 4 1 6 1 4 0\n- - - - - - - - \n- - - - - - - - \n- - x - - - - - \n- - - - - - - - \n- - - - - m - - \n- - - - - - - - \n- - - - - - - - \n- - - - - - - -",
-      "solution": "8 8 4 3 2 1 0\no - - w e - - - \n- - - - - - - n \nw e - o - - - s \n- - - - - n - - \nw m m e - m - o \n- - - - - s - - \nw m e - - - - o \n- - - - - - - -",
+      "problem": "8 8 4 3 2 1 0\n4 3 2 3 1 3 0 4\n3 1 4 1 6 1 4 0\n- - - - - - - -\n- - - - - - - -\n- - x - - - - -\n- - - - - - - -\n- - - - - m - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -",
+      "solution": "8 8 4 3 2 1 0\no - - w e - - -\n- - - - - - - n\nw e - o - - - s\n- - - - - n - -\nw m m e - m - o\n- - - - - s - -\nw m e - - - - o\n- - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/151.a.htm",
       "info": ""
     },
     "152_8x8": {
-      "problem": "8 8 4 3 2 1 0\n4 1 1 2 4 3 1 4\n2 2 1 6 1 4 0 4\n- - - - - - - - \n- - - w - - - - \n- - - - - - - - \n- - - - - - - - \n- - - - - - - - \nw - - - - - - - \n- - - - - - - - \n- - - - - - - -",
-      "solution": "8 8 4 3 2 1 0\no - - - - - - o \n- - - w e - - - \n- - - - - - - n \no - w m m e - m \n- - - - - - - s \nw e - - w e - - \n- - - - - - - - \no - - - w m e -",
+      "problem": "8 8 4 3 2 1 0\n4 1 1 2 4 3 1 4\n2 2 1 6 1 4 0 4\n- - - - - - - -\n- - - w - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\nw - - - - - - -\n- - - - - - - -\n- - - - - - - -",
+      "solution": "8 8 4 3 2 1 0\no - - - - - - o\n- - - w e - - -\n- - - - - - - n\no - w m m e - m\n- - - - - - - s\nw e - - w e - -\n- - - - - - - -\no - - - w m e -",
       "source": "https://www.janko.at/Raetsel/Battleships/152.a.htm",
       "info": ""
     },
     "153_8x8": {
-      "problem": "8 8 4 3 2 1 0\n3 3 2 1 2 3 2 4\n5 1 1 3 0 5 0 5\n- - - - - - - - \n- - - - - o - - \n- - - - - - - - \n- - - - - - - - \n- - - - - - - - \nx - - - x - - - \n- - - - - - - - \n- - - - - - - -",
-      "solution": "8 8 4 3 2 1 0\nw m m e - - - o \n- - - - - o - - \n- - - - - - - n \no - - - o - - s \n- - - - - - - - \n- w e - - w m e \n- - - - - - - - \nw e - - w m e -",
+      "problem": "8 8 4 3 2 1 0\n3 3 2 1 2 3 2 4\n5 1 1 3 0 5 0 5\n- - - - - - - -\n- - - - - o - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\nx - - - x - - -\n- - - - - - - -\n- - - - - - - -",
+      "solution": "8 8 4 3 2 1 0\nw m m e - - - o\n- - - - - o - -\n- - - - - - - n\no - - - o - - s\n- - - - - - - -\n- w e - - w m e\n- - - - - - - -\nw e - - w m e -",
       "source": "https://www.janko.at/Raetsel/Battleships/153.a.htm",
       "info": ""
     },
     "154_8x8": {
-      "problem": "8 8 4 3 2 1 0\n2 1 4 1 4 4 2 2\n3 2 0 4 0 5 1 5\n- - - - - - - o \n- - - - - x - - \n- - - - - - - - \n- - - - - - - - \n- - - - - - - - \n- - - - - - - - \nn - - - - - - - \n- - - - - - - -",
-      "solution": "8 8 4 3 2 1 0\n- - - - w e - o \n- w e - - - - - \n- - - - - - - - \n- - o - w m e - \n- - - - - - - - \n- - w m m e - o \nn - - - - - - - \ns - o - w m e -",
+      "problem": "8 8 4 3 2 1 0\n2 1 4 1 4 4 2 2\n3 2 0 4 0 5 1 5\n- - - - - - - o\n- - - - - x - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\nn - - - - - - -\n- - - - - - - -",
+      "solution": "8 8 4 3 2 1 0\n- - - - w e - o\n- w e - - - - -\n- - - - - - - -\n- - o - w m e -\n- - - - - - - -\n- - w m m e - o\nn - - - - - - -\ns - o - w m e -",
       "source": "https://www.janko.at/Raetsel/Battleships/154.a.htm",
       "info": ""
     },
     "155_8x8": {
-      "problem": "8 8 4 3 2 1 0\n3 3 3 4 0 3 1 3\n4 1 5 0 0 6 0 4\n- - - - - - - - \n- - - - - n - - \n- - x - - - - - \n- - - - - - - - \n- - - - - - - - \n- - - - - - - - \n- - - - - - - - \n- x - - - - - -",
-      "solution": "8 8 4 3 2 1 0\nw m m e - - - - \n- - - - - n - - \nw e - o - s - o \n- - - - - - - - \n- - - - - - - - \n- w m e - w m e \n- - - - - - - - \no - w e - - - o",
+      "problem": "8 8 4 3 2 1 0\n3 3 3 4 0 3 1 3\n4 1 5 0 0 6 0 4\n- - - - - - - -\n- - - - - n - -\n- - x - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- x - - - - - -",
+      "solution": "8 8 4 3 2 1 0\nw m m e - - - -\n- - - - - n - -\nw e - o - s - o\n- - - - - - - -\n- - - - - - - -\n- w m e - w m e\n- - - - - - - -\no - w e - - - o",
       "source": "https://www.janko.at/Raetsel/Battleships/155.a.htm",
       "info": ""
     },
     "156_10x10": {
-      "problem": "10 10 4 3 2 1 0\n1 1 1 2 3 3 2 6 1 0\n4 0 2 2 2 2 1 2 1 4\n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - x - - - \n- - e - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - s - - - - - \n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - o - w m e - - \n- - - - - - - - - - \n- - - - w e - - - - \n- w e - - - - - - - \n- - - - - o - n - - \n- - - o - - - m - - \n- - - - - - - m - - \n- - - - n - - s - - \n- - - - s - - - - - \no - - - - - w m e -",
+      "problem": "10 10 4 3 2 1 0\n1 1 1 2 3 3 2 6 1 0\n4 0 2 2 2 2 1 2 1 4\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - x - - -\n- - e - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - s - - - - -\n- - - - - - - - - -",
+      "solution": "10 10 4 3 2 1 0\n- - - o - w m e - -\n- - - - - - - - - -\n- - - - w e - - - -\n- w e - - - - - - -\n- - - - - o - n - -\n- - - o - - - m - -\n- - - - - - - m - -\n- - - - n - - s - -\n- - - - s - - - - -\no - - - - - w m e -",
       "source": "https://www.janko.at/Raetsel/Battleships/156.a.htm",
       "info": ""
     },
     "157_10x10": {
-      "problem": "10 10 4 3 2 1 0\n0 3 3 3 1 4 2 1 2 1\n2 3 1 3 2 0 4 0 5 0\n- x - - - - - - - - \n- - - - - - m - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- o - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - o - - - - \n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - w e - - - - - - \n- - - - - w m e - - \n- o - - - - - - - - \n- - - - - w e - n - \n- o - - - - - - s - \n- - - - - - - - - - \n- - w m m e - - - - \n- - - - - - - - - - \n- w m e - o - - - o \n- - - - - - - - - -",
+      "problem": "10 10 4 3 2 1 0\n0 3 3 3 1 4 2 1 2 1\n2 3 1 3 2 0 4 0 5 0\n- x - - - - - - - -\n- - - - - - m - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- o - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - o - - - -\n- - - - - - - - - -",
+      "solution": "10 10 4 3 2 1 0\n- - w e - - - - - -\n- - - - - w m e - -\n- o - - - - - - - -\n- - - - - w e - n -\n- o - - - - - - s -\n- - - - - - - - - -\n- - w m m e - - - -\n- - - - - - - - - -\n- w m e - o - - - o\n- - - - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/157.a.htm",
       "info": ""
     },
     "158_10x10": {
-      "problem": "10 10 4 3 2 1 0\n1 0 0 3 2 1 3 4 5 1\n0 4 1 3 0 3 0 3 1 5\n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - x - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - o - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - - \n- - - - - - w m m e \n- - - - n - - - - - \n- - - - s - - w e - \n- - - - - - - - - - \n- - - - - - w m e - \n- - - - - - - - - - \n- - - n - - o - o - \n- - - m - - - - - - \no - - s - o - w e -",
+      "problem": "10 10 4 3 2 1 0\n1 0 0 3 2 1 3 4 5 1\n0 4 1 3 0 3 0 3 1 5\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - x - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - o - - - -",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - -\n- - - - - - w m m e\n- - - - n - - - - -\n- - - - s - - w e -\n- - - - - - - - - -\n- - - - - - w m e -\n- - - - - - - - - -\n- - - n - - o - o -\n- - - m - - - - - -\no - - s - o - w e -",
       "source": "https://www.janko.at/Raetsel/Battleships/158.a.htm",
       "info": ""
     },
     "159_10x10": {
-      "problem": "10 10 4 3 2 1 0\n0 5 1 2 1 2 3 2 3 1\n1 1 4 1 2 3 3 1 0 4\n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - m - - - \n- - - - - - - - - - \n- - - - - - - w - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - o - - - - - \n- - - - - - - - - - \n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- n - - - - - - - - \n- m - - - - - - - - \n- m - - - w m e - - \n- s - - - - - - - - \n- - - - - - - w e - \n- w m e - - - - - - \n- - - - - - o - w e \n- - - - o - - - - - \n- - - - - - - - - - \n- - - o - w e - o -",
+      "problem": "10 10 4 3 2 1 0\n0 5 1 2 1 2 3 2 3 1\n1 1 4 1 2 3 3 1 0 4\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - m - - -\n- - - - - - - - - -\n- - - - - - - w - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - o - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
+      "solution": "10 10 4 3 2 1 0\n- n - - - - - - - -\n- m - - - - - - - -\n- m - - - w m e - -\n- s - - - - - - - -\n- - - - - - - w e -\n- w m e - - - - - -\n- - - - - - o - w e\n- - - - o - - - - -\n- - - - - - - - - -\n- - - o - w e - o -",
       "source": "https://www.janko.at/Raetsel/Battleships/159.a.htm",
       "info": ""
     },
     "160_10x10": {
-      "problem": "10 10 4 3 2 1 0\n4 1 4 0 0 1 2 1 5 2\n2 2 1 1 2 2 3 1 4 2\n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - x - \n- - - - - - - - - - \no - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- - - - - - - - - - \n- o - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\nn - - - - - - - n - \nm - - - - - - - s - \ns - - - - - - - - - \n- - - - - - - - o - \no - n - - - - - - - \n- - m - - - - - n - \n- - m - - - o - s - \n- - s - - - - - - - \n- - - - - w m e - n \n- o - - - - - - - s",
+      "problem": "10 10 4 3 2 1 0\n4 1 4 0 0 1 2 1 5 2\n2 2 1 1 2 2 3 1 4 2\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - x -\n- - - - - - - - - -\no - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- o - - - - - - - -",
+      "solution": "10 10 4 3 2 1 0\nn - - - - - - - n -\nm - - - - - - - s -\ns - - - - - - - - -\n- - - - - - - - o -\no - n - - - - - - -\n- - m - - - - - n -\n- - m - - - o - s -\n- - s - - - - - - -\n- - - - - w m e - n\n- o - - - - - - - s",
       "source": "https://www.janko.at/Raetsel/Battleships/160.a.htm",
       "info": ""
     },
     "161_10x10": {
       "problem": "10 10 4 3 2 1 0\n5 0 2 1 3 1 4 0 3 1\n0 4 0 2 1 3 2 3 2 3\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - w - - - -\n- - x - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - - \no - w m e - - - - - \n- - - - - - - - - - \n- - - - o - n - - - \n- - - - - - m - - - \n- - - - - - s - w e \nn - o - - - - - - - \nm - - - - w e - - - \nm - - - - - - - n - \ns - - - o - - - s -",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - -\no - w m e - - - - -\n- - - - - - - - - -\n- - - - o - n - - -\n- - - - - - m - - -\n- - - - - - s - w e\nn - o - - - - - - -\nm - - - - w e - - -\nm - - - - - - - n -\ns - - - o - - - s -",
       "source": "https://www.janko.at/Raetsel/Battleships/161.a.htm",
       "info": ""
     },
     "162_10x10": {
       "problem": "10 10 4 3 2 1 0\n1 3 1 2 1 2 3 2 1 4\n2 0 3 1 6 0 2 0 1 5\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - x - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - x -\n- - - - - - - - - -\n- - - - - - - n - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - - - - o - o - \n- - - - - - - - - - \nw e - - - - - - - n \n- - - - - - - - - m \n- o - w m m e - - s \n- - - - - - - - - - \n- - - - - w e - - - \n- - - - - - - - - - \n- - - - - - - n - - \n- w m e - - - s - o",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - o - o -\n- - - - - - - - - -\nw e - - - - - - - n\n- - - - - - - - - m\n- o - w m m e - - s\n- - - - - - - - - -\n- - - - - w e - - -\n- - - - - - - - - -\n- - - - - - - n - -\n- w m e - - - s - o",
       "source": "https://www.janko.at/Raetsel/Battleships/162.a.htm",
       "info": ""
     },
     "163_10x10": {
       "problem": "10 10 4 3 2 1 0\n3 3 3 4 0 1 3 1 0 2\n3 2 3 3 0 2 0 4 0 3\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\no - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\nw e - n - - - - - - \n- - - m - - n - - - \n- - - m - - m - - n \n- - - s - - s - - s \n- - - - - - - - - - \n- w e - - - - - - - \n- - - - - - - - - - \no - o - - o - o - - \n- - - - - - - - - - \nw m e - - - - - - -",
+      "solution": "10 10 4 3 2 1 0\nw e - n - - - - - -\n- - - m - - n - - -\n- - - m - - m - - n\n- - - s - - s - - s\n- - - - - - - - - -\n- w e - - - - - - -\n- - - - - - - - - -\no - o - - o - o - -\n- - - - - - - - - -\nw m e - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/163.a.htm",
       "info": ""
     },
     "164_10x10": {
       "problem": "10 10 4 3 2 1 0\n2 3 0 3 1 1 4 3 2 1\n2 5 1 4 0 3 1 0 4 0\n- - - - - - - - - -\n- - - - w - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\nw e - - - - - - - - \n- - - - w m m e - o \n- n - - - - - - - - \n- s - - - - w m e - \n- - - - - - - - - - \no - - n - - o - - - \n- - - s - - - - - - \n- - - - - - - - - - \n- - - o - - w m e - \n- - - - - - - - - -",
+      "solution": "10 10 4 3 2 1 0\nw e - - - - - - - -\n- - - - w m m e - o\n- n - - - - - - - -\n- s - - - - w m e -\n- - - - - - - - - -\no - - n - - o - - -\n- - - s - - - - - -\n- - - - - - - - - -\n- - - o - - w m e -\n- - - - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/164.a.htm",
       "info": ""
     },
     "165_10x10": {
       "problem": "10 10 4 3 2 1 0\n5 0 2 1 3 1 1 3 1 3\n1 1 2 4 1 2 3 1 2 3\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\nx - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - o -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - n \n- - - - - - - - - m \n- - o - - - - - - s \n- - - - w m m e - - \nn - - - - - - - - - \nm - - - - - - o - - \ns - w e - - - - - - \n- - - - - - - - o - \nn - - - n - - - - - \ns - - - s - - o - -",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - n\n- - - - - - - - - m\n- - o - - - - - - s\n- - - - w m m e - -\nn - - - - - - - - -\nm - - - - - - o - -\ns - w e - - - - - -\n- - - - - - - - o -\nn - - - n - - - - -\ns - - - s - - o - -",
       "source": "https://www.janko.at/Raetsel/Battleships/165.a.htm",
       "info": ""
     },
     "166_10x10": {
       "problem": "10 10 4 3 2 1 0\n3 1 1 0 1 2 3 4 2 3\n2 1 0 4 2 3 1 2 1 4\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - n - -\n- - - - - - - - - -\n- - - - - - - - - -\nn - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - - - - - - w e \n- - - - - - o - - - \n- - - - - - - - - - \n- - - - - - w m m e \nw e - - - - - - - - \n- - - - - o - n - o \n- - - - - - - m - - \n- - o - - - - s - - \nn - - - - - - - - - \ns - - - w m e - - -",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - - - w e\n- - - - - - o - - -\n- - - - - - - - - -\n- - - - - - w m m e\nw e - - - - - - - -\n- - - - - o - n - o\n- - - - - - - m - -\n- - o - - - - s - -\nn - - - - - - - - -\ns - - - w m e - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/166.a.htm",
       "info": ""
     },
     "167_10x10": {
       "problem": "10 10 4 3 2 1 0\n4 0 0 7 0 2 0 2 4 1\n4 2 3 1 2 2 2 1 1 2\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - n - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\nn - - n - - - - w e \nm - - m - - - - - - \nm - - s - - - - o - \ns - - - - - - - - - \n- - - n - - - - n - \n- - - m - - - - s - \n- - - s - o - - - - \n- - - - - - - n - - \n- - - - - - - s - - \n- - - o - o - - - -",
+      "solution": "10 10 4 3 2 1 0\nn - - n - - - - w e\nm - - m - - - - - -\nm - - s - - - - o -\ns - - - - - - - - -\n- - - n - - - - n -\n- - - m - - - - s -\n- - - s - o - - - -\n- - - - - - - n - -\n- - - - - - - s - -\n- - - o - o - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/167.a.htm",
       "info": ""
     },
     "168_10x10": {
       "problem": "10 10 4 3 2 1 0\n1 1 5 0 5 0 2 0 6 0\n1 0 2 3 3 3 1 1 4 2\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- o - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - o - - - - - - - \n- - - - - - - - - - \n- - - - n - - - n - \n- o - - m - - - m - \n- - - - m - n - s - \n- - n - s - s - - - \n- - s - - - - - - - \n- - - - - - - - n - \no - n - o - - - m - \n- - s - - - - - s -",
+      "solution": "10 10 4 3 2 1 0\n- - o - - - - - - -\n- - - - - - - - - -\n- - - - n - - - n -\n- o - - m - - - m -\n- - - - m - n - s -\n- - n - s - s - - -\n- - s - - - - - - -\n- - - - - - - - n -\no - n - o - - - m -\n- - s - - - - - s -",
       "source": "https://www.janko.at/Raetsel/Battleships/168.a.htm",
       "info": ""
     },
     "169_10x10": {
       "problem": "10 10 4 3 2 1 0\n3 1 3 2 2 1 2 3 1 2\n0 1 4 0 5 0 3 2 5 0\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - o -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - - \n- - - - - - - n - - \n- w e - - - - s - o \n- - - - - - - - - - \n- - - - w m m e - o \n- - - - - - - - - - \nn - w e - - - - - - \nm - - - - - - - o - \ns - w m e - o - - - \n- - - - - - - - - -",
+      "solution": "10 10 4 3 2 1 0\n- - - - - - - - - -\n- - - - - - - n - -\n- w e - - - - s - o\n- - - - - - - - - -\n- - - - w m m e - o\n- - - - - - - - - -\nn - w e - - - - - -\nm - - - - - - - o -\ns - w m e - o - - -\n- - - - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/169.a.htm",
       "info": ""
     },
     "170_10x10": {
       "problem": "10 10 4 3 2 1 0\n0 4 3 2 1 2 2 2 1 3\n2 3 2 1 1 1 3 1 3 3\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - n - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - n - - - - - - n \n- - m - - o - - - s \n- - s - - - - n - - \n- - - - - - - s - - \n- - - o - - - - - - \n- n - - - - - - - - \n- m - o - - o - - - \n- m - - - - - - - - \n- s - - - - - - w e \n- - - - w m e - - -",
+      "solution": "10 10 4 3 2 1 0\n- - n - - - - - - n\n- - m - - o - - - s\n- - s - - - - n - -\n- - - - - - - s - -\n- - - o - - - - - -\n- n - - - - - - - -\n- m - o - - o - - -\n- m - - - - - - - -\n- s - - - - - - w e\n- - - - w m e - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/170.a.htm",
       "info": ""
     },
     "171_11x11": {
       "problem": "11 11 5 4 3 2 1\n2 4 2 6 1 5 1 5 2 4 3\n5 1 2 2 3 4 2 1 6 0 9\n- - - - - - - - - - -\n- - - - - - - n - - -\n- - - - - - - - - - -\n- - - - - - - - - - e\n- - - x - x - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - w - -\n- - - - - - - - - - -\n- - - e - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- w m m m e - - - - - \n- - - - - - - n - - - \n- - - - - o - s - - - \n- - - - - - - - - w e \nw e - - - - - n - - - \n- - - n - o - m - o - \n- - - m - - - s - - - \n- - - m - - - - - - - \n- o - s - o - - w m e \n- - - - - - - - - - - \nw m m e - w e - w m e",
+      "solution": "11 11 5 4 3 2 1\n- w m m m e - - - - -\n- - - - - - - n - - -\n- - - - - o - s - - -\n- - - - - - - - - w e\nw e - - - - - n - - -\n- - - n - o - m - o -\n- - - m - - - s - - -\n- - - m - - - - - - -\n- o - s - o - - w m e\n- - - - - - - - - - -\nw m m e - w e - w m e",
       "source": "https://www.janko.at/Raetsel/Battleships/171.a.htm",
       "info": ""
     },
     "172_11x11": {
       "problem": "11 11 5 4 3 2 1\n7 0 6 0 0 6 1 6 1 6 2\n4 3 4 4 3 3 3 2 3 4 2\n- - - - - - w - - - -\n- - x - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - x - n -\n- - - - - x - - - - -\n- - - - - - - - - - -\n- - - - - - - s - - -\n- - - - - - - - - - -\n- - - - - - - - w - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nn - o - - - w e - - - \nm - - - - - - - - w e \nm - n - - n - n - - - \nm - m - - s - s - - - \ns - m - - - - - - n - \n- - s - - - - n - m - \n- - - - - o - m - m - \n- - - - - - - s - s - \no - o - - n - - - - - \n- - - - - m - - w m e \no - - - - s - - - - -",
+      "solution": "11 11 5 4 3 2 1\nn - o - - - w e - - -\nm - - - - - - - - w e\nm - n - - n - n - - -\nm - m - - s - s - - -\ns - m - - - - - - n -\n- - s - - - - n - m -\n- - - - - o - m - m -\n- - - - - - - s - s -\no - o - - n - - - - -\n- - - - - m - - w m e\no - - - - s - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/172.a.htm",
       "info": ""
     },
     "173_11x11": {
       "problem": "11 11 5 4 3 2 1\n7 0 2 3 4 2 5 3 2 6 1\n3 4 3 4 1 7 1 3 2 6 1\n- - - - - - - - n - -\n- - - - x - x - - - -\n- - - - - - - - - - -\ns - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - m - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - n -\n- - - - w - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nn - - - - - o - n - - \nm - w e - - - - s - - \nm - - - - - o - - - o \ns - w m e - - - - - - \n- - - - - - - - - n - \no - - w m m m e - m - \n- - - - - - - - - s - \n- - - - o - w e - - - \nn - - - - - - - - n - \ns - - - w m m e - m - \n- - - - - - - - - s -",
+      "solution": "11 11 5 4 3 2 1\nn - - - - - o - n - -\nm - w e - - - - s - -\nm - - - - - o - - - o\ns - w m e - - - - - -\n- - - - - - - - - n -\no - - w m m m e - m -\n- - - - - - - - - s -\n- - - - o - w e - - -\nn - - - - - - - - n -\ns - - - w m m e - m -\n- - - - - - - - - s -",
       "source": "https://www.janko.at/Raetsel/Battleships/173.a.htm",
       "info": ""
     },
     "174_11x11": {
       "problem": "11 11 5 4 3 2 1\n2 6 2 3 1 5 2 6 4 3 1\n7 0 7 0 3 4 1 1 7 1 4\n- x - - x - x - - e -\n- - - - - - - - - - -\n- - e - - - - - - - -\n- - - - - - - - - - -\n- - - - - x - x - - e\n- - - - - - - - - - -\n- - - - - - - - - - -\n- n - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - w - - -",
-      "solution": "11 11 5 4 3 2 1\no - w e - o - w m e - \n- - - - - - - - - - - \nw m e - - w m m e - - \n- - - - - - - - - - - \n- o - - - - - - - w e \n- - - w m e - n - - - \n- - - - - - - s - - - \n- n - - - - - - - - - \n- m - o - w m m m e - \n- m - - - - - - - - - \n- s - - - o - w e - -",
+      "solution": "11 11 5 4 3 2 1\no - w e - o - w m e -\n- - - - - - - - - - -\nw m e - - w m m e - -\n- - - - - - - - - - -\n- o - - - - - - - w e\n- - - w m e - n - - -\n- - - - - - - s - - -\n- n - - - - - - - - -\n- m - o - w m m m e -\n- m - - - - - - - - -\n- s - - - o - w e - -",
       "source": "https://www.janko.at/Raetsel/Battleships/174.a.htm",
       "info": ""
     },
     "175_11x11": {
       "problem": "11 11 5 4 3 2 1\n0 8 1 8 0 0 5 1 4 3 5\n6 1 2 4 3 0 6 2 4 3 4\n- - - - - - x - - - -\n- - - - - - - - - - -\n- n - x - - - - - - -\n- - - - - - - - - - x\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - w - - -\n- - - - - - - - - - -\n- - - - - - - - x - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- w m e - - - - w m e \n- - - - - - o - - - - \n- n - - - - - - - - o \n- m - n - - n - o - - \n- s - s - - s - - - - \n- - - - - - - - - - - \n- n - n - - - w m m e \n- m - m - - - - - - - \n- m - m - - - - - w e \n- s - m - - n - - - - \n- - - s - - s - o - o",
+      "solution": "11 11 5 4 3 2 1\n- w m e - - - - w m e\n- - - - - - o - - - -\n- n - - - - - - - - o\n- m - n - - n - o - -\n- s - s - - s - - - -\n- - - - - - - - - - -\n- n - n - - - w m m e\n- m - m - - - - - - -\n- m - m - - - - - w e\n- s - m - - n - - - -\n- - - s - - s - o - o",
       "source": "https://www.janko.at/Raetsel/Battleships/175.a.htm",
       "info": ""
     },
     "176_11x11": {
       "problem": "11 11 5 4 3 2 1\n1 6 0 3 6 2 3 4 3 3 4\n1 4 3 1 4 1 6 2 7 0 6\n- x - - - - - - - - -\n- - - - - - - x - m -\n- x - w - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - x\n- n - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - m\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - m - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - o - - - - - - \n- o - - - - - - w m e \n- - - w e - o - - - - \n- - - - - - - - - o - \n- - - - w m m e - - - \n- n - - - - - - - - - \n- m - w e - - w e - n \n- m - - - - - - - - m \n- s - w m m m e - - s \n- - - - - - - - - - - \nw e - - o - - w m e -",
+      "solution": "11 11 5 4 3 2 1\n- - - - o - - - - - -\n- o - - - - - - w m e\n- - - w e - o - - - -\n- - - - - - - - - o -\n- - - - w m m e - - -\n- n - - - - - - - - -\n- m - w e - - w e - n\n- m - - - - - - - - m\n- s - w m m m e - - s\n- - - - - - - - - - -\nw e - - o - - w m e -",
       "source": "https://www.janko.at/Raetsel/Battleships/176.a.htm",
       "info": ""
     },
     "177_11x11": {
       "problem": "11 11 5 4 3 2 1\n6 1 6 2 3 2 4 2 2 1 6\n6 3 4 3 5 1 1 6 1 3 2\n- m - - - - - - - - x\n- - - - - - - - n - -\n- - x - x - - - - - -\n- - - - - - - - - - m\n- - - m - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - e\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nw m m m e - n - - - - \n- - - - - - m - n - n \nn - - - - - m - s - m \nm - - - - - s - - - m \ns - w m e - - - - - s \n- - - - - - - o - - - \n- - n - - - - - - - - \n- - m - w e - o - w e \n- - s - - - - - - - - \nn - - - - o - - - - o \ns - o - - - - - - - -",
+      "solution": "11 11 5 4 3 2 1\nw m m m e - n - - - -\n- - - - - - m - n - n\nn - - - - - m - s - m\nm - - - - - s - - - m\ns - w m e - - - - - s\n- - - - - - - o - - -\n- - n - - - - - - - -\n- - m - w e - o - w e\n- - s - - - - - - - -\nn - - - - o - - - - o\ns - o - - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/177.a.htm",
       "info": ""
     },
     "178_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 1 5 0 5 1 3 3 7 2 4\n4 0 7 1 5 2 4 5 2 2 3\n- - - - - w - - - - -\n- - - - - - - - - - -\n- - - - - - - w - - -\n- - - - m - - - - - -\n- - n - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - s - - - -\nw - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\no - - - - w m e - - - \n- - - - - - - - - - - \no - o - n - - w m m e \n- - - - m - - - - - - \no - n - s - - - n - o \n- - m - - - - - m - - \n- - m - n - - - m - n \n- - s - s - n - m - s \n- - - - - - s - s - - \nw e - - - - - - - - - \n- - - - - - - w m e -",
+      "solution": "11 11 5 4 3 2 1\no - - - - w m e - - -\n- - - - - - - - - - -\no - o - n - - w m m e\n- - - - m - - - - - -\no - n - s - - - n - o\n- - m - - - - - m - -\n- - m - n - - - m - n\n- - s - s - n - m - s\n- - - - - - s - s - -\nw e - - - - - - - - -\n- - - - - - - w m e -",
       "source": "https://www.janko.at/Raetsel/Battleships/178.a.htm",
       "info": ""
     },
     "179_11x11": {
       "problem": "11 11 5 4 3 2 1\n6 2 2 4 2 3 3 2 4 2 5\n0 9 0 1 6 2 4 3 2 0 8\n- - - - - - - - - - -\n- - - x - - - - - x -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - x - x - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\ns - - - - - - - - - -\n- - - - - - - - - - -\n- x - - - e - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - - - - - - - - \nw m e - w m m m e - o \n- - - - - - - - - - - \n- - - o - - - - - - - \nw e - - - - - w m m e \n- - - n - o - - - - - \nn - - s - - - - o - n \nm - - - - - n - - - s \ns - - - - - s - - - - \n- - - - - - - - - - - \no - w m m e - - w m e",
+      "solution": "11 11 5 4 3 2 1\n- - - - - - - - - - -\nw m e - w m m m e - o\n- - - - - - - - - - -\n- - - o - - - - - - -\nw e - - - - - w m m e\n- - - n - o - - - - -\nn - - s - - - - o - n\nm - - - - - n - - - s\ns - - - - - s - - - -\n- - - - - - - - - - -\no - w m m e - - w m e",
       "source": "https://www.janko.at/Raetsel/Battleships/179.a.htm",
       "info": ""
     },
     "180_11x11": {
       "problem": "11 11 5 4 3 2 1\n6 1 4 0 7 0 1 8 0 8 0\n2 6 2 3 4 3 2 5 3 1 4\n- - - - - - - n - x -\nw - - - - - - - - - -\n- - - - - - - - - x -\n- - n - - - - - - - -\n- - - - - - - x - - -\n- - - - - - - - - - -\n- - - - n - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - n - - n - - - \nw m e - m - - m - o - \n- - - - s - - m - - - \n- - n - - - - s - n - \nn - s - o - - - - m - \nm - - - - - - o - s - \nm - - - n - - - - - - \nm - o - s - - n - n - \ns - - - - - - s - m - \n- - - - - - - - - m - \n- - - - o - w e - s -",
+      "solution": "11 11 5 4 3 2 1\n- - - - n - - n - - -\nw m e - m - - m - o -\n- - - - s - - m - - -\n- - n - - - - s - n -\nn - s - o - - - - m -\nm - - - - - - o - s -\nm - - - n - - - - - -\nm - o - s - - n - n -\ns - - - - - - s - m -\n- - - - - - - - - m -\n- - - - o - w e - s -",
       "source": "https://www.janko.at/Raetsel/Battleships/180.a.htm",
       "info": ""
     },
     "181_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 3 3 4 2 6 0 0 9 0 4\n6 2 5 2 2 2 4 1 7 1 3\n- - - - e - - - - - x\n- - - - - - - - - - -\nx - - x - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - e - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nw m m m e - - - n - - \n- - - - - - - - m - n \n- w e - - n - - m - s \n- - - - - m - - s - - \n- - - n - s - - - - - \n- - - m - - - - n - - \no - - s - o - - m - - \n- - - - - - - - m - - \nw m e - w e - - s - n \n- - - - - - - - - - s \no - - - - o - - o - -",
+      "solution": "11 11 5 4 3 2 1\nw m m m e - - - n - -\n- - - - - - - - m - n\n- w e - - n - - m - s\n- - - - - m - - s - -\n- - - n - s - - - - -\n- - - m - - - - n - -\no - - s - o - - m - -\n- - - - - - - - m - -\nw m e - w e - - s - n\n- - - - - - - - - - s\no - - - - o - - o - -",
       "source": "https://www.janko.at/Raetsel/Battleships/181.a.htm",
       "info": ""
     },
     "182_11x11": {
       "problem": "11 11 5 4 3 2 1\n3 3 3 2 6 0 6 0 3 6 3\n3 6 3 1 4 3 3 3 3 3 3\n- - - - n - - - - - -\n- x - - - - - - - - -\n- - - - - - - - - - -\n- - - n - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - x - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - n - - - n - n \nn - o - s - o - m - m \ns - - - - - - - s - s \n- - - n - - - - - - - \n- n - s - - n - - n - \n- m - - - - m - - m - \n- s - - - - m - - m - \n- - - - n - s - - m - \no - - - m - - - - s - \n- - n - m - o - - - - \n- - s - s - - - - o -",
+      "solution": "11 11 5 4 3 2 1\n- - - - n - - - n - n\nn - o - s - o - m - m\ns - - - - - - - s - s\n- - - n - - - - - - -\n- n - s - - n - - n -\n- m - - - - m - - m -\n- s - - - - m - - m -\n- - - - n - s - - m -\no - - - m - - - - s -\n- - n - m - o - - - -\n- - s - s - - - - o -",
       "source": "https://www.janko.at/Raetsel/Battleships/182.a.htm",
       "info": ""
     },
     "183_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 3 3 4 3 4 2 0 6 2 4\n6 0 6 3 7 1 1 6 0 0 5\n- - - - - x - - - - -\n- - - - - - - - - - -\nx - - - - x - - - - -\n- - - - - - - - - - -\n- - - m - - x - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - x\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nw m m m e - o - - - - \n- - - - - - - - - - - \n- - w m e - o - n - n \nn - - - - - - - m - m \ns - w m m e - - m - s \n- - - - - - - - s - - \n- - - - - n - - - - - \nw e - o - s - - w e - \n- - - - - - - - - - - \n- - - - - - - - - - - \n- o - - - o - - w m e",
+      "solution": "11 11 5 4 3 2 1\nw m m m e - o - - - -\n- - - - - - - - - - -\n- - w m e - o - n - n\nn - - - - - - - m - m\ns - w m m e - - m - s\n- - - - - - - - s - -\n- - - - - n - - - - -\nw e - o - s - - w e -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- o - - - o - - w m e",
       "source": "https://www.janko.at/Raetsel/Battleships/183.a.htm",
       "info": ""
     },
     "184_11x11": {
       "problem": "11 11 5 4 3 2 1\n1 2 7 2 5 1 1 7 3 4 2\n6 0 5 0 6 2 4 4 2 3 3\nw - - - - - - - x - -\n- - - - - - - - - - -\n- - - - - - w - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - m - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nw m m m e - - o - - - \n- - - - - - - - - - - \n- - o - o - w m e - - \n- - - - - - - - - - - \n- - n - n - - w m m e \n- - s - s - - - - - - \n- - - - - - - w m m e \n- w m e - o - - - - - \n- - - - - - - n - n - \n- - n - - - - m - s - \n- - s - o - - s - - -",
+      "solution": "11 11 5 4 3 2 1\nw m m m e - - o - - -\n- - - - - - - - - - -\n- - o - o - w m e - -\n- - - - - - - - - - -\n- - n - n - - w m m e\n- - s - s - - - - - -\n- - - - - - - w m m e\n- w m e - o - - - - -\n- - - - - - - n - n -\n- - n - - - - m - s -\n- - s - o - - s - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/184.a.htm",
       "info": ""
     },
     "185_11x11": {
       "problem": "11 11 5 4 3 2 1\n1 4 2 3 4 3 5 3 3 4 3\n6 0 7 0 2 6 0 2 4 4 4\n- - x - - - - - - x -\n- - - - - - - - - - -\n- x - - - x - - - - -\n- - - - - - - - - - -\n- - - - - - x - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - m - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - w m m m e - - o \n- - - - - - - - - - - \n- - w m e - o - w m e \n- - - - - - - - - - - \n- n - - - - - - - n - \n- s - - w m m e - s - \n- - - - - - - - - - - \n- o - - o - - - - - - \n- - - - - - w m e - o \nw m m e - - - - - - - \n- - - - - w e - w e -",
+      "solution": "11 11 5 4 3 2 1\n- - - w m m m e - - o\n- - - - - - - - - - -\n- - w m e - o - w m e\n- - - - - - - - - - -\n- n - - - - - - - n -\n- s - - w m m e - s -\n- - - - - - - - - - -\n- o - - o - - - - - -\n- - - - - - w m e - o\nw m m e - - - - - - -\n- - - - - w e - w e -",
       "source": "https://www.janko.at/Raetsel/Battleships/185.a.htm",
       "info": ""
     },
     "186_11x11": {
       "problem": "11 11 5 4 3 2 1\n6 1 3 3 4 3 2 1 8 1 3\n8 0 6 2 3 2 1 6 0 2 5\n- - - x - - - - - - -\n- - - - - - - - - - -\nx - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - s - - - - -\n- - - - - - - - - - -\nx - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\no - o - o - w m m m e \n- - - - - - - - - - - \n- - - w m m e - n - o \nn - - - - - - - m - - \nm - - - - n - - s - - \ns - - - - s - - - - - \n- - - - - - - - n - - \n- w m m e - - - s - o \n- - - - - - - - - - - \nn - - - - - - - n - - \ns - w m e - - - s - -",
+      "solution": "11 11 5 4 3 2 1\no - o - o - w m m m e\n- - - - - - - - - - -\n- - - w m m e - n - o\nn - - - - - - - m - -\nm - - - - n - - s - -\ns - - - - s - - - - -\n- - - - - - - - n - -\n- w m m e - - - s - o\n- - - - - - - - - - -\nn - - - - - - - n - -\ns - w m e - - - s - -",
       "source": "https://www.janko.at/Raetsel/Battleships/186.a.htm",
       "info": ""
     },
     "187_11x11": {
       "problem": "11 11 5 4 3 2 1\n2 4 3 4 2 0 6 1 7 1 5\n4 1 5 2 6 1 0 8 0 3 5\n- - - - - - n - x - -\n- - - - - - - - - - -\n- x - x - - - - - - -\n- - - - - - - - - - -\n- - x - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- w m e - - n - - - - \n- - - - - - m - - - - \no - - - o - m - n - o \n- - - - - - s - m - - \nw e - w e - - - m - o \n- - - - - - - - s - - \n- - - - - - - - - - - \n- w m e - - w m m m e \n- - - - - - - - - - - \n- - - - - - o - n - n \n- w m e - - - - s - s",
+      "solution": "11 11 5 4 3 2 1\n- w m e - - n - - - -\n- - - - - - m - - - -\no - - - o - m - n - o\n- - - - - - s - m - -\nw e - w e - - - m - o\n- - - - - - - - s - -\n- - - - - - - - - - -\n- w m e - - w m m m e\n- - - - - - - - - - -\n- - - - - - o - n - n\n- w m e - - - - s - s",
       "source": "https://www.janko.at/Raetsel/Battleships/187.a.htm",
       "info": ""
     },
     "188_11x11": {
       "problem": "11 11 5 4 3 2 1\n6 1 0 7 0 3 3 4 3 3 5\n6 1 1 6 1 2 4 6 2 6 0\n- - - x - x - - - - -\n- - - - - - - - - - -\nn - - - - - - - - - -\n- - - - - - - - - x -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - s - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- o - - - - w m m m e \n- - - o - - - - - - - \nn - - - - - - - - - - \ns - - n - - w m e - o \n- - - s - - - - - - - \n- - - - - n - - - - o \nn - - n - m - n - - - \nm - - m - s - s - w e \nm - - m - - - - - - - \ns - - s - - o - w m e \n- - - - - - - - - - -",
+      "solution": "11 11 5 4 3 2 1\n- o - - - - w m m m e\n- - - o - - - - - - -\nn - - - - - - - - - -\ns - - n - - w m e - o\n- - - s - - - - - - -\n- - - - - n - - - - o\nn - - n - m - n - - -\nm - - m - s - s - w e\nm - - m - - - - - - -\ns - - s - - o - w m e\n- - - - - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/188.a.htm",
       "info": ""
     },
     "189_11x11": {
       "problem": "11 11 5 4 3 2 1\n7 1 7 1 1 6 1 2 2 3 4\n3 1 6 2 4 4 0 8 0 5 2\nn - x - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - x - - - - e\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nn - - - w e - - - - - \nm - - - - - - - - - - \nm - n - - o - - w m e \nm - m - - - - - - - - \ns - m - - - - - - w e \n- - s - - w m e - - - \n- - - - - - - - - - - \nw m m e - o - - w m e \n- - - - - - - - - - - \no - n - - n - o - - o \n- - s - - s - - - - -",
+      "solution": "11 11 5 4 3 2 1\nn - - - w e - - - - -\nm - - - - - - - - - -\nm - n - - o - - w m e\nm - m - - - - - - - -\ns - m - - - - - - w e\n- - s - - w m e - - -\n- - - - - - - - - - -\nw m m e - o - - w m e\n- - - - - - - - - - -\no - n - - n - o - - o\n- - s - - s - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/189.a.htm",
       "info": ""
     },
     "190_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 5 3 2 4 2 2 1 6 1 5\n4 4 3 4 2 2 3 5 1 4 3\n- - - - - - x - x - x\n- - s - m - - - - - -\ns - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - x - - - - x - -\n- - - - - - - - - - -\n- - e - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nn - n - n - - - - o - \nm - s - m - o - - - - \ns - - - m - - - - - o \n- - - - s - w m e - - \n- n - - - - - - - - n \n- s - - - - - - - - m \n- - - - - o - - n - m \nw m e - - - - - m - s \n- - - - - - - - m - - \n- n - n - o - - m - - \n- s - s - - - - s - -",
+      "solution": "11 11 5 4 3 2 1\nn - n - n - - - - o -\nm - s - m - o - - - -\ns - - - m - - - - - o\n- - - - s - w m e - -\n- n - - - - - - - - n\n- s - - - - - - - - m\n- - - - - o - - n - m\nw m e - - - - - m - s\n- - - - - - - - m - -\n- n - n - o - - m - -\n- s - s - - - - s - -",
       "source": "https://www.janko.at/Raetsel/Battleships/190.a.htm",
       "info": ""
     },
     "191_11x11": {
       "problem": "11 11 5 4 3 2 1\n6 1 2 3 0 8 1 0 8 0 6\n5 3 3 4 3 3 2 5 1 2 4\n- - x - - - - - - - x\n- - - - - - - - - - -\n- - - - - - - - - - x\n- - - n - - - - x - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- x - - - n - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nn - - o - w e - n - - \nm - - - - - - - m - o \nm - - - - n - - s - - \ns - - n - m - - - - n \n- - - s - s - - - - m \no - - - - - - - n - m \n- - - - - - - - m - m \no - o - - n - - s - s \n- - - - - m - - - - - \n- - - - - m - - n - - \n- w e - - s - - s - -",
+      "solution": "11 11 5 4 3 2 1\nn - - o - w e - n - -\nm - - - - - - - m - o\nm - - - - n - - s - -\ns - - n - m - - - - n\n- - - s - s - - - - m\no - - - - - - - n - m\n- - - - - - - - m - m\no - o - - n - - s - s\n- - - - - m - - - - -\n- - - - - m - - n - -\n- w e - - s - - s - -",
       "source": "https://www.janko.at/Raetsel/Battleships/191.a.htm",
       "info": ""
     },
     "192_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 4 2 5 1 4 4 2 3 5 1\n7 1 8 1 3 2 4 2 0 7 0\n- - m - - - - - - x -\n- - - - - - m - - - -\n- - - - x - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nw m m m e - n - o - - \n- - - - - - m - - - - \nw m m e - - m - w m e \n- - - - - - s - - - - \nw e - - - - - - - o - \n- - - n - n - - - - - \n- - - s - m - o - n - \n- - - - - s - - - s - \n- - - - - - - - - - - \nw e - o - o - w m e - \n- - - - - - - - - - -",
+      "solution": "11 11 5 4 3 2 1\nw m m m e - n - o - -\n- - - - - - m - - - -\nw m m e - - m - w m e\n- - - - - - s - - - -\nw e - - - - - - - o -\n- - - n - n - - - - -\n- - - s - m - o - n -\n- - - - - s - - - s -\n- - - - - - - - - - -\nw e - o - o - w m e -\n- - - - - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/192.a.htm",
       "info": ""
     },
     "193_11x11": {
       "problem": "11 11 5 4 3 2 1\n5 1 5 1 1 1 7 0 7 1 6\n3 3 3 3 4 5 4 2 3 0 5\n- - - e - - - - - - -\n- - - - - - - - x - x\nm - - - - - - - - - -\n- - x - - - x - s - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - x - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - w e - - - - - - o \nn - - - - w e - - - - \nm - - - - - - - n - n \ns - - - - - - - s - m \n- - n - o - n - - - m \nn - m - - - m - n - s \ns - s - - - m - m - - \n- - - - - - m - m - - \n- o - - - - s - s - - \n- - - - - - - - - - - \n- - o - - - o - w m e",
+      "solution": "11 11 5 4 3 2 1\n- - w e - - - - - - o\nn - - - - w e - - - -\nm - - - - - - - n - n\ns - - - - - - - s - m\n- - n - o - n - - - m\nn - m - - - m - n - s\ns - s - - - m - m - -\n- - - - - - m - m - -\n- o - - - - s - s - -\n- - - - - - - - - - -\n- - o - - - o - w m e",
       "source": "https://www.janko.at/Raetsel/Battleships/193.a.htm",
       "info": ""
     },
     "194_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 0 8 0 2 2 3 0 9 0 7\n4 3 3 4 3 4 3 3 3 3 2\n- - - - - - - - - - x\n- - - - - s - - x - -\n- - - - - - - - - - -\nn - - - - - - - - - -\n- - s - - - - - - - -\n- - - - x - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - s - - - x\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\no - n - - n - - o - - \n- - m - - s - - - - n \n- - m - - - - - n - m \nn - m - - - - - m - s \nm - s - - - - - m - - \ns - - - - - o - s - n \n- - n - o - - - - - s \n- - m - - - n - n - - \n- - s - - - s - m - - \n- - - - o - - - m - n \n- - - - - - - - s - s",
+      "solution": "11 11 5 4 3 2 1\no - n - - n - - o - -\n- - m - - s - - - - n\n- - m - - - - - n - m\nn - m - - - - - m - s\nm - s - - - - - m - -\ns - - - - - o - s - n\n- - n - o - - - - - s\n- - m - - - n - n - -\n- - s - - - s - m - -\n- - - - o - - - m - n\n- - - - - - - - s - s",
       "source": "https://www.janko.at/Raetsel/Battleships/194.a.htm",
       "info": ""
     },
     "195_11x11": {
       "problem": "11 11 5 4 3 2 1\n5 1 7 1 2 3 1 7 0 8 0\n6 1 5 2 3 2 3 3 4 3 3\n- - - - e - - x - - -\n- - - - - - - - - - -\nx - - - - w - - - - -\n- - x - - - - - - - -\nx - - - x - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\nx - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nw m m m e - - - - n - \n- - - - - - - - - m - \n- - o - - w m e - m - \no - - - - - - - - s - \n- - n - - o - n - - - \n- - s - - - - m - - - \no - - - - - - m - n - \n- - n - - - - s - m - \n- - m - w e - - - s - \nn - s - - - - n - - - \ns - - - - - - s - o -",
+      "solution": "11 11 5 4 3 2 1\nw m m m e - - - - n -\n- - - - - - - - - m -\n- - o - - w m e - m -\no - - - - - - - - s -\n- - n - - o - n - - -\n- - s - - - - m - - -\no - - - - - - m - n -\n- - n - - - - s - m -\n- - m - w e - - - s -\nn - s - - - - n - - -\ns - - - - - - s - o -",
       "source": "https://www.janko.at/Raetsel/Battleships/195.a.htm",
       "info": ""
     },
     "196_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 2 2 5 1 5 1 4 3 2 6\n6 2 2 2 2 5 3 2 5 4 2\n- - x - x - - x - - -\n- - - - - - - - - - -\n- - - - - x - - - - -\n- - - - - - - - - - -\n- - - n - - - - - - n\n- - - - - - - - - - -\nw - - - - - - - - - -\n- - - - - - - x - - -\n- - m - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\nn - - n - o - - w m e \nm - - s - - - - - - - \ns - - - - - - n - - - \n- - - - - o - s - - - \n- - - n - - - - - - n \n- - - s - w m e - - m \nw e - - - - - - - - m \n- - - - - - - - o - s \n- w m m m e - - - - - \n- - - - - - - w m m e \n- - o - - o - - - - -",
+      "solution": "11 11 5 4 3 2 1\nn - - n - o - - w m e\nm - - s - - - - - - -\ns - - - - - - n - - -\n- - - - - o - s - - -\n- - - n - - - - - - n\n- - - s - w m e - - m\nw e - - - - - - - - m\n- - - - - - - - o - s\n- w m m m e - - - - -\n- - - - - - - w m m e\n- - o - - o - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/196.a.htm",
       "info": ""
     },
     "197_11x11": {
       "problem": "11 11 5 4 3 2 1\n3 3 2 3 4 4 1 6 0 9 0\n5 2 2 5 0 6 1 3 3 3 5\nx - - - - x - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\nx - - x - x - - - - -\n- - - - - - - - - - -\n- - - - - - e - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- n - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - w m e - - o - n - \no - - - - - - - - m - \n- - - - - - - n - m - \n- w e - o - - s - s - \n- - - - - - - - - - - \no - - w m m e - - n - \n- - - - - - - - - m - \no - - - - n - - - m - \n- - - - - s - n - m - \n- n - - - - - m - s - \n- s - w m e - s - - -",
+      "solution": "11 11 5 4 3 2 1\n- - w m e - - o - n -\no - - - - - - - - m -\n- - - - - - - n - m -\n- w e - o - - s - s -\n- - - - - - - - - - -\no - - w m m e - - n -\n- - - - - - - - - m -\no - - - - n - - - m -\n- - - - - s - n - m -\n- n - - - - - m - s -\n- s - w m e - s - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/197.a.htm",
       "info": ""
     },
     "198_11x11": {
       "problem": "11 11 5 4 3 2 1\n2 1 6 2 5 1 3 5 3 4 3\n3 4 2 1 7 1 1 5 4 4 3\n- - n - - - - - - x -\n- - - - x - - m - - -\n- - - - - - - - - x -\n- - - - - - - - - - -\n- - x - - m - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - e - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - n - o - - n - - - \n- - s - - - - m - w e \n- - - - o - - s - - - \n- - o - - - - - - - - \no - - - w m e - w m e \n- - n - - - - - - - - \n- - s - - - - - - - - \n- - - - - - w m m m e \n- w m m e - - - - - - \n- - - - - - w m m e - \no - - w e - - - - - -",
+      "solution": "11 11 5 4 3 2 1\n- - n - o - - n - - -\n- - s - - - - m - w e\n- - - - o - - s - - -\n- - o - - - - - - - -\no - - - w m e - w m e\n- - n - - - - - - - -\n- - s - - - - - - - -\n- - - - - - w m m m e\n- w m m e - - - - - -\n- - - - - - w m m e -\no - - w e - - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/198.a.htm",
       "info": ""
     },
     "199_11x11": {
       "problem": "11 11 5 4 3 2 1\n4 1 5 3 3 4 2 2 2 7 2\n3 5 1 6 0 3 3 3 4 1 6\n- - - - - - - w - x -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- w - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - e - - - - - - -\n- - - - - x - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- - - - - - - w e - o \no - w m m e - - - - - \n- - - - - - - - - n - \n- w e - w m e - - s - \n- - - - - - - - - - - \n- - - - - - - - w m e \nn - w e - - - - - - - \nm - - - - - - o - n - \ns - o - - o - - - m - \n- - - - - - - - - m - \n- - w m m m e - - s -",
+      "solution": "11 11 5 4 3 2 1\n- - - - - - - w e - o\no - w m m e - - - - -\n- - - - - - - - - n -\n- w e - w m e - - s -\n- - - - - - - - - - -\n- - - - - - - - w m e\nn - w e - - - - - - -\nm - - - - - - o - n -\ns - o - - o - - - m -\n- - - - - - - - - m -\n- - w m m m e - - s -",
       "source": "https://www.janko.at/Raetsel/Battleships/199.a.htm",
       "info": ""
     },
     "200_11x11": {
       "problem": "11 11 5 4 3 2 1\n1 4 3 2 6 0 6 0 7 0 6\n3 3 3 3 6 2 2 5 1 2 5\n- n - - - - - - - - -\n- - - - m - - - - - -\n- - - - - - - - - - -\n- - - - - - x - - - -\n- w - - - - - - - - -\n- - - - - - - - - - -\n- - - - - - x - - - x\n- - - - - - - - - - -\n- - - - - - n - - - -\n- - - - - - - - - - x\n- - - - x - - - - - -",
-      "solution": "11 11 5 4 3 2 1\n- n - - n - o - - - - \n- s - - m - - - n - - \n- - - - m - - - m - n \n- - - - m - - - m - m \n- w e - s - n - s - m \n- - - - - - s - - - s \no - - - - - - - n - - \n- - w m e - - - s - o \n- - - - - - n - - - - \n- - - - - - m - o - - \n- w m e - - s - - - o",
+      "solution": "11 11 5 4 3 2 1\n- n - - n - o - - - -\n- s - - m - - - n - -\n- - - - m - - - m - n\n- - - - m - - - m - m\n- w e - s - n - s - m\n- - - - - - s - - - s\no - - - - - - - n - -\n- - w m e - - - s - o\n- - - - - - n - - - -\n- - - - - - m - o - -\n- w m e - - s - - - o",
       "source": "https://www.janko.at/Raetsel/Battleships/200.a.htm",
       "info": ""
     },
@@ -1325,25 +1325,25 @@
     },
     "251_10x10": {
       "problem": "10 10 4 3 2 1 0\n3 1 2 3 1 0 8 1 0 1\n5 1 1 3 3 0 2 2 1 2\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - e - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\nw m e - - - w e - - \n- - - - o - - - - - \n- - - - - - n - - - \no - - - - - m - - o \n- - w e - - s - - - \n- - - - - - - - - - \n- - - n - - n - - - \n- - - s - - m - - - \n- - - - - - m - - - \no - - - - - s - - -",
+      "solution": "10 10 4 3 2 1 0\nw m e - - - w e - -\n- - - - o - - - - -\n- - - - - - n - - -\no - - - - - m - - o\n- - w e - - s - - -\n- - - - - - - - - -\n- - - n - - n - - -\n- - - s - - m - - -\n- - - - - - m - - -\no - - - - - s - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/251.a.htm",
       "info": ""
     },
     "252_10x10": {
       "problem": "10 10 4 3 2 1 0\n5 1 0 0 6 1 0 2 2 3\n2 1 2 2 4 0 3 1 2 3\n- - - - - - - - - -\n- - - - - - - - o -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\no - - - - o - - - - \n- - - - - - - - o - \nn - - - n - - - - - \nm - - - s - - - - - \ns - - - - - - w m e \n- - - - - - - - - - \nw e - - n - - - - - \n- - - - m - - - - - \n- - - - m - - - - n \n- - - - s - - o - s",
+      "solution": "10 10 4 3 2 1 0\no - - - - o - - - -\n- - - - - - - - o -\nn - - - n - - - - -\nm - - - s - - - - -\ns - - - - - - w m e\n- - - - - - - - - -\nw e - - n - - - - -\n- - - - m - - - - -\n- - - - m - - - - n\n- - - - s - - o - s",
       "source": "https://www.janko.at/Raetsel/Battleships/252.a.htm",
       "info": ""
     },
     "253_10x10": {
       "problem": "10 10 4 3 2 1 0\n2 0 3 1 1 5 1 4 1 2\n2 1 2 1 3 4 1 2 0 4\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - o - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - - - n - o - - \n- - - - - m - - - - \n- - - - - m - o - - \n- - - - - s - - - - \nn - n - - - - - - n \ns - m - - - o - - s \n- - s - - - - - - - \n- - - - - - - w e - \n- - - - - - - - - - \n- - - w m e - o - -",
+      "solution": "10 10 4 3 2 1 0\n- - - - - n - o - -\n- - - - - m - - - -\n- - - - - m - o - -\n- - - - - s - - - -\nn - n - - - - - - n\ns - m - - - o - - s\n- - s - - - - - - -\n- - - - - - - w e -\n- - - - - - - - - -\n- - - w m e - o - -",
       "source": "https://www.janko.at/Raetsel/Battleships/253.a.htm",
       "info": ""
     },
     "254_10x10": {
       "problem": "10 10 4 3 2 1 0\n4 3 2 2 1 3 2 1 1 1\n4 0 0 3 2 1 3 1 0 6\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - n - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- o - w m e - - - - \n- - - - - - - - - - \n- - - - - - - - - - \nn - - - - - - - w e \ns - - - - - n - - - \n- - - - - - s - - - \nw m e - - - - - - - \n- - - - - o - - - - \n- - - - - - - - - - \nw m m e - o - o - -",
+      "solution": "10 10 4 3 2 1 0\n- o - w m e - - - -\n- - - - - - - - - -\n- - - - - - - - - -\nn - - - - - - - w e\ns - - - - - n - - -\n- - - - - - s - - -\nw m e - - - - - - -\n- - - - - o - - - -\n- - - - - - - - - -\nw m m e - o - o - -",
       "source": "https://www.janko.at/Raetsel/Battleships/254.a.htm",
       "info": ""
     },
@@ -1385,25 +1385,25 @@
     },
     "261_10x10": {
       "problem": "10 10 4 3 2 1 0\n3 2 1 0 1 2 3 2 2 4\n4 0 1 1 1 2 4 3 2 2\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - o - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - - - - w m m e - \n- - - - - - - - - - \n- n - - - - - - - - \n- s - - - - - - - - \n- - - - - - - o - - \nn - - - - - - - - n \nm - - - o - o - - m \ns - o - - - - - - s \n- - - - - w e - - - \n- - - - - - - - w e",
+      "solution": "10 10 4 3 2 1 0\n- - - - - w m m e -\n- - - - - - - - - -\n- n - - - - - - - -\n- s - - - - - - - -\n- - - - - - - o - -\nn - - - - - - - - n\nm - - - o - o - - m\ns - o - - - - - - s\n- - - - - w e - - -\n- - - - - - - - w e",
       "source": "https://www.janko.at/Raetsel/Battleships/261.a.htm",
       "info": ""
     },
     "262_10x10": {
       "problem": "10 10 4 3 2 1 0\n0 2 1 5 2 4 0 3 1 2\n2 2 2 4 1 1 1 4 1 2\n- - - e - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- - w e - - - - - - \n- - - - - n - - - o \n- - - n - m - - - - \n- - - m - s - - w e \n- - - m - - - - - - \n- - - s - - - - - - \n- - - - - - - n - - \n- o - - w e - m - - \n- - - - - - - s - - \n- o - - o - - - - -",
+      "solution": "10 10 4 3 2 1 0\n- - w e - - - - - -\n- - - - - n - - - o\n- - - n - m - - - -\n- - - m - s - - w e\n- - - m - - - - - -\n- - - s - - - - - -\n- - - - - - - n - -\n- o - - w e - m - -\n- - - - - - - s - -\n- o - - o - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/262.a.htm",
       "info": ""
     },
     "263_10x10": {
       "problem": "10 10 4 3 2 1 0\n1 3 1 4 2 3 0 0 1 5\n3 3 2 4 1 3 0 1 2 1\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - o - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- o - - - n - - - n \n- - - n - s - - - m \n- - - m - - - - - m \nw e - s - - - - - s \n- - - - - o - - - - \n- w m e - - - - - - \n- - - - - - - - - - \n- - - - o - - - - - \n- - - - - - - - w e \n- - - - o - - - - -",
+      "solution": "10 10 4 3 2 1 0\n- o - - - n - - - n\n- - - n - s - - - m\n- - - m - - - - - m\nw e - s - - - - - s\n- - - - - o - - - -\n- w m e - - - - - -\n- - - - - - - - - -\n- - - - o - - - - -\n- - - - - - - - w e\n- - - - o - - - - -",
       "source": "https://www.janko.at/Raetsel/Battleships/263.a.htm",
       "info": ""
     },
     "264_10x10": {
       "problem": "10 10 4 3 2 1 0\n0 6 1 2 1 0 1 3 1 5\n1 3 2 3 1 1 3 2 2 2\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - o - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -",
-      "solution": "10 10 4 3 2 1 0\n- n - - - - - - - - \n- m - n - - - o - - \n- s - s - - - - - - \n- - - - - - - w m e \n- n - - - - - - - - \n- s - - - - - - - - \n- - - - - - w e - n \n- - o - - - - - - m \n- - - - o - - - - m \n- o - - - - - - - s",
+      "solution": "10 10 4 3 2 1 0\n- n - - - - - - - -\n- m - n - - - o - -\n- s - s - - - - - -\n- - - - - - - w m e\n- n - - - - - - - -\n- s - - - - - - - -\n- - - - - - w e - n\n- - o - - - - - - m\n- - - - o - - - - m\n- o - - - - - - - s",
       "source": "https://www.janko.at/Raetsel/Battleships/264.a.htm",
       "info": ""
     },
