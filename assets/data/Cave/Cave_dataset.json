@@ -1,6 +1,6 @@
 {
-  "count": 419,
-  "count_sol": 419,
+  "count": 416,
+  "count_sol": 416,
   "name": "Cave",
   "data": {
     "01_10x10": {
@@ -843,12 +843,6 @@
       "source": "https://www.janko.at/Raetsel/Corral/140.a.htm",
       "info": ""
     },
-    "141_10x10": {
-      "problem": "10 10\n- - - 3 - 2 - - - -\n2 - - - - - - - - 3\n- - 7 - 2 - 3 - - -\n- 3 - - - - - - - -\n- - - - - 5 - - - -\n4 - - - - - 12 - - -\n- - 3 - - - - - 4 -\n- - - 4 - - - - - -\n- - - - - - - 2 - 4\n- - - - - - - - - -",
-      "solution": "10 10\n- - x x - x - x x x\nx - x x x x x x - x\nx x x - x - x x - x\n- x x - - - - - - -\n- - x x - x x x x -\nx - - x x x x x x x\nx - x x x - x - x x\nx - - x - - x - - x\nx x - - - - x x - x\n- x x x x x x - - -",
-      "source": "https://www.janko.at/Raetsel/Corral/141.a.htm",
-      "info": ""
-    },
     "142_10x10": {
       "problem": "10 10\n5 - 3 - - - - 3 - -\n- - - 2 - 2 - - - -\n- - - - - - - - - -\n- - - - - - - - 2 -\n- - - - - 3 - - - -\n- 2 - - - - - 3 - -\n- - - - - - - - - -\n4 - - 3 - - - - - -\n- - - - - - - 3 - -\n- - 3 - - 4 - - - 3",
       "solution": "10 10\nx - x - - - x x x -\nx - x x - x x - x x\nx x x - - - x - - x\nx - - - - x x - x x\nx x x x - x - - - x\n- x - x x x - x x x\n- - - - - - - - x -\nx x - x - - - x x x\nx x x x x x - x - x\nx - x x - x x x - x",
@@ -1090,13 +1084,13 @@
       "info": ""
     },
     "183_10x10": {
-      "problem": "10 10\n- 12 - - - - - 13 - -\n- - - - - - - - - -\n- - - - - - 13 - - -\n11 - - - 14 - - - - 3\n- - - - - - - - - -\n- 13 - - - - - - 12 -\n- - - - - 12 - - - -\n- - - - - - - - - 3\n2 - - - 3 - - - - - \n- - 2 - - - 2 - - 2",
+      "problem": "10 10\n- 12 - - - - - 13 - -\n- - - - - - - - - -\n- - - - - - 13 - - -\n11 - - - 14 - - - - 3\n- - - - - - - - - -\n- 13 - - - - - - 12 -\n- - - - - 12 - - - -\n- - - - - - - - - 3\n2 - - - 3 - - - - -\n- - 2 - - - 2 - - 2",
       "solution": "10 10\n- x x x x x x x - -\nx x x x x x x x x x\nx x x x x x x x - x\nx x x x x x x x - x\nx x x x x x x x - -\n- x x x x x x x x -\n- - x x x x - x x x\n- x x - - x - - x x\nx x - - x x x - x -\n- x x - - - x - x x",
       "source": "https://www.janko.at/Raetsel/Corral/183.a.htm",
       "info": ""
     },
     "184_10x10": {
-      "problem": "10 10\n- - - - - 6 - - - -\n3 - - - 5 - 7 - - -\n- 4 - 4 - - - 8 - -\n- - 3 - - - - - 7 - \n- - - 2 - - - - - 6\n- - - - - - - - 7 -\n- - - 4 - - - 6 - -\n- - 5 - 5 - 5 - 5 -\n- 4 - - - 4 - - - 4\n- - 3 - - - - - - -",
+      "problem": "10 10\n- - - - - 6 - - - -\n3 - - - 5 - 7 - - -\n- 4 - 4 - - - 8 - -\n- - 3 - - - - - 7 -\n- - - 2 - - - - - 6\n- - - - - - - - 7 -\n- - - 4 - - - 6 - -\n- - 5 - 5 - 5 - 5 -\n- 4 - - - 4 - - - 4\n- - 3 - - - - - - -",
       "solution": "10 10\nx - - - x x x - - -\nx x - x x x x - - -\n- x x x - x x x - x\n- - x - - x x x x x\n- - x x - - - x x x\n- - - - - x x x x x\n- x x x - - - x - -\n- x x x x - x x x x\n- x - - x x x - x x\nx x x - - x - - - x",
       "source": "https://www.janko.at/Raetsel/Corral/184.a.htm",
       "info": ""
@@ -1108,7 +1102,7 @@
       "info": ""
     },
     "186_9x9": {
-      "problem": "9 9\n- 6 - - - - - - -\n- - - - - - - 2 -\n- - - - - - 4 - -\n- - 2 3 - - - - -\n- - - - - - - - -\n- - - - - 3 2 - -\n- - 5 - - - - - - \n- 2 - - 4 - - - -\n- - - 7 - - - - -",
+      "problem": "9 9\n- 6 - - - - - - -\n- - - - - - - 2 -\n- - - - - - 4 - -\n- - 2 3 - - - - -\n- - - - - - - - -\n- - - - - 3 2 - -\n- - 5 - - - - - -\n- 2 - - 4 - - - -\n- - - 7 - - - - -",
       "solution": "9 9\n- x x x x x x - -\n- - - - x - x x -\n- - - x x - x - -\n- - x x - - x x x\n- - - - - - - - x\n- - - - - x x - x\n- x x x x x - - x\n- x - x x - - x x\n- - - x x x x x -",
       "source": "https://www.janko.at/Raetsel/Corral/186.a.htm",
       "info": ""
@@ -1126,49 +1120,49 @@
       "info": ""
     },
     "189_10x10": {
-      "problem": "10 10\n2 - - - - - - - - -\n- - - 2 - - - 2 - -\n2 - - - - - - - - -\n- - - - 2 - - - - 2 \n- - 2 - - - 2 - - -\n2 - - - - - - - - -\n- - - - 2 - 2 - - -\n- - - - - - - - 2 - \n- 2 - - - - - - - -\n- - - 2 - - - - - -",
+      "problem": "10 10\n2 - - - - - - - - -\n- - - 2 - - - 2 - -\n2 - - - - - - - - -\n- - - - 2 - - - - 2\n- - 2 - - - 2 - - -\n2 - - - - - - - - -\n- - - - 2 - 2 - - -\n- - - - - - - - 2 -\n- 2 - - - - - - - -\n- - - 2 - - - - - -",
       "solution": "10 10\nx x - x x x - - - -\n- x - x - x - x - -\nx x - - - x x x x -\n- x - - x x - - x x\n- x x - - x x - x -\nx x - - - - - - x x\n- x x - x - x - - x\n- - x x x x x - x x\n- x x - - x - - - x\n- - x x - x x x x x",
       "source": "https://www.janko.at/Raetsel/Corral/189.a.htm",
       "info": ""
     },
     "190_10x10": {
-      "problem": "10 10\n- 7 - 6 - - 5 - 2 -\n- - - - 7 7 - - - -\n- 5 - 4 - - 4 - 3 - \n- - - - - - - - - -\n6 - - - - - - 3 - -\n- - 5 - - - - - - 6\n- - - - - - - - - -\n- 6 - 5 - - 4 - 4 -\n- - - - 3 7 - - - -\n- 6 - 5 - - 4 - 4 -",
+      "problem": "10 10\n- 7 - 6 - - 5 - 2 -\n- - - - 7 7 - - - -\n- 5 - 4 - - 4 - 3 -\n- - - - - - - - - -\n6 - - - - - - 3 - -\n- - 5 - - - - - - 6\n- - - - - - - - - -\n- 6 - 5 - - 4 - 4 -\n- - - - 3 7 - - - -\n- 6 - 5 - - 4 - 4 -",
       "solution": "10 10\nx x x x - x x - x x\n- x x x x x x - - x\nx x - x x - x - x x\nx x - - - - x x x x\nx - - - - - - x - x\nx x x x - x - x - x\nx x x x - x - - - -\nx x - x - x x x x -\n- x - x x x - - - -\nx x - x - x x x x -",
       "source": "https://www.janko.at/Raetsel/Corral/190.a.htm",
       "info": ""
     },
     "191_10x10": {
-      "problem": "10 10\n- 2 - - - - - - - - \n- - - - 4 - 4 - 4 -\n4 - 5 - - - - - - -\n- - - - - 3 - 5 - 2\n- 4 - 3 - - - - - -\n- - - - - - 2 - 5 - \n5 - 5 - 4 - - - - -\n- - - - - - - 3 - 4\n- 3 - 4 - 4 - - - -\n- - - - - - - - 14 -",
+      "problem": "10 10\n- 2 - - - - - - - -\n- - - - 4 - 4 - 4 -\n4 - 5 - - - - - - -\n- - - - - 3 - 5 - 2\n- 4 - 3 - - - - - -\n- - - - - - 2 - 5 -\n5 - 5 - 4 - - - - -\n- - - - - - - 3 - 4\n- 3 - 4 - 4 - - - -\n- - - - - - - - 14 -",
       "solution": "10 10\n- x x - x x x - - -\n- - x x x - x x x -\nx x x - - - - x x x\nx x - - - x x x - x\n- x - x - - - - - -\nx x x x - x x - x -\nx - x x x x - - x x\nx - - - - - - x x x\nx x - x x x - - x -\nx x x x x x x x x x",
       "source": "https://www.janko.at/Raetsel/Corral/191.a.htm",
       "info": ""
     },
     "192_10x10": {
-      "problem": "10 10\n4 - - - 4 - - - - 5 \n- - - 4 - - 5 - - -\n- - 4 - - - - 5 - -\n7 4 - - - - - - 5 -\n- - - - 4 5 - - - 5\n6 - - - 6 7 - - - - \n- 6 - - - - - - 7 4\n- - 6 - - - - 7 - - \n- - - 6 - - 7 - - -\n6 - - - - 7 - - - 7",
+      "problem": "10 10\n4 - - - 4 - - - - 5\n- - - 4 - - 5 - - -\n- - 4 - - - - 5 - -\n7 4 - - - - - - 5 -\n- - - - 4 5 - - - 5\n6 - - - 6 7 - - - -\n- 6 - - - - - - 7 4\n- - 6 - - - - 7 - -\n- - - 6 - - 7 - - -\n6 - - - - 7 - - - 7",
       "solution": "10 10\nx - x x x - x x - x\nx - x x x - x x - x\nx - x - - - x x - x\nx x x x - x x x x x\n- - - x x x - - - x\nx x - x x x x x - -\nx x - - - - x x x x\nx x x x x - x x x -\nx x x x - - x x x -\nx x - x x x x x x x",
       "source": "https://www.janko.at/Raetsel/Corral/192.a.htm",
       "info": ""
     },
     "193_10x10": {
-      "problem": "10 10\n4 - - - 4 - - - - 4 \n- - 4 - - 4 - 4 - -\n4 - - - - - - - - -\n- - 4 - - - 4 - - 4\n4 - 4 - - - - - - -\n- - - - - 4 - - - -\n- - - 4 - 4 - - - -\n- - - - - - - - - 4\n4 - - - - - - - - -\n- 4 - - 4 - - - 4 -",
+      "problem": "10 10\n4 - - - 4 - - - - 4\n- - 4 - - 4 - 4 - -\n4 - - - - - - - - -\n- - 4 - - - 4 - - 4\n4 - 4 - - - - - - -\n- - - - - 4 - - - -\n- - - 4 - 4 - - - -\n- - - - - - - - - 4\n4 - - - - - - - - -\n- 4 - - 4 - - - 4 -",
       "solution": "10 10\nx x - x x x x - - x\nx x x x - x x x - x\nx x - - - - x x x x\n- x x x - - x - - x\nx x x - - - - - - -\nx x - - - x x - - -\n- x x x - x x - - x\n- - x x x x x x - x\nx x x - x - - x x x\nx x x - x x - x x x",
       "source": "https://www.janko.at/Raetsel/Corral/193.a.htm",
       "info": ""
     },
     "194_10x10": {
-      "problem": "10 10\n- 10 - 4 - - - 9 - 9\n7 - 7 - - - - - - -\n- - - - - 5 - - - 9\n- - - - 8 - - 7 - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - 8 - - 4 - - - -\n8 - - - 7 - - - - - \n- - - - - - - 7 - 7\n8 - 8 - - - 7 - 7 -",
+      "problem": "10 10\n- 10 - 4 - - - 9 - 9\n7 - 7 - - - - - - -\n- - - - - 5 - - - 9\n- - - - 8 - - 7 - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - 8 - - 4 - - - -\n8 - - - 7 - - - - -\n- - - - - - - 7 - 7\n8 - 8 - - - 7 - 7 -",
       "solution": "10 10\n- x - x x x - x x x\nx x x x x x - x x x\nx x x - - x - x x x\n- x - - x x - x - x\nx x x - x x - x - x\nx x x - x - - x - x\nx x x - x x x x - x\nx x x - x - - - - -\nx x x - x x x x x x\nx x x - x x x x x x",
       "source": "https://www.janko.at/Raetsel/Corral/194.a.htm",
       "info": ""
     },
     "195_10x10": {
-      "problem": "10 10\n3 - - - - - 3 - - - \n- - 3 - - - - - 3 -\n2 - - - 4 - - - - -\n- - 3 - - - 3 - - -\n- - - - 2 - - - 3 -\n- 7 - - - - 4 - - -\n- - - 2 - - - - 4 -\n4 - - - - 3 - - - -\n- - 5 - - - - 4 - -\n- - - - 6 - - - - 9",
+      "problem": "10 10\n3 - - - - - 3 - - -\n- - 3 - - - - - 3 -\n2 - - - 4 - - - - -\n- - 3 - - - 3 - - -\n- - - - 2 - - - 3 -\n- 7 - - - - 4 - - -\n- - - 2 - - - - 4 -\n4 - - - - 3 - - - -\n- - 5 - - - - 4 - -\n- - - - 6 - - - - 9",
       "solution": "10 10\nx x x - - - x x x -\n- x x - x - - - x x\nx x - - x x x - - x\n- x x - - x x - x x\n- x x - x x - - x x\nx x - - - x x - - x\nx - - x - - x x x x\nx - x x - x x x - x\nx x x - - - - x - x\n- - x x x x x x - x",
       "source": "https://www.janko.at/Raetsel/Corral/195.a.htm",
       "info": ""
     },
     "196_10x10": {
-      "problem": "10 10\n11 - - - - - - 5 - - \n- - 5 - - - - - - -\n- - 7 - - - - - - -\n- - - - - - 3 - 5 -\n- - - - 7 - - - - -\n- - - - - 3 - - - -\n- 7 - 3 - - - - - -\n- - - - - - - 11 - - \n- - - - - - - 5 - -\n- - 7 - - - - - - 13",
+      "problem": "10 10\n11 - - - - - - 5 - -\n- - 5 - - - - - - -\n- - 7 - - - - - - -\n- - - - - - 3 - 5 -\n- - - - 7 - - - - -\n- - - - - 3 - - - -\n- 7 - 3 - - - - - -\n- - - - - - - 11 - -\n- - - - - - - 5 - -\n- - 7 - - - - - - 13",
       "solution": "10 10\nx x x x - x x x x x\nx x x - - - - - x x\nx x x x x - x - x x\nx - - - - - x - x x\nx x - x x x x - - x\nx x - - x x - - - x\nx x - x x - - x - x\nx x x x x x x x - x\n- x x - - - x x - x\nx x x x x - x x x x",
       "source": "https://www.janko.at/Raetsel/Corral/196.a.htm",
       "info": ""
@@ -1180,19 +1174,19 @@
       "info": ""
     },
     "198_10x10": {
-      "problem": "10 10\n- 2 - - - - 7 - - - \n- - - 3 - - - - 9 -\n6 - - - - 4 - - - -\n- 2 - - - - - 5 - -\n- - - - 7 - - - - 6\n5 - - - - 4 - - - -\n- - 6 - - - - - 9 -\n- - - - 7 - - - - 5\n- 2 - - - - 8 - - -\n- - - 4 - - - - 9 -",
+      "problem": "10 10\n- 2 - - - - 7 - - -\n- - - 3 - - - - 9 -\n6 - - - - 4 - - - -\n- 2 - - - - - 5 - -\n- - - - 7 - - - - 6\n5 - - - - 4 - - - -\n- - 6 - - - - - 9 -\n- - - - 7 - - - - 5\n- 2 - - - - 8 - - -\n- - - 4 - - - - 9 -",
       "solution": "10 10\nx x - x x x x - - -\nx - - x - x x - x -\nx x x x - x x - x x\n- x - - - - x x x x\n- - - x x - - x x x\nx - x x x x - - x x\nx x x x x - - - x -\nx - - x x - x x x x\nx x - - x x x x x x\nx - - x x x x - x -",
       "source": "https://www.janko.at/Raetsel/Corral/198.a.htm",
       "info": ""
     },
     "199_10x10": {
-      "problem": "10 10\n- - - - 6 - - 2 - -\n5 - - 2 - - - - 8 -\n- 4 - - - - - - - - \n- - - - - - - - 9 -\n- - - - - 3 - - - 6\n3 - - - 3 - - - - -\n- 8 - - - - - - - -\n- - - - - - - - 7 -\n- 2 - - - - 5 - - 4\n- - 3 - - 5 - - - -",
+      "problem": "10 10\n- - - - 6 - - 2 - -\n5 - - 2 - - - - 8 -\n- 4 - - - - - - - -\n- - - - - - - - 9 -\n- - - - - 3 - - - 6\n3 - - - 3 - - - - -\n- 8 - - - - - - - -\n- - - - - - - - 7 -\n- 2 - - - - 5 - - 4\n- - 3 - - 5 - - - -",
       "solution": "10 10\nx x x x x x - x - -\nx x - x - x x x x -\nx x - - - - - - x x\nx - - - - x x x x x\n- - - - x x - x x x\nx x - - x - - - x x\nx x x x x x x - - -\n- - - x - x x x x x\n- x - x - x x - x x\n- x x x - x x - x x",
       "source": "https://www.janko.at/Raetsel/Corral/199.a.htm",
       "info": ""
     },
     "200_10x10": {
-      "problem": "10 10\n- 9 - - - - 9 - - -\n- - - - - - - - 5 -\n7 - - - 4 - - - - 2\n- - 4 - - - - - - - \n7 - - - 4 - - 7 - -\n- - 3 - - 2 - - - 2\n- - - - - - - 5 - -\n8 - - - - 5 - - - 5\n- 9 - - - - - - - -\n- - - 12 - - - - 10 -",
+      "problem": "10 10\n- 9 - - - - 9 - - -\n- - - - - - - - 5 -\n7 - - - 4 - - - - 2\n- - 4 - - - - - - -\n7 - - - 4 - - 7 - -\n- - 3 - - 2 - - - 2\n- - - - - - - 5 - -\n8 - - - - 5 - - - 5\n- 9 - - - - - - - -\n- - - 12 - - - - 10 -",
       "solution": "10 10\n- x x x x x x x x -\nx x x - - - x x x x\nx - x - x - - - - x\nx - x - x x x x - -\nx - - - x - - x x x\nx x x - x x - x - x\nx x - - - - - x - -\nx x - x x x - x x x\n- x x x x x - - - x\nx x x x x x x x x x",
       "source": "https://www.janko.at/Raetsel/Corral/200.a.htm",
       "info": ""
@@ -1210,7 +1204,7 @@
       "info": ""
     },
     "203_10x10": {
-      "problem": "10 10\n6 - - - - - - - - -\n- 5 - - 7 4 - - - -\n- - 4 - - - - 3 - -\n- - - - - - - - - -\n- 5 - - - - - - 5 -\n- 2 - - - - - - 7 -\n- - - - - - - - - -\n- - 3 - - - - 4 - -\n- - - - 3 2 - - 5 - \n- - - - - - - - - 7",
+      "problem": "10 10\n6 - - - - - - - - -\n- 5 - - 7 4 - - - -\n- - 4 - - - - 3 - -\n- - - - - - - - - -\n- 5 - - - - - - 5 -\n- 2 - - - - - - 7 -\n- - - - - - - - - -\n- - 3 - - - - 4 - -\n- - - - 3 2 - - 5 -\n- - - - - - - - - 7",
       "solution": "10 10\nx x x x x - - - - -\nx x x - x x - - - -\n- x x - x x - x x -\n- - - - x x x x x -\n- x x x x - - - x x\n- x - x x - x x x x\n- - - x - - - - - x\n- - x x x - - x x x\n- - - - x x - x x x\n- - - - - - - - x x",
       "source": "https://www.janko.at/Raetsel/Corral/203.a.htm",
       "info": ""
@@ -1234,7 +1228,7 @@
       "info": ""
     },
     "207_10x10": {
-      "problem": "10 10\n2 - 4 - - - - - - 6\n- 4 - 5 - - - - 5 -\n- - 6 - 4 - - 5 - 5\n- - - - - - - - 6 -\n- - - - - - - 4 - -\n- - 5 - - - - - - - \n- 5 - - - - - - - -\n5 - 3 - - 6 - 8 - -\n- 6 - - - - 9 - 5 -\n5 - - - - - - 4 - 4",
+      "problem": "10 10\n2 - 4 - - - - - - 6\n- 4 - 5 - - - - 5 -\n- - 6 - 4 - - 5 - 5\n- - - - - - - - 6 -\n- - - - - - - 4 - -\n- - 5 - - - - - - -\n- 5 - - - - - - - -\n5 - 3 - - 6 - 8 - -\n- 6 - - - - 9 - 5 -\n5 - - - - - - 4 - 4",
       "solution": "10 10\nx - x - - - x x x x\nx x x x - - - - x x\n- - x x x - - x x x\nx x x - x - x x x -\nx - - - - - x x - -\nx x x x x - x - - -\n- x - - x x x x - x\nx x x - - x x x x x\nx x - - - - x x x x\nx x x - - - - x - x",
       "source": "https://www.janko.at/Raetsel/Corral/207.a.htm",
       "info": ""
@@ -2038,181 +2032,169 @@
       "info": ""
     },
     "341_10x10": {
-      "problem": "10 10\n7 - - - - - - - - - \n- - - - - 3 7 - 4 - \n- - 5 7 - - - - 4 - \n- - - - - - - - - - \n- - - - - - - - 5 - \n- - - 2 - - - - - - \n- - - - - - - 6 9 8 \n- - 3 - - 3 - - - - \n- - - 5 - - - - - - \n6 - - - 8 - - - - 2",
+      "problem": "10 10\n7 - - - - - - - - -\n- - - - - 3 7 - 4 -\n- - 5 7 - - - - 4 -\n- - - - - - - - - -\n- - - - - - - - 5 -\n- - - 2 - - - - - -\n- - - - - - - 6 9 8\n- - 3 - - 3 - - - -\n- - - 5 - - - - - -\n6 - - - 8 - - - - 2",
       "solution": "10 10\nx x x x - - - - - -\nx - - x - x x - x -\nx - x x x x x - x -\nx - - - - - x - x -\n- - - - x - x - x x\n- - - x x - x - - x\nx - - - x x x x x x\nx - x - x x - - x -\nx x x x x - - - x -\nx x x - x x x - x x",
       "source": "https://www.janko.at/Raetsel/Corral/341.a.htm",
       "info": ""
     },
     "342_10x10": {
-      "problem": "10 10\n- - - - 2 - - 7 - 7 \n2 - 7 - - - - - - - \n- - - - - - - - - - \n5 - - - - - 2 - - 4 \n- - 4 - - - - - - - \n- 3 - 6 - - - 7 - - \n- - 7 - - - - - - - \n3 - - - - 7 - - - - \n- - - - 5 - - - - 6 \n- - - - - - 4 - - -",
+      "problem": "10 10\n- - - - 2 - - 7 - 7\n2 - 7 - - - - - - -\n- - - - - - - - - -\n5 - - - - - 2 - - 4\n- - 4 - - - - - - -\n- 3 - 6 - - - 7 - -\n- - 7 - - - - - - -\n3 - - - - 7 - - - -\n- - - - 5 - - - - 6\n- - - - - - 4 - - -",
       "solution": "10 10\nx x x - x - x x x x\nx - x x x x x x - x\n- - - x - - - x - x\nx x x x x - x x - x\n- - x - - - - - - -\n- x x x - x - x x x\n- - x x x x - x - -\nx - - x x x x x - x\nx - x x x - x x x x\nx x x - - - x x - x",
       "source": "https://www.janko.at/Raetsel/Corral/342.a.htm",
       "info": ""
     },
     "343_10x10": {
-      "problem": "10 10\n- - 2 - - 7 - - - - \n5 - - - - - - - - 4 \n- - - - - - - 3 - - \n6 - - - - - - - - - \n- - - 2 - - - - - - \n- - 3 4 5 - - 3 - 4 \n- - - - - - 3 - - - \n- 7 - - - - 3 - - - \n- - 4 - - - - - - - \n5 - - - - - 4 - - -",
+      "problem": "10 10\n- - 2 - - 7 - - - -\n5 - - - - - - - - 4\n- - - - - - - 3 - -\n6 - - - - - - - - -\n- - - 2 - - - - - -\n- - 3 4 5 - - 3 - 4\n- - - - - - 3 - - -\n- 7 - - - - 3 - - -\n- - 4 - - - - - - -\n5 - - - - - 4 - - -",
       "solution": "10 10\nx - x - - x x x x x\nx x x x - x - - x x\n- x - x x x - x x x\nx x - - - - - - x -\nx - - x - - - x x x\nx - x x x - x x - x\nx - - - x - x - - x\nx x x x x - x - x x\n- x x - - - - - x -\nx x x x x - x x x x",
       "source": "https://www.janko.at/Raetsel/Corral/343.a.htm",
       "info": ""
     },
     "344_10x10": {
-      "problem": "10 10\n- - - - - - - - 5 - \n- - 3 - - - - 4 - 6 \n- 3 - 6 - - - - 4 - \n- - 6 - - 7 - - - - \n- - - - - - 5 - - - \n- - - 9 - - - - - - \n- - - - 5 - - 6 - - \n- 5 - - - - 4 - 6 - \n5 - 5 - - - - 5 - - \n- 5 - - - - - - - -",
+      "problem": "10 10\n- - - - - - - - 5 -\n- - 3 - - - - 4 - 6\n- 3 - 6 - - - - 4 -\n- - 6 - - 7 - - - -\n- - - - - - 5 - - -\n- - - 9 - - - - - -\n- - - - 5 - - 6 - -\n- 5 - - - - 4 - 6 -\n5 - 5 - - - - 5 - -\n- 5 - - - - - - - -",
       "solution": "10 10\n- - - - - - x x x -\n- - x - - - - x x x\n- x x x - x - - x x\n- - x x x x - - - x\n- - - x x x x - x x\n- - - x x x x x x -\n- x - - x - - x x x\nx x - x x - x x x -\nx x x x - - x x - -\n- x x - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Corral/344.a.htm",
       "info": ""
     },
     "345_10x10": {
-      "problem": "10 10\n6 - - 2 - - 6 - - - \n- - 5 - - - - - 5 - \n- - - - - - - - - - \n- 2 - - - 2 - - 5 - \n- - - 5 - - - - - - \n- - - - - - - - - 6 \n5 - - 6 - - 2 - - - \n- - - - - - - - - - \n- 5 - - 5 - 2 - - 2 \n5 - - - - - - - - -",
+      "problem": "10 10\n6 - - 2 - - 6 - - -\n- - 5 - - - - - 5 -\n- - - - - - - - - -\n- 2 - - - 2 - - 5 -\n- - - 5 - - - - - -\n- - - - - - - - - 6\n5 - - 6 - - 2 - - -\n- - - - - - - - - -\n- 5 - - 5 - 2 - - 2\n5 - - - - - - - - -",
       "solution": "10 10\nx x - x - - x x x x\nx x x x x - x - x x\nx - - - x x x - x -\nx x - - - x - - x x\nx - - x - - - - - x\n- - - x - - x x x x\nx x - x x - x - x -\nx x x x x - - - x -\nx x - x x - x - x x\nx x - - x x x x x -",
       "source": "https://www.janko.at/Raetsel/Corral/345.a.htm",
       "info": ""
     },
     "346_10x10": {
-      "problem": "10 10\n- - - 3 2 - - - - - \n- 3 - - - - - 4 3 - \n- - - - - - - - - - \n- - - 3 - - - - - - \n- - 4 - - - - - - 4 \n7 - - - - - - 3 - - \n- - - - - - 6 - - - \n- - - - - - - - - - \n- - 3 2 - - - - 2 - \n- - - - - 6 8 - - -",
+      "problem": "10 10\n- - - 3 2 - - - - -\n- 3 - - - - - 4 3 -\n- - - - - - - - - -\n- - - 3 - - - - - -\n- - 4 - - - - - - 4\n7 - - - - - - 3 - -\n- - - - - - 6 - - -\n- - - - - - - - - -\n- - 3 2 - - - - 2 -\n- - - - - 6 8 - - -",
       "solution": "10 10\n- - - x x - - - - -\n- x x x - - - x x x\n- - x - - - x x - x\nx - x x x - x - - x\nx - x - x x x x - x\nx - - - x - - x - -\nx x x x x - x x x -\nx - - - - - x - - -\nx - x x - x x - x -\nx x x - - x x x x x",
       "source": "https://www.janko.at/Raetsel/Corral/346.a.htm",
       "info": ""
     },
     "347_10x10": {
-      "problem": "10 10\n2 - - - 6 - - - - 15 \n- - - - - - - - - - \n- - - - - 8 - 6 - - \n- - 3 - - - - - - - \n- - - - - 2 - - - - \n- - - - 8 - - - - - \n- - - - - - - 11 - - \n- - 3 - 6 - - - - - \n- - - - - - - - - - \n15 - - - - 9 - - - 10",
+      "problem": "10 10\n2 - - - 6 - - - - 15\n- - - - - - - - - -\n- - - - - 8 - 6 - -\n- - 3 - - - - - - -\n- - - - - 2 - - - -\n- - - - 8 - - - - -\n- - - - - - - 11 - -\n- - 3 - 6 - - - - -\n- - - - - - - - - -\n15 - - - - 9 - - - 10",
       "solution": "10 10\nx x - - x x x x x x\n- x x - - x - - - x\nx x x x x x - x - x\nx - x - - - - x - x\nx - - - x x - x - x\nx - x x x - - x - x\nx - x x x x x x - x\nx - x - x - - x - x\nx - - - x x - - - x\nx x x x x x x x - x",
       "source": "https://www.janko.at/Raetsel/Corral/347.a.htm",
       "info": ""
     },
     "348_10x10": {
-      "problem": "10 10\n- 2 - - - 5 - - - 2 \n- - - - - - 5 - - - \n- 4 - - - - - - - 8 \n- - - - - - - - - - \n- 2 - - 12 - - - - - \n- - - - - 13 - - 5 - \n- - - - - - - - - - \n4 - - - - - - - 6 - \n- - - 8 - - - - - - \n4 - - - 9 - - - 3 -",
+      "problem": "10 10\n- 2 - - - 5 - - - 2\n- - - - - - 5 - - -\n- 4 - - - - - - - 8\n- - - - - - - - - -\n- 2 - - 12 - - - - -\n- - - - - 13 - - 5 -\n- - - - - - - - - -\n4 - - - - - - - 6 -\n- - - 8 - - - - - -\n4 - - - 9 - - - 3 -",
       "solution": "10 10\nx x - x x x x - x x\nx - - - - x x x x -\nx x x x - - - x x x\n- - - x x x - - - x\n- x - - x x x x x x\nx x x x x x x - x x\n- - - - x x - - x x\nx x - x x x - x x x\nx x x x x x - x - -\nx x - x x x - x x x",
       "source": "https://www.janko.at/Raetsel/Corral/348.a.htm",
       "info": ""
     },
     "349_10x10": {
-      "problem": "10 10\n- - 7 - 5 - - - - - \n- 5 - - - - 2 - 3 - \n6 - 3 - - - - - - - \n- - - - - - - - 2 - \n7 - - - 4 - 6 - - - \n- - - 7 - 10 - - - 6 \n- 3 - - - - - - - - \n- - - - - - - 8 - 5 \n- 2 - 2 - - - - 6 - \n- - - - - 8 - 6 - -",
+      "problem": "10 10\n- - 7 - 5 - - - - -\n- 5 - - - - 2 - 3 -\n6 - 3 - - - - - - -\n- - - - - - - - 2 -\n7 - - - 4 - 6 - - -\n- - - 7 - 10 - - - 6\n- 3 - - - - - - - -\n- - - - - - - 8 - 5\n- 2 - 2 - - - - 6 -\n- - - - - 8 - 6 - -",
       "solution": "10 10\nx x x x x - - - x -\nx x x x - - x - x x\nx - x - - x x - - x\nx - - - - x - - x x\nx x - - x x x - - x\nx x x x x x x - x x\n- x - - - - x x x -\n- - - - - x x x x x\n- x - x - x - x x -\nx x x x x x - x x x",
       "source": "https://www.janko.at/Raetsel/Corral/349.a.htm",
       "info": ""
     },
     "350_10x10": {
-      "problem": "10 10\n- - 5 - 4 - - 4 4 4 \n- - - - - - - - - - \n- - 5 - - - 5 - - - \n- 2 - - - 3 - - - - \n- - - 12 - - - - - - \n2 - - - - - - - - - \n7 7 - - 9 - - - - - \n- - - - - 10 - - - - \n- - 10 - - - - 9 9 - \n3 - - - - - - - - 3",
+      "problem": "10 10\n- - 5 - 4 - - 4 4 4\n- - - - - - - - - -\n- - 5 - - - 5 - - -\n- 2 - - - 3 - - - -\n- - - 12 - - - - - -\n2 - - - - - - - - -\n7 7 - - 9 - - - - -\n- - - - - 10 - - - -\n- - 10 - - - - 9 9 -\n3 - - - - - - - - 3",
       "solution": "10 10\n- - x x x - x x x x\n- - x x x - x - - -\n- x x x - - x - - -\n- x - x - x x - - -\n- - - x x x x - - -\nx - - x - - - - - -\nx x x x x x - - - -\n- x x x x x x x x -\n- - x x x x x x x -\nx x x - x - - x x x",
       "source": "https://www.janko.at/Raetsel/Corral/350.a.htm",
       "info": ""
     },
     "351_10x10": {
-      "problem": "10 10\n2 - 3 - 4 - - 5 - 3 \n- - - - - - - - - - \n- - 5 - - - - 4 - 4 \n- - - - - 4 - - - - \n- - - 4 - - - - - 4 \n5 - - - - - 5 - - - \n- - - - - - - - - - \n3 - 4 - - - - 4 - - \n- - - - - - - - - - \n4 - 6 - - 4 - 4 - 2",
+      "problem": "10 10\n2 - 3 - 4 - - 5 - 3\n- - - - - - - - - -\n- - 5 - - - - 4 - 4\n- - - - - 4 - - - -\n- - - 4 - - - - - 4\n5 - - - - - 5 - - -\n- - - - - - - - - -\n3 - 4 - - - - 4 - -\n- - - - - - - - - -\n4 - 6 - - 4 - 4 - 2",
       "solution": "10 10\nx - x - x - - x x x\nx x x - x - - x - -\n- - x x x - x x - x\n- - - x x x x - - x\n- - x x - - x - - x\nx x x - - - x - x x\nx - - - - x x x x -\nx - x x - x - x - -\n- - x x x x - x x x\nx x x x - x - x - x",
       "source": "https://www.janko.at/Raetsel/Corral/351.a.htm",
       "info": ""
     },
     "352_10x10": {
-      "problem": "10 10\n10 - - 12 - - - 14 - - \n- - - - - - 4 - - 2 \n8 - - 3 - - - - - - \n- - - - - - 4 - - 2 \n- - - 12 - - - - - - \n- - - - - - 4 - - - \n8 - - 5 - - - - - - \n- - - - - - 2 - - 2 \n12 - - 10 - - - - - - \n- - 4 - - - 2 - - 2",
+      "problem": "10 10\n10 - - 12 - - - 14 - -\n- - - - - - 4 - - 2\n8 - - 3 - - - - - -\n- - - - - - 4 - - 2\n- - - 12 - - - - - -\n- - - - - - 4 - - -\n8 - - 5 - - - - - -\n- - - - - - 2 - - 2\n12 - - 10 - - - - - -\n- - 4 - - - 2 - - 2",
       "solution": "10 10\nx x x x x x x x x x\n- - - x - x x x - x\nx x - x - - - x - -\nx - - - - - x x - x\nx - x x x x x x x x\nx - - x - x x - x -\nx x - x - - - - x -\nx x x x - x x - x x\nx x x x x x - - x -\n- x x - - x x - x x",
       "source": "https://www.janko.at/Raetsel/Corral/352.a.htm",
       "info": ""
     },
     "353_10x10": {
-      "problem": "10 10\n6 - - - 6 - - - - 4 \n- - 6 - - - - 4 - - \n- 6 - - - - - - 4 - \n- - - 5 - - - - - 4 \n- - - - - 4 - 4 - - \n- - 3 - 9 - - - - - \n3 - - - - - 5 - - - \n- 3 - - - - - - 5 - \n- - 3 - - - - 5 - - \n3 - - - - 5 - - - 5",
+      "problem": "10 10\n6 - - - 6 - - - - 4\n- - 6 - - - - 4 - -\n- 6 - - - - - - 4 -\n- - - 5 - - - - - 4\n- - - - - 4 - 4 - -\n- - 3 - 9 - - - - -\n3 - - - - - 5 - - -\n- 3 - - - - - - 5 -\n- - 3 - - - - 5 - -\n3 - - - - 5 - - - 5",
       "solution": "10 10\nx x x x x - x x x x\nx x x x x - x x x -\n- x - - - - - - x x\n- x x x x x - - - x\n- x - - x x - x x x\nx x x - x x x x x x\nx - - - x - x - - -\nx x x - - - x x x -\n- - x - - - x x x -\nx x x - - x x x x x",
       "source": "https://www.janko.at/Raetsel/Corral/353.a.htm",
       "info": ""
     },
     "354_10x10": {
-      "problem": "10 10\n- - - - - - 8 - - - \n- - 3 - - 4 5 4 - - \n- 4 5 3 - - 3 - - - \n- - 5 - - - - - - - \n- - - - 4 - - - - - \n- 6 - - - - - - 5 - \n6 6 4 - - - - 9 7 11 \n- 4 - - 4 - - - 4 - \n- - - 6 7 7 - - - - \n- - - - 4 - - - - -",
+      "problem": "10 10\n- - - - - - 8 - - -\n- - 3 - - 4 5 4 - -\n- 4 5 3 - - 3 - - -\n- - 5 - - - - - - -\n- - - - 4 - - - - -\n- 6 - - - - - - 5 -\n6 6 4 - - - - 9 7 11\n- 4 - - 4 - - - 4 -\n- - - 6 7 7 - - - -\n- - - - 4 - - - - -",
       "solution": "10 10\n- - - - x x x x x x\n- - x - - x x x - x\n- x x x - - x - - x\nx x x - - - - - - x\nx - - - x x x x - x\nx x x - - - - x x x\nx x x - - x x x x x\n- x - - x x - x x -\n- x x x x x - x - -\n- - - x x - - - - -",
       "source": "https://www.janko.at/Raetsel/Corral/354.a.htm",
       "info": ""
     },
     "355_10x10": {
-      "problem": "10 10\n2 - - - 5 - - - 2 - \n- - - - - - - - - - \n- - - 7 7 7 7 - - - \n- 4 - - - - 7 - - 3 \n- - - - - 7 - - - - \n- - - - - 7 - - - - \n10 - - - 7 - - - 3 - \n- - - - 7 - - - - - \n- - - - - - - - - - \n- 2 - - - 7 - - - 10",
+      "problem": "10 10\n2 - - - 5 - - - 2 -\n- - - - - - - - - -\n- - - 7 7 7 7 - - -\n- 4 - - - - 7 - - 3\n- - - - - 7 - - - -\n- - - - - 7 - - - -\n10 - - - 7 - - - 3 -\n- - - - 7 - - - - -\n- - - - - - - - - -\n- 2 - - - 7 - - - 10",
       "solution": "10 10\nx - - x x - - x x -\nx x - x x - x x - -\n- x - x x x x - - x\nx x - x x x x - x x\nx - - - - x x x x -\nx - x x x x - - - -\nx x x x x - - x x x\nx - - x x x x x - x\nx x - - - - - - - x\n- x - x x x x x x x",
       "source": "https://www.janko.at/Raetsel/Corral/355.a.htm",
       "info": ""
     },
     "356_10x10": {
-      "problem": "10 10\n3 - - 2 - - 4 - - 6 \n- - - - - - - - - - \n- - - 3 - - - - - 5 \n3 - - - - - - - - - \n- - - 4 - 3 - - - 4 \n- - - - - - - - 6 - \n3 - - 5 - - 5 - - 3 \n- - - - 3 - - - - - \n- - - 6 - - - - - 2 \n3 - - - - - 4 - - -",
+      "problem": "10 10\n3 - - 2 - - 4 - - 6\n- - - - - - - - - -\n- - - 3 - - - - - 5\n3 - - - - - - - - -\n- - - 4 - 3 - - - 4\n- - - - - - - - 6 -\n3 - - 5 - - 5 - - 3\n- - - - 3 - - - - -\n- - - 6 - - - - - 2\n3 - - - - - 4 - - -",
       "solution": "10 10\nx x - x x - x x x x\nx x - - x - - - - x\n- x - x x x - x x x\nx x - - - x x x x -\nx x x x - x - - x x\n- x - - - - - x x x\nx x - x x x x x - x\nx x - - x - - - - -\n- x x x x x x - x x\nx x x - - - x x x -",
       "source": "https://www.janko.at/Raetsel/Corral/356.a.htm",
       "info": ""
     },
     "357_10x10": {
-      "problem": "10 10\n- 2 - - - - - - - 5 \n- - - 2 - - - 5 - - \n- 2 - - - 5 - - - 5 \n- - - 2 - - - 5 - - \n- 2 - - - - - - - 5 \n- - - 2 - - - 5 - - \n- 2 - - - - - - - 5 \n- - - 2 - - - 5 - - \n- 2 - - - - - - - 5 \n- - - - - - - 5 - -",
+      "problem": "10 10\n- 2 - - - - - - - 5\n- - - 2 - - - 5 - -\n- 2 - - - 5 - - - 5\n- - - 2 - - - 5 - -\n- 2 - - - - - - - 5\n- - - 2 - - - 5 - -\n- 2 - - - - - - - 5\n- - - 2 - - - 5 - -\n- 2 - - - - - - - 5\n- - - - - - - 5 - -",
       "solution": "10 10\n- x x - - - - - - x\n- - x x - - - x x x\n- x x - - x - x - x\n- - x x - x x x - x\n- x x - - x - - - x\n- - x x - x - x - -\n- x x - - x x x x x\n- - x x - - - x - -\n- x x - - x x x x x\n- - x x x x - x - -",
       "source": "https://www.janko.at/Raetsel/Corral/357.a.htm",
       "info": ""
     },
     "358_10x10": {
-      "problem": "10 10\n- - - 4 - - - - - - \n- - - - 8 - - - 3 12 \n- 2 5 - - - - - - - \n- - - - - - - 8 - - \n- - - - - - 3 - - - \n- - - 8 - - - - - - \n- - 3 - - - - - - - \n- - - - - - - 10 5 - \n7 3 - - - 4 - - - - \n- - - - - - 5 - - -",
+      "problem": "10 10\n- - - 4 - - - - - -\n- - - - 8 - - - 3 12\n- 2 5 - - - - - - -\n- - - - - - - 8 - -\n- - - - - - 3 - - -\n- - - 8 - - - - - -\n- - 3 - - - - - - -\n- - - - - - - 10 5 -\n7 3 - - - 4 - - - -\n- - - - - - 5 - - -",
       "solution": "10 10\n- x x x - x x x - x\n- - x x x x - x x x\n- x x - x - - - - x\n- - x - x - x x - x\nx - - - x - x x - x\nx x x x x - - x - x\nx - x x - - - x x x\nx - - x - - x x x x\nx x - x - x x x - x\nx x - - - x x x - x",
       "source": "https://www.janko.at/Raetsel/Corral/358.a.htm",
       "info": ""
     },
     "359_10x10": {
-      "problem": "10 10\n10 13 - - - - - - - - \n- - - - 4 - 3 - 2 - \n- - - - - - - - - - \n- - 8 - 7 - 6 - 5 - \n- - - - - - - - - - \n- - - - - - - - 9 - \n- - 14 - - - - - - - \n- - - - - 10 - 4 - - \n- - - - - - - - - - \n- - - - - - - - - 19",
+      "problem": "10 10\n10 13 - - - - - - - -\n- - - - 4 - 3 - 2 -\n- - - - - - - - - -\n- - 8 - 7 - 6 - 5 -\n- - - - - - - - - -\n- - - - - - - - 9 -\n- - 14 - - - - - - -\n- - - - - 10 - 4 - -\n- - - - - - - - - -\n- - - - - - - - - 19",
       "solution": "10 10\nx x x x x x - - - x\nx x - - x x x - x x\nx x x - - - - - - x\nx x x - x x x - x x\nx x x - x x x x x x\n- x x - x x x x x x\n- x x x x x x x x x\nx x x x x x - x - x\n- - - - - - - - - x\nx x x x x x x x x x",
       "source": "https://www.janko.at/Raetsel/Corral/359.a.htm",
       "info": ""
     },
     "360_10x10": {
-      "problem": "10 10\n3 5 - - - - - - - 4 \n- - - - - 3 2 - 2 - \n2 - - - 3 - - - - - \n- - - - - - - - - - \n2 - 8 - - - - - 4 - \n4 - - - - - - - - 5 \n- - - - - 2 6 - - - \n- - - - - - - - - - \n- - - 4 - - - - 4 - \n4 4 - 3 - - - 2 - 2",
+      "problem": "10 10\n3 5 - - - - - - - 4\n- - - - - 3 2 - 2 -\n2 - - - 3 - - - - -\n- - - - - - - - - -\n2 - 8 - - - - - 4 -\n4 - - - - - - - - 5\n- - - - - 2 6 - - -\n- - - - - - - - - -\n- - - 4 - - - - 4 -\n4 4 - 3 - - - 2 - 2",
       "solution": "10 10\nx x x - - - - - - x\n- x x x - x x - x x\nx x - x x x - - - x\n- - - x - - - - x x\nx - x x x x x - x -\nx x x - - - x x x x\n- - x - - x x - x x\nx x x x - - x - - -\nx x - x x - x x x x\nx x - x - - - x - x",
       "source": "https://www.janko.at/Raetsel/Corral/360.a.htm",
       "info": ""
     },
     "361_10x10": {
-      "problem": "10 10\n- - 3 - 4 - 6 - - - \n- 19 - - - - - - - 10 \n3 - - - - - - - 4 - \n- - 3 - - 5 - - - - \n2 - - 2 - - - - 3 - \n- - - - - - - - - 2 \n3 - - 2 - - - 8 - - \n- - - - - 4 - - - 4 \n- - - - - - - - - - \n5 - - - - - - - 3 -",
+      "problem": "10 10\n- - 3 - 4 - 6 - - -\n- 19 - - - - - - - 10\n3 - - - - - - - 4 -\n- - 3 - - 5 - - - -\n2 - - 2 - - - - 3 -\n- - - - - - - - - 2\n3 - - 2 - - - 8 - -\n- - - - - 4 - - - 4\n- - - - - - - - - -\n5 - - - - - - - 3 -",
       "solution": "10 10\n- x x - x x x - - -\nx x x x x x x x x x\nx x - - - - x x x -\n- x x x - x x x - -\nx x - x - x - x x x\n- x - - - x - x - x\nx x - x - - - x - -\nx x - x x x - x x x\n- x - - x x - x x x\nx x x x x - - - x -",
       "source": "https://www.janko.at/Raetsel/Corral/361.a.htm",
       "info": ""
     },
     "362_10x10": {
-      "problem": "10 10\n- 3 3 - 2 - - 2 - 6 \n- - - - - 3 - - - - \n- - 2 - - - - - - - \n- - - 4 - - 5 - 3 - \n- - - - - - - - - 10 \n4 - - - - - - - - - \n- 4 - 5 - - 3 - - - \n- - - - - - - 4 - - \n- - - - 6 - - - - - \n2 - 3 - - 6 - 5 5 -",
+      "problem": "10 10\n- 3 3 - 2 - - 2 - 6\n- - - - - 3 - - - -\n- - 2 - - - - - - -\n- - - 4 - - 5 - 3 -\n- - - - - - - - - 10\n4 - - - - - - - - -\n- 4 - 5 - - 3 - - -\n- - - - - - - 4 - -\n- - - - 6 - - - - -\n2 - 3 - - 6 - 5 5 -",
       "solution": "10 10\nx x x - x - x x - x\nx - - - x x x - - x\nx - x - - - x - - x\nx x x x - - x - x x\n- x - - - x x x x x\nx x x x - x - - - x\n- x - x - x x x - -\n- - - x - - - x x x\nx x x x x x - - - x\nx - x x - x x x x x",
       "source": "https://www.janko.at/Raetsel/Corral/362.a.htm",
       "info": ""
     },
     "363_10x10": {
-      "problem": "10 10\n2 - - - 2 - - 5 - - \n- 4 3 - - - - - - 4 \n- - - - 3 3 - - - - \n- - - 8 - - - 4 6 - \n- - - - 5 - - - - 7 \n3 - - - - 6 - - - - \n- 9 3 - - - 5 - - - \n- - - - 5 4 - - - - \n3 - - - - - - 2 4 - \n- - 6 - - 5 - - - 2",
+      "problem": "10 10\n2 - - - 2 - - 5 - -\n- 4 3 - - - - - - 4\n- - - - 3 3 - - - -\n- - - 8 - - - 4 6 -\n- - - - 5 - - - - 7\n3 - - - - 6 - - - -\n- 9 3 - - - 5 - - -\n- - - - 5 4 - - - -\n3 - - - - - - 2 4 -\n- - 6 - - 5 - - - 2",
       "solution": "10 10\nx x - x x - x x x x\n- x x x - - - x x x\n- - - x x x - - x -\nx x x x - - - x x -\n- x - x x - x x x x\nx x - - x x x x - x\nx x x - x x x - - x\n- x - - x x - - x x\nx x x - - - - x x -\n- x x x x x - - x x",
       "source": "https://www.janko.at/Raetsel/Corral/363.a.htm",
       "info": ""
     },
     "364_10x10": {
-      "problem": "10 10\n- - - - - - - - - - \n- 2 - 3 - 4 - 5 - - \n- - - - - - - - - 10 \n- 6 - 7 - 8 - 9 - - \n- - - - - - - - - - \n- - 10 - 11 - 12 - 13 - \n14 - - - - - - - - - \n- - - - - 6 - - - - \n- - - - - - - - - - \n15 - - - - - - - - 5",
+      "problem": "10 10\n- - - - - - - - - -\n- 2 - 3 - 4 - 5 - -\n- - - - - - - - - 10\n- 6 - 7 - 8 - 9 - -\n- - - - - - - - - -\n- - 10 - 11 - 12 - 13 -\n14 - - - - - - - - -\n- - - - - 6 - - - -\n- - - - - - - - - -\n15 - - - - - - - - 5",
       "solution": "10 10\n- - - - - x - - - x\nx x - x - x - x - x\nx - - x x x x x x x\nx x - x x x x x - x\nx x - - - - x x - -\nx x x x x x x x x -\nx x x x x x - - x x\nx x - x x x x - x x\nx - - - - - - - x x\nx x x x x x x - x x",
       "source": "https://www.janko.at/Raetsel/Corral/364.a.htm",
       "info": ""
     },
     "365_10x10": {
-      "problem": "10 10\n- 2 - - - 4 - - - - \n- - - - - 5 - - - - \n- 9 - - 6 - - - - - \n- - - 8 - - - - - - \n- - - - - 4 - - - - \n- - - 8 - - - - 3 - \n3 - - - - - 8 - - - \n- 7 - - - 3 - - - - \n- - 2 - - - - - - - \n- - - - - 4 - 5 - 5",
+      "problem": "10 10\n- 2 - - - 4 - - - -\n- - - - - 5 - - - -\n- 9 - - 6 - - - - -\n- - - 8 - - - - - -\n- - - - - 4 - - - -\n- - - 8 - - - - 3 -\n3 - - - - - 8 - - -\n- 7 - - - 3 - - - -\n- - 2 - - - - - - -\n- - - - - 4 - 5 - 5",
       "solution": "10 10\n- x x - x x x - - -\n- - x x x x - - - -\n- x x x x - - - - -\nx x x x - - - - - -\n- x - x x x - - - -\nx x - x x x x - x x\nx x - - - - x x x x\n- x x - x x x - - x\n- - x - - - x x - x\n- - - - x x x x - x",
       "source": "https://www.janko.at/Raetsel/Corral/365.a.htm",
       "info": ""
     },
-    "366_14x14": {
-      "problem": "14 14\n- - 6 - - - - 3 - - - - - 4 \n13 - - - - - - - - - - - - - \n- - - - - 8 - - - - - 3 - - \n- - - 26 - - - - - 26 - - - - \n- - - - 6 - - - - - 6 - - - \n- 2 - - - - - - - - - - 11 - \n- - - - - - 2 - 6 - - - - - \n- 6 - - - - - - - - - - - 7 \n- - - - - - - 2 - - - - - - \n- 8 - 20 - - - - - - - - - - \n- - - - 12 - - - - - - - - - \n- - - - - - - - - 20 - - - - \n- - 11 - - - - - - - 12 - - - \n- - - - - 15 - - - - - - - 7",
-      "solution": "14 14\nx - x x x - x x - x - x x x\nx x x x x x x x - x - - x x\nx x x x x x - - - x - x x -\nx x x x x x x x x x x x x -\nx - - x x - x x x x x - x x\nx x - x - - - - x x - - x x\n- - - x - x x - x x x - x x\nx x x x x x - - - x x - x x\n- - x x x x - x - x x - x x\n- x x x x x x x - x x - x x\nx x x x x x - - - x x - - -\n- - x x x x - x x x x x x x\n- x x x x x - - - x x x x x\nx x x x x x x x - x x x x x",
-      "source": "https://www.janko.at/Raetsel/Corral/366.a.htm",
-      "info": ""
-    },
-    "367_10x10": {
-      "problem": "10 10\n- 7 - - - - - - - - \n- - - - 3 - - - - - \n- - - - - 3 - - 4 - \n- - - - - - - - - - \n- 2 - - 3 - - 2 - - \n- - 3 - - 2 - - 3 - \n- - - - - - - - - - \n- - - - 2 - - - - - \n- - - - - 3 - - - 7 \n- - 6 - - - - - - -",
-      "solution": "10 10\n- x x x x x x x - -\n- - - - x - - x x -\n- - - x x x - x x x\n- - - x - - - - - x\n- x - x x x - x - x\n- x x x - x - x x x\n- - - - - - - - - x\n- - - - x x - x x x\n- - - - - x - x - x\n- - x x x x x x - -",
-      "source": "https://www.janko.at/Raetsel/Corral/367.a.htm",
-      "info": ""
-    },
     "368_10x10": {
-      "problem": "10 10\n- - 3 - - 7 - - 3 - \n2 - - - - - 4 - - - \n- - - - 4 - - - - - \n8 - - 3 - - - 2 - - \n- 3 - - - - 5 - - - \n- - - 2 - - - - - 6 \n- - - - - - - - - - \n- 4 - - 2 - - 3 - - \n- - - - - - - - - 3 \n- 2 - 4 - - - - 4 -",
+      "problem": "10 10\n- - 3 - - 7 - - 3 -\n2 - - - - - 4 - - -\n- - - - 4 - - - - -\n8 - - 3 - - - 2 - -\n- 3 - - - - 5 - - -\n- - - 2 - - - - - 6\n- - - - - - - - - -\n- 4 - - 2 - - 3 - -\n- - - - - - - - - 3\n- 2 - 4 - - - - 4 -",
       "solution": "10 10\n- x x x - x - - x x\nx x - x x x x - x x\n- - - - x x - - - x\nx x - x x x - x - x\nx x - - - x x x x x\nx - - x - x - - - x\nx x x x x x x - - -\nx x x - x - x x x -\nx - - - - - x - x x\nx x - x x x x - x x",
       "source": "https://www.janko.at/Raetsel/Corral/368.a.htm",
       "info": ""
     },
     "369_10x10": {
-      "problem": "10 10\n2 - 3 - 2 - 5 - - 2 \n- - - - - - - - - - \n- 3 - - - 4 - - - 2 \n- - - - 4 - - - - - \n4 - - 3 - - 5 - - 2 \n- - - - - - - - - - \n3 - 2 - - 3 - 4 - 4 \n- - - - - - - - - - \n2 - - 5 - - - - - - \n- - - - 7 - 3 - - 2",
+      "problem": "10 10\n2 - 3 - 2 - 5 - - 2\n- - - - - - - - - -\n- 3 - - - 4 - - - 2\n- - - - 4 - - - - -\n4 - - 3 - - 5 - - 2\n- - - - - - - - - -\n3 - 2 - - 3 - 4 - 4\n- - - - - - - - - -\n2 - - 5 - - - - - -\n- - - - 7 - 3 - - 2",
       "solution": "10 10\nx - x - x - x - x x\nx x x x x x x x x -\n- x x - - x x - x x\n- - - - x x x - x -\nx x - x x - x - x x\nx x x x - - - - x -\nx - x - - x - x x x\n- - - - x x x x x x\nx - - x x x x - x -\nx x x x x - x - x x",
       "source": "https://www.janko.at/Raetsel/Corral/369.a.htm",
       "info": ""
     },
     "370_10x18": {
-      "problem": "10 18\n3 6 - - - - - 11 - - - - - - 4 - - - \n3 6 - - - - - - - 6 - - - - - - 3 - \n- - - - 6 12 - - - - - 3 - - - - - - \n- - - - 6 12 - - - - - - - 5 - - - - \n3 - - - - - - - 6 6 - - - - - 2 - - \n- - 2 - - - - - 6 6 - - - - - - - 3 \n- - - - 4 - - - - - - - 8 8 - - - - \n- - - - - - 6 - - - - - 4 4 - - - - \n- 2 - - - - - - 2 - - - - - - - 3 3 \n- - - 11 - - - - - - 6 - - - - - 6 6",
+      "problem": "10 18\n3 6 - - - - - 11 - - - - - - 4 - - -\n3 6 - - - - - - - 6 - - - - - - 3 -\n- - - - 6 12 - - - - - 3 - - - - - -\n- - - - 6 12 - - - - - - - 5 - - - -\n3 - - - - - - - 6 6 - - - - - 2 - -\n- - 2 - - - - - 6 6 - - - - - - - 3\n- - - - 4 - - - - - - - 8 8 - - - -\n- - - - - - 6 - - - - - 4 4 - - - -\n- 2 - - - - - - 2 - - - - - - - 3 3\n- - - 11 - - - - - - 6 - - - - - 6 6",
       "solution": "10 18\nx x - x x x x x x x x x x - x - - -\nx x - - - x x x x x - x x x x - x -\n- x x x x x - - - - - x - - x - x -\n- x - - x x x x x - - - - x x x x x\nx x x - - x - - x x x x - - - x - x\n- - x - - x x - x x x x - - - - - x\n- - - - x x x - - x x x x x x x - -\n- - - x x x x - - - x - x x x - - -\n- x - x - - - - x - x - - - x - x x\nx x x x x x x x x - x - - x x x x x",
       "source": "https://www.janko.at/Raetsel/Corral/370.a.htm",
       "info": ""

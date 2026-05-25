@@ -1,6 +1,6 @@
 {
-  "count": 80,
-  "count_sol": 80,
+  "count": 76,
+  "count_sol": 76,
   "name": "Detour",
   "data": {
     "01_4x4": {
@@ -123,12 +123,6 @@
       "source": "https://www.janko.at/Raetsel/Detour/020.a.htm",
       "info": ""
     },
-    "21_4x4": {
-      "problem": "4 4\n- - - 3\n- 2 - -\n- - - -\n- 1 - -\n1 1 1 5\n2 3 3 5\n2 3 3 5\n2 4 4 4",
-      "solution": "4 4\nse ew ew sw\nns se ew nw\nns ne ew sw\nne ew ew nw",
-      "source": "https://www.janko.at/Raetsel/Detour/021.a.htm",
-      "info": ""
-    },
     "22_6x6": {
       "problem": "6 6\n10 - 0 - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n1 1 3 3 1 1\n2 1 3 3 1 1\n2 1 3 3 1 1\n1 1 3 3 3 1\n1 1 1 1 1 1\n1 1 1 1 1 1",
       "solution": "6 6\nse ew ew ew ew sw\nne ew ew ew sw ns\nse ew ew ew nw ns\nns se ew ew ew nw\nns ne ew ew ew sw\nne ew ew ew ew nw",
@@ -145,18 +139,6 @@
       "problem": "6 6\n- - - - - -\n1 - 1 0 - 0\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n1 1 1 1 1 1\n2 1 3 4 1 5\n2 1 3 4 1 5\n2 1 3 4 1 5\n1 1 3 4 1 1\n1 1 3 4 1 1",
       "solution": "6 6\nse sw se ew ew sw\nns ns ne ew sw ns\nns ne ew ew nw ns\nne ew ew ew sw ns\nse ew ew ew nw ns\nne ew ew ew ew nw",
       "source": "https://www.janko.at/Raetsel/Detour/024.a.htm",
-      "info": ""
-    },
-    "25_8x8": {
-      "problem": "8 8\n1 - - 4 - - - -\n- - - - - - - -\n- - - - - - - -\n- - 5 - - - - -\n- - - - - - - -\n- - - - - 3 - -\n- 6 - - - - - -\n8 - - - - - - -\n1 1 1 8 8 8 8 9\n1 4 1 1 1 8 8 9\n1 1 6 1 1 8 8 9\n1 2 7 7 9 9 9 9\n2 2 7 7 9 9 9 9\n2 2 7 7 9 10 10 10\n2 5 5 5 5 5 5 10\n3 3 3 3 3 3 3 3",
-      "solution": "8 8\nse ew ew ew ew sw se sw\nns se ew ew ew nw ns ns\nns ns se ew ew sw ns ns\nns ns ne ew sw ne nw ns\nns ns se sw ne sw se nw\nns ne nw ne ew nw ne sw\nns se sw se sw se sw ns\nne nw ne nw ne nw ne nw",
-      "source": "https://www.janko.at/Raetsel/Detour/025.a.htm",
-      "info": ""
-    },
-    "26_8x8": {
-      "problem": "8 8\n2 8 - - - 5 - -\n- - - - - - - -\n- 8 - 11 - - - 1\n- - - - - - - -\n1 - - - - - - -\n- - - - - - - -\n3 - 4 - - - 3 -\n- - - - - - - -\n1 4 4 4 4 8 8 8\n1 4 4 4 4 8 8 8\n1 5 5 7 7 7 7 10\n1 5 5 7 7 7 7 10\n2 5 5 7 7 7 7 10\n2 5 5 7 7 7 7 10\n3 3 6 6 6 6 9 9\n3 3 6 6 6 6 9 9",
-      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ne nw ne nw ns\nns se sw se ew ew sw ns\nne nw ne nw se sw ns ns\nse sw se sw ns ne nw ns\nns ne nw ns ne sw se nw\nns se sw ne ew nw ne sw\nne nw ne ew ew ew ew nw",
-      "source": "https://www.janko.at/Raetsel/Detour/026.a.htm",
       "info": ""
     },
     "27_8x8": {
@@ -178,7 +160,7 @@
       "info": ""
     },
     "30_13x12": {
-      "problem": "13 12\n- - - - - - - 2 - - - -\n- - - - - - - - - - - -\n- - 3 3 - - - - - - - -\n- - - - - - - - - 1 - -\n- - - 0 2 - - 0 - - - - \n- 2 - - - - - - - 1 - -\n- - - - 2 - 0 - 1 - - - \n- - - - - - - - - - - - \n- - - 1 - - - - - - - - \n- - 2 - 2 - - - - 2 - -\n- - - - - - - 1 - - - -\n2 - - - - - - - - - - - \n- 2 - - - - - - - - - -\n1 1 2 2 3 3 3 5 5 5 6 6\n1 1 2 2 3 3 3 5 9 5 6 6\n1 1 14 4 4 4 4 4 9 9 7 8\n15 15 14 13 13 13 11 11 11 10 7 8\n15 15 14 18 12 12 11 7 7 7 7 8\n16 17 17 18 18 18 19 19 19 20 7 8\n16 17 17 18 24 24 23 23 21 21 25 25\n28 28 28 28 26 26 23 22 22 21 25 25\n28 28 28 26 26 27 27 22 21 21 25 25\n29 29 33 33 34 34 34 38 38 39 39 39\n29 29 32 33 34 34 34 37 38 39 40 40\n30 30 32 32 32 35 35 37 37 37 40 40\n30 31 31 31 31 35 35 36 36 37 40 40",
+      "problem": "13 12\n- - - - - - - 2 - - - -\n- - - - - - - - - - - -\n- - 3 3 - - - - - - - -\n- - - - - - - - - 1 - -\n- - - 0 2 - - 0 - - - -\n- 2 - - - - - - - 1 - -\n- - - - 2 - 0 - 1 - - -\n- - - - - - - - - - - -\n- - - 1 - - - - - - - -\n- - 2 - 2 - - - - 2 - -\n- - - - - - - 1 - - - -\n2 - - - - - - - - - - -\n- 2 - - - - - - - - - -\n1 1 2 2 3 3 3 5 5 5 6 6\n1 1 2 2 3 3 3 5 9 5 6 6\n1 1 14 4 4 4 4 4 9 9 7 8\n15 15 14 13 13 13 11 11 11 10 7 8\n15 15 14 18 12 12 11 7 7 7 7 8\n16 17 17 18 18 18 19 19 19 20 7 8\n16 17 17 18 24 24 23 23 21 21 25 25\n28 28 28 28 26 26 23 22 22 21 25 25\n28 28 28 26 26 27 27 22 21 21 25 25\n29 29 33 33 34 34 34 38 38 39 39 39\n29 29 32 33 34 34 34 37 38 39 40 40\n30 30 32 32 32 35 35 37 37 37 40 40\n30 31 31 31 31 35 35 36 36 37 40 40",
       "solution": "13 12\nse sw se sw se ew ew ew ew sw se sw\nns ne nw ne nw se ew ew sw ne nw ns\nne sw se ew ew nw se sw ns se ew nw\nse nw ne ew sw se nw ne nw ne ew sw\nne sw se ew nw ne ew ew ew ew ew nw\nse nw ne ew ew ew ew ew sw se ew sw\nne ew ew ew sw se ew ew nw ns se nw\nse sw se sw ns ne ew ew sw ns ne sw\nns ne nw ns ns se ew sw ns ns se nw\nns se ew nw ns ns se nw ns ns ne sw\nns ne ew sw ns ns ne ew nw ns se nw\nns se sw ne nw ne ew ew ew nw ne sw\nne nw ne ew ew ew ew ew ew ew ew nw",
       "source": "https://www.janko.at/Raetsel/Detour/030.a.htm",
       "info": ""
@@ -229,12 +211,6 @@
       "problem": "9 10\n79 - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - 1 - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - -\n1 1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1\n1 1 1 1 2 1 1 1 1 1\n1 1 1 1 2 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1",
       "solution": "9 10\nse ew ew sw se ew sw se ew sw\nne sw se nw ne sw ne nw se nw\nse nw ne sw se nw se sw ne sw\nne sw se nw ns se nw ns se nw\nse nw ne sw ne nw se nw ne sw\nne sw se nw se sw ne sw se nw\nse nw ne ew nw ne ew nw ne sw\nns se sw se sw se sw se sw ns\nne nw ne nw ne nw ne nw ne nw",
       "source": "https://www.janko.at/Raetsel/Detour/038.a.htm",
-      "info": ""
-    },
-    "39_10x10": {
-      "problem": "10 10\n1 - - - 0 - - - 1 -\n- - - - - - - - - -\n4 - - 7 3 - - 2 - -\n3 - - - - - - - - -\n- - - - - - - - - -\n5 - 1 - - - - 3 - -\n- - - 5 - - - 1 - -\n- 2 - 3 - - - 4 - -\n- - 3 - 2 - 3 - - -\n- - - - - - - - 2 -\n1 1 7 7 13 13 16 16 23 23\n1 2 7 7 13 13 16 16 19 23\n2 2 2 10 14 14 14 19 19 23\n3 5 5 10 10 10 10 17 23 23\n3 3 3 10 10 10 17 17 23 23\n4 4 8 8 11 11 11 20 20 20\n4 4 8 11 11 11 11 21 21 20\n4 6 6 12 12 12 11 22 22 22\n4 6 9 9 15 15 18 18 22 24\n4 4 9 9 15 15 18 18 24 24",
-      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se sw se ew ew sw se sw ns\nne nw ne nw se sw ne nw ns ns\nse ew sw se nw ne ew sw ns ns\nne sw ns ne sw se ew nw ns ns\nse nw ne ew nw ne sw se nw ns\nns se ew ew ew ew nw ns se nw\nns ne ew sw se sw se nw ne sw\nns se sw ne nw ne nw se sw ns\nne nw ne ew ew ew ew nw ne nw",
-      "source": "https://www.janko.at/Raetsel/Detour/039.a.htm",
       "info": ""
     },
     "40_12x12": {

@@ -1,6 +1,6 @@
 {
-  "count": 270,
-  "count_sol": 270,
+  "count": 250,
+  "count_sol": 250,
   "name": "Burokku",
   "data": {
     "01_5x5": {
@@ -16,7 +16,7 @@
       "info": ""
     },
     "03_6x6": {
-      "problem": "6 6\n2 6 5 3 2 1\n4 1 6 5 1 3\n3 6 5 3 4 5\n1 6 4 1 4 2\n4 5 5 6 6 2\n2 2 3 4 3 1",
+      "problem": "6 6\nb f e c b a\nd a f e a c\nc f e c d e\na f d a d b\nd e e f f b\nb b c d c a",
       "solution": "6 6\n1 1 1 1 4 6\n1 1 4 4 4 6\n2 2 2 4 4 6\n2 3 3 3 6 6\n2 3 5 5 6 5\n2 3 3 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/003.a.htm",
       "info": ""
@@ -46,7 +46,7 @@
       "info": ""
     },
     "08_6x6": {
-      "problem": "6 6\n2 4 3 1 2 2\n5 5 1 3 6 1\n2 5 1 6 4 5\n1 3 6 4 5 6\n4 6 2 1 4 3\n3 5 3 6 4 2",
+      "problem": "6 6\nb d c a b b\ne e a c f a\nb e a f d e\na c f d e f\nd f b a d c\nc e c f d b",
       "solution": "6 6\n1 1 5 5 5 6\n2 1 1 1 5 6\n2 3 3 1 5 6\n2 3 3 3 5 6\n2 2 3 4 6 6\n2 4 4 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/008.a.htm",
       "info": ""
@@ -58,7 +58,7 @@
       "info": ""
     },
     "10_6x6": {
-      "problem": "6 6\n2 5 2 1 4 3\n4 5 5 3 6 5\n3 1 1 6 2 3\n1 3 6 4 1 6\n2 6 4 5 4 4\n2 1 5 6 3 2",
+      "problem": "6 6\nb e b a d c\nd e e c f e\nc a a f b c\na c f d a f\nb f d e d d\nb a e f c b",
       "solution": "6 6\n1 4 4 4 4 4\n1 1 5 5 4 6\n2 1 5 5 5 6\n2 1 1 5 6 6\n2 2 2 2 3 6\n3 3 3 3 3 6",
       "source": "https://www.janko.at/Raetsel/Burokku/010.a.htm",
       "info": ""
@@ -70,7 +70,7 @@
       "info": ""
     },
     "12_6x6": {
-      "problem": "6 6\n3 4 5 4 3 5\n6 6 2 6 2 1\n5 5 5 3 1 3\n2 6 1 2 2 6\n4 4 2 5 4 1\n1 1 3 4 6 3",
+      "problem": "6 6\nc d e d c e\nf f b f b a\ne e e c a c\nb f a b b f\nd d b e d a\na a c d f c",
       "solution": "6 6\n1 2 4 4 4 6\n1 2 2 4 4 6\n1 3 2 2 4 6\n1 3 2 5 6 6\n1 3 3 5 6 5\n1 3 3 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/012.a.htm",
       "info": ""
@@ -100,7 +100,7 @@
       "info": ""
     },
     "17_6x6": {
-      "problem": "6 6\nD A E D E B\nD A F D B F\nB B C C B A\nF A E F C C\nE D C B F D\nC A E F A E",
+      "problem": "6 6\nd a e d e b\nd a f d b f\nb b c c b a\nf a e f c c\ne d c b f d\nc a e f a e",
       "solution": "6 6\n1 1 1 5 5 5\n2 2 1 3 3 5\n2 1 1 3 6 5\n2 3 3 3 6 5\n2 4 4 4 6 6\n2 4 4 4 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/017.a.htm",
       "info": ""
@@ -136,13 +136,13 @@
       "info": ""
     },
     "23_6x6": {
-      "problem": "6 6\n3 6 5 2 4 1\n4 6 5 6 4 1\n5 2 5 1 2 3\n4 6 3 2 5 4\n3 2 1 2 4 6\n5 1 3 6 1 3",
+      "problem": "6 6\nc f e b d a\nd f e f d a\ne b e a b c\nd f c b e d\nc b a b d f\ne a c f a c",
       "solution": "6 6\n1 1 1 1 1 1\n2 2 5 5 5 5\n3 2 2 2 5 5\n3 3 2 6 6 6\n3 3 3 4 4 6\n4 4 4 4 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/023.a.htm",
       "info": ""
     },
     "24_6x6": {
-      "problem": "6 6\n5 2 3 4 1 6\n5 2 6 3 1 3\n4 1 3 4 6 5\n5 6 2 1 6 4\n2 2 3 1 5 5\n4 3 1 6 4 2",
+      "problem": "6 6\ne b c d a f\ne b f c a c\nd a c d f e\ne f b a f d\nb b c a e e\nd c a f d b",
       "solution": "6 6\n1 1 1 1 1 1\n2 2 2 2 2 6\n2 3 3 6 6 6\n3 3 6 6 4 4\n3 4 4 4 4 5\n3 5 5 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/024.a.htm",
       "info": ""
@@ -274,1351 +274,1231 @@
       "info": ""
     },
     "46_4x4": {
-      "problem": "4 4\n4 4 3 4\n1 3 2 3\n4 2 1 2\n1 3 2 1",
+      "problem": "4 4\nd d c d\na c b c\nd b a b\na c b a",
       "solution": "4 4\n1 4 4 3\n1 1 4 3\n2 1 4 3\n2 2 2 3",
       "source": "https://www.janko.at/Raetsel/Burokku/046.a.htm",
       "info": ""
     },
     "47_4x4": {
-      "problem": "4 4\n4 1 4 1\n4 3 2 3\n3 2 1 2\n4 3 2 1",
+      "problem": "4 4\nd a d a\nd c b c\nc b a b\nd c b a",
       "solution": "4 4\n1 1 4 4\n2 1 1 4\n2 2 2 4\n3 3 3 3",
       "source": "https://www.janko.at/Raetsel/Burokku/047.a.htm",
       "info": ""
     },
     "48_6x6": {
-      "problem": "6 6\n1 3 5 2 6 2\n4 6 4 6 3 4\n5 2 5 4 5 1\n3 1 3 5 6 3\n2 1 1 4 4 6\n3 6 5 2 2 1",
+      "problem": "6 6\na c e b f b\nd f d f c d\ne b e d e a\nc a c e f c\nb a a d d f\nc f e b b a",
       "solution": "6 6\n1 1 1 1 1 5\n2 2 1 6 6 5\n2 6 6 6 5 5\n2 6 4 4 4 5\n2 2 3 3 4 5\n3 3 3 3 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/048.a.htm",
       "info": ""
     },
     "49_6x6": {
-      "problem": "6 6\n1 4 5 3 2 3\n3 6 2 1 1 6\n5 4 5 3 1 5\n2 6 4 5 4 2\n6 3 5 6 4 2\n2 4 1 3 6 1",
+      "problem": "6 6\na d e c b c\nc f b a a f\ne d e c a e\nb f d e d b\nf c e f d b\nb d a c f a",
       "solution": "6 6\n3 2 2 2 2 1\n3 2 5 5 2 1\n3 3 5 4 1 1\n3 5 5 4 1 1\n3 5 6 4 4 4\n6 6 6 6 6 4",
       "source": "https://www.janko.at/Raetsel/Burokku/049.a.htm",
       "info": ""
     },
     "50_6x6": {
-      "problem": "6 6\n2 4 3 1 4 2\n6 1 6 6 5 2\n5 6 5 4 5 3\n3 5 3 1 6 4\n2 1 4 4 6 3\n1 3 5 2 2 1",
+      "problem": "6 6\nb d c a d b\nf a f f e b\ne f e d e c\nc e c a f d\nb a d d f c\na c e b b a",
       "solution": "6 6\n1 1 4 4 4 4\n1 1 4 5 5 5\n1 2 4 5 6 5\n1 2 2 5 6 6\n2 2 2 3 3 6\n3 3 3 3 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/050.a.htm",
       "info": ""
     },
     "51_6x6": {
-      "problem": "6 6\nF E C F A D\nE B A C D A\nA F B E A B\nB E C B B E\nC D E C F D\nA F D D F C",
+      "problem": "6 6\nf e c f a d\ne b a c d a\na f b e a b\nb e c b b e\nc d e c f d\na f d d f c",
       "solution": "6 6\n1 3 3 3 3 3\n1 3 4 4 4 6\n1 4 4 5 5 6\n1 4 2 2 5 6\n1 1 2 5 5 6\n2 2 2 5 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/051.a.htm",
       "info": ""
     },
     "52_6x6": {
-      "problem": "6 6\n2 3 4 6 4 2\n2 5 6 5 3 5\n6 4 1 1 1 2\n3 1 3 6 3 5\n2 5 6 1 4 1\n6 3 4 4 5 2",
+      "problem": "6 6\nb c d f d b\nb e f e c e\nf d a a a b\nc a c f c e\nb e f a d a\nf c d d e b",
       "solution": "6 6\n1 1 1 2 2 2\n4 4 1 1 2 2\n4 4 4 1 2 3\n4 5 6 3 3 3\n5 5 6 6 3 3\n5 5 5 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/052.a.htm",
       "info": ""
     },
     "53_6x6": {
-      "problem": "6 6\n2 2 6 3 2 6\n3 5 4 1 5 3\n4 6 1 3 6 4\n6 5 1 6 1 4\n4 3 1 3 4 5\n2 5 2 5 1 2",
+      "problem": "6 6\nb b f c b f\nc e d a e c\nd f a c f d\nf e a f a d\nd c a c d e\nb e b e a b",
       "solution": "6 6\n1 6 6 6 5 5\n1 6 6 5 5 5\n1 1 6 4 4 5\n2 1 1 3 4 4\n2 2 2 3 3 4\n2 2 3 3 3 4",
       "source": "https://www.janko.at/Raetsel/Burokku/053.a.htm",
       "info": ""
     },
     "54_8x8": {
-      "problem": "8 8\n3 1 2 5 7 2 4 6\n8 6 6 7 3 1 3 8\n1 2 8 5 3 8 7 5\n2 4 5 4 6 4 1 6\n7 5 1 8 3 2 3 8\n6 6 5 8 1 1 4 5\n1 7 8 3 7 5 2 7\n4 2 3 2 4 6 7 4",
+      "problem": "8 8\nc a b e g b d f\nh f f g c a c h\na b h e c h g e\nb d e d f d a f\ng e a h c b c h\nf f e h a a d e\na g h c g e b g\nd b c b d f g d",
       "solution": "8 8\n1 3 4 4 4 7 7 7\n1 3 4 3 4 4 7 7\n1 3 3 3 3 4 7 7\n1 1 1 3 6 4 7 8\n1 2 5 6 6 8 8 8\n1 2 5 5 6 8 6 8\n2 2 2 5 6 6 6 8\n2 2 2 5 5 5 5 8",
       "source": "https://www.janko.at/Raetsel/Burokku/054.a.htm",
       "info": ""
     },
     "55_8x8": {
-      "problem": "8 8\n4 5 1 6 6 5 2 2\n2 8 4 5 2 3 1 3\n7 3 3 7 1 8 4 8\n6 3 8 4 6 7 8 7\n2 7 6 5 8 2 3 1\n8 5 7 4 5 4 7 6\n1 1 2 3 8 6 6 5\n4 3 7 1 5 4 2 1",
+      "problem": "8 8\nd e a f f e b b\nb h d e b c a c\ng c c g a h d h\nf c h d f g h g\nb g f e h b c a\nh e g d e d g f\na a b c h f f e\nd c g a e d b a",
       "solution": "8 8\n1 1 1 1 2 5 5 6\n1 1 2 2 2 5 5 6\n1 1 2 2 2 5 6 6\n4 4 2 5 5 5 7 6\n4 4 3 3 3 8 7 6\n4 4 3 3 8 8 7 6\n4 3 3 8 8 8 7 6\n4 3 8 8 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/055.a.htm",
       "info": ""
     },
     "56_8x8": {
-      "problem": "8 8\n8 1 4 8 7 5 1 3\n3 2 5 2 5 6 6 8\n3 4 2 7 4 1 8 2\n8 1 6 6 8 3 4 3\n6 6 4 8 7 1 2 4\n1 8 2 7 3 4 7 5\n5 4 6 1 5 2 7 1\n7 3 7 2 5 5 3 6",
+      "problem": "8 8\nh a d h g e a c\nc b e b e f f h\nc d b g d a h b\nh a f f h c d c\nf f d h g a b d\na h b g c d g e\ne d f a e b g a\ng c g b e e c f",
       "solution": "8 8\n1 1 1 5 5 7 7 7\n1 2 1 5 5 5 7 8\n2 2 1 1 5 5 7 8\n2 3 1 6 6 5 7 8\n2 3 4 4 6 6 7 8\n2 3 4 4 4 6 7 8\n2 3 4 4 4 6 8 8\n2 3 3 3 3 6 6 8",
       "source": "https://www.janko.at/Raetsel/Burokku/056.a.htm",
       "info": ""
     },
     "57_8x8": {
-      "problem": "8 8\n8 3 3 8 6 1 5 7\n1 2 4 1 6 8 4 3\n4 5 2 6 4 2 6 7\n8 2 7 6 8 7 1 2\n7 5 4 8 7 3 5 5\n5 6 1 3 1 4 2 5\n1 6 8 4 2 7 7 3\n3 8 2 3 4 5 1 6",
+      "problem": "8 8\nh c c h f a e g\na b d a f h d c\nd e b f d b f g\nh b g f h g a b\ng e d h g c e e\ne f a c a d b e\na f h d b g g c\nc h b c d e a f",
       "solution": "8 8\n1 1 4 4 4 4 4 4\n1 4 4 6 6 6 6 6\n1 1 1 1 8 8 8 6\n2 2 1 7 8 8 8 6\n2 2 2 7 7 8 8 6\n3 2 2 2 7 7 7 7\n3 3 3 3 3 3 5 7\n3 5 5 5 5 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/057.a.htm",
       "info": ""
     },
     "58_9x9": {
-      "problem": "9 9\n6 4 3 7 6 4 5 2 1\n4 3 5 7 1 2 8 9 2\n7 2 8 9 7 3 8 3 7\n5 6 7 9 4 6 4 8 1\n9 1 2 5 6 5 5 9 2\n4 3 1 2 1 9 9 3 5\n8 3 7 8 4 6 6 8 1\n8 4 5 9 8 4 7 3 5\n9 1 6 2 2 6 3 1 7",
+      "problem": "9 9\nf d c g f d e b a\nd c e g a b h i b\ng b h i g c h c g\ne f g i d f d h a\ni a b e f e e i b\nd c a b a i i c e\nh c g h d f f h a\nh d e i h d g c e\ni a f b b f c a g",
       "solution": "9 9\n1 1 1 6 6 6 6 6 6\n4 4 1 1 1 1 1 6 3\n4 4 4 1 2 2 6 6 3\n4 4 5 5 2 2 3 3 3\n4 4 5 5 5 2 3 7 7\n5 5 5 2 2 2 3 3 7\n5 9 9 2 8 7 3 7 7\n9 9 9 8 8 7 7 7 8\n9 9 9 9 8 8 8 8 8",
       "source": "https://www.janko.at/Raetsel/Burokku/058.a.htm",
       "info": ""
     },
     "59_9x9": {
-      "problem": "9 9\nD H I A G H C E A\nF I D F G E F B F\nB D C E E B D A B\nH C E A C B I D C\nG I E A G I H G G\nH B F H D C I D E\nA C A F F H C I A\nG F G C D G E B B\nE A B D H I H I F",
+      "problem": "9 9\nd h i a g h c e a\nf i d f g e f b f\nb d c e e b d a b\nh c e a c b i d c\ng i e a g i h g g\nh b f h d c i d e\na c a f f h c i a\ng f g c d g e b b\ne a b d h i h i f",
       "solution": "9 9\n1 1 1 1 7 7 7 9 9\n2 2 2 1 1 7 7 7 9\n2 3 2 2 1 1 7 7 9\n2 3 3 2 1 5 7 9 9\n2 3 5 5 5 5 9 9 8\n3 3 3 5 5 5 9 8 8\n3 4 6 6 5 8 8 8 8\n3 4 4 6 6 6 6 6 8\n4 4 4 4 4 4 6 6 8",
       "source": "https://www.janko.at/Raetsel/Burokku/059.a.htm",
       "info": ""
     },
     "60_9x9": {
-      "problem": "9 9\nF D G E I D H H I\nD C B F A C C D A\nC E H G B A G E F\nG G I I E B H I B\nF A G D F A D H B\nD B C F E I F D F\nE H H D E I F G C\nB I C H I C H C A\nA B G A B E A E G",
+      "problem": "9 9\nf d g e i d h h i\nd c b f a c c d a\nc e h g b a g e f\ng g i i e b h i b\nf a g d f a d h b\nd b c f e i f d f\ne h h d e i f g c\nb i c h i c h c a\na b g a b e a e g",
       "solution": "9 9\n1 3 3 3 3 6 6 8 8\n1 3 3 3 3 6 8 8 8\n1 1 3 6 6 6 8 8 8\n2 1 1 6 6 5 5 9 8\n2 1 5 5 6 5 9 9 9\n2 1 5 5 5 5 7 7 9\n2 1 2 4 4 4 4 7 9\n2 2 2 4 7 4 7 7 9\n2 4 4 4 7 7 7 9 9",
       "source": "https://www.janko.at/Raetsel/Burokku/060.a.htm",
       "info": ""
     },
     "61_4x4": {
-      "problem": "4 4\nC D C B\nC B D C\nB A A B\nA D D A",
+      "problem": "4 4\nc d c b\nc b d c\nb a a b\na d d a",
       "solution": "4 4\n1 1 3 3\n2 1 3 4\n2 1 3 4\n2 2 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/061.a.htm",
       "info": ""
     },
-    "62_6x6": {
-      "problem": "6 6\nB D C A D B\nF A F F E B\nE F E D E C\nC E C A F D\nB A D D F C\nA C E B B A",
-      "solution": "6 6\n1 1 4 4 4 4\n1 1 4 5 5 5\n1 2 4 5 6 5\n1 2 2 5 6 6\n2 2 2 3 3 6\n3 3 3 3 6 6",
-      "source": "https://www.janko.at/Raetsel/Burokku/062.a.htm",
-      "info": ""
-    },
-    "63_6x6": {
-      "problem": "6 6\nB C D F D B\nB E F E C E\nF D A A A B\nC A C F C E\nB E F A D A\nF C D D E B",
-      "solution": "6 6\n1 1 1 5 5 5\n2 2 1 1 5 5\n2 2 2 1 5 6\n2 3 4 6 6 6\n3 3 4 4 6 6\n3 3 3 4 4 4",
-      "source": "https://www.janko.at/Raetsel/Burokku/063.a.htm",
-      "info": ""
-    },
-    "64_6x6": {
-      "problem": "6 6\nB B F C B F\nC E D A E C\nD F A C F D\nF E A F A D\nD C A C D E\nB E B E A B",
-      "solution": "6 6\n1 3 3 3 5 5\n1 3 3 5 5 5\n1 1 3 6 6 5\n2 1 1 4 6 6\n2 2 2 4 4 6\n2 2 4 4 4 6",
-      "source": "https://www.janko.at/Raetsel/Burokku/064.a.htm",
-      "info": ""
-    },
     "65_6x6": {
-      "problem": "6 6\nE D A A B A\nD C F B C B\nE E B C E D\nF B C F D F\nA F A D E C\nB F A E C D",
+      "problem": "6 6\ne d a a b a\nd c f b c b\ne e b c e d\nf b c f d f\na f a d e c\nb f a e c d",
       "solution": "6 6\n1 1 1 5 5 6\n2 2 1 1 5 6\n2 4 4 1 5 6\n2 2 4 5 5 6\n2 4 4 4 6 6\n3 3 3 3 3 3",
       "source": "https://www.janko.at/Raetsel/Burokku/065.a.htm",
       "info": ""
     },
     "66_8x8": {
-      "problem": "8 8\nB F D E E A E G\nB A F H D C D G\nE H A B G F H F\nF G B D E B H E\nG C A C G C H B\nH C H H B F F C\nD A E A E D A D\nG F C C B G D A",
+      "problem": "8 8\nb f d e e a e g\nb a f h d c d g\ne h a b g f h f\nf g b d e b h e\ng c a c g c h b\nh c h h b f f c\nd a e a e d a d\ng f c c b g d a",
       "solution": "8 8\n1 1 1 1 4 7 7 7\n2 1 4 4 4 4 7 8\n2 1 4 4 4 7 7 8\n2 1 3 3 5 7 8 8\n2 1 3 5 5 7 6 8\n2 2 3 5 5 5 6 8\n2 2 3 5 6 5 6 8\n3 3 3 6 6 6 6 8",
       "source": "https://www.janko.at/Raetsel/Burokku/066.a.htm",
       "info": ""
     },
     "67_8x8": {
-      "problem": "8 8\nF F B E H G C D\nC D A E D B C H\nG B E H A E G G\nE H A C E D H A\nC G B H A G F F\nH B D E F G D A\nG F C F C D C B\nA D B E F B H A",
+      "problem": "8 8\nf f b e h g c d\nc d a e d b c h\ng b e h a e g g\ne h a c e d h a\nc g b h a g f f\nh b d e f g d a\ng f c f c d c b\na d b e f b h a",
       "solution": "8 8\n1 4 4 4 4 4 4 4\n1 1 4 6 6 6 6 6\n1 1 1 1 1 8 8 6\n2 2 2 5 5 5 8 6\n2 2 5 5 5 5 8 6\n3 2 2 3 5 7 8 8\n3 2 3 3 7 7 8 8\n3 3 3 7 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/067.a.htm",
       "info": ""
     },
     "68_8x8": {
-      "problem": "8 8\nF G D E D B D F \nE A A B E A E H \nG F C C B H A C \nC H F H G E F G \nD B D B F C B B \nH G C A F G E A \nA A F G D C C D \nH E H B E H D G",
-      "solution": "8 8\n1 3 3 3 4 6 6 8 \n1 3 4 3 4 6 8 8 \n1 3 4 3 4 6 7 8 \n1 3 4 4 4 6 7 8 \n1 1 2 2 2 6 7 8 \n1 2 2 5 6 6 7 8 \n1 2 5 5 5 5 7 8 \n2 2 5 5 5 7 7 7",
+      "problem": "8 8\nf g d e d b d f\ne a a b e a e h\ng f c c b h a c\nc h f h g e f g\nd b d b f c b b\nh g c a f g e a\na a f g d c c d\nh e h b e h d g",
+      "solution": "8 8\n1 3 3 3 4 6 6 8\n1 3 4 3 4 6 8 8\n1 3 4 3 4 6 7 8\n1 3 4 4 4 6 7 8\n1 1 2 2 2 6 7 8\n1 2 2 5 6 6 7 8\n1 2 5 5 5 5 7 8\n2 2 5 5 5 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/068.a.htm",
       "info": ""
     },
     "69_9x9": {
-      "problem": "9 9\nD F B H G H A G E\nH I D C I B C F A\nI D C E E F A G B\nA F E A A H F C D\nG G E C G D F D H\nH E B B I C H G I\nC F D I H I C E H\nE B A D G D I B I\nA F B C G E A B F",
+      "problem": "9 9\nd f b h g h a g e\nh i d c i b c f a\ni d c e e f a g b\na f e a a h f c d\ng g e c g d f d h\nh e b b i c h g i\nc f d i h i c e h\ne b a d g d i b i\na f b c g e a b f",
       "solution": "9 9\n1 4 4 4 4 5 5 5 8\n1 4 5 5 5 5 8 8 8\n1 4 4 5 6 5 9 8 8\n1 1 4 4 6 6 9 9 8\n2 1 1 1 6 6 6 9 8\n2 2 1 6 6 6 7 9 8\n2 2 2 2 3 3 7 9 9\n3 2 2 3 3 7 7 9 9\n3 3 3 3 7 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/069.a.htm",
       "info": ""
     },
     "70_9x9": {
-      "problem": "9 9\nI C F F D G E B A\nB D H E D G A C D\nH F I A A H I H H\nB B F D G I B F I\nE C D B F C E B D\nG A G C E A C A G\nH C D A I G C H F\nE G I F B F D H E\nI B A C E H E G I",
+      "problem": "9 9\ni c f f d g e b a\nb d h e d g a c d\nh f i a a h i h h\nb b f d g i b f i\ne c d b f c e b d\ng a g c e a c a g\nh c d a i g c h f\ne g i f b f d h e\ni b a c e h e g i",
       "solution": "9 9\n1 1 1 5 5 5 5 5 5\n1 2 1 1 1 1 1 5 8\n2 2 2 2 6 6 5 5 8\n2 3 3 6 6 6 8 8 8\n2 2 3 6 6 6 8 9 9\n2 3 3 7 6 8 8 9 9\n3 3 4 7 7 8 9 9 9\n3 4 4 4 7 7 7 7 9\n3 4 4 4 4 4 7 7 9",
       "source": "https://www.janko.at/Raetsel/Burokku/070.a.htm",
       "info": ""
     },
     "71_4x4": {
-      "problem": "4 4\nA C B D\nB D D A\nC D B C\nB A A C",
+      "problem": "4 4\na c b d\nb d d a\nc d b c\nb a a c",
       "solution": "4 4\n1 1 3 3\n1 1 4 3\n2 2 4 3\n2 2 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/071.a.htm",
       "info": ""
     },
     "72_6x6": {
-      "problem": "6 6\nE D E F A B\nD C E B F F\nA F B C A A\nA B C F D E\nB C E D E C\nA B D F C D",
+      "problem": "6 6\ne d e f a b\nd c e b f f\na f b c a a\na b c f d e\nb c e d e c\na b d f c d",
       "solution": "6 6\n1 4 4 4 4 6\n1 4 5 4 5 6\n1 1 5 5 5 6\n2 1 1 2 5 6\n2 2 2 2 3 6\n3 3 3 3 3 6",
       "source": "https://www.janko.at/Raetsel/Burokku/072.a.htm",
       "info": ""
     },
     "73_6x6": {
-      "problem": "6 6\nA C A D F B\nC E F D C D\nA B A B B F\nD D C E E C\nF C F D E A\nE B E F B A",
+      "problem": "6 6\na c a d f b\nc e f d c d\na b a b b f\nd d c e e c\nf c f d e a\ne b e f b a",
       "solution": "6 6\n1 1 4 4 4 6\n2 1 1 1 4 6\n2 3 3 1 4 6\n2 3 5 5 4 6\n2 3 3 5 6 6\n2 2 3 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/073.a.htm",
       "info": ""
     },
     "74_6x6": {
-      "problem": "6 6\nA C A D F E\nC E B D C B\nA F A C F E\nD D B E D F\nF C B E E B\nB D F C A A",
+      "problem": "6 6\na c a d f e\nc e b d c b\na f a c f e\nd d b e d f\nf c b e e b\nb d f c a a",
       "solution": "6 6\n1 4 4 4 4 4\n1 1 5 5 5 4\n2 1 5 6 5 5\n2 1 1 6 6 6\n2 2 2 2 3 6\n3 3 3 3 3 6",
       "source": "https://www.janko.at/Raetsel/Burokku/074.a.htm",
       "info": ""
     },
     "75_6x6": {
-      "problem": "6 6\nE E D E B C\nA F C A F E\nF E B F B F\nB B B A D A\nC A F D C D\nD D C E A C",
+      "problem": "6 6\ne e d e b c\na f c a f e\nf e b f b f\nb b b a d a\nc a f d c d\nd d c e a c",
       "solution": "6 6\n1 2 2 5 6 6\n1 3 2 5 5 6\n1 3 2 2 5 6\n1 3 4 2 5 6\n1 3 4 4 5 6\n1 3 3 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/075.a.htm",
       "info": ""
     },
     "76_8x8": {
-      "problem": "8 8\nE C H A E F C C\nD G G D E H B G\nH B F G E F D B\nF H A D C H B A\nC C B G B D F A\nF D H A E A G E\nA G D E H D C H\nB B F E A G F C",
+      "problem": "8 8\ne c h a e f c c\nd g g d e h b g\nh b f g e f d b\nf h a d c h b a\nc c b g b d f a\nf d h a e a g e\na g d e h d c h\nb b f e a g f c",
       "solution": "8 8\n1 1 5 5 5 5 5 7\n1 1 5 5 7 7 5 7\n1 1 1 6 6 7 7 7\n2 2 1 6 6 6 6 7\n3 2 2 2 8 8 6 6\n3 2 3 2 2 8 8 8\n3 3 3 3 4 4 4 8\n3 4 4 4 4 4 8 8",
       "source": "https://www.janko.at/Raetsel/Burokku/076.a.htm",
       "info": ""
     },
     "77_8x8": {
-      "problem": "8 8\nA H C F A A H G\nH E D H G B A C\nC D B F G C F D\nA B E E D H E E\nD G C A B A D H\nE B F E B E A F\nG H D G C G H B\nC F F D G B F C",
+      "problem": "8 8\na h c f a a h g\nh e d h g b a c\nc d b f g c f d\na b e e d h e e\nd g c a b a d h\ne b f e b e a f\ng h d g c g h b\nc f f d g b f c",
       "solution": "8 8\n1 1 1 1 4 6 6 8\n2 1 4 4 4 6 8 8\n2 1 4 4 6 6 6 8\n2 1 4 6 6 5 7 8\n2 1 4 3 3 5 7 8\n2 2 2 3 5 5 7 8\n2 3 3 3 5 7 7 8\n3 3 5 5 5 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/077.a.htm",
       "info": ""
     },
     "78_8x8": {
-      "problem": "8 8\nA H C A D E G C\nH E D B G B H F\nC D B E C F D F\nF H F E A E G D\nA G G D B B C G\nA B C H A E G B\nH A F E D A H F\nG C D E H F B C",
+      "problem": "8 8\na h c a d e g c\nh e d b g b h f\nc d b e c f d f\nf h f e a e g d\na g g d b b c g\na b c h a e g b\nh a f e d a h f\ng c d e h f b c",
       "solution": "8 8\n1 5 5 5 5 5 5 8\n1 1 1 1 1 5 8 8\n1 2 2 2 2 5 8 6\n1 2 2 3 8 8 8 6\n2 2 3 3 8 6 6 6\n3 3 3 6 6 6 7 7\n3 4 3 7 7 7 7 7\n4 4 4 4 4 4 4 7",
       "source": "https://www.janko.at/Raetsel/Burokku/078.a.htm",
       "info": ""
     },
     "79_9x9": {
-      "problem": "9 9\nI B H B E G H E I\nC D F B C A C G B\nF H I F D G D I A\nF E A D B C A F C\nD D A G F E I B E\nG G H I C A G F H\nE A I B E C C D E\nB C H F B A H H G\nA D H I D G F E I",
+      "problem": "9 9\ni b h b e g h e i\nc d f b c a c g b\nf h i f d g d i a\nf e a d b c a f c\nd d a g f e i b e\ng g h i c a g f h\ne a i b e c c d e\nb c h f b a h h g\na d h i d g f e i",
       "solution": "9 9\n1 1 3 3 3 3 6 6 6\n1 3 3 6 3 6 6 9 9\n1 1 3 6 6 6 9 9 9\n2 1 3 5 5 8 8 9 9\n2 1 5 5 5 5 8 8 9\n2 1 5 5 5 4 4 8 9\n2 1 2 4 4 4 7 8 8\n2 2 2 4 7 7 7 8 8\n2 4 4 4 7 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/079.a.htm",
       "info": ""
     },
     "80_9x9": {
-      "problem": "9 9\nH E A A B C C I D\nB C C G H I G A E\nD F I G F B D E F\nA E H C G D H F B\nE B D E A I H H G\nC I G A I F B I E\nF D G F G A D F H\nD G F H E A C B C\nH B C E A D I I B",
+      "problem": "9 9\nh e a a b c c i d\nb c c g h i g a e\nd f i g f b d e f\na e h c g d h f b\ne b d e a i h h g\nc i g a i f b i e\nf d g f g a d f h\nd g f h e a c b c\nh b c e a d i i b",
       "solution": "9 9\n1 4 4 7 7 7 9 9 9\n1 1 4 4 4 7 7 9 9\n1 1 1 1 4 4 7 7 9\n1 2 2 6 6 4 7 7 9\n1 2 6 6 6 4 6 9 9\n2 2 2 2 6 6 6 8 8\n2 5 5 5 8 8 8 8 8\n2 3 3 5 5 5 5 5 8\n3 3 3 3 3 3 3 5 8",
       "source": "https://www.janko.at/Raetsel/Burokku/080.a.htm",
       "info": ""
     },
     "81_4x4": {
-      "problem": "4 4\nA B C B\nC D D A\nB D B A\nD A C C",
+      "problem": "4 4\na b c b\nc d d a\nb d b a\nd a c c",
       "solution": "4 4\n1 1 4 4\n1 1 4 4\n2 3 3 3\n2 2 2 3",
       "source": "https://www.janko.at/Raetsel/Burokku/081.a.htm",
       "info": ""
     },
     "82_6x6": {
-      "problem": "6 6\nE B C D F B\nA F D C B C\nA E D B A E\nA F E F D D\nC F E A C B\nD A C F B E",
+      "problem": "6 6\ne b c d f b\na f d c b c\na e d b a e\na f e f d d\nc f e a c b\nd a c f b e",
       "solution": "6 6\n1 1 1 1 1 6\n1 2 2 2 2 6\n2 2 3 3 6 6\n3 3 3 6 6 5\n3 5 5 5 5 5\n4 4 4 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/082.a.htm",
       "info": ""
     },
     "83_6x6": {
-      "problem": "6 6\nE A A A C D\nB F E F F A\nC D D E E C\nD C B F A F\nF B A D C B\nB C E D B E",
+      "problem": "6 6\ne a a a c d\nb f e f f a\nc d d e e c\nd c b f a f\nf b a d c b\nb c e d b e",
       "solution": "6 6\n1 1 3 4 4 6\n1 3 3 4 5 6\n1 3 4 4 5 6\n1 3 4 2 5 6\n1 3 2 2 5 6\n2 2 2 5 5 6",
       "source": "https://www.janko.at/Raetsel/Burokku/083.a.htm",
       "info": ""
     },
     "84_6x6": {
-      "problem": "6 6\nF E A B C A\nE B F E D F\nC A B C E D\nF C E B C D\nA D A B F F\nD A B E D C",
+      "problem": "6 6\nf e a b c a\ne b f e d f\nc a b c e d\nf c e b c d\na d a b f f\nd a b e d c",
       "solution": "6 6\n1 1 1 1 1 6\n2 2 3 3 1 6\n2 3 3 6 6 6\n2 3 5 6 5 5\n2 3 5 5 5 4\n2 4 4 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/084.a.htm",
       "info": ""
     },
     "85_6x6": {
-      "problem": "6 6\nC F E A F A \nB D D F B E \nC E A F B D \nA C D E C F \nB E D B A C \nB E A C D F",
-      "solution": "6 6\n1 1 1 1 6 6 \n1 1 2 2 2 6 \n2 2 2 3 6 6 \n3 3 3 3 6 5 \n3 5 5 5 5 5 \n4 4 4 4 4 4",
+      "problem": "6 6\nc f e a f a\nb d d f b e\nc e a f b d\na c d e c f\nb e d b a c\nb e a c d f",
+      "solution": "6 6\n1 1 1 1 6 6\n1 1 2 2 2 6\n2 2 2 3 6 6\n3 3 3 3 6 5\n3 5 5 5 5 5\n4 4 4 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/085.a.htm",
       "info": ""
     },
     "86_8x8": {
-      "problem": "8 8\nC H A B G F A D\nA F B D E F G B\nB F H E A E H C\nE G E D H H C B\nG C C F C A G D\nB A H D B A E F\nD C G A C D B G\nF H E F H E G D",
+      "problem": "8 8\nc h a b g f a d\na f b d e f g b\nb f h e a e h c\ne g e d h h c b\ng c c f c a g d\nb a h d b a e f\nd c g a c d b g\nf h e f h e g d",
       "solution": "8 8\n1 1 1 1 1 1 7 7\n2 2 2 1 7 7 7 7\n3 3 2 1 8 8 7 7\n3 2 2 2 5 8 8 8\n3 3 2 5 5 5 5 8\n4 3 3 3 6 6 5 8\n4 4 4 4 6 5 5 8\n4 4 4 6 6 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/086.a.htm",
       "info": ""
     },
     "87_8x8": {
-      "problem": "8 8\nH B A B E H B D\nD E D A F F E F\nC G C H D C A A\nH C F D G G D H\nA A E B H G C C\nB D G D E B A E\nF E E H A C C B\nF B H G G F F G",
+      "problem": "8 8\nh b a b e h b d\nd e d a f f e f\nc g c h d c a a\nh c f d g g d h\na a e b h g c c\nb d g d e b a e\nf e e h a c c b\nf b h g g f f g",
       "solution": "8 8\n1 1 1 5 5 7 7 8\n2 2 1 5 5 7 7 8\n2 2 1 5 5 5 7 8\n2 3 1 6 6 5 7 8\n2 3 1 4 6 7 7 8\n2 3 1 4 6 6 6 8\n2 3 4 4 4 4 6 8\n3 3 3 3 4 4 6 8",
       "source": "https://www.janko.at/Raetsel/Burokku/087.a.htm",
       "info": ""
     },
     "88_8x8": {
-      "problem": "8 8\nH D C H A B F F\nB E G C A D E B\nA D C F E G E H\nB A H D B D H G\nE F D G H E A G\nH F C G G B C F\nB E A D C A C F\nD F A H C E B G",
+      "problem": "8 8\nh d c h a b f f\nb e g c a d e b\na d c f e g e h\nb a h d b d h g\ne f d g h e a g\nh f c g g b c f\nb e a d c a c f\nd f a h c e b g",
       "solution": "8 8\n1 5 5 5 5 5 5 6\n1 5 5 6 6 6 6 6\n1 1 1 1 1 1 8 6\n2 2 2 7 8 8 8 6\n2 2 2 7 7 7 8 8\n3 3 2 2 3 7 8 8\n3 3 3 3 3 7 7 7\n4 4 4 4 4 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/088.a.htm",
       "info": ""
     },
     "89_9x9": {
-      "problem": "9 9\nH B D A E C F D H\nE C F E B I D G B\nA C I H D G G F C\nA G G C E A F H E\nB H F G A I G E A\nC I B D I F A A D\nC G D H H B D C I\nI A E F H I F B I\nD E F B G E H C B",
+      "problem": "9 9\nh b d a e c f d h\ne c f e b i d g b\na c i h d g g f c\na g g c e a f h e\nb h f g a i g e a\nc i b d i f a a d\nc g d h h b d c i\ni a e f h i f b i\nd e f b g e h c b",
       "solution": "9 9\n1 1 1 1 1 5 5 5 9\n2 1 1 5 5 5 8 9 9\n2 2 1 5 6 5 8 9 9\n3 2 1 6 6 5 8 8 9\n3 2 2 6 6 6 7 8 9\n3 3 2 2 2 6 7 8 9\n4 3 3 3 6 6 7 8 9\n4 4 3 3 4 7 7 8 8\n4 4 4 4 4 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/089.a.htm",
       "info": ""
     },
     "90_9x9": {
-      "problem": "9 9\nE H B I C F H E A\nB D I D B D G I D\nG C A E H F G C F\nC A A B C I A H B\nF D C H F D G I D\nA G H B I E H E A\nF A G G H E F G C\nI E I D D F H I G\nB B C E F E C A B",
+      "problem": "9 9\ne h b i c f h e a\nb d i d b d g i d\ng c a e h f g c f\nc a a b c i a h b\nf d c h f d g i d\na g h b i e h e a\nf a g g h e f g c\ni e i d d f h i g\nb b c e f e c a b",
       "solution": "9 9\n1 1 3 3 7 7 7 7 7\n1 1 1 3 7 7 7 7 9\n1 3 3 3 3 3 3 9 9\n1 1 5 5 5 5 9 9 9\n1 2 2 2 5 5 5 9 8\n2 2 4 6 6 5 5 9 8\n2 4 4 6 6 8 8 9 8\n2 2 4 4 6 6 8 8 8\n2 4 4 4 4 6 6 6 8",
       "source": "https://www.janko.at/Raetsel/Burokku/090.a.htm",
       "info": ""
     },
     "91_4x4": {
-      "problem": "4 4\nC C B A\nD B A D\nC D A D\nB C B A",
+      "problem": "4 4\nc c b a\nd b a d\nc d a d\nb c b a",
       "solution": "4 4\n1 3 3 3\n1 1 1 3\n2 2 2 4\n2 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/091.a.htm",
       "info": ""
     },
     "92_6x6": {
-      "problem": "6 6\nC B B E A B \nE A F C D E \nD A C E F A \nD F A E F D \nB F D E B C \nC B D A C F",
-      "solution": "6 6\n1 1 4 4 4 6 \n1 1 1 4 4 6 \n1 2 2 2 4 6 \n2 2 5 5 5 6 \n2 3 5 3 5 6 \n3 3 3 3 5 6",
+      "problem": "6 6\nc b b e a b\ne a f c d e\nd a c e f a\nd f a e f d\nb f d e b c\nc b d a c f",
+      "solution": "6 6\n1 1 4 4 4 6\n1 1 1 4 4 6\n1 2 2 2 4 6\n2 2 5 5 5 6\n2 3 5 3 5 6\n3 3 3 3 5 6",
       "source": "https://www.janko.at/Raetsel/Burokku/092.a.htm",
       "info": ""
     },
     "93_6x6": {
-      "problem": "6 6\nE E D E B D\nB B A F B C\nC F C B C A\nD C D A A F\nA A F F E D\nF C E D E B",
+      "problem": "6 6\ne e d e b d\nb b a f b c\nc f c b c a\nd c d a a f\na a f f e d\nf c e d e b",
       "solution": "6 6\n1 2 2 4 4 4\n1 2 4 4 5 6\n1 2 4 3 5 6\n1 2 3 3 5 6\n1 2 3 5 5 6\n1 3 3 5 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/093.a.htm",
       "info": ""
     },
     "94_6x6": {
-      "problem": "6 6\nC B F C E F\nF A A D F D\nB B B E B C\nE C A D D A\nA F D F A B\nD C E E C E",
+      "problem": "6 6\nc b f c e f\nf a a d f d\nb b b e b c\ne c a d d a\na f d f a b\nd c e e c e",
       "solution": "6 6\n1 1 1 5 5 6\n2 3 1 1 5 6\n2 3 4 1 5 6\n2 3 4 4 5 6\n2 3 3 4 5 6\n2 2 3 4 4 6",
       "source": "https://www.janko.at/Raetsel/Burokku/094.a.htm",
       "info": ""
     },
     "95_6x6": {
-      "problem": "6 6\nC F B E A D\nB A B C F C\nF A B A D E\nC D E D F E\nE F B D A C\nF D C A B E",
+      "problem": "6 6\nc f b e a d\nb a b c f c\nf a b a d e\nc d e d f e\ne f b d a c\nf d c a b e",
       "solution": "6 6\n1 4 4 4 4 4\n1 5 5 5 5 4\n1 1 6 6 5 5\n2 1 1 6 6 6\n2 2 2 2 2 6\n3 3 3 3 3 3",
       "source": "https://www.janko.at/Raetsel/Burokku/095.a.htm",
       "info": ""
     },
     "96_8x8": {
-      "problem": "8 8\nC D H G B A C A\nF H G D F E B C\nA E G B H G D A\nC E H B E F C F\nF D G E B D H C\nA B H A D E H G\nE C D H B E C A\nD G F A G B F F",
+      "problem": "8 8\nc d h g b a c a\nf h g d f e b c\na e g b h g d a\nc e h b e f c f\nf d g e b d h c\na b h a d e h g\ne c d h b e c a\nd g f a g b f f",
       "solution": "8 8\n1 4 4 4 4 4 4 7\n1 1 1 1 4 4 7 7\n1 1 2 1 7 7 7 5\n2 2 2 2 7 7 5 5\n2 2 5 5 5 5 5 8\n2 3 3 3 8 8 8 8\n3 3 6 6 8 6 6 8\n3 3 3 6 6 6 6 8",
       "source": "https://www.janko.at/Raetsel/Burokku/096.a.htm",
       "info": ""
     },
     "97_8x8": {
-      "problem": "8 8\nC F E H B H G F \nH A B D G E G D \nF H C A D B B F \nA D G E H C A D \nG E B C D F F H \nF D H F A E A E \nB E G G E D C C \nC A C B G H B A",
-      "solution": "8 8\n1 3 3 5 5 7 7 7 \n1 3 3 3 5 7 8 7 \n1 3 3 5 5 7 8 8 \n1 1 3 5 4 7 7 8 \n1 1 1 5 4 4 6 8 \n2 2 2 5 4 6 6 8 \n2 2 2 4 4 6 6 8 \n2 2 4 4 6 6 6 8",
+      "problem": "8 8\nc f e h b h g f\nh a b d g e g d\nf h c a d b b f\na d g e h c a d\ng e b c d f f h\nf d h f a e a e\nb e g g e d c c\nc a c b g h b a",
+      "solution": "8 8\n1 3 3 5 5 7 7 7\n1 3 3 3 5 7 8 7\n1 3 3 5 5 7 8 8\n1 1 3 5 4 7 7 8\n1 1 1 5 4 4 6 8\n2 2 2 5 4 6 6 8\n2 2 2 4 4 6 6 8\n2 2 4 4 6 6 6 8",
       "source": "https://www.janko.at/Raetsel/Burokku/097.a.htm",
       "info": ""
     },
     "98_8x8": {
-      "problem": "8 8\nE D H F C F A B\nC G B H C D G B\nH G F A B H D F\nA D G D G A E E\nE E E C B E H A\nF H F H D A D G\nC B D B F G C F\nC G B A A E H C",
+      "problem": "8 8\ne d h f c f a b\nc g b h c d g b\nh g f a b h d f\na d g d g a e e\ne e e c b e h a\nf h f h d a d g\nc b d b f g c f\nc g b a a e h c",
       "solution": "8 8\n1 1 1 5 6 6 6 6\n1 1 1 5 5 5 6 8\n2 2 1 1 5 6 6 8\n2 2 4 4 5 5 6 8\n2 3 4 4 7 5 8 8\n2 3 3 4 7 7 8 8\n2 2 3 4 4 7 8 7\n3 3 3 3 4 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/098.a.htm",
       "info": ""
     },
     "99_9x9": {
-      "problem": "9 9\nE B G C F A F I B\nH D C A D G A E B\nB I A A C H G I C\nI D E B H B G D E\nC B H C F I H D F\nF D F I D E E F E\nH G G A G H F H C\nE I C H I E G I A\nA D F B D A C G B",
+      "problem": "9 9\ne b g c f a f i b\nh d c a d g a e b\nb i a a c h g i c\ni d e b h b g d e\nc b h c f i h d f\nf d f i d e e f e\nh g g a g h f h c\ne i c h i e g i a\na d f b d a c g b",
       "solution": "9 9\n1 1 1 1 1 6 6 6 6\n1 1 2 1 6 6 8 6 8\n2 1 2 5 6 8 8 8 8\n2 2 2 5 6 9 9 8 8\n3 3 2 5 5 9 9 9 8\n3 3 2 5 5 5 7 9 9\n3 3 2 4 5 5 7 7 9\n3 3 4 4 4 4 4 7 9\n3 4 4 4 7 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/099.a.htm",
       "info": ""
     },
     "100_9x9": {
-      "problem": "9 9\nF I G C D A C B G\nI G C A B E F I D\nE F A B D H E H F\nA D C E H G E G I\nH D E A D C I A C\nF G A F D H C I E\nB B F I H G B B F\nI H H B I A B H D\nC D E G C F A E G",
+      "problem": "9 9\nf i g c d a c b g\ni g c a b e f i d\ne f a b d h e h f\na d c e h g e g i\nh d e a d c i a c\nf g a f d h c i e\nb b f i h g b b f\ni h h b i a b h d\nc d e g c f a e g",
       "solution": "9 9\n1 1 1 1 6 6 6 6 6\n2 2 2 1 1 1 6 6 9\n2 3 3 5 1 6 6 9 9\n2 2 3 5 1 5 9 9 8\n2 3 3 5 5 5 5 9 8\n2 3 4 5 7 5 9 9 8\n2 3 4 4 7 7 7 9 8\n3 3 4 4 7 8 8 8 8\n4 4 4 4 7 7 7 7 8",
       "source": "https://www.janko.at/Raetsel/Burokku/100.a.htm",
       "info": ""
     },
     "101_4x4": {
-      "problem": "4 4\nB C D D\nA B D B\nA C C A\nA C B D",
+      "problem": "4 4\nb c d d\na b d b\na c c a\na c b d",
       "solution": "4 4\n1 1 1 4\n1 2 2 4\n2 2 4 4\n3 3 3 3",
       "source": "https://www.janko.at/Raetsel/Burokku/101.a.htm",
       "info": ""
     },
     "102_6x6": {
-      "problem": "6 6\n3 2 3 1 2 2\n6 4 5 3 5 5\n5 4 1 4 4 1\n1 6 6 5 2 3\n6 2 2 3 1 4\n1 5 4 6 3 6",
+      "problem": "6 6\nc b c a b b\nf d e c e e\ne d a d d a\na f f e b c\nf b b c a d\na e d f c f",
       "solution": "6 6\n1 1 2 4 4 6\n1 1 2 4 5 6\n1 2 2 4 5 6\n1 2 4 4 5 6\n3 2 3 3 5 6\n3 3 3 5 5 6",
       "source": "https://www.janko.at/Raetsel/Burokku/102.a.htm",
       "info": ""
     },
     "103_6x6": {
-      "problem": "6 6\nD E C D D E\nE C B C F F\nA F A F B C\nB B C B A A\nC E A F E B\nF D D D E A",
+      "problem": "6 6\nd e c d d e\ne c b c f f\na f a f b c\nb b c b a a\nc e a f e b\nf d d d e a",
       "solution": "6 6\n1 1 1 5 6 6\n2 3 1 5 5 6\n2 3 1 1 5 6\n2 3 4 4 5 6\n2 3 3 4 5 6\n2 2 3 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/103.a.htm",
       "info": ""
     },
     "104_6x6": {
-      "problem": "6 6\nD E A B C F\nE C F B E D\nC B A C A D\nD C F B F D\nD F B A E E\nE F C A B A",
+      "problem": "6 6\nd e a b c f\ne c f b e d\nc b a c a d\nd c f b f d\nd f b a e e\ne f c a b a",
       "solution": "6 6\n1 4 4 4 4 4\n1 5 5 5 5 4\n1 1 1 6 5 5\n2 2 1 6 6 6\n3 2 2 2 2 6\n3 3 3 3 3 6",
       "source": "https://www.janko.at/Raetsel/Burokku/104.a.htm",
       "info": ""
     },
     "105_8x8": {
-      "problem": "8 8\nH E H F B D A H\nF B A D E G C F\nE H E G F B G D\nD F G C C H B G\nA G D H A A H B\nB E F F B C D C\nC B G C A D F E\nH D G C A E E A",
+      "problem": "8 8\nh e h f b d a h\nf b a d e g c f\ne h e g f b g d\nd f g c c h b g\na g d h a a h b\nb e f f b c d c\nc b g c a d f e\nh d g c a e e a",
       "solution": "8 8\n1 4 4 4 4 4 4 8\n1 1 1 6 6 4 4 8\n2 2 1 6 6 6 7 8\n2 2 1 1 6 6 7 8\n2 2 1 5 6 7 7 8\n2 3 3 5 5 7 7 8\n2 3 5 5 5 5 7 8\n3 3 3 3 3 5 7 8",
       "source": "https://www.janko.at/Raetsel/Burokku/105.a.htm",
       "info": ""
     },
     "106_8x8": {
-      "problem": "8 8\nH F E D A B C H\nE B H F G E B D\nH A E G D F G G\nF D G C H F C C\nB E F C A B A A\nD G B H A C D E\nA C G B H D F E\nH F D G B C E A",
+      "problem": "8 8\nh f e d a b c h\ne b h f g e b d\nh a e g d f g g\nf d g c h f c c\nb e f c a b a a\nd g b h a c d e\na c g b h d f e\nh f d g b c e a",
       "solution": "8 8\n1 1 5 5 5 5 5 8\n2 1 5 5 5 8 8 8\n2 1 1 1 1 8 7 8\n2 4 4 1 7 7 7 8\n2 4 4 4 4 7 7 8\n2 2 4 4 6 6 7 7\n2 2 6 6 6 6 6 6\n3 3 3 3 3 3 3 3",
       "source": "https://www.janko.at/Raetsel/Burokku/106.a.htm",
       "info": ""
     },
-    "107_8x8": {
-      "problem": "8 8\nH F E D A B C H\nE B H F G E B D\nH A E G D F G G\nF D G C H F C C\nB E F C A B A A\nD G B H A C D E\nA C G B H D F E\nH F D G B C E A",
-      "solution": "8 8\n1 1 5 5 5 5 5 8\n2 1 5 5 5 8 8 8\n2 1 1 1 1 8 7 8\n2 4 4 1 7 7 7 8\n2 4 4 4 4 7 7 8\n2 2 4 4 6 6 7 7\n2 2 6 6 6 6 6 6\n3 3 3 3 3 3 3 3",
-      "source": "https://www.janko.at/Raetsel/Burokku/107.a.htm",
-      "info": ""
-    },
     "108_9x9": {
-      "problem": "9 9\nF I E A H F B I C\nI G F D D G B H D\nG C A C E A F H E\nC A B E A F I B G\nD B D H D D H I C\nA E H G C H G A F\nC F E E I C B B A\nB I H G A I B H E\nG D F I C E F D G",
+      "problem": "9 9\nf i e a h f b i c\ni g f d d g b h d\ng c a c e a f h e\nc a b e a f i b g\nd b d h d d h i c\na e h g c h g a f\nc f e e i c b b a\nb i h g a i b h e\ng d f i c e f d g",
       "solution": "9 9\n1 3 3 3 3 3 3 5 8\n1 3 5 3 5 5 5 5 8\n1 3 5 5 5 8 8 8 8\n1 1 6 6 6 6 8 8 8\n2 1 1 1 6 9 9 9 9\n2 1 2 6 6 6 9 7 9\n2 2 2 4 6 4 9 7 9\n2 2 4 4 4 4 4 7 9\n2 4 4 7 7 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/108.a.htm",
       "info": ""
     },
     "109_9x9": {
-      "problem": "9 9\nA E B B A H F E G\nG H I F D B D C E\nA E I C G H I G C\nD H C D G C B F E\nB C B E A C D H A\nF F F E D B H D F\nA G I F A G I A G\nH F A E B E H I B\nI G C H D I I D C",
+      "problem": "9 9\na e b b a h f e g\ng h i f d b d c e\na e i c g h i g c\nd h c d g c b f e\nb c b e a c d h a\nf f f e d b h d f\na g i f a g i a g\nh f a e b e h i b\ni g c h d i i d c",
       "solution": "9 9\n1 1 1 6 6 6 6 6 6\n2 1 1 1 1 5 6 6 8\n2 2 2 1 1 5 6 8 8\n2 2 2 3 5 5 8 8 9\n2 3 3 3 5 7 8 9 9\n2 3 5 5 5 7 8 9 9\n3 3 5 7 7 7 8 8 9\n3 4 4 4 4 7 7 9 9\n3 4 4 4 4 4 7 7 9",
       "source": "https://www.janko.at/Raetsel/Burokku/109.a.htm",
       "info": ""
     },
     "110_9x9": {
-      "problem": "9 9\nA G A D B F A H I\nE H E H C F G F G\nB I I C B F I A C\nB F C D E E F E H\nA D G G A D A B D\nH B H C C B G E I\nF D I B D H I H I\nE C G F H D A I D\nG E C E A F G B C",
+      "problem": "9 9\na g a d b f a h i\ne h e h c f g f g\nb i i c b f i a c\nb f c d e e f e h\na d g g a d a b d\nh b h c c b g e i\nf d i b d h i h i\ne c g f h d a i d\ng e c e a f g b c",
       "solution": "9 9\n1 3 3 3 3 3 6 6 6\n1 1 3 3 6 6 6 9 9\n1 1 3 3 6 4 4 9 9\n2 1 1 6 6 4 8 9 9\n2 1 1 4 4 4 8 9 9\n2 4 4 4 8 8 8 8 9\n2 2 2 5 5 5 5 8 8\n2 2 5 5 7 7 5 7 8\n2 5 5 7 7 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/110.a.htm",
       "info": ""
     },
     "111_4x4": {
-      "problem": "4 4\n2 4 2 1\n3 3 3 1\n4 4 2 1\n1 4 3 2",
+      "problem": "4 4\nb d b a\nc c c a\nd d b a\na d c b",
       "solution": "4 4\n1 2 2 2\n1 2 3 3\n1 3 3 4\n1 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/111.a.htm",
       "info": ""
     },
-    "112_6x6": {
-      "problem": "6 6\n3 2 3 1 2 2\n6 4 5 3 5 5\n5 4 1 4 4 1\n1 6 6 5 2 3\n6 2 2 3 1 4\n1 5 4 6 3 6",
-      "solution": "6 6\n1 1 2 4 4 6\n1 1 2 4 5 6\n1 2 2 4 5 6\n1 2 4 4 5 6\n3 2 3 3 5 6\n3 3 3 5 5 6",
-      "source": "https://www.janko.at/Raetsel/Burokku/112.a.htm",
-      "info": ""
-    },
-    "113_6x6": {
-      "problem": "6 6\n3 6 5 1 6 1\n2 4 4 6 2 5\n3 5 1 6 2 4\n1 3 4 5 3 6\n2 5 4 2 1 3\n2 5 1 3 4 6",
-      "solution": "6 6\n1 1 1 1 3 3\n1 1 2 2 2 3\n2 2 2 4 3 3\n4 4 4 4 3 5\n4 5 5 5 5 5\n6 6 6 6 6 6",
-      "source": "https://www.janko.at/Raetsel/Burokku/113.a.htm",
-      "info": ""
-    },
-    "114_6x6": {
-      "problem": "6 6\n3 2 2 5 1 2\n5 1 6 3 4 5\n4 1 3 5 6 1\n4 6 1 5 6 4\n2 6 4 5 2 3\n3 2 4 1 3 6",
-      "solution": "6 6\n1 1 4 4 4 6\n1 1 1 4 4 6\n1 2 2 2 4 6\n2 2 5 5 5 6\n2 3 5 3 5 6\n3 3 3 3 5 6",
-      "source": "https://www.janko.at/Raetsel/Burokku/114.a.htm",
-      "info": ""
-    },
-    "115_6x6": {
-      "problem": "6 6\nC B B E A B \nE A F C D E \nD A C E F A \nD F A E F D \nB F D E B C \nC B D A C F",
-      "solution": "6 6\n1 1 4 4 4 6 \n1 1 1 4 4 6 \n1 2 2 2 4 6 \n2 2 5 5 5 6 \n2 3 5 3 5 6 \n3 3 3 3 5 6",
-      "source": "https://www.janko.at/Raetsel/Burokku/115.a.htm",
-      "info": ""
-    },
     "116_8x8": {
-      "problem": "8 8\n1 6 8 6 4 6 2 7\n5 3 2 1 1 3 1 5\n7 8 5 5 7 3 6 4\n4 2 3 2 3 8 4 5\n1 3 4 7 4 5 2 3\n6 7 8 4 7 8 8 6\n6 8 2 5 2 7 1 8\n1 5 4 1 2 7 6 3",
+      "problem": "8 8\na f h f d f b g\ne c b a a c a e\ng h e e g c f d\nd b c b c h d e\na c d g d e b c\nf g h d g h h f\nf h b e b g a h\na e d a b g f c",
       "solution": "8 8\n1 1 1 7 8 8 8 6\n2 2 1 7 8 6 6 6\n2 2 1 7 8 8 6 5\n2 2 1 7 7 8 6 5\n2 3 1 1 7 8 6 5\n2 3 4 4 7 7 6 5\n3 3 3 4 5 5 5 5\n3 3 3 4 4 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/116.a.htm",
       "info": ""
     },
     "117_8x8": {
-      "problem": "8 8\nC H F A G F B C \nF A H D E D E A \nE B C G B H G C \nH D A E C F G B \nB G D H D A E G \nH E B C F E D H \nG G B A F A C B \nF D F D H E C A",
-      "solution": "8 8\n1 1 1 1 1 8 8 8 \n2 2 2 1 1 8 8 8 \n2 2 2 2 1 8 8 6 \n3 2 3 3 3 3 6 6 \n3 3 3 6 6 6 6 7 \n4 4 4 4 6 7 7 7 \n4 5 5 4 7 7 7 7 \n4 4 5 5 5 5 5 5",
+      "problem": "8 8\nc h f a g f b c\nf a h d e d e a\ne b c g b h g c\nh d a e c f g b\nb g d h d a e g\nh e b c f e d h\ng g b a f a c b\nf d f d h e c a",
+      "solution": "8 8\n1 1 1 1 1 8 8 8\n2 2 2 1 1 8 8 8\n2 2 2 2 1 8 8 6\n3 2 3 3 3 3 6 6\n3 3 3 6 6 6 6 7\n4 4 4 4 6 7 7 7\n4 5 5 4 7 7 7 7\n4 4 5 5 5 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/117.a.htm",
       "info": ""
     },
     "118_8x8": {
-      "problem": "8 8\nH H E G G A F B \nD B F F C C D E \nE B A G B H H H \nA B C E D A D E \nG H B D F C F D \nF E D F E D B G \nC F H C E B A H \nC G A A G C A G",
-      "solution": "8 8\n1 3 4 4 6 6 6 6 \n1 3 3 4 4 6 6 6 \n1 1 3 3 4 4 6 8 \n1 2 3 3 3 4 4 8 \n1 2 5 5 7 8 8 8 \n1 2 2 5 7 7 8 8 \n1 2 5 5 5 7 8 7 \n2 2 2 5 5 7 7 7",
+      "problem": "8 8\nh h e g g a f b\nd b f f c c d e\ne b a g b h h h\na b c e d a d e\ng h b d f c f d\nf e d f e d b g\nc f h c e b a h\nc g a a g c a g",
+      "solution": "8 8\n1 3 4 4 6 6 6 6\n1 3 3 4 4 6 6 6\n1 1 3 3 4 4 6 8\n1 2 3 3 3 4 4 8\n1 2 5 5 7 8 8 8\n1 2 2 5 7 7 8 8\n1 2 5 5 5 7 8 7\n2 2 2 5 5 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/118.a.htm",
       "info": ""
     },
     "119_9x9": {
-      "problem": "9 9\nD B I C E D G B D \nF A F G I A G H E \nE C G E H D B F I \nH I F I B C A F H \nG B I D H C A A F \nC B F A D B H C G \nE H E E A E B I D \nD G F B C H I E C \nG A I A D H F C G",
-      "solution": "9 9\n1 3 3 6 6 6 8 8 8 \n1 1 3 3 6 6 6 6 8 \n1 1 5 3 3 3 6 6 8 \n1 1 5 5 5 3 3 8 8 \n1 1 2 5 5 5 9 8 9 \n2 2 2 5 7 7 9 8 9 \n2 2 4 5 7 7 9 9 9 \n2 4 4 4 4 7 7 9 9 \n2 2 4 4 4 4 7 7 7",
+      "problem": "9 9\nd b i c e d g b d\nf a f g i a g h e\ne c g e h d b f i\nh i f i b c a f h\ng b i d h c a a f\nc b f a d b h c g\ne h e e a e b i d\nd g f b c h i e c\ng a i a d h f c g",
+      "solution": "9 9\n1 3 3 6 6 6 8 8 8\n1 1 3 3 6 6 6 6 8\n1 1 5 3 3 3 6 6 8\n1 1 5 5 5 3 3 8 8\n1 1 2 5 5 5 9 8 9\n2 2 2 5 7 7 9 8 9\n2 2 4 5 7 7 9 9 9\n2 4 4 4 4 7 7 9 9\n2 2 4 4 4 4 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/119.a.htm",
       "info": ""
     },
     "120_9x9": {
-      "problem": "9 9\n9 8 5 2 6 9 2 8 7\n6 2 3 3 4 1 5 1 1\n5 8 7 4 8 7 3 4 6\n1 9 3 1 9 4 5 3 5\n6 1 5 7 8 7 8 4 1\n7 4 9 6 2 2 9 6 5\n9 6 7 5 6 1 2 7 8\n8 8 2 5 4 4 2 9 4\n6 3 2 1 3 3 9 7 3",
+      "problem": "9 9\ni h e b f i b h g\nf b c c d a e a a\ne h g d h g c d f\na i c a i d e c e\nf a e g h g h d a\ng d i f b b i f e\ni f g e f a b g h\nh h b e d d b i d\nf c b a c c i g c",
       "solution": "9 9\n1 1 1 1 2 2 2 2 2\n1 8 8 1 1 1 2 2 3\n8 8 8 8 7 1 2 2 3\n8 8 7 7 7 7 7 3 3\n8 9 9 7 5 5 3 3 4\n9 9 6 7 7 5 3 4 4\n9 6 6 5 5 5 3 3 4\n9 6 6 6 6 5 4 4 4\n9 9 9 6 6 5 5 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/120.a.htm",
       "info": ""
     },
     "121_4x4": {
-      "problem": "4 4\n2 3 4 1\n4 3 4 4\n2 3 2 3\n1 1 1 2",
+      "problem": "4 4\nb c d a\nd c d d\nb c b c\na a a b",
       "solution": "4 4\n1 1 1 1\n4 4 3 2\n4 3 3 2\n4 3 2 2",
       "source": "https://www.janko.at/Raetsel/Burokku/121.a.htm",
       "info": ""
     },
     "122_6x6": {
-      "problem": "6 6\n6 5 4 4 3 1\n3 2 5 6 4 6\n4 1 1 2 6 3\n6 1 1 3 5 2\n5 3 2 2 3 5\n5 4 6 2 1 4",
+      "problem": "6 6\nf e d d c a\nc b e f d f\nd a a b f c\nf a a c e b\ne c b b c e\ne d f b a d",
       "solution": "6 6\n1 1 1 2 2 3\n1 1 2 2 6 3\n5 1 2 2 6 3\n5 5 6 6 6 3\n5 5 5 6 4 3\n4 4 4 4 4 3",
       "source": "https://www.janko.at/Raetsel/Burokku/122.a.htm",
       "info": ""
     },
     "123_6x6": {
-      "problem": "6 6\n6 3 4 6 5 5\n5 2 1 1 3 4\n4 5 1 1 2 6\n4 6 2 3 2 2\n3 4 6 5 3 1\n1 6 3 2 5 4",
+      "problem": "6 6\nf c d f e e\ne b a a c d\nd e a a b f\nd f b c b b\nc d f e c a\na f c b e d",
       "solution": "6 6\n1 1 5 5 5 4\n1 1 1 5 5 4\n1 2 2 6 5 4\n2 2 2 6 6 4\n2 6 6 6 4 4\n3 3 3 3 3 3",
       "source": "https://www.janko.at/Raetsel/Burokku/123.a.htm",
       "info": ""
     },
     "124_6x6": {
-      "problem": "6 6\n1 5 5 4 1 6\n3 2 6 1 4 3\n4 6 5 3 5 5\n2 6 2 6 2 3\n3 1 3 4 5 4\n4 1 2 6 2 1",
+      "problem": "6 6\na e e d a f\nc b f a d c\nd f e c e e\nb f b f b c\nc a c d e d\nd a b f b a",
       "solution": "6 6\n1 1 2 2 5 5\n1 2 2 2 5 5\n1 1 3 2 5 6\n1 3 3 4 5 6\n3 3 4 4 4 6\n3 4 4 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/124.a.htm",
       "info": ""
     },
     "125_6x6": {
-      "problem": "6 6\n1 3 4 2 3 4\n5 2 6 6 1 1\n5 6 5 2 3 2\n4 1 3 6 4 6\n1 4 5 2 5 2\n6 3 5 3 4 1",
+      "problem": "6 6\na c d b c d\ne b f f a a\ne f e b c b\nd a c f d f\na d e b e b\nf c e c d a",
       "solution": "6 6\n5 5 5 5 6 6\n5 4 5 6 6 3\n4 4 6 6 3 3\n4 4 4 3 3 2\n1 1 1 1 3 2\n1 1 2 2 2 2",
       "source": "https://www.janko.at/Raetsel/Burokku/125.a.htm",
       "info": ""
     },
     "126_8x8": {
-      "problem": "8 8\n8 4 5 1 7 6 3 3\n8 2 2 2 8 5 6 7\n5 6 1 3 2 4 8 1\n7 6 7 5 4 6 3 1\n7 3 2 4 6 5 5 7\n1 3 8 1 3 4 2 3\n6 4 8 4 6 2 1 1\n2 5 8 5 4 7 8 7",
+      "problem": "8 8\nh d e a g f c c\nh b b b h e f g\ne f a c b d h a\ng f g e d f c a\ng c b d f e e g\na c h a c d b c\nf d h d f b a a\nb e h e d g h g",
       "solution": "8 8\n1 1 1 1 1 1 1 8\n2 2 1 8 8 8 8 8\n3 2 2 2 7 8 7 8\n3 3 2 2 7 7 7 7\n4 3 3 2 6 6 7 7\n4 4 3 3 5 6 6 6\n4 4 4 3 5 5 5 6\n4 4 5 5 5 5 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/126.a.htm",
       "info": ""
     },
-    "127_8x8": {
-      "problem": "8 8\n8 8 5 7 7 1 6 2\n4 2 6 6 3 3 4 5\n5 2 1 7 2 8 8 8\n1 2 3 5 4 1 4 5\n7 8 2 4 6 3 6 4\n6 5 4 6 5 4 2 7\n3 6 8 3 5 2 1 8\n3 7 1 1 7 3 1 7",
-      "solution": "8 8\n1 4 5 5 6 6 6 6\n1 4 4 5 5 6 6 6\n1 1 4 4 5 5 6 7\n1 2 4 4 4 5 5 7\n1 2 3 3 8 7 7 7\n1 2 2 3 8 8 7 7\n1 2 3 3 3 8 7 8\n2 2 2 3 3 8 8 8",
-      "source": "https://www.janko.at/Raetsel/Burokku/127.a.htm",
-      "info": ""
-    },
-    "128_8x8": {
-      "problem": "8 8\nH D E A G F C C \nH B B B H E F G \nE F A C B D H A \nG F G E D F C A \nG C B D F E E G \nA C H A C D B C \nF D H D F B A A \nB E H E D G H G",
-      "solution": "8 8\n1 1 1 1 1 1 1 6 \n2 2 1 6 6 6 6 6 \n3 2 2 2 7 6 7 6 \n3 3 2 2 7 7 7 7 \n4 3 3 2 8 8 7 7 \n4 4 3 3 5 8 8 8 \n4 4 4 3 5 5 5 8 \n4 4 5 5 5 5 8 8",
-      "source": "https://www.janko.at/Raetsel/Burokku/128.a.htm",
-      "info": ""
-    },
     "129_9x9": {
-      "problem": "9 9\n3 1 4 2 8 1 4 6 7\n2 5 9 8 7 5 6 2 3\n8 8 2 3 7 3 9 8 5\n1 6 4 3 9 3 9 9 4\n7 4 1 5 6 2 1 2 4\n7 9 6 8 1 6 4 6 5\n5 5 1 5 7 1 7 1 2\n2 7 5 6 9 3 3 9 8\n3 4 8 9 6 8 4 7 2",
+      "problem": "9 9\nc a d b h a d f g\nb e i h g e f b c\nh h b c g c i h e\na f d c i c i i d\ng d a e f b a b d\ng i f h a f d f e\ne e a e g a g a b\nb g e f i c c i h\nc d h i f h d g b",
       "solution": "9 9\n1 2 2 2 8 8 8 9 9\n1 1 1 2 8 8 8 8 9\n1 3 3 2 2 8 8 9 9\n1 1 3 3 2 7 7 9 9\n1 1 3 2 2 7 9 9 6\n3 3 3 7 7 7 7 6 6\n3 4 4 7 7 5 6 6 6\n4 4 5 5 5 5 6 6 6\n4 4 4 4 4 5 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/129.a.htm",
       "info": ""
     },
     "130_9x9": {
-      "problem": "9 9\n3 2 8 1 7 7 5 2 3\n1 5 8 6 4 9 5 7 4\n4 9 2 4 1 6 1 5 8\n2 8 3 3 5 8 5 6 9\n8 7 7 9 6 1 7 9 6\n1 5 3 3 2 6 1 3 8\n4 6 9 9 1 4 7 3 4\n6 2 8 9 2 6 1 9 7\n7 3 5 4 4 5 2 8 2",
+      "problem": "9 9\nc b h a g g e b c\na e h f d i e g d\nd i b d a f a e h\nb h c c e h e f i\nh g g i f a g i f\na e c c b f a c h\nd f i i a d g c d\nf b h i b f a i g\ng c e d d e b h b",
       "solution": "9 9\n1 1 1 1 1 3 3 9 9\n2 1 3 1 1 3 9 9 9\n2 1 3 3 3 3 9 8 9\n2 2 2 3 2 4 4 8 9\n5 5 2 2 2 4 4 8 9\n5 5 5 4 4 4 8 8 8\n5 5 5 4 6 4 7 7 8\n6 5 6 6 6 7 7 7 8\n6 6 6 6 7 7 7 7 8",
       "source": "https://www.janko.at/Raetsel/Burokku/130.a.htm",
       "info": ""
     },
     "131_4x4": {
-      "problem": "4 4\n1 4 2 3\n4 2 1 2\n1 1 4 3\n3 4 2 3",
+      "problem": "4 4\na d b c\nd b a b\na a d c\nc d b c",
       "solution": "4 4\n1 1 1 1\n3 3 2 2\n3 4 2 2\n3 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/131.a.htm",
       "info": ""
     },
-    "132_6x6": {
-      "problem": "6 6\n6 5 4 4 3 1\n3 2 5 6 4 6\n4 1 1 2 6 3\n6 1 1 3 5 2\n5 3 2 2 3 5\n5 4 6 2 1 4",
-      "solution": "6 6\n1 1 1 2 2 3\n1 1 2 2 6 3\n5 1 2 2 6 3\n5 5 6 6 6 3\n5 5 5 6 4 3\n4 4 4 4 4 3",
-      "source": "https://www.janko.at/Raetsel/Burokku/132.a.htm",
-      "info": ""
-    },
-    "133_6x6": {
-      "problem": "6 6\n6 3 4 6 5 5\n5 2 1 1 3 4\n4 5 1 1 2 6\n4 6 2 3 2 2\n3 4 6 5 3 1\n1 6 3 2 5 4",
-      "solution": "6 6\n1 1 5 5 5 4\n1 1 1 5 5 4\n1 2 2 6 5 4\n2 2 2 6 6 4\n2 6 6 6 4 4\n3 3 3 3 3 3",
-      "source": "https://www.janko.at/Raetsel/Burokku/133.a.htm",
-      "info": ""
-    },
     "134_6x6": {
-      "problem": "6 6\n2 5 3 1 5 4\n3 6 2 2 3 4\n1 4 3 1 5 6\n1 6 2 1 6 4\n5 2 6 3 4 5\n3 1 4 6 5 2",
+      "problem": "6 6\nb e c a e d\nc f b b c d\na d c a e f\na f b a f d\ne b f c d e\nc a d f e b",
       "solution": "6 6\n1 1 5 5 5 5\n1 5 5 6 6 6\n1 1 4 6 6 6\n2 1 4 4 4 4\n2 2 2 2 2 4\n3 3 3 3 3 3",
       "source": "https://www.janko.at/Raetsel/Burokku/134.a.htm",
       "info": ""
     },
     "135_6x6": {
-      "problem": "6 6\n2 3 1 1 5 3\n5 6 4 6 2 1\n3 2 3 2 6 4\n1 2 1 1 3 6\n5 3 5 6 4 5\n4 4 6 4 5 2",
+      "problem": "6 6\nb c a a e c\ne f d f b a\nc b c b f d\na b a a c f\ne c e f d e\nd d f d e b",
       "solution": "6 6\n1 1 1 2 2 6\n1 4 1 1 2 6\n4 4 3 3 2 6\n4 5 5 3 2 6\n4 5 5 3 2 6\n4 5 5 3 3 6",
       "source": "https://www.janko.at/Raetsel/Burokku/135.a.htm",
       "info": ""
     },
-    "136_8x8": {
-      "problem": "8 8\n8 4 5 1 7 6 3 3\n8 2 2 2 8 5 6 7\n5 6 1 3 2 4 8 1\n7 6 7 5 4 6 3 1\n7 3 2 4 6 5 5 7\n1 3 8 1 3 4 2 3\n6 4 8 4 6 2 1 1\n2 5 8 5 4 7 8 7",
-      "solution": "8 8\n1 1 1 1 1 1 1 8\n2 2 1 8 8 8 8 8\n3 2 2 2 7 8 7 8\n3 3 2 2 7 7 7 7\n4 3 3 2 6 6 7 7\n4 4 3 3 5 6 6 6\n4 4 4 3 5 5 5 6\n4 4 5 5 5 5 6 6",
-      "source": "https://www.janko.at/Raetsel/Burokku/136.a.htm",
-      "info": ""
-    },
-    "137_8x8": {
-      "problem": "8 8\n8 8 5 7 7 1 6 2\n4 2 6 6 3 3 4 5\n5 2 1 7 2 8 8 8\n1 2 3 5 4 1 4 5\n7 8 2 4 6 3 6 4\n6 5 4 6 5 4 2 7\n3 6 8 3 5 2 1 8\n3 7 1 1 7 3 1 7",
-      "solution": "8 8\n1 4 5 5 6 6 6 6\n1 4 4 5 5 6 6 6\n1 1 4 4 5 5 6 7\n1 2 4 4 4 5 5 7\n1 2 3 3 8 7 7 7\n1 2 2 3 8 8 7 7\n1 2 3 3 3 8 7 8\n2 2 2 3 3 8 8 8",
-      "source": "https://www.janko.at/Raetsel/Burokku/137.a.htm",
-      "info": ""
-    },
-    "138_8x8": {
-      "problem": "8 8\nA F H F D F B G \nE C B A A C A E \nG H E E G C F D \nD B C B C H D E \nA C D G D E B C \nF G H D G H H F \nF H B E B G A H \nA E D A B G F C",
-      "solution": "8 8\n1 1 1 5 6 6 6 8 \n2 2 1 5 6 8 8 8 \n2 2 1 5 6 6 8 7 \n2 2 1 5 5 6 8 7 \n2 3 1 1 5 6 8 7 \n2 3 4 4 5 5 8 7 \n3 3 3 4 7 7 7 7 \n3 3 3 4 4 4 4 4",
-      "source": "https://www.janko.at/Raetsel/Burokku/138.a.htm",
-      "info": ""
-    },
     "139_9x9": {
-      "problem": "9 9\n2 3 1 2 9 6 8 5 4\n1 9 4 9 6 4 2 1 3\n3 8 4 1 5 8 7 6 9\n5 7 3 7 8 7 8 1 7\n6 8 7 9 5 3 5 2 9\n2 3 3 7 6 9 2 4 7\n5 7 4 8 5 4 2 8 1\n9 6 5 2 6 1 9 4 3\n1 4 1 3 8 2 6 5 6",
+      "problem": "9 9\nb c a b i f h e d\na i d i f d b a c\nc h d a e h g f i\ne g c g h g h a g\nf h g i e c e b i\nb c c g f i b d g\ne g d h e d b h a\ni f e b f a i d c\na d a c h b f e f",
       "solution": "9 9\n1 2 2 2 9 9 9 9 9\n1 1 1 2 2 2 9 9 9\n1 1 3 3 2 2 9 8 8\n1 1 3 3 3 2 8 8 8\n1 5 5 4 3 8 8 8 7\n5 5 4 4 3 3 3 8 7\n5 6 6 4 4 4 7 7 7\n5 5 6 4 4 4 6 7 7\n5 5 6 6 6 6 6 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/139.a.htm",
       "info": ""
     },
     "140_9x9": {
-      "problem": "9 9\n2 1 3 5 6 2 5 9 1\n3 9 8 7 8 3 7 6 4\n1 4 4 3 7 3 4 5 1\n2 9 1 7 9 7 8 2 3\n9 6 5 8 5 6 5 6 8\n6 4 8 7 3 9 4 1 2\n8 2 7 8 5 2 2 9 6\n5 1 6 1 2 4 8 4 5\n4 3 9 7 9 7 1 3 6",
+      "problem": "9 9\nb a c e f b e i a\nc i h g h c g f d\na d d c g c d e a\nb i a g i g h b c\ni f e h e f e f h\nf d h g c i d a b\nh b g h e b b i f\ne a f a b d h d e\nd c i g i g a c f",
       "solution": "9 9\n1 1 1 1 1 6 6 6 6\n2 1 1 1 6 6 9 6 6\n2 1 5 5 6 7 9 9 9\n2 2 5 5 7 7 7 7 9\n3 2 2 5 5 5 7 7 9\n3 2 2 2 4 5 7 7 9\n3 3 3 4 4 5 8 9 9\n3 3 4 4 4 4 8 8 8\n3 3 4 4 8 8 8 8 8",
       "source": "https://www.janko.at/Raetsel/Burokku/140.a.htm",
       "info": ""
     },
-    "141_4x4": {
-      "problem": "4 4\nB D B A\nC C C A\nD D B A\nA D C B",
-      "solution": "4 4\n1 2 2 2\n1 2 3 3\n1 3 3 4\n1 4 4 4",
-      "source": "https://www.janko.at/Raetsel/Burokku/141.a.htm",
-      "info": ""
-    },
-    "142_4x4": {
-      "problem": "4 4\nB C D A\nD C D D\nB C B C\nA A A B",
-      "solution": "4 4\n1 1 1 1\n2 2 3 4\n2 3 3 4\n2 3 4 4",
-      "source": "https://www.janko.at/Raetsel/Burokku/142.a.htm",
-      "info": ""
-    },
     "143_6x6": {
-      "problem": "6 6\nC E D D B C\nB A A F F B\nB F C A D D\nE C E E E A\nA D F F B C\nB E A D C F",
+      "problem": "6 6\nc e d d b c\nb a a f f b\nb f c a d d\ne c e e e a\na d f f b c\nb e a d c f",
       "solution": "6 6\n1 1 1 4 4 6\n1 1 4 4 6 6\n2 1 4 5 5 6\n2 2 4 5 6 6\n2 2 2 5 5 5\n3 3 3 3 3 3",
       "source": "https://www.janko.at/Raetsel/Burokku/143.a.htm",
       "info": ""
     },
-    "144_6x6": {
-      "problem": "6 6\nA E E D A F\nC B F A D C\nD F E C E E\nB F B F B C\nC A C D E D\nD A B F B A",
-      "solution": "6 6\n1 1 3 3 6 6\n1 3 3 3 6 6\n1 1 2 3 6 5\n1 2 2 4 6 5\n2 2 4 4 4 5\n2 4 4 5 5 5",
-      "source": "https://www.janko.at/Raetsel/Burokku/144.a.htm",
-      "info": ""
-    },
-    "145_6x6": {
-      "problem": "6 6\nA C D B C D\nE B F F A A\nE F E B C B\nD A C F D F\nA D E B E B\nF C E C D A",
-      "solution": "6 6\n1 1 1 1 4 4\n1 2 1 4 4 6\n2 2 4 4 6 6\n2 2 2 6 6 5\n3 3 3 3 6 5\n3 3 5 5 5 5",
-      "source": "https://www.janko.at/Raetsel/Burokku/145.a.htm",
-      "info": ""
-    },
-    "146_6x6": {
-      "problem": "6 6\nB C A A E C\nE F D F B A\nC B C B F D\nA B A A C F\nE C E F D E\nD D F D E B",
-      "solution": "6 6\n1 1 1 5 5 6\n1 2 1 1 5 6\n2 2 4 4 5 6\n2 3 3 4 5 6\n2 3 3 4 5 6\n2 3 3 4 4 6",
-      "source": "https://www.janko.at/Raetsel/Burokku/146.a.htm",
-      "info": ""
-    },
     "147_8x8": {
-      "problem": "8 8\nA E G D A F F A\nF C H B C G H E\nH B E C D H B D\nF A E B G D E A\nD A G C D G B B\nF C C H E H G G\nB A F D B H A F\nG E D E C F H C",
+      "problem": "8 8\na e g d a f f a\nf c h b c g h e\nh b e c d h b d\nf a e b g d e a\nd a g c d g b b\nf c c h e h g g\nb a f d b h a f\ng e d e c f h c",
       "solution": "8 8\n1 5 5 5 5 5 7 7\n1 5 5 5 7 7 7 7\n1 1 1 1 1 8 7 7\n2 2 2 2 1 8 8 8\n3 3 3 2 2 2 6 8\n3 4 3 3 3 2 6 8\n3 4 4 4 4 4 6 8\n4 4 6 6 6 6 6 8",
       "source": "https://www.janko.at/Raetsel/Burokku/147.a.htm",
       "info": ""
     },
     "148_8x8": {
-      "problem": "8 8\nE C A F C B H G\nD B D E G A D E\nF G B G G A E F\nC F F G B E B A\nH H A F C A F D\nB E D B H F H H\nG D E D E D C C\nA H C H G C A B",
+      "problem": "8 8\ne c a f c b h g\nd b d e g a d e\nf g b g g a e f\nc f f g b e b a\nh h a f c a f d\nb e d b h f h h\ng d e d e d c c\na h c h g c a b",
       "solution": "8 8\n1 1 1 4 4 4 4 8\n1 1 4 4 4 4 7 8\n2 1 3 3 7 7 7 8\n2 1 3 5 5 5 7 8\n2 1 3 6 5 5 7 8\n2 2 3 6 5 5 7 8\n2 2 3 6 6 5 7 8\n2 3 3 6 6 6 6 8",
       "source": "https://www.janko.at/Raetsel/Burokku/148.a.htm",
       "info": ""
     },
     "149_8x8": {
-      "problem": "8 8\nE D F C H B G A\nC B G F H E D H\nA D B F A D E C\nF E G G F B D H\nC G G B C H E G\nB A A E A F D C\nH D E B F H C A\nG E F A D H C B",
+      "problem": "8 8\ne d f c h b g a\nc b g f h e d h\na d b f a d e c\nf e g g f b d h\nc g g b c h e g\nb a a e a f d c\nh d e b f h c a\ng e f a d h c b",
       "solution": "8 8\n1 1 5 5 5 5 5 5\n1 1 1 1 1 5 5 6\n1 2 6 6 6 6 6 6\n2 2 6 7 8 8 8 8\n2 2 4 7 7 7 8 8\n2 2 4 7 7 7 7 8\n2 4 4 4 4 4 4 8\n3 3 3 3 3 3 3 3",
       "source": "https://www.janko.at/Raetsel/Burokku/149.a.htm",
       "info": ""
     },
     "150_9x9": {
-      "problem": "9 9\nD F E H G C E D G\nB A C I B B H G A\nI F G F I F E F I\nC G E I D A E B A\nE I H B H D A C D\nD A D C C B E H H\nG G B A A H B I F\nB H F F A C I E C\nD E I H F G D C G",
+      "problem": "9 9\nd f e h g c e d g\nb a c i b b h g a\ni f g f i f e f i\nc g e i d a e b a\ne i h b h d a c d\nd a d c c b e h h\ng g b a a h b i f\nb h f f a c i e c\nd e i h f g d c g",
       "solution": "9 9\n1 1 1 1 1 6 6 6 6\n2 1 1 1 1 6 6 9 6\n2 2 5 5 6 6 9 9 9\n3 2 2 5 5 5 5 9 9\n3 3 2 5 5 8 8 9 9\n3 3 2 2 5 8 8 8 9\n4 3 3 2 7 7 7 8 8\n4 3 3 4 4 4 7 7 8\n4 4 4 4 7 7 7 7 8",
       "source": "https://www.janko.at/Raetsel/Burokku/150.a.htm",
       "info": ""
     },
     "151_4x4": {
-      "problem": "4 4\nC A D D\nC B C A\nA D D B\nB C B A",
+      "problem": "4 4\nc a d d\nc b c a\na d d b\nb c b a",
       "solution": "4 4\n1 1 1 4\n2 1 4 4\n2 2 3 4\n2 3 3 3",
       "source": "https://www.janko.at/Raetsel/Burokku/151.a.htm",
       "info": ""
     },
     "152_6x6": {
-      "problem": "6 6\nD E F E D A\nB A F B F C\nA D C A C A\nE C E D D E\nF B C A B F\nC F B E B D",
+      "problem": "6 6\nd e f e d a\nb a f b f c\na d c a c a\ne c e d d e\nf b c a b f\nc f b e b d",
       "solution": "6 6\n1 2 2 4 4 4\n1 2 4 4 5 6\n1 2 4 3 5 6\n1 2 3 3 5 6\n1 2 3 5 5 6\n1 3 3 5 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/152.a.htm",
       "info": ""
     },
     "153_6x6": {
-      "problem": "6 6\nF E C D E B\nB D E B A D\nA A C B D F\nF F A F E C\nE B F C D E\nC D C A B A",
+      "problem": "6 6\nf e c d e b\nb d e b a d\na a c b d f\nf f a f e c\ne b f c d e\nc d c a b a",
       "solution": "6 6\n1 1 1 3 5 6\n1 1 3 3 5 6\n2 1 3 5 5 6\n2 3 3 5 4 6\n2 2 4 5 4 6\n2 2 4 4 4 6",
       "source": "https://www.janko.at/Raetsel/Burokku/153.a.htm",
       "info": ""
     },
     "154_6x6": {
-      "problem": "6 6\nD B A E F C\nE A D C B F\nF F C E C B\nE B A D A E\nD F C D B B\nA C A E F D",
+      "problem": "6 6\nd b a e f c\ne a d c b f\nf f c e c b\ne b a d a e\nd f c d b b\na c a e f d",
       "solution": "6 6\n1 1 1 1 1 1\n2 2 2 2 2 6\n2 3 3 6 6 6\n3 3 6 6 4 4\n3 4 4 4 4 5\n3 5 5 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/154.a.htm",
       "info": ""
     },
     "155_6x6": {
-      "problem": "6 6\nF B A F E C\nE D A F B D\nC E C A F C\nD B B F C A\nE A D E D B\nB D F C E A",
+      "problem": "6 6\nf b a f e c\ne d a f b d\nc e c a f c\nd b b f c a\ne a d e d b\nb d f c e a",
       "solution": "6 6\n1 1 5 5 5 5\n1 1 1 2 5 5\n1 2 2 2 6 6\n2 2 3 3 3 6\n3 3 3 6 6 6\n4 4 4 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/155.a.htm",
       "info": ""
     },
     "156_6x6": {
-      "problem": "6 6\nB E F E A F\nF C A D D D\nB F F D F C\nC B A A B A\nE C E B C E\nA D D C E B",
+      "problem": "6 6\nb e f e a f\nf c a d d d\nb f f d f c\nc b a a b a\ne c e b c e\na d d c e b",
       "solution": "6 6\n1 1 1 5 5 6\n2 1 1 1 5 6\n2 3 4 4 5 6\n2 3 3 4 5 6\n2 3 3 4 5 6\n2 2 3 4 4 6",
       "source": "https://www.janko.at/Raetsel/Burokku/156.a.htm",
       "info": ""
     },
     "157_8x8": {
-      "problem": "8 8\nB H F F H A B D\nD A C D G F E H\nG G G C C C A B\nA E D A F G B E\nC F H A D G E H\nA B H E G B F D\nH B F D E C C E\nB H A C D F G E",
+      "problem": "8 8\nb h f f h a b d\nd a c d g f e h\ng g g c c c a b\na e d a f g b e\nc f h a d g e h\na b h e g b f d\nh b f d e c c e\nb h a c d f g e",
       "solution": "8 8\n1 1 1 5 5 5 5 8\n2 1 1 5 8 8 5 8\n2 1 5 5 7 8 8 8\n2 1 1 7 7 7 7 8\n2 2 6 6 6 6 7 7\n3 2 2 2 3 6 6 7\n3 3 3 3 3 3 6 6\n4 4 4 4 4 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/157.a.htm",
       "info": ""
     },
     "158_8x8": {
-      "problem": "8 8\nF A D E F F H D\nD C A G F E B C\nE H B D A B G F\nC H G H C A C A\nG A B E B D F G\nE B A E H C F D\nB C F G G H B E\nH D A C E G D H",
+      "problem": "8 8\nf a d e f f h d\nd c a g f e b c\ne h b d a b g f\nc h g h c a c a\ng a b e b d f g\ne b a e h c f d\nb c f g g h b e\nh d a c e g d h",
       "solution": "8 8\n1 3 3 3 3 7 7 7\n1 3 4 4 4 7 8 8\n1 3 3 4 7 7 7 8\n1 1 3 4 4 6 7 8\n1 1 4 4 6 6 6 8\n2 1 2 6 6 6 5 8\n2 2 2 2 6 5 5 8\n2 2 5 5 5 5 5 8",
       "source": "https://www.janko.at/Raetsel/Burokku/158.a.htm",
       "info": ""
     },
     "159_8x8": {
-      "problem": "8 8\nB D G A C A H B\nH A G E F B B H\nF C G D H H F A\nF D C A A E D C\nH G C F D G E D\nA F C G G B C F\nB E A B E F C G\nD H B E H D E E",
+      "problem": "8 8\nb d g a c a h b\nh a g e f b b h\nf c g d h h f a\nf d c a a e d c\nh g c f d g e d\na f c g g b c f\nb e a b e f c g\nd h b e h d e e",
       "solution": "8 8\n1 4 4 4 4 7 7 8\n1 1 1 1 4 4 7 8\n1 1 2 1 6 4 7 8\n2 2 2 5 6 4 7 8\n2 3 5 5 6 7 7 8\n2 3 3 5 6 6 7 8\n2 2 3 5 5 6 6 8\n3 3 3 3 5 5 6 8",
       "source": "https://www.janko.at/Raetsel/Burokku/159.a.htm",
       "info": ""
     },
     "160_9x9": {
-      "problem": "9 9\nH B C E C E I A F\nC I G D A F H B G\nA I D C I H D F H\nE B I A B E A A B\nF G G D G E G I D\nH C B E H H C D F\nF A D G D F A B E\nH I B B H I C I G\nD G F C E F A E C",
+      "problem": "9 9\nh b c e c e i a f\nc i g d a f h b g\na i d c i h d f h\ne b i a b e a a b\nf g g d g e g i d\nh c b e h h c d f\nf a d g d f a b e\nh i b b h i c i g\nd g f c e f a e c",
       "solution": "9 9\n1 4 4 4 7 7 7 7 7\n1 4 4 4 4 4 7 7 7\n1 1 1 6 6 4 7 8 9\n1 1 2 2 6 6 6 8 9\n1 1 2 2 6 8 8 8 9\n2 2 2 2 6 8 8 8 9\n2 3 5 5 6 6 9 8 9\n3 3 3 5 5 5 9 9 9\n3 3 3 3 3 5 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/160.a.htm",
       "info": ""
     },
     "161_6x6": {
-      "problem": "6 6\nD F C E C E \nA B F B D F \nB E A A A E \nD E C D B E \nC D A C F A \nF C F B B D",
-      "solution": "6 6\n1 1 1 1 4 4 \n1 1 4 4 4 5 \n2 2 2 4 5 5 \n2 3 5 5 5 6 \n2 3 3 6 6 6 \n2 3 3 3 6 6",
+      "problem": "6 6\nd f c e c e\na b f b d f\nb e a a a e\nd e c d b e\nc d a c f a\nf c f b b d",
+      "solution": "6 6\n1 1 1 1 4 4\n1 1 4 4 4 5\n2 2 2 4 5 5\n2 3 5 5 5 6\n2 3 3 6 6 6\n2 3 3 3 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/161.a.htm",
       "info": ""
     },
     "162_6x6": {
-      "problem": "6 6\nB F B C E A \nE C F B C D \nF A F A E D \nE D D A B C \nA D F B C E \nF D C A E B",
-      "solution": "6 6\n1 4 4 4 4 4 \n1 1 5 5 5 4 \n1 1 6 5 5 5 \n2 1 6 6 6 6 \n2 2 2 2 2 6 \n3 3 3 3 3 3",
+      "problem": "6 6\nb f b c e a\ne c f b c d\nf a f a e d\ne d d a b c\na d f b c e\nf d c a e b",
+      "solution": "6 6\n1 4 4 4 4 4\n1 1 5 5 5 4\n1 1 6 5 5 5\n2 1 6 6 6 6\n2 2 2 2 2 6\n3 3 3 3 3 3",
       "source": "https://www.janko.at/Raetsel/Burokku/162.a.htm",
       "info": ""
     },
     "163_6x6": {
-      "problem": "6 6\nD A B D C F \nF B E E D C \nC F A C A F \nE B A D C B \nC D A B F B \nE F E E A D",
-      "solution": "6 6\n1 1 4 4 4 4 \n1 1 4 5 5 5 \n1 2 4 3 5 5 \n1 2 2 3 6 5 \n2 2 3 3 6 6 \n2 3 3 6 6 6",
+      "problem": "6 6\nd a b d c f\nf b e e d c\nc f a c a f\ne b a d c b\nc d a b f b\ne f e e a d",
+      "solution": "6 6\n1 1 4 4 4 4\n1 1 4 5 5 5\n1 2 4 3 5 5\n1 2 2 3 6 5\n2 2 3 3 6 6\n2 3 3 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/163.a.htm",
       "info": ""
     },
     "164_6x6": {
-      "problem": "6 6\nA B F C E A \nE B E D E C \nD D C B F F \nF F D A D A \nB A F B B C \nC E C D A E",
-      "solution": "6 6\n1 2 2 5 5 5 \n1 3 2 5 6 6 \n1 3 2 5 5 6 \n1 3 2 2 6 6 \n1 3 4 4 6 4 \n1 3 3 4 4 4",
+      "problem": "6 6\na b f c e a\ne b e d e c\nd d c b f f\nf f d a d a\nb a f b b c\nc e c d a e",
+      "solution": "6 6\n1 2 2 5 5 5\n1 3 2 5 6 6\n1 3 2 5 5 6\n1 3 2 2 6 6\n1 3 4 4 6 4\n1 3 3 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/164.a.htm",
       "info": ""
     },
     "165_8x8": {
-      "problem": "8 8\nF D E C G E B H \nA C H H A B C D \nD A B G B A F A \nE G D H E E G C \nF F A C B H G E \nF E B A D C H G \nH B G C F F B D \nD C F A G D E H",
-      "solution": "8 8\n1 1 1 1 1 7 7 7 \n2 2 2 1 1 1 7 7 \n2 4 2 2 4 7 7 8 \n2 4 4 4 4 6 7 8 \n2 4 3 4 6 6 6 8 \n3 3 3 6 6 6 8 8 \n3 5 3 3 6 8 8 8 \n3 5 5 5 5 5 5 5",
+      "problem": "8 8\nf d e c g e b h\na c h h a b c d\nd a b g b a f a\ne g d h e e g c\nf f a c b h g e\nf e b a d c h g\nh b g c f f b d\nd c f a g d e h",
+      "solution": "8 8\n1 1 1 1 1 7 7 7\n2 2 2 1 1 1 7 7\n2 4 2 2 4 7 7 8\n2 4 4 4 4 6 7 8\n2 4 3 4 6 6 6 8\n3 3 3 6 6 6 8 8\n3 5 3 3 6 8 8 8\n3 5 5 5 5 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/165.a.htm",
       "info": ""
     },
     "166_8x8": {
-      "problem": "8 8\nE C H F G H A C \nA B D C B D G D \nC F E D H A B F \nH G B A F E D C \nB F E E C H F E \nA D F A A B E G \nG G H D C F G H \nB D E G B A C H",
-      "solution": "8 8\n1 1 1 4 4 4 6 6 \n1 1 1 4 6 6 6 8 \n2 1 4 4 6 8 8 8 \n2 1 4 4 6 6 7 8 \n2 2 2 3 3 5 7 8 \n2 2 3 3 5 5 7 8 \n2 3 3 5 5 5 7 8 \n3 3 5 5 7 7 7 7",
+      "problem": "8 8\ne c h f g h a c\na b d c b d g d\nc f e d h a b f\nh g b a f e d c\nb f e e c h f e\na d f a a b e g\ng g h d c f g h\nb d e g b a c h",
+      "solution": "8 8\n1 1 1 4 4 4 6 6\n1 1 1 4 6 6 6 8\n2 1 4 4 6 8 8 8\n2 1 4 4 6 6 7 8\n2 2 2 3 3 5 7 8\n2 2 3 3 5 5 7 8\n2 3 3 5 5 5 7 8\n3 3 5 5 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/166.a.htm",
       "info": ""
     },
     "167_8x8": {
-      "problem": "8 8\nE H B A C G F H\nF G A D B B G C\nD C D C E F A B\nA H H C E D E G\nC B E F A F D H\nG E B H G A B A\nA F D G C F H C\nD B F H E G D E",
+      "problem": "8 8\ne h b a c g f h\nf g a d b b g c\nd c d c e f a b\na h h c e d e g\nc b e f a f d h\ng e b h g a b a\na f d g c f h c\nd b f h e g d e",
       "solution": "8 8\n1 1 1 6 6 6 6 6\n1 1 1 6 6 5 5 7\n2 2 1 1 6 5 5 7\n3 2 5 5 5 5 7 7\n3 2 2 2 2 7 7 7\n3 3 3 3 2 8 8 7\n4 3 3 4 4 8 8 8\n4 4 4 4 4 8 8 8",
       "source": "https://www.janko.at/Raetsel/Burokku/167.a.htm",
       "info": ""
     },
     "168_9x9": {
-      "problem": "9 9\nH G C D H B E I F \nD D E A B H G A D \nI C G I C D H E F \nF B I F G H F I F \nE E F A I I B C E \nA A C I E A E A C \nG D G F D C H B B \nH B D C H C D I G \nE H A B G F G B A",
-      "solution": "9 9\n1 4 4 4 4 4 4 4 4 \n1 5 5 5 5 5 8 4 8 \n1 1 5 5 5 7 8 8 8 \n1 1 2 5 7 7 7 8 9 \n1 2 2 6 6 7 7 8 9 \n1 2 2 3 6 7 7 8 9 \n1 2 2 3 6 7 9 8 9 \n2 2 3 3 6 6 9 9 9 \n3 3 3 3 3 6 6 6 9",
+      "problem": "9 9\nh g c d h b e i f\nd d e a b h g a d\ni c g i c d h e f\nf b i f g h f i f\ne e f a i i b c e\na a c i e a e a c\ng d g f d c h b b\nh b d c h c d i g\ne h a b g f g b a",
+      "solution": "9 9\n1 4 4 4 4 4 4 4 4\n1 5 5 5 5 5 8 4 8\n1 1 5 5 5 7 8 8 8\n1 1 2 5 7 7 7 8 9\n1 2 2 6 6 7 7 8 9\n1 2 2 3 6 7 7 8 9\n1 2 2 3 6 7 9 8 9\n2 2 3 3 6 6 9 9 9\n3 3 3 3 3 6 6 6 9",
       "source": "https://www.janko.at/Raetsel/Burokku/168.a.htm",
       "info": ""
     },
     "169_9x9": {
-      "problem": "9 9\nF H A D E G C G E \nG I F B E B I D C \nB C B I A H D B F \nC E D F D F G A G \nA G F A A C D B H \nI I H E G D I A I \nE B D C H C B H I \nF C G E I F E F E \nH H B A G H A D C",
-      "solution": "9 9\n1 1 1 1 1 1 5 5 9 \n2 1 5 5 5 1 5 9 9 \n2 1 6 6 5 5 5 9 9 \n2 2 2 6 6 8 8 9 9 \n3 3 2 2 6 8 8 8 9 \n3 2 2 6 6 4 7 8 9 \n3 3 3 6 6 4 7 8 8 \n3 3 4 4 4 4 7 7 8 \n3 4 4 4 7 7 7 7 7",
+      "problem": "9 9\nf h a d e g c g e\ng i f b e b i d c\nb c b i a h d b f\nc e d f d f g a g\na g f a a c d b h\ni i h e g d i a i\ne b d c h c b h i\nf c g e i f e f e\nh h b a g h a d c",
+      "solution": "9 9\n1 1 1 1 1 1 5 5 9\n2 1 5 5 5 1 5 9 9\n2 1 6 6 5 5 5 9 9\n2 2 2 6 6 8 8 9 9\n3 3 2 2 6 8 8 8 9\n3 2 2 6 6 4 7 8 9\n3 3 3 6 6 4 7 8 8\n3 3 4 4 4 4 7 7 8\n3 4 4 4 7 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/169.a.htm",
       "info": ""
     },
     "170_9x9": {
-      "problem": "9 9\nA G I I B C F A G \nD H F H C E B E F \nA I E B A D D H I \nF D H B I H A G C \nC G F E B G F E E \nA I G H D E B D H \nC I H C C B C F G \nD G C E A D B D A \nE I H F B A F G I",
-      "solution": "9 9\n1 1 1 6 6 6 6 6 6 \n2 2 1 1 1 1 1 6 8 \n2 2 2 2 7 1 6 6 8 \n2 3 3 3 7 8 8 8 8 \n2 2 3 3 7 7 7 8 9 \n3 3 3 7 7 7 8 8 9 \n3 5 5 5 7 9 9 9 9 \n4 4 4 5 5 5 5 9 9 \n4 4 4 4 4 4 5 5 9",
+      "problem": "9 9\na g i i b c f a g\nd h f h c e b e f\na i e b a d d h i\nf d h b i h a g c\nc g f e b g f e e\na i g h d e b d h\nc i h c c b c f g\nd g c e a d b d a\ne i h f b a f g i",
+      "solution": "9 9\n1 1 1 6 6 6 6 6 6\n2 2 1 1 1 1 1 6 8\n2 2 2 2 7 1 6 6 8\n2 3 3 3 7 8 8 8 8\n2 2 3 3 7 7 7 8 9\n3 3 3 7 7 7 8 8 9\n3 5 5 5 7 9 9 9 9\n4 4 4 5 5 5 5 9 9\n4 4 4 4 4 4 5 5 9",
       "source": "https://www.janko.at/Raetsel/Burokku/170.a.htm",
       "info": ""
     },
     "171_6x6": {
-      "problem": "6 6\nA E D F B C \nB B D F A E \nF E C D F C \nC D B A B D \nE E F D B A \nA C F A C E",
-      "solution": "6 6\n1 1 1 1 1 1 \n2 4 4 4 4 4 \n2 2 2 2 6 4 \n3 3 3 2 6 6 \n3 5 3 5 5 6 \n3 5 5 5 6 6",
+      "problem": "6 6\na e d f b c\nb b d f a e\nf e c d f c\nc d b a b d\ne e f d b a\na c f a c e",
+      "solution": "6 6\n1 1 1 1 1 1\n2 4 4 4 4 4\n2 2 2 2 6 4\n3 3 3 2 6 6\n3 5 3 5 5 6\n3 5 5 5 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/171.a.htm",
       "info": ""
     },
     "172_6x6": {
-      "problem": "6 6\nF E C E D B \nA D A F A F \nB E E D C A \nF C D F B C \nB F D C B E \nD A A E B C",
-      "solution": "6 6\n1 1 1 5 6 6 \n1 1 4 5 5 6 \n1 2 4 5 5 6 \n2 2 4 4 5 6 \n2 3 3 4 4 6 \n2 2 3 3 3 3",
+      "problem": "6 6\nf e c e d b\na d a f a f\nb e e d c a\nf c d f b c\nb f d c b e\nd a a e b c",
+      "solution": "6 6\n1 1 1 5 6 6\n1 1 4 5 5 6\n1 2 4 5 5 6\n2 2 4 4 5 6\n2 3 3 4 4 6\n2 2 3 3 3 3",
       "source": "https://www.janko.at/Raetsel/Burokku/172.a.htm",
       "info": ""
     },
     "173_6x6": {
-      "problem": "6 6\nE B A D A D \nB C D F E E \nC A A B B F \nD C E C F C \nE F C B A D \nF A E B F D",
-      "solution": "6 6\n1 1 1 1 5 5 \n2 1 3 1 5 6 \n2 2 3 3 5 6 \n2 3 3 5 5 6 \n2 3 4 6 6 6 \n2 4 4 4 4 4",
+      "problem": "6 6\ne b a d a d\nb c d f e e\nc a a b b f\nd c e c f c\ne f c b a d\nf a e b f d",
+      "solution": "6 6\n1 1 1 1 5 5\n2 1 3 1 5 6\n2 2 3 3 5 6\n2 3 3 5 5 6\n2 3 4 6 6 6\n2 4 4 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/173.a.htm",
       "info": ""
     },
     "174_6x6": {
-      "problem": "6 6\nF A B F B D \nE D E C F A \nC A E D D A \nE F D F C E \nD A C B B B \nB F A C E C",
-      "solution": "6 6\n1 1 1 5 5 5 \n1 1 5 5 6 5 \n1 4 4 4 6 6 \n2 2 2 4 4 6 \n3 2 2 2 4 6 \n3 3 3 3 3 6",
+      "problem": "6 6\nf a b f b d\ne d e c f a\nc a e d d a\ne f d f c e\nd a c b b b\nb f a c e c",
+      "solution": "6 6\n1 1 1 5 5 5\n1 1 5 5 6 5\n1 4 4 4 6 6\n2 2 2 4 4 6\n3 2 2 2 4 6\n3 3 3 3 3 6",
       "source": "https://www.janko.at/Raetsel/Burokku/174.a.htm",
       "info": ""
     },
     "175_8x8": {
-      "problem": "8 8\nE F H F A B G C \nA A H G C E A H \nE A D B C G F F \nH B G H D B D H \nC F H C B G E B \nD G E D H D E G \nF D E A C F C A \nG B C B F D A E",
-      "solution": "8 8\n1 1 4 4 4 7 7 7 \n2 1 1 1 4 4 7 7 \n2 3 1 1 1 4 7 8 \n2 3 5 5 4 4 7 8 \n2 3 3 5 6 6 7 8 \n2 3 5 5 6 8 8 8 \n2 3 3 5 6 6 8 8 \n2 2 3 5 5 6 6 6",
+      "problem": "8 8\ne f h f a b g c\na a h g c e a h\ne a d b c g f f\nh b g h d b d h\nc f h c b g e b\nd g e d h d e g\nf d e a c f c a\ng b c b f d a e",
+      "solution": "8 8\n1 1 4 4 4 7 7 7\n2 1 1 1 4 4 7 7\n2 3 1 1 1 4 7 8\n2 3 5 5 4 4 7 8\n2 3 3 5 6 6 7 8\n2 3 5 5 6 8 8 8\n2 3 3 5 6 6 8 8\n2 2 3 5 5 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/175.a.htm",
       "info": ""
     },
     "176_8x8": {
-      "problem": "8 8\nF C H F G C E G \nG B D C F H A E \nF A B A A D F D \nB D G E H B C B \nE H C H F C G E \nD F D A A B E D \nG A C E H B A H \nC D B G H E F G",
-      "solution": "8 8\n1 1 5 5 5 5 5 6 \n2 1 5 6 6 6 6 6 \n2 1 5 5 7 7 7 6 \n2 1 1 1 7 7 7 6 \n2 2 2 1 8 8 7 7 \n3 3 2 2 8 8 8 8 \n3 3 3 3 3 3 4 8 \n4 4 4 4 4 4 4 8",
+      "problem": "8 8\nf c h f g c e g\ng b d c f h a e\nf a b a a d f d\nb d g e h b c b\ne h c h f c g e\nd f d a a b e d\ng a c e h b a h\nc d b g h e f g",
+      "solution": "8 8\n1 1 5 5 5 5 5 6\n2 1 5 6 6 6 6 6\n2 1 5 5 7 7 7 6\n2 1 1 1 7 7 7 6\n2 2 2 1 8 8 7 7\n3 3 2 2 8 8 8 8\n3 3 3 3 3 3 4 8\n4 4 4 4 4 4 4 8",
       "source": "https://www.janko.at/Raetsel/Burokku/176.a.htm",
       "info": ""
     },
     "177_8x8": {
-      "problem": "8 8\nE A E H C D F G \nF A A B F G D B \nH H D G H E E C \nF G B H C D A B \nA C C D B H C F \nB E G B G D F D \nG A F D E E C A \nC H F H B G A E",
-      "solution": "8 8\n1 4 4 4 4 4 4 4 \n1 1 5 5 5 5 5 4 \n2 1 1 7 5 7 5 5 \n2 1 1 7 7 7 7 7 \n2 2 1 2 8 8 8 7 \n3 2 2 2 8 6 8 8 \n3 3 3 3 3 6 6 8 \n3 3 6 6 6 6 6 8",
+      "problem": "8 8\ne a e h c d f g\nf a a b f g d b\nh h d g h e e c\nf g b h c d a b\na c c d b h c f\nb e g b g d f d\ng a f d e e c a\nc h f h b g a e",
+      "solution": "8 8\n1 4 4 4 4 4 4 4\n1 1 5 5 5 5 5 4\n2 1 1 7 5 7 5 5\n2 1 1 7 7 7 7 7\n2 2 1 2 8 8 8 7\n3 2 2 2 8 6 8 8\n3 3 3 3 3 6 6 8\n3 3 6 6 6 6 6 8",
       "source": "https://www.janko.at/Raetsel/Burokku/177.a.htm",
       "info": ""
     },
     "178_9x9": {
-      "problem": "9 9\nB B E C D I G F A \nF I G E B C D F H \nD A F A F G A B I \nA C G H H I D D E \nG H E C E B H I C \nH B A G E H G I C \nF E F A D I E E B \nC D C G B A G F F \nI H D H A D I C B",
-      "solution": "9 9\n1 3 3 3 3 3 6 6 6 \n1 1 3 6 6 6 6 9 6 \n1 1 3 3 5 9 9 9 6 \n2 1 1 3 5 5 5 9 9 \n2 1 1 5 5 5 9 9 9 \n2 2 5 5 7 7 7 7 7 \n2 2 4 7 7 4 4 8 7 \n2 2 4 4 4 4 8 8 7 \n2 4 4 8 8 8 8 8 8",
+      "problem": "9 9\nb b e c d i g f a\nf i g e b c d f h\nd a f a f g a b i\na c g h h i d d e\ng h e c e b h i c\nh b a g e h g i c\nf e f a d i e e b\nc d c g b a g f f\ni h d h a d i c b",
+      "solution": "9 9\n1 3 3 3 3 3 6 6 6\n1 1 3 6 6 6 6 9 6\n1 1 3 3 5 9 9 9 6\n2 1 1 3 5 5 5 9 9\n2 1 1 5 5 5 9 9 9\n2 2 5 5 7 7 7 7 7\n2 2 4 7 7 4 4 8 7\n2 2 4 4 4 4 8 8 7\n2 4 4 8 8 8 8 8 8",
       "source": "https://www.janko.at/Raetsel/Burokku/178.a.htm",
       "info": ""
     },
     "179_9x9": {
-      "problem": "9 9\nF I C D H D I E G \nA G E F A I H B D \nD C B A B E F C I \nH C E G I E F B A \nI D A F B H C A I \nH H C G H D G E C \nB F E F B D E B H \nG I G B A C G I F \nA F A C D D H G E",
-      "solution": "9 9\n1 1 4 4 7 7 7 7 7 \n1 1 1 4 7 4 4 7 8 \n1 1 1 4 4 4 7 7 8 \n1 2 2 4 5 5 8 8 8 \n2 2 5 5 5 8 8 9 9 \n2 3 5 5 5 5 8 8 9 \n2 3 3 6 6 9 9 9 9 \n2 3 3 3 6 6 9 6 9 \n2 2 3 3 3 6 6 6 6",
+      "problem": "9 9\nf i c d h d i e g\na g e f a i h b d\nd c b a b e f c i\nh c e g i e f b a\ni d a f b h c a i\nh h c g h d g e c\nb f e f b d e b h\ng i g b a c g i f\na f a c d d h g e",
+      "solution": "9 9\n1 1 4 4 7 7 7 7 7\n1 1 1 4 7 4 4 7 8\n1 1 1 4 4 4 7 7 8\n1 2 2 4 5 5 8 8 8\n2 2 5 5 5 8 8 9 9\n2 3 5 5 5 5 8 8 9\n2 3 3 6 6 9 9 9 9\n2 3 3 3 6 6 9 6 9\n2 2 3 3 3 6 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/179.a.htm",
       "info": ""
     },
     "180_9x9": {
-      "problem": "9 9\nH D A B I G B E G \nD I C I C A E H H \nH A E F G F D F A \nB G I A E E I C C \nH G F H F C D I F \nE C G B D H B C F \nC H E F I I B E G \nB F I G D H D A E \nD A D A B C A G B",
-      "solution": "9 9\n1 1 1 1 7 7 7 9 9 \n2 2 2 1 1 7 7 7 9 \n2 2 2 2 1 1 7 7 9 \n2 2 3 5 1 5 5 7 9 \n3 3 3 5 5 5 9 9 9 \n3 4 5 5 5 8 9 8 8 \n3 4 4 6 6 8 8 8 8 \n3 4 4 4 6 6 8 8 6 \n3 3 4 4 4 6 6 6 6",
+      "problem": "9 9\nh d a b i g b e g\nd i c i c a e h h\nh a e f g f d f a\nb g i a e e i c c\nh g f h f c d i f\ne c g b d h b c f\nc h e f i i b e g\nb f i g d h d a e\nd a d a b c a g b",
+      "solution": "9 9\n1 1 1 1 7 7 7 9 9\n2 2 2 1 1 7 7 7 9\n2 2 2 2 1 1 7 7 9\n2 2 3 5 1 5 5 7 9\n3 3 3 5 5 5 9 9 9\n3 4 5 5 5 8 9 8 8\n3 4 4 6 6 8 8 8 8\n3 4 4 4 6 6 8 8 6\n3 3 4 4 4 6 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/180.a.htm",
       "info": ""
     },
     "181_6x6": {
-      "problem": "6 6\nE B C D E F \nB C A C F A \nA D A E C E \nD F B C B B \nA E B F A F \nD E F C D D",
-      "solution": "6 6\n1 3 3 3 3 3 \n1 1 3 4 4 6 \n1 4 4 4 6 6 \n1 1 4 2 5 6 \n2 2 2 2 5 6 \n2 5 5 5 5 6",
+      "problem": "6 6\ne b c d e f\nb c a c f a\na d a e c e\nd f b c b b\na e b f a f\nd e f c d d",
+      "solution": "6 6\n1 3 3 3 3 3\n1 1 3 4 4 6\n1 4 4 4 6 6\n1 1 4 2 5 6\n2 2 2 2 5 6\n2 5 5 5 5 6",
       "source": "https://www.janko.at/Raetsel/Burokku/181.a.htm",
       "info": ""
     },
     "182_6x6": {
-      "problem": "6 6\nE D E B A C \nA B F E D A \nD F C F F B \nA C F B A C \nB A B E C D \nF E C D D E",
-      "solution": "6 6\n1 1 4 4 4 4 \n1 1 4 5 4 6 \n2 1 1 5 6 6 \n2 2 2 5 5 6 \n3 3 2 2 5 6 \n3 3 3 3 5 6",
+      "problem": "6 6\ne d e b a c\na b f e d a\nd f c f f b\na c f b a c\nb a b e c d\nf e c d d e",
+      "solution": "6 6\n1 1 4 4 4 4\n1 1 4 5 4 6\n2 1 1 5 6 6\n2 2 2 5 5 6\n3 3 2 2 5 6\n3 3 3 3 5 6",
       "source": "https://www.janko.at/Raetsel/Burokku/182.a.htm",
       "info": ""
     },
     "183_6x6": {
-      "problem": "6 6\nE D E A C F \nB B C A D E \nC B D A B E \nA F F C A C \nD E E A C F \nF D B F D B",
-      "solution": "6 6\n1 2 2 2 2 2 \n1 2 3 3 5 5 \n1 3 3 5 5 6 \n1 3 5 5 6 6 \n1 3 4 4 4 6 \n1 4 4 4 6 6",
+      "problem": "6 6\ne d e a c f\nb b c a d e\nc b d a b e\na f f c a c\nd e e a c f\nf d b f d b",
+      "solution": "6 6\n1 2 2 2 2 2\n1 2 3 3 5 5\n1 3 3 5 5 6\n1 3 5 5 6 6\n1 3 4 4 4 6\n1 4 4 4 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/183.a.htm",
       "info": ""
     },
     "184_6x6": {
-      "problem": "6 6\nE B C A D F \nD B B F E D \nE C D F E B \nA A A C A F \nC D B A C D \nF E E C F B",
-      "solution": "6 6\n1 1 1 1 1 1 \n2 2 3 3 3 6 \n2 3 3 4 6 6 \n2 3 4 4 6 6 \n2 4 4 5 6 5 \n2 4 5 5 5 5",
+      "problem": "6 6\ne b c a d f\nd b b f e d\ne c d f e b\na a a c a f\nc d b a c d\nf e e c f b",
+      "solution": "6 6\n1 1 1 1 1 1\n2 2 3 3 3 6\n2 3 3 4 6 6\n2 3 4 4 6 6\n2 4 4 5 6 5\n2 4 5 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/184.a.htm",
       "info": ""
     },
     "185_8x8": {
-      "problem": "8 8\nF G F B E D G C \nC B A D H F A D \nH D B G C D C B \nF C A E H A E G \nG F A H F A H H \nC H D B C B B E \nE A F C G E A F \nG E D B E D H G",
-      "solution": "8 8\n1 4 4 4 4 7 7 8 \n1 1 1 1 4 7 7 8 \n2 2 2 1 4 4 7 8 \n2 3 2 1 1 4 7 8 \n2 3 5 5 6 6 7 8 \n2 3 5 5 6 6 7 8 \n2 3 5 5 5 6 8 8 \n3 3 3 3 5 6 6 6",
+      "problem": "8 8\nf g f b e d g c\nc b a d h f a d\nh d b g c d c b\nf c a e h a e g\ng f a h f a h h\nc h d b c b b e\ne a f c g e a f\ng e d b e d h g",
+      "solution": "8 8\n1 4 4 4 4 7 7 8\n1 1 1 1 4 7 7 8\n2 2 2 1 4 4 7 8\n2 3 2 1 1 4 7 8\n2 3 5 5 6 6 7 8\n2 3 5 5 6 6 7 8\n2 3 5 5 5 6 8 8\n3 3 3 3 5 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/185.a.htm",
       "info": ""
     },
     "186_8x8": {
-      "problem": "8 8\nB B G F E D H D \nG C A F E G B C \nA F H C G F D H \nB C F D A H B A \nG B D E F E E C \nH G C E A H D C \nA E D H D G C A \nF F A G B H E B",
-      "solution": "8 8\n1 3 3 3 3 3 3 6 \n1 3 3 6 6 6 6 6 \n1 1 1 1 7 7 7 6 \n2 2 4 1 7 7 7 6 \n2 4 4 1 8 8 7 7 \n2 4 4 4 4 8 8 8 \n2 2 2 4 5 8 5 8 \n2 5 5 5 5 5 5 8",
+      "problem": "8 8\nb b g f e d h d\ng c a f e g b c\na f h c g f d h\nb c f d a h b a\ng b d e f e e c\nh g c e a h d c\na e d h d g c a\nf f a g b h e b",
+      "solution": "8 8\n1 3 3 3 3 3 3 6\n1 3 3 6 6 6 6 6\n1 1 1 1 7 7 7 6\n2 2 4 1 7 7 7 6\n2 4 4 1 8 8 7 7\n2 4 4 4 4 8 8 8\n2 2 2 4 5 8 5 8\n2 5 5 5 5 5 5 8",
       "source": "https://www.janko.at/Raetsel/Burokku/186.a.htm",
       "info": ""
     },
     "187_8x8": {
-      "problem": "8 8\nE G H G C F A B \nF A B D C G E B \nC D E G D F E D \nH B H H A H A C \nC F A D F A D F \nF G B G B E H E \nE G B B G H C D \nC F E A H C D A",
-      "solution": "8 8\n1 1 5 5 5 5 5 5 \n1 1 1 5 8 8 5 8 \n1 1 2 2 2 8 8 8 \n1 2 2 3 2 8 6 6 \n2 2 3 3 6 8 6 7 \n3 3 3 6 6 6 6 7 \n3 4 4 7 7 7 7 7 \n3 4 4 4 4 4 4 7",
+      "problem": "8 8\ne g h g c f a b\nf a b d c g e b\nc d e g d f e d\nh b h h a h a c\nc f a d f a d f\nf g b g b e h e\ne g b b g h c d\nc f e a h c d a",
+      "solution": "8 8\n1 1 5 5 5 5 5 5\n1 1 1 5 8 8 5 8\n1 1 2 2 2 8 8 8\n1 2 2 3 2 8 6 6\n2 2 3 3 6 8 6 7\n3 3 3 6 6 6 6 7\n3 4 4 7 7 7 7 7\n3 4 4 4 4 4 4 7",
       "source": "https://www.janko.at/Raetsel/Burokku/187.a.htm",
       "info": ""
     },
     "188_9x9": {
-      "problem": "9 9\nE B F H F E A G A \nB I H C I E B I B \nC G F B D A D C C \nD A F F H G H D I \nH B C E A G H E I \nG I G E C I D F H \nD H D H E C F B D \nA G D B C A A G E \nF A E I C I G F B",
-      "solution": "9 9\n1 4 4 4 7 7 7 7 8 \n1 1 1 4 4 4 7 7 8 \n1 1 1 5 4 4 7 7 8 \n1 1 2 5 5 4 7 8 8 \n2 2 2 2 5 8 8 8 9 \n2 2 5 5 5 5 5 8 9 \n2 3 6 6 6 9 9 9 9 \n2 3 3 3 6 6 9 9 9 \n3 3 3 3 3 6 6 6 6",
+      "problem": "9 9\ne b f h f e a g a\nb i h c i e b i b\nc g f b d a d c c\nd a f f h g h d i\nh b c e a g h e i\ng i g e c i d f h\nd h d h e c f b d\na g d b c a a g e\nf a e i c i g f b",
+      "solution": "9 9\n1 4 4 4 7 7 7 7 8\n1 1 1 4 4 4 7 7 8\n1 1 1 5 4 4 7 7 8\n1 1 2 5 5 4 7 8 8\n2 2 2 2 5 8 8 8 9\n2 2 5 5 5 5 5 8 9\n2 3 6 6 6 9 9 9 9\n2 3 3 3 6 6 9 9 9\n3 3 3 3 3 6 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/188.a.htm",
       "info": ""
     },
     "189_9x9": {
-      "problem": "9 9\nE H B C I B A F G \nG A G D E I E D F \nF B D A C C F H H \nI C G D B E D I A \nH B H H G A C H D \nG E E F I C B B C \nD I G D G B E F A \nF B H C F E H A G \nA F D A I C E I I",
-      "solution": "9 9\n1 3 3 6 6 6 6 6 6 \n1 3 3 3 3 3 6 6 8 \n1 1 1 1 1 3 3 6 8 \n1 2 5 5 8 8 8 8 8 \n1 2 2 5 8 5 8 9 9 \n2 2 5 5 5 5 5 9 9 \n2 2 4 7 7 7 9 9 9 \n2 4 4 7 7 7 7 7 9 \n2 4 4 4 4 4 4 7 9",
+      "problem": "9 9\ne h b c i b a f g\ng a g d e i e d f\nf b d a c c f h h\ni c g d b e d i a\nh b h h g a c h d\ng e e f i c b b c\nd i g d g b e f a\nf b h c f e h a g\na f d a i c e i i",
+      "solution": "9 9\n1 3 3 6 6 6 6 6 6\n1 3 3 3 3 3 6 6 8\n1 1 1 1 1 3 3 6 8\n1 2 5 5 8 8 8 8 8\n1 2 2 5 8 5 8 9 9\n2 2 5 5 5 5 5 9 9\n2 2 4 7 7 7 9 9 9\n2 4 4 7 7 7 7 7 9\n2 4 4 4 4 4 4 7 9",
       "source": "https://www.janko.at/Raetsel/Burokku/189.a.htm",
       "info": ""
     },
     "190_9x9": {
-      "problem": "9 9\nH F B C E H F G A \nA A F D I C E H B \nB H I H A G I D A \nD G E D B E I C B \nC G I D C C A H F \nH E G F G G G B F \nC A B F I E G I I \nD E A D F E C H C \nI H B B A F D D E",
-      "solution": "9 9\n1 1 3 3 5 5 5 5 5 \n1 3 3 5 5 5 8 8 5 \n1 3 3 6 6 8 8 8 8 \n1 3 3 3 6 6 6 8 8 \n1 1 1 6 6 4 9 9 8 \n2 1 2 6 6 4 9 9 9 \n2 2 2 2 4 4 7 7 9 \n2 2 4 4 4 7 7 7 9 \n2 4 4 7 7 7 7 9 9",
+      "problem": "9 9\nh f b c e h f g a\na a f d i c e h b\nb h i h a g i d a\nd g e d b e i c b\nc g i d c c a h f\nh e g f g g g b f\nc a b f i e g i i\nd e a d f e c h c\ni h b b a f d d e",
+      "solution": "9 9\n1 1 3 3 5 5 5 5 5\n1 3 3 5 5 5 8 8 5\n1 3 3 6 6 8 8 8 8\n1 3 3 3 6 6 6 8 8\n1 1 1 6 6 4 9 9 8\n2 1 2 6 6 4 9 9 9\n2 2 2 2 4 4 7 7 9\n2 2 4 4 4 7 7 7 9\n2 4 4 7 7 7 7 9 9",
       "source": "https://www.janko.at/Raetsel/Burokku/190.a.htm",
       "info": ""
     },
     "191_5x5": {
-      "problem": "5 5\nB D E C A\nC B D E B\nB A C A C\nB C E D E\nA E D D A",
+      "problem": "5 5\nb d e c a\nc b d e b\nb a c a c\nb c e d e\na e d d a",
       "solution": "5 5\n1 1 1 1 1\n2 2 2 2 5\n3 3 3 2 5\n4 4 3 3 5\n4 4 4 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/191.a.htm",
       "info": ""
     },
     "192_6x6": {
-      "problem": "6 6\nC B C C A B\nB A A C A B\nA B A C C A\nB A A B C B\nC C B B A C\nA C B A B C",
+      "problem": "6 6\nc b c c a b\nb a a c a b\na b a c c a\nb a a b c b\nc c b b a c\na c b a b c",
       "solution": "6 6\n1 4 4 8 8 8\n1 1 4 9 9 9\n2 5 5 5 12 12\n2 6 7 7 7 12\n2 6 6 10 10 10\n3 3 3 11 11 11",
       "source": "https://www.janko.at/Raetsel/Burokku/192.a.htm",
       "info": ""
     },
     "193_6x6": {
-      "problem": "6 6\nF C B A E F\nE C D B A D\nD E C A E A\nB F A E D F\nB C F F E C\nA D B C B D",
+      "problem": "6 6\nf c b a e f\ne c d b a d\nd e c a e a\nb f a e d f\nb c f f e c\na d b c b d",
       "solution": "6 6\n1 5 5 5 5 5\n1 1 1 1 1 5\n2 2 2 2 6 6\n2 2 3 3 3 6\n3 3 3 4 4 6\n4 4 4 4 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/193.a.htm",
       "info": ""
     },
     "194_7x7": {
-      "problem": "7 7\nF A D E E G A\nA G C B F C D\nC B G E F A C\nA E B D F C B\nD G B E A A C\nE F D D G E G\nB C G F B F D",
+      "problem": "7 7\nf a d e e g a\na g c b f c d\nc b g e f a c\na e b d f c b\nd g b e a a c\ne f d d g e g\nb c g f b f d",
       "solution": "7 7\n1 1 1 1 6 6 6\n2 1 1 1 6 4 6\n2 2 4 4 4 4 6\n3 2 4 4 5 5 6\n3 2 5 5 5 7 7\n3 2 2 5 5 7 7\n3 3 3 3 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/194.a.htm",
       "info": ""
     },
     "195_8x8": {
-      "problem": "8 8\nA C A C D B D A\nA D B A B C B C\nD C B C B C D C\nD A B C D A A B\nA D B C A D B D\nB C B C B D C A\nA B D A D D A C\nC D A C D A B B\n[lines]\n- - - - - 2 - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -",
+      "problem": "8 8\na c a c d b d a\na d b a b c b c\nd c b c b c d c\nd a b c d a a b\na d b c a d b d\nb c b c b d c a\na b d a d d a c\nc d a c d a b b",
       "solution": "8 8\n1 1 7 7 7 12 12 12\n2 1 1 9 7 13 13 12\n2 2 2 9 9 14 13 16\n3 3 3 3 9 14 13 16\n4 4 4 4 11 14 14 16\n5 6 8 8 11 11 11 16\n5 6 6 8 8 15 15 15\n5 5 6 10 10 10 10 15",
       "source": "https://www.janko.at/Raetsel/Burokku/195.a.htm",
       "info": ""
     },
     "196_8x8": {
-      "problem": "8 8\nB C A A B D A B\nA D B D D C D C\nB C C A D B C B\nC B A C A D A A\nD A C D B C D C\nC A B D C D B D\nA A D A B A B C\nD B B C A B D C\n[lines]\n- - - - - - - -\n- - - - - - - -\n- - - - - - 2 -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -",
+      "problem": "8 8\nb c a a b d a b\na d b d d c d c\nb c c a d b c b\nc b a c a d a a\nd a c d b c d c\nc a b d c d b d\na a d a b a b c\nd b b c a b d c",
       "solution": "8 8\n1 4 4 9 9 13 13 13\n1 1 4 4 9 9 15 13\n2 1 8 8 8 8 15 15\n2 5 5 5 11 11 16 15\n2 2 6 5 11 11 16 16\n3 6 6 6 10 10 16 14\n3 7 7 10 10 14 14 14\n3 3 7 7 12 12 12 12",
       "source": "https://www.janko.at/Raetsel/Burokku/196.a.htm",
       "info": ""
     },
     "197_8x8": {
-      "problem": "8 8\nH D H G C F E A\nA E C D G H C B\nF B C D A B E F\nH G F F C E A B\nB C D H A E G H\nC E F G D B D F\nH F H G C D E G\nD A G A B E A B",
+      "problem": "8 8\nh d h g c f e a\na e c d g h c b\nf b c d a b e f\nh g f f c e a b\nb c d h a e g h\nc e f g d b d f\nh f h g c d e g\nd a g a b e a b",
       "solution": "8 8\n1 4 4 4 4 4 4 4\n1 1 1 1 1 8 8 4\n1 1 2 2 2 2 8 8\n2 2 2 6 6 2 8 8\n3 5 5 6 6 6 8 7\n3 3 5 6 6 6 8 7\n3 3 5 5 7 7 7 7\n3 3 3 5 5 5 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/197.a.htm",
       "info": ""
     },
     "198_8x8": {
-      "problem": "8 8\nF D C F E F G B\nG E A E A C D A\nD D B C B H H F\nB E C D H G E C\nH F F A H D H G\nH E A G B B A A\nD E G C B C D E\nC B A F G F H G\n[lines]\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - 2\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -",
+      "problem": "8 8\nf d c f e f g b\ng e a e a c d a\nd d b c b h h f\nb e c d h g e c\nh f f a h d h g\nh e a g b b a a\nd e g c b c d e\nc b a f g f h g",
       "solution": "8 8\n1 4 4 4 6 6 6 6\n1 1 1 4 4 6 6 6\n2 5 1 1 4 4 6 8\n2 5 5 1 1 4 8 8\n2 2 5 5 5 8 8 8\n3 2 2 5 5 8 8 7\n3 3 2 2 7 7 7 7\n3 3 3 3 3 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/198.a.htm",
       "info": ""
     },
     "199_9x9": {
-      "problem": "9 9\nH B A C E D G A H\nB F I D C H I B F\nA D C B F G A E G\nD H G E I H F E B\nA D F E D C A C D\nC E E C B F G I A\nI F I I I G E F I\nE H C B G A H D G\nG B H A D F C B H\n[lines]\n- - - - - - - - -\n- - 1 - - - - - -\n- - - - - - - - -\n- - - - - - - - -\n- - - - - - - - -\n- - 2 - - - - - -\n- - - - - - - - -\n- - - - - - - - -\n- - - - - - - - -",
+      "problem": "9 9\nh b a c e d g a h\nb f i d c h i b f\na d c b f g a e g\nd h g e i h f e b\na d f e d c a c d\nc e e c b f g i a\ni f i i i g e f i\ne h c b g a h d g\ng b h a d f c b h",
       "solution": "9 9\n1 1 1 1 1 1 1 9 9\n2 1 1 6 6 6 6 6 9\n2 5 5 5 6 6 6 6 9\n2 2 2 5 5 5 5 9 9\n3 3 2 7 7 7 5 9 9\n4 3 2 2 7 7 5 9 8\n4 3 3 2 7 7 8 8 8\n4 3 3 3 3 7 7 8 8\n4 4 4 4 4 4 8 8 8",
       "source": "https://www.janko.at/Raetsel/Burokku/199.a.htm",
       "info": ""
     },
     "200_10x10": {
-      "problem": "10 10\nD C A B C D C A E D\nC E B A C A E C A B\nA D C B B A D E E B\nA E E D D C B D E D\nB B A C C A A E B C\nC A B E B B D A B A\nE D D C D A E E E D\nB A C E B C D C A A\nB E D E D B A E D B\nA C E D C D C E B C",
+      "problem": "10 10\nd c a b c d c a e d\nc e b a c a e c a b\na d c b b a d e e b\na e e d d c b d e d\nb b a c c a a e b c\nc a b e b b d a b a\ne d d c d a e e e d\nb a c e b c d c a a\nb e d e d b a e d b\na c e d c d c e b c",
       "solution": "10 10\n1 1 1 9 9 9 15 15 15 15\n2 1 1 7 11 9 9 18 18 15\n2 2 7 7 11 11 11 11 18 18\n3 2 7 7 12 12 12 19 19 18\n3 2 8 8 13 13 12 12 19 19\n3 6 6 8 8 13 13 16 16 19\n3 3 6 6 8 10 13 16 20 20\n4 4 4 6 10 10 16 16 17 20\n5 4 4 10 10 14 14 14 17 20\n5 5 5 5 14 14 17 17 17 20",
       "source": "https://www.janko.at/Raetsel/Burokku/200.a.htm",
       "info": ""
     },
     "201_6x6": {
-      "problem": "6 6\nB F D C C B\nB E E A F A\nD F A E D F\nD A C E C C\nC E A D D A\nB F B F B E\n[lines]\n2 2 - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "problem": "6 6\nb f d c c b\nb e e a f a\nd f a e d f\nd a c e c c\nc e a d d a\nb f b f b e",
       "solution": "6 6\n1 1 1 1 5 5\n2 2 1 1 5 5\n2 2 2 5 5 6\n3 3 2 4 4 6\n3 3 4 4 6 6\n3 3 4 4 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/201.a.htm",
       "info": ""
     },
     "202_6x6": {
-      "problem": "6 6\nF A B C C E\nC A B D B A\nA E F E B F\nF C D C A D\nB D B F E E\nE D F C D A",
+      "problem": "6 6\nf a b c c e\nc a b d b a\na e f e b f\nf c d c a d\nb d b f e e\ne d f c d a",
       "solution": "6 6\n1 1 1 1 6 6\n2 3 3 1 6 6\n2 3 3 1 4 6\n2 3 4 4 4 6\n2 3 5 4 4 5\n2 2 5 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/202.a.htm",
       "info": ""
     },
     "203_7x7": {
-      "problem": "7 7\nD F A C B E B\nC E G D F G B\nG F A C A D F\nE C B C F A C\nD D E A G E G\nF D B E A E F\nB G A D G B C",
+      "problem": "7 7\nd f a c b e b\nc e g d f g b\ng f a c a d f\ne c b c f a c\nd d e a g e g\nf d b e a e f\nb g a d g b c",
       "solution": "7 7\n1 1 1 1 1 5 5\n2 1 1 5 5 5 7\n2 2 2 5 5 7 7\n3 3 2 4 4 7 7\n3 2 2 4 4 7 7\n3 4 4 4 6 6 6\n3 3 3 6 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/203.a.htm",
       "info": ""
     },
     "204_7x7": {
-      "problem": "7 7\nE A B E F D A\nG D G B E G B\nC B D C A C D\nC G A B F C G\nA C F E D F E\nF F D A C G A\nG D B E E F B",
+      "problem": "7 7\ne a b e f d a\ng d g b e g b\nc b d c a c d\nc g a b f c g\na c f e d f e\nf f d a c g a\ng d b e e f b",
       "solution": "7 7\n1 3 3 3 3 3 7\n1 4 4 4 4 3 7\n1 1 1 4 4 3 7\n2 5 1 5 4 7 7\n2 5 1 5 6 7 7\n2 5 5 5 6 6 6\n2 2 2 2 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/204.a.htm",
       "info": ""
     },
     "205_8x8": {
-      "problem": "8 8\nB B D B C A D B\nD D A C D B D C\nA D D A C A A A\nC A A D B C B D\nC B C C D A C C\nA D B B C B A B\nC C A D B D B D\nA B D C B A A C\n[lines]\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n1 - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -",
+      "problem": "8 8\nb b d b c a d b\nd d a c d b d c\na d d a c a a a\nc a a d b c b d\nc b c c d a c c\na d b b c b a b\nc c a d b d b d\na b d c b a a c",
       "solution": "8 8\n1 4 7 7 7 7 13 13\n1 4 4 4 11 11 14 13\n1 5 8 8 8 11 14 13\n1 5 9 9 8 11 14 15\n2 5 5 9 12 12 14 15\n2 2 2 9 12 12 15 15\n3 6 6 6 6 10 16 16\n3 3 3 10 10 10 16 16",
       "source": "https://www.janko.at/Raetsel/Burokku/205.a.htm",
       "info": ""
     },
     "206_8x8": {
-      "problem": "8 8\nA D D D A B A C\nD B C B C A D D\nB C A B B C C B\nC B D A B D A D\nA C B C A C D B\nD C A A B C D A\nB C B A D A B C\nC D A A D B C D",
+      "problem": "8 8\na d d d a b a c\nd b c b c a d d\nb c a b b c c b\nc b d a b d a d\na c b c a c d b\nd c a a b c d a\nb c b a d a b c\nc d a a d b c d",
       "solution": "8 8\n1 1 7 8 8 13 13 13\n2 1 7 8 8 12 12 13\n2 1 7 7 12 12 16 16\n2 5 5 5 9 9 16 16\n2 5 3 9 9 14 14 14\n3 3 3 10 10 10 10 14\n4 6 6 6 6 15 15 15\n4 4 4 11 11 11 11 15",
       "source": "https://www.janko.at/Raetsel/Burokku/206.a.htm",
       "info": ""
     },
     "207_8x8": {
-      "problem": "8 8\nD B G E B A H G\nC E C H G C F D\nH F A E F B C D\nD A H A G E H A\nE B H F A D C G\nF E G B G B F C\nG C D C F H A D\nE B D H F A B E",
+      "problem": "8 8\nd b g e b a h g\nc e c h g c f d\nh f a e f b c d\nd a h a g e h a\ne b h f a d c g\nf e g b g b f c\ng c d c f h a d\ne b d h f a b e",
       "solution": "8 8\n1 1 1 5 5 5 5 5\n2 1 1 6 6 5 5 5\n2 1 1 6 6 6 6 6\n2 2 1 4 7 7 7 6\n2 2 4 4 3 7 7 8\n2 4 4 4 3 7 7 8\n2 4 4 3 3 8 7 8\n3 3 3 3 8 8 8 8",
       "source": "https://www.janko.at/Raetsel/Burokku/207.a.htm",
       "info": ""
     },
     "208_8x8": {
-      "problem": "8 8\nB E H F H G B F\nC A D G E G B A\nE B C C D D G C\nD F A F H B H F\nG H E F E D A E\nC D G H B D A H\nA A C A C G E F\nD F G E B H B C",
+      "problem": "8 8\nb e h f h g b f\nc a d g e g b a\ne b c c d d g c\nd f a f h b h f\ng h e f e d a e\nc d g h b d a h\na a c a c g e f\nd f g e b h b c",
       "solution": "8 8\n1 1 1 1 6 6 6 6\n1 1 1 1 6 5 7 6\n2 2 5 6 6 5 7 7\n2 2 5 5 5 5 7 7\n2 2 5 4 4 7 7 7\n2 4 4 4 4 8 8 8\n2 3 3 4 4 8 8 8\n3 3 3 3 3 3 8 8",
       "source": "https://www.janko.at/Raetsel/Burokku/208.a.htm",
       "info": ""
     },
     "209_10x10": {
-      "problem": "10 10\nD E B B A D E A A D\nC D A C C E B C B E\nD B A A E B A E D C\nE C E B D A D E B C\nB B E C E D C A D B\nE A C B D A B C A E\nA C D C D B C D E D\nA A E E A B D E C A\nD E D C B B C A D E\nC B A D C B E C A B",
+      "problem": "10 10\nd e b b a d e a a d\nc d a c c e b c b e\nd b a a e b a e d c\ne c e b d a d e b c\nb b e c e d c a d b\ne a c b d a b c a e\na c d c d b c d e d\na a e e a b d e c a\nd e d c b b c a d e\nc b a d c b e c a b",
       "solution": "10 10\n1 1 1 9 9 12 12 12 19 19\n2 2 1 1 9 13 12 12 19 19\n3 2 2 10 9 13 16 16 16 19\n3 3 2 10 9 13 13 17 16 16\n4 3 7 10 10 10 13 17 17 20\n4 3 7 7 7 7 17 17 14 20\n4 4 4 11 11 14 14 14 14 20\n5 6 6 11 11 11 15 15 20 20\n5 5 6 6 6 15 15 15 18 18\n5 5 8 8 8 8 8 18 18 18",
       "source": "https://www.janko.at/Raetsel/Burokku/209.a.htm",
       "info": ""
     },
     "210_10x10": {
-      "problem": "10 10\nC E A D E B D C C A\nE A B A E C E B D B\nB D C C D B A C E E\nD A D C B B D A C E\nE C E D A C D B A D\nC D E D C B A E A C\nB A A B A A E B B D\nB D E D E B A D E A\nB C C A D C D B E B\nD E A B E A C E C C",
+      "problem": "10 10\nc e a d e b d c c a\ne a b a e c e b d b\nb d c c d b a c e e\nd a d c b b d a c e\ne c e d a c d b a d\nc d e d c b a e a c\nb a a b a a e b b d\nb d e d e b a d e a\nb c c a d c d b e b\nd e a b e a c e c c",
       "solution": "10 10\n1 5 7 7 7 7 15 15 19 19\n1 5 5 9 9 7 15 15 19 19\n1 1 5 9 9 9 15 13 13 19\n2 1 5 8 8 13 13 13 17 17\n2 6 8 8 8 14 14 17 17 17\n2 6 6 10 10 10 14 14 18 18\n2 2 6 6 11 10 10 14 18 20\n3 3 3 11 11 11 16 18 18 20\n4 4 3 3 12 11 16 16 20 20\n4 4 4 12 12 12 12 16 16 20",
       "source": "https://www.janko.at/Raetsel/Burokku/210.a.htm",
       "info": ""
     },
     "211_6x6": {
-      "problem": "6 6\nC E E F A E\nA B B D C F\nD F F B D B\nC A B E A C\nD F C D A C\nB E A E F D",
+      "problem": "6 6\nc e e f a e\na b b d c f\nd f f b d b\nc a b e a c\nd f c d a c\nb e a e f d",
       "solution": "6 6\n1 1 3 3 3 6\n1 1 3 3 3 6\n1 1 4 4 6 6\n2 2 5 4 6 6\n2 2 5 4 4 4\n2 2 5 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/211.a.htm",
       "info": ""
     },
     "212_6x6": {
-      "problem": "6 6\nD F D B A C\nE B D B C E\nC D F E A F\nF C F E A E\nB A E A C C\nB D F D B A",
+      "problem": "6 6\nd f d b a c\ne b d b c e\nc d f e a f\nf c f e a e\nb a e a c c\nb d f d b a",
       "solution": "6 6\n1 3 3 3 3 3\n1 4 5 5 5 3\n1 4 5 5 5 6\n1 4 4 4 4 6\n1 1 2 2 2 6\n2 2 2 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/212.a.htm",
       "info": ""
     },
     "213_7x7": {
-      "problem": "7 7\nD A G D E G F\nA B D C E C A\nB F B D F B F\nG E C E G F A\nC E A D B B G\nD F C A G C E\nB C A F E G D",
+      "problem": "7 7\nd a g d e g f\na b d c e c a\nb f b d f b f\ng e c e g f a\nc e a d b b g\nd f c a g c e\nb c a f e g d",
       "solution": "7 7\n1 3 3 6 6 6 6\n1 3 3 3 3 6 6\n1 1 5 5 3 6 7\n1 1 5 5 5 5 7\n1 4 5 4 4 7 7\n2 4 4 4 4 7 7\n2 2 2 2 2 2 7",
       "source": "https://www.janko.at/Raetsel/Burokku/213.a.htm",
       "info": ""
     },
     "214_7x7": {
-      "problem": "7 7\nE A D B G D C\nF B C C A D A\nA E G E C D F\nF C D F G F E\nB G B G C A G\nE A B F D G E\nB D E F C A B",
+      "problem": "7 7\ne a d b g d c\nf b c c a d a\na e g e c d f\nf c d f g f e\nb g b g c a g\ne a b f d g e\nb d e f c a b",
       "solution": "7 7\n1 1 1 6 6 6 6\n1 1 1 5 5 5 6\n2 2 1 5 7 7 6\n2 2 2 5 3 7 6\n2 2 5 5 3 7 7\n3 3 3 3 3 4 7\n4 4 4 4 4 4 7",
       "source": "https://www.janko.at/Raetsel/Burokku/214.a.htm",
       "info": ""
     },
     "215_8x8": {
-      "problem": "8 8\nD A C C D C C A\nC A B A B D D B\nA B D C A A B C\nB D D C B C D B\nA A C B D C A A\nB C D A A B C D\nA D B D C C B D\nB C D B A B A D",
+      "problem": "8 8\nd a c c d c c a\nc a b a b d d b\na b d c a a b c\nb d d c b c d b\na a c b d c a a\nb c d a a b c d\na d b d c c b d\nb c d b a b a d",
       "solution": "8 8\n1 1 1 8 8 12 14 14\n2 5 1 8 8 12 14 14\n2 5 5 5 10 12 12 16\n2 2 7 7 10 10 10 16\n3 6 6 7 11 11 15 16\n3 3 6 7 11 11 15 16\n4 3 6 9 9 13 15 15\n4 4 4 9 9 13 13 13",
       "source": "https://www.janko.at/Raetsel/Burokku/215.a.htm",
       "info": ""
     },
     "216_8x8": {
-      "problem": "8 8\nC A D B C A C A\nA D B B D B D A\nD B B A C A A D\nD C C D B C B B\nB D C A A D C C\nA A A B A C D B\nC C D B D B A C\nB D C B D C D A",
+      "problem": "8 8\nc a d b c a c a\na d b b d b d a\nd b b a c a a d\nd c c d b c b b\nb d c a a d c c\na a a b a c d b\nc c d b d b a c\nb d c b d c d a",
       "solution": "8 8\n1 1 6 6 6 6 13 13\n2 1 1 9 9 13 13 16\n2 2 7 7 9 9 14 16\n3 2 7 7 11 11 14 16\n3 5 5 5 11 11 14 16\n3 4 8 5 10 10 14 15\n3 4 8 10 10 12 12 15\n4 4 8 8 12 12 15 15",
       "source": "https://www.janko.at/Raetsel/Burokku/216.a.htm",
       "info": ""
     },
     "217_8x8": {
-      "problem": "8 8\nF H D G G B C H\nG B A E C E G A\nC G A C F H A D\nH B D H F D B F\nB F G F E C E E\nC A C D H D E D\nE D E G B A F A\nB F A H B H G C",
+      "problem": "8 8\nf h d g g b c h\ng b a e c e g a\nc g a c f h a d\nh b d h f d b f\nb f g f e c e e\nc a c d h d e d\ne d e g b a f a\nb f a h b h g c",
       "solution": "8 8\n1 1 1 1 7 7 7 7\n2 1 1 1 1 4 6 7\n2 4 4 4 4 4 6 7\n2 4 4 6 6 6 6 7\n2 2 5 5 5 6 6 7\n3 2 5 3 5 5 8 8\n3 2 2 3 5 5 8 8\n3 3 3 3 8 8 8 8",
       "source": "https://www.janko.at/Raetsel/Burokku/217.a.htm",
       "info": ""
     },
     "218_8x8": {
-      "problem": "8 8\nF E F E A C C E\nG C A D G H B D\nC H F D E A G F\nB A H G C B H E\nE B B A C B G F\nA F D H F E D F\nD G D G D A B E\nH C H B H G C A",
+      "problem": "8 8\nf e f e a c c e\ng c a d g h b d\nc h f d e a g f\nb a h g c b h e\ne b b a c b g f\na f d h f e d f\nd g d g d a b e\nh c h b h g c a",
       "solution": "8 8\n1 2 4 4 4 4 8 8\n1 2 5 4 4 4 4 8\n1 2 5 5 5 8 8 8\n1 2 5 5 5 8 8 6\n1 2 5 6 6 6 6 6\n1 2 6 6 3 3 7 7\n1 2 2 3 3 3 7 7\n1 3 3 3 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/218.a.htm",
       "info": ""
     },
     "219_10x10": {
-      "problem": "10 10\nA E B E A D C A B C\nD A E B A D C A D E\nE B D C E D C B C D\nC B D A C D B C A B\nA B B E E E A D E E\nA C D E C B D E A A\nD B C A B D E B C D\nE C A B C E D A C B\nA D B D C C A C E D\nE C A B E E A B D B",
+      "problem": "10 10\na e b e a d c a b c\nd a e b a d c a d e\ne b d c e d c b c d\nc b d a c d b c a b\na b b e e e a d e e\na c d e c b d e a a\nd b c a b d e b c d\ne c a b c e d a c b\na d b d c c a c e d\ne c a b e e a b d b",
       "solution": "10 10\n1 5 6 6 6 6 6 17 17 17\n1 5 7 7 7 7 7 12 17 17\n1 5 5 5 12 12 12 12 19 19\n1 1 8 8 8 14 14 14 14 19\n2 2 8 8 13 14 13 18 20 19\n3 2 2 2 13 13 13 18 20 19\n3 3 9 9 9 9 9 18 20 20\n3 3 10 10 10 10 10 18 18 20\n4 4 4 11 11 15 16 16 16 16\n4 4 11 11 11 15 15 15 15 16",
       "source": "https://www.janko.at/Raetsel/Burokku/219.a.htm",
       "info": ""
     },
     "220_10x10": {
-      "problem": "10 10\nC E A A D E C B C E\nD D B A C E D C E B\nC E B D D E A A B D\nA B A D B C C B D A\nC E C D E E D A E C\nD E E C C B A B A A\nE B D A D B E E C B\nB A C A C B D B D A\nA A B D C E A C C E\nA D B E C D B E D B",
+      "problem": "10 10\nc e a a d e c b c e\nd d b a c e d c e b\nc e b d d e a a b d\na b a d b c c b d a\nc e c d e e d a e c\nd e e c c b a b a a\ne b d a d b e e c b\nb a c a c b d b d a\na a b d c e a c c e\na d b e c d b e d b",
       "solution": "10 10\n1 1 1 10 10 10 10 10 18 18\n2 1 1 8 8 8 16 16 16 18\n2 2 8 8 13 13 13 16 16 18\n2 2 5 5 5 14 13 13 19 18\n3 5 5 11 11 14 14 14 19 19\n3 6 9 9 11 11 11 14 17 19\n3 6 6 9 9 9 12 17 17 19\n3 6 6 12 12 12 12 17 17 20\n3 7 7 7 7 7 15 15 20 20\n4 4 4 4 4 15 15 15 20 20",
       "source": "https://www.janko.at/Raetsel/Burokku/220.a.htm",
       "info": ""
     },
     "221_5x5": {
-      "problem": "5 5\nE B C B E\nD C D C A\nE B A D C\nA E B E B\nD C A D A",
+      "problem": "5 5\ne b c b e\nd c d c a\ne b a d c\na e b e b\nd c a d a",
       "solution": "5 5\n1 1 1 4 4\n2 2 1 4 4\n2 2 1 4 5\n2 3 3 5 5\n3 3 3 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/221.a.htm",
       "info": ""
     },
     "222_5x5": {
-      "problem": "5 5\nA D C B A\nA E B C B\nB A E D A\nC C D C E\nE D B E D",
+      "problem": "5 5\na d c b a\na e b c b\nb a e d a\nc c d c e\ne d b e d",
       "solution": "5 5\n1 1 1 4 4\n2 1 1 4 5\n2 3 4 4 5\n2 3 3 5 5\n2 2 3 3 5",
       "source": "https://www.janko.at/Raetsel/Burokku/222.a.htm",
       "info": ""
     },
     "223_6x6": {
-      "problem": "6 6\nA C A C C B\nC B C B B A\nA B A C A A\nA B B C B C\nB A A B B C\nC C B C A A",
+      "problem": "6 6\na c a c c b\nc b c b b a\na b a c a a\na b b c b c\nb a a b b c\nc c b c a a",
       "solution": "6 6\n1 1 5 5 10 10\n2 1 6 5 9 10\n2 2 6 9 9 11\n3 4 6 7 11 11\n3 4 7 7 12 12\n3 4 8 8 8 12",
       "source": "https://www.janko.at/Raetsel/Burokku/223.a.htm",
       "info": ""
     },
     "224_6x6": {
-      "problem": "6 6\nB A C C A B\nC A B A A C\nA B B B B C\nC A C C A C\nB C A A C B\nA B B C A B",
+      "problem": "6 6\nb a c c a b\nc a b a a c\na b b b b c\nc a c c a c\nb c a a c b\na b b c a b",
       "solution": "6 6\n1 1 1 6 9 9\n2 2 6 6 10 9\n3 2 5 8 10 10\n3 5 5 8 11 11\n3 4 7 8 12 11\n4 4 7 7 12 12",
       "source": "https://www.janko.at/Raetsel/Burokku/224.a.htm",
       "info": ""
     },
     "225_6x6": {
-      "problem": "6 6\nC B B E A C\nB A F E D F\nC B A D C D\nD A E B E E\nF E A C F D\nD C F A B F",
+      "problem": "6 6\nc b b e a c\nb a f e d f\nc b a d c d\nd a e b e e\nf e a c f d\nd c f a b f",
       "solution": "6 6\n1 1 5 5 5 5\n2 1 1 1 1 5\n2 4 4 4 4 5\n2 2 3 3 4 6\n2 2 3 6 4 6\n3 3 3 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/225.a.htm",
       "info": ""
     },
     "226_6x6": {
-      "problem": "6 6\nF C E A C B\nA D A F A F\nD B E D F D\nF C E C A D\nE B B C E C\nD A F B B E",
+      "problem": "6 6\nf c e a c b\na d a f a f\nd b e d f d\nf c e c a d\ne b b c e c\nd a f b b e",
       "solution": "6 6\n1 1 4 4 4 4\n2 1 1 5 5 4\n2 1 1 5 6 4\n2 2 5 5 6 6\n2 2 5 3 3 6\n3 3 3 3 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/226.a.htm",
       "info": ""
     },
     "227_8x8": {
-      "problem": "8 8\nD A C A D C B A\nC D C D B C D B\nA B B C B A D A\nD B A C B D B C\nB C B B A A A D\nD D D D C C A B\nB A C A B C D C\nA C A A C D B D",
+      "problem": "8 8\nd a c a d c b a\nc d c d b c d b\na b b c b a d a\nd b a c b d b c\nb c b b a a a d\nd d d d c c a b\nb a c a b c d c\na c a a c d b d",
       "solution": "8 8\n1 5 6 6 12 12 12 12\n1 5 5 6 6 14 14 14\n1 1 5 8 8 8 8 14\n2 2 2 2 13 13 15 15\n3 3 7 9 9 13 15 15\n4 3 7 9 9 13 16 16\n4 3 7 10 10 10 10 16\n4 4 7 11 11 11 11 16",
       "source": "https://www.janko.at/Raetsel/Burokku/227.a.htm",
       "info": ""
     },
     "228_8x8": {
-      "problem": "8 8\nC A A C B D D B\nC D B B B C D A\nD C D A A B A C\nA C C B D C D A\nB A B D B D C A\nB C A C C A C B\nC D D D D D B C\nA B B A A A D B",
+      "problem": "8 8\nc a a c b d d b\nc d b b b c d a\nd c d a a b a c\na c c b d c d a\nb a b d b d c a\nb c a c c a c b\nc d d d d d b c\na b b a a a d b",
       "solution": "8 8\n1 1 7 7 7 7 16 16\n2 1 1 5 10 10 10 16\n2 5 5 5 8 12 10 16\n2 6 8 8 8 12 12 12\n2 6 6 6 11 13 13 13\n3 3 3 9 11 14 14 13\n4 4 3 9 11 14 14 15\n4 4 9 9 11 15 15 15",
       "source": "https://www.janko.at/Raetsel/Burokku/228.a.htm",
       "info": ""
     },
     "229_8x8": {
-      "problem": "8 8\nG F E H F C A B\nC B E H A C D D\nH G G F H A F G\nE A B F E C G C\nA E C H D B H D\nF G D B A D E B\nF D G H H C E D\nB A E C G B F A",
+      "problem": "8 8\ng f e h f c a b\nc b e h a c d d\nh g g f h a f g\ne a b f e c g c\na e c h d b h d\nf g d b a d e b\nf d g h h c e d\nb a e c g b f a",
       "solution": "8 8\n1 1 5 5 5 5 5 5\n2 1 1 1 1 1 1 5\n2 4 6 6 6 8 8 5\n2 4 4 4 6 6 8 8\n2 4 4 4 4 6 8 8\n2 2 2 2 6 6 8 8\n3 3 3 3 7 7 7 7\n3 3 3 3 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/229.a.htm",
       "info": ""
     },
     "230_8x8": {
-      "problem": "8 8\nC C F H B A D G\nD E G E B C H A\nF E H C A G D F\nE B A H G C D G\nB F D G A F A B\nD B H F E H E B\nA B E F H C D H\nG C G C A F E D",
+      "problem": "8 8\nc c f h b a d g\nd e g e b c h a\nf e h c a g d f\ne b a h g c d g\nb f d g a f a b\nd b h f e h e b\na b e f h c d h\ng c g c a f e d",
       "solution": "8 8\n1 4 4 4 4 4 4 4\n1 4 1 7 7 7 7 7\n1 1 1 2 2 7 7 7\n2 1 1 2 5 5 5 8\n2 2 2 2 5 8 8 8\n3 5 5 5 5 8 8 6\n3 3 3 3 3 8 8 6\n3 3 6 6 6 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/230.a.htm",
       "info": ""
     },
     "231_5x5": {
-      "problem": "5 5\nC B C E B\nB E D A A\nA E B D D\nD E C C A\nD B E C A",
+      "problem": "5 5\nc b c e b\nb e d a a\na e b d d\nd e c c a\nd b e c a",
       "solution": "5 5\n1 1 5 5 5\n2 1 1 1 5\n2 4 4 4 5\n2 2 2 4 4\n3 3 3 3 3",
       "source": "https://www.janko.at/Raetsel/Burokku/231.a.htm",
       "info": ""
     },
     "232_5x5": {
-      "problem": "5 5\nD C D B A\nC B C E D\nE E B C D\nD A A E C\nB A B E A",
+      "problem": "5 5\nd c d b a\nc b c e d\ne e b c d\nd a a e c\nb a b e a",
       "solution": "5 5\n1 1 3 5 5\n2 1 3 5 5\n2 1 3 5 4\n2 1 3 3 4\n2 2 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/232.a.htm",
       "info": ""
     },
     "233_6x6": {
-      "problem": "6 6\nA C B B A C\nA C B B A B\nA C B B C C\nA C B A A A\nC A B C B C\nA C B B A C",
+      "problem": "6 6\na c b b a c\na c b b a b\na c b b c c\na c b a a a\nc a b c b c\na c b b a c",
       "solution": "6 6\n1 1 1 7 7 7\n2 2 2 8 8 12\n3 3 3 9 8 12\n4 4 4 9 11 12\n5 5 5 9 11 11\n6 6 6 10 10 10",
       "source": "https://www.janko.at/Raetsel/Burokku/233.a.htm",
       "info": ""
     },
     "234_6x6": {
-      "problem": "6 6\nC B C A C B\nC A A B C B\nB B A A B A\nA B C A C B\nC A B C B A\nC A B A C C",
+      "problem": "6 6\nc b c a c b\nc a a b c b\nb b a a b a\na b c a c b\nc a b c b a\nc a b a c c",
       "solution": "6 6\n1 1 6 8 8 8\n2 1 6 6 11 11\n2 5 5 9 9 11\n2 3 5 7 9 12\n3 3 7 7 10 12\n4 4 4 10 10 12",
       "source": "https://www.janko.at/Raetsel/Burokku/234.a.htm",
       "info": ""
     },
     "235_6x6": {
-      "problem": "6 6\nB A D C B C\nF A F E E F\nC B A D B F\nE F C E D D\nD C E E C A\nA D A F B B",
+      "problem": "6 6\nb a d c b c\nf a f e e f\nc b a d b f\ne f c e d d\nd c e e c a\na d a f b b",
       "solution": "6 6\n1 2 2 2 2 5\n1 3 2 2 5 5\n1 3 5 5 5 6\n1 3 3 3 3 6\n1 4 4 6 6 6\n1 4 4 4 4 6",
       "source": "https://www.janko.at/Raetsel/Burokku/235.a.htm",
       "info": ""
     },
     "236_6x6": {
-      "problem": "6 6\nC E B F C A\nB E A D F D\nD A C B C E\nA B F E A D\nB D C F A B\nC D F E E F",
+      "problem": "6 6\nc e b f c a\nb e a d f d\nd a c b c e\na b f e a d\nb d c f a b\nc d f e e f",
       "solution": "6 6\n1 4 4 4 4 4\n1 1 1 1 1 4\n2 2 2 2 6 6\n3 5 2 2 6 6\n3 5 5 5 5 6\n3 3 3 3 5 6",
       "source": "https://www.janko.at/Raetsel/Burokku/236.a.htm",
       "info": ""
     },
     "237_8x8": {
-      "problem": "8 8\nB C B D C C B B\nC B D B A D A A\nA D A C A D A D\nB D D B C A B C\nA C A A C D C B\nC B A C B A D C\nB D D D D A C B\nA B C B A D C D",
+      "problem": "8 8\nb c b d c c b b\nc b d b a d a a\na d a c a d a d\nb d d b c a b c\na c a a c d c b\nc b a c b a d c\nb d d d d a c b\na b c b a d c d",
       "solution": "8 8\n1 5 7 7 7 12 12 16\n1 5 5 9 7 12 12 16\n1 1 5 9 9 9 13 16\n2 2 8 8 8 8 13 16\n3 2 2 10 10 13 13 14\n3 6 6 6 10 14 14 14\n3 3 4 6 10 15 15 15\n4 4 4 11 11 11 11 15",
       "source": "https://www.janko.at/Raetsel/Burokku/237.a.htm",
       "info": ""
     },
     "238_8x8": {
-      "problem": "8 8\nB A A B D C A C\nC D B B A B D B\nC A D D C C B B\nB A B D B D C D\nB C D C D A A C\nC A A A C A D A\nB D D B C D B A\nA C D C C A B D",
+      "problem": "8 8\nb a a b d c a c\nc d b b a b d b\nc a d d c c b b\nb a b d b d c d\nb c d c d a a c\nc a a a c a d a\nb d d b c d b a\na c d c c a b d",
       "solution": "8 8\n1 1 6 6 6 6 14 14\n1 1 2 9 9 13 14 14\n2 2 2 9 9 13 15 16\n3 3 7 7 10 13 15 16\n4 3 3 7 10 13 15 16\n4 4 8 7 10 10 15 16\n5 4 8 8 11 11 11 11\n5 5 5 8 12 12 12 12",
       "source": "https://www.janko.at/Raetsel/Burokku/238.a.htm",
       "info": ""
     },
     "239_8x8": {
-      "problem": "8 8\nH B G A C F E H\nB E D G B F B A\nA C H D F C D C\nG H H A G E D G\nC E F G D A F A\nD A F D B H B C\nH E E A E C F G\nF B C H B G D E",
+      "problem": "8 8\nh b g a c f e h\nb e d g b f b a\na c h d f c d c\ng h h a g e d g\nc e f g d a f a\nd a f d b h b c\nh e e a e c f g\nf b c h b g d e",
       "solution": "8 8\n1 1 1 1 1 1 7 7\n2 1 1 4 4 7 7 7\n2 2 4 4 4 4 7 7\n3 2 5 5 5 4 8 7\n3 2 2 2 5 4 8 8\n3 3 6 2 5 8 8 8\n3 3 6 6 5 5 5 8\n3 3 6 6 6 6 6 8",
       "source": "https://www.janko.at/Raetsel/Burokku/239.a.htm",
       "info": ""
     },
     "240_8x8": {
-      "problem": "8 8\nG E F C E B C E\nE F A B G A H F\nD A B F D G D G\nC H C H A B E F\nG D H F D C C B\nB G F E D G H H\nC D H E A H A B\nA B A G C D F E",
+      "problem": "8 8\ng e f c e b c e\ne f a b g a h f\nd a b f d g d g\nc h c h a b e f\ng d h f d c c b\nb g f e d g h h\nc d h e a h a b\na b a g c d f e",
       "solution": "8 8\n1 1 1 5 5 7 7 7\n2 2 1 5 5 7 7 7\n2 2 1 5 7 7 8 8\n2 2 1 5 5 6 8 8\n2 1 1 6 5 6 8 8\n2 3 3 6 6 6 8 4\n3 3 3 3 6 6 8 4\n3 3 4 4 4 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/240.a.htm",
       "info": ""
     },
     "241_5x5": {
-      "problem": "5 5\nD A C D A\nA B B E D\nB A C B E\nE E C D A\nC E D B C",
+      "problem": "5 5\nd a c d a\na b b e d\nb a c b e\ne e c d a\nc e d b c",
       "solution": "5 5\n1 2 2 2 5\n1 3 2 2 5\n1 3 5 5 5\n1 3 3 3 4\n1 4 4 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/241.a.htm",
       "info": ""
     },
     "242_5x5": {
-      "problem": "5 5\nC B D C D\nB E E A B\nD D E E C\nE A A C A\nC B A D B",
+      "problem": "5 5\nc b d c d\nb e e a b\nd d e e c\ne a a c a\nc b a d b",
       "solution": "5 5\n1 3 3 3 5\n1 1 3 3 5\n2 1 4 5 5\n2 1 4 4 5\n2 2 2 4 4",
       "source": "https://www.janko.at/Raetsel/Burokku/242.a.htm",
       "info": ""
     },
     "243_6x6": {
-      "problem": "6 6\nB B A B C B\nC A C C A A\nC A C B A A\nA B A B B C\nB B C C A A\nC C B A C B",
+      "problem": "6 6\nb b a b c b\nc a c c a a\nc a c b a a\na b a b b c\nb b c c a a\nc c b a c b",
       "solution": "6 6\n1 4 4 8 10 10\n1 1 4 8 8 10\n2 2 7 7 7 11\n3 2 5 9 11 11\n3 5 5 9 9 12\n3 6 6 6 12 12",
       "source": "https://www.janko.at/Raetsel/Burokku/243.a.htm",
       "info": ""
     },
     "244_6x6": {
-      "problem": "6 6\nB B A C B A\nC A B A C C\nC A C A A A\nB C B B C B\nA C B A B C\nC A B B C A",
+      "problem": "6 6\nb b a c b a\nc a b a c c\nc a c a a a\nb c b b c b\na c b a b c\nc a b b c a",
       "solution": "6 6\n1 4 4 4 10 10\n1 1 7 7 7 10\n2 5 8 8 11 12\n2 5 5 8 11 12\n2 6 6 6 11 12\n3 3 3 9 9 9",
       "source": "https://www.janko.at/Raetsel/Burokku/244.a.htm",
       "info": ""
     },
     "245_6x6": {
-      "problem": "6 6\nB C F D A E\nF C E A C A\nB D B E F D\nA D C F A E\nD E B C C F\nB E A F B D",
+      "problem": "6 6\nb c f d a e\nf c e a c a\nb d b e f d\na d c f a e\nd e b c c f\nb e a f b d",
       "solution": "6 6\n1 1 1 1 1 1\n2 2 2 2 5 5\n2 2 5 5 5 5\n3 3 3 3 6 6\n4 3 3 4 6 6\n4 4 4 4 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/245.a.htm",
       "info": ""
     },
     "246_6x6": {
-      "problem": "6 6\nD A C B E F\nD E B E A C\nD C A B F D\nB A F C F C\nE F B E C B\nA D F E D A",
+      "problem": "6 6\nd a c b e f\nd e b e a c\nd c a b f d\nb a f c f c\ne f b e c b\na d f e d a",
       "solution": "6 6\n1 1 1 1 1 1\n2 2 2 5 5 5\n3 3 2 5 5 5\n3 3 2 2 6 6\n3 3 4 4 4 6\n4 4 4 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/246.a.htm",
       "info": ""
     },
     "247_8x8": {
-      "problem": "8 8\nA A C B D C A B\nB B B A B C C D\nC A C B D A B D\nD C A D C B C A\nD D D A D B D A\nC C D B A A D B\nA C D B C C D C\nB A D B C B A A",
+      "problem": "8 8\na a c b d c a b\nb b b a b c c d\nc a c b d a b d\nd c a d c b c a\nd d d a d b d a\nc c d b a a d b\na c d b c c d c\nb a d b c b a a",
       "solution": "8 8\n1 3 3 3 3 13 13 13\n1 4 7 9 10 10 15 13\n1 4 7 9 10 10 15 15\n1 4 7 9 9 14 14 15\n2 4 7 5 11 11 14 14\n2 5 5 5 8 11 16 16\n2 6 8 8 8 11 12 16\n2 6 6 6 12 12 12 16",
       "source": "https://www.janko.at/Raetsel/Burokku/247.a.htm",
       "info": ""
     },
     "248_8x8": {
-      "problem": "8 8\nB D B B C B A C\nC C C A D D D B\nD A A D A C A C\nA A B D A A C B\nB C B A C D B D\nA B D D C B C D\nA D C A D D C A\nB D C B C B A B",
+      "problem": "8 8\nb d b b c b a c\nc c c a d d d b\nd a a d a c a c\na a b d a a c b\nb c b a c d b d\na b d d c b c d\na d c a d d c a\nb d c b c b a b",
       "solution": "8 8\n1 1 6 8 8 11 14 14\n2 1 6 8 8 11 14 14\n2 1 6 6 11 11 15 15\n2 5 7 7 7 12 12 15\n2 5 5 9 7 12 12 15\n3 3 5 9 9 9 16 16\n4 3 3 10 10 13 13 16\n4 4 4 10 10 13 13 16",
       "source": "https://www.janko.at/Raetsel/Burokku/248.a.htm",
       "info": ""
     },
     "249_8x8": {
-      "problem": "8 8\nA C E G F C F D\nE H G H B D G B\nD C B D E F B G\nC D E F A A H C\nH G B F H D B A\nE F A B D C A H\nF D G A H A G E\nB C E F H G E C",
+      "problem": "8 8\na c e g f c f d\ne h g h b d g b\nd c b d e f b g\nc d e f a a h c\nh g b f h d b a\ne f a b d c a h\nf d g a h a g e\nb c e f h g e c",
       "solution": "8 8\n1 1 1 1 1 7 8 8\n2 4 4 1 1 7 7 8\n2 4 4 1 7 7 7 8\n2 4 4 4 4 7 7 8\n2 2 2 6 6 6 6 8\n3 2 2 5 5 5 6 8\n3 3 3 3 3 5 6 8\n3 3 5 5 5 5 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/249.a.htm",
       "info": ""
     },
     "250_8x8": {
-      "problem": "8 8\nA F H G E D D F\nB C H C B D F H\nH G A B F B G A\nG E E C D A D E\nF A D C B F D C\nE A G H B E C F\nF G H G C B E H\nC A E D H B G A",
+      "problem": "8 8\na f h g e d d f\nb c h c b d f h\nh g a b f b g a\ng e e c d a d e\nf a d c b f d c\ne a g h b e c f\nf g h g c b e h\nc a e d h b g a",
       "solution": "8 8\n1 1 1 1 1 1 7 7\n1 1 5 5 5 5 5 7\n2 5 5 2 3 7 7 7\n2 5 2 2 3 6 6 7\n2 2 2 3 3 6 8 7\n3 3 3 3 6 6 8 8\n4 4 6 6 6 8 8 8\n4 4 4 4 4 4 8 8",
       "source": "https://www.janko.at/Raetsel/Burokku/250.a.htm",
       "info": ""
     },
     "251_5x5": {
-      "problem": "5 5\nA D C D C\nE C A A B\nD B E B E\nD C D A B\nA C E B E",
+      "problem": "5 5\na d c d c\ne c a a b\nd b e b e\nd c d a b\na c e b e",
       "solution": "5 5\n1 3 3 5 5\n1 1 3 5 5\n1 1 3 3 5\n2 4 4 4 4\n2 2 2 2 4",
       "source": "https://www.janko.at/Raetsel/Burokku/251.a.htm",
       "info": ""
     },
     "252_6x6": {
-      "problem": "6 6\nA A E A E C\nF B A D B D\nC D B C F F\nE E F E E A\nB D C D F C\nA F B C D B",
+      "problem": "6 6\na a e a e c\nf b a d b d\nc d b c f f\ne e f e e a\nb d c d f c\na f b c d b",
       "solution": "6 6\n1 3 4 5 5 5\n1 3 4 4 5 5\n1 3 4 4 4 5\n1 3 3 2 6 6\n1 1 3 2 6 6\n2 2 2 2 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/252.a.htm",
       "info": ""
     },
     "253_6x6": {
-      "problem": "6 6\nF D B E F D\nA C A C E D\nC B E A C A\nE A C C D B\nD E E B F F\nF B F B A D",
+      "problem": "6 6\nf d b e f d\na c a c e d\nc b e a c a\ne a c c d b\nd e e b f f\nf b f b a d",
       "solution": "6 6\n1 1 3 3 3 3\n2 1 3 3 6 6\n2 1 4 4 6 6\n2 1 5 4 4 6\n2 1 5 4 4 6\n2 2 5 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/253.a.htm",
       "info": ""
     },
     "254_6x6": {
-      "problem": "6 6\nA D E B B C\nF C F C A F\nA B B A E D\nE A E C C D\nC D F D F F\nB D E A B E",
+      "problem": "6 6\na d e b b c\nf c f c a f\na b b a e d\ne a e c c d\nc d f d f f\nb d e a b e",
       "solution": "6 6\n1 1 1 1 6 6\n2 3 1 1 6 6\n2 3 4 4 6 6\n2 3 4 4 5 5\n2 3 3 4 4 5\n2 2 3 5 5 5",
       "source": "https://www.janko.at/Raetsel/Burokku/254.a.htm",
       "info": ""
     },
     "255_8x8": {
-      "problem": "8 8\nD A D C B A B D\nC C D B C B C A\nA B D B C D A A\nA A B C A D C B\nC B A D C B D A\nA D C C D A B C\nC D B C B A D A\nB D C D B A B D",
+      "problem": "8 8\nd a d c b a b d\nc c d b c b c a\na b d b c d a a\na a b c a d c b\nc b a d c b d a\na d c c d a b c\nc d b c b a d a\nb d c d b a b d",
       "solution": "8 8\n1 4 7 7 7 7 15 15\n1 4 4 4 12 12 15 15\n1 1 8 8 8 12 12 14\n2 5 5 5 8 14 14 14\n2 2 6 5 13 13 13 13\n3 2 6 10 10 10 10 16\n3 6 6 11 11 11 11 16\n3 3 9 9 9 9 16 16",
       "source": "https://www.janko.at/Raetsel/Burokku/255.a.htm",
       "info": ""
     },
     "256_8x8": {
-      "problem": "8 8\nC D C A A B D A\nB A B D B C D C\nD A C A A C B A\nB C B B C D D B\nC B D C D D D C\nA A D B A B A C\nA D C B C D D C\nA D C B A B A B",
+      "problem": "8 8\nc d c a a b d a\nb a b d b c d c\nd a c a a c b a\nb c b b c d d b\nc b d c d d d c\na a d b a b a c\na d c b c d d c\na d c b a b a b",
       "solution": "8 8\n1 1 7 7 10 13 13 13\n1 1 7 7 10 10 10 13\n2 5 5 8 11 11 11 15\n2 6 5 8 8 8 11 15\n2 6 5 9 9 14 15 15\n2 6 6 9 9 14 14 14\n3 3 3 3 12 12 16 16\n4 4 4 4 12 12 16 16",
       "source": "https://www.janko.at/Raetsel/Burokku/256.a.htm",
       "info": ""
     },
     "257_8x8": {
-      "problem": "8 8\nD B D B C A A D\nC A C A A B C B\nC A D B D B D C\nA C A B D D C D\nD A B D A B C A\nC B B C C B B A\nA D D A D B D C\nC B A C B C D A",
+      "problem": "8 8\nd b d b c a a d\nc a c a a b c b\nc a d b d b d c\na c a b d d c d\nd a b d a b c a\nc b b c c b b a\na d d a d b d c\nc b a c b c d a",
       "solution": "8 8\n1 1 7 7 10 13 15 15\n1 1 7 7 10 13 13 15\n2 2 2 2 10 10 13 15\n3 5 5 5 5 11 11 16\n3 6 6 6 11 11 16 16\n3 3 8 6 9 9 16 14\n4 4 8 9 9 14 14 14\n4 4 8 8 12 12 12 12",
       "source": "https://www.janko.at/Raetsel/Burokku/257.a.htm",
       "info": ""
     },
     "258_8x8": {
-      "problem": "8 8\nD A C F B G C A\nF C B E B H A D\nG E G H F G C H\nH B B D E F E F\nD A E A B H D A\nB E D C H E C G\nG C D F F G A E\nF H A C H G B D",
+      "problem": "8 8\nd a c f b g c a\nf c b e b h a d\ng e g h f g c h\nh b b d e f e f\nd a e a b h d a\nb e d c h e c g\ng c d f f g a e\nf h a c h g b d",
       "solution": "8 8\n1 1 1 1 7 7 7 7\n2 2 1 1 5 5 5 7\n2 2 1 1 5 5 5 7\n2 2 4 5 5 8 7 7\n2 2 4 4 8 8 8 8\n3 3 4 4 4 8 8 8\n3 3 3 6 4 4 6 6\n3 3 3 6 6 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/258.a.htm",
       "info": ""
     },
     "259_8x8": {
-      "problem": "8 8\nH C D F A D A E\nF B G E B G H F\nA E C G A D H C\nG C B E D H B B\nF H D E C B G F\nE D C F H G H A\nB E G B G F A C\nD A F D H A E C",
+      "problem": "8 8\nh c d f a d a e\nf b g e b g h f\na e c g a d h c\ng c b e d h b b\nf h d e c b g f\ne d c f h g h a\nb e g b g f a c\nd a f d h a e c",
       "solution": "8 8\n1 1 1 1 1 8 8 8\n2 2 1 1 1 8 8 8\n3 2 2 2 2 2 2 8\n3 3 3 7 7 7 7 8\n3 3 5 5 5 5 7 7\n3 3 4 4 4 5 5 7\n4 4 4 6 6 5 5 7\n4 4 6 6 6 6 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/259.a.htm",
       "info": ""
     },
     "260_8x8": {
-      "problem": "8 8\nH G C D E B F G\nF A C A E B D H\nE H A G C F E F\nD E C E G D B G\nA B G F H D A C\nF H B A E A E F\nH B C D B G C A\nH F C G D D H B",
+      "problem": "8 8\nh g c d e b f g\nf a c a e b d h\ne h a g c f e f\nd e c e g d b g\na b g f h d a c\nf h b a e a e f\nh b c d b g c a\nh f c g d d h b",
       "solution": "8 8\n1 1 1 1 1 1 6 6\n1 1 6 6 6 6 6 6\n2 5 5 5 5 5 7 7\n2 5 2 3 3 5 7 7\n2 5 2 3 7 7 7 7\n2 2 2 3 4 4 8 8\n3 3 3 3 4 8 8 8\n4 4 4 4 4 8 8 8",
       "source": "https://www.janko.at/Raetsel/Burokku/260.a.htm",
       "info": ""
     },
     "261_5x5": {
-      "problem": "5 5\nA B D A A\nC E C D B\nC B E D D\nD B A E E\nA E C B C",
+      "problem": "5 5\na b d a a\nc e c d b\nc b e d d\nd b a e e\na e c b c",
       "solution": "5 5\n1 1 1 3 5\n1 1 3 3 5\n2 3 3 4 5\n2 2 4 4 5\n2 2 4 4 5",
       "source": "https://www.janko.at/Raetsel/Burokku/261.a.htm",
       "info": ""
     },
     "262_6x6": {
-      "problem": "6 6\nC F A C D F\nA A B E B C\nF D D E C F\nE B B B D A\nD E A A C B\nC F F E E D",
+      "problem": "6 6\nc f a c d f\na a b e b c\nf d d e c f\ne b b b d a\nd e a a c b\nc f f e e d",
       "solution": "6 6\n1 3 4 4 4 4\n1 3 3 4 4 6\n1 1 3 3 3 6\n1 1 2 5 5 6\n2 2 2 5 5 6\n2 2 5 5 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/262.a.htm",
       "info": ""
     },
     "263_6x6": {
-      "problem": "6 6\nE A A D B E\nF D F C C D\nB B E B E B\nA F E C F C\nD C B D E F\nD C A F A A",
+      "problem": "6 6\ne a a d b e\nf d f c c d\nb b e b e b\na f e c f c\nd c b d e f\nd c a f a a",
       "solution": "6 6\n1 3 4 4 4 6\n1 3 3 3 4 6\n1 3 3 5 4 6\n1 2 2 5 4 6\n1 1 2 5 5 6\n2 2 2 5 5 6",
       "source": "https://www.janko.at/Raetsel/Burokku/263.a.htm",
       "info": ""
     },
     "264_6x6": {
-      "problem": "6 6\nA D E D B C\nB F C F A E\nD D F A D C\nC F A F B E\nF E B D E A\nB A E C C B",
+      "problem": "6 6\na d e d b c\nb f c f a e\nd d f a d c\nc f a f b e\nf e b d e a\nb a e c c b",
       "solution": "6 6\n1 1 1 5 5 5\n1 1 1 5 5 5\n2 3 4 4 4 4\n2 3 3 6 4 4\n2 2 3 6 6 6\n2 2 3 3 6 6",
       "source": "https://www.janko.at/Raetsel/Burokku/264.a.htm",
       "info": ""
     },
     "265_8x8": {
-      "problem": "8 8\nC B A B C A A D\nA A B D C D B C\nB C D A D C B D\nD A B D A D B B\nC D C A C B A C\nB D B C A D C A\nD A B B A B C B\nD A C C D D C A",
+      "problem": "8 8\nc b a b c a a d\na a b d c d b c\nb c d a d c b d\nd a b d a d b b\nc d c a c b a c\nb d b c a d c a\nd a b b a b c b\nd a c c d d c a",
       "solution": "8 8\n1 4 7 8 8 8 15 15\n1 4 7 7 7 8 15 15\n1 4 4 9 9 9 9 16\n1 5 5 10 10 13 13 16\n2 5 5 6 10 10 13 16\n2 6 6 6 12 12 13 16\n2 2 3 11 11 12 12 14\n3 3 3 11 11 14 14 14",
       "source": "https://www.janko.at/Raetsel/Burokku/265.a.htm",
       "info": ""
     },
     "266_8x8": {
-      "problem": "8 8\nB B D C B B C D\nC C A B C A D A\nA C A D C B A D\nD A D A C B B D\nA B C A D C B C\nB D D B D C B A\nC A D A A D A B\nD C B C A B C D",
+      "problem": "8 8\nb b d c b b c d\nc c a b c a d a\na c a d c b a d\nd a d a c b b d\na b c a d c b c\nb d d b d c b a\nc a d a a d a b\nd c b c a b c d",
       "solution": "8 8\n1 3 3 6 11 14 14 14\n1 3 3 6 11 11 11 14\n1 4 6 6 12 12 12 12\n1 4 7 7 7 7 15 15\n2 4 8 9 9 9 9 15\n2 4 8 8 13 13 13 15\n2 5 5 8 13 10 16 16\n2 5 5 10 10 10 16 16",
       "source": "https://www.janko.at/Raetsel/Burokku/266.a.htm",
       "info": ""
     },
     "267_8x8": {
-      "problem": "8 8\nC A B D C D B B\nB D B B C C A A\nA C C D A A A C\nB B A A D B D D\nC C D C B D C B\nD A D A D B C D\nB A C A C D A B\nC B A D A D C B",
+      "problem": "8 8\nc a b d c d b b\nb d b b c c a a\na c c d a a a c\nb b a a d b d d\nc c d c b d c b\nd a d a d b c d\nb a c a c d a b\nc b a d a d c b",
       "solution": "8 8\n1 1 1 1 11 11 11 16\n2 2 7 8 8 13 11 16\n2 2 7 7 8 13 14 16\n3 6 6 7 8 13 14 16\n3 6 6 9 9 13 14 14\n3 3 4 9 9 10 15 15\n4 4 4 10 10 10 15 15\n5 5 5 5 12 12 12 12",
       "source": "https://www.janko.at/Raetsel/Burokku/267.a.htm",
       "info": ""
     },
     "268_8x8": {
-      "problem": "8 8\nH A F B D G A E\nF D A A E C B C\nE G C E B F H G\nH B A D C F H D\nC F G G D H C F\nH A C E B B H F\nB G E A D F C G\nG E D E H A B D",
+      "problem": "8 8\nh a f b d g a e\nf d a a e c b c\ne g c e b f h g\nh b a d c f h d\nc f g g d h c f\nh a c e b b h f\nb g e a d f c g\ng e d e h a b d",
       "solution": "8 8\n1 1 1 1 1 1 8 8\n2 2 2 6 1 1 8 8\n2 2 2 6 6 6 6 8\n2 2 5 6 6 5 8 8\n3 3 5 6 5 5 4 8\n3 3 5 5 5 4 4 7\n3 4 4 4 4 4 7 7\n3 3 3 7 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/268.a.htm",
       "info": ""
     },
     "269_8x8": {
-      "problem": "8 8\nE H C E D E F G\nB F F D D B G H\nA C B A G D C A\nC D H A G G E B\nD H E E H B H C\nF G F F B C F H\nE B A C G A A D\nD C H A B F G E",
+      "problem": "8 8\ne h c e d e f g\nb f f d d b g h\na c b a g d c a\nc d h a g g e b\nd h e e h b h c\nf g f f b c f h\ne b a c g a a d\nd c h a b f g e",
       "solution": "8 8\n1 4 4 4 6 6 6 6\n1 1 4 4 7 7 7 6\n2 1 4 4 4 5 7 6\n2 1 1 1 1 5 7 6\n2 2 2 5 5 5 7 6\n3 2 2 5 8 8 7 8\n3 2 5 5 3 8 7 8\n3 3 3 3 3 8 8 8",
       "source": "https://www.janko.at/Raetsel/Burokku/269.a.htm",
       "info": ""
     },
     "270_8x8": {
-      "problem": "8 8\nH A B C F E D F\nH E C B G F H A\nA B G C E D G E\nC E D E D G A H\nA B F C F D B B\nE G H H F A G C\nC B H E F D B D\nD A G F G A H C",
+      "problem": "8 8\nh a b c f e d f\nh e c b g f h a\na b g c e d g e\nc e d e d g a h\na b f c f d b b\ne g h h f a g c\nc b h e f d b d\nd a g f g a h c",
       "solution": "8 8\n1 1 5 5 5 5 5 8\n2 1 1 1 1 1 5 8\n2 2 2 2 2 1 5 8\n3 3 3 6 2 6 5 8\n3 3 3 6 2 6 6 8\n4 3 3 6 6 6 8 8\n4 4 4 7 7 7 7 8\n4 4 4 4 7 7 7 7",
       "source": "https://www.janko.at/Raetsel/Burokku/270.a.htm",
       "info": ""
