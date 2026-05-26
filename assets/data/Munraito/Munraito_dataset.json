@@ -1,6 +1,6 @@
 {
-  "count": 360,
-  "count_sol": 360,
+  "count": 359,
+  "count_sol": 359,
   "name": "Munraito",
   "data": {
     "1_4x4": {
@@ -781,12 +781,6 @@
       "problem": "9 9\n- - - - - - - - -\n- - 8 - - - - - -\n- - - - - - - - -\n- - - 9 - - - - -\n- - - - 6 - - - -\n- - - - - - 2 - -\n- - - - - - - 3 -\n9 - - - - - - - -\n- - - - - 0 - - -",
       "solution": "9 9\nx - s - - - - - -\ns x 8 - - - - - -\n- - - s x - - - -\n- - x 9 - s - - -\n- s - - 6 - - x -\n- - - - s x 2 - -\n- - - x - - - 3 s\n9 - - - - - s - x\n- - - - - 0 x s -",
       "source": "https://www.janko.at/Raetsel/Sternenhaufen/130.a.htm",
-      "info": ""
-    },
-    "131_6x6": {
-      "problem": "6 6\n- 0 - - - -\n- - - - - 4\n- - - - 12 -\n8 - - - - -\n- - 4 - - -\n- - - 9 - -",
-      "solution": "6 6\n- 0 - x s -\n- x s - - 4\ns - - - 12 x\n8 - x s - -\n- s 4 - x -\nx - - 9 - s",
-      "source": "https://www.janko.at/Raetsel/Sternenhaufen/131.a.htm",
       "info": ""
     },
     "132_6x6": {
