@@ -1,6 +1,6 @@
 {
-  "count": 190,
-  "count_sol": 190,
+  "count": 187,
+  "count_sol": 187,
   "name": "Pipelink",
   "data": {
     "01_5x5": {
@@ -163,12 +163,6 @@
       "problem": "10 10\n- - - - - se - se - -\n- ns - ew - - - - - -\n- - - - - - ns - se -\n- - - - nsew - - - - -\nse - ew - - se - - - -\n- sw - - ns - ew - ew -\n- - - - - - - - - nw\n- - sw - ns - ne - - -\n- nsew - - - - - ns - -\n- - - - ne - - - - -",
       "solution": "10 10\nse sw se ew sw se sw se ew sw\nns ns ne ew nsew nsew nsew nsew ew nw\nns ne ew ew nsew nw ns ns se sw\nne ew ew ew nsew ew nsew nsew nw ns\nse ew ew sw ns se nw ne ew nw\nne sw se nw ns ne ew ew ew sw\nse nsew nw se nsew sw se sw se nw\nne nsew sw ns ns ns ne nsew nsew sw\nse nsew nsew nsew nsew nsew sw ns ns ns\nne nw ne nw ne nw ne nw ne nw",
       "source": "https://www.janko.at/Raetsel/Pipelink/027.a.htm",
-      "info": ""
-    },
-    "28_10x10": {
-      "problem": "10 10\n- - - - - se - se - -\n- ns - ew - - - - - -\n- - - - - - ns - se -\n- - - - news - - - - -\nse - ew - - se - - - -\n- sw - - ns - ew - ew -\n- - - - - - - - - nw\n- - sw - ns - ne - - -\n- news - - - - - ns - -\n- - - - ne - - - - -",
-      "solution": "10 10\nse sw se ew sw se sw se ew sw\nns ns ne ew nsew nsew nsew nsew ew nw\nns ne ew ew nsew nw ns ns se sw\nne ew ew ew nsew ew nsew nsew nw ns\nse ew ew sw ns se nw ne ew nw\nne sw se nw ns ne ew ew ew sw\nse nsew nw se nsew sw se sw se nw\nne nsew sw ns ns ns ne nsew nsew sw\nse nsew nsew nsew nsew nsew sw ns ns ns\nne nw ne nw ne nw ne nw ne nw",
-      "source": "https://www.janko.at/Raetsel/Pipelink/028.a.htm",
       "info": ""
     },
     "29_10x10": {
@@ -559,18 +553,6 @@
       "problem": "10 10\n- sw se - ew - sw - - -\n- - - ew - - ns ns - nw\nns - - ew sw - - - - -\n- ew - sw - ew - - nw -\n- - se - - - - ne - nw\n- ns - - nw - ew ew - sw\n- - - nw - - - ew sw -\n- sw - - - - - - - -\nse - - nw - - sw ne - sw\n- ew - - - nw - ew ew -",
       "solution": "10 10\nse sw se ew ew ew sw se ew sw\nns ns ne ew ew sw ns ns se nw\nns ne ew ew sw ne nsew nsew nsew sw\nne ew ew sw ne ew nsew nsew nw ns\nse sw se nw se ew nw ne ew nw\nns ns ns se nw se ew ew ew sw\nns ne nsew nw se nsew ew ew sw ns\nne sw ns se nsew nsew ew sw ne nw\nse nw ne nw ne nsew sw ne ew sw\nne ew ew ew ew nw ne ew ew nw",
       "source": "https://www.janko.at/Raetsel/Pipelink/093.a.htm",
-      "info": ""
-    },
-    "94_10x10": {
-      "problem": "10 10\n- sw - sw se - - - se -\nns - - - ns ne - ns - ns\n- - ew nw - sw - - - -\nns - - - - ne - ew - nw\n- - - sw ne - - - - -\nne sw - - - sw ne - ne -\nse - - nw - - - ne - -\n- - ne ew - - ne - - -\nse - se sw - - - - - ns\n- - - - ew - ew nw - -",
-      "solution": "10 10\nse sw se sw se sw se sw se sw\nns ne nw ns ns ne nw ns ns ns\nns se ew nw ne sw se nw ns ns\nns ns se ew sw ne nsew ew nsew nw\nns ne nsew sw ne ew nsew ew nsew sw\nne sw ne nsew ew sw ne sw ne nw\nse nw se nw se nsew sw ne ew sw\nne sw ne ew nsew nw ne ew sw ns\nse nw se sw ne ew ew sw ns ns\nne ew nw ne ew ew ew nw ne nw",
-      "source": "https://www.janko.at/Raetsel/Pipelink/094.a.htm",
-      "info": ""
-    },
-    "95_10x10": {
-      "problem": "10 10\n- - se - - sw se - - sw\nns - ne - - - - ne - -\n- - - - sw ne - - se nw\nne - - - - ew - ns - sw\n- - sw - - - - - - -\n- sw - - ew sw - - se -\n- - - - se - - ne - ns\nne - ns se - ns - se - -\n- - - - - - - - ns -\n- - ne - ne - ew nw - -",
-      "solution": "10 10\nse sw se sw se sw se sw se sw\nns ns ne nsew nw ns ns ne nw ns\nns ne ew nsew sw ne nsew sw se nw\nne ew ew nsew nsew ew nw ns ne sw\nse ew sw ns ne ew sw ne ew nw\nne sw ne nsew ew sw ne sw se sw\nse nw se nw se nsew sw ne nw ns\nne sw ns se nw ns ns se sw ns\nse nsew nsew nsew sw ne nw ns ns ns\nne nw ne nw ne ew ew nw ne nw",
-      "source": "https://www.janko.at/Raetsel/Pipelink/095.a.htm",
       "info": ""
     },
     "96_10x10": {
