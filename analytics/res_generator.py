@@ -1,47 +1,49 @@
-import os
 import json
 from pathlib import Path
 
 # Set data root directory path
-ROOT_DIR = Path("../assets/data")
+ROOT_DIR = Path("./assets/data")
 
 # Directories to check for solver/parser/verifier files
 PUZZLES_DIR = Path("../Puzzles")
-CRAWLERS_DIR = Path("../crawlers")
 COMMON_PARSERS_DIR = PUZZLES_DIR / "Common" / "Parser" / "PuzzleParsers"
 
-def get_max_size(puzzles_dict):
-    """
-    Traverse puzzles dictionary, parse dimensions from first line, 
-    return max size string (compared by area).
-    Returns "-" if unable to get dimensions.
-    """
-    max_area = -1
-    max_size_str = "-"
+def parse_problem_size(problem_str):
+    """Parse m n from the first line of problem text. Returns (m, n) or None."""
+    if not problem_str:
+        return None
+    first_line = problem_str.strip().split("\n")[0].strip()
+    tokens = first_line.split()
+    if len(tokens) < 2:
+        return None
+    try:
+        return int(tokens[0]), int(tokens[1])
+    except (ValueError, IndexError):
+        return None
 
+
+def get_size_stats(puzzles_dict):
+    """
+    Collect grid sizes from all problems.
+    Returns (size_range, distinct_count): e.g. ("4x4–17x17", 12) or ("-", "-").
+    Min/max compared by area (m * n).
+    """
+    sizes = []
     for puzzle_data in puzzles_dict.values():
-        problem_str = puzzle_data.get("problem", "")
-        if not problem_str:
-            continue
+        dims = parse_problem_size(puzzle_data.get("problem", ""))
+        if dims is not None:
+            sizes.append(dims)
 
-        # Get first line
-        first_line = problem_str.strip().split('\n')[0].strip()
-        tokens = first_line.split()
+    if not sizes:
+        return "-", "-"
 
-        # Try to read first two numbers
-        if len(tokens) >= 2:
-            try:
-                dim1 = int(tokens[0])
-                dim2 = int(tokens[1])
-                area = dim1 * dim2
-                
-                if area > max_area:
-                    max_area = area
-                    max_size_str = f"{dim1}x{dim2}"
-            except (ValueError, IndexError):
-                continue
-    
-    return max_size_str
+    min_dims = min(sizes, key=lambda d: d[0] * d[1])
+    max_dims = max(sizes, key=lambda d: d[0] * d[1])
+    min_str = f"{min_dims[0]}x{min_dims[1]}"
+    max_str = f"{max_dims[0]}x{max_dims[1]}"
+    size_range = min_str if min_dims == max_dims else f"{min_str}~{max_str}"
+    distinct_count = len({dims for dims in sizes})
+    return size_range, str(distinct_count)
 
 def check_solver_files(puzzle_name):
     """
@@ -59,17 +61,6 @@ def check_solver_files(puzzle_name):
         return "✅"
     return "❌"
 
-def check_crawler_file(puzzle_name):
-    """
-    Check if crawler file exists for a puzzle.
-    Returns ✅ if exists, ❌ otherwise.
-    """
-    crawler_path = CRAWLERS_DIR / f"{puzzle_name}Crawler.py"
-    
-    if crawler_path.exists():
-        return "✅"
-    return "❌"
-
 def generate_markdown_table():
     if not ROOT_DIR.exists():
         print(f"Error: Directory '{ROOT_DIR}' not found.")
@@ -84,7 +75,7 @@ def generate_markdown_table():
     total_solutions = 0  # Now equals total_problems since all puzzles have solution slots
 
     # Table headers
-    headers = ["No.", "Puzzle Name", "Problems", "Solutions", "Max Size", "crawler?"]
+    headers = ["No.", "Puzzle Name", "#. prob.", "#. sols.", "Size Range", "#. specs"]
     
     # Traverse each puzzle directory
     for idx, puzzle_dir in enumerate(subdirs, 1):
@@ -96,8 +87,8 @@ def generate_markdown_table():
         # Initialize row variables
         p_count = "-"
         s_count = "-"
-        max_size = "-"
-        crawler_status = "❌"
+        size_range = "-"
+        spec_count = "-"
 
         # Process merged JSON
         if merged_path.exists():
@@ -111,29 +102,22 @@ def generate_markdown_table():
                     count_sol = data.get("count_sol", 0)
                     
                     p_count = count
-                    s_count = count_sol  # In new format, all puzzles have solution slots (may be empty strings)
+                    s_count = count_sol
                     total_problems += count
                     total_solutions += count_sol
                     
-                    # Calculate max size
-                    max_size = get_max_size(puzzles_data)
+                    size_range, spec_count = get_size_stats(puzzles_data)
             except Exception as e:
                 print(f"⚠️  Error processing {merged_path}: {e}", file=sys.stderr)
                 pass
-
-        # Check crawler file status
-        try:
-            crawler_status = check_crawler_file(puzzle_name)
-        except Exception as e:
-            pass
 
         table_data.append([
             str(idx), 
             puzzle_name, 
             str(p_count), 
             str(s_count), 
-            max_size, 
-            crawler_status
+            size_range,
+            spec_count,
         ])
 
     # --- Generate Markdown Output ---
