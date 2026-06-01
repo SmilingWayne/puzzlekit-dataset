@@ -1,6 +1,6 @@
 {
-  "count": 706,
-  "count_sol": 706,
+  "count": 699,
+  "count_sol": 699,
   "name": "Tent",
   "data": {
     "663_12x12": {
@@ -978,12 +978,6 @@
     "612_12x12": {
       "problem": "12 12\n6 0 3 1 2 2 2 4 0 3 2 3\n4 0 4 1 3 2 3 2 2 3 2 2\n- x - - - x - - - x - -\n- - - - - - x - - - - x\n- x - - - x - - - - - -\n- - - x - - - - - - - -\n- x - - - - x x - x - -\nx x - - - - - - - - - x\n- - - - - x - - x - x -\n- - - - - - x - - - - -\n- x x - - - - - x - - -\n- - - - - x - - x - x -\n- x - - - - - - - - - -\n- - - x - - x - - - - -",
       "solution": "12 12\no x - - o x o - - x o -\n- - - - - - x - - - - x\no x - o - x o - - - - o\n- - - x - - - - - o - -\no x - - - o x x - x - o\nx x o - - - - o - - - x\no - - - - x - - x o x o\n- - - - - o x o - - - -\no x x - - - - - x o - -\n- - o - o x - o x - x -\no x - - - - - - - - o -\n- - o x - - x o - - - -",
-      "source": "",
-      "info": ""
-    },
-    "422_10x10": {
-      "problem": "10 10\n4 0 3 0 2 2 1 2 1 3\n3 2 0 3 1 3 1 3 1 1\n- - x - - x - x x -\n- - - - - - - - - -\nx - - - - - - - - -\n- x - - - - - - x -\n- - - - x - - - - -\n- - - x x - - - - x\nx - - - - - - - - -\n- - - - - - - - - x\nx x - - - x - x - -\n- - - - - - - x - -",
-      "solution": "10 10\n- - x - o x o x x o\no - o - - - - - - -\nx - - - - - - - - -\no x - - o - - o x -\n- - - - x - - - - o\no - o x x o - - - x\nx - - - - - - - - o\no - - - - o - o - x\nx x o - - x - x - -\n- - - - - - - x o -",
       "source": "",
       "info": ""
     },
@@ -2967,12 +2961,6 @@
       "source": "",
       "info": ""
     },
-    "572_10x10": {
-      "problem": "10 10\n3 0 3 2 2 2 1 4 0 3\n2 2 1 2 3 2 2 2 3 1\n- - - x - - - - x -\n- - - - - - - - - -\n- - - - x - - x - -\n- - x - - x - - x x\n- x - - - - - - - -\n- - x - x - - - x -\n- - - - x x - - - -\nx - - - - - x - - -\n- x - - x - - - x -\n- - - - - - - x - -",
-      "solution": "10 10\n- - o x - - - - x o\n- - - - o - - o - -\n- - o - x - - x - -\n- - x - o x - o x x\no x o - - - - - - o\n- - x - x o - o x -\no - - o x x - - - -\nx - - - - o x o - -\no x - o x - - - x o\n- - - - - - o x - -",
-      "source": "",
-      "info": ""
-    },
     "95_12x18": {
       "problem": "12 18\n2 4 1 3 0 5 1 2 3 0 6 0 2 4 2 4 2 2\n7 0 6 2 3 4 3 5 2 3 3 5\n- - - - x - - - - x - - - - x - - -\nx - - x - - - x - - - - - - - x - -\n- - x - - - - - - x - - - - - x - -\n- - - - x - - x - - x - x - - - x -\n- - x - - x - - - - - x - - - - x -\nx - - - x - - x - - x - - - - - - -\n- x - - - - - - - - - - - - x - - -\n- - - - - - x - - x x - - - - - - -\nx - - - - - - - - - - - - x - x - x\n- - - x - x - - - - x - - - - - x -\n- - - - - x - - - - - - - x - x - -\n- - x - - - - - - x - - x - - - - x",
       "solution": "12 18\no - - o x o - o - x o - - o x o - -\nx - - x - - - x - - - - - - - x - -\n- o x - - - - o - x o - o - o x o -\n- - - o x o - x - - x - x - - - x -\n- o x - - x - - - - o x o - - - x -\nx - - - x o - x o - x - - - o - o -\no x o - - - - - - - o - - - x - - -\n- - - - - o x - o x x - - o - o - o\nx o - - - - - - - - o - - x - x - x\n- - - x - x o - - - x - - o - o x -\n- - - o - x - - - - o - - x - x - o\n- o x - - o - - o x - - x o - o - x",
@@ -3048,12 +3036,6 @@
     "75_10x10": {
       "problem": "10 10\n3 2 3 1 1 3 1 1 4 1\n4 0 4 1 3 1 2 1 2 2\nx - - - - x - x - -\nx - - - - - - x x x\n- - - x - x - - - -\n- x - - - - - - - -\n- - - - x - - - - x\n- - - - - - - - x -\nx - - x - x - - - -\n- - x - - - - - - -\n- - - - - x - x - -\n- x - - - - - - - -",
       "solution": "10 10\nx o - - o x o x o -\nx - - - - - - x x x\no - o x - x - o - o\n- x - - - o - - - -\n- o - o x - - - o x\n- - - - - o - - x -\nx - o x - x - - o -\no - x - - - - - - -\n- - o - - x - x o -\no x - - - o - - - -",
-      "source": "",
-      "info": ""
-    },
-    "210_14x24": {
-      "problem": "14 24\n2 4 0 4 3 3 2 4 1 6 0 4 2 3 2 3 1 6 1 4 3 3 1 5\n7 4 6 4 3 6 3 6 4 3 6 4 4 7\n- - - - - - - x x - - - - x x - x - - - - - x -\n- x - - x x - - - x - - - - - - - - - x - - - -\n- - x - - - x - - - - x - - - - x - - - - x - -\n- - x - - - - - - - - x - - x - - - - - - - - x\n- - - - - - - x - - x - - - - - - - x x x - x -\n- - x x - - - - - x - - - - - - - - - - - - x -\n- - - - - - - - - - - x x - - - x x - - - - - x\n- - - - - x x - - - - - x - - - - - - - x - - -\n- - - - - - - x - - - - - x - - - - - x - - - -\n- x x - - x - - - x - - - - x - - - - x - - - -\n- - x - - - - - - - - - - x - - - x - - - x - -\n- - x - - - x - - - - x - - - - - - x - - - - -\n- x - - - - - - - - x - - - - - - x - - x - - -\n- - - - x - x - x - - - - x - - - x - x - - x -",
-      "solution": "14 24\n- - - - o - o x x o - - - x x o x o - o - - x o\no x - - x x - - - x - o - o - - - - - x - o - -\n- - x o - o x o - o - x - - - - x o - - - x - o\n- o x - - - - - - - - x o - x o - - - - o - - x\n- - - - - - - x - o x - - - - - - o x x x - x o\n- o x x o - - o - x - o - - - - - - - o - o x -\n- - - - - - - - - o - x x o - o x x - - - - - x\n- - - - o x x - - - - o x - - - - o - o x o - o\n- o - - - - o x o - - - - x o - - - - x - - - -\n- x x o - x - - - x - - - - x - - o - x o - - -\n- o x - - o - - - o - - o x o - - x - - - x o -\n- - x o - - x o - - - x - - - - - o x o - - - -\no x - - - - - - - o x o - o - - - x - - x - - -\n- - - o x o x o x - - - - x - - o x o x o - x o",
       "source": "",
       "info": ""
     },
@@ -3597,12 +3579,6 @@
       "source": "",
       "info": ""
     },
-    "561_10x10": {
-      "problem": "10 10\n3 0 4 0 5 0 3 1 2 2\n2 1 3 1 3 2 3 1 2 2\n- - - x - - - - x -\n- - - - - - x - - -\n- x - x - - - - - -\nx - - - - - - - x -\n- x x - - - x - x -\nx - - - x - - - x -\n- - - - - x - - - -\n- - - x - - x - - -\n- - x x - - - - - x\n- - - - - - - - - -",
-      "solution": "10 10\n- - - x o - o - x -\n- - - - - - x - o -\no x o x o - - - - -\nx - - - - - - o x -\no x x - o - x - x o\nx - o - x - o - x -\no - - - o x - - o -\n- - o x - - x - - -\n- - x x o - o - - x\n- - o - - - - - - o",
-      "source": "",
-      "info": ""
-    },
     "86_12x18": {
       "problem": "12 18\n2 3 1 5 0 5 1 5 0 5 0 2 3 1 2 3 2 3\n4 3 4 3 3 6 3 1 6 2 3 5\n- - - - - x - - - - - - - - - - - -\n- - - x - x - x - x - x - x - - - x\n- x - - x - - - - - - - - - - - - -\nx - - - - x - x x - - - x - - x - -\n- - - x - - - - - - - - - - - - - x\n- - - - - x - - x - x - x - - - x -\n- x - - - - - - x - - - - - x - - -\n- - - - - - - - - x - - x - - - - x\n- x x - x - - - x - - - - - - - - -\n- - - - - - - x - - - - x - - - - -\n- - - x - - - - - - - - - - - x x -\nx - x - - - x - - - x - - x - - - -",
       "solution": "12 18\n- - - o - x o - - o - o - - - - - -\n- o - x - x - x - x - x - x o - o x\n- x - o x o - o - - - - o - - - - -\nx o - - - x - x x o - - x - - x - o\n- - - x - o - o - - - - - - - o - x\n- o - o - x - - x o x o x o - - x o\n- x - - - o - o x - - - - - x o - -\n- - o - - - - - - x - - x - - - - x\no x x - x o - o x o - - o - - - - o\n- - - o - - - x - - - - x - - o - -\no - - x - - - o - - - - o - - x x -\nx - x o - o x - - o x - - x o - o -",
@@ -3861,12 +3837,6 @@
       "source": "",
       "info": ""
     },
-    "247_14x24": {
-      "problem": "14 24\n5 1 4 2 2 5 1 4 3 3 2 1 5 2 5 1 3 3 1 4 1 3 2 4\n6 5 4 4 2 8 2 8 0 9 1 8 1 9\n- - - x - x - - - - x x - x - - - - - - - - x -\n- x - - - - - x - x - - - - - - - x - x - - - -\n- - - - - - - - - - - - - - x - - x - - - - x -\n- x x - x - - - x - - - x - - x - - - - - x - -\n- - - - - - - - - - - - - x - - - - - - - - - x\n- - - - x - - - - - x - - - - x - - - - x - - -\n- - - x - - - - x - - - - - x - x - - - - - - -\nx - - x - - x - x - - x - - - - - - - - x x x -\n- - - - - x - - - - - - x - - - - - - x - - - -\n- - - x - - x - x - - - - - - - - - - - x - - -\nx - - x - - - - - - - - - - x - x - - - - - - -\n- - - - - - x - x - - - - - x - x - - - - x - -\nx - - - - x - x - - - - - - - - - - x - - - x -\n- x - x - - - x - x - x - x - - x - - - - - - -",
-      "solution": "14 24\n- - o x o x - - - - x x o x o - - o - - - - x o\no x - - - - o x o x o - - - - - - x - x o - - -\n- - o - - - - - - - - - o - x - - x o - - - x o\n- x x - x o - o x - - - x - o x o - - - - x - -\n- o - - - - - - - - - - - x - - - - - - - o - x\n- - - o x o - - o - x o - o - x o - - o x - - o\no - - x - - - - x - - - - - x - x - - - - o - -\nx - - x o - x o x o - x o - o - o - - o x x x o\n- - - - - x - - - - - - x - - - - - - x - - - -\no - o x - o x o x o - - o - o - - - - o x o - -\nx - - x - - - - - - - - - - x - x o - - - - - -\no - - o - o x o x o - - - o x o x - - - - x o -\nx - - - - x - x - - - - - - - - - - x o - - x -\no x o x - o - x o x o x o x o - x o - - - - o -",
-      "source": "",
-      "info": ""
-    },
     "523_12x12": {
       "problem": "12 12\n2 4 1 3 2 0 5 1 3 2 2 3\n4 2 1 2 3 1 4 1 3 2 3 2\n- x - x - x - - - - - -\n- - - - - - - x x - - x\n- - x - - - - - - - - -\n- - x - - - x - - - x -\n- - - - x - - - x - - -\nx - - - - - - - - - - -\n- - - - - x - - - x - -\n- - - - x - x - x - - -\n- x x - - - - - - - x -\n- x - - - - x - - - x -\n- - x - - - - - - x - -\n- - x - - - - - - - x -",
       "solution": "12 12\no x - x o x o - o - - -\n- - o - - - - x x - o x\n- - x - - - - o - - - -\n- o x - - - x - - - x o\n- - - o x - o - x o - -\nx o - - - - - - - - - -\n- - - - o x o - o x o -\n- o - - x - x - x - - -\n- x x o - - o - - o x -\no x - - - - x - - - x o\n- - x o - - o - o x - -\n- o x - - - - - - - x o",
@@ -3930,12 +3900,6 @@
     "603_10x10": {
       "problem": "10 10\n2 3 2 2 2 2 1 3 1 2\n3 1 3 2 1 4 0 1 2 3\n- x - - - - - - - -\nx - - - x - - - - -\nx - - - - - x x x -\n- - - - - - - - x x\n- - - x - - - x - -\n- - x - x - - - - -\n- x - - - - - - - -\nx - - - - - - - - -\nx - - - - - - x - x\n- - - x - x - - - -",
       "solution": "10 10\no x o - o - - - - -\nx - - - x - - o - -\nx o - - - o x x x o\n- - - o - - - o x x\n- - - x - - - x - o\n- o x o x o - o - -\n- x - - - - - - - -\nx o - - - - - - - -\nx - - - - - o x o x\no - o x o x - - - -",
-      "source": "",
-      "info": ""
-    },
-    "573_10x10": {
-      "problem": "10 10\n2 2 0 4 1 1 4 1 2 3\n4 0 2 2 2 2 1 3 0 4\n- - - - x - - - - -\nx - - x - - x - - x\n- - - - - - - - - x\n- - - x - - - - - x\n- x - - - - x x - -\n- - - - x - - - - -\n- - x x - - x - - x\n- - - - - - - - - -\n- - - - x - x - - -\n- x - - - - - x - -",
-      "solution": "10 10\no - - o x - o - - o\nx - - x - - x - - x\n- - - o - - - - o x\n- o - x - - o - - x\n- x - o - - x x - o\n- - - - x o - o - -\n- o x x - - x - - x\n- - - o - - o - - o\n- - - - x - x - - -\no x - - o - o x o -",
       "source": "",
       "info": ""
     },
@@ -4224,12 +4188,6 @@
     "554_12x12": {
       "problem": "12 12\n3 2 3 2 2 2 4 0 3 1 4 2\n5 1 1 4 1 3 1 4 1 2 3 2\n- x - - - - - x - - - -\nx - - - x - - - - - x x\nx - x - - x - - - - - -\n- - - x - - - - - - x -\n- - - - - - - x - - - -\n- - x x x - - - - - - -\n- - - - - - - - - - x -\n- - - x - - - x - - - x\n- x - - - x - - x - - -\nx - x - - - - - - - - x\n- - - - - - - - - - x -\n- - - - - x - - x - - -",
       "solution": "12 12\no x o - o - o x - - - o\nx - - - x - - - - o x x\nx - x - - x o - - - - -\no - o x o - - - - - x o\n- - - - - - - x o - - -\n- o x x x o - - - - o -\n- - - o - - - - - - x -\n- o - x - - o x o - o x\n- x - o - x - - x - - -\nx - x - - o - - - - o x\no - o - - - - - o - x -\n- - - - - x o - x - o -",
-      "source": "",
-      "info": ""
-    },
-    "230_14x24": {
-      "problem": "14 24\n6 0 5 2 2 3 3 0 5 2 1 4 3 1 5 1 3 3 2 3 3 3 3 4\n9 1 6 4 5 5 5 4 6 3 5 4 3 7\n- - - - - - - x - - - - - - - x - - - - - - x -\nx - - x - - - x - x - x - - - - x - - x - x - -\n- - - - - - - - - - - - - - - - - - - - x - x -\n- - - - x - - - - - - - x - - x - x - - - x - -\nx - x - - - x x - - - - - x - - - - - - x x - -\n- x - x - - - - - - x - x - - - - - - - - x - -\n- - x - - - - - x - - - - x - - - x - - - - - -\n- - - x - - - - x - - x - - - x - - - x x - - x\nx - - - - - - - - - - - - - - - - - - - - - - -\n- x - - x - x - - - - - - - x - - - - - - - - x\n- x - - - - - - - - - - x - - - - x - - - - - x\n- - - - - x - - x - - - x - x x - - - - - x - -\n- - - x - - - - - - - - - - - - - - - - x - - -\nx - - x - - x x - - x - - - - - - x x - - - - x",
-      "solution": "14 24\no - - o - - - x o - - o - - o x o - - o - o x o\nx - - x - - o x - x - x - - - - x - - x - x - -\n- - - - - - - - - o - - o - - - - o - o x o x o\no - o - x o - - - - - - x - o x - x - - - x - -\nx - x - - - x x o - o - o x - - - - - o x x o -\no x o x o - o - - - x - x - - - - o - - - x - -\n- - x - - - - - x o - - o x o - - x - - - o - o\no - o x - - - - x - - x - - - x o - o x x - - x\nx - - - o - o - o - - o - - o - - - - - o - - -\n- x o - x - x - - - - - - - x - - o - - - - o x\no x - - - o - - o - - - x o - o - x - - - - - x\n- - - o - x - - x - - o x - x x - - - - o x - o\no - - x - - - - - - - - - - o - - - o - x - - -\nx - o x - o x x o - x o - - - - o x x - o - o x",
       "source": "",
       "info": ""
     },

@@ -1,6 +1,6 @@
 {
-  "count": 70,
-  "count_sol": 70,
+  "count": 67,
+  "count_sol": 67,
   "name": "SimpleLoop",
   "data": {
     "1_6x6": {
@@ -23,7 +23,7 @@
     },
     "4_8x8": {
       "problem": "8 8\n- - - - - - - -\n- x - - - - - -\n- - - x - - x -\n- - x - - - - -\nx - - - - - - -\n- - x - - - - -\n- - - - - - x -\n- - - - x - - -",
-      "solution": "8 8\nse ew ew ew ew sw se sw\nns - se ew sw ne nw ns\nns se nw - ne sw - ns\nne nw - se sw ne sw ns\n- se ew nw ne sw ns ns\nse nw - se sw ne nw ns\nns se sw ns ne sw - ns\nne nw ne nw - ne ew nw\n[solution]\nse ew ew ew ew sw se sw\nns - se ew sw ne nw ns\nns se nw - ne sw - ns\nne nw - se sw ne sw ns\n- se ew nw ne sw ns ns\nse nw - se sw ne nw ns\nns se sw ns ne sw - ns\nne nw ne nw - ne ew nw",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nns - se ew sw ne nw ns\nns se nw - ne sw - ns\nne nw - se sw ne sw ns\n- se ew nw ne sw ns ns\nse nw - se sw ne nw ns\nns se sw ns ne sw - ns\nne nw ne nw - ne ew nw",
       "source": "https://www.janko.at/Raetsel/Rundreise/004.a.htm",
       "info": ""
     },
@@ -183,12 +183,6 @@
       "source": "https://www.janko.at/Raetsel/Rundreise/031.a.htm",
       "info": ""
     },
-    "32_8x8": {
-      "problem": "8 8\n- - x - - - - -\n- - - - x - - -\n- x - - x - - x\n- - x - - - - -\n- - - - - - - -\n- x - x - x - -\n- - - - - - - -\n- - x - - - - -",
-      "solution": "8 8\nse sw - se ew ew ew sw\nns ne sw ns - se ew nw\nns - ne nw - ne sw -\nne sw - se ew sw ne sw\nse nw se nw se nw se nw\nns - ns - ns - ne sw\nns se nw se nw se sw ns\nne nw - ne ew nw ne nw",
-      "source": "https://www.janko.at/Raetsel/Rundreise/032.a.htm",
-      "info": ""
-    },
     "33_10x10": {
       "problem": "10 10\n- - - - - x - - - -\n- - - x - - - - x -\n- - - - - - - - - -\nx - - x - - - x - -\n- - - - - - - - - -\n- - x - x - - x - -\n- - - - - - - - - x\n- - - - - - - - - -\n- - x - - - - - - -\n- - - - - x - - - -",
       "solution": "10 10\nse sw se ew sw - se ew ew sw\nns ne nw - ne sw ne sw - ns\nne sw se ew sw ns se nw se nw\n- ns ns - ns ne nw - ne sw\nse nw ne sw ne sw se ew sw ns\nne sw - ns - ns ns - ne nw\nse nw se nw se nw ns se sw -\nne sw ne sw ne sw ne nw ne sw\nse nw - ne sw ne sw se sw ns\nne ew ew ew nw - ne nw ne nw",
@@ -226,7 +220,7 @@
       "info": ""
     },
     "39_11x10": {
-      "problem": "11 10\n- - x - - - - - - x\n- - - - - - - - - -\n- x - - - - - - x -\n- - - - - - - - - - \n- - - x - - x - - -\n- x x x x x x x x -\n- - x - - x - - - -\n- - - - - - - - - -\n- x - - - - x - - x\n- - - x - - - - - - \n- - - - - - - - - -",
+      "problem": "11 10\n- - x - - - - - - x\n- - - - - - - - - -\n- x - - - - - - x -\n- - - - - - - - - -\n- - - x - - x - - -\n- x x x x x x x x -\n- - x - - x - - - -\n- - - - - - - - - -\n- x - - - - x - - x\n- - - x - - - - - -\n- - - - - - - - - -",
       "solution": "11 10\nse sw - se ew ew ew ew sw -\nns ne sw ne sw se ew sw ne sw\nns - ne sw ne nw se nw - ns\nne ew sw ne sw se nw se ew nw\nse ew nw - ne nw - ne ew sw\nns - - - - - - - - ns\nne sw - se sw - se ew sw ns\nse nw se nw ne sw ne sw ne nw\nns - ne ew sw ns - ne sw -\nns se sw - ns ns se sw ne sw\nne nw ne ew nw ne nw ne ew nw",
       "source": "https://www.janko.at/Raetsel/Rundreise/039.a.htm",
       "info": ""
@@ -277,12 +271,6 @@
       "problem": "10 10\n- - - - - - x - - -\n- - - - x - - - - -\n- - x - x - - x - -\nx - - - x - x x - -\nx - x - - - - - - -\n- - - - - - - - - -\n- - - - x x - x - -\n- - - - - - - x - -\n- x - - - - - - x -\n- - - - x - - - - -",
       "solution": "10 10\nse ew ew ew ew sw - se ew sw\nns se ew sw - ne sw ne sw ns\nne nw - ns - se nw - ns ns\n- se ew nw - ns - - ns ns\n- ns - se sw ne ew sw ns ns\nse nw se nw ne ew sw ne nw ns\nne sw ne sw - - ns - se nw\nse nw se nw se ew nw - ne sw\nns - ne sw ne sw se sw - ns\nne ew ew nw - ne nw ne ew nw",
       "source": "https://www.janko.at/Raetsel/Rundreise/047.a.htm",
-      "info": ""
-    },
-    "48_13x13": {
-      "problem": "13 13\nx x x x - - - - - x x x x\nx x x - - - - - - - x x x\nx x - - - - x - - - - x x\nx - - - - - - - - - - - x\n- - - - - - x - - - - - -\n- - - - - x x x - - - - -\n- - x - x x x x x - x x x\n- - - - - x x x - - - - -\n- - - - - - x - - - - - -\nx - - - - - x - - - - - x\nx x - - - - x - - - - x x\nx x x - - - - - - - x x x\nx x x x - - x - - x x x x",
-      "solution": "13 13\n- - - - se ew ew ew sw - - - -\n- - - se nw se ew sw ne sw - - -\n- - se nw se nw - ne sw ne sw - -\n- se nw se nw se ew sw ne sw ne sw -\nse nw se nw se nw - ne sw ne sw ne sw\nns se nw se nw - - - ne sw ne ew nw\nns ns - ns - - - - - ns - - -\nns ne sw ne sw - - - se nw se ew sw\nne sw ne sw ne sw - se nw se nw se nw\n- ne sw ne sw ns - ns se nw se nw -\n- - ne sw ne nw - ne nw se nw - -\n- - - ne sw se ew sw se nw - - -\n- - - - ne nw - ne nw - - - -",
-      "source": "https://www.janko.at/Raetsel/Rundreise/048.a.htm",
       "info": ""
     },
     "49_8x8": {
@@ -415,12 +403,6 @@
       "problem": "17 17\nx - - - - - - x - - - - - - - - -\nx - - - - - - - - - - - - - x - -\n- - - x - - - - - - - x - - - - x\n- - - - - - - x - x - x - - - - x\n- - - - - - - - - - - - - - - - -\nx - - - - x - - - - - - - x - - -\n- - - - - - - - - x - - - - - - -\n- - - x - x - - - - - - - x - - x\n- - - - - - - x - x - - - - - - -\nx x - - - x - - - - - - - x - - -\n- - - - - - - - - - - - - - - - -\n- - - - - - - x - x - x - - - - -\n- - - - - - - - - - - - - - - x -\nx - - - - - - - - x - - - - - x -\n- - - - - - - - - - - - - - - - -\n- - - - x - - - - - - - - - - - -\n- - - - - - - - - x - - - x - - -",
       "solution": "17 17\n- se ew ew ew ew sw - se ew ew ew ew ew ew ew sw\n- ns se ew ew sw ne ew nw se ew ew ew sw - se nw\nse nw ns - se nw se ew sw ne sw - se nw se nw -\nns se nw se nw se nw - ns - ns - ne sw ne sw -\nne nw se nw se nw se ew nw se nw se sw ne sw ne sw\n- se nw se nw - ne ew sw ne sw ns ns - ne sw ns\nse nw se nw se ew sw se nw - ne nw ne ew sw ne nw\nns se nw - ns - ne nw se ew sw se sw - ne sw -\nne nw se sw ne ew sw - ns - ns ns ne ew sw ne sw\n- - ns ne sw - ns se nw se nw ne sw - ne sw ns\nse sw ne sw ne sw ne nw se nw se ew nw se sw ns ns\nns ne sw ne sw ne sw - ns - ns - se nw ne nw ns\nne sw ne sw ne sw ne sw ne ew nw se nw se sw - ns\n- ne sw ne sw ne sw ne sw - se nw se nw ns - ns\nse sw ne sw ne sw ne sw ne ew nw se nw se nw se nw\nns ne ew nw - ne ew nw se ew sw ne sw ne sw ne sw\nne ew ew ew ew ew ew ew nw - ne ew nw - ne ew nw",
       "source": "https://www.janko.at/Raetsel/Rundreise/030.a.htm",
-      "info": ""
-    },
-    "50_17x17": {
-      "problem": "17 17\nx - - - - - - x - - - - - - - - -\nx - - - - - - - - - - - - - x - -\n- - - x - - - - - - - x - - - - x\n- - - - - - - x - x - x - - - - x\n- - - - - - - - - - - - - - - - -\nx - - - - x - - - - - - - x - - -\n- - - - - - - - - x - - - - - - -\n- - - x - x - - - - - - - x - - x\n- - - - - - - x - x - - - - - - -\nx x - - - x - - - - - - - x - - -\n- - - - - - - - - - - - - - - - -\n- - - - - - - x - x - x - - - - -\n- - - - - - - - - - - - - - - x -\nx - - - - - - - - x - - - - - x -\n- - - - - - - - - - - - - - - - -\n- - - - x - - - - - - - - - - - -\n- - - - - - - - - x - - - x - - -",
-      "solution": "17 17\n- se ew ew ew ew sw - se ew ew ew ew ew ew ew sw\n- ns se ew ew sw ne ew nw se ew ew ew sw - se nw\nse nw ns - se nw se ew sw ne sw - se nw se nw -\nns se nw se nw se nw - ns - ns - ne sw ne sw -\nne nw se nw se nw se ew nw se nw se sw ne sw ne sw\n- se nw se nw - ne ew sw ne sw ns ns - ne sw ns\nse nw se nw se ew sw se nw - ne nw ne ew sw ne nw\nns se nw - ns - ne nw se ew sw se sw - ne sw -\nne nw se sw ne ew sw - ns - ns ns ne ew sw ne sw\n- - ns ne sw - ns se nw se nw ne sw - ne sw ns\nse sw ne sw ne sw ne nw se nw se ew nw se sw ns ns\nns ne sw ne sw ne sw - ns - ns - se nw ne nw ns\nne sw ne sw ne sw ne sw ne ew nw se nw se sw - ns\n- ne sw ne sw ne sw ne sw - se nw se nw ns - ns\nse sw ne sw ne sw ne sw ne ew nw se nw se nw se nw\nns ne ew nw - ne ew nw se ew sw ne sw ne sw ne sw\nne ew ew ew ew ew ew ew nw - ne ew nw - ne ew nw",
-      "source": "https://www.janko.at/Raetsel/Rundreise/050.a.htm",
       "info": ""
     }
   }
