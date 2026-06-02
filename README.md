@@ -2,17 +2,18 @@
 
 This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://github.com/SmilingWayne/puzzlekit).
 
+<!-- INJECT STATS-->
 | No. | Puzzle Name | #. prob. | #. sols. | Size Range | #. specs | Pipeline |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | ABCEndView | 606 | 606 | 3x3~8x8 | 6 | - |
+| 1 | ABCEndView | 606 | 606 | 3x3~8x8 | 6 | rim |
 | 2 | Akari | 968 | 968 | 5x5~100x100 | 99 | base |
 | 3 | Aqre | 90 | 90 | 4x4~17x17 | 10 | region |
 | 4 | Araf | 120 | 120 | 5x5~10x18 | 7 | base |
 | 5 | BalanceLoop | 70 | 70 | 5x5~17x17 | 9 | base |
-| 6 | Battleship | 861 | 860 | 6x6~30x30 | 7 | - |
+| 6 | Battleship | 859 | 858 | 6x6~30x30 | 7 | rim |
 | 7 | Binairo | 380 | 379 | 8x8~20x20 | 5 | base |
 | 8 | Bosanowa | 36 | 36 | 3x5~11x16 | 25 | base |
-| 9 | Bricks | 210 | 210 | 6x6~8x8 | 2 | - |
+| 9 | Bricks | 210 | 210 | 6x6~8x8 | 2 | base |
 | 10 | Buraitoraito | 101 | 100 | 6x6~15x15 | 7 | base |
 | 11 | Burokku | 250 | 250 | 4x4~10x10 | 7 | base |
 | 12 | ButterflySudoku | 75 | 75 | 12x12 | 1 | base |
@@ -24,16 +25,16 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 18 | Clueless2Sudoku | 40 | 40 | 27x27 | 1 | base |
 | 19 | CocktailLamp | 50 | 50 | 6x6~17x17 | 13 | region |
 | 20 | Cojun | 120 | 120 | 6x6~17x17 | 6 | region |
-| 21 | ConsecutiveSudoku | 211 | 211 | 5x5~9x9 | 5 | - |
+| 21 | ConsecutiveSudoku | 211 | 211 | 5x5~9x9 | 5 | s3 |
 | 22 | CountryRoad | 270 | 270 | 5x5~15x15 | 8 | region |
-| 23 | Creek | 443 | 440 | 7x7~40x50 | 33 | - |
+| 23 | Creek | 443 | 440 | 7x7~40x50 | 33 | ext |
 | 24 | CurvingRoad | 190 | 190 | 8x8~14x14 | 4 | base |
 | 25 | Detour | 76 | 76 | 4x4~13x12 | 12 | region |
 | 26 | DiffNeighbors | 140 | 140 | 8x8~15x15 | 4 | region |
-| 27 | DigitalBattleship | 80 | 80 | 6x6~12x12 | 4 | - |
+| 27 | DigitalBattleship | 80 | 80 | 6x6~12x12 | 4 | rim |
 | 28 | Dominos | 581 | 580 | 4x5~31x32 | 8 | base |
 | 29 | Doors | 270 | 270 | 5x5~12x12 | 7 | base |
-| 30 | DoppelBlock | 240 | 240 | 5x5~8x8 | 4 | - |
+| 30 | DoppelBlock | 240 | 240 | 5x5~8x8 | 4 | rim |
 | 31 | DotchiLoop | 60 | 60 | 6x6~17x17 | 6 | region |
 | 32 | DoubleBack | 98 | 98 | 6x6~26x26 | 13 | region |
 | 33 | EntryExit | 170 | 170 | 8x8~16x16 | 5 | region |
@@ -48,7 +49,7 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 42 | Gappy | 405 | 403 | 10x10~18x18 | 8 | rim |
 | 43 | Gattai8Sudoku | 120 | 120 | 21x33 | 1 | base |
 | 44 | Geradeweg | 97 | 97 | 5x5~14x14 | 10 | base |
-| 45 | GokigenNaname | 780 | 780 | 6x6~24x36 | 12 | - |
+| 45 | GokigenNaname | 780 | 780 | 6x6~24x36 | 12 | ext |
 | 46 | GrandTour | 350 | 350 | 5x5~15x15 | 6 | base |
 | 47 | Hakoiri | 140 | 140 | 8x8~12x12 | 3 | region |
 | 48 | Hakyuu | 478 | 478 | 6x6~30x45 | 14 | region |
@@ -70,11 +71,11 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 64 | Kurotto | 229 | 229 | 8x8~19x27 | 12 | base |
 | 65 | LITS | 419 | 410 | 6x7~40x57 | 68 | region |
 | 66 | Linesweeper | 310 | 310 | 4x4~16x16 | 16 | base |
-| 67 | Magnetic | 439 | 439 | 6x6~12x12 | 4 | - |
+| 67 | Magnetic | 439 | 439 | 6x6~12x12 | 4 | rim |
 | 68 | Makaro | 190 | 190 | 8x8~15x15 | 4 | region |
 | 69 | MarginSudoku | 149 | 149 | 9x9 | 1 | rim |
 | 70 | Masyu | 826 | 824 | 5x5~40x58 | 94 | base |
-| 71 | Mathrax | 175 | 175 | 5x5~9x9 | 5 | - |
+| 71 | Mathrax | 175 | 175 | 5x5~9x9 | 5 | ext |
 | 72 | Maze-a-pix | - | - | - | - | - |
 | 73 | Mejilink | 1 | 0 | 8x8 | 1 | base |
 | 74 | MidLoop | 2 | 2 | 4x4~10x10 | 2 | base |
@@ -86,7 +87,7 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 80 | Nanro | 159 | 159 | 8x8~14x14 | 4 | region |
 | 81 | Nawabari | 160 | 160 | 8x8~14x14 | 4 | base |
 | 82 | Nondango | 109 | 109 | 4x4~14x14 | 7 | region |
-| 83 | Nonogram | 2307 | 2306 | 10x5~30x40 | 22 | - |
+| 83 | Nonogram | 2307 | 2306 | 10x5~30x40 | 22 | s1 |
 | 84 | Norinori | 289 | 289 | 6x6~36x54 | 51 | region |
 | 85 | NumberCross | 170 | 170 | 4x4~8x8 | 5 | rim |
 | 86 | NumberLink | 549 | 549 | 5x5~35x48 | 29 | base |
@@ -133,7 +134,7 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 127 | TennerGrid | 362 | 361 | 6x10 | 1 | base |
 | 128 | Tent | 699 | 699 | 8x12~30x30 | 14 | rim |
 | 129 | TerraX | 80 | 80 | 6x6~17x17 | 6 | region |
-| 130 | Thermometer | 250 | 250 | 6x6~10x10 | 3 | - |
+| 130 | Thermometer | 250 | 250 | 6x6~10x10 | 3 | s2 |
 | 131 | TilePaint | 377 | 377 | 10x10~16x16 | 4 | rim |
 | 132 | Trinairo | 60 | 60 | 6x6~12x12 | 3 | base |
 | 133 | Tripletts | 190 | 190 | 3x4~10x12 | 6 | region |
@@ -143,4 +144,114 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 137 | Yajilin | 607 | 607 | 7x7~39x57 | 118 | base |
 | 138 | YinYang | 170 | 170 | 6x6~14x14 | 5 | base |
 | 139 | Yonmasu | 120 | 120 | 6x6~10x10 | 5 | base |
-| | **Total** | **40886** | **40739** | - | - | - |
+| | **Total** | **40884** | **40737** | - | - | - |
+<!-- INJECT STATS-->
+
+## Cleaning
+
+Datasets live under `assets/data/{Puzzle}/{Puzzle}_dataset.json`. The [`cleaners/`](cleaners/) package normalizes text, validates layout, deduplicates, and writes reports. **Default is dry-run** (no JSON changes unless you pass `--write`; a `*.json.bak` backup is created first).
+
+**Requirements:** Python 3.10+, run from repo root. Optional: `pip install pytest`.
+
+```bash
+# Dry-run one puzzle
+python -m cleaners run --puzzle Araf
+python -m cleaners run --puzzle Aqre --changelog   # snippet for docs/CHANGELOG.md
+
+# Batch dry-run
+python -m cleaners run --all
+python -m cleaners run --all --quiet --summary    # writes cleaners/reports/dry_run_batch_latest.*
+
+# Write cleaned JSON
+python -m cleaners run --puzzle Aqre --write
+
+# Validate / reports
+python -m cleaners check --puzzle Araf
+python -m cleaners report --latest
+
+pytest tests/cleaners/
+```
+
+The **Pipeline** column in the table above matches [`cleaners/registry.py`](cleaners/registry.py). To register a new puzzle type, add it there (only if on-disk layout matches):
+
+| `pipeline` | Layout | Notes |
+|------------|--------|--------|
+| `base` | `1 + m` grid | Exact-string dedupe on full `problem` |
+| `region` | `1 + m` or `1 + 2m` | Per-puzzle config in `REGION_LAYOUTS`; dedupe: exact header (+ clues if present) + region isomorphism |
+| `rim` | Edge clues + optional body | Per-puzzle config in `RIM_LAYOUTS`; solution as `1 + m` grid |
+| `ext` | Non-standard shapes | Per-puzzle config in `EXT_LAYOUTS`; dedupe on header + layout rows |
+| (omit) | — | Skipped by `run --all` |
+
+After `pytest` and a dry-run look good, use `--write` and record the run in [`docs/CHANGELOG.md`](docs/CHANGELOG.md). Machine reports: `cleaners/reports/{timestamp}_{Puzzle}.json` (gitignored).
+
+## Formats
+
+### Margin Clues
+
+For puzzles like ABCEndView, Gappy etc, we have margin clues. 
+
+They are represented following the order of **Top -> Bottom -> Left -> Right**. 
+
+Each margin reads from left to right (horizontal ones) or from top to bottom (vertical ones). Empty clues indicated by `-`.
+
+| Puzzle                                                                                            | Repr                                                              |
+| :------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------- |
+| <img src="https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/20260602170406202.png" width="250" /> | 6 6 d<br>- a c a c -<br>- d a c a -<br>- d c d c -<br>- a d c d - |
+
+### Grid Clues
+
+Indicating trivial clues on the grid. Empty clues indicated by `-`. Few puzzles have special clues repr, shown in [Puzzles](#puzzles) section.
+
+| Puzzle                                                                                            | Repr                                                                             |
+| :------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------- |
+| <img src="https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/20260602171850833.png" width="250" /> | 6 6<br>- - - - - 1<br>1 - - 1 - -<br>- - 3 - - 2<br>3 - - - - - -<br>3 - 3 - 0 0 |
+
+
+### Regional Division
+
+For puzzles with regions, i.e., Aqre, Heyawake, regions are indicated via numbers or characters, each representing one region. 
+
+| Puzzle                                                                                            | Repr                                                                                                                                                                                    |
+| :------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/20260602171320356.png" width="270" /> | 6 6<br>4 - - 1 - -<br>- - - - - -<br>- - - - - -<br>4 - - 4 - -<br>- - - - - -<br>- - - - - -<br>1 1 1 2 2 2<br>1 1 1 2 2 2<br>1 1 1 2 2 2<br>3 3 3 4 4 4<br>3 3 3 4 4 4<br>3 3 3 4 4 4 |
+
+### Priority
+
+🏅 Margin Clues > 🥈 Grid Clues > 🥉 Regional Division.
+
+
+### Special Grid Clues
+
+#### Black/White Circle
+
+`w` (lower case) for **w**hite, `b` for **b**lack.
+
+| Puzzle                                                                                            | Repr                                                                                          |
+| :------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------- |
+| <img src="https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/20260602172735565.png" width="270" /> | 6 6<br>- - - - - -<br>w b - - - -<br>- - - w b -<br>- w w - - -<br>- - - - w w<br>- - - - - - |
+
+#### Direction
+
+Mostly appear in solution representation. `nsew` method: `n`: **n**orth, `s`: **s**outh, `e`: **e**ast, `w`: **w**est. **No restrictions on the order**.
+
+| Puzzle(solution)                                                                                            | Repr                                                                                          |
+| :------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------- |
+| <img src="https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/20260602173001535.png" width="270" /> | 6 6<br>es ew ew sw es sw<br>ns es ew nw ns ns<br>ns ns es ew nw ns<br>ns ns ns es sw ns<br>ns en nw ns ns ns<br>en ew ew nw en nw |
+
+#### Walls
+
+Often appear in both problem & solution representation. 
+
+Each cell is represented by a 4-bit binary number. **From right to left, the bits correspond to: left, down, right, top edges**.
+
+A bit is set to 1 if the corresponding edge is connected, 0 otherwise.
+
+Example:
+- 13 (binary 1101): left, right, and top edges are connected.
+- 6 (binary 0110): down and right edges are connected.
+
+| Puzzle(solution)                                                                                            | Repr                                                                                          |
+| :------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------- |
+| <img src="https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/20260602173931538.png" width="300" /> | 5 5<br>11 10 8 12 13<br>9 14 1 0 6<br>5 9 6 1 12<br>1 2 8 0 6<br>7 11 2 2 14 |
+
+

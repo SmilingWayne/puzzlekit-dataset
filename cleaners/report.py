@@ -84,6 +84,13 @@ def _dedup_criterion(pipeline: str) -> str:
             "exact header and edge clue rows; body clues exact string or "
             "region partition isomorphism when applicable; keep first in file order"
         )
+    if pipeline == "ext":
+        return (
+            "exact header and exact layout-specific rows by position; "
+            "keep first in file order"
+        )
+    if pipeline in {"s1", "s2", "s3"}:
+        return "exact string match on normalized `problem`; keep first in file order"
     return "N/A"
 
 
@@ -93,7 +100,7 @@ def changelog_markdown(
     dataset_path: str,
     rules_applied: list[str] | None = None,
 ) -> str:
-    """Render a RULES.md-compatible section for manual paste into docs/CHANGELOG.md."""
+    """Render a changelog section for manual paste into docs/CHANGELOG.md."""
 
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     rules = rules_applied or [

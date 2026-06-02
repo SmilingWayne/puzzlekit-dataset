@@ -6,9 +6,19 @@ from dataclasses import dataclass
 from typing import Callable
 
 from cleaners.contracts.dedupe import exact_problem_key
+from cleaners.contracts.ext import (
+    ExtLayout,
+    make_ext_dedupe_key,
+    make_validate_ext,
+)
 from cleaners.contracts.layouts import (
     ValidationResult,
     validate_grid_text,
+)
+from cleaners.contracts.special import (
+    validate_consecutive_text,
+    validate_nonogram_text,
+    validate_thermometer_text,
 )
 from cleaners.contracts.region_layout import (
     REGION_PARTITION_HOLE_TOKENS,
@@ -26,7 +36,7 @@ from cleaners.contracts.rim import (
 @dataclass(frozen=True)
 class CleaningSpec:
     puzzle_name: str
-    pipeline: str  # "base" | "region" | "rim" | "none"
+    pipeline: str  # "base" | "region" | "rim" | "ext" | "s1" | "s2" | "s3" | "none"
 
 
 PipelineName = str
@@ -47,10 +57,25 @@ _PIPELINE_CONFIG: dict[PipelineName, PipelineConfig] = {
         validate_solution=validate_grid_text,
         dedupe_key=exact_problem_key,
     ),
+    "s1": PipelineConfig(
+        validate_problem=validate_nonogram_text,
+        validate_solution=validate_grid_text,
+        dedupe_key=exact_problem_key,
+    ),
+    "s2": PipelineConfig(
+        validate_problem=validate_thermometer_text,
+        validate_solution=validate_grid_text,
+        dedupe_key=exact_problem_key,
+    ),
+    "s3": PipelineConfig(
+        validate_problem=validate_consecutive_text,
+        validate_solution=validate_grid_text,
+        dedupe_key=exact_problem_key,
+    ),
 }
 
 
-# Region layouts — 1+m (regions) or 1+2m (clues + regions); see docs/RULES.md.
+# Region layouts — 1+m (regions) or 1+2m (clues + regions); see README § Cleaning.
 _REGION_CLUES_PUZZLES: tuple[str, ...] = (
     "Aqre",
     "Chocona",
@@ -104,11 +129,16 @@ REGION_LAYOUTS: dict[str, RegionLayout] = {
     },
 }
 
-# Rim (edge-clue) layouts — see docs/RULES.md.
+# Rim (edge-clue) layouts — see README § Formats / Cleaning.
 RIM_LAYOUTS: dict[str, RimLayout] = {
+    "ABCEndView": RimLayout(edges=4, body="none", optional_body="clues"),
+    "Battleship": RimLayout(edges=2, body="clues", optional_body="none"),
+    "DigitalBattleship": RimLayout(edges=2, body="clues"),
+    "DoppelBlock": RimLayout(edges=2, body="none"),
     "Gappy": RimLayout(edges=2, body="none"),
     "Kakurasu": RimLayout(edges=2, body="none"),
     "MarginSudoku": RimLayout(edges=4, body="none"),
+    "Magnetic": RimLayout(edges=4, body="clues_regions", hole_tokens=frozenset({"@"})),
     "NumberCross": RimLayout(edges=2, body="clues"),
     "OneToX": RimLayout(edges=2, body="clues_regions"),
     "Pills": RimLayout(edges=2, body="clues"),
@@ -120,6 +150,13 @@ RIM_LAYOUTS: dict[str, RimLayout] = {
     "Stitches": RimLayout(edges=2, body="regions"),
     "Tent": RimLayout(edges=2, body="clues"),
     "TilePaint": RimLayout(edges=2, body="regions"),
+}
+
+# Extended layouts (non 1+m / region / rim forms).
+EXT_LAYOUTS: dict[str, ExtLayout] = {
+    "Creek": ExtLayout(kind="boundary"),
+    "GokigenNaname": ExtLayout(kind="boundary"),
+    "Mathrax": ExtLayout(kind="mathrax"),
 }
 
 
@@ -148,10 +185,19 @@ def get_pipeline_config(
             validate_solution=validate_grid_text,
             dedupe_key=make_rim_dedupe_key(layout),
         )
+    if pipeline == "ext":
+        if puzzle_name is None or puzzle_name not in EXT_LAYOUTS:
+            return None
+        layout = EXT_LAYOUTS[puzzle_name]
+        return PipelineConfig(
+            validate_problem=make_validate_ext(layout),
+            validate_solution=validate_grid_text,
+            dedupe_key=make_ext_dedupe_key(layout),
+        )
     return _PIPELINE_CONFIG.get(pipeline)
 
 
-# Layout 1.1 — grid-only, exact-string dedupe (see docs/RULES.md).
+# Layout 1.1 — grid-only, exact-string dedupe.
 _BASE_PUZZLES: tuple[str, ...] = (
     "Akari",
     "Araf",
@@ -160,9 +206,10 @@ _BASE_PUZZLES: tuple[str, ...] = (
     "Bosanowa",
     "Buraitoraito",
     "Burokku",
+    "Bricks",
     "ButterflySudoku",
     "CanalView",
-    "CastleWall",  # RULES.md: Castle
+    "CastleWall",
     "Cave",
     "Clueless1Sudoku",
     "Clueless2Sudoku",
@@ -238,6 +285,11 @@ def _build_registry() -> dict[str, CleaningSpec]:
         registry[name] = CleaningSpec(name, "region")
     for name in RIM_LAYOUTS:
         registry[name] = CleaningSpec(name, "rim")
+    for name in EXT_LAYOUTS:
+        registry[name] = CleaningSpec(name, "ext")
+    registry["Nonogram"] = CleaningSpec("Nonogram", "s1")
+    registry["Thermometer"] = CleaningSpec("Thermometer", "s2")
+    registry["ConsecutiveSudoku"] = CleaningSpec("ConsecutiveSudoku", "s3")
     return registry
 
 

@@ -5,6 +5,13 @@ from cleaners.contracts.dedupe import (
     exact_problem_key,
     group_duplicate_keys,
 )
+from cleaners.contracts.ext import (
+    ExtLayout,
+    ext_problem_key,
+    make_ext_dedupe_key,
+    make_validate_ext,
+    validate_ext_text,
+)
 from cleaners.contracts.layouts import (
     SizeHeader,
     ValidationResult,
@@ -33,6 +40,11 @@ from cleaners.contracts.rim import (
     rim_problem_key,
     validate_rim_text,
 )
+from cleaners.contracts.special import (
+    validate_consecutive_text,
+    validate_nonogram_text,
+    validate_thermometer_text,
+)
 from cleaners.contracts.results import (
     CaseError,
     DedupeGroup,
@@ -48,6 +60,7 @@ __all__ = [
     "ValidationResult",
     "canonical_region_rows",
     "exact_problem_key",
+    "ext_problem_key",
     "grid_rows",
     "group_duplicate_keys",
     "normalize_grid_text",
@@ -55,15 +68,22 @@ __all__ = [
     "region_parts",
     "RimLayout",
     "RegionLayout",
+    "ExtLayout",
     "region_layout_problem_key",
     "rim_problem_key",
+    "make_ext_dedupe_key",
     "make_region_dedupe_key",
+    "make_validate_ext",
     "make_validate_region",
+    "validate_ext_text",
     "validate_region_layout_text",
     "split_tokens",
     "validate_rim_text",
     "make_rim_dedupe_key",
     "make_validate_rim",
     "validate_grid_text",
+    "validate_nonogram_text",
     "validate_region_text",
+    "validate_thermometer_text",
+    "validate_consecutive_text",
 ]

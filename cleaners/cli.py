@@ -43,7 +43,7 @@ def _build_parser() -> argparse.ArgumentParser:
     run_parser.add_argument(
         "--changelog",
         action="store_true",
-        help="Print RULES.md-style changelog snippet to stdout",
+        help="Print changelog snippet for docs/CHANGELOG.md to stdout",
     )
     run_parser.add_argument(
         "--quiet",

@@ -1,3 +1,8 @@
+"""Generate README stats table from assets/data and inject between marker comments."""
+
+from __future__ import annotations
+
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -8,15 +13,17 @@ if str(_REPO_ROOT) not in sys.path:
 
 from cleaners.registry import get_pipeline_label
 
-# Set data root directory path
 ROOT_DIR = _REPO_ROOT / "assets" / "data"
+README_PATH = _REPO_ROOT / "README.md"
+INJECT_MARKER = "<!-- INJECT STATS-->"
 
-# Directories to check for solver/parser/verifier files
+# Legacy paths (unused by table generation; kept for optional solver checks)
 PUZZLES_DIR = Path("../Puzzles")
 COMMON_PARSERS_DIR = PUZZLES_DIR / "Common" / "Parser" / "PuzzleParsers"
 
-def parse_problem_size(problem_str):
-    """Parse m n from the first line of problem text. Returns (m, n) or None."""
+
+def parse_problem_size(problem_str: str) -> tuple[int, int] | None:
+    """Parse m n from the first line of problem text."""
     if not problem_str:
         return None
     first_line = problem_str.strip().split("\n")[0].strip()
@@ -29,12 +36,8 @@ def parse_problem_size(problem_str):
         return None
 
 
-def get_size_stats(puzzles_dict):
-    """
-    Collect grid sizes from all problems.
-    Returns (size_range, distinct_count): e.g. ("4x4–17x17", 12) or ("-", "-").
-    Min/max compared by area (m * n).
-    """
+def get_size_stats(puzzles_dict: dict) -> tuple[str, str]:
+    """Return (size_range, distinct_count), e.g. ('4x4~17x17', '12') or ('-', '-')."""
     sizes = []
     for puzzle_data in puzzles_dict.values():
         dims = parse_problem_size(puzzle_data.get("problem", ""))
@@ -52,36 +55,67 @@ def get_size_stats(puzzles_dict):
     distinct_count = len({dims for dims in sizes})
     return size_range, str(distinct_count)
 
-def check_solver_files(puzzle_name):
-    """
-    Check if all required solver files exist for a puzzle.
-    Returns ✅ if all exist, ❌ otherwise.
-    """
-    # Check for solver file
+
+def check_solver_files(puzzle_name: str) -> str:
+    """Return checkmark if solver and parser files exist (optional tooling)."""
     solver_path = PUZZLES_DIR / f"{puzzle_name}Solver.py"
-    
-    # Check for parser file
     parser_path = COMMON_PARSERS_DIR / f"{puzzle_name}Parser.py"
-    
-    # Check if all files exist
     if solver_path.exists() and parser_path.exists():
         return "✅"
     return "❌"
 
-def generate_markdown_table():
+
+def collect_table_rows() -> tuple[list[list[str]], int, int]:
+    """Scan assets/data and build table body rows plus totals."""
     if not ROOT_DIR.exists():
-        print(f"Error: Directory '{ROOT_DIR}' not found.")
-        return
+        raise FileNotFoundError(f"Data directory not found: {ROOT_DIR}")
 
-    # Get all subdirectories and sort
-    subdirs = [d for d in ROOT_DIR.iterdir() if d.is_dir()]
-    subdirs.sort(key=lambda x: x.name)  # Sort alphabetically
-
-    table_data = []  # Store data for each row
+    subdirs = sorted((d for d in ROOT_DIR.iterdir() if d.is_dir()), key=lambda d: d.name)
+    table_data: list[list[str]] = []
     total_problems = 0
-    total_solutions = 0  # Now equals total_problems since all puzzles have solution slots
+    total_solutions = 0
 
-    # Table headers
+    for idx, puzzle_dir in enumerate(subdirs, 1):
+        puzzle_name = puzzle_dir.name
+        merged_path = puzzle_dir / f"{puzzle_name}_dataset.json"
+
+        p_count = "-"
+        s_count = "-"
+        size_range = "-"
+        spec_count = "-"
+
+        if merged_path.exists():
+            try:
+                with open(merged_path, encoding="utf-8") as f:
+                    data = json.load(f)
+                puzzles_data = data.get("data", {})
+                count = data.get("count", len(puzzles_data))
+                count_sol = data.get("count_sol", 0)
+                p_count = str(count)
+                s_count = str(count_sol)
+                total_problems += count
+                total_solutions += count_sol
+                size_range, spec_count = get_size_stats(puzzles_data)
+            except Exception as e:
+                print(f"Warning: {merged_path}: {e}", file=sys.stderr)
+
+        table_data.append(
+            [
+                str(idx),
+                puzzle_name,
+                str(p_count),
+                str(s_count),
+                size_range,
+                spec_count,
+                get_pipeline_label(puzzle_name),
+            ]
+        )
+
+    return table_data, total_problems, total_solutions
+
+
+def format_markdown_table(table_data: list[list[str]], total_problems: int, total_solutions: int) -> str:
+    """Return markdown table lines (no inject markers)."""
     headers = [
         "No.",
         "Puzzle Name",
@@ -91,64 +125,70 @@ def generate_markdown_table():
         "#. specs",
         "Pipeline",
     ]
-    
-    # Traverse each puzzle directory
-    for idx, puzzle_dir in enumerate(subdirs, 1):
-        puzzle_name = puzzle_dir.name
-        
-        # Build merged file path
-        merged_path = puzzle_dir / f"{puzzle_name}_dataset.json"
-
-        # Initialize row variables
-        p_count = "-"
-        s_count = "-"
-        size_range = "-"
-        spec_count = "-"
-
-        # Process merged JSON
-        if merged_path.exists():
-            try:
-                with open(merged_path, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    
-                    # Get count from top-level field or calculate from data
-                    puzzles_data = data.get("data", {})
-                    count = data.get("count", len(puzzles_data))
-                    count_sol = data.get("count_sol", 0)
-                    
-                    p_count = count
-                    s_count = count_sol
-                    total_problems += count
-                    total_solutions += count_sol
-                    
-                    size_range, spec_count = get_size_stats(puzzles_data)
-            except Exception as e:
-                print(f"⚠️  Error processing {merged_path}: {e}", file=sys.stderr)
-                pass
-
-        pipeline = get_pipeline_label(puzzle_name)
-
-        table_data.append([
-            str(idx),
-            puzzle_name,
-            str(p_count),
-            str(s_count),
-            size_range,
-            spec_count,
-            pipeline,
-        ])
-
-    # --- Generate Markdown Output ---
-    print(f"| {' | '.join(headers)} |")
-    print(f"| {' | '.join(['---'] * len(headers))} |")
-
-    # Print data rows
+    lines = [
+        f"| {' | '.join(headers)} |",
+        f"| {' | '.join(['---'] * len(headers))} |",
+    ]
     for row in table_data:
-        print(f"| {' | '.join(row)} |")
+        lines.append(f"| {' | '.join(row)} |")
+    lines.append(
+        f"| | **Total** | **{total_problems}** | **{total_solutions}** | - | - | - |"
+    )
+    return "\n".join(lines)
 
-    # Print summary row
-    print(f"| | **Total** | **{total_problems}** | **{total_solutions}** | - | - | - |")
+
+def build_markdown_table() -> str:
+    table_data, total_problems, total_solutions = collect_table_rows()
+    return format_markdown_table(table_data, total_problems, total_solutions)
+
+
+def inject_readme(readme_path: Path = README_PATH) -> None:
+    """Replace content between INJECT markers in README with a fresh stats table."""
+    text = readme_path.read_text(encoding="utf-8")
+    start = text.find(INJECT_MARKER)
+    if start == -1:
+        raise ValueError(f"Opening marker not found in {readme_path}: {INJECT_MARKER!r}")
+
+    after_open = start + len(INJECT_MARKER)
+    end = text.find(INJECT_MARKER, after_open)
+    if end == -1:
+        raise ValueError(f"Closing marker not found in {readme_path}: {INJECT_MARKER!r}")
+
+    table = build_markdown_table()
+    new_block = f"{INJECT_MARKER}\n{table}\n{INJECT_MARKER}"
+    readme_path.write_text(text[:start] + new_block + text[end + len(INJECT_MARKER) :], encoding="utf-8")
+    try:
+        label = str(readme_path.relative_to(_REPO_ROOT))
+    except ValueError:
+        label = str(readme_path)
+    print(f"Updated {label} ({len(table.splitlines())} table lines)")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Generate README puzzle stats table.")
+    parser.add_argument(
+        "--stdout",
+        action="store_true",
+        help="Print table to stdout only (do not modify README)",
+    )
+    parser.add_argument(
+        "--readme",
+        type=Path,
+        default=README_PATH,
+        help=f"README path for injection (default: {README_PATH.relative_to(_REPO_ROOT)})",
+    )
+    args = parser.parse_args()
+
+    try:
+        if args.stdout:
+            print(build_markdown_table())
+        else:
+            inject_readme(args.readme.resolve())
+    except (FileNotFoundError, ValueError) as e:
+        print(f"Error: {e}", file=sys.stderr)
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
-    generate_markdown_table()
+    raise SystemExit(main())
