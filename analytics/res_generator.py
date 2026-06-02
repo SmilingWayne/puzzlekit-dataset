@@ -1,8 +1,15 @@
 import json
+import sys
 from pathlib import Path
 
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+
+from cleaners.registry import get_pipeline_label
+
 # Set data root directory path
-ROOT_DIR = Path("./assets/data")
+ROOT_DIR = _REPO_ROOT / "assets" / "data"
 
 # Directories to check for solver/parser/verifier files
 PUZZLES_DIR = Path("../Puzzles")
@@ -75,7 +82,15 @@ def generate_markdown_table():
     total_solutions = 0  # Now equals total_problems since all puzzles have solution slots
 
     # Table headers
-    headers = ["No.", "Puzzle Name", "#. prob.", "#. sols.", "Size Range", "#. specs"]
+    headers = [
+        "No.",
+        "Puzzle Name",
+        "#. prob.",
+        "#. sols.",
+        "Size Range",
+        "#. specs",
+        "Pipeline",
+    ]
     
     # Traverse each puzzle directory
     for idx, puzzle_dir in enumerate(subdirs, 1):
@@ -111,13 +126,16 @@ def generate_markdown_table():
                 print(f"⚠️  Error processing {merged_path}: {e}", file=sys.stderr)
                 pass
 
+        pipeline = get_pipeline_label(puzzle_name)
+
         table_data.append([
-            str(idx), 
-            puzzle_name, 
-            str(p_count), 
-            str(s_count), 
+            str(idx),
+            puzzle_name,
+            str(p_count),
+            str(s_count),
             size_range,
             spec_count,
+            pipeline,
         ])
 
     # --- Generate Markdown Output ---
@@ -129,8 +147,8 @@ def generate_markdown_table():
         print(f"| {' | '.join(row)} |")
 
     # Print summary row
-    print(f"| | **Total** | **{total_problems}** | **{total_solutions}** | - | - |")
+    print(f"| | **Total** | **{total_problems}** | **{total_solutions}** | - | - | - |")
+
 
 if __name__ == "__main__":
-    import sys
     generate_markdown_table()

@@ -1,0 +1,9 @@
+[project]
+name = "puzzlekit-dataset"
+version = "0.0.0"
+description = "Logic puzzle datasets for PuzzleKit"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
