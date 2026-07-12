@@ -1,0 +1,5 @@
+masyu:
+  dataset_name: Masyu
+  puzzlekit_type: masyu
+  catalog_types: [masyu, mashu, pearl]
+  pipeline: base

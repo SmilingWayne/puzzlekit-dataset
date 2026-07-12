@@ -1,0 +1,5 @@
+# Optional dependencies for puzz.link ingest (local editable puzzlekit recommended).
+-e ../puzzlekit
+ortools>=9.8
+pyyaml>=6.0
+typeguard>=4.0

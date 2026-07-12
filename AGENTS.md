@@ -26,9 +26,9 @@ Legacy one-off ingest may still exist under `crawlers/`. **Current maintenance p
 Each dataset file:
 
 - `name`, `count`, `count_sol`, `data` (dict of case id → case)
-- Each case: `problem`, `solution` (may be empty), `source`, `info` (often empty)
+- Each case: `problem`, `solution` (may be empty), `source`, `info` (often empty), optional `puzzlink_url`
 
-**`problem` / `solution`:** multi-line text. Line 1 is usually `m n` (grid size); further lines depend on puzzle type (see README § Formats).
+**`problem` / `solution`:** multi-line text. Line 1 is usually `m n` (grid size); further lines depend on puzzle type (see README § Formats). Full schema: [`docs/SCHEMA.md`](docs/SCHEMA.md).
 
 **After a successful clean:** `count == len(data)`; `count_sol` = cases with non-empty `solution`; rows normalized (no trailing spaces before `\n`).
 
@@ -154,6 +154,15 @@ README rows with Pipeline `-` or missing folders: no automated cleaning until mo
 | Tests | [`tests/cleaners/test_pipeline_contracts.py`](tests/cleaners/test_pipeline_contracts.py) |
 
 Optional future work (not required for basic tasks): solver/parser validation against PuzzleKit; unified ingest beyond `crawlers/`.
+
+**Puzz.link ingest:** see [`ingest/`](ingest/) and [`docs/SCHEMA.md`](docs/SCHEMA.md). Run from repo root with a venv that has `puzzlekit` + `ortools` (see `requirements-ingest.txt`). Example:
+
+```bash
+PYTHONPATH=../puzzlekit/src python -m ingest masyu              # pilot: first 200 catalog rows (default)
+PYTHONPATH=../puzzlekit/src python -m ingest masyu --limit 0    # full catalog (after pilot looks good)
+PYTHONPATH=../puzzlekit/src python -m ingest masyu --write      # merge into assets
+python -m cleaners run --puzzle Masyu --write
+```
 
 ---
 
