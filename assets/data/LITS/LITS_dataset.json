@@ -1,6 +1,6 @@
 {
-  "count": 419,
-  "count_sol": 410,
+  "count": 420,
+  "count_sol": 411,
   "name": "LITS",
   "data": {
     "1_6x7": {
@@ -2516,6 +2516,13 @@
       "solution": "31 45\n- - - - S S L L L - - - - - - I I I I L T T T - - - T T T L - - - - S S T T T L L L T T T\n- - - S S - L - I I I I - - - - - - - L - T - T - - - T - L - - - S S - - T - - - L - T -\n- - - T - - - - - - - L L L - - - - L L - L T T I I I I - L L - - - L L L - I I I I - - -\n- - T T T - - I - T - - - L I - - - - - - L - T - T - - - - T T T S S - L - - T - - - - I\n- - - - L L L I T T T - - - I - - L L L - L L - T T T - - - - T - - S S - - T T T - - - I\n- - - - L - - I - - L - - - I - - - - L - - T - - - L - - L L L - T - - - - - - - - L L I\n- - T - - - L I - - L - - - I - - I I I I T T - S - L L L - - L T T T - - - S T T T L - I\n- T T T L L L - - T L L - L L L - S - - - - T S S - - - - - - - - - L L L S S - T - L S -\n- I - - - - - L T T - T - - - L S S - - - - - S - S - S S - S S - - L - - S - - - - - S S\n- I - - - L L L - T - T T - - - S - - - - - - - L S S - S S - S S I I I I - - - - - - - S\n- I - - - - - T - - - T - - - - - - - - - - L L L - S L L - - - - L - T - T - - S - - L L\nL I - - - - T T T - - - I I I I L L - - - - T - - - - L - T - - - L T T - T T S S L - L -\nL - - - - - L - L - - - T - - - - L - S S T T - - - - L T T T - L L - T - T - S - L - L -\nL L - - - - L - L L L T T T - S S L S S - - T - - - - - - - L L - - - - - - - - L L - - -\n- T - - - L L - T - - - - - S S - - L - - - L L S S - T T T L - L - S S L L L S S - - - I\n- T T - S S - T T - - - - - - - S S L - - - L - - S S - T - L - L S S - L - T - S S - - I\n- T - S S - T - T L L L - S - S S - L L - - L - - L - - - - - L L - I I I I T T - L L L I\n- - - L - T T T S - - L S S - - - - T - I - I - - L - - - - - T - - - - L - T - - L - - I\n- L L L - - - - S S - - S - S - - T T T I - I - - L L - L L T T - - - - L - I - - - - - T\n- I - - - - - - - S - L - S S I - - S - I - I - - - S S L - - T I - - L L - I - - L - T T\n- I - - T S S - - L - L - S - I - S S - I - I L - S S - L - - - I - - - - - I L L L - - T\n- I - T T - S S - L - L L - - I - S - - - I - L - - - T T T - - I - - - - - I - - - - L L\nL I S - T - - T L L S S - - - I - - L L - I - L L - S - T - - - I - - - - L L L - - - - L\nL - S S - - T T - T - S S - - L L L - L - I - I - L S S - - - - T - - - - L - I I I I - L\nL L - S - - - T - T T - - - - L - S S L - I - I - L - S L - - T T T L L - - - - - - L - -\nI - - - - - - - - T - - - - - - S S - - - S - I L L - - L - - - - S - L - - - - - - L L L\nI - S S - - S - - - S - - - - L - T - - - S S I - - - L L - - - L S S L - - - T - - - - S\nI - - S S L S S - S S - - L L L T T - - - - S - - - - T - - - - L - S - - T - T T - - S S\nI L L L - L - S L S - - L - - - - T - - - L L - L - T T T - - - L L - - T T - T - - - S -\n- L - - L L - - L - T - L - - - - L - T - L - - L - - - L L L - - S S L - T - S S L - - -\n- - - - - - - L L T T T L L - L L L T T T L - L L I I I I - L - S S - L L L S S - L L L -",
       "source": "https://www.janko.at/Raetsel/LITS/420.a.htm",
       "info": ""
+    },
+    "lits0001": {
+      "problem": "10 18\n0 1 1 1 1 1 2 3 3 4 4 4 4 4 5 5 5 5\n0 0 6 6 6 6 2 3 3 3 4 4 4 4 4 4 5 5\n0 6 6 7 7 6 2 2 2 3 3 4 4 5 5 5 5 5\n6 6 7 7 7 2 2 2 2 3 3 8 8 8 8 8 9 5\n10 6 6 6 7 7 7 11 11 11 3 3 8 12 12 12 9 5\n10 10 6 6 6 7 13 14 14 11 11 11 8 12 9 9 9 5\n10 15 15 15 15 15 13 14 14 11 11 11 8 12 12 12 9 9\n10 15 15 16 16 16 13 14 14 14 14 14 8 8 12 12 12 9\n10 10 16 16 16 16 13 14 17 17 17 17 8 17 12 12 12 9\n10 10 16 16 16 16 13 13 13 13 17 17 17 17 17 12 12 9",
+      "solution": "10 18\nT - I I I I L S S - - - - - - - - -\nT T - - - - L - S S L L L - - - - -\nT - - - - - L L - - - - L I I I I -\nS S - - - - - - - - - - - - - - L -\n- S S - T T T L L L - - - - - - L -\nL L - - - T - S - L - - - - - L L -\nL - S S - - - S S - - - T - - S - -\nL S S - - - - - S - - - T T S S - -\n- - I I I I L - I I I I T - S - - -\n- - - - - - L L L - - - - - - - - -",
+      "source": "",
+      "info": "",
+      "puzzlink_url": "https://puzz.link/p?lits/18/10/gq22685b584h8e95j9qec6j59gkke75245fh1hcqea87tdun2bmcfg1ke7961t00ea0"
     }
   }
 }

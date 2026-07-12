@@ -1,0 +1,19 @@
+{
+  "name": "puzzlekit-dataset-pipeline",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "integrations:status": "node tools/integrations/status.js",
+    "integrations:verify": "node tools/integrations/verify.js",
+    "pipeline:lits:mvp": "node tools/lits-mvp/run.js",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}

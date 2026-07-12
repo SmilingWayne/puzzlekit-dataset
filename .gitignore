@@ -156,3 +156,7 @@ logs/
 
 # Cleaner run reports
 cleaners/reports/
+
+# Node / TypeScript tooling
+node_modules/
+coverage/

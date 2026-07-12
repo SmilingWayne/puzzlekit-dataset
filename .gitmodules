@@ -1,0 +1,6 @@
+[submodule "integrations/pzprjs"]
+	path = integrations/pzprjs
+	url = https://github.com/robx/pzprjs.git
+[submodule "integrations/noqx"]
+	path = integrations/noqx
+	url = https://github.com/T0nyX1ang/noqx.git

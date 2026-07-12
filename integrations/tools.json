@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "tools": [
+    {
+      "id": "pzprjs",
+      "kind": "parser-checker",
+      "repo": "https://github.com/robx/pzprjs.git",
+      "path": "integrations/pzprjs",
+      "tag": "v0.12.0",
+      "commit": "a104ecd6c0f2c982ffc3bbed16c66c24028dbbc5",
+      "adapter": "src/pipeline/pzprAdapter.ts",
+      "notes": "Authoritative puzz.link parser/checker. Build dist before using from Node."
+    },
+    {
+      "id": "noqx",
+      "kind": "solver-backend",
+      "repo": "https://github.com/T0nyX1ang/noqx.git",
+      "path": "integrations/noqx",
+      "tag": "v0.9.0",
+      "commit": "743a0a3e71702d1d66443b1b24153f7f201c1f57",
+      "adapter": "src/pipeline/noqxClient.ts",
+      "notes": "Penpa+ clingo solver backend. Replaceable through SolverBackend."
+    }
+  ]
+}
