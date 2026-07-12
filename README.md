@@ -74,7 +74,7 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 67 | Magnetic | 439 | 439 | 6x6~12x12 | 4 | rim |
 | 68 | Makaro | 190 | 190 | 8x8~15x15 | 4 | region |
 | 69 | MarginSudoku | 149 | 149 | 9x9 | 1 | rim |
-| 70 | Masyu | 826 | 824 | 5x5~40x58 | 94 | base |
+| 70 | Masyu | 3175 | 3175 | 2x2~100x100 | 187 | base |
 | 71 | Mathrax | 175 | 175 | 5x5~9x9 | 5 | ext |
 | 72 | Maze-a-pix | - | - | - | - | - |
 | 73 | Mejilink | 1 | 0 | 8x8 | 1 | base |
@@ -118,7 +118,7 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 111 | SimpleLoop | 67 | 67 | 6x6~17x18 | 14 | base |
 | 112 | Skyscraper | 470 | 470 | 4x4~8x8 | 5 | rim |
 | 113 | SkyscraperSudoku | 50 | 50 | 9x9 | 1 | rim |
-| 114 | Slitherlink | 1157 | 1138 | 4x4~60x60 | 49 | base |
+| 114 | Slitherlink | 5987 | 5968 | 1x1~100x100 | 180 | base |
 | 115 | Snake | 230 | 230 | 8x8~12x12 | 5 | rim |
 | 116 | SoheiSudoku | 120 | 120 | 21x21 | 1 | base |
 | 117 | SquareO | 120 | 80 | 3x3~15x15 | 4 | base |
@@ -144,7 +144,7 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 137 | Yajilin | 607 | 607 | 7x7~39x57 | 118 | base |
 | 138 | YinYang | 170 | 170 | 6x6~14x14 | 5 | base |
 | 139 | Yonmasu | 120 | 120 | 6x6~10x10 | 5 | base |
-| | **Total** | **40884** | **40737** | - | - | - |
+| | **Total** | **48063** | **47918** | - | - | - |
 <!-- INJECT STATS-->
 
 ## Cleaning

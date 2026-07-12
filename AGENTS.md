@@ -161,6 +161,7 @@ Optional future work (not required for basic tasks): solver/parser validation ag
 PYTHONPATH=../puzzlekit/src python -m ingest masyu              # pilot: first 200 catalog rows (default)
 PYTHONPATH=../puzzlekit/src python -m ingest masyu --limit 0    # full catalog (after pilot looks good)
 PYTHONPATH=../puzzlekit/src python -m ingest masyu --write      # merge into assets
+PYTHONPATH=../puzzlekit/src python -m ingest slitherlink --write
 python -m cleaners run --puzzle Masyu --write
 ```
 

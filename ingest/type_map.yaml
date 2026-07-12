@@ -3,3 +3,8 @@ masyu:
   puzzlekit_type: masyu
   catalog_types: [masyu, mashu, pearl]
   pipeline: base
+slitherlink:
+  dataset_name: Slitherlink
+  puzzlekit_type: slitherlink
+  catalog_types: [slitherlink]
+  pipeline: base

@@ -55,3 +55,31 @@ se sw - - se sw
 ns ns - - ns ns
 ...
 ```
+
+## Slitherlink text format
+
+**Problem** — `rows cols` header, then `rows` lines of space-separated tokens:
+
+- `-` empty cell
+- `0`–`3` clue (number of surrounding loop segments)
+
+**Solution** — same header, then `rows` lines of inside/outside shading:
+
+- `x` cell inside the loop
+- `-` cell outside the loop
+
+Example:
+
+```text
+10 10
+- 1 1 - 1 - - - - 1
+- 1 1 - - 1 1 1 1 -
+...
+```
+
+```text
+10 10
+- - - - - - - x - -
+x x x x x - - x x x
+...
+```
