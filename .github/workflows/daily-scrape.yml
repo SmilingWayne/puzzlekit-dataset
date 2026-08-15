@@ -1,0 +1,70 @@
+name: Daily puzzle scrape
+
+on:
+  schedule:
+    # 09:00 and 19:00 China Standard Time
+    - cron: "0 1 * * *"
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-puzzle-scrape
+  cancel-in-progress: false
+
+env:
+  INGEST_BRANCH: ingest/daily
+
+jobs:
+  scrape:
+    if: github.repository == 'SmilingWayne/puzzlekit-dataset'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout ingest branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.INGEST_BRANCH }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Offline scraper tests
+        run: |
+          python3 -m pip install --quiet pytest
+          python3 -m pytest tests/puzzle_scraper -q
+
+      - name: Daily scrape
+        id: scrape
+        env:
+          SCRAPE_RETRY_SLEEP: "60"
+        run: |
+          set +e
+          bash tools/puzzle-scraper/run_daily.sh
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Store health check
+        run: bash tools/puzzle-scraper/scripts/health_check.sh --ci
+
+      - name: Commit scraped puzzles
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/scraped/
+          if git diff --staged --quiet; then
+            echo "No store changes"
+          else
+            git commit -m "chore(scrape): daily ingest $(date -u +%Y-%m-%d)"
+            git push origin "HEAD:${INGEST_BRANCH}"
+          fi
+
+      - name: Fail job if scrape failed
+        if: steps.scrape.outputs.exit_code != '0'
+        run: |
+          echo "Scrape exited with ${{ steps.scrape.outputs.exit_code }}"
+          exit 1

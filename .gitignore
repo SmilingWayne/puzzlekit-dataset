@@ -14,8 +14,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+/lib/
+/lib64/
 parts/
 sdist/
 var/
@@ -156,3 +156,6 @@ logs/
 
 # Cleaner run reports
 cleaners/reports/
+
+# Scraper run logs (grow without bound; not a source of truth)
+*.jsonl
