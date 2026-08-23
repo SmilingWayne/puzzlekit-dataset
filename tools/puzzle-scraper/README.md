@@ -9,10 +9,10 @@ Daily ingest writes to `assets/scraped/` only. It does **not** merge into `asset
 ```
 tools/puzzle-scraper/
   lib/              fetch, store, runner, health
-  sites/            masyu.py, shingoki.py, shakashaka.py
-  bin/              scrape_masyu.py, scrape_shingoki.py, scrape_shakashaka.py
+  sites/            masyu.py, shingoki.py, shakashaka.py, hashi.py
+  bin/              scrape_masyu.py, scrape_shingoki.py, scrape_shakashaka.py, scrape_hashi.py
   scripts/          health_check.sh, verify_shingoki_write.sh
-  run_daily.sh      daily Masyu + Shingoki + Shakashaka
+  run_daily.sh      daily Masyu + Shingoki + Shakashaka + Hashi
   install_launchd.sh  optional macOS fallback
   logs/             local launchd logs (gitignored)
 
@@ -27,6 +27,7 @@ Dry-run (no writes):
 python3 tools/puzzle-scraper/bin/scrape_shingoki.py
 python3 tools/puzzle-scraper/bin/scrape_masyu.py --sizes 2 3
 python3 tools/puzzle-scraper/bin/scrape_shakashaka.py
+python3 tools/puzzle-scraper/bin/scrape_hashi.py
 ```
 
 Write to rolling JSON stores:
@@ -35,6 +36,7 @@ Write to rolling JSON stores:
 python3 tools/puzzle-scraper/bin/scrape_shingoki.py --write
 python3 tools/puzzle-scraper/bin/scrape_masyu.py --write
 python3 tools/puzzle-scraper/bin/scrape_shakashaka.py --write
+python3 tools/puzzle-scraper/bin/scrape_hashi.py --write
 ```
 
 Outputs:
@@ -42,6 +44,7 @@ Outputs:
 - `assets/scraped/masyu/masyu_*.json`
 - `assets/scraped/shingoki/shingoki_*.json`
 - `assets/scraped/shakashaka/shakashaka_*.json`
+- `assets/scraped/hashi/hashi_*.json`
 
 `*.jsonl` run logs are gitignored and are not used by the daily catch-up or health checks.
 

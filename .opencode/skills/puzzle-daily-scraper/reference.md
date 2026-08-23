@@ -52,6 +52,7 @@ Health check 用 `fetched_at` 的 UTC 日期前缀统计「今天新写入」；
 | Masyu | `https://www.puzzle-masyu.com/?size={n}` | 2–18 |
 | Shingoki | `https://www.puzzle-shingoki.com/?size={n}` | 0–19 |
 | Shakashaka | `https://www.puzzle-shakashaka.com/?size={n}` | 0–7 |
+| Hashi | `https://www.puzzle-bridges.com/?size={n}` | 2, 4, 5, 7, 8, 10–14, 17, 18 |
 
 ## 代码入口地图
 
@@ -64,6 +65,7 @@ Health check 用 `fetched_at` 的 UTC 日期前缀统计「今天新写入」；
 | Masyu 站点 | `sites/masyu.py` |
 | Shingoki 站点 | `sites/shingoki.py` |
 | Shakashaka 站点 | `sites/shakashaka.py` |
+| Hashi 站点 | `sites/hashi.py` |
 | 每日 shell | `run_daily.sh` |
 
 ## Shingoki 尺寸注意
@@ -79,3 +81,12 @@ Health check 用 `fetched_at` 的 UTC 日期前缀统计「今天新写入」；
 - `a`–`z` → 连续白格 `-`，长度 = `ord(ch) - ord('a') + 1`
 
 size 映射：0=5×5, 1=10×10, 2=15×15, 3=20×20, 4=25×25, 5=30×30 daily, 6=40×40 weekly, 7=50×50 monthly。
+
+## Hashi 解码注意
+
+页面 `puzzleWidth/Height` 即为格网尺寸（与 Masyu 相同，无需 +1）。`task` 编码规则（见 `sites/hashi.py` 的 `decode_task()`）：
+
+- `1`–`8` → 岛上数字线索
+- `a`–`z` → 连续空格 `-`，长度 = `ord(ch) - ord('a') + 1`
+
+size 映射（随机题稳定；special 为采样值，周/月题可能变化）：2=7×7, 4=10×10, 5=10×10, 7=15×15, 8=15×15, 10=25×25, 11=25×25, 12=30×40 weekly, 13=30×30 daily, 14=40×50 monthly, 17=15×15 dense, 18=25×25 dense。

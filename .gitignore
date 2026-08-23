@@ -159,3 +159,7 @@ cleaners/reports/
 
 # Scraper run logs (grow without bound; not a source of truth)
 *.jsonl
+node_modules/
+
+# Local clones / reference trees, not part of this repo
+integrations/
