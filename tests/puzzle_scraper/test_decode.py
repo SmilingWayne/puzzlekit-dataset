@@ -11,6 +11,7 @@ from sites.hashi import decode_task as decode_hashi
 from sites.masyu import decode_task as decode_masyu
 from sites.shakashaka import decode_task as decode_shakashaka
 from sites.shingoki import decode_task as decode_shingoki, grid_dims
+from sites.tapa import decode_task as decode_tapa
 
 
 def test_shingoki_live_style_task() -> None:
@@ -104,6 +105,56 @@ def test_hashi_invalid_char() -> None:
         raise AssertionError("expected ValueError")
 
 
+def test_tapa_user_6x6() -> None:
+    cells = decode_tapa("f5d4b4_5d12_22c6b14g")
+    assert len(cells) == 36
+    w = 6
+    assert cells[1 * w + 0] == "5"
+    assert cells[1 * w + 5] == "4"
+    assert cells[2 * w + 2] == "4"
+    assert cells[2 * w + 3] == "5"
+    assert cells[3 * w + 2] == "12"
+    assert cells[3 * w + 3] == "22"
+    assert cells[4 * w + 1] == "6"
+    assert cells[4 * w + 4] == "14"
+    assert cells[5 * w + 5] == "-"
+    assert sum(cell != "-" for cell in cells) == 8
+    problem = build_problem((6, 6), cells)
+    assert problem.splitlines() == [
+        "6 6",
+        "- - - - - -",
+        "5 - - - - 4",
+        "- - 4 5 - -",
+        "- - 12 22 - -",
+        "- 6 - - 14 -",
+        "- - - - - -",
+    ]
+
+
+def test_tapa_user_10x10() -> None:
+    task = "j12b7_23_113_13b13k33b2_13b13b33f13b33f13b7b23_7b5k22b14_112_23_7b22j"
+    cells = decode_tapa(task)
+    assert len(cells) == 100
+    w = 10
+    assert cells[1 * w + 4 : 1 * w + 7] == ["23", "113", "13"]
+    assert cells[8 * w + 9] == "22"
+    assert sum(cell != "-" for cell in cells) == 24
+
+
+def test_tapa_adjacent_same_clues() -> None:
+    cells = decode_tapa("122_122")
+    assert cells == ["122", "122"]
+
+
+def test_tapa_invalid_char() -> None:
+    try:
+        decode_tapa("f5X4")
+    except ValueError as exc:
+        assert "unexpected character" in str(exc)
+    else:
+        raise AssertionError("expected ValueError")
+
+
 if __name__ == "__main__":
     test_shingoki_live_style_task()
     test_masyu_decode()
@@ -114,4 +165,8 @@ if __name__ == "__main__":
     test_hashi_user_7x7()
     test_hashi_user_10x10()
     test_hashi_invalid_char()
+    test_tapa_user_6x6()
+    test_tapa_user_10x10()
+    test_tapa_adjacent_same_clues()
+    test_tapa_invalid_char()
     print("ok")

@@ -35,4 +35,5 @@ run_scraper "Masyu" "tools/puzzle-scraper/bin/scrape_masyu.py" || exit_code=1
 run_scraper "Shingoki" "tools/puzzle-scraper/bin/scrape_shingoki.py" || exit_code=1
 run_scraper "Shakashaka" "tools/puzzle-scraper/bin/scrape_shakashaka.py" || exit_code=1
 run_scraper "Hashi" "tools/puzzle-scraper/bin/scrape_hashi.py" || exit_code=1
+run_scraper "Tapa" "tools/puzzle-scraper/bin/scrape_tapa.py" || exit_code=1
 exit "$exit_code"

@@ -62,6 +62,7 @@ if [ "$PROBE" = true ]; then
     "$PYTHON" tools/puzzle-scraper/bin/scrape_shakashaka.py --sizes 0 --delay-min 0 --delay-max 0
     "$PYTHON" tools/puzzle-scraper/bin/scrape_masyu.py --sizes 2 --delay-min 0 --delay-max 0
     "$PYTHON" tools/puzzle-scraper/bin/scrape_hashi.py --sizes 2 --delay-min 0 --delay-max 0
+    "$PYTHON" tools/puzzle-scraper/bin/scrape_tapa.py --sizes 1 --delay-min 0 --delay-max 0
 fi
 
 echo ""

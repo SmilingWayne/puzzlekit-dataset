@@ -10,6 +10,7 @@ STORES: tuple[tuple[str, str], ...] = (
     ("shingoki", "shingoki"),
     ("shakashaka", "shakashaka"),
     ("hashi", "hashi"),
+    ("tapa", "tapa"),
 )
 
 

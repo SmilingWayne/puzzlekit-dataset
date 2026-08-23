@@ -53,6 +53,7 @@ Health check 用 `fetched_at` 的 UTC 日期前缀统计「今天新写入」；
 | Shingoki | `https://www.puzzle-shingoki.com/?size={n}` | 0–19 |
 | Shakashaka | `https://www.puzzle-shakashaka.com/?size={n}` | 0–7 |
 | Hashi | `https://www.puzzle-bridges.com/?size={n}` | 2, 4, 5, 7, 8, 10–14, 17, 18 |
+| Tapa | `https://www.puzzle-tapa.com/?size={n}` | 1, 3–10 |
 
 ## 代码入口地图
 
@@ -66,6 +67,7 @@ Health check 用 `fetched_at` 的 UTC 日期前缀统计「今天新写入」；
 | Shingoki 站点 | `sites/shingoki.py` |
 | Shakashaka 站点 | `sites/shakashaka.py` |
 | Hashi 站点 | `sites/hashi.py` |
+| Tapa 站点 | `sites/tapa.py` |
 | 每日 shell | `run_daily.sh` |
 
 ## Shingoki 尺寸注意
@@ -90,3 +92,13 @@ size 映射：0=5×5, 1=10×10, 2=15×15, 3=20×20, 4=25×25, 5=30×30 daily, 6=
 - `a`–`z` → 连续空格 `-`，长度 = `ord(ch) - ord('a') + 1`
 
 size 映射（随机题稳定；special 为采样值，周/月题可能变化）：2=7×7, 4=10×10, 5=10×10, 7=15×15, 8=15×15, 10=25×25, 11=25×25, 12=30×40 weekly, 13=30×30 daily, 14=40×50 monthly, 17=15×15 dense, 18=25×25 dense。
+
+## Tapa 解码注意
+
+页面 `puzzleWidth/Height` 即为格网尺寸（与 Masyu 相同，无需 +1）。`task` 编码规则（见 `sites/tapa.py` 的 `decode_task()`）：
+
+- `0`–`9` 连续数字属于**同一格**（每个数字都是一位数线索，一格可有多个）
+- `_` 分隔两个相邻的线索格，避免 `45` 被当成一格里的 4 和 5（应为 `4_5`）
+- `a`–`z` → 连续空格 `-`，长度 = `ord(ch) - ord('a') + 1`
+
+size 映射（随机题稳定；special 为采样值，日/周/月题可能变化）：1=6×6, 3=10×10, 4=15×15, 5=15×15, 6=20×20, 7=20×20, 8=25×25 daily, 9=30×30 weekly, 10=35×35 monthly。
