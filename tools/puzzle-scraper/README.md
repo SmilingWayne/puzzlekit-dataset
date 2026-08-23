@@ -9,10 +9,10 @@ Daily ingest writes to `assets/scraped/` only. It does **not** merge into `asset
 ```
 tools/puzzle-scraper/
   lib/              fetch, store, runner, health
-  sites/            masyu.py, shingoki.py, shakashaka.py, hashi.py, tapa.py
-  bin/              scrape_masyu.py, scrape_shingoki.py, scrape_shakashaka.py, scrape_hashi.py, scrape_tapa.py
+  sites/            masyu.py, shingoki.py, shakashaka.py, hashi.py, tapa.py, lits.py
+  bin/              scrape_masyu.py, scrape_shingoki.py, scrape_shakashaka.py, scrape_hashi.py, scrape_tapa.py, scrape_lits.py
   scripts/          health_check.sh, verify_shingoki_write.sh
-  run_daily.sh      daily Masyu + Shingoki + Shakashaka + Hashi + Tapa
+  run_daily.sh      daily Masyu + Shingoki + Shakashaka + Hashi + Tapa + LITS
   install_launchd.sh  optional macOS fallback
   logs/             local launchd logs (gitignored)
 
@@ -29,6 +29,7 @@ python3 tools/puzzle-scraper/bin/scrape_masyu.py --sizes 2 3
 python3 tools/puzzle-scraper/bin/scrape_shakashaka.py
 python3 tools/puzzle-scraper/bin/scrape_hashi.py
 python3 tools/puzzle-scraper/bin/scrape_tapa.py
+python3 tools/puzzle-scraper/bin/scrape_lits.py
 ```
 
 Write to rolling JSON stores:
@@ -39,6 +40,7 @@ python3 tools/puzzle-scraper/bin/scrape_masyu.py --write
 python3 tools/puzzle-scraper/bin/scrape_shakashaka.py --write
 python3 tools/puzzle-scraper/bin/scrape_hashi.py --write
 python3 tools/puzzle-scraper/bin/scrape_tapa.py --write
+python3 tools/puzzle-scraper/bin/scrape_lits.py --write
 ```
 
 Outputs:
@@ -48,6 +50,7 @@ Outputs:
 - `assets/scraped/shakashaka/shakashaka_*.json`
 - `assets/scraped/hashi/hashi_*.json`
 - `assets/scraped/tapa/tapa_*.json`
+- `assets/scraped/lits/lits_*.json`
 
 `*.jsonl` run logs are gitignored and are not used by the daily catch-up or health checks.
 

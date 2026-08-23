@@ -2,16 +2,16 @@
 name: puzzle-daily-scraper
 description: >-
   Operates and troubleshoots puzzlekit-dataset daily puzzle scrapers (Masyu,
-  Shingoki, Shakashaka, Hashi, Tapa) under tools/puzzle-scraper/. Use when the user mentions daily scrape,
+  Shingoki, Shakashaka, Hashi, Tapa, LITS) under tools/puzzle-scraper/. Use when the user mentions daily scrape,
   GitHub Actions, launchd, puzzle-scraper, scrape_masyu, scrape_shingoki, scrape_shakashaka,
-  scrape_hashi, scrape_tapa, assets/scraped/, ingest/daily, or debugging automated puzzle collection from
-  puzzle-masyu.com / puzzle-shingoki.com / puzzle-shakashaka.com / puzzle-bridges.com / puzzle-tapa.com.
+  scrape_hashi, scrape_tapa, scrape_lits, assets/scraped/, ingest/daily, or debugging automated puzzle collection from
+  puzzle-masyu.com / puzzle-shingoki.com / puzzle-shakashaka.com / puzzle-bridges.com / puzzle-tapa.com / puzzle-lits.com.
 ---
 
 # PuzzleKit 每日谜题爬取（puzzle-scraper）
 
 GitHub Actions 每天 **01:00 / 11:00 UTC**（北京时间 09:00 主跑 + 19:00 兜底）抓取并 commit 到 `ingest/daily`。
-当前站点：**Masyu**（size 2–18）、**Shingoki**（size 0–19）、**Shakashaka**（size 0–7）、**Hashi**（size 2, 4, 5, 7, 8, 10–14, 17, 18）、**Tapa**（size 1, 3–10）。
+当前站点：**Masyu**（size 2–18）、**Shingoki**（size 0–19）、**Shakashaka**（size 0–7）、**Hashi**（size 2, 4, 5, 7, 8, 10–14, 17, 18）、**Tapa**（size 1, 3–10）、**LITS**（size 3, 5–12）。
 
 本机 launchd 仍可作为可选备份，不是云上路径。
 
@@ -22,10 +22,10 @@ GitHub Actions 每天 **01:00 / 11:00 UTC**（北京时间 09:00 主跑 + 19:00 
 ```
 tools/puzzle-scraper/
   lib/           fetch, store, runner, health
-  sites/         masyu.py, shingoki.py, shakashaka.py, hashi.py, tapa.py
-  bin/           scrape_masyu.py, scrape_shingoki.py, scrape_shakashaka.py, scrape_hashi.py, scrape_tapa.py
+  sites/         masyu.py, shingoki.py, shakashaka.py, hashi.py, tapa.py, lits.py
+  bin/           scrape_masyu.py, scrape_shingoki.py, scrape_shakashaka.py, scrape_hashi.py, scrape_tapa.py, scrape_lits.py
   scripts/       health_check.sh, verify_shingoki_write.sh
-  run_daily.sh   每日调度（Masyu → Shingoki → Shakashaka → Hashi → Tapa）
+  run_daily.sh   每日调度（Masyu → Shingoki → Shakashaka → Hashi → Tapa → LITS）
   install_launchd.sh   可选 macOS 备份
   logs/          本机 launchd 日志（gitignored）
 
@@ -36,6 +36,7 @@ assets/scraped/shingoki/  shingoki_NNN.json
 assets/scraped/shakashaka/  shakashaka_NNN.json
 assets/scraped/hashi/     hashi_NNN.json
 assets/scraped/tapa/      tapa_NNN.json
+assets/scraped/lits/      lits_NNN.json
 ```
 
 `*.jsonl` 是本地调试日志，**不入库、不参与 catch-up / health**。去重看滚动 JSON 里的 `case_id` 与 `problem`。
@@ -55,6 +56,7 @@ python3 tools/puzzle-scraper/bin/scrape_shingoki.py
 python3 tools/puzzle-scraper/bin/scrape_shakashaka.py
 python3 tools/puzzle-scraper/bin/scrape_hashi.py
 python3 tools/puzzle-scraper/bin/scrape_tapa.py
+python3 tools/puzzle-scraper/bin/scrape_lits.py
 
 # 手动落盘
 python3 tools/puzzle-scraper/bin/scrape_masyu.py --write
@@ -62,6 +64,7 @@ python3 tools/puzzle-scraper/bin/scrape_shingoki.py --write
 python3 tools/puzzle-scraper/bin/scrape_shakashaka.py --write
 python3 tools/puzzle-scraper/bin/scrape_hashi.py --write
 python3 tools/puzzle-scraper/bin/scrape_tapa.py --write
+python3 tools/puzzle-scraper/bin/scrape_lits.py --write
 
 # 跑完整每日链路（等同 Actions / launchd 触发）
 tools/puzzle-scraper/run_daily.sh
@@ -78,6 +81,7 @@ python3 -m pytest tests/puzzle_scraper -q
 | Shakashaka | 8 (size 0–7) | ~5 随机 + 3 special | ~0–3（special 日期重复） |
 | Hashi | 12 (2, 4, 5, 7, 8, 10–14, 17, 18) | ~9 随机 + 3 special | ~0–3（special 日期重复） |
 | Tapa | 9 (1, 3–10) | ~6 随机 + 3 special | ~0–3（special 日期重复） |
+| LITS | 9 (3, 5–12) | ~6 随机 + 3 special | ~0–3（special 日期重复） |
 
 终端每行一种状态：`NEW` / `SKIP` / `INVALID` / `FAILED`。
 汇总行：`added=N skipped=M failed=0` 为健康。同一天再跑应几乎全是 `SKIP`。

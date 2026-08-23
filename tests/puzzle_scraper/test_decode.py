@@ -11,6 +11,7 @@ from sites.hashi import decode_task as decode_hashi
 from sites.masyu import decode_task as decode_masyu
 from sites.shakashaka import decode_task as decode_shakashaka
 from sites.shingoki import decode_task as decode_shingoki, grid_dims
+from sites.lits import decode_task as decode_lits
 from sites.tapa import decode_task as decode_tapa
 
 
@@ -155,6 +156,45 @@ def test_tapa_invalid_char() -> None:
         raise AssertionError("expected ValueError")
 
 
+def test_lits_user_6x6() -> None:
+    task = "1,2,2,3,3,3,1,1,2,3,4,4,1,3,2,3,3,4,1,3,3,3,3,4,3,3,5,3,3,3,3,3,5,5,5,3"
+    cells = decode_lits(task)
+    assert len(cells) == 36
+    w = 6
+    assert cells[0 * w + 0] == "1"
+    assert cells[1 * w + 0] == "1"
+    assert cells[5 * w + 0] == "3"
+    assert cells[5 * w + 5] == "3"
+    problem = build_problem((6, 6), cells)
+    assert problem.splitlines() == [
+        "6 6",
+        "1 2 2 3 3 3",
+        "1 1 2 3 4 4",
+        "1 3 2 3 3 4",
+        "1 3 3 3 3 4",
+        "3 3 5 3 3 3",
+        "3 3 5 5 5 3",
+    ]
+
+
+def test_lits_multidigit_regions() -> None:
+    task = "1,1,2,2,3,3,3,3,1,1,2,2,4,4,4,4,1,1,2,2,4,4,4,4,5,5,5,4,4,6,6,4,7,7,5,5,4,4,6,4,7,7,8,8,9,9,6,4,7,8,8,9,9,9,6,6,7,7,8,8,10,10,10,10"
+    cells = decode_lits(task)
+    assert len(cells) == 64
+    w = 8
+    assert cells[7 * w + 4 : 8 * w] == ["10", "10", "10", "10"]
+    assert cells[0] == cells[8] == "1"
+
+
+def test_lits_invalid_token() -> None:
+    try:
+        decode_lits("1,2,x,4")
+    except ValueError as exc:
+        assert "unexpected token" in str(exc)
+    else:
+        raise AssertionError("expected ValueError")
+
+
 if __name__ == "__main__":
     test_shingoki_live_style_task()
     test_masyu_decode()
@@ -169,4 +209,7 @@ if __name__ == "__main__":
     test_tapa_user_10x10()
     test_tapa_adjacent_same_clues()
     test_tapa_invalid_char()
+    test_lits_user_6x6()
+    test_lits_multidigit_regions()
+    test_lits_invalid_token()
     print("ok")

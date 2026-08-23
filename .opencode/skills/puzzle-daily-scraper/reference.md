@@ -54,6 +54,7 @@ Health check 用 `fetched_at` 的 UTC 日期前缀统计「今天新写入」；
 | Shakashaka | `https://www.puzzle-shakashaka.com/?size={n}` | 0–7 |
 | Hashi | `https://www.puzzle-bridges.com/?size={n}` | 2, 4, 5, 7, 8, 10–14, 17, 18 |
 | Tapa | `https://www.puzzle-tapa.com/?size={n}` | 1, 3–10 |
+| LITS | `https://www.puzzle-lits.com/?size={n}` | 3, 5–12 |
 
 ## 代码入口地图
 
@@ -68,6 +69,7 @@ Health check 用 `fetched_at` 的 UTC 日期前缀统计「今天新写入」；
 | Shakashaka 站点 | `sites/shakashaka.py` |
 | Hashi 站点 | `sites/hashi.py` |
 | Tapa 站点 | `sites/tapa.py` |
+| LITS 站点 | `sites/lits.py` |
 | 每日 shell | `run_daily.sh` |
 
 ## Shingoki 尺寸注意
@@ -102,3 +104,9 @@ size 映射（随机题稳定；special 为采样值，周/月题可能变化）
 - `a`–`z` → 连续空格 `-`，长度 = `ord(ch) - ord('a') + 1`
 
 size 映射（随机题稳定；special 为采样值，日/周/月题可能变化）：1=6×6, 3=10×10, 4=15×15, 5=15×15, 6=20×20, 7=20×20, 8=25×25 daily, 9=30×30 weekly, 10=35×35 monthly。
+
+## LITS 解码注意
+
+页面 `puzzleWidth/Height` 即为格网尺寸（与 Masyu 相同，无需 +1）。`task` 为逗号分隔的区域编号，按从上到下、从左到右给出；同一数字表示同一区域。
+
+size 映射（随机题稳定；special 为采样值，日/周/月题可能变化）：3=8×8 hard, 5=10×10 hard, 6=15×15 normal, 7=15×15 hard, 8=20×20 normal, 9=20×20 hard, 10=30×30 daily, 11=40×40 weekly, 12=50×50 monthly。
