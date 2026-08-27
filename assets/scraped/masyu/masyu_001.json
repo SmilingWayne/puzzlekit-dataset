@@ -1,6 +1,6 @@
 {
   "name": "Masyu",
-  "count": 467,
+  "count": 481,
   "count_sol": 0,
   "data": {
     "size2_5483926": {
@@ -3271,6 +3271,104 @@
       "source": "https://www.puzzle-masyu.com/?size=18",
       "info": "25x25 Hard Masyu",
       "fetched_at": "2026-08-27T11:00:35+00:00"
+    },
+    "size2_1797385": {
+      "problem": "8 8\n- - - w - - - -\n- b - w - w w -\n- - - - - - - -\n- - w - - - b w\n- - w - - - - -\nw - w w - w - -\n- w - w - - - -\n- - - - - - - -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=2",
+      "info": "8x8 Normal Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
+    },
+    "size3_186371": {
+      "problem": "8 8\n- - - - - - - -\nw - w - b - - -\n- - w - - - - b\n- - - - - - - -\nw b - - b - b w\n- - - w - - - -\n- w - - - - - -\n- - - w - - w -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=3",
+      "info": "8x8 Hard Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
+    },
+    "size4_1263570": {
+      "problem": "10 10\nb - - - - b - - - -\nw - - w - - - w w -\n- - w w - - - w w -\n- - - - w b w w b w\nw - - - b - - - - -\n- - w - w - - w b -\n- b - b b w - w - -\n- - - w - - - - w -\nw - - w - - - w b -\nb w - b - - - w w -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=4",
+      "info": "10x10 Easy Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
+    },
+    "size5_8897418": {
+      "problem": "10 10\n- - b b - - - w - -\n- - - - - - w w - -\n- - - w - - b - - -\nw - - - - - - - - -\n- - - - - - - - - b\n- b - w - - - - w -\n- b - - w - - - - -\n- - - - w - b w - b\n- - w - - - - - w -\nb - - - - - - - - -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=5",
+      "info": "10x10 Normal Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
+    },
+    "size6_6882225": {
+      "problem": "10 10\n- b - - - - - - w -\n- - - - w w - - - -\n- - b - b - - - - b\nw - - - - w - - - -\n- - b - - - - b - -\n- - - w - w - - w -\n- w - - - b - - - -\n- - - w - - - - w -\n- - - w - - - b w -\nb - - - - - - - - -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=6",
+      "info": "10x10 Hard Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
+    },
+    "size7_6695767": {
+      "problem": "15 15\n- - b - - - - w - - - - - - -\nw w w - w - - - - b w - - w -\nw - - - w w b - - - - - - - b\nb - - - - - - w w - - b w b w\n- w - - w w - - w - w - b w -\n- - - - - w w - - - - b w - w\n- w - - w b w - w b - - w - -\nb - w - w w b w - - - w - w b\nw - w - - - - - - - - - - - w\n- - w - - - - - w b b w - - -\n- - w - w - - - - w w - - w -\nw - - w b - w - w w w w w - -\nb w w - - - - w - - - w - - w\n- w w - - w - w w - w b w - -\n- w - w b b w - - - - - b - b",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=7",
+      "info": "15x15 Easy Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
+    },
+    "size8_9116838": {
+      "problem": "15 15\n- - - - b - - - - - - - - - b\nw - - - - - w - - - w w - - -\n- - - - - b - w - - - - - - b\n- b - b - - b - - b b - - w -\n- - - - b - - - - - - - w - w\n- - b - - - - b - - - - - w -\n- - - - b - - - - - - b - - -\n- - - - - - - w - b - w - - -\n- - - b - w - - w - - - - w -\nb - - - - - w - - - - w - w -\n- - - - - - - - - b - w - - w\n- - - - - b - - w - - - w - -\n- w w - w w - - - - - - w - -\n- - - - - - - - - w - w w - -\n- w - - w - - b - - w - - w -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=8",
+      "info": "15x15 Normal Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
+    },
+    "size9_590215": {
+      "problem": "15 15\n- - - - - - - - - w - - - - b\n- w - b - w - - - - - - - - -\nb - - - - - - - - w - - - w -\n- b - - - - - - b - - b - w -\n- - - w - b - - - b - w w - -\n- - w - - w - - b - w - - - -\n- - b - - - w - - - - w - w -\n- - w - - w w - - w - - - - w\n- - - - w w - w - - - - - - -\n- w - - - - - w - - - - - - -\n- w - - b - - - - - - b b - -\nw - - w - b - - - - w - - w -\n- - w - - - - - w - - - w - -\n- - - - b - w - - - - - - w -\n- w - - w - - - - b - b - - -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=9",
+      "info": "15x15 Hard Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
+    },
+    "size10_8333716": {
+      "problem": "20 20\n- w - - - - - b - w - - - - - w - - - b\nw - - b - - - w - w w - - w - - - - - w\n- w - w - - w - - - - - w b w - - w w b\nw w - b w - - - - - w - - w - - - - w -\n- - - - - - w - w - - w - - - - w - b -\nb - w - w w - w b w b w - w b w b - w -\n- b - w b w - - - - - - - - w - - - - -\n- - - - b - w w - - w - b w - - w - - w\n- w - - w - w w - b - - w - w - b w - -\nw - - - - w - w b w - - - - - - - w - -\n- - w w - - w - - b w b - - w b - b - -\n- - w b w - - - b w - - w - - w - w - b\n- - - - - - w - - - - - b w - w - w w -\nw - - w - - - - b - - - - - w - - w b w\nw - w b - w - - - - w - b w - - - - w -\n- - b w b - - b b - - w w - w w - - w -\n- - b - w - - - - - - - - - w b - b - -\n- - w - - - - b - - w b - - b - - - - -\n- - b - w - b - - w - - - w - w - b - -\n- b - - - - - - - b - - - - - - - - w -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=10",
+      "info": "20x20 Easy Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
+    },
+    "size11_555657": {
+      "problem": "20 20\n- w w - - - - - w - - - - - - - - - - -\n- - w - - w w - - b - - - - - - - - - w\n- w - - - - - - w - - b - w - - - b w w\n- - - b - w - - - - - - - w - w - - - -\n- - - - - - b - - - - - - - - - - - - -\n- w - - - b - - - - w - - - w - b - - b\n- - w - - - - - - b w w - - - - b - - -\n- - - - b - - - - - - - - b - - - - w -\n- w b - - w - - - - - w - - - - - - - -\n- w - b - b - w b w w - - w - - b - w -\n- - w - - - w - - - - - - - w - b w - -\n- - - - - - w w w w - w - w - - - - - -\n- - - - - - - - w - - w w - - w w w w -\nw - - w b w - b - - - - - - - w - - - w\n- b - - - w - - - - - - - w - - w - - -\n- - - - - - w - - - w w - - w - - - - b\n- - w - - b w - - - - b - - - - - b - -\nw - - - - - - - - w - - - - - w - - - -\nw - w - - - - - b - - b - w - - - - - -\n- - - b - - - - w - - w - - - w - - - b",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=11",
+      "info": "20x20 Normal Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
+    },
+    "size12_6831061": {
+      "problem": "20 20\n- - - b - - - - - - - - - - - - - - - -\n- - - - - w - - w - w - b - - - w - b w\n- b - - - - w - - - w - - b - - - - - -\n- w - w - - - w - - w - - - - w - w - -\nb - - - - - - - - - - - - b - - w - - -\n- b - - w w - - b - - - b - b w - - - -\n- - - w - - - - w - - w - - - - - - b w\n- - - - w - - w - - - - - - w - - - - b\nb - - - - - - w - - w - b - - - w - - -\n- - - w w b - - w - - - - w - w - w w -\n- - - w - b b - - - b - - - - w - - - b\nb - - - - - - - w - - - - w - - w - - -\nb - - - - b - w - - - w w - - - - w - -\n- - - - w w - - b - - - - - b - w w - -\n- w - - w - - - - - w - w - b w - - - -\n- w w - w - b - - - - - - - - - - b - -\n- - b - w - - - - - w - - - - - w - - -\n- - - - - - w - w - w - b - - - - b - -\n- w - - - - - - - - - - - - b - w - - -\n- w w - - - w - - - - - - - - - - - w -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=12",
+      "info": "20x20 Hard Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
+    },
+    "size16_6594130": {
+      "problem": "25 25\nb - - - - - - w b - - - - - - - - - w - b - - w -\n- - - - w - - b w w w w w - w w b w - - - - - - w\n- - w - w - - - w w - - w - w w - - - - - w w - -\n- w - w w b w w - - - - - - - - - - - - - - - - -\nw - w b - w w - w w b - - - - - - w w - - - - - w\n- w - - - w - w w - - - - w - - - - - w w b w - w\n- w - w - b w - - - - w b - - b w - - - - - - w -\n- - w b - w - w - - - - b - w - - w - - b w - - b\n- - w - w - w w - - w - w - b w w - - w - b - - -\nw - - - - - - - - - - - - - - w - w - - w - w w w\n- b w - w - w - - - b - w b - w - w - - - - - - -\n- - - - - - - w - w - w - - w - - - - - - - - - -\nw - - b - - b w w - w - - - - w w b - b b - w - w\nb - - w b - - - - - - - - b - w - - b - - - - w -\n- w w b - - - - - w - b - w - - w - w - - - w - w\n- - w w b - w - - w - - - w - w - w w - - w w - -\n- w - - - w - - - - w w - b w - - - - b - - - - -\n- - - - - - w - b - b - w - - w - - - - w w - - w\nb w - w w w - - w - w - - - - - - - w - - - - w b\n- - - - - - - - w - b - w b b w - - - - - - - w b\n- w w b w - - - - w w - - - w - - b w b w b - b w\n- - - w b w - w w b b w b - - w - w - - - w - - -\n- - w - - b w - - - - - w b w - - b - - b - - - -\nw - - w w - b - - - - - b w - w b - w - - w w - w\n- w - - - - w w - b - - w - - - - - - - w b b - b",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=16",
+      "info": "25x25 Easy Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
+    },
+    "size17_1493032": {
+      "problem": "25 25\n- w - - - - - - - - - - b - b - - w - - w b - - b\n- - w w w - - w - w - - - - - b - - - - - - - - -\nw - - - - - - w - - - - - - - - - - - b - - - - -\n- - w - - - w w b w - b - w - - - - - - - b - b -\n- - w - b - - - - w - - - - w - - b - - - - - - b\n- b - - b - w - - - - - - w - - b w - w - - w - -\n- - - w - - - b - w - - - w b - - - w - - b - - b\n- - - w - - - - - w - - b - - - - w - w b - w - -\n- - - - - - b - w - - - - - - - - - - - - - w - -\n- b - - b - - - - - - b - - - b - w - - - - - - -\n- w - - - - w - - - b - b - - b w - - - w - - w -\n- w - - w - - - - - - b - w - - - w w - - - - - -\n- - - w - - - - - - - - w - - - b - - w w b - b -\n- - - - w b w - w - - w - - - - - - - - - - - - -\n- b - b - - - - w w - - - - b - - - - - b - - w -\n- - - - - - b - - - - - - b w - - w - w - - w - -\n- - w - - - w - - - - - - - - - b - - - - - - - -\n- w - - - b - - - b - - w - - w - b - b - - - b w\n- - b - - - w - w - - - - - - - b - b - - b - - -\nb - - - b b - - - - b - w b w - - - - - - - - - -\n- - - - - - b - - b - - - - - - - - - - - - w - -\n- - w - w - - - w - - - - - w - - b - - - w w - w\nw - - w - - - - - - - - b - - - - - w - - - w - -\n- - b - - - - - - b - b - - - - - b - - - - w - w\n- - - - - - b b - - - - - - b - - - - b - - - - -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=17",
+      "info": "25x25 Normal Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
+    },
+    "size18_2671720": {
+      "problem": "25 25\n- b - - - - - b w - - - w - - - b w - - b - - - -\n- - - - w - w - - b - - - - - w w - - w - - w w -\n- - - - w - - - - - b - - w - - - - - - - - w - -\n- - w - - w - - - - - - - b w - w - w - b - - b w\nb - - - - - w b - - w - b w - - - w w b - - - - -\n- b - w b - - - - - b - w - b - - b - - - w - - -\n- - - - - w w b - - - b w - - - - w - b - - - w -\n- - - w - - - w - w b w - - - - - - - - - - w - w\n- - w b - - - - - - w - - - b - w w - w - - - w -\n- w w w - - w - - w w - - - - - - b - - - - - w b\n- - - - - - w - w - - b - - w - - - b - - b - - -\n- - w - w b - - b - - - w w - - - - b - - - w - w\nw - - - - - - - b - - - - - - - - b - - - - - - b\n- w - - b b - - - - w w - - b - w - - - b - - - -\n- - w - w w - - - - - - - - - - - - - - - b - w -\nw - - - - - w - - w b - - w - w - - b - - - - - -\n- - - b - b - - - b - b - - - - w - - b - - b - -\n- w b - - - - - w w - - - - w - b w - - w - - - -\n- - - - - b w - - - - - w w - - - - - - - w - - -\n- w - - - w w - b - - b - - - - - - w b - w - - w\nw - - w - - - - - - w w - w - - - w b w - - - - w\n- w - w - w w - - - - w w - - - w - - - - - - - -\nb - w - - - - - b w - - - w b - w - w - - - w w -\n- - - - - - - w - - - - w - w - - - b b - - - - -\n- - - w w - - - - - w - - - - b - - - - - - - w b",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=18",
+      "info": "25x25 Hard Masyu",
+      "fetched_at": "2026-08-27T20:49:54+00:00"
     }
   }
 }
