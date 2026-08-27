@@ -1,6 +1,6 @@
 {
   "name": "Shingoki",
-  "count": 491,
+  "count": 500,
   "count_sol": 0,
   "data": {
     "size0_9909808": {
@@ -3439,6 +3439,69 @@
       "source": "https://www.puzzle-shingoki.com/?size=16",
       "info": "25x25 Hard Shingoki",
       "fetched_at": "2026-08-26T11:19:40+00:00"
+    },
+    "size0_4458192": {
+      "problem": "6 6\n- - - - b2 -\nb2 - - - - b5\n- - - w3 - -\n- - - w2 - -\n- - - - b2 -\nb5 - w3 - - -",
+      "solution": "",
+      "source": "https://www.puzzle-shingoki.com/?size=0",
+      "info": "5x5 Easy Shingoki",
+      "fetched_at": "2026-08-27T11:02:16+00:00"
+    },
+    "size1_1272185": {
+      "problem": "6 6\n- - - - w5 -\n- - - - - b3\n- - b2 - - b3\nw4 - - w3 - -\n- b2 b2 - - -\n- - b2 b2 - -",
+      "solution": "",
+      "source": "https://www.puzzle-shingoki.com/?size=1",
+      "info": "5x5 Normal Shingoki",
+      "fetched_at": "2026-08-27T11:02:16+00:00"
+    },
+    "size2_8648148": {
+      "problem": "8 8\n- w3 - - - w3 - -\nb2 - b3 - - - - -\n- - - - - - w4 -\n- - - - - - w4 -\n- - - - - - - -\n- - b2 b3 w3 - - -\n- - - b2 - - - -\nb3 w2 - - b4 - - b8",
+      "solution": "",
+      "source": "https://www.puzzle-shingoki.com/?size=2",
+      "info": "7x7 Easy Shingoki",
+      "fetched_at": "2026-08-27T11:02:16+00:00"
+    },
+    "size3_6573619": {
+      "problem": "8 8\n- - - w5 - - - -\n- - - b4 - - - -\nb4 - - b2 - b4 - -\nb4 w2 - - - w3 - -\n- b2 - - - - - -\n- - - b3 - - b3 -\n- - - - - - - -\nb6 - - - - - b2 -",
+      "solution": "",
+      "source": "https://www.puzzle-shingoki.com/?size=3",
+      "info": "7x7 Normal Shingoki",
+      "fetched_at": "2026-08-27T11:02:16+00:00"
+    },
+    "size4_6603315": {
+      "problem": "8 8\n- - - w5 - - - -\nw2 - - - - w3 - -\n- - - - - - - -\n- - - - - - - -\n- - - b3 w3 w2 - -\n- - w2 - - - b2 b2\nb4 - - b2 b2 - b2 -\n- - - - - - b2 -",
+      "solution": "",
+      "source": "https://www.puzzle-shingoki.com/?size=4",
+      "info": "7x7 Hard Shingoki",
+      "fetched_at": "2026-08-27T11:02:16+00:00"
+    },
+    "size6_641195": {
+      "problem": "11 11\n- - - w6 - - - - - w3 -\n- b2 - - - b6 w4 - - - -\n- - - - - w3 - - - w3 -\n- - - - - - - - w2 - -\n- - b3 - - - - w3 - - w6\nb2 - - b3 b4 - - - - b2 -\nb2 - - - - - - - - - -\n- - w3 - b3 - - - b4 - b4\n- - - - w2 - w2 - - - -\n- - - - - - b2 - - - w3\n- b2 - w3 - - - w2 - - -",
+      "solution": "",
+      "source": "https://www.puzzle-shingoki.com/?size=6",
+      "info": "10x10 Normal Shingoki",
+      "fetched_at": "2026-08-27T11:02:16+00:00"
+    },
+    "size7_5300205": {
+      "problem": "11 11\nb7 w6 - - - - - b3 b2 b2 -\n- - - - w2 - - - - - -\n- - w2 - - b2 - - - - -\nw4 - - - - - - b2 - - -\n- b3 b4 - - - b2 - b4 - -\n- - - - - - - - - - -\n- - - - - w4 - - - - -\n- - - - w3 - - - - - b2\nb2 - - - - - - - - - -\n- - b4 - - - - - - - b2\n- b5 - - - - b6 b3 - b2 -",
+      "solution": "",
+      "source": "https://www.puzzle-shingoki.com/?size=7",
+      "info": "10x10 Hard Shingoki",
+      "fetched_at": "2026-08-27T11:02:16+00:00"
+    },
+    "size8_7884662": {
+      "problem": "16 16\n- - - b7 - - - - - - - - w6 - - -\nb4 - - w4 - b4 - b6 - - - - - - - w3\n- - - - - - w3 - w2 - - w2 - - - -\n- b2 b2 - - - - - - b2 b2 - b2 - - -\n- - - - - - w2 - - - - - - - w3 -\n- - b2 b3 - w2 - b3 - - - - - - b5 -\nw8 b4 - - - - b3 - b3 - - b3 - - - -\n- - - - - - - - - - - - - w2 - -\n- - - w3 - - - - - - - - - - b5 -\n- - - b3 - - - - - - - - - b5 - b6\n- - b2 - - w4 w5 w5 - - - w3 - - - b2\n- - b2 - w3 - - - - - - b5 - - w4 -\n- - b3 - - - - - b3 - - - - - - -\n- - - - w4 - - - - w2 - w2 - b2 - -\n- - - - - - - - w7 - - - - - - w3\n- - w10 - - - - - - - b11 - - b2 b2 -",
+      "solution": "",
+      "source": "https://www.puzzle-shingoki.com/?size=8",
+      "info": "15x15 Easy Shingoki",
+      "fetched_at": "2026-08-27T11:02:16+00:00"
+    },
+    "size9_164333": {
+      "problem": "16 16\nb7 b2 - - - - - - b2 b6 - - - - - -\n- - - - b2 - - - - - - b2 - - b2 -\n- - - - - b2 w2 - b3 - - - - - - -\n- b2 - - - - - - w2 w5 b4 b3 b2 b2 - -\n- b2 - - b4 w3 - - b4 - - w2 - - - w9\n- - - - - - - b4 - - b6 - b2 b5 - -\n- - b2 - w3 b4 - - - - - - - - - -\nb2 - - - b4 - w3 - b3 - - - - - - -\n- b2 w2 - b3 - - - - - - - - - w7 -\n- - - b2 w2 - - - - - - - w4 - - -\n- b2 - w2 - - - b3 b3 - - - - - - b12\n- - - - - - - b5 - - - - - - - -\n- - b3 - b2 - - w6 - - - - - b3 - b2\n- - - - - - w6 - - - - b2 - - b2 -\n- - - w7 - - - - - b8 - - - b5 - -\n- - - - - - - - w13 - - - - - b14 -",
+      "solution": "",
+      "source": "https://www.puzzle-shingoki.com/?size=9",
+      "info": "15x15 Normal Shingoki",
+      "fetched_at": "2026-08-27T11:02:16+00:00"
     }
   }
 }
