@@ -1,6 +1,6 @@
 {
   "name": "Shingoki",
-  "count": 499,
+  "count": 500,
   "count_sol": 0,
   "data": {
     "size10_236183": {
@@ -3495,6 +3495,13 @@
       "source": "https://www.puzzle-shingoki.com/?size=17",
       "info": "Special Daily Shingoki (2026-09-10)",
       "fetched_at": "2026-09-10T05:44:20+00:00"
+    },
+    "size0_72843": {
+      "problem": "6 6\n- - - w5 - -\n- b4 - b2 - -\n- - - - - -\n- w3 - - w2 b3\n- - - - - -\nb9 - - - - -",
+      "solution": "",
+      "source": "https://www.puzzle-shingoki.com/?size=0",
+      "info": "5x5 Easy Shingoki",
+      "fetched_at": "2026-09-10T14:42:44+00:00"
     }
   }
 }
