@@ -51,11 +51,11 @@ jobs:
       - name: Store health check
         run: bash tools/puzzle-scraper/scripts/health_check.sh --ci
 
-      - name: Commit scraped puzzles
+      - name: Commit daily shards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/scraped/
+          git add -- ':(glob)assets/data/*/*_dataset_[0-9][0-9][0-9].json'
           if git diff --staged --quiet; then
             echo "No store changes"
           else
