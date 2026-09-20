@@ -13,7 +13,7 @@ from lib.store import build_problem
 
 SITE = "https://www.puzzle-tapa.com"
 REPO_ROOT = TOOLS_DIR.parent.parent
-OUTPUT_DIR = REPO_ROOT / "assets" / "scraped" / "tapa"
+OUTPUT_DIR = REPO_ROOT / "assets" / "data" / "Tapa"
 DEFAULT_SIZES = [1, 3, 4, 5, 6, 7, 8, 9, 10]
 
 EXPECTED_DIMS = {
@@ -42,7 +42,7 @@ _RE_TITLE_DATE = re.compile(r"\((\d{4}-\d{2}-\d{2})\)")
 SPEC = ScraperSpec(
     name="Tapa",
     site=SITE,
-    file_prefix="tapa",
+    file_prefix="Tapa_dataset",
     default_sizes=DEFAULT_SIZES,
     output_dir=OUTPUT_DIR,
     description="Scrape puzzle-tapa.com Tapa puzzles into a rolling JSON store.",

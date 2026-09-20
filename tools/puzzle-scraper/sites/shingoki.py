@@ -13,7 +13,7 @@ from lib.store import build_problem
 
 SITE = "https://www.puzzle-shingoki.com"
 REPO_ROOT = TOOLS_DIR.parent.parent
-OUTPUT_DIR = REPO_ROOT / "assets" / "scraped" / "shingoki"
+OUTPUT_DIR = REPO_ROOT / "assets" / "data" / "Shingoki"
 DEFAULT_SIZES = list(range(0, 20))
 
 _RE_TASK = re.compile(r"var task = '([^']+)'")
@@ -29,7 +29,7 @@ _RE_PUZZLE_DATE = re.compile(r'<select name="date"><option[^>]*value="(\d{4}-\d{
 SPEC = ScraperSpec(
     name="Shingoki",
     site=SITE,
-    file_prefix="shingoki",
+    file_prefix="Shingoki_dataset",
     default_sizes=DEFAULT_SIZES,
     output_dir=OUTPUT_DIR,
     description="Scrape puzzle-shingoki.com puzzles into a rolling JSON store.",

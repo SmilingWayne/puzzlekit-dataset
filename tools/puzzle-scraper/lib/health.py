@@ -6,17 +6,17 @@ import json
 from pathlib import Path
 
 STORES: tuple[tuple[str, str], ...] = (
-    ("masyu", "masyu"),
-    ("shingoki", "shingoki"),
-    ("shakashaka", "shakashaka"),
-    ("hashi", "hashi"),
-    ("tapa", "tapa"),
-    ("lits", "lits"),
+    ("Masyu", "Masyu_dataset"),
+    ("Shingoki", "Shingoki_dataset"),
+    ("Shakashaka", "Shakashaka_dataset"),
+    ("Hashi", "Hashi_dataset"),
+    ("Tapa", "Tapa_dataset"),
+    ("LITS", "LITS_dataset"),
 )
 
 
 def store_dir(repo_root: Path, kind: str) -> Path:
-    return repo_root / "assets" / "scraped" / kind
+    return repo_root / "assets" / "data" / kind
 
 
 def store_files(repo_root: Path, kind: str, prefix: str) -> list[Path]:
@@ -116,7 +116,7 @@ def main(argv: list[str] | None = None) -> int:
     import argparse
     from datetime import datetime, timezone
 
-    parser = argparse.ArgumentParser(description="Validate assets/scraped rolling JSON stores")
+    parser = argparse.ArgumentParser(description="Validate rolling daily shard JSON stores")
     parser.add_argument(
         "--root",
         type=Path,

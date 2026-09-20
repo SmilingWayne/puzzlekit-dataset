@@ -4,7 +4,7 @@ description: >-
   Operates and troubleshoots puzzlekit-dataset daily puzzle scrapers (Masyu,
   Shingoki, Shakashaka, Hashi, Tapa, LITS) under tools/puzzle-scraper/. Use when the user mentions daily scrape,
   GitHub Actions, launchd, puzzle-scraper, scrape_masyu, scrape_shingoki, scrape_shakashaka,
-  scrape_hashi, scrape_tapa, scrape_lits, assets/scraped/, ingest/daily, or debugging automated puzzle collection from
+  scrape_hashi, scrape_tapa, scrape_lits, assets/data shards, ingest/daily, or debugging automated puzzle collection from
   puzzle-masyu.com / puzzle-shingoki.com / puzzle-shakashaka.com / puzzle-bridges.com / puzzle-tapa.com / puzzle-lits.com.
 ---
 
@@ -31,12 +31,12 @@ tools/puzzle-scraper/
 
 .github/workflows/daily-scrape.yml
 
-assets/scraped/masyu/     masyu_NNN.json
-assets/scraped/shingoki/  shingoki_NNN.json
-assets/scraped/shakashaka/  shakashaka_NNN.json
-assets/scraped/hashi/     hashi_NNN.json
-assets/scraped/tapa/      tapa_NNN.json
-assets/scraped/lits/      lits_NNN.json
+assets/data/Masyu/          Masyu_dataset_YYY.json
+assets/data/Shingoki/       Shingoki_dataset_YYY.json
+assets/data/Shakashaka/     Shakashaka_dataset_YYY.json
+assets/data/Hashi/          Hashi_dataset_YYY.json
+assets/data/Tapa/           Tapa_dataset_YYY.json
+assets/data/LITS/           LITS_dataset_YYY.json
 ```
 
 `*.jsonl` 是本地调试日志，**不入库、不参与 catch-up / health**。去重看滚动 JSON 里的 `case_id` 与 `problem`。
@@ -88,24 +88,20 @@ python3 -m pytest tests/puzzle_scraper -q
 
 ## 去重与滚动存储（验证要点）
 
-每次 `--write` 前扫描该站点目录下**全部** `*_NNN.json`：
+每次 `--write` 前扫描该站点全部分片，以及冻结的 `{Puzzle}_dataset.json`：
 
-1. **case_id 重复** → `SKIP duplicate id …`
-2. **problem 文本重复** → `SKIP duplicate problem`
+1. **problem 文本重复**（含主库） → `SKIP duplicate problem`
+2. 页面没有 Puzzle ID / 日期 → `SKIP no puzzle id on page`
 
-case_id 规则（站点原生，见 `sites/*.py` 的 `make_case_id`）：
-- 随机题：`size{N}_{puzzleID}`
-- Daily/Weekly/Monthly：`size{N}_{YYYY-MM-DD}`（来自页面 date 选择器；**不是** `loadedId`）
+case_id 规则：`{rows}x{cols}_{seq:04d}_{PuzzleID|YYYY-MM-DD|N}`（棋盘尺寸来自 problem 首行，不是 `?size=`）。
 
-历史遗留 `size{N}_0`：写入时会自动升级为 `size{N}_{date}`（从 `info` 括号内日期推断）。
-
-单文件上限 **500** 条（`lib/store.py` 的 `MAX_PER_FILE`），满后自动 `masyu_002.json` 等。
+单文件上限 **500** 条（`lib/store.py` 的 `MAX_PER_FILE`），从 `_000.json` 起滚动。也会跳过冻结的 `{Puzzle}_dataset.json` 里已有的 problem。
 
 ## GitHub Actions
 
 Workflow：`.github/workflows/daily-scrape.yml`
 
-- 结果 **commit 回 `ingest/daily`** 的 `assets/scraped/`，不自动开 PR，不写 `assets/data/`。
+- 结果 **commit 回 `ingest/daily`** 的 `assets/data/*/*_dataset_YYY.json`，不自动开 PR，不改冻结的 `{Puzzle}_dataset.json`。
 - `schedule` 只在 workflow 文件出现在 **默认分支 `main`** 之后才会定时触发。
 - 合并到 `main` 之前：push `ingest/daily`，在 Actions 里 **Run workflow**（选这个分支）做一次真跑。
 
@@ -158,7 +154,7 @@ Workflow：`.github/workflows/daily-scrape.yml`
 1. 新增 `sites/<name>.py`（实现 `extract`, `build_case`, `make_case_id`, `SPEC`）
 2. 新增 `bin/scrape_<name>.py`（薄入口，复制现有 bin 文件改 import）
 3. 在 `run_daily.sh` 注册；在 `lib/health.py` 的 `STORES` 加一行
-4. 输出目录 `assets/scraped/<name>/`
+4. 输出目录 `assets/data/{PuzzleName}/`
 5. 在本 skill 补充一行「预期结果」
 
 ## 更多参考

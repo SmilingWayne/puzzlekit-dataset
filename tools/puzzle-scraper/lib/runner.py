@@ -11,7 +11,19 @@ from pathlib import Path
 from typing import Any
 
 from lib.fetch import fetch_page
-from lib.store import apply_case_id_upgrades, legacy_zero_case_id, load_all_stores, store_cases, upgrade_legacy_zero_ids
+from lib.store import (
+    allocate_case_id,
+    apply_case_id_upgrades,
+    grid_rows_cols,
+    legacy_zero_case_id,
+    load_all_stores,
+    merge_legacy_into_fingerprints,
+    next_seqs,
+    normalize_problem,
+    site_ref_from_raw,
+    store_cases,
+    upgrade_legacy_zero_ids,
+)
 
 
 @dataclass(frozen=True)
@@ -51,6 +63,8 @@ def run_scraper(
             print(f"UPGRADE {old} -> {new}")
 
     fingerprints = load_all_stores(out_dir, spec.file_prefix)
+    merge_legacy_into_fingerprints(fingerprints, spec.name, out_dir)
+    seq_counters = next_seqs(fingerprints["case_id"])
 
     added: list[tuple[int, str, dict]] = []
     upgrades: list[tuple[str, str, dict]] = []
@@ -77,7 +91,6 @@ def run_scraper(
                 print(f"size={size:>2}  WARNING dims {raw['dims']} != expected {expected} (site changed?)")
 
         dims = raw["dims"]
-        cid = case_id(raw, size)
         why = None
         try:
             case = build_case(raw, url, fetched_at)
@@ -86,34 +99,39 @@ def run_scraper(
             details[str(size)] = f"INVALID {exc}"
             print(f"size={size:>2}  INVALID {exc}")
             continue
-        if cid is None:
+        site_ref = site_ref_from_raw(raw)
+        problem_key = case["problem"]
+        problem_norm = normalize_problem(problem_key)
+        if site_ref == "N":
             why = "no puzzle id on page"
-        elif cid in fingerprints["case_id"]:
-            why = f"duplicate id {cid}"
-        elif case["problem"] in fingerprints["problem"]:
-            existing_id = fingerprints["problem_to_id"].get(case["problem"])
+        elif problem_key in fingerprints["problem"] or problem_norm in fingerprints["problem"]:
+            existing_id = fingerprints["problem_to_id"].get(problem_key)
+            legacy_cid = case_id(raw, size) if case_id is not None else None
             if (
                 existing_id
                 and legacy_zero_case_id(existing_id)
-                and cid
-                and not legacy_zero_case_id(cid)
+                and legacy_cid
+                and not legacy_zero_case_id(legacy_cid)
             ):
-                upgrades.append((existing_id, cid, case))
-                details[str(size)] = f"UPGRADE {existing_id} -> {cid}"
-                print(f"size={size:>2}  UPGRADE {existing_id} -> {cid}")
-            else:
-                why = "duplicate problem"
+                upgrades.append((existing_id, legacy_cid, case))
+                details[str(size)] = f"UPGRADE {existing_id} -> {legacy_cid}"
+                print(f"size={size:>2}  UPGRADE {existing_id} -> {legacy_cid}")
+                continue
+            why = "duplicate problem"
         if why:
             skipped.append((size, why))
             details[str(size)] = f"SKIP {why}"
             print(f"size={size:>2}  SKIP    {why}")
             continue
 
+        rows, cols = grid_rows_cols(dims)
+        cid = allocate_case_id(rows, cols, site_ref, seq_counters)
         added.append((size, cid, case))
         fingerprints["case_id"].add(cid)
-        fingerprints["problem"].add(case["problem"])
-        details[str(size)] = f"NEW {cid} {dims[0]}x{dims[1]} {raw.get('ident')}"
-        print(f"size={size:>2}  NEW     {cid:<24} {dims[0]}x{dims[1]} {raw.get('ident')}")
+        fingerprints["problem"].add(problem_key)
+        fingerprints["problem"].add(problem_norm)
+        details[str(size)] = f"NEW {cid} {rows}x{cols} {raw.get('ident')}"
+        print(f"size={size:>2}  NEW     {cid:<32} {rows}x{cols} {raw.get('ident')}")
 
     run_secs = round(time.monotonic() - t0, 1)
     print(f"\nadded={len(added)} upgraded={len(upgrades)} skipped={len(skipped)} failed={len(failed)}")

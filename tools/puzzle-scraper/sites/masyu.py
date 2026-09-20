@@ -13,7 +13,7 @@ from lib.store import build_problem
 
 SITE = "https://www.puzzle-masyu.com"
 REPO_ROOT = TOOLS_DIR.parent.parent
-OUTPUT_DIR = REPO_ROOT / "assets" / "scraped" / "masyu"
+OUTPUT_DIR = REPO_ROOT / "assets" / "data" / "Masyu"
 
 EXPECTED_DIMS = {
     1: (8, 8),
@@ -51,7 +51,7 @@ _RE_PUZZLE_DATE = re.compile(r'<select name="date"><option[^>]*value="(\d{4}-\d{
 SPEC = ScraperSpec(
     name="Masyu",
     site=SITE,
-    file_prefix="masyu",
+    file_prefix="Masyu_dataset",
     default_sizes=DEFAULT_SIZES,
     output_dir=OUTPUT_DIR,
     description="Scrape puzzle-masyu.com puzzles into a rolling JSON store.",

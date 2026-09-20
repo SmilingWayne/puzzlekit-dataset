@@ -8,7 +8,7 @@
   "count": 17,
   "count_sol": 0,
   "data": {
-    "size6_4172124": {
+    "8x8_0001_4172124": {
       "problem": "10 10\n…",
       "solution": "",
       "source": "https://www.puzzle-masyu.com/?size=6",
@@ -19,7 +19,7 @@
 }
 ```
 
-`assets/data/` 下的正式数据集与 `assets/scraped/` **隔离**；scraped 为每日归档，合并入主库需单独流程。
+`assets/data/{Puzzle}_dataset.json` 是冻结主库；日频只追加 `{Puzzle}_dataset_YYY.json` 分片。
 
 Health check 用 `fetched_at` 的 UTC 日期前缀统计「今天新写入」；不读 jsonl。
 
@@ -30,7 +30,7 @@ Health check 用 `fetched_at` 的 UTC 日期前缀统计「今天新写入」；
 | Workflow | `.github/workflows/daily-scrape.yml` |
 | 触发 | 01:00、11:00 UTC；`workflow_dispatch` |
 | Checkout / push | `ingest/daily` |
-| 写入路径 | `assets/scraped/**/*.json` |
+| 写入路径 | `assets/data/*/*_dataset_YYY.json` |
 
 ## launchd（可选本机备份）
 

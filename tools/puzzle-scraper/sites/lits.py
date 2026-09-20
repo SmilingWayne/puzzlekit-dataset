@@ -13,7 +13,7 @@ from lib.store import build_problem
 
 SITE = "https://www.puzzle-lits.com"
 REPO_ROOT = TOOLS_DIR.parent.parent
-OUTPUT_DIR = REPO_ROOT / "assets" / "scraped" / "lits"
+OUTPUT_DIR = REPO_ROOT / "assets" / "data" / "LITS"
 DEFAULT_SIZES = [3, 5, 6, 7, 8, 9, 10, 11, 12]
 
 EXPECTED_DIMS = {
@@ -42,7 +42,7 @@ _RE_TITLE_DATE = re.compile(r"\((\d{4}-\d{2}-\d{2})\)")
 SPEC = ScraperSpec(
     name="LITS",
     site=SITE,
-    file_prefix="lits",
+    file_prefix="LITS_dataset",
     default_sizes=DEFAULT_SIZES,
     output_dir=OUTPUT_DIR,
     description="Scrape puzzle-lits.com LITS puzzles into a rolling JSON store.",

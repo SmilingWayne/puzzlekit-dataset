@@ -2,7 +2,7 @@
 
 Shared scrapers for puzzle sites that embed game state in page HTML (`var task`, dims, puzzle ID).
 
-Daily ingest writes to `assets/scraped/` only. It does **not** merge into `assets/data/`.
+Daily ingest writes rolling shards under `assets/data/{Puzzle}/{Puzzle}_dataset_YYY.json`. It does **not** modify frozen `{Puzzle}_dataset.json` files.
 
 ## Layout
 
@@ -11,7 +11,7 @@ tools/puzzle-scraper/
   lib/              fetch, store, runner, health
   sites/            masyu.py, shingoki.py, shakashaka.py, hashi.py, tapa.py, lits.py
   bin/              scrape_masyu.py, scrape_shingoki.py, scrape_shakashaka.py, scrape_hashi.py, scrape_tapa.py, scrape_lits.py
-  scripts/          health_check.sh, verify_shingoki_write.sh
+  scripts/          health_check.sh, migrate_scraped_to_shards.py
   run_daily.sh      daily Masyu + Shingoki + Shakashaka + Hashi + Tapa + LITS
   install_launchd.sh  optional macOS fallback
   logs/             local launchd logs (gitignored)
@@ -43,25 +43,22 @@ python3 tools/puzzle-scraper/bin/scrape_tapa.py --write
 python3 tools/puzzle-scraper/bin/scrape_lits.py --write
 ```
 
-Outputs:
+Outputs (500 cases per file, index from `000`):
 
-- `assets/scraped/masyu/masyu_*.json`
-- `assets/scraped/shingoki/shingoki_*.json`
-- `assets/scraped/shakashaka/shakashaka_*.json`
-- `assets/scraped/hashi/hashi_*.json`
-- `assets/scraped/tapa/tapa_*.json`
-- `assets/scraped/lits/lits_*.json`
+- `assets/data/Masyu/Masyu_dataset_YYY.json`
+- `assets/data/Shingoki/Shingoki_dataset_YYY.json`
+- `assets/data/Shakashaka/Shakashaka_dataset_YYY.json`
+- `assets/data/Hashi/Hashi_dataset_YYY.json`
+- `assets/data/Tapa/Tapa_dataset_YYY.json`
+- `assets/data/LITS/LITS_dataset_YYY.json`
 
-`*.jsonl` run logs are gitignored and are not used by the daily catch-up or health checks.
+Case ids: `{rows}x{cols}_{seq:04d}_{sitePuzzleId|YYYY-MM-DD|N}`. `*.jsonl` run logs are gitignored.
 
 ## Deduplication and rolling files
 
-Before writing, every run scans **all** existing `*_NNN.json` files in the output directory and skips a puzzle when either:
+Before writing, every run scans **all** existing `{Puzzle}_dataset_YYY.json` shards and the frozen `{Puzzle}_dataset.json` (if present) and skips a puzzle when the normalized **`problem`** already exists.
 
-1. **`case_id` already exists** — e.g. `size6_8986819`, or `size13_2026-08-12` for daily specials
-2. **`problem` text already exists** — same decoded grid even if the site assigned a new ID
-
-Each JSON file holds at most **500** puzzles (`MAX_PER_FILE` in `lib/store.py`). When full, the next run creates `masyu_002.json`, `shingoki_002.json`, etc. Re-running the same day is safe: duplicates print `SKIP`.
+Each JSON file holds at most **500** puzzles (`MAX_PER_FILE` in `lib/store.py`). When full, the next run creates `_001.json`, `_002.json`, etc. Re-running the same day is safe: duplicates print `SKIP`.
 
 ## Health check
 
@@ -85,9 +82,9 @@ python3 -m pytest tests/puzzle_scraper -q
 2. Run decode/store/health unit tests
 3. Run `run_daily.sh`
 4. Validate rolling JSON stores
-5. Commit any `assets/scraped/` changes back to `ingest/daily`
+5. Commit shard files (`*_dataset_YYY.json` only) back to `ingest/daily`
 
-`schedule` only fires after this workflow exists on `main`. Until then, push `ingest/daily` and use **Actions → Daily puzzle scrape → Run workflow**.
+`schedule` only fires after this workflow exists on `main`. Cron reads the YAML on `main`; scripts come from `ingest/daily`.
 
 Local macOS launchd remains optional:
 
@@ -97,7 +94,7 @@ tools/puzzle-scraper/install_launchd.sh
 
 ## Adding a new puzzle type
 
-1. Add `sites/<name>.py` implementing `extract`, `build_case`, `make_case_id`, and `SPEC`.
+1. Add `sites/<name>.py` implementing `extract`, `build_case`, and `SPEC` (`output_dir` under `assets/data/{PuzzleName}`, `file_prefix="{PuzzleName}_dataset"`).
 2. Add `bin/scrape_<name>.py` thin entry.
 3. Register in `run_daily.sh` and `lib/health.py` (`STORES`).
-4. Output directory `assets/scraped/<name>/`.
+4. Output directory `assets/data/{PuzzleName}/`.

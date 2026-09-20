@@ -7,6 +7,13 @@ from pathlib import Path
 MAX_PER_FILE = 500
 _RE_LEGACY_ZERO_ID = re.compile(r"^size\d+_0$")
 _RE_INFO_DATE = re.compile(r"\((\d{4}-\d{2}-\d{2})\)")
+_RE_CASE_ID = re.compile(r"^(\d+)x(\d+)_(\d+)_(\d{4}-\d{2}-\d{2}|N|[0-9]+)$")
+_RE_OLD_ID = re.compile(r"^size\d+_(.+)$")
+_RE_BLANK_SITE_REF = {None, "", "0"}
+
+
+def shard_prefix(puzzle_name: str) -> str:
+    return f"{puzzle_name}_dataset"
 
 
 def build_problem(dims: tuple[int, int], cells: list[str]) -> str:
@@ -15,8 +22,85 @@ def build_problem(dims: tuple[int, int], cells: list[str]) -> str:
     return "\n".join([f"{h} {w}", *rows])
 
 
+def grid_rows_cols(dims: tuple[int, int]) -> tuple[int, int]:
+    """Map site (width, height) to dataset (rows, cols)."""
+    width, height = dims
+    return height, width
+
+
+def normalize_problem(problem: str) -> str:
+    lines = [line.strip() for line in problem.replace("\r\n", "\n").replace("\r", "\n").split("\n")]
+    return "\n".join(" ".join(line.split()) if line else "" for line in lines).strip()
+
+
+def format_case_id(rows: int, cols: int, seq: int, site_ref: str) -> str:
+    return f"{rows}x{cols}_{seq:04d}_{site_ref}"
+
+
+def parse_case_id(case_id: str) -> tuple[int, int, int, str] | None:
+    match = _RE_CASE_ID.fullmatch(case_id)
+    if not match:
+        return None
+    return int(match.group(1)), int(match.group(2)), int(match.group(3)), match.group(4)
+
+
+def site_ref_from_raw(raw: dict) -> str:
+    puzzle_id = raw.get("puzzle_id")
+    if puzzle_id not in _RE_BLANK_SITE_REF:
+        return str(puzzle_id)
+    puzzle_date = raw.get("puzzle_date")
+    if puzzle_date:
+        return str(puzzle_date)
+    loaded_id = raw.get("loaded_id")
+    if loaded_id not in _RE_BLANK_SITE_REF:
+        return str(loaded_id)
+    return "N"
+
+
+def site_ref_from_old_id(old_id: str) -> str:
+    match = _RE_OLD_ID.match(old_id)
+    return match.group(1) if match else "N"
+
+
+def next_seqs(case_ids: set[str] | list[str]) -> dict[tuple[int, int], int]:
+    counters: dict[tuple[int, int], int] = {}
+    for cid in case_ids:
+        parsed = parse_case_id(cid)
+        if parsed is None:
+            continue
+        rows, cols, seq, _ref = parsed
+        key = (rows, cols)
+        counters[key] = max(counters.get(key, 0), seq)
+    return counters
+
+
+def allocate_case_id(
+    rows: int,
+    cols: int,
+    site_ref: str,
+    counters: dict[tuple[int, int], int],
+) -> str:
+    key = (rows, cols)
+    seq = counters.get(key, 0) + 1
+    counters[key] = seq
+    return format_case_id(rows, cols, seq, site_ref)
+
+
+def legacy_problems(path: Path) -> set[str]:
+    if not path.is_file():
+        return set()
+    data = json.loads(path.read_text(encoding="utf-8"))
+    problems: set[str] = set()
+    for case in data.get("data", {}).values():
+        problem = case.get("problem") or ""
+        if problem:
+            problems.add(problem)
+            problems.add(normalize_problem(problem))
+    return problems
+
+
 def load_all_stores(out_dir: Path, file_prefix: str) -> dict:
-    """Return fingerprints of every already-scraped case."""
+    """Return fingerprints of every already-scraped shard case."""
     fingerprints: dict = {
         "case_id": set(),
         "problem": set(),
@@ -27,11 +111,18 @@ def load_all_stores(out_dir: Path, file_prefix: str) -> dict:
         for path in sorted(out_dir.glob(f"{file_prefix}_*.json")):
             data = json.loads(path.read_text(encoding="utf-8"))
             for cid, case in data.get("data", {}).items():
+                problem = case["problem"]
                 fingerprints["case_id"].add(cid)
-                fingerprints["problem"].add(case["problem"])
-                fingerprints["problem_to_id"][case["problem"]] = cid
+                fingerprints["problem"].add(problem)
+                fingerprints["problem"].add(normalize_problem(problem))
+                fingerprints["problem_to_id"][problem] = cid
                 fingerprints["id_location"][cid] = path
     return fingerprints
+
+
+def merge_legacy_into_fingerprints(fingerprints: dict, puzzle_name: str, out_dir: Path) -> None:
+    for problem in legacy_problems(out_dir / f"{puzzle_name}_dataset.json"):
+        fingerprints["problem"].add(problem)
 
 
 def legacy_zero_case_id(cid: str) -> bool:
@@ -98,7 +189,7 @@ def apply_case_id_upgrades(
 
 
 def target_store_path(existing_files: int, out_dir: Path, file_prefix: str) -> Path:
-    return out_dir / f"{file_prefix}_{existing_files + 1:03d}.json"
+    return out_dir / f"{file_prefix}_{existing_files:03d}.json"
 
 
 def save_store(path: Path, data: dict) -> None:

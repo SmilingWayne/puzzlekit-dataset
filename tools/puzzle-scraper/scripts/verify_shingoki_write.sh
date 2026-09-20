@@ -1,5 +1,5 @@
 #!/bin/zsh
-# Fetch all 20 Shingoki sizes (0..19) and write to assets/scraped/shingoki/.
+# Fetch default Shingoki sizes and write to assets/data/Shingoki/.
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
@@ -17,9 +17,9 @@ mkdir -p "$LOG_DIR"
 import json
 from pathlib import Path
 
-path = Path("assets/scraped/shingoki/shingoki_001.json")
+path = Path("assets/data/Shingoki/Shingoki_dataset_000.json")
 if not path.exists():
-  raise SystemExit("missing shingoki_001.json")
+  raise SystemExit("missing Shingoki_dataset_000.json")
 data = json.loads(path.read_text(encoding="utf-8"))
 keys = sorted(data["data"].keys())
 print(f"count={data['count']}")
