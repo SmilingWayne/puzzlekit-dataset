@@ -11,7 +11,7 @@ Preferred layout is numbered shards only:
 
 `count` / `count_sol` on a file describe **that file**, not the whole puzzle. Tools that need a corpus total union all shards (and a leftover monolith if present) in memory.
 
-Daily ingest writes **only** shard files.
+Daily scrape writes **only** shard files on the `ingest/daily` branch. Canonical `main` receives those cases through `python -m ingest promote`, not by merging the branch or checking out shard files.
 
 ## File-level object
 
@@ -22,7 +22,7 @@ Daily ingest writes **only** shard files.
 | `count_sol` | integer | yes | Cases with non-empty `solution` |
 | `data` | object | yes | Map of case id → case record |
 
-After cleaning or ingest, `count` must equal `len(data)` and `count_sol` must match cases with solutions.
+After cleaning, ingest, or promote, `count` must equal `len(data)` and `count_sol` must match cases with solutions. Empty `solution` is allowed (pending a later solver); those cases count in `count` but not `count_sol`.
 
 ## Case record
 
@@ -47,13 +47,30 @@ Examples: `8x8_0001_5483926`, `30x30_0003_2026-08-12`, `5x6_1222_N`.
 
 Daily ingest skips a case when the normalized `problem` already exists in any shard **or** in a leftover `{Puzzle}_dataset.json`.
 
+### Promote (append-only import)
+
+`python -m ingest promote` copies already-formed cases into the destination corpus:
+
+```bash
+python -m ingest promote --from-ref origin/ingest/daily          # dry-run
+python -m ingest promote --source /path/to/repo-or-assets/data
+python -m ingest promote --from-ref origin/ingest/daily --write --stats
+```
+
+- Default is dry-run. `--write` appends new cases onto the last shard (roll a new `_YYY` at 500). Earlier shards stay byte-identical.
+- If the destination still has only a leftover `{Puzzle}_dataset.json`, promote splits it once, then appends.
+- A puzzle that exists only in the source (e.g. Tapa) creates `{Puzzle}_dataset_000.json`.
+- Dedup: normalized `problem`, then `puzzlink_url` / `source` URLs that contain `puzz.link/p?`. Destination records are never updated (no filling empty solutions).
+- Case ids: keep the source id; suffix `_1` on collision.
+- Do **not** `git merge ingest/daily` into `main`. Do **not** `git checkout origin/ingest/daily -- assets/data/...` — shard numbering on the two branches may diverge; alignment is by problem fingerprint.
+
 ### Conventions
 
 - **Do not** replace `problem` / `solution` text with a puzz.link URL. URLs are pointers; text is the solver-facing canonical body.
 - **janko cases**: keep existing `source` and `problem` / `solution`; add `puzzlink_url` when encodable.
 - **puzz.link ingest (pilot)**: set `puzzlink_url`; `source` may remain `""` until provenance is curated.
 - **Pilot ingest**: default `--limit 200` on first run; use `--limit 0` for full catalog after review.
-- **Dedup**: prefer `puzzlink_url` equality, then normalized `problem` text (same rules as `cleaners`).
+- **Dedup**: prefer `puzzlink_url` equality, then normalized `problem` text. Promote uses exact problem text (not region isomorphism).
 
 ## Masyu text format
 

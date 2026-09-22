@@ -5,6 +5,7 @@ from pathlib import Path
 
 from cleaners.io import (
     MAX_PER_FILE,
+    append_cases,
     dataset_path,
     dump_dataset_file,
     file_payload,
@@ -202,3 +203,85 @@ def test_repack_keeps_legacy_first_on_dup(tmp_path: Path) -> None:
 
 def test_default_cap_is_500() -> None:
     assert MAX_PER_FILE == 500
+
+
+def test_append_leaves_earlier_shards_byte_identical(tmp_path: Path) -> None:
+    first = shard_path("Foo", 0, data_root=tmp_path)
+    dump_dataset_file(first, file_payload("Foo", {"a": _case("a"), "b": _case("b")}))
+    dump_dataset_file(
+        shard_path("Foo", 1, data_root=tmp_path),
+        file_payload("Foo", {"c": _case("c")}),
+    )
+    before = first.read_bytes()
+    result = append_cases(
+        "Foo",
+        [("d", _case("d"))],
+        data_root=tmp_path,
+        backup=False,
+        max_per_file=10,
+    )
+    assert first.read_bytes() == before
+    assert result.written == [shard_path("Foo", 1, data_root=tmp_path)]
+    second = json.loads(shard_path("Foo", 1, data_root=tmp_path).read_text())
+    assert list(second["data"]) == ["c", "d"]
+    assert second["count"] == 2
+
+
+def test_append_rolls_new_shard_when_last_is_full(tmp_path: Path) -> None:
+    first = shard_path("Foo", 0, data_root=tmp_path)
+    dump_dataset_file(first, file_payload("Foo", {"a": _case("a"), "b": _case("b")}))
+    before = first.read_bytes()
+    result = append_cases(
+        "Foo",
+        [("c", _case("c")), ("d", _case("d"))],
+        data_root=tmp_path,
+        backup=False,
+        max_per_file=2,
+    )
+    assert first.read_bytes() == before
+    assert [path.name for path in result.written] == ["Foo_dataset_001.json"]
+    second = json.loads(shard_path("Foo", 1, data_root=tmp_path).read_text())
+    assert list(second["data"]) == ["c", "d"]
+    assert second["count"] == 2
+
+
+def test_append_splits_monolith_then_appends(tmp_path: Path) -> None:
+    dump_dataset_file(
+        dataset_path("Foo", data_root=tmp_path),
+        file_payload("Foo", {"a": _case("a"), "b": _case("b"), "c": _case("c")}),
+    )
+    result = append_cases(
+        "Foo",
+        [("d", _case("d"))],
+        data_root=tmp_path,
+        backup=False,
+        max_per_file=2,
+    )
+    assert not dataset_path("Foo", data_root=tmp_path).is_file()
+    assert [path.name for path in result.split] == [
+        "Foo_dataset_000.json",
+        "Foo_dataset_001.json",
+    ]
+    loaded = load_dataset("Foo", data_root=tmp_path)
+    assert list(loaded["data"]) == ["a", "b", "c", "d"]
+    assert loaded["data"]["d"]["solution"] == ""
+
+
+def test_append_creates_first_shard_for_new_puzzle(tmp_path: Path) -> None:
+    result = append_cases(
+        "Bar",
+        [("a", _case("a"))],
+        data_root=tmp_path,
+        backup=False,
+    )
+    assert result.split == []
+    assert result.written == [shard_path("Bar", 0, data_root=tmp_path)]
+    assert not dataset_path("Bar", data_root=tmp_path).is_file()
+    loaded = load_dataset("Bar", data_root=tmp_path)
+    assert list(loaded["data"]) == ["a"]
+
+
+def test_append_empty_is_noop(tmp_path: Path) -> None:
+    result = append_cases("Bar", [], data_root=tmp_path, backup=False)
+    assert result.written == []
+    assert not shard_path("Bar", 0, data_root=tmp_path).is_file()

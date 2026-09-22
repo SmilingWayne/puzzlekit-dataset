@@ -1,1 +1,1 @@
-"""Puzz.link catalog ingest into puzzlekit-dataset JSON assets."""
+"""Puzz.link catalog ingest and append-only dataset promotion."""
