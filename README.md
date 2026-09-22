@@ -54,7 +54,7 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 47 | Hakoiri | 140 | 140 | 8x8~12x12 | 3 | region |
 | 48 | Hakyuu | 478 | 478 | 6x6~30x45 | 14 | region |
 | 49 | Hanare | 97 | 97 | 6x6~16x16 | 6 | region |
-| 50 | Hashi | 909 | 909 | 5x5~40x60 | 32 | base |
+| 50 | Hashi | 1515 | 909 | 5x5~40x60 | 36 | base |
 | 51 | Heyawake | 786 | 786 | 6x6~31x45 | 55 | region |
 | 52 | Hidoku | 510 | 510 | 6x6~10x10 | 5 | base |
 | 53 | Hitori | 941 | 941 | 4x4~25x25 | 13 | base |
@@ -69,12 +69,12 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 62 | Kuromasu | 537 | 537 | 5x5~31x45 | 13 | base |
 | 63 | Kuroshuto | 210 | 210 | 8x8~14x14 | 4 | base |
 | 64 | Kurotto | 229 | 229 | 8x8~19x27 | 12 | base |
-| 65 | LITS | 419 | 410 | 6x7~40x57 | 68 | region |
+| 65 | LITS | 830 | 410 | 6x7~50x50 | 71 | region |
 | 66 | Linesweeper | 310 | 310 | 4x4~16x16 | 16 | base |
 | 67 | Magnetic | 439 | 439 | 6x6~12x12 | 4 | rim |
 | 68 | Makaro | 190 | 190 | 8x8~15x15 | 4 | region |
 | 69 | MarginSudoku | 149 | 149 | 9x9 | 1 | rim |
-| 70 | Masyu | 3175 | 3175 | 2x2~100x100 | 187 | base |
+| 70 | Masyu | 4410 | 3175 | 2x2~100x100 | 188 | base |
 | 71 | Mathrax | 175 | 175 | 5x5~9x9 | 5 | ext |
 | 72 | Maze-a-pix | - | - | - | - | - |
 | 73 | Mejilink | 1 | 0 | 8x8 | 1 | base |
@@ -108,10 +108,10 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 101 | Rekuto | 220 | 220 | 8x8~14x14 | 6 | base |
 | 102 | Renban | 150 | 150 | 6x6~9x9 | 4 | region |
 | 103 | SamuraiSudoku | 270 | 270 | 21x21 | 1 | base |
-| 104 | Shakashaka | 367 | 367 | 8x8~22x30 | 73 | base |
+| 104 | Shakashaka | 821 | 367 | 5x5~50x50 | 78 | base |
 | 105 | Shikaku | 496 | 496 | 7x7~50x40 | 34 | base |
 | 106 | Shimaguni | 265 | 265 | 6x6~30x45 | 15 | region |
-| 107 | Shingoki | 103 | 103 | 6x6~41x41 | 8 | base |
+| 107 | Shingoki | 1538 | 103 | 6x6~41x41 | 9 | base |
 | 108 | Shirokuro | 110 | 110 | 10x10~17x17 | 4 | base |
 | 109 | ShogunSudoku | 90 | 90 | 21x45 | 1 | base |
 | 110 | Shugaku | 126 | 126 | 6x6~30x45 | 23 | base |
@@ -130,21 +130,22 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 123 | Suguru | 200 | 200 | 6x6~10x10 | 5 | region |
 | 124 | Sukoro | 140 | 140 | 6x6~12x12 | 4 | base |
 | 125 | SumoSudoku | 110 | 110 | 33x33 | 1 | base |
-| 126 | Tatamibari | 150 | 150 | 8x8~14x14 | 4 | base |
-| 127 | TennerGrid | 362 | 361 | 6x10 | 1 | base |
-| 128 | Tent | 699 | 699 | 8x12~30x30 | 14 | rim |
-| 129 | TerraX | 80 | 80 | 6x6~17x17 | 6 | region |
-| 130 | Thermometer | 250 | 250 | 6x6~10x10 | 3 | s2 |
-| 131 | TilePaint | 377 | 377 | 10x10~16x16 | 4 | rim |
-| 132 | Trinairo | 60 | 60 | 6x6~12x12 | 3 | base |
-| 133 | Tripletts | 190 | 190 | 3x4~10x12 | 6 | region |
-| 134 | Usoone | 129 | 129 | 8x8~30x45 | 9 | region |
-| 135 | WindmillSudoku | 150 | 150 | 21x21 | 1 | base |
-| 136 | Yajikabe | 100 | 100 | 6x6~17x17 | 6 | base |
-| 137 | Yajilin | 607 | 607 | 7x7~39x57 | 118 | base |
-| 138 | YinYang | 170 | 170 | 6x6~14x14 | 5 | base |
-| 139 | Yonmasu | 120 | 120 | 6x6~10x10 | 5 | base |
-| | **Total** | **48063** | **47918** | - | - | - |
+| 126 | Tapa | 417 | 0 | 6x6~35x35 | 7 | - |
+| 127 | Tatamibari | 150 | 150 | 8x8~14x14 | 4 | base |
+| 128 | TennerGrid | 362 | 361 | 6x10 | 1 | base |
+| 129 | Tent | 699 | 699 | 8x12~30x30 | 14 | rim |
+| 130 | TerraX | 80 | 80 | 6x6~17x17 | 6 | region |
+| 131 | Thermometer | 250 | 250 | 6x6~10x10 | 3 | s2 |
+| 132 | TilePaint | 377 | 377 | 10x10~16x16 | 4 | rim |
+| 133 | Trinairo | 60 | 60 | 6x6~12x12 | 3 | base |
+| 134 | Tripletts | 190 | 190 | 3x4~10x12 | 6 | region |
+| 135 | Usoone | 129 | 129 | 8x8~30x45 | 9 | region |
+| 136 | WindmillSudoku | 150 | 150 | 21x21 | 1 | base |
+| 137 | Yajikabe | 100 | 100 | 6x6~17x17 | 6 | base |
+| 138 | Yajilin | 607 | 607 | 7x7~39x57 | 118 | base |
+| 139 | YinYang | 170 | 170 | 6x6~14x14 | 5 | base |
+| 140 | Yonmasu | 120 | 120 | 6x6~10x10 | 5 | base |
+| | **Total** | **52621** | **47918** | - | - | - |
 <!-- INJECT STATS-->
 
 ## Cleaning
@@ -183,6 +184,26 @@ The **Pipeline** column in the table above matches [`cleaners/registry.py`](clea
 | (omit) | — | Skipped by `run --all` |
 
 After `pytest` and a dry-run look good, use `--write` and record the run in [`docs/CHANGELOG.md`](docs/CHANGELOG.md). Machine reports: `cleaners/reports/{timestamp}_{Puzzle}.json` (gitignored).
+
+## Promote
+
+Fold already-formed JSON (daily harvests, dumps, another checkout) into `assets/data` **without** merging git branches. Empty `solution` is kept; `#. sols.` only counts non-empty solutions.
+
+```bash
+# Dry-run against the ingest/daily branch
+python -m ingest promote --from-ref origin/ingest/daily
+
+# One puzzle from a directory or a single JSON file
+python -m ingest promote --source /path/to/assets/data --puzzle Masyu
+python -m ingest promote --source /path/to/Tapa_dataset_000.json
+
+# Append onto shards and refresh the table above
+python -m ingest promote --from-ref origin/ingest/daily --write --stats
+```
+
+`--source` accepts a repo root, `assets/data`, one puzzle folder, or one `*_dataset*.json`. Reports go to `ingest/reports/` (gitignored). Do not merge `ingest/daily` into `main`, and do not checkout shard files from that branch over this corpus.
+
+Puzz.link catalog ingest (`python -m ingest masyu`) still solves with PuzzleKit and is separate; see [`AGENTS.md`](AGENTS.md).
 
 ## Formats
 

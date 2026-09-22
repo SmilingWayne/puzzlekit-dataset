@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import re
 import shutil
+from dataclasses import dataclass, field
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -12,6 +13,15 @@ DATA_ROOT = REPO_ROOT / "assets" / "data"
 
 MAX_PER_FILE = 500
 _SHARD_NAME = re.compile(r"^(.+)_dataset_(\d{3})\.json$")
+
+
+@dataclass
+class AppendResult:
+    """Paths touched by :func:`append_cases`."""
+
+    written: list[Path] = field(default_factory=list)
+    split: list[Path] = field(default_factory=list)
+    name: str = ""
 
 
 def puzzle_dir(puzzle_name: str, *, data_root: Path | None = None) -> Path:
@@ -277,6 +287,67 @@ def split_monolith_to_shards(
         index += 1
     legacy.unlink()
     return written
+
+
+def append_cases(
+    puzzle_name: str,
+    new_cases: list[tuple[str, dict]] | dict[str, dict],
+    *,
+    data_root: Path | None = None,
+    backup: bool = True,
+    max_per_file: int | None = None,
+) -> AppendResult:
+    """Append cases onto the newest shard; never rewrite earlier shards.
+
+    If only a leftover monolith exists, split it first. If neither monolith
+    nor shards exist, create ``{name}_dataset_000.json``. Empty ``new_cases``
+    is a no-op (no empty file is created).
+    """
+    cap = MAX_PER_FILE if max_per_file is None else max_per_file
+    items = (
+        list(new_cases.items())
+        if isinstance(new_cases, dict)
+        else list(new_cases)
+    )
+    result = AppendResult(name=puzzle_name)
+    if not items:
+        return result
+
+    shards = shard_paths(puzzle_name, data_root=data_root)
+    legacy = dataset_path(puzzle_name, data_root=data_root)
+    if not shards and legacy.is_file():
+        result.split = split_monolith_to_shards(
+            puzzle_name, data_root=data_root, max_per_file=cap
+        )
+        shards = shard_paths(puzzle_name, data_root=data_root)
+
+    remaining = items
+    if shards:
+        last = shards[-1]
+        payload = _load_json(last)
+        name = str(payload.get("name") or puzzle_name)
+        result.name = name
+        existing = dict(payload.get("data") or {})
+        capacity = cap - len(existing)
+        take, remaining = remaining[: max(capacity, 0)], remaining[max(capacity, 0) :]
+        if take:
+            for cid, case in take:
+                existing[cid] = case
+            _write_if_changed(last, file_payload(name, existing), backup=backup)
+            result.written.append(last)
+        next_index = _next_shard_index(shards, puzzle_name)
+    else:
+        name = puzzle_name
+        result.name = name
+        next_index = 0
+
+    while remaining:
+        take, remaining = remaining[:cap], remaining[cap:]
+        path = shard_path(puzzle_name, next_index, data_root=data_root)
+        next_index += 1
+        dump_dataset_file(path, file_payload(name, dict(take)))
+        result.written.append(path)
+    return result
 
 
 def cases_legacy_then_shards(

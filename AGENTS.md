@@ -17,7 +17,7 @@ Public corpus of logic-puzzle instances (~40k cases, 100+ types) for [PuzzleKit]
 **Source of truth for puzzle data:** `assets/data/{PuzzleName}/` — numbered shards `{PuzzleName}_dataset_YYY.json` (500 cases per file, `YYY` from `000`). A leftover `{PuzzleName}_dataset.json` monolith may still exist during migration; do not treat it as a second copy of the same cases.  
 **Do not read entire JSON files in bulk** — they are large; spot-check 2–3 cases when unsure.
 
-Legacy one-off ingest may still exist under `crawlers/`. **Current maintenance path:** add/merge data → register in [`cleaners/registry.py`](cleaners/registry.py) if needed → `python -m cleaners run` (dry-run first).
+Legacy one-off ingest may still exist under `crawlers/`. **Current maintenance path:** promote already-formed JSON into shards (`python -m ingest promote`, dry-run first) → register in [`cleaners/registry.py`](cleaners/registry.py) if needed → `python -m cleaners run` (dry-run first). Do not merge the `ingest/daily` git branch into `main`, and do not `git checkout` shard files from that branch over the canonical corpus.
 
 ---
 
@@ -85,12 +85,24 @@ load JSON → normalize text → validate layout → dedupe → report → optio
 
 ## Typical agent workflows
 
-### Inspect or clean one puzzle
+### Promote harvest JSON into shards
+
+```bash
+python -m ingest promote --from-ref origin/ingest/daily
+python -m ingest promote --from-ref origin/ingest/daily --write --stats
+```
 
 ```bash
 python -m cleaners run --puzzle YourPuzzle          # dry-run
 python -m cleaners run --puzzle YourPuzzle --changelog
 python -m cleaners run --puzzle YourPuzzle --write  # only after review
+```
+
+### Promote harvest JSON into shards
+
+```bash
+python -m ingest promote --from-ref origin/ingest/daily
+python -m ingest promote --from-ref origin/ingest/daily --write --stats
 ```
 
 ### Register an existing layout family
@@ -152,17 +164,27 @@ README rows with Pipeline `-` or missing folders: no automated cleaning until mo
 | Grid normalization | [`cleaners/contracts/normalization.py`](cleaners/contracts/normalization.py) |
 | Region / rim logic | [`cleaners/contracts/region_layout.py`](cleaners/contracts/region_layout.py), [`rim.py`](cleaners/contracts/rim.py) |
 | Tests | [`tests/cleaners/test_pipeline_contracts.py`](tests/cleaners/test_pipeline_contracts.py) |
+| Promote | [`ingest/promote.py`](ingest/promote.py), [`ingest/cli.py`](ingest/cli.py) |
 
-Optional future work (not required for basic tasks): solver/parser validation against PuzzleKit; unified ingest beyond `crawlers/`.
+Optional future work (not required for basic tasks): solver/parser validation against PuzzleKit; filling empty `solution` fields after uniqueness checks.
 
-**Puzz.link ingest:** see [`ingest/`](ingest/) and [`docs/SCHEMA.md`](docs/SCHEMA.md). Run from repo root with a venv that has `puzzlekit` + `ortools` (see `requirements-ingest.txt`). Example:
+**Promote (no solver):** copy new cases from any dataset JSON tree (including `origin/ingest/daily`) onto the last dest shard. Empty solutions stay empty; existing dest cases are never rewritten. See [`docs/SCHEMA.md`](docs/SCHEMA.md).
+
+```bash
+python -m ingest promote --from-ref origin/ingest/daily
+python -m ingest promote --source /path/to/assets/data --puzzle Masyu
+python -m ingest promote --from-ref origin/ingest/daily --write --stats
+```
+
+Default is dry-run. `--write` appends only; `--stats` refreshes the README table after a write. Do **not** merge `ingest/daily` into `main`.
+
+**Puzz.link catalog ingest (solves):** see [`ingest/`](ingest/). Needs a venv with `puzzlekit` + `ortools` (`requirements-ingest.txt`):
 
 ```bash
 PYTHONPATH=../puzzlekit/src python -m ingest masyu              # pilot: first 200 catalog rows (default)
 PYTHONPATH=../puzzlekit/src python -m ingest masyu --limit 0    # full catalog (after pilot looks good)
 PYTHONPATH=../puzzlekit/src python -m ingest masyu --write      # merge into assets
 PYTHONPATH=../puzzlekit/src python -m ingest slitherlink --write
-python -m cleaners run --puzzle Masyu --write
 ```
 
 ---
@@ -175,6 +197,9 @@ Need to understand a puzzle's text format?
 
 Need to clean or validate data?
   → README § Cleaning → registry.py for pipeline
+
+Need to fold harvest JSON (ingest/daily or other dumps) into main?
+  → `python -m ingest promote` (dry-run first). Never merge `ingest/daily`.
 
 Changing dedupe or layout rules?
   → contracts/ + tests/cleaners/ + dry-run + CHANGELOG
