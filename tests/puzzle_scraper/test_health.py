@@ -34,7 +34,18 @@ def test_validate_store_accepts_well_formed_case() -> None:
     assert validate_store(data) == []
 
 
-def test_validate_store_rejects_count_mismatch() -> None:
+def test_validate_store_allows_legacy_case_without_source() -> None:
+    data = _store(
+        {
+            "02_6x6": {
+                "problem": "2 2\nw -\n- b",
+                "solution": "se sw\nne nw",
+            }
+        }
+    )
+    data["count_sol"] = 1
+    assert validate_store(data) == []
+
     data = _store(
         {
             "2x2_0001_1": {
