@@ -1,0 +1,643 @@
+{
+  "name": "ABCEndView",
+  "count": 106,
+  "count_sol": 106,
+  "data": {
+    "515_5x5": {
+      "problem": "5 5 d\n- b - c -\nd - - b -\na - - d a\n- - d - -",
+      "solution": "5 5 d\na b - c d\nc d b - a\nb c a d -\nd - c a b\n- a d b c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/515.a.htm",
+      "info": ""
+    },
+    "516_5x5": {
+      "problem": "5 5 d\na b - - a\n- - b - -\n- - - a c\n- a - d -",
+      "solution": "5 5 d\na b c d -\nb c d - a\nd - a b c\n- a b c d\nc d - a b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/516.a.htm",
+      "info": ""
+    },
+    "517_5x5": {
+      "problem": "5 5 d\na - a - -\n- - - b -\n- b - - -\n- - - b c",
+      "solution": "5 5 d\na b - c d\nb c a d -\nc d b - a\nd - c a b\n- a d b c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/517.a.htm",
+      "info": ""
+    },
+    "518_5x5": {
+      "problem": "5 5 d\n- - c - -\n- - d - -\n- - c a -\n- d - - d",
+      "solution": "5 5 d\nd - c a b\nb c a d -\nc d b - a\n- a d b c\na b - c d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/518.a.htm",
+      "info": ""
+    },
+    "519_5x5": {
+      "problem": "5 5 d\nb - d - -\n- - - c -\na - d - -\n- - - - a",
+      "solution": "5 5 d\n- a d b c\nb c a d -\nd - c a b\na b - c d\nc d b - a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/519.a.htm",
+      "info": ""
+    },
+    "520_6x6": {
+      "problem": "6 6 e\nd a c - d e\nc d - a e -\nd b e c - c\n- c - a b d",
+      "solution": "6 6 e\nd a c b - e\nb e a - d c\ne b d c a -\n- c e d b a\na d - e c b\nc - b a e d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/520.a.htm",
+      "info": ""
+    },
+    "521_5x5": {
+      "problem": "5 5 d\nc - b - -\na - - - a\nc - - - c\nd a - b a",
+      "solution": "5 5 d\nc a b - d\nd b c a -\nb - a d c\na d - c b\n- c d b a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/521.a.htm",
+      "info": ""
+    },
+    "522_5x5": {
+      "problem": "5 5 d\nc b - d -\na - - a -\n- d - a -\na - - d c",
+      "solution": "5 5 d\nc b - d a\nd c a - b\nb a d c -\na - c b d\n- d b a c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/522.a.htm",
+      "info": ""
+    },
+    "523_5x5": {
+      "problem": "5 5 d\nb d - - d\nd - - - c\n- - - - b\nc - a - -",
+      "solution": "5 5 d\nb d a c -\na c - b d\nc - b d a\nd a c - b\n- b d a c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/523.a.htm",
+      "info": ""
+    },
+    "524_5x5": {
+      "problem": "5 5 d\n- b - - -\n- c - d -\n- - - d a\nb - a - d",
+      "solution": "5 5 d\nc - d a b\n- b a c d\nb d c - a\nd a - b c\na c b d -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/524.a.htm",
+      "info": ""
+    },
+    "525_5x5": {
+      "problem": "5 5 d\n- - d - -\n- - a - -\n- - - c -\nd - b - d",
+      "solution": "5 5 d\na b - c d\n- a d b c\nd - c a b\nc d b - a\nb c a d -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/525.a.htm",
+      "info": ""
+    },
+    "526_6x6": {
+      "problem": "6 6 e\ne e d - b a\n- b e e d -\ne - c b a a\na a e - b -",
+      "solution": "6 6 e\ne - d c b a\nd e c b a -\nc d b a - e\nb c a - e d\n- a e d c b\na b - e d c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/526.a.htm",
+      "info": ""
+    },
+    "527_6x6": {
+      "problem": "6 6 e\na e - e - -\nb b e - - c\n- d - - d b\nb - - a - -",
+      "solution": "6 6 e\na e d - c b\n- d c e b a\nc a - b e d\ne c b d a -\nd b a c - e\nb - e a d c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/527.a.htm",
+      "info": ""
+    },
+    "528_6x6": {
+      "problem": "6 6 e\n- c - d - d\nd - a e d c\ne - - d - -\n- - c e - -",
+      "solution": "6 6 e\ne c b - a d\nc a - d e b\na e d b c -\n- d c a b e\nb - e c d a\nd b a e - c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/528.a.htm",
+      "info": ""
+    },
+    "530_7x7": {
+      "problem": "7 7 f\nf a b - - a e\nb d e - c c a\n- b - d c e -\ne f b c b d -",
+      "solution": "7 7 f\nf a b c d - e\n- b c d e a f\na c d e f b -\nd f - a b e c\nc e f - a d b\ne - a b c f d\nb d e f - c a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/530.a.htm",
+      "info": ""
+    },
+    "531_5x5": {
+      "problem": "5 5 d\nd - - b -\n- - a d b\n- c b b -\nb - - c -",
+      "solution": "5 5 d\nd a c b -\nc - b a d\n- b d c a\nb d a - c\na c - d b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/531.a.htm",
+      "info": ""
+    },
+    "532_5x5": {
+      "problem": "5 5 d\n- b d - -\n- d - - d\n- - - d a\n- c - c -",
+      "solution": "5 5 d\nc b - d a\nb a d c -\nd c a - b\n- d b a c\na - c b d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/532.a.htm",
+      "info": ""
+    },
+    "533_5x5": {
+      "problem": "5 5 d\n- - - d a\n- c - c -\nd - a - -\n- - - - -",
+      "solution": "5 5 d\nd b c - a\nc a b d -\na d - b c\n- c d a b\nb - a c d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/533.a.htm",
+      "info": ""
+    },
+    "534_6x6": {
+      "problem": "6 6 e\ne - a b c -\nb a b c - e\ne - d - b a\nd b c e - e",
+      "solution": "6 6 e\ne - a b c d\nc d e - a b\nd e - a b c\na b c d e -\nb c d e - a\n- a b c d e",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/534.a.htm",
+      "info": ""
+    },
+    "535_6x6": {
+      "problem": "6 6 e\nd b c - e -\ne - - b a b\nd c d b a e\na e c - - b",
+      "solution": "6 6 e\nd b c e - a\nc a b d e -\n- d e a b c\nb - a c d e\na e - b c d\ne c d - a b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/535.a.htm",
+      "info": ""
+    },
+    "536_6x6": {
+      "problem": "6 6 e\nd c - b - e\n- - b - - b\n- b c e a -\n- - d - - a",
+      "solution": "6 6 e\nd c a b - e\nb a e - d c\nc b - a e d\n- e c d b a\na - d e c b\ne d b c a -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/536.a.htm",
+      "info": ""
+    },
+    "537_6x6": {
+      "problem": "6 6 e\nd - d e - c\n- - a a b -\n- - a - d e\n- - d - e -",
+      "solution": "6 6 e\nd b - e a c\nb - d c e a\na e c b d -\nc a e d - b\n- d b a c e\ne c a - b d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/537.a.htm",
+      "info": ""
+    },
+    "538_7x7": {
+      "problem": "7 7 f\nc e f d b a f\nf a c f e d b\nc b a b d e f\nf e d c b a b",
+      "solution": "7 7 f\nc e - d b a f\nb d f c a - e\na c e b - f d\n- b d a f e c\nd f a e c b -\ne - b f d c a\nf a c - e d b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/538.a.htm",
+      "info": ""
+    },
+    "539_7x7": {
+      "problem": "7 7 f\nd f c e a e b\n- a e - c f -\nd b a b c - f\nb c - e - c -",
+      "solution": "7 7 f\nd f c - a e b\nb d a e f c -\na c - d e b f\n- b f c d a e\nc e b f - d a\ne - d a b f c\nf a e b c - d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/539.a.htm",
+      "info": ""
+    },
+    "540_7x7": {
+      "problem": "7 7 f\n- b f e c d c\nc - a c - f e\na d a b e f -\n- f b - a a -",
+      "solution": "7 7 f\na b f e - d c\nd e b a c - f\n- a e d f c b\nb c - f a e d\ne f c b d a -\nf - d c e b a\nc d a - b f e",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/540.a.htm",
+      "info": ""
+    },
+    "541_5x5": {
+      "problem": "5 5 d\nb c - c d\nc a - - a\n- c - d -\n- - - - d",
+      "solution": "5 5 d\nb - a c d\n- c d a b\na d - b c\nd b c - a\nc a b d -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/541.a.htm",
+      "info": ""
+    },
+    "542_5x5": {
+      "problem": "5 5 d\n- - c - c\n- a b - b\n- d - - -\nb - a - -",
+      "solution": "5 5 d\na d c b -\nd b a - c\nb - d c a\n- c b a d\nc a - d b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/542.a.htm",
+      "info": ""
+    },
+    "543_5x5": {
+      "problem": "5 5 d\n- - c - -\nb - b - c\nb - - - -\n- d - - -",
+      "solution": "5 5 d\n- b c d a\nc - a b d\na c d - b\nd a b c -\nb d - a c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/543.a.htm",
+      "info": ""
+    },
+    "544_6x6": {
+      "problem": "6 6 e\n- c b e a e\n- d - a b -\n- c b - a e\ne d c a b b",
+      "solution": "6 6 e\nd c b - a e\nc b a e - d\nb a - d e c\n- e d b c a\na - e c d b\ne d c a b -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/544.a.htm",
+      "info": ""
+    },
+    "545_6x6": {
+      "problem": "6 6 e\n- d a - b a\n- - b - - -\ne e - b d -\n- - - d a c",
+      "solution": "6 6 e\ne d - c b a\n- e a d c b\nc b d a - e\nb a c - e d\nd c e b a -\na - b e d c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/545.a.htm",
+      "info": ""
+    },
+    "546_6x6": {
+      "problem": "6 6 e\ne e b - - -\n- b - - b -\n- d a - c -\n- c - d e c",
+      "solution": "6 6 e\ne - b c d a\nd e a b c -\n- a c d e b\nb c e - a d\nc d - a b e\na b d e - c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/546.a.htm",
+      "info": ""
+    },
+    "547_7x7": {
+      "problem": "7 7 f\na c e d f e b\nb d a e b f c\na f b e c d b\nb c a f d e c",
+      "solution": "7 7 f\na c - d f e b\nf a e b d c -\n- b f c e d a\ne - d a c b f\nc e b f a - d\nd f c - b a e\nb d a e - f c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/547.a.htm",
+      "info": ""
+    },
+    "548_7x7": {
+      "problem": "7 7 f\nf b e d c a b\ne f d c b e a\nf a d b a c e\nb d f e c f a",
+      "solution": "7 7 f\nf - e d c a b\na b - f e c d\nd e c b a f -\nb c a - f d e\n- a f e d b c\nc d b a - e f\ne f d c b - a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/548.a.htm",
+      "info": ""
+    },
+    "549_7x7": {
+      "problem": "7 7 f\na b f - e e -\n- - c e d b a\n- f a d b c e\n- - c a e f a",
+      "solution": "7 7 f\na b f c - e d\nf - d a e c b\n- a e b f d c\nd e b f c a -\nb c - d a f e\nc d a e b - f\ne f c - d b a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/549.a.htm",
+      "info": ""
+    },
+    "550_7x7": {
+      "problem": "7 7 f\ne c a d - a -\na f c f e - b\n- f - c b e -\nf b e - c a b",
+      "solution": "7 7 f\ne c - d b a f\nf d a e c b -\nd b f c a - e\nc a e b - f d\nb - d a f e c\n- e b f d c a\na f c - e d b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/550.a.htm",
+      "info": ""
+    },
+    "551_5x5": {
+      "problem": "5 5 e\n- d a - -\n- a c - -\ne - c d -\nc d - b -",
+      "solution": "5 5 e\ne d a b c\na e b c d\nc b d e a\nd c e a b\nb a c d e",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/551.a.htm",
+      "info": ""
+    },
+    "552_5x5": {
+      "problem": "5 5 e\nb a - e -\na - c - -\nb - e - -\n- e - d b",
+      "solution": "5 5 e\nb a d e c\nd c a b e\ne d b c a\nc b e a d\na e c d b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/552.a.htm",
+      "info": ""
+    },
+    "553_5x5": {
+      "problem": "5 5 e\n- b - d -\ne d - a -\nc b - - -\n- d - a b",
+      "solution": "5 5 e\nc b a d e\nb a e c d\na e d b c\nd c b e a\ne d c a b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/553.a.htm",
+      "info": ""
+    },
+    "554_5x5": {
+      "problem": "5 5 e\n- c - b -\nd a c - -\n- - c e d\nd - a - -",
+      "solution": "5 5 e\na c e b d\nb d a c e\nc e b d a\ne b d a c\nd a c e b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/554.a.htm",
+      "info": ""
+    },
+    "555_5x5": {
+      "problem": "5 5 d\n- - - d b\nd b b - a\nc - - a -\n- b - c -",
+      "solution": "5 5 d\n- c a d b\nc a d b -\nb - c a d\na d b - c\nd b - c a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/555.a.htm",
+      "info": ""
+    },
+    "556_5x5": {
+      "problem": "5 5 d\nb - d b -\nc - - c -\na b - a c\n- d - - -",
+      "solution": "5 5 d\n- a d b c\nb c a d -\nd - c a b\na b - c d\nc d b - a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/556.a.htm",
+      "info": ""
+    },
+    "557_5x5": {
+      "problem": "5 5 d\n- - - - -\n- c - a a\na - c d d\nb c d - -",
+      "solution": "5 5 d\na - d c b\nb a - d c\nc b a - d\n- d c b a\nd c b a -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/557.a.htm",
+      "info": ""
+    },
+    "558_6x6": {
+      "problem": "6 6 e\n- c - b e e\n- e d e c b\n- c b e e a\ne - c a a -",
+      "solution": "6 6 e\nd c a b - e\nc b - a e d\nb a e - d c\ne d b c a -\n- e c d b a\na - d e c b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/558.a.htm",
+      "info": ""
+    },
+    "559_6x6": {
+      "problem": "6 6 e\na - e d b b\nb b d c - -\na c - e b b\n- d e d - a",
+      "solution": "6 6 e\na c e d - b\nc e a - b d\nd - b a c e\ne a c b d -\nb d - e a c\n- b d c e a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/559.a.htm",
+      "info": ""
+    },
+    "560_6x6": {
+      "problem": "6 6 e\n- e b e c -\n- b c a d -\nd c - a a e\na - e c d b",
+      "solution": "6 6 e\nd e b - c a\nc d a e b -\nb c - d a e\n- a d b e c\na b e c - d\ne - c a d b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/560.a.htm",
+      "info": ""
+    },
+    "561_5x5": {
+      "problem": "5 5 e\na b - - d\n- d b e -\n- e - - -\n- - e b a",
+      "solution": "5 5 e\na b e c d\ne a d b c\nb c a d e\nd e c a b\nc d b e a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/561.a.htm",
+      "info": ""
+    },
+    "562_5x5": {
+      "problem": "5 5 e\n- d - b -\n- b - e d\nc - d - a\n- c - e -",
+      "solution": "5 5 e\nc d e b a\ne a b d c\nd e a c b\nb c d a e\na b c e d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/562.a.htm",
+      "info": ""
+    },
+    "563_5x5": {
+      "problem": "5 5 e\n- d - - -\n- e d - -\ne - c b -\na e d c -",
+      "solution": "5 5 e\ne d c b a\nd c b a e\nc b a e d\nb a e d c\na e d c b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/563.a.htm",
+      "info": ""
+    },
+    "564_5x5": {
+      "problem": "5 5 d\nb - - - d\n- a c - b\n- a d - a\n- c - b -",
+      "solution": "5 5 d\nb c - a d\na b d - c\nd - b c a\nc d a b -\n- a c d b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/564.a.htm",
+      "info": ""
+    },
+    "565_5x5": {
+      "problem": "5 5 d\n- - b - c\nb - d d a\n- c a - -\n- - d c -",
+      "solution": "5 5 d\nd - b a c\nc d a - b\n- a c b d\na b d c -\nb c - d a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/565.a.htm",
+      "info": ""
+    },
+    "566_5x5": {
+      "problem": "5 5 d\nd - d a b\na - - - d\n- c - b -\n- - - d d",
+      "solution": "5 5 d\nd c - a b\nc b d - a\n- d a b c\nb a c d -\na - b c d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/566.a.htm",
+      "info": ""
+    },
+    "567_5x5": {
+      "problem": "5 5 d\n- - a - b\nc - d b d\nd a - - -\n- b a - -",
+      "solution": "5 5 d\nd b a c -\na d c - b\n- c b d a\nb - d a c\nc a - b d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/567.a.htm",
+      "info": ""
+    },
+    "568_6x6": {
+      "problem": "6 6 e\n- d - e d -\n- a d b e c\n- e c e - b\nb b d a e c",
+      "solution": "6 6 e\na - c e d b\ne d a c b -\nc b e a - d\n- e b d c a\nd c - b a e\nb a d - e c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/568.a.htm",
+      "info": ""
+    },
+    "570_6x6": {
+      "problem": "6 6 e\n- - c d e e\ne d - b d c\na a - d - -\ne d a b a c",
+      "solution": "6 6 e\na b c d - e\n- a b c e d\nb c d e a -\nd e - a c b\nc d e - b a\ne - a b d c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/570.a.htm",
+      "info": ""
+    },
+    "571_5x5": {
+      "problem": "5 5 d\n- c b - -\nc - - c -\n- - b - -\na a - - d",
+      "solution": "5 5 d\nd c b a -\n- d c b a\nb a - d c\na - d c b\nc b a - d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/571.a.htm",
+      "info": ""
+    },
+    "572_5x5": {
+      "problem": "5 5 d\nb d - - -\n- - - a d\n- - - - -\n- b a a d",
+      "solution": "5 5 d\nb - a d c\na d - c b\n- c d b a\nd b c a -\nc a b - d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/572.a.htm",
+      "info": ""
+    },
+    "573_5x5": {
+      "problem": "5 5 d\n- - c - c\n- a - - -\n- d c - a\nd - - a -",
+      "solution": "5 5 d\na b c d -\nd - a b c\nc d - a b\nb c d - a\n- a b c d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/573.a.htm",
+      "info": ""
+    },
+    "574_5x5": {
+      "problem": "5 5 d\n- b - - -\n- - d c -\n- c - a c\nc - - c -",
+      "solution": "5 5 d\nd b - a c\n- c a b d\nb - c d a\na d b c -\nc a d - b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/574.a.htm",
+      "info": ""
+    },
+    "575_5x5": {
+      "problem": "5 5 d\n- d - a -\nd - - - c\nb - - - b\na - a - -",
+      "solution": "5 5 d\nb d c a -\na c b - d\nc - d b a\nd a - c b\n- b a d c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/575.a.htm",
+      "info": ""
+    },
+    "576_6x6": {
+      "problem": "6 6 e\na - e b - b\nb - - e b a\na c d e b c\nb - e a - a",
+      "solution": "6 6 e\na d e - c b\nc - a b e d\nd a b c - e\ne b c d a -\nb e - a d c\n- c d e b a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/576.a.htm",
+      "info": ""
+    },
+    "577_6x6": {
+      "problem": "6 6 e\ne - e a b d\nb d a b c -\ne d c - b -\nd - - d a e",
+      "solution": "6 6 e\ne c - a b d\nd b e - a c\nc a d e - b\na e b c d -\nb - c d e a\n- d a b c e",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/577.a.htm",
+      "info": ""
+    },
+    "578_6x6": {
+      "problem": "6 6 e\n- c a e d a\n- b - d c e\nb c e - a -\na b - c e c",
+      "solution": "6 6 e\nb c - e d a\nc d a - e b\ne - c b a d\nd e b a - c\n- a d c b e\na b e d c -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/578.a.htm",
+      "info": ""
+    },
+    "579_6x6": {
+      "problem": "6 6 e\ne e d - a c\n- b e - c e\n- d - c a a\nc b d - d e",
+      "solution": "6 6 e\ne - d b a c\nd e c a - b\nb c a e d -\nc d b - e a\n- a e c b d\na b - d c e",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/579.a.htm",
+      "info": ""
+    },
+    "580_6x6": {
+      "problem": "6 6 e\nb - a d e -\n- e e - - b\nb c e - e a\nc d b e a b",
+      "solution": "6 6 e\nb a - d e c\nc b a e - d\ne d c a b -\nd c b - a e\n- e d b c a\na - e c d b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/580.a.htm",
+      "info": ""
+    },
+    "581_5x5": {
+      "problem": "5 5 d\n- b - d -\na - d - a\nb - - a -\n- a - - -",
+      "solution": "5 5 d\nb - a d c\nd b c a -\nc a b - d\na d - c b\n- c d b a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/581.a.htm",
+      "info": ""
+    },
+    "582_5x5": {
+      "problem": "5 5 d\n- - b - a\nc - a - -\na b - - b\n- - c - -",
+      "solution": "5 5 d\na c b d -\nb d c - a\nd a - b c\nc - d a b\n- b a c d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/582.a.htm",
+      "info": ""
+    },
+    "583_5x5": {
+      "problem": "5 5 d\nb - - - a\n- - - c d\n- d a - a\n- - d - -",
+      "solution": "5 5 d\nb c d - a\nd - a b c\na b c d -\nc d - a b\n- a b c d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/583.a.htm",
+      "info": ""
+    },
+    "584_5x5": {
+      "problem": "5 5 d\nc - - - b\n- - a - d\n- c - - -\nd b c - -",
+      "solution": "5 5 d\nc a b d -\n- c d a b\na d - b c\nd b c - a\nb - a c d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/584.a.htm",
+      "info": ""
+    },
+    "585_5x5": {
+      "problem": "5 5 d\n- - a - -\n- - d - -\nd a - - d\nb c d - -",
+      "solution": "5 5 d\n- d a c b\na - b d c\nb a c - d\nc b d a -\nd c - b a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/585.a.htm",
+      "info": ""
+    },
+    "586_6x6": {
+      "problem": "6 6 e\n- b c - - -\nc a b d e d\nd e d b - -\ne a a c b d",
+      "solution": "6 6 e\nd b c a - e\ne c d b a -\n- d e c b a\nb - a e d c\na e - d c b\nc a b - e d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/586.a.htm",
+      "info": ""
+    },
+    "587_6x6": {
+      "problem": "6 6 e\n- e e b a c\ne - - c b d\n- c b a a e\n- b a - d d",
+      "solution": "6 6 e\nd e - b a c\nc d e a - b\nb c d - e a\n- a b d c e\na b c e d -\ne - a c b d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/587.a.htm",
+      "info": ""
+    },
+    "588_6x6": {
+      "problem": "6 6 e\n- b b a - e\ne - c - d c\nd b c a b e\n- a d b - d",
+      "solution": "6 6 e\nd - b a c e\n- b d c e a\nc e a - b d\na c e d - b\nb d - e a c\ne a c b d -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/588.a.htm",
+      "info": ""
+    },
+    "589_6x6": {
+      "problem": "6 6 e\ne d b c - d\nd c - - d e\ne c - e b d\na d b a - -",
+      "solution": "6 6 e\ne d b c a -\nc b - a e d\na - d e c b\n- e c d b a\nb a e - d c\nd c a b - e",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/589.a.htm",
+      "info": ""
+    },
+    "590_6x6": {
+      "problem": "6 6 e\n- b b c a e\n- c e a d -\n- b c e b -\ne - d b c b",
+      "solution": "6 6 e\nd - b c a e\n- b d e c a\nc e a b - d\ne a c d b -\nb d - a e c\na c e - d b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/590.a.htm",
+      "info": ""
+    },
+    "592_5x5": {
+      "problem": "5 5 d\n- - c c -\n- c b - -\n- b b a -\n- c - - -",
+      "solution": "5 5 d\nd a c - b\nb d a c -\n- b d a c\na c - b d\nc - b d a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/592.a.htm",
+      "info": ""
+    },
+    "593_5x5": {
+      "problem": "5 5 d\nd - - - -\n- - - c a\nd b d a -\n- - c - -",
+      "solution": "5 5 d\nd c - a b\nb a c d -\n- d a b c\na - b c d\nc b d - a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/593.a.htm",
+      "info": ""
+    },
+    "594_5x5": {
+      "problem": "5 5 d\n- - b a -\n- - a - -\n- - b - d\nc a c - -",
+      "solution": "5 5 d\n- d b a c\nc b - d a\nb a d c -\na - c b d\nd c a - b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/594.a.htm",
+      "info": ""
+    },
+    "595_5x5": {
+      "problem": "5 5 d\n- d - - -\n- - b a -\n- b - a -\nc - a - b",
+      "solution": "5 5 d\n- d a b c\nb a c d -\nc b d - a\na - b c d\nd c - a b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/595.a.htm",
+      "info": ""
+    },
+    "596_6x6": {
+      "problem": "6 6 e\nb c e b - a\na b d - c e\nb d e c a -\n- c - b - c",
+      "solution": "6 6 e\nb c e - d a\nd e a b - c\ne - b c a d\nc d - a e b\n- a c d b e\na b d e c -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/596.a.htm",
+      "info": ""
+    },
+    "597_6x6": {
+      "problem": "6 6 e\n- b a c b d\nc a b d c -\ne a - d c a\n- d - c - e",
+      "solution": "6 6 e\ne - a c b d\na b c e d -\nb c d - e a\nd e - b a c\nc d e a - b\n- a b d c e",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/597.a.htm",
+      "info": ""
+    },
+    "598_6x6": {
+      "problem": "6 6 e\n- a - e - d\nd b - b c e\nc a e b d d\n- b d - a e",
+      "solution": "6 6 e\nc a - e b d\na e d c - b\ne c b a d -\nb - e d a c\n- d c b e a\nd b a - c e",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/598.a.htm",
+      "info": ""
+    },
+    "599_6x6": {
+      "problem": "6 6 e\nb a d c b -\na d c b - d\n- - c e e a\ne a a c - -",
+      "solution": "6 6 e\nb a d c - e\nd c - e b a\nc b e d a -\n- e b a d c\ne d a - c b\na - c b e d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/599.a.htm",
+      "info": ""
+    },
+    "600_6x6": {
+      "problem": "6 6 e\n- c d e - d\n- d a a c e\n- e d b c b\n- b a - d e",
+      "solution": "6 6 e\na c - e b d\ne a d c - b\nd - c b e a\n- b e d a c\nc e b a d -\nb d a - c e",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/600.a.htm",
+      "info": ""
+    },
+    "601_5x5": {
+      "problem": "5 5 d\n- c a d -\na - - c -\n- a d c -\n- - b - d",
+      "solution": "5 5 d\nb c a d -\n- a d b c\nd - c a b\nc d b - a\na b - c d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/601.a.htm",
+      "info": ""
+    },
+    "602_5x5": {
+      "problem": "5 5 d\nd a - b a\nc d - - -\n- a - - -\na - d - a",
+      "solution": "5 5 d\nd - c b a\n- a d c b\nb c a - d\na b - d c\nc d b a -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/602.a.htm",
+      "info": ""
+    },
+    "603_5x5": {
+      "problem": "5 5 d\nc b c - -\n- - a b -\n- - - d -\n- - - a b",
+      "solution": "5 5 d\nc b - a d\na - c d b\nb a d - c\n- d b c a\nd c a b -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/603.a.htm",
+      "info": ""
+    },
+    "604_5x5": {
+      "problem": "5 5 d\n- - - - -\nc a b d -\nc b - - -\n- d - a -",
+      "solution": "5 5 d\n- c d a b\nb - a c d\na d - b c\nd b c - a\nc a b d -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/604.a.htm",
+      "info": ""
+    },
+    "605_5x5": {
+      "problem": "5 5 d\n- - d - -\n- - a - a\n- b - - -\na - - b -",
+      "solution": "5 5 d\nc b d a -\nb a c - d\na - b d c\n- d a c b\nd c - b a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/605.a.htm",
+      "info": ""
+    },
+    "606_5x5": {
+      "problem": "5 5 d\nb - - - -\n- - - - a\n- a - b -\n- b - - c",
+      "solution": "5 5 d\nb d - a c\na c d - b\nc - a b d\n- b c d a\nd a b c -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/606.a.htm",
+      "info": ""
+    },
+    "607_6x6": {
+      "problem": "6 6 e\n- b - - c -\nc a d e b d\nd e - d a c\ne d - a b d",
+      "solution": "6 6 e\nd b a - c e\ne c b a d -\nb - e d a c\n- d c b e a\na e d c - b\nc a - e b d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/607.a.htm",
+      "info": ""
+    },
+    "608_6x6": {
+      "problem": "6 6 e\n- - c - d b\nd d b a - e\ne a b c b -\nd - a d c e",
+      "solution": "6 6 e\ne a c b d -\na c e d - b\n- b d c e a\nc e a - b d\nb d - e a c\nd - b a c e",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/608.a.htm",
+      "info": ""
+    },
+    "609_6x6": {
+      "problem": "6 6 e\na a - - b -\ne - a - e c\n- b e - - -\n- - d - b c",
+      "solution": "6 6 e\na - c d b e\nb a d e c -\n- e b c a d\nc b e - d a\nd c - a e b\ne d a b - c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/609.a.htm",
+      "info": ""
+    },
+    "610_6x6": {
+      "problem": "6 6 e\n- c - b d b\n- - e - c -\n- - - d c d\n- d e - - a",
+      "solution": "6 6 e\ne c a - d b\na e c b - d\nb - d c a e\n- d b a e c\nc a e d b -\nd b - e c a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/610.a.htm",
+      "info": ""
+    },
+    "611_5x5": {
+      "problem": "5 5 d\n- d d - -\na - c c -\n- - - d a\na a - - d",
+      "solution": "5 5 d\nc d - b a\nb c d a -\n- a b d c\nd - a c b\na b c - d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/611.a.htm",
+      "info": ""
+    },
+    "612_5x5": {
+      "problem": "5 5 d\n- d - a -\nd c - d -\n- b - d c\n- d b - -",
+      "solution": "5 5 d\na d b - c\nb - c a d\nc a d b -\nd b - c a\n- c a d b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/612.a.htm",
+      "info": ""
+    },
+    "613_5x5": {
+      "problem": "5 5 d\n- - - - -\n- d - c d\n- - c a -\n- d b - d",
+      "solution": "5 5 d\nd b c - a\nc a b d -\n- c d a b\na d - b c\nb - a c d",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/613.a.htm",
+      "info": ""
+    },
+    "614_5x5": {
+      "problem": "5 5 d\n- - a c -\nd - - - -\n- c - b d\na - - - c",
+      "solution": "5 5 d\nb d - c a\nc - a d b\na c d b -\n- b c a d\nd a b - c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/614.a.htm",
+      "info": ""
+    },
+    "615_5x5": {
+      "problem": "5 5 d\n- d - - -\n- - b - -\n- - d - c\n- b - - b",
+      "solution": "5 5 d\nb - d c a\na d c b -\nd b a - c\n- c b a d\nc a - d b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/615.a.htm",
+      "info": ""
+    },
+    "616_5x5": {
+      "problem": "5 5 d\n- - - - b\n- - c - -\nc - - - a\nd - d - -",
+      "solution": "5 5 d\nc a b d -\n- c d a b\nb - a c d\nd b c - a\na d - b c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/616.a.htm",
+      "info": ""
+    },
+    "617_6x6": {
+      "problem": "6 6 e\nb - e e - a\nc e b a - -\nb a d b e c\n- b - e d b",
+      "solution": "6 6 e\nb d e - c a\na c d e b -\nd - a b e c\n- b c d a e\ne a b c - d\nc e - a d b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/617.a.htm",
+      "info": ""
+    },
+    "618_6x6": {
+      "problem": "6 6 e\n- b a c a -\n- e c e d b\n- e b c d a\ne b - d - b",
+      "solution": "6 6 e\nd b - c a e\ne c a d b -\nb - d a e c\nc a e b - d\n- d b e c a\na e c - d b",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/618.a.htm",
+      "info": ""
+    },
+    "619_6x6": {
+      "problem": "6 6 e\n- - e a d -\na b d e - e\n- c d - - -\na b - - - -",
+      "solution": "6 6 e\nb c e - d a\nc d - a e b\nd e a b - c\ne - b c a d\n- a c d b e\na b d e c -",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/619.a.htm",
+      "info": ""
+    },
+    "620_6x6": {
+      "problem": "6 6 e\ne d a b a -\na a c - - -\n- e - - - -\n- - b - c e",
+      "solution": "6 6 e\ne d a b - c\n- e b c a d\nd c - a e b\nc b e - d a\nb a d e c -\na - c d b e",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/620.a.htm",
+      "info": ""
+    },
+    "621_5x5": {
+      "problem": "5 5 d\n- - a - d\n- - b b -\na b - a c\n- d - - a",
+      "solution": "5 5 d\na b - c d\nb c a d -\nd - c a b\n- a d b c\nc d b - a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/621.a.htm",
+      "info": ""
+    },
+    "622_5x5": {
+      "problem": "5 5 d\nc - - b c\nd a - - a\nc - - a d\n- - - - a",
+      "solution": "5 5 d\nc d a b -\na b d - c\nb c - a d\n- a c d b\nd - b c a",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/622.a.htm",
+      "info": ""
+    },
+    "623_5x5": {
+      "problem": "5 5 d\na b a - -\n- a - b -\na - - - -\n- - - b c",
+      "solution": "5 5 d\na b - c d\nb c a d -\nc d b - a\nd - c a b\n- a d b c",
+      "source": "https://www.janko.at/Raetsel/Abc-End-View/623.a.htm",
+      "info": ""
+    }
+  }
+}

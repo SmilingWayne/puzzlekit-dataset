@@ -38,3 +38,30 @@ def test_build_markdown_table_has_total_row() -> None:
     table = build_markdown_table()
     assert "**Total**" in table
     assert "| --- |" in table
+
+
+def test_collect_includes_shard_only_puzzle(tmp_path: Path, monkeypatch) -> None:
+    from analytics import res_generator as rg
+    from cleaners.io import dump_dataset_file, file_payload, shard_path
+
+    monkeypatch.setattr(rg, "ROOT_DIR", tmp_path)
+    dump_dataset_file(
+        shard_path("Tapa", 0, data_root=tmp_path),
+        file_payload(
+            "Tapa",
+            {
+                "8x8_0001_1": {
+                    "problem": "2 2\n- -\n- -",
+                    "solution": "",
+                    "source": "https://example.test/",
+                    "info": "",
+                }
+            },
+        ),
+    )
+    rows, total_problems, total_solutions = rg.collect_table_rows()
+    tapa = next(row for row in rows if row[1] == "Tapa")
+    assert tapa[2] == "1"
+    assert tapa[3] == "0"
+    assert total_problems == 1
+    assert total_solutions == 0

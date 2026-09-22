@@ -86,6 +86,8 @@ python3 -m pytest tests/puzzle_scraper -q
 
 `schedule` only fires after this workflow exists on `main`. Cron reads the YAML on `main`; scripts come from `ingest/daily`.
 
+Set repository variable `DAILY_SCRAPE_PAUSE` to `true` to skip **scheduled** runs (the job is skipped, not failed). **Run workflow** still executes so a migration window can be verified. Unset the variable or set it to anything other than `true` to resume cron.
+
 Local macOS launchd remains optional:
 
 ```bash

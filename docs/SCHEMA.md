@@ -2,14 +2,16 @@
 
 Canonical storage for puzzle instances under `assets/data/{PuzzleName}/`.
 
-Two file families may coexist in the same folder:
+Preferred layout is numbered shards only:
 
 | File | Role |
 |------|------|
-| `{PuzzleName}_dataset.json` | Frozen legacy corpus. Do not modify from daily ingest. |
-| `{PuzzleName}_dataset_YYY.json` | Daily shards, 500 cases per file, `YYY` is a zero-padded index starting at `000`. |
+| `{PuzzleName}_dataset_YYY.json` | Canonical shards. 500 cases per file. `YYY` is a zero-padded index starting at `000`. |
+| `{PuzzleName}_dataset.json` | Leftover legacy monolith. Optional during migration; delete after that puzzle is split. Daily ingest never writes this file. |
 
-Daily ingest writes **only** shard files. `count` / `count_sol` on a shard are for that file, not the whole puzzle.
+`count` / `count_sol` on a file describe **that file**, not the whole puzzle. Tools that need a corpus total union all shards (and a leftover monolith if present) in memory.
+
+Daily ingest writes **only** shard files.
 
 ## File-level object
 
@@ -43,7 +45,7 @@ After cleaning or ingest, `count` must equal `len(data)` and `count_sol` must ma
 
 Examples: `8x8_0001_5483926`, `30x30_0003_2026-08-12`, `5x6_1222_N`.
 
-Daily ingest skips a case when the normalized `problem` already exists in any shard **or** in the frozen `{Puzzle}_dataset.json`.
+Daily ingest skips a case when the normalized `problem` already exists in any shard **or** in a leftover `{Puzzle}_dataset.json`.
 
 ### Conventions
 
