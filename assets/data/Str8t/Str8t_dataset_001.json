@@ -1,0 +1,289 @@
+{
+  "name": "Str8t",
+  "count": 47,
+  "count_sol": 47,
+  "data": {
+    "513_9x9": {
+      "problem": "9 9\n- x x - - - 5 2x x\n- 1x 6 - 7 - x - -\n- - x - - - x - -\n3 - - - x - - x -\n- - 5 x 6x x - - -\n- x - - x - - - -\n- - 7x - - - 4x - -\n- - x - 1 - - x -\n9x 8x - 3 - - x 5x -",
+      "solution": "9 9\n1 - - 6 8 7 5 2 -\n2 1 6 8 7 9 - 4 3\n5 4 - 7 9 8 - 3 2\n3 2 4 5 - 6 7 - 8\n4 3 5 - 6 - 8 9 7\n8 - 3 2 - 5 6 7 4\n6 5 7 1 3 2 4 8 9\n7 6 - 4 1 3 2 - 5\n9 8 1 3 2 4 - 5 6",
+      "source": "https://www.janko.at/Raetsel/Straights/513.a.htm",
+      "info": ""
+    },
+    "514_9x9": {
+      "problem": "9 9\nx x - 7 x x 3 - x\n- - - x - - 2x - 4x\n- - x x - - - - -\nx - - - - - 6 - -\n7x x 6 - x - - x x\n- - 5 - - - - - 9x\n- - 4 1 - 8x x - -\n3x 2 x - - 1x - - -\nx 4 - 6x x 9 - 5x x",
+      "solution": "9 9\n- - 8 7 - - 3 2 -\n8 7 9 - 6 5 2 1 4\n9 8 - - 7 4 5 3 6\n- 9 7 3 8 2 6 4 5\n7 - 6 5 - 3 4 - -\n1 3 5 2 4 6 7 8 9\n2 5 4 1 3 8 - 6 7\n3 2 - 4 5 1 9 7 8\n- 4 3 6 - 9 8 5 -",
+      "source": "https://www.janko.at/Raetsel/Straights/514.a.htm",
+      "info": ""
+    },
+    "515_9x9": {
+      "problem": "9 9\n- - - - 2x x - - x\n- x x - - - 9x - -\nx - - 5 - - 7 - -\nx - - x - 5 x x -\n- - 6 - x - - - -\n- 5x x - - x - - x\n- - - - - 6 3 - 1x\n- 4 3x - - - x x -\n4x - - x x - - - -",
+      "solution": "9 9\n3 6 5 4 2 - 8 7 -\n2 - - 3 5 4 9 8 7\n- 9 8 5 3 2 7 6 4\n- 8 7 - 4 5 - - 6\n8 7 6 9 - 3 2 4 5\n6 5 - 7 8 - 4 3 -\n7 2 4 8 9 6 3 5 1\n5 4 3 6 7 8 - - 9\n4 3 2 - - 7 6 9 8",
+      "source": "https://www.janko.at/Raetsel/Straights/515.a.htm",
+      "info": ""
+    },
+    "516_9x9": {
+      "problem": "9 9\n7x x x - - x - - x\n- - 8x x 6 - - x x\nx - - x - 8 - x -\n9x 2 - - - - - - -\n- - - - x - 5 - -\n- - - 2 - - - - x\n2 x - - - x - - 4x\nx x - - - 1x x - -\nx - - x 3 - 2x x x",
+      "solution": "9 9\n7 - - 8 9 - 4 3 -\n4 3 8 - 6 5 7 - -\n- 5 4 - 7 8 6 - 9\n9 2 1 5 8 6 3 4 7\n1 4 2 3 - 7 5 6 8\n3 6 5 2 4 9 8 7 -\n2 - 7 6 5 - 9 8 4\n- - 3 4 2 1 - 5 6\n- 7 6 - 3 4 2 - -",
+      "source": "https://www.janko.at/Raetsel/Straights/516.a.htm",
+      "info": ""
+    },
+    "517_9x9": {
+      "problem": "9 9\n5x x x - 8 - - x x\n- x - - - 2x - - x\n- - - x - - - 1x -\nx - - 4x - 7 9x x -\n- - - - 1 - - - -\n- x x - - x - 6 3x\n8 x - 7 - x - - -\nx - - x - - - 8x -\nx 7x - - - - x x 6x",
+      "solution": "9 9\n5 - - 6 8 9 7 - -\n1 - 4 5 3 2 6 7 -\n2 4 3 - 7 6 8 1 9\n- 2 1 4 6 7 9 - 8\n6 3 2 9 1 8 4 5 7\n7 - - 8 9 - 5 6 3\n8 - 6 7 5 - 3 4 2\n- 6 7 - 4 3 2 8 1\n- 7 5 3 2 4 - - 6",
+      "source": "https://www.janko.at/Raetsel/Straights/517.a.htm",
+      "info": ""
+    },
+    "518_9x9": {
+      "problem": "9 9\nx - 1 - x 8x - - x\n5 4 - - - x - - x\n- - - 1 6 - - 9 -\n3x x x - x - 5 7 -\n8 1x 4 - - - - x -\n- - 5 - x 2 x x x\n- - - - 1 4 - - -\n6x - - 9x - - 3 - 5\nx - 6 x x - - - 4x",
+      "solution": "9 9\n- 2 1 3 - 8 7 6 -\n5 4 3 6 7 - 9 8 -\n4 3 2 1 6 5 8 9 7\n3 - - 2 - 6 5 7 8\n8 1 4 5 3 7 6 - 9\n7 6 5 4 - 2 - - -\n9 5 8 7 1 4 2 3 6\n6 8 7 9 2 1 3 4 5\n- 7 6 - - 3 1 2 4",
+      "source": "https://www.janko.at/Raetsel/Straights/518.a.htm",
+      "info": ""
+    },
+    "519_9x9": {
+      "problem": "9 9\nx 4 - - x x 7 - x\nx x 5 - - 7 - - -\n- - - - x - x x -\n- 2 - - 7 5 - x -\nx - - 9x - x 6 - x\n9 x - - - - 4 - -\n- 6x x - x - - - -\n- - 8 - - - - 2x 1x\n4x - - x 5x - - - x",
+      "solution": "9 9\n- 4 3 2 - - 7 8 -\n- - 5 3 4 7 8 9 6\n2 3 4 1 - 6 - - 7\n1 2 6 4 7 5 3 - 8\n- 1 2 9 8 - 6 5 -\n9 - 7 5 6 1 4 3 2\n8 6 - 7 - 2 1 4 3\n7 9 8 6 3 4 5 2 1\n4 8 9 - 5 3 2 1 -",
+      "source": "https://www.janko.at/Raetsel/Straights/519.a.htm",
+      "info": ""
+    },
+    "520_9x9": {
+      "problem": "9 9\nx 7x - - - - x x 6x\nx - - x - - - 8x -\n8 x - 7 - x - - -\n- x x - - x - 6 3x\n- - - - 1 - - - -\nx - - 4x - 7 9x x -\n- - - x - - - 1x -\n- x - - - 2x - - x\n5x x x - 8 - - x x",
+      "solution": "9 9\n- 7 5 3 2 4 - - 6\n- 6 7 - 4 3 2 8 1\n8 - 6 7 5 - 3 4 2\n7 - - 8 9 - 5 6 3\n6 3 2 9 1 8 4 5 7\n- 2 1 4 6 7 9 - 8\n2 4 3 - 7 6 8 1 9\n1 - 4 5 3 2 6 7 -\n5 - - 6 8 9 7 - -",
+      "source": "https://www.janko.at/Raetsel/Straights/520.a.htm",
+      "info": ""
+    },
+    "521_9x9": {
+      "problem": "9 9\n- 3 - - 7 - - - -\n- - 2x - - 6 - 9x -\n4 x x 9 - - - x -\nx x - - 5 - 4x 1 -\n5x - - x x 1x - - x\n- - 7x 5 - - - x 6x\n- x - - - - x 8x -\n- x - - 2 4 x - -\n- - - - 3 - - - 7",
+      "solution": "9 9\n2 3 1 8 7 9 6 5 4\n3 4 2 7 8 6 5 9 1\n4 - - 9 6 8 7 - 3\n- - 8 6 5 7 4 1 2\n5 8 9 - - 1 3 2 -\n8 9 7 5 4 3 2 - 6\n7 - 3 4 1 2 - 8 9\n6 - 5 3 2 4 - 7 8\n9 1 4 2 3 5 8 6 7",
+      "source": "https://www.janko.at/Raetsel/Straights/521.a.htm",
+      "info": ""
+    },
+    "522_9x9": {
+      "problem": "9 9\n- - - 1 - - - 8 9x\n- x 1x 9 - - - x -\n1 x - - - - 4x x 5\nx 8 - 6 - 7 x 3 -\n5x - - - x - - - x\n8 - x - 3 - - - x\n- x x - 5 - 2 7x -\n- 6x - - - - x x -\nx 1 - 4 - - 6 - -",
+      "solution": "9 9\n3 5 4 1 6 2 7 8 9\n2 - 1 9 7 6 8 - 3\n1 - 6 7 8 9 4 - 5\n- 8 5 6 9 7 - 3 4\n5 9 7 8 - 1 3 2 -\n8 7 - 2 3 5 1 4 -\n9 - - 3 5 4 2 7 6\n7 6 2 5 4 3 - - 8\n- 1 3 4 2 8 6 5 7",
+      "source": "https://www.janko.at/Raetsel/Straights/522.a.htm",
+      "info": ""
+    },
+    "523_9x9": {
+      "problem": "9 9\nx - 6 x x - 2 x 7x\n- - - 8 9x - - - -\n- - - - x 1x - 3 -\nx - 9 - - 7 - - -\n8x x x - - - x x x\n2 - 3 9 - - - 6 x\n- 2 - x x - 7 - 5\n4 - - 1 x - - - -\nx x - - x 4x - - x",
+      "solution": "9 9\n- 5 6 - - 3 2 - 7\n5 6 7 8 9 2 1 4 3\n6 7 8 5 - 1 4 3 2\n- 8 9 6 5 7 3 2 4\n8 - - 7 6 5 - - -\n2 4 3 9 7 8 5 6 -\n3 2 4 - - 6 7 8 5\n4 3 2 1 - 9 8 7 6\n- - 1 2 - 4 6 5 -",
+      "source": "https://www.janko.at/Raetsel/Straights/523.a.htm",
+      "info": ""
+    },
+    "524_9x9": {
+      "problem": "9 9\nx x - 6 x - - x 4x\nx - 2 - x - 6 - -\n- - - - 1x - - - -\n- 1 - - 3 - x 9 -\n2x 9x - - - - - x x\n- - x - 5 - - - -\n6 - - - x - 2 - -\n- - 9 - x - 4 - x\nx x - 8 x - - 3x x",
+      "solution": "9 9\n- - 5 6 - 8 7 - 4\n- 3 2 4 - 5 6 8 7\n4 2 3 5 1 9 8 7 6\n5 1 4 2 3 6 - 9 8\n2 9 6 3 4 7 5 - -\n7 8 - 1 5 4 3 6 2\n6 7 8 9 - 1 2 4 3\n8 6 9 7 - 3 4 5 -\n- - 7 8 - 2 1 3 -",
+      "source": "https://www.janko.at/Raetsel/Straights/524.a.htm",
+      "info": ""
+    },
+    "525_9x9": {
+      "problem": "9 9\nx x - - x - - - x\n- 9 - - - - - 4 x\n- - 3x x - 6 x - 4\nx 2x - 8 - x - - -\nx - - - 9x - - - x\n- - - x - - - x 8x\n- - x - - x 1x - -\nx - - - - 9 - - -\nx - - - 4x - - x x",
+      "solution": "9 9\n- - 1 2 - 5 7 6 -\n8 9 2 3 5 7 6 4 -\n9 8 3 - 7 6 - 5 4\n- 2 7 8 6 - 4 3 5\n- 6 8 7 9 4 3 2 -\n5 4 6 - 1 3 2 - 8\n6 5 - 4 3 - 1 8 7\n- 3 4 5 2 9 8 7 6\n- 7 5 6 4 8 9 - -",
+      "source": "https://www.janko.at/Raetsel/Straights/525.a.htm",
+      "info": ""
+    },
+    "526_9x9": {
+      "problem": "9 9\nx x - - - 4 - x 9x\nx 9 - - - - - - -\n- - x - 2 - 7x - -\n- - - x - - - x x\n4x - - x x x - - x\nx 1x - - - x - 4 -\n- - x 9 - - 3x 6 -\n- - - - - - - - x\nx x - - - 7 - 2x x",
+      "solution": "9 9\n- - 2 3 5 4 1 - 9\n- 9 3 5 4 6 2 8 7\n5 6 - 4 2 3 7 9 8\n6 7 8 - 3 5 4 - -\n4 8 9 - - - 6 7 -\n- 1 7 8 9 - 5 4 6\n1 2 - 9 7 8 3 6 5\n2 3 4 7 6 9 8 5 -\n- - 5 6 8 7 9 2 -",
+      "source": "https://www.janko.at/Raetsel/Straights/526.a.htm",
+      "info": ""
+    },
+    "527_9x9": {
+      "problem": "9 9\nx x - 4 x - - x 3x\n- - - - 8 9 - - -\n- 2 - x - - x - -\nx x 7x - - x - - -\n6x - - - x - - 3 1x\n- - - x - - x 9x x\n- - x - - 2x - - -\n- - - 1 - 6 - - -\nx 4x - - x - - x x",
+      "solution": "9 9\n- - 5 4 - 7 8 - 3\n2 3 4 5 8 9 7 1 6\n1 2 3 - 7 8 - 4 5\n- - 7 8 9 - 3 2 4\n6 8 9 7 - 4 2 3 1\n7 6 8 - 2 3 - 9 -\n8 9 - 3 4 2 5 6 7\n9 7 2 1 3 6 4 5 8\n- 4 1 2 - 5 6 - -",
+      "source": "https://www.janko.at/Raetsel/Straights/527.a.htm",
+      "info": ""
+    },
+    "528_9x9": {
+      "problem": "9 9\n- - - - - - - - 9x\n- 7x x 2 - - 4 x x\n- - x x - 2 6x x -\nx - - - x 5 - - -\n4x - 2 - x - - - x\n- - - - x 6 - - x\n- x x - 8 1x x - -\nx x - - 7 - x 2x -\nx - - - - - - - 2",
+      "solution": "9 9\n7 6 8 1 2 4 5 3 9\n6 7 - 2 1 3 4 - -\n5 4 - - 3 2 6 - 7\n- 2 3 4 - 5 7 6 8\n4 1 2 3 - 7 9 8 -\n2 3 4 5 - 6 8 7 -\n3 - - 7 8 1 - 5 4\n- - 6 8 7 9 - 2 3\n- 5 7 6 9 8 3 4 2",
+      "source": "https://www.janko.at/Raetsel/Straights/528.a.htm",
+      "info": ""
+    },
+    "529_9x9": {
+      "problem": "9 9\nx - - - - 4x - 1 -\n2x x - - x x - - x\n- - - - - x - - 9x\n- - - x 5 - - - -\n- x 1x 3 - - x x -\n- 6 - - - x - - -\nx - - x - - - - 8\nx - - x x - - x 3x\n- - 4 x - - 8 - x",
+      "solution": "9 9\n- 9 7 6 8 4 3 1 2\n2 - 8 7 - - 4 3 -\n4 7 6 5 3 - 1 2 9\n7 8 9 - 5 3 2 4 6\n6 - 1 3 4 2 - - 5\n5 6 3 4 2 - 9 8 7\n- 3 2 - 6 5 7 9 8\n- 4 5 - - 7 6 - 3\n3 5 4 - 9 6 8 7 -",
+      "source": "https://www.janko.at/Raetsel/Straights/529.a.htm",
+      "info": ""
+    },
+    "530_9x9": {
+      "problem": "9 9\n- - - x x - - - 6x\n- - - - - - - 1 -\nx - 9 - - 1x - - -\n8x x - - - - x - 3\n2 - x 7 - - 5x - -\n- - x - - 9 - x x\n- 4 - x - - 6 - x\n- - 4 - 9 - - - -\nx - - - 2x x - - -",
+      "solution": "9 9\n7 9 8 - - 3 4 5 6\n6 8 7 9 3 4 2 1 5\n- 7 9 8 6 1 3 4 2\n8 - 6 5 4 7 - 2 3\n2 1 - 7 8 6 5 3 4\n4 3 - 6 7 9 8 - -\n3 4 2 - 5 8 6 7 -\n1 2 4 3 9 5 7 6 8\n- 5 3 4 2 - 9 8 7",
+      "source": "https://www.janko.at/Raetsel/Straights/530.a.htm",
+      "info": ""
+    },
+    "531_9x9": {
+      "problem": "9 9\nx 7x 2 - - 1 x x 6x\n- 6 - - 1x x - 9 -\n- - 1 - 5 x 6 - -\n- - - x - 6 - x 9\nx x x - - - x 4x x\n- x - - 6 8x - 2 -\n- - - 9x - 2 - - -\n- - - x x - - - 3\nx x x 5 - - - x x",
+      "solution": "9 9\n- 7 2 4 3 1 - - 6\n5 6 4 3 1 - 7 9 8\n3 4 1 2 5 - 6 8 7\n4 5 3 - 7 6 8 - 9\n- - - 6 8 7 - 4 -\n9 - 5 7 6 8 3 2 4\n7 8 6 9 4 2 1 3 5\n8 9 7 - - 4 2 1 3\n- - - 5 2 3 4 - -",
+      "source": "https://www.janko.at/Raetsel/Straights/531.a.htm",
+      "info": ""
+    },
+    "532_9x9": {
+      "problem": "9 9\n- - - - 7 1x - - x\nx x - - x x - 3 7x\nx - 7 - 6x - 1 - x\n- 8 - - 5 - 9x x -\n6 - 9 - - 5 - - -\n- x x - - 2 - - -\nx - - 4 x - - - x\n4x - - x 8x - 6 x x\nx 4 - x - - - - -",
+      "solution": "9 9\n9 6 8 5 7 1 3 4 -\n- - 5 6 - - 2 3 7\n- 9 7 8 6 3 1 2 -\n7 8 6 3 5 4 9 - 2\n6 7 9 2 3 5 4 8 1\n8 - - 7 4 2 5 6 3\n- 3 2 4 - 6 8 7 -\n4 2 1 - 8 7 6 - -\n- 4 3 - 9 8 7 5 6",
+      "source": "https://www.janko.at/Raetsel/Straights/532.a.htm",
+      "info": ""
+    },
+    "534_9x9": {
+      "problem": "9 9\n7x - - x 1x - - - x\n9x 2 - - - - - - -\n- - x - - x - 6 -\n- 4 x - - 7 - - x\nx x - 6 x - - x 4x\nx - - - - - x - -\n- - - x - 9 x 4 -\n- 5 - - - - - - x\nx - - 8 2x x - - x",
+      "solution": "9 9\n7 3 2 - 1 4 6 5 -\n9 2 1 4 5 3 8 7 6\n2 1 - 3 4 - 5 6 7\n3 4 - 5 6 7 9 8 -\n- - 5 6 - 8 7 - 4\n- 8 6 7 9 5 - 1 2\n5 6 7 - 8 9 - 4 3\n4 5 8 9 7 6 3 2 -\n- 7 9 8 2 - 4 3 -",
+      "source": "https://www.janko.at/Raetsel/Straights/534.a.htm",
+      "info": ""
+    },
+    "535_9x9": {
+      "problem": "9 9\nx x 1x - - x - - 4x\nx - - - - - 3 - 1\n- - - 9x x - - - -\n- - - - - - x - -\n7x x x - - - x 6x x\n- - x 3 5 - - - -\n- 1 - - x x - - 9\n- - - 4 - - - - x\nx - - x - 6 x 5x x",
+      "solution": "9 9\n- - 1 8 9 - 2 3 4\n- 5 6 7 8 2 3 4 1\n5 6 7 9 - 1 4 2 3\n4 7 8 6 3 5 - 1 2\n7 - - 5 4 3 - 6 -\n1 2 - 3 5 4 6 7 8\n3 1 4 2 - - 7 8 9\n2 3 5 4 6 7 8 9 -\n- 4 3 - 7 6 - 5 -",
+      "source": "https://www.janko.at/Raetsel/Straights/535.a.htm",
+      "info": ""
+    },
+    "536_9x9": {
+      "problem": "9 9\n8x - 4 5x - - x x x\nx - - x - - 4 - -\n- 1 - - 9x x - 7 -\n- - 7 - - - - - x\nx x - - - - 1 x x\nx - - - 2 - - - -\n- - 6 x x - 5 - -\n- - - - 8 x - - 3x\nx x x - - 6x - - x",
+      "solution": "9 9\n8 3 4 5 6 7 - - -\n- 2 1 - 5 8 4 6 7\n4 1 3 2 9 - 8 7 6\n5 4 7 3 1 2 6 8 -\n- - 2 4 3 5 1 - -\n- 6 8 1 2 4 7 3 5\n7 8 6 - - 3 5 2 4\n6 7 5 9 8 - 2 1 3\n- - - 8 7 6 3 4 -",
+      "source": "https://www.janko.at/Raetsel/Straights/536.a.htm",
+      "info": ""
+    },
+    "537_9x9": {
+      "problem": "9 9\nx - - - x 4x 8 - x\nx - 2 - x - - - x\n- - - x 3x - - - x\n- - - - 7 - x - 1\n3 - x - - - 6x - -\n- - x 9 - 8 - - -\nx - - - x x - - -\n8x - 5 - x - - - x\nx - - 1x x - - - 7x",
+      "solution": "9 9\n- 2 1 3 - 4 8 9 -\n- 3 2 4 - 5 7 6 -\n5 6 4 - 3 7 9 8 -\n4 8 3 5 7 6 - 2 1\n3 4 - 7 8 9 6 1 2\n2 1 - 9 6 8 5 7 4\n- 9 7 8 - - 4 5 3\n8 7 5 6 - 1 2 3 -\n- 5 6 1 - 2 3 4 7",
+      "source": "https://www.janko.at/Raetsel/Straights/537.a.htm",
+      "info": ""
+    },
+    "538_9x9": {
+      "problem": "9 9\n- x x - 3 - - x x\n- 8 - 5x - 3 - x -\n- - - x - - - - -\n- x - - - x x - 1\n- 4 6x - - - x - -\n- - x x - - - 4x -\n- - - - - 9x - - -\n8 7x - - - x - - -\n1x x - 4 - - 2x x -",
+      "solution": "9 9\n2 - - 6 3 4 5 - -\n9 8 7 5 2 3 4 - 6\n7 9 8 - 4 2 3 1 5\n3 - 9 8 7 - - 2 1\n5 4 6 9 8 7 - 3 2\n6 5 - - 9 8 7 4 3\n4 3 1 2 5 9 8 6 7\n8 7 2 3 1 - 6 5 4\n1 - 3 4 6 5 2 - 8",
+      "source": "https://www.janko.at/Raetsel/Straights/538.a.htm",
+      "info": ""
+    },
+    "539_9x9": {
+      "problem": "9 9\n3x - - x x - - x x\n- 5 2x 9 8 - x x 1\n- x 4x - - - x - -\n- - - 8 5x - - - -\nx - - - x - - 3 x\n- 8 - - x - - - -\n- - x - - 2 x 9x -\n- 1x x 2 - - 8x - -\nx x - - x x - 5 7x",
+      "solution": "9 9\n3 4 5 - - 6 7 - -\n4 5 2 9 8 7 - - 1\n5 - 4 6 7 8 - 2 3\n6 9 7 8 5 1 3 4 2\n- 6 8 7 - 5 4 3 -\n7 8 6 5 - 3 2 1 4\n8 7 - 3 4 2 - 9 6\n9 1 - 2 3 4 8 6 5\n- - 3 4 - - 6 5 7",
+      "source": "https://www.janko.at/Raetsel/Straights/539.a.htm",
+      "info": ""
+    },
+    "540_9x9": {
+      "problem": "9 9\n6x x - - 7 3x - - x\n4 - - - - x - - -\n- - 7 - 1x x - - -\n7x 9x x - - - - 2 -\nx - 1 - - - - 5 x\n- 2 - 4 - - x 8x x\n- - - 2x x - - - -\n- - - x - - - - -\nx - - x - 9 - x 4x",
+      "solution": "9 9\n6 - 9 8 7 3 5 4 -\n4 7 8 5 6 - 2 1 3\n5 8 7 6 1 - 4 3 2\n7 9 - 3 4 5 6 2 1\n- 6 1 7 2 4 3 5 -\n1 2 5 4 3 6 - 8 -\n3 5 4 2 - 8 9 7 6\n2 4 3 - 9 7 8 6 5\n- 3 2 - 8 9 7 - 4",
+      "source": "https://www.janko.at/Raetsel/Straights/540.a.htm",
+      "info": ""
+    },
+    "541_9x9": {
+      "problem": "9 9\nx x - - x 7 - 2x x\n4 - - - - - - - -\n- - - - - x - - 9\n- - - 5 2 6x x - -\nx - - - 7x - 6 4 x\n- - x x - - - - -\n6 - - 9x - - - - 3\n- - 6 - - - - - -\nx x - 8 x - - 1x 4x",
+      "solution": "9 9\n- - 4 3 - 7 8 2 -\n4 5 3 2 1 8 9 6 7\n2 6 5 4 3 - 7 8 9\n3 4 1 5 2 6 - 7 8\n- 3 2 1 7 5 6 4 -\n7 8 - - 6 4 5 3 2\n6 7 8 9 4 1 2 5 3\n8 2 6 7 5 3 4 9 1\n- - 7 8 - 2 3 1 4",
+      "source": "https://www.janko.at/Raetsel/Straights/541.a.htm",
+      "info": ""
+    },
+    "542_9x9": {
+      "problem": "9 9\nx - - x - - 9 x 4x\n- - - - - - - - x\n- - x - 9 - x - -\nx x 9 - x 6x - - -\n- - - - 5x - - 2 -\n- - - 1x x - - x x\n7 - x - 3 5 x - -\nx - 2 - - - - - -\n9x x - - - x - 8 x",
+      "solution": "9 9\n- 5 6 - 8 7 9 - 4\n2 3 5 6 7 9 8 4 -\n3 4 - 7 9 8 - 1 2\n- - 9 8 - 6 2 3 1\n6 7 8 9 5 4 1 2 3\n8 9 7 1 - 2 3 - -\n7 6 - 4 3 5 - 9 8\n- 8 2 5 4 3 6 7 9\n9 - 1 3 2 - 7 8 -",
+      "source": "https://www.janko.at/Raetsel/Straights/542.a.htm",
+      "info": ""
+    },
+    "543_9x9": {
+      "problem": "9 9\nx - 8 x x - - 5x x\n- 9 - - - - - - x\n- - x - 3 - x - -\nx 1x - - - x - - -\n4 - - x x 2x - 9 -\n- - - x 6 - 8 x 4x\n- - x 5 - - 9x - -\nx - - - - - - - 1\n7x x - - x x - - x",
+      "solution": "9 9\n- 7 8 - - 3 4 5 -\n8 9 7 4 2 5 3 6 -\n9 8 - 2 3 4 - 7 6\n- 1 2 3 4 - 6 8 7\n4 5 3 - - 2 7 9 8\n2 3 1 - 6 7 8 - 4\n3 4 - 5 7 6 9 1 2\n- 6 4 7 5 8 2 3 1\n7 - 5 6 - - 1 2 -",
+      "source": "https://www.janko.at/Raetsel/Straights/543.a.htm",
+      "info": ""
+    },
+    "544_9x9": {
+      "problem": "9 9\n9x - 2 - x 8x - 7 -\nx - - - - x - - 8\n- - x x - 4 - - -\n- - 6 x - - - 2 x\n2x - - 7 x - - - x\nx - 5 - - x - - -\n- - - - - x x - 2\n5 - - 1x - - - - x\n- - - x 6x - 9 - x",
+      "solution": "9 9\n9 1 2 3 - 8 5 7 6\n- 4 1 2 3 - 7 6 8\n8 9 - - 5 4 6 3 7\n7 8 6 - 4 5 3 2 -\n2 6 8 7 - 3 4 5 -\n- 7 5 6 8 - 2 4 3\n6 5 7 8 9 - - 1 2\n5 3 4 1 7 6 8 9 -\n4 2 3 - 6 7 9 8 -",
+      "source": "https://www.janko.at/Raetsel/Straights/544.a.htm",
+      "info": ""
+    },
+    "545_9x9": {
+      "problem": "9 9\nx x - - x x - - x\n- - - - 6 - - - x\n- 2 x 5 - - x - -\nx - - 8x - - - 4 -\nx x - - x - - x 6x\n- - - - - 9x - - x\n- - x 2 - 1 5x 9 -\nx - - - - - - - -\nx - 5 x 4x - - x x",
+      "solution": "9 9\n- - 7 6 - - 3 2 -\n2 3 8 7 6 5 4 1 -\n1 2 - 5 7 6 - 3 4\n- 1 2 8 5 7 6 4 3\n- - 4 3 - 8 7 - 6\n5 4 3 1 2 9 8 7 -\n6 7 - 2 3 1 5 9 8\n- 5 6 4 1 3 2 8 7\n- 6 5 - 4 2 1 - -",
+      "source": "https://www.janko.at/Raetsel/Straights/545.a.htm",
+      "info": ""
+    },
+    "546_9x9": {
+      "problem": "9 9\nx - - - 3x - - x x\n6x - - 7 x - 1 - x\n- - 8 x 5x - - 3 -\n- - - - 9 - - - -\nx x x - - - x 4x x\n- - - 3 - - - 6 -\n- 1 - - x 9x - - 6\nx - - 2 x - - - x\nx x - - x - - 7 x",
+      "solution": "9 9\n- 7 6 8 3 1 2 - -\n6 8 9 7 - 3 1 2 -\n7 6 8 - 5 2 4 3 1\n8 5 7 6 9 4 3 1 2\n- - - 5 7 6 - 4 -\n1 2 4 3 8 5 9 6 7\n2 1 3 4 - 9 7 8 6\n- 3 1 2 - 7 8 9 -\n- - 2 1 - 8 6 7 -",
+      "source": "https://www.janko.at/Raetsel/Straights/546.a.htm",
+      "info": ""
+    },
+    "547_9x9": {
+      "problem": "9 9\nx x 7x - - x - - x\nx - - - - - - - 8x\n7 - - x 5 - x - -\n- - - - x x - - -\nx 3 - - 2x - - - x\n- - - x x - - 8 -\n1 - x - - 9x - - -\nx - - 8 - - - - x\nx - - 4x 6 - x 1x x",
+      "solution": "9 9\n- - 7 2 3 - 8 9 -\n- 6 2 1 4 3 7 5 8\n7 8 6 - 5 4 - 2 3\n8 7 5 6 - - 2 3 4\n- 3 4 5 2 8 6 7 -\n2 4 3 - - 7 5 8 6\n1 2 - 7 8 9 4 6 5\n- 5 9 8 7 6 3 4 -\n- 9 8 4 6 5 - 1 -",
+      "source": "https://www.janko.at/Raetsel/Straights/547.a.htm",
+      "info": ""
+    },
+    "548_9x9": {
+      "problem": "9 9\nx x x - - 4x x - -\nx - - - - x - - -\n7 - - x - - 5 2 x\n- - - x 1x - - - x\n- - 6 - x - 4 - -\nx - - - 3x x - - -\n8x - - - - x - - -\n- 4 - x - - - - 5x\n- - x 2x - 8 x x x",
+      "solution": "9 9\n- - - 5 6 4 - 8 7\n- 2 3 4 5 - 8 7 6\n7 6 8 - 4 3 5 2 -\n6 7 5 - 1 2 3 4 -\n5 8 6 7 - 1 4 3 2\n- 9 7 8 3 - 6 5 4\n8 5 4 6 7 - 2 1 3\n3 4 2 - 8 9 7 6 5\n4 3 - 2 9 8 - - -",
+      "source": "https://www.janko.at/Raetsel/Straights/548.a.htm",
+      "info": ""
+    },
+    "549_9x9": {
+      "problem": "9 9\n6x x - 1 - - x x x\n- 3 - - 4 - 7x - -\n- - - - 1x - - - -\n- - 2x - - - - - x\nx x x - - 6 x x 4x\nx - - 6 - - x - -\n- - 9 - x - - 3 -\n- - x 5 - - - - -\nx 8x x - - - - x x",
+      "solution": "9 9\n6 - 4 1 3 2 - - -\n5 3 6 2 4 1 7 8 9\n4 2 5 3 1 9 6 7 8\n3 4 2 9 7 8 5 6 -\n- - - 7 8 6 - - 4\n- 5 8 6 9 7 - 4 3\n7 6 9 8 - 5 4 3 2\n8 7 - 5 6 4 3 2 1\n- 8 - 4 5 3 2 - -",
+      "source": "https://www.janko.at/Raetsel/Straights/549.a.htm",
+      "info": ""
+    },
+    "550_9x9": {
+      "problem": "9 9\n9x - - 6x - - - - x\n- - - x - 3 - - x\n- - x 1 - x 4x - 9\n5x - - - - x - - -\n8x - 2 - x - - - x\n- 3 - x - - - - 1x\n- - x 7x - - x - -\nx - - - - 2x - - -\nx 9 - - - x - - 3x",
+      "solution": "9 9\n9 7 8 6 3 4 5 2 -\n7 8 9 - 4 3 6 5 -\n6 5 - 1 2 - 4 8 9\n5 4 3 2 1 - 9 7 8\n8 1 2 3 - 5 7 6 -\n2 3 4 - 6 7 8 9 1\n1 2 - 7 5 6 - 3 4\n- 6 7 9 8 2 3 4 5\n- 9 6 8 7 - 2 1 3",
+      "source": "https://www.janko.at/Raetsel/Straights/550.a.htm",
+      "info": ""
+    },
+    "551_9x9": {
+      "problem": "9 9\nx - - - 1x x - - x\n6x 2 1 - - x - - x\n4 - - x 7 - - - x\n- - - x - - 9x 8 -\n- - x - - - x - -\n2 - x 8 - x - - -\nx - - - - 2x - - -\nx - - 5x - - - - 8x\nx - - 4x x - 1 - x",
+      "solution": "9 9\n- 3 4 2 1 - 7 6 -\n6 2 1 3 4 - 8 7 -\n4 5 3 - 7 8 6 9 -\n3 4 2 - 5 6 9 8 7\n5 6 - 9 8 7 - 3 4\n2 1 - 8 9 - 4 5 6\n- 9 8 7 6 2 3 4 5\n- 7 6 5 3 4 2 1 8\n- 8 7 4 - 3 1 2 -",
+      "source": "https://www.janko.at/Raetsel/Straights/551.a.htm",
+      "info": ""
+    },
+    "552_9x9": {
+      "problem": "9 9\nx x - 7 x - - - 2x\n- - - - - - 6 - x\n- - x - 9 x 4x - -\n4 - - x - - - - 6\n5x x - - x - - x x\n- - - - - x - - -\n- - x 1x - - x 9 -\nx 8 - - - - - - -\nx - - - 3x - - x x",
+      "solution": "9 9\n- - 8 7 - 6 5 4 2\n2 4 7 9 8 5 6 3 -\n3 2 - 8 9 - 4 6 5\n4 3 2 - 7 9 8 5 6\n5 - 4 3 - 8 7 - -\n6 5 3 2 4 - 9 8 7\n7 6 - 1 5 4 - 9 8\n- 8 5 4 6 3 2 7 9\n- 7 6 5 3 2 1 - -",
+      "source": "https://www.janko.at/Raetsel/Straights/552.a.htm",
+      "info": ""
+    },
+    "553_9x9": {
+      "problem": "9 9\n8x - - 1x x - 2 - x\n- - - - x - - - x\n- - 9 - x - - 3 -\n- 8 - - 6 - 1 - -\nx 5x x - - - x x 4x\n- - - - - 8 6 - -\n- - 2 4 x - - 6 -\nx - - - 2x - - 8 -\nx 3 - - x 9x - - x",
+      "solution": "9 9\n8 7 6 1 - 3 2 4 -\n6 9 8 7 - 2 3 1 -\n7 6 9 8 - 1 4 3 2\n5 8 7 9 6 4 1 2 3\n- 5 - 6 8 7 - - 4\n4 2 1 3 7 8 6 5 9\n3 1 2 4 - 5 7 6 8\n- 4 3 5 2 6 9 8 7\n- 3 4 2 - 9 8 7 -",
+      "source": "https://www.janko.at/Raetsel/Straights/553.a.htm",
+      "info": ""
+    },
+    "554_9x9": {
+      "problem": "9 9\nx - 1 5x - 9 x x 3x\n- - - - - - - - -\n- - x 1 - x 5 - -\nx x x - - x - - 6\nx - - - - 2 - - x\n- - 6 x - - 9x x x\n- - 9 x - - 4x - -\n- - - - - - - 4 -\n8x x x - - x 1 - x",
+      "solution": "9 9\n- 2 1 5 8 9 - - 3\n3 1 2 4 9 8 6 7 5\n4 3 - 1 2 - 5 6 7\n- - - 2 1 - 7 8 6\n- 6 7 3 4 2 8 5 -\n5 7 6 - 3 4 9 - -\n7 8 9 - 6 5 4 3 2\n6 9 8 7 5 3 2 4 1\n8 - - 6 7 - 1 2 -",
+      "source": "https://www.janko.at/Raetsel/Straights/554.a.htm",
+      "info": ""
+    },
+    "555_9x9": {
+      "problem": "9 9\n1x - - - 2x - - - x\n- - 3 - x - - 9 -\n- - - - - x 6x - -\n4x - - x - - x - -\nx - 1 - 7 - - - 8x\n- 8 x 4 - x - - 9x\n- - x 7x - - 2 - -\n- - - - x - - - -\nx 6 - - x - 3 - x",
+      "solution": "9 9\n1 5 4 3 2 9 8 7 -\n2 4 3 1 - 8 7 9 6\n3 1 5 2 4 - 6 8 7\n4 3 2 - 8 7 - 6 5\n- 2 1 5 7 6 4 3 8\n7 8 - 4 5 - 1 2 9\n8 9 - 7 6 4 2 5 3\n6 7 8 9 - 3 5 4 2\n- 6 7 8 - 2 3 1 -",
+      "source": "https://www.janko.at/Raetsel/Straights/555.a.htm",
+      "info": ""
+    },
+    "556_9x9": {
+      "problem": "9 9\nx - - - x x - - 4x\n- - 6 - - x - 1 9x\n- - x - - - x - -\nx 3 - x x 4 - - -\nx - - - x - - - x\n4 - - - 8x x 6 - x\n- - x - - - x - -\nx - - 7x - - - 3 -\n6x - 8 x x 2 - - 1x",
+      "solution": "9 9\n- 6 7 5 - - 1 2 4\n3 7 6 4 5 - 2 1 9\n2 1 - 6 4 5 - 9 8\n- 3 2 - - 4 5 6 7\n- 5 4 3 - 6 7 8 -\n4 2 3 1 8 - 6 5 -\n5 4 - 2 1 3 - 7 6\n- 8 9 7 2 1 4 3 5\n6 9 8 - - 2 3 4 1",
+      "source": "https://www.janko.at/Raetsel/Straights/556.a.htm",
+      "info": ""
+    },
+    "558_9x9": {
+      "problem": "9 9\n3x - - x 9 - - x 6x\n- - - x - - - - x\n6 - - 4 x - - 8 x\n- - x 2 - - 5 - 4\n- - 9x - 2 - x - -\n- - - - - - x - -\nx - - 8 x - - - -\nx - 6 - - x - - -\nx 1x - - - x - - 8x",
+      "solution": "9 9\n3 2 1 - 9 7 8 - 6\n4 3 2 - 8 5 6 7 -\n6 5 3 4 - 9 7 8 -\n8 9 - 2 1 6 5 3 4\n7 8 9 3 2 4 - 6 5\n5 7 4 6 3 8 - 2 1\n- 6 7 8 - 3 4 5 2\n- 4 6 5 7 - 2 1 3\n- 1 5 7 6 - 3 4 8",
+      "source": "https://www.janko.at/Raetsel/Straights/558.a.htm",
+      "info": ""
+    },
+    "559_9x9": {
+      "problem": "9 9\n4x x x - - - - x x\n- - 1x 9 6 - - - -\n- - x - - - 2x 6 -\nx - - 3 - - x - -\n9x 6x - - 5 - - x 7x\n- - x - - 2 - - x\n- 8 x - - - x - 3\n6 - - - - 7 x - -\nx x 5 - - - x 8x x",
+      "solution": "9 9\n4 - - 7 9 6 8 - -\n2 3 1 9 6 8 7 5 4\n3 4 - 8 7 9 2 6 5\n- 5 2 3 1 4 - 7 6\n9 6 3 2 5 1 4 - 7\n8 7 - 1 3 2 5 4 -\n7 8 - 6 4 5 - 2 3\n6 9 4 5 8 7 - 3 2\n- - 5 4 2 3 - 8 -",
+      "source": "https://www.janko.at/Raetsel/Straights/559.a.htm",
+      "info": ""
+    },
+    "560_9x9": {
+      "problem": "9 9\nx x 7 - x 4 - x x\nx - - - x - - 5 -\n- - 1x - 3 - - - -\n9 - x - - - - - x\nx x - - - 5 - x x\n2x - - 5 - - x 8 -\n4 2 3 - - - 7x - -\n- - - - 6x - - - x\nx 4x - - x 9 - x x",
+      "solution": "9 9\n- - 7 8 - 4 3 - -\n- 7 8 9 - 3 2 5 4\n8 9 1 7 3 2 6 4 5\n9 8 - 4 2 1 5 3 -\n- - 2 3 1 5 4 - -\n2 3 6 5 4 7 - 8 9\n4 2 3 1 5 6 7 9 8\n3 1 4 2 6 8 9 7 -\n- 4 5 6 - 9 8 - -",
+      "source": "https://www.janko.at/Raetsel/Straights/560.a.htm",
+      "info": ""
+    },
+    "557_9x9": {
+      "problem": "9 9\n6x - - - x - 2 x 8x\n8 - - - - - - - -\n- - x - - - 5x 6 -\n- - 1x x - 3 - x x\n4x - - - x - - - x\nx x - - 6 9x x - -\n3 - x - - - x - -\n- - - 8 - - - - -\nx 3x - - x 6 - - x",
+      "solution": "9 9\n6 5 3 4 - 1 2 - 8\n8 9 2 3 4 5 1 7 6\n9 8 - 2 3 4 5 6 7\n7 6 1 - 2 3 4 - -\n4 7 6 5 - 2 3 1 -\n- - 5 7 6 9 - 2 3\n3 2 - 6 7 8 - 4 5\n2 1 9 8 5 7 6 3 4\n- 3 8 9 - 6 7 5 -",
+      "source": "https://www.janko.at/Raetsel/Straights/557.a.htm",
+      "info": ""
+    }
+  }
+}

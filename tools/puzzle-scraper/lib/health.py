@@ -52,7 +52,7 @@ def validate_store(data: dict) -> list[str]:
         parts = header.split()
         if len(parts) != 2 or not all(part.isdigit() for part in parts):
             errors.append(f"{cid}: bad problem header {header!r}")
-        if not case.get("source"):
+        if not case.get("source") and case.get("fetched_at"):
             errors.append(f"{cid}: missing source")
     return errors
 

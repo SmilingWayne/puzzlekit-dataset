@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import argparse
-import json
 import sys
 from pathlib import Path
 
@@ -11,6 +10,7 @@ _REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
 
+from cleaners.io import has_dataset, load_dataset
 from cleaners.registry import get_pipeline_label
 
 ROOT_DIR = _REPO_ROOT / "assets" / "data"
@@ -77,17 +77,14 @@ def collect_table_rows() -> tuple[list[list[str]], int, int]:
 
     for idx, puzzle_dir in enumerate(subdirs, 1):
         puzzle_name = puzzle_dir.name
-        merged_path = puzzle_dir / f"{puzzle_name}_dataset.json"
-
         p_count = "-"
         s_count = "-"
         size_range = "-"
         spec_count = "-"
 
-        if merged_path.exists():
+        if has_dataset(puzzle_name, data_root=ROOT_DIR):
             try:
-                with open(merged_path, encoding="utf-8") as f:
-                    data = json.load(f)
+                data = load_dataset(puzzle_name, data_root=ROOT_DIR)
                 puzzles_data = data.get("data", {})
                 count = data.get("count", len(puzzles_data))
                 count_sol = data.get("count_sol", 0)
@@ -97,7 +94,7 @@ def collect_table_rows() -> tuple[list[list[str]], int, int]:
                 total_solutions += count_sol
                 size_range, spec_count = get_size_stats(puzzles_data)
             except Exception as e:
-                print(f"Warning: {merged_path}: {e}", file=sys.stderr)
+                print(f"Warning: {puzzle_name}: {e}", file=sys.stderr)
 
         table_data.append(
             [

@@ -19,7 +19,9 @@ env:
 
 jobs:
   scrape:
-    if: github.repository == 'SmilingWayne/puzzlekit-dataset'
+    # Timed runs skip when repo variable DAILY_SCRAPE_PAUSE is the string "true".
+    # workflow_dispatch always runs so a paused window can still be verified.
+    if: github.repository == 'SmilingWayne/puzzlekit-dataset' && (github.event_name == 'workflow_dispatch' || vars.DAILY_SCRAPE_PAUSE != 'true')
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:

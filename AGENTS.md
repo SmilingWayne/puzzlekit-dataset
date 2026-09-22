@@ -14,7 +14,7 @@ Public corpus of logic-puzzle instances (~40k cases, 100+ types) for [PuzzleKit]
 | Human log of past cleaning runs | [docs/CHANGELOG.md](docs/CHANGELOG.md) |
 | This orientation | `AGENTS.md` (here) |
 
-**Source of truth for puzzle data:** `assets/data/{PuzzleName}/{PuzzleName}_dataset.json`  
+**Source of truth for puzzle data:** `assets/data/{PuzzleName}/` — numbered shards `{PuzzleName}_dataset_YYY.json` (500 cases per file, `YYY` from `000`). A leftover `{PuzzleName}_dataset.json` monolith may still exist during migration; do not treat it as a second copy of the same cases.  
 **Do not read entire JSON files in bulk** — they are large; spot-check 2–3 cases when unsure.
 
 Legacy one-off ingest may still exist under `crawlers/`. **Current maintenance path:** add/merge data → register in [`cleaners/registry.py`](cleaners/registry.py) if needed → `python -m cleaners run` (dry-run first).
@@ -30,7 +30,7 @@ Each dataset file:
 
 **`problem` / `solution`:** multi-line text. Line 1 is usually `m n` (grid size); further lines depend on puzzle type (see README § Formats). Full schema: [`docs/SCHEMA.md`](docs/SCHEMA.md).
 
-**After a successful clean:** `count == len(data)`; `count_sol` = cases with non-empty `solution`; rows normalized (no trailing spaces before `\n`).
+**After a successful clean:** across all shards (plus leftover monolith if present), `count == len(data)` on each file; `count_sol` = cases in that file with non-empty `solution`; rows normalized (no trailing spaces before `\n`).
 
 ---
 
