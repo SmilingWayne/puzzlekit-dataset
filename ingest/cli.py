@@ -11,7 +11,7 @@ from pathlib import Path
 
 import yaml
 
-from cleaners.io import dataset_path, save_dataset
+from cleaners.io import load_dataset, save_dataset
 from ingest.catalog import load_catalog
 from ingest.merge import merge_results, save_report
 from ingest.pipeline import build_dedupe_index, process_entry
@@ -25,11 +25,6 @@ REPORT_DIR = REPO_ROOT / "ingest" / "reports"
 def _load_type_map() -> dict:
     with TYPE_MAP_PATH.open(encoding="utf-8") as handle:
         return yaml.safe_load(handle)
-
-
-def _load_dataset(puzzle_name: str) -> dict:
-    path = dataset_path(puzzle_name)
-    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def run_ingest(args: argparse.Namespace) -> int:
@@ -50,7 +45,7 @@ def run_ingest(args: argparse.Namespace) -> int:
 
     print(f"Catalog entries for {args.puzzle}: {len(entries)}")
 
-    dataset = _load_dataset(dataset_name)
+    dataset = load_dataset(dataset_name)
     original_data = copy.deepcopy(dataset.get("data", {}))
     existing_urls, existing_problems = build_dedupe_index(dataset)
 

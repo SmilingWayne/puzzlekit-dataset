@@ -149,7 +149,7 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 
 ## Cleaning
 
-Datasets live under `assets/data/{Puzzle}/{Puzzle}_dataset.json`. The [`cleaners/`](cleaners/) package normalizes text, validates layout, deduplicates, and writes reports. **Default is dry-run** (no JSON changes unless you pass `--write`; a `*.json.bak` backup is created first).
+Datasets live under `assets/data/{Puzzle}/` as `{Puzzle}_dataset_YYY.json` shards (500 cases per file). A leftover `{Puzzle}_dataset.json` may exist until that type is migrated. The [`cleaners/`](cleaners/) package normalizes text, validates layout, deduplicates, and writes reports. **Default is dry-run** (no JSON changes unless you pass `--write`; a `*.json.bak` backup of each touched file is created first).
 
 **Requirements:** Python 3.10+, run from repo root. Optional: `pip install pytest`.
 

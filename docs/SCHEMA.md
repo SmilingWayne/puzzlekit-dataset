@@ -1,6 +1,17 @@
 # Dataset JSON Schema
 
-Canonical storage for puzzle instances under `assets/data/{PuzzleName}/{PuzzleName}_dataset.json`.
+Canonical storage for puzzle instances under `assets/data/{PuzzleName}/`.
+
+Preferred layout is numbered shards only:
+
+| File | Role |
+|------|------|
+| `{PuzzleName}_dataset_YYY.json` | Canonical shards. 500 cases per file. `YYY` is a zero-padded index starting at `000`. |
+| `{PuzzleName}_dataset.json` | Leftover legacy monolith. Optional during migration; delete after that puzzle is split. Daily ingest never writes this file. |
+
+`count` / `count_sol` on a file describe **that file**, not the whole puzzle. Tools that need a corpus total union all shards (and a leftover monolith if present) in memory.
+
+Daily ingest writes **only** shard files.
 
 ## File-level object
 
@@ -21,7 +32,20 @@ After cleaning or ingest, `count` must equal `len(data)` and `count_sol` must ma
 | `solution` | string | yes* | Same layout family as `problem`; may be empty only while pending solve |
 | `source` | string | no | Original provenance URL (e.g. janko.at page). New puzz.link ingest may leave empty. |
 | `info` | string | no | Reserved metadata (`""` or JSON string) |
+| `fetched_at` | string | no | ISO-8601 timestamp on daily shards |
 | `puzzlink_url` | string | no | Community puzz.link URL when known or derivable |
+
+### Daily shard case ids
+
+`{rows}x{cols}_{seq:04d}_{site_ref}`
+
+- `{rows}x{cols}` comes from the `problem` header, not the site `?size=` catalog bucket
+- `{seq}` counts up **per size** inside that puzzle's shards
+- `{site_ref}` is the site Puzzle ID, or a daily-special date (`YYYY-MM-DD`), or `N` when there is no site identifier
+
+Examples: `8x8_0001_5483926`, `30x30_0003_2026-08-12`, `5x6_1222_N`.
+
+Daily ingest skips a case when the normalized `problem` already exists in any shard **or** in a leftover `{Puzzle}_dataset.json`.
 
 ### Conventions
 

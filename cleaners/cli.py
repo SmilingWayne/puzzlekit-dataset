@@ -16,7 +16,7 @@ from cleaners.display import (
     format_run_totals,
     format_unchecked,
 )
-from cleaners.io import DATA_ROOT, REPO_ROOT, dataset_path, load_dataset, save_dataset
+from cleaners.io import DATA_ROOT, REPO_ROOT, dataset_display_path, load_dataset, save_dataset
 from cleaners.registry import get_spec, list_managed_puzzles
 from cleaners.batch import write_batch_summary
 from cleaners.report import changelog_markdown, load_latest_report, write_report
@@ -131,7 +131,7 @@ def _run_one(
             print(f"  Wrote: {path.relative_to(REPO_ROOT)}")
             print()
 
-    rel_path = dataset_path(puzzle_name, data_root=data_root).relative_to(REPO_ROOT)
+    rel_path = dataset_display_path(puzzle_name, data_root=data_root).relative_to(REPO_ROOT)
     write_report(result, status=status)
     if print_changelog:
         print(changelog_markdown(result, dataset_path=str(rel_path)))
