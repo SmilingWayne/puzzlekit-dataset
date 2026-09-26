@@ -1,6 +1,6 @@
 {
   "name": "Masyu",
-  "count": 497,
+  "count": 500,
   "count_sol": 0,
   "data": {
     "10x10_0168_7362477": {
@@ -3481,6 +3481,27 @@
       "source": "https://www.puzzle-masyu.com/?size=18",
       "info": "25x25 Hard Masyu",
       "fetched_at": "2026-09-25T15:36:26+00:00"
+    },
+    "8x8_0183_8492232": {
+      "problem": "8 8\n- - b w - - w -\nw - - - - - - -\n- - b - - w w -\n- - - w - - - -\n- - - b - - w -\n- - w - - - - -\nw - w - - - - w\n- - - w - b - -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=2",
+      "info": "8x8 Normal Masyu",
+      "fetched_at": "2026-09-26T05:57:50+00:00"
+    },
+    "8x8_0184_65516": {
+      "problem": "8 8\n- - - - - - - b\n- b - - w - - -\n- - - w - - - -\n- - - - w - w -\n- - - b - - - -\n- - - - w - - w\nw w w - - w - -\n- - - - - w - -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=3",
+      "info": "8x8 Hard Masyu",
+      "fetched_at": "2026-09-26T05:57:50+00:00"
+    },
+    "10x10_0272_635343": {
+      "problem": "10 10\nb - - - w - - - w b\nw - - - - w - - b -\n- - w - w - - - w -\n- w w - b w - - - w\n- w - - w - w - - b\n- w b - w - - - - -\nw - - - w - b - - w\n- - w - - - w - - -\n- - - w - - b b w -\n- b w - - - - - w -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=4",
+      "info": "10x10 Easy Masyu",
+      "fetched_at": "2026-09-26T05:57:50+00:00"
     }
   }
 }
