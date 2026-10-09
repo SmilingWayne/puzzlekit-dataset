@@ -1,6 +1,6 @@
 {
   "name": "Shakashaka",
-  "count": 498,
+  "count": 500,
   "count_sol": 0,
   "data": {
     "20x20_0024_9950437": {
@@ -3488,6 +3488,20 @@
       "source": "https://www.puzzle-shakashaka.com/?size=4",
       "info": "25x25 Shakashaka",
       "fetched_at": "2026-10-08T17:41:25+00:00"
+    },
+    "5x5_0113_6015365": {
+      "problem": "5 5\nx - - - -\n- - x - -\n- - x - x\n- - - - -\nx x x - -",
+      "solution": "",
+      "source": "https://www.puzzle-shakashaka.com/?size=0",
+      "info": "5x5 Shakashaka",
+      "fetched_at": "2026-10-09T07:16:43+00:00"
+    },
+    "10x10_0113_4272050": {
+      "problem": "10 10\nx x x x x 0 - - - x\n- x - - - - - - - -\n- - - - - - - - - -\n- - x 1 - - 2 - - x\n- x - - - - - x - -\n- 0 - - x - - - - -\nx - - - - - - - - -\n- - - - x - - - - x\n- - - x - - - 2 - -\n- - 2 - - - - - - -",
+      "solution": "",
+      "source": "https://www.puzzle-shakashaka.com/?size=1",
+      "info": "10x10 Shakashaka",
+      "fetched_at": "2026-10-09T07:16:43+00:00"
     }
   }
 }
