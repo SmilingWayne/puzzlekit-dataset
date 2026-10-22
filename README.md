@@ -54,7 +54,7 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 47 | Hakoiri | 140 | 140 | 8x8~12x12 | 3 | region |
 | 48 | Hakyuu | 478 | 478 | 6x6~30x45 | 14 | region |
 | 49 | Hanare | 97 | 97 | 6x6~16x16 | 6 | region |
-| 50 | Hashi | 1515 | 909 | 5x5~40x60 | 36 | base |
+| 50 | Hashi | 2088 | 909 | 5x5~40x60 | 36 | base |
 | 51 | Heyawake | 786 | 786 | 6x6~31x45 | 55 | region |
 | 52 | Hidoku | 510 | 510 | 6x6~10x10 | 5 | base |
 | 53 | Hitori | 941 | 941 | 4x4~25x25 | 13 | base |
@@ -69,12 +69,12 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 62 | Kuromasu | 537 | 537 | 5x5~31x45 | 13 | base |
 | 63 | Kuroshuto | 210 | 210 | 8x8~14x14 | 4 | base |
 | 64 | Kurotto | 229 | 229 | 8x8~19x27 | 12 | base |
-| 65 | LITS | 830 | 410 | 6x7~50x50 | 71 | region |
+| 65 | LITS | 1224 | 410 | 6x7~50x50 | 71 | region |
 | 66 | Linesweeper | 310 | 310 | 4x4~16x16 | 16 | base |
 | 67 | Magnetic | 439 | 439 | 6x6~12x12 | 4 | rim |
 | 68 | Makaro | 190 | 190 | 8x8~15x15 | 4 | region |
 | 69 | MarginSudoku | 149 | 149 | 9x9 | 1 | rim |
-| 70 | Masyu | 4410 | 3175 | 2x2~100x100 | 188 | base |
+| 70 | Masyu | 5277 | 3175 | 2x2~100x100 | 188 | base |
 | 71 | Mathrax | 175 | 175 | 5x5~9x9 | 5 | ext |
 | 72 | Maze-a-pix | - | - | - | - | - |
 | 73 | Mejilink | 1 | 0 | 8x8 | 1 | base |
@@ -108,10 +108,10 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 101 | Rekuto | 220 | 220 | 8x8~14x14 | 6 | base |
 | 102 | Renban | 150 | 150 | 6x6~9x9 | 4 | region |
 | 103 | SamuraiSudoku | 270 | 270 | 21x21 | 1 | base |
-| 104 | Shakashaka | 821 | 367 | 5x5~50x50 | 78 | base |
+| 104 | Shakashaka | 1152 | 367 | 5x5~50x50 | 78 | base |
 | 105 | Shikaku | 496 | 496 | 7x7~50x40 | 34 | base |
 | 106 | Shimaguni | 265 | 265 | 6x6~30x45 | 15 | region |
-| 107 | Shingoki | 1538 | 103 | 6x6~41x41 | 9 | base |
+| 107 | Shingoki | 2580 | 103 | 6x6~41x41 | 9 | base |
 | 108 | Shirokuro | 110 | 110 | 10x10~17x17 | 4 | base |
 | 109 | ShogunSudoku | 90 | 90 | 21x45 | 1 | base |
 | 110 | Shugaku | 126 | 126 | 6x6~30x45 | 23 | base |
@@ -130,7 +130,7 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 123 | Suguru | 200 | 200 | 6x6~10x10 | 5 | region |
 | 124 | Sukoro | 140 | 140 | 6x6~12x12 | 4 | base |
 | 125 | SumoSudoku | 110 | 110 | 33x33 | 1 | base |
-| 126 | Tapa | 417 | 0 | 6x6~35x35 | 7 | - |
+| 126 | Tapa | 807 | 0 | 6x6~35x35 | 7 | - |
 | 127 | Tatamibari | 150 | 150 | 8x8~14x14 | 4 | base |
 | 128 | TennerGrid | 362 | 361 | 6x10 | 1 | base |
 | 129 | Tent | 699 | 699 | 8x12~30x30 | 14 | rim |
@@ -145,7 +145,7 @@ This repo stores 40k+ puzzle grids of 100+ puzzle types for [puzzlekit](https://
 | 138 | Yajilin | 607 | 607 | 7x7~39x57 | 118 | base |
 | 139 | YinYang | 170 | 170 | 6x6~14x14 | 5 | base |
 | 140 | Yonmasu | 120 | 120 | 6x6~10x10 | 5 | base |
-| | **Total** | **52621** | **47918** | - | - | - |
+| | **Total** | **56218** | **47918** | - | - | - |
 <!-- INJECT STATS-->
 
 ## Cleaning
