@@ -1,6 +1,6 @@
 {
   "name": "Shingoki",
-  "count": 497,
+  "count": 500,
   "count_sol": 0,
   "data": {
     "10x10_0176_9623779": {
@@ -3481,6 +3481,27 @@
       "source": "https://www.puzzle-shingoki.com/?size=16",
       "info": "shingoki.random.25x25-hard",
       "fetched_at": "2026-11-03T18:08:52+00:00"
+    },
+    "5x5_0173_4001908": {
+      "problem": "6 6\n- - w5 - - -\nw4 - b2 - b3 w5\n- - - - - -\n- - - - b3 -\n- - - - - -\n- b2 - - b2 -",
+      "solution": "",
+      "source": "https://www.puzzle-shingoki.com/?size=0",
+      "info": "shingoki.random.5x5-easy",
+      "fetched_at": "2026-11-04T07:22:39+00:00"
+    },
+    "5x5_0174_3121736": {
+      "problem": "6 6\n- w5 - - - -\n- b2 - b3 - -\n- - - - - b4\n- - - - - -\n- - - - - -\nb3 - b6 b3 - -",
+      "solution": "",
+      "source": "https://www.puzzle-shingoki.com/?size=1",
+      "info": "shingoki.random.5x5-normal",
+      "fetched_at": "2026-11-04T07:22:39+00:00"
+    },
+    "7x7_0261_7477014": {
+      "problem": "8 8\n- b2 - b2 b4 - - -\nw2 b2 - - - b3 - b3\n- b2 - - - - - -\n- - b2 - - w2 - w3\nb4 - - - - b2 - -\n- - b2 - - b3 - -\nw3 - - - w2 - - -\nb4 - - - - - - b3",
+      "solution": "",
+      "source": "https://www.puzzle-shingoki.com/?size=2",
+      "info": "shingoki.random.7x7-easy",
+      "fetched_at": "2026-11-04T07:22:39+00:00"
     }
   }
 }
