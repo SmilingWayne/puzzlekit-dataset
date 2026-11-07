@@ -1,6 +1,6 @@
 {
   "name": "Tapa",
-  "count": 499,
+  "count": 500,
   "count_sol": 0,
   "data": {
     "20x20_0151_5286466": {
@@ -3495,6 +3495,13 @@
       "source": "https://www.puzzle-tapa.com/?size=7",
       "info": "tapa.random.20x20-hard",
       "fetched_at": "2026-11-06T17:49:17+00:00"
+    },
+    "6x6_0154_555172": {
+      "problem": "6 6\n1 - - 4 4 -\n- - - - - -\n- - - - - 22\n5 - - - - -\n- - - - - -\n- 4 12 - - 2",
+      "solution": "",
+      "source": "https://www.puzzle-tapa.com/?size=1",
+      "info": "tapa.random.6x6-hard",
+      "fetched_at": "2026-11-07T06:59:17+00:00"
     }
   }
 }
