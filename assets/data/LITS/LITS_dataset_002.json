@@ -1,6 +1,6 @@
 {
   "name": "LITS",
-  "count": 499,
+  "count": 500,
   "count_sol": 0,
   "data": {
     "20x20_0175_6200322": {
@@ -3495,6 +3495,13 @@
       "source": "https://www.puzzle-lits.com/?size=9",
       "info": "lits.random.20x20-hard",
       "fetched_at": "2026-11-12T18:45:02+00:00"
+    },
+    "8x8_0165_2113763": {
+      "problem": "8 8\n1 1 1 2 2 2 2 3\n1 2 2 2 2 2 3 3\n4 2 2 5 6 6 6 3\n4 4 4 5 5 6 6 7\n4 4 8 5 5 6 6 7\n9 8 8 5 10 10 7 7\n9 8 8 10 10 10 7 11\n9 9 10 10 11 11 11 11",
+      "solution": "",
+      "source": "https://www.puzzle-lits.com/?size=3",
+      "info": "lits.random.8x8-hard",
+      "fetched_at": "2026-11-13T07:47:51+00:00"
     }
   }
 }
