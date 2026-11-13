@@ -1,6 +1,6 @@
 {
   "name": "Hashi",
-  "count": 497,
+  "count": 500,
   "count_sol": 0,
   "data": {
     "15x15_0342_6542719": {
@@ -3481,6 +3481,27 @@
       "source": "https://www.puzzle-bridges.com/?size=18",
       "info": "hashi.random.25x25-dense",
       "fetched_at": "2026-11-13T07:45:42+00:00"
+    },
+    "7x7_0167_9689799": {
+      "problem": "7 7\n- 3 - - 6 - 4\n1 - - - - - -\n- - 2 - - - 2\n- 1 - - - - -\n3 - 3 - 6 - 2\n- - - - - - -\n2 - - - 4 - 1",
+      "solution": "",
+      "source": "https://www.puzzle-bridges.com/?size=2",
+      "info": "hashi.random.7x7-hard",
+      "fetched_at": "2026-11-13T18:16:39+00:00"
+    },
+    "10x10_0330_6995319": {
+      "problem": "10 10\n2 - 1 - 4 - - 1 - -\n- - - - - 2 - - - 3\n5 - - - 6 - - - 4 -\n- - - - - - - 2 - -\n- - - - - 2 - - - 2\n- - - - - - - - - -\n- - - - - 5 - 4 - -\n4 - - 2 - - - - - -\n- - - - - 3 - - 4 -\n1 - - - 4 - - - - 3",
+      "solution": "",
+      "source": "https://www.puzzle-bridges.com/?size=4",
+      "info": "hashi.random.10x10-normal",
+      "fetched_at": "2026-11-13T18:16:39+00:00"
+    },
+    "10x10_0331_2090151": {
+      "problem": "10 10\n- 3 - - - - 4 - 2 -\n- - - - - - - - - -\n- 4 - 3 - - 6 - - 3\n2 - - - - - - 1 - -\n- 3 - - 2 - - - - -\n- - - - - - - - - -\n- 1 - - 1 - - 2 - 5\n6 - - - - - 7 - 1 -\n- - - - - - - - - -\n2 - 2 - - - 4 - - 2",
+      "solution": "",
+      "source": "https://www.puzzle-bridges.com/?size=5",
+      "info": "hashi.random.10x10-hard",
+      "fetched_at": "2026-11-13T18:16:39+00:00"
     }
   }
 }
