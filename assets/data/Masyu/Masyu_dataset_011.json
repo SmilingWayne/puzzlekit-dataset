@@ -1,6 +1,6 @@
 {
   "name": "Masyu",
-  "count": 495,
+  "count": 500,
   "count_sol": 0,
   "data": {
     "15x15_0481_3116814": {
@@ -3467,6 +3467,41 @@
       "source": "https://www.puzzle-masyu.com/?size=18",
       "info": "masyu.random.25x25-hard",
       "fetched_at": "2026-11-16T20:42:41+00:00"
+    },
+    "8x8_0388_9961722": {
+      "problem": "8 8\nb - - w b - - -\n- - w - - - - w\n- - - - - - w -\nw b - - w - - -\n- - - w - - - -\n- - - w - w - -\n- - - - w - - b\nb - w - - - - -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=2",
+      "info": "masyu.random.8x8-normal",
+      "fetched_at": "2026-11-17T08:54:23+00:00"
+    },
+    "8x8_0389_4219956": {
+      "problem": "8 8\n- w - - - b - -\n- w - - - - w -\n- - - - - - - -\nw - - b - - - w\n- - b - b - - -\n- w - - - - - -\n- - - - - - - -\n- - w w - - - b",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=3",
+      "info": "masyu.random.8x8-hard",
+      "fetched_at": "2026-11-17T08:54:23+00:00"
+    },
+    "10x10_0581_123558": {
+      "problem": "10 10\nb - - - - - - - - -\nw - w - - - - w - -\nw w - - w - - w - -\n- - - - w w - b - b\nb - w - - - - - - -\nw - - - w - w - - -\n- - b - - - w w - w\n- w - b w w - - - -\nw - - w - - - - - w\nb w w - - w w b - -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=4",
+      "info": "masyu.random.10x10-easy",
+      "fetched_at": "2026-11-17T08:54:23+00:00"
+    },
+    "10x10_0582_3881196": {
+      "problem": "10 10\n- w w - - - - b - -\n- - - - b - - - - w\n- - w - - - - - - -\n- b - - - w - - - -\n- - - - - b - b - -\nw - - w - - - - - -\n- - - - - - - - - -\n- - - w w b - - - -\nw - - - - - - - - -\n- - b b - - - - b -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=5",
+      "info": "masyu.random.10x10-normal",
+      "fetched_at": "2026-11-17T08:54:23+00:00"
+    },
+    "10x10_0583_2489230": {
+      "problem": "10 10\n- - w - - - - - w -\n- - - - - b - w - -\n- - - - w - - - - -\n- w - w - w - b - -\n- - - w - - - - - -\nw - w - w - - - - -\n- - - w - - - - - w\nb - - - w - - - b -\nw - - - w w - - - -\n- - w - - - - - w -",
+      "solution": "",
+      "source": "https://www.puzzle-masyu.com/?size=6",
+      "info": "masyu.random.10x10-hard",
+      "fetched_at": "2026-11-17T08:54:23+00:00"
     }
   }
 }
